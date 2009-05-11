@@ -1,0 +1,335 @@
+
+-1 * 0  09 06 01 \7=01 F0  //Skips the disabling sprites
+
+//Diesels
+-1 * 0  04 00 7F 01 \b*7100 "                 Class 2100 " 00
+-1 * 0  04 00 7F 01 \b*7101 "                 Class 442 " 00
+
+//MU's
+-1 * 0  04 00 7F 01 \b*7500 "                 Hunter Railcar" 00
+-1 * 0  04 00 7f 01 \b*7501 "                 OSCar" 00
+
+
+// ----------------------------------------------------------------------------
+// |                               ENGINES                                    |
+// ----------------------------------------------------------------------------
+
+// ############ 2100 #############
+-1 * 0  00 00 \b20 01 \b*7100 00 \w1989-01-01 	02 10 	03 \b35 	04 \b255 	05 00 	06 07 	09 \w80 	0B \w7500 	12 FD 	13 00 	14 00 	16 \b90 17 \b19 	19 08 	1F \b50 	20 20  22 20  27 02 0E \dx4c30 0D \b210
+
+// ############ 422 #############
+
+// Action 0: 422
+-1 * 0  00 00 \b19 01 \b*7101 00 \w1969-01-01 02 10 03 \b35 04 \b255 05 00 06 07 09 \w124 0B \w2200 12 FD 13 00  14 00 16 \b110 17 \b36 19 08  1F 3F 20 40 22 20  0E \dx4c3c 0D \b24
+
+
+// ----------------------------------------------------------------------------
+// |                               MUS                                        |
+// ----------------------------------------------------------------------------
+
+// ############ OScar #############
+-1 * 0  00 00 \b27 01 \b*7501 00 \w2007-01-01 02 05 03 \b20 04 \b255 05 00 06 07 07 \b20 08 01 09 \w130 0B \w1900 12 FD 13 01 14 \b120 15 00 16 \b47 17 \b35 19 28  1B \w950 1C 00 1F \b100 20 20 22 30 27 06 28 \w3 29 \w1016  0E \dx4c30 0D \b96
+
+// ############# hunter Australia ##########
+-1 * 0  00 00 \b27 01 \b*7500 00 \w2006-01-01 02 \b05 03 \b30 04 \b255 05 00 06 07 07 \b20 08 01 09 \w160 0B \w1500 1B \w750 12 FD 13 01 14 \b70 15 00 16 \b30 17 \b43 19 08  1C 00 1F \b43 20 20 22 20 27 06 28 \w3 29 \w1016  0E \dx4c30 0D \b136
+
+
+-1 * 0  10 F0 // Skip to this unless param 2 is 1// Oceanic engines
+// Alignments er ok
+
+// ############ 2100 #############
+//Action1: 2100
+-1 * 0  01 00 01 08
+// Format: spritenum pcxfile  xpos 							
+-1 sprites/engines_updated/pcx/2100.pcx 	1	1	1	22	8	-3	-11
+-1 sprites/engines_updated/pcx/2100.pcx 	10	1	1	17	22	-11	-9
+-1 sprites/engines_updated/pcx/2100.pcx 	33	1	1	13	32	-16	-9
+-1 sprites/engines_updated/pcx/2100.pcx 	66	1	1	17	22	-11	-9
+-1 sprites/engines_updated/pcx/2100.pcx 	89	1	1	22	8	-3	-11
+-1 sprites/engines_updated/pcx/2100.pcx 	98	1	1	17	22	-11	-9
+-1 sprites/engines_updated/pcx/2100.pcx 	121	1	1	13	32	-16	-9
+-1 sprites/engines_updated/pcx/2100.pcx 	154	1	1	17	22	-11	-9
+
+// Action 2: 2100
+-1 * 0  02 00 AA 01 01 00 00 00 00
+// Low cost when standing still
+-1 * 0  02 00 A3 81 10 00 FF 01 \b11 80 0D 0D  AA 00
+-1 * 0  02 00 A4 81 0C 00 FF 01 A3 00  36 36  AA 00
+-1 * 0  02 00 AA 82 B4 00 FF 01 A4 00  00 00  AA 00
+
+//Purch List
+-1 * 0  01 00 01 04
+-1 * 0  0
+-1 * 0  0
+-1 sprites/engines_updated/pcx/2100.pcx 	1	32 	01 	12 	77	-16 	-8	7
+-1 * 0  0
+
+//Action2: Purch List
+-1 * 0  02 00 A0 01 01 00 00 00 00
+
+// Action 3: ID
+-1 * 0  03 00 01 \b*7100 01 FF A0 00 AA 00
+
+
+
+// ############ 422 #############
+//Action1: 422
+-1 * 0  01 00 01 04
+// Format: spritenum pcxfile 							
+-1 sprites/engines_updated/pcx/422.pcx 	41	5	1	25	8	-3	-12
+-1 sprites/engines_updated/pcx/422.pcx 	50	5	1	17	22	-11	-9
+-1 sprites/engines_updated/pcx/422.pcx 	73	5	1	11	31	-16	-7
+-1 sprites/engines_updated/pcx/422.pcx 	106	5	1	17	21	-9	-9
+
+
+
+// Action 2: 422
+-1 * 0  02 00 AA 01 01 00 00 00 00
+// Connectable?
+-1 * 0	02 00 AD 81 C6 00 FF 02 F9 80 5F 5F F9 80 70 70 FE 80 
+-1 * 0	02 00 AA 81 0C 00 FF 01 AD 00 1D 1D AA 00
+// Low cost when standing still
+-1 * 0  02 00 A3 81 10 00 FF 01 \b1 80 0D 0D  AA 00
+-1 * 0  02 00 A4 81 0C 00 FF 01 A3 00  36 36  AA 00
+-1 * 0  02 00 AA 82 B4 00 FF 01 A4 00  00 00  AA 00
+
+
+//Purch List
+-1 * 0  01 00 01 04
+-1 * 0  0
+-1 * 0  0
+-1 sprites/engines_updated/pcx/422.pcx 	1	48	1	12 	77	-16 	-8	3
+-1 * 0  0
+
+//Action2: Purch List
+-1 * 0  02 00 A0 01 01 00 00 00 00
+
+// Action 3: ID
+-1 * 0  03 00 01 \b*7101 01 FF A0 00 AA 00
+
+
+
+
+// Oceanic MUS
+// ALIGNMENTS ER OK!!
+
+// ############ OScar #############
+// Action 1: purch List -Oscar
+-1 * 0  01 00 01 08
+// Forward
+// Format: spritenum pcxfile 	xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
+-1 * 0  0
+-1 * 0  0
+-1 sprites/mus/pcx/oscar.pcx 	46	119 	01 	12	87 	-40  	-8	3
+-1 * 0  0
+-1 * 0  0
+-1 * 0  0
+-1 sprites/mus/pcx/oscar.pcx 	46	119 	01 	1	1 	-25	-8	3
+-1 * 0  0
+
+//Action2: Purch List
+-1 * 0  02 00 A0 01 01 00 00 00 00                // Purchise Screen sprites
+-1 * 0  02 00 A1 81 0C 00 FF 01 40 80 23 23 A0 00 // Purchise Screen text
+-1 * 0  02 00 A2 81 10 00 FF 01 \b48 80 0D 0D A1 00
+-1 * 0  02 00 A1 81 0C 00 FF 01 A2 00 36 36 A1 00
+
+
+// Action 1: Engine
+// Forward
+-1 * 0  01 00 02 08
+// Format: spritenum pcxfile  xpos  ypos  comp ysize  xsize  xrel  yrel dir							
+-1 sprites/mus/pcx/oscar.pcx 	46	10	1	24	8	-3	-11
+-1 sprites/mus/pcx/oscar.pcx 	55	10	1	18	22	-11	-10
+-1 sprites/mus/pcx/oscar.pcx 	78	10	1	15	31	-16	-11
+-1 sprites/mus/pcx/oscar.pcx 	111	10	1	20	22	-11	-12
+-1 sprites/mus/pcx/oscar.pcx 	134	10	1	24	8	-3	-13
+-1 sprites/mus/pcx/oscar.pcx 	143	10	1	18	22	-11	-10
+-1 sprites/mus/pcx/oscar.pcx 	166	10	1	15	32	-16	-11
+-1 sprites/mus/pcx/oscar.pcx 	199	10	1	17	22	-11	-9
+// Backwards							
+-1 sprites/mus/pcx/oscar.pcx 	46	64	1	24	8	-3	-11
+-1 sprites/mus/pcx/oscar.pcx 	55	64	1	18	22	-11	-10
+-1 sprites/mus/pcx/oscar.pcx 	78	64	1	15	31	-16	-11
+-1 sprites/mus/pcx/oscar.pcx 	111	64	1	18	22	-11	-10
+-1 sprites/mus/pcx/oscar.pcx 	134	64	1	24	8	-3	-13
+-1 sprites/mus/pcx/oscar.pcx 	143	64	1	18	22	-11	-10
+-1 sprites/mus/pcx/oscar.pcx 	166	64	1	15	32	-16	-11
+-1 sprites/mus/pcx/oscar.pcx 	199	64	1	17	22	-11	-9
+
+
+
+
+// Action 2:
+-1 * 0  02 00 AA 01 01 00 00 00 00
+-1 * 0  02 00 AB 01 01 01 00 01 00
+-1 * 0  02 00 AC 81 40 08 FF 01 AB 00 00 00 AA 00
+// Connectable?
+-1 * 0	02 00 AD 85 C6 00 FF FF 03 // 3 ranges 
+                    FB 80 00 00 5E 00 // from 00 to 5E dissalow with FB-textline i.e. allow mu-express 
+                    FB 80 60 00 6E 00 // from 60 to 6E dissalow with FB-textline i.e. allow MU-PAX
+                    FB 80 71 00 FF 00 // from 71 to FF dissalow with FB-textline
+                    FE 80       //allow everything else  
+-1 * 0	02 00 AC 81 0C 00 FF 01 AD 00 1D 1D AC 00
+// Low cost when standing still
+-1 * 0  02 00 A3 81 10 00 FF 01 \b22 80 0D 0D AC 00
+-1 * 0  02 00 A4 81 0C 00 FF 01 A3 00  36 36  AC 00
+-1 * 0  02 00 AC 82 B4 00 FF 01 A4 00  00 00  AC 00
+
+//Action1: PAX-Wagon
+-1 * 0  01 00 01 04
+// Format: spritenum pcxfile  xpos  ypos  comp ysize  xsize  xrel  yrel dir							
+-1 sprites/mus/pcx/oscar.pcx 	46	37	1	25	8	-3	-13
+-1 sprites/mus/pcx/oscar.pcx 	55	37	1	19	22	-11	-11
+-1 sprites/mus/pcx/oscar.pcx 	78	37	1	15	32	-16	-11
+-1 sprites/mus/pcx/oscar.pcx 	111	37	1	18	22	-11	-10
+
+
+
+
+// Action 2: Wagon
+-1 * 0  02 00 AD 01 01 00 00 00 00
+-1 * 0  02 00 AF 81 10 00 FF 03 \b48 80 0D 0D \b112 80 14 14 \b47 80 16 16 AD 00 // <-- 112 pax and 47 tons
+-1 * 0  02 00 B0 81 0C 00 FF 02 \b20 80 12 12  AF 00 36 36 AD 00
+// Low cost when standing still
+-1 * 0  02 00 A3 81 10 00 FF 02 \b112 80 14 14 \b47 80 16 16 AD 00
+-1 * 0  02 00 A4 81 0C 00 FF 01 A3 00  36 36  AD 00
+-1 * 0  02 00 B0 82 B4 00 FF 01 A4 00  00 00  B0 00
+
+//Action1: Mail-Wagon
+-1 * 0  01 00 01 04
+// Format: spritenum pcxfile  xpos  ypos  comp ysize  xsize  xrel  yrel dir							
+-1 sprites/mus/pcx/oscar.pcx 	46	91	1	25	8	-3	-13
+-1 sprites/mus/pcx/oscar.pcx 	55	91	1	19	22	-11	-11
+-1 sprites/mus/pcx/oscar.pcx 	78	91	1	15	32	-16	-11
+-1 sprites/mus/pcx/oscar.pcx 	111	91	1	18	22	-11	-10
+
+// Action 2: Wagon
+-1 * 0  02 00 AE 01 01 00 00 00 00
+-1 * 0  02 00 AF 81 10 00 FF 03 \b48 80 0D 0D \b78 80 14 14 \b47 80 16 16 AE 00
+-1 * 0  02 00 AD 81 0C 00 FF 02 \b15 80 12 12 AF 00 36 36 AE 00
+// Low cost when standing still
+-1 * 0  02 00 A3 81 10 00 FF 02 \b78 80 14 14 \b47 80 16 16 AE 00
+-1 * 0  02 00 A4 81 0C 00 FF 01 A3 00  36 36  AE 00
+-1 * 0  02 00 AE 82 B4 00 FF 01 A4 00  00 00  AD 00
+
+// Action 3: Oscar livery Override
+-1 * 0  03 00 01 \b*7501 01 FF A1 00 AC 00
+-1 * 0  03 00 81 70 00 B0 00
+-1 * 0  03 00 81 5F 00 AE 00
+
+
+
+
+// ############# hunter Australia ##########
+// Action 1: purch List -hunter
+-1 * 0  01 00 01 08
+// Format: spritenum pcxfile 	xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
+-1 * 0  0
+-1 * 0  0
+-1 sprites/mus/pcx/hunter.pcx 	1	128 	01 	12 	87	-40 	-8	3
+-1 * 0  0
+-1 * 0  0
+-1 * 0  0
+-1 sprites/mus/pcx/hunter.pcx 	1	112	01 	1 	1 	0 	-0	7
+-1 * 0  0
+
+// Action 2: Engine hunter
+-1 * 0  02 00 A0 01 01 00 00 00 00                // Purchise Screen sprites
+-1 * 0  02 00 A1 81 0C 00 FF 01 31 80 23 23 A0 00 // Purchise Screen text
+-1 * 0  02 00 A2 81 10 00 FF 01 \b68 80 0D 0D A1 00
+-1 * 0  02 00 A1 81 0C 00 FF 01 A2 00 36 36 A1 00
+
+
+// Action 1: Engine hunter forward
+-1 * 0  01 00 01 08
+// Forward
+// Format: spritenum pcxfile 							
+-1 sprites/mus/pcx/hunter.pcx 	1	1	1	23	8	-3	-12
+-1 sprites/mus/pcx/hunter.pcx 	10	1	1	17	22	-11	-9
+-1 sprites/mus/pcx/hunter.pcx 	33	1	1	12	31	-16	-8
+-1 sprites/mus/pcx/hunter.pcx 	66	1	1	17	22	-11	-9
+-1 sprites/mus/pcx/hunter.pcx 	89	1	1	23	8	-3	-12
+-1 sprites/mus/pcx/hunter.pcx 	98	1	1	17	22	-11	-9
+-1 sprites/mus/pcx/hunter.pcx 	121	1	1	12	32	-16	-8
+-1 sprites/mus/pcx/hunter.pcx 	154	1	1	17	22	-11	-9
+
+
+
+// Action 2: Engine hunter
+-1 * 0  02 00 AA 01 01 00 00 00 00
+
+// Action 1: Engine hunter
+-1 * 0  01 00 01 08
+// Forward
+// Format: spritenum pcxfile 							
+-1 sprites/mus/pcx/hunter.pcx 	1	32	1	23	8	-3	-12
+-1 sprites/mus/pcx/hunter.pcx 	10	32	1	17	22	-11	-9
+-1 sprites/mus/pcx/hunter.pcx 	33	32	1	12	31	-16	-8
+-1 sprites/mus/pcx/hunter.pcx 	66	32	1	17	22	-11	-9
+-1 sprites/mus/pcx/hunter.pcx 	89	32	1	23	8	-3	-12
+-1 sprites/mus/pcx/hunter.pcx 	98	32	1	17	22	-11	-9
+-1 sprites/mus/pcx/hunter.pcx 	121	32	1	12	32	-16	-8
+-1 sprites/mus/pcx/hunter.pcx 	154	32	1	17	22	-11	-9
+
+
+// Action 2: Engine hunter
+-1 * 0  02 00 AB 01 01 00 00 00 00
+
+// VarAction2: Front with panto, back without
+-1 * 0  02 00 AC 81 40 00 FF 01 AA 00 00 00 AB 00
+// Connectable?
+-1 * 0	02 00 AD 85 C6 00 FF FF 03 // 3 ranges 
+                    FB 80 00 00 5E 00 // from 00 to 5E dissalow with FB-textline i.e. allow mu-express 
+                    FB 80 60 00 6E 00 // from 60 to 6E dissalow with FB-textline i.e. allow MU-PAX
+                    FB 80 71 00 FF 00 // from 71 to FF dissalow with FB-textline
+                    FE 80       //allow everything else  
+-1 * 0	02 00 AC 81 0C 00 FF 01 AD 00 1D 1D AC 00
+// Low cost when standing still
+-1 * 0  02 00 A3 81 10 00 FF 01 \b22 80 0D 0D AC 00
+-1 * 0  02 00 A4 81 0C 00 FF 01 A3 00  36 36  AC 00
+-1 * 0  02 00 AC 82 B4 00 FF 01 A4 00  00 00  AC 00
+
+//Action1: Wagon-pax hunter
+-1 * 0  01 00 01 04
+// Format: spritenum pcxfile 							
+-1 sprites/mus/pcx/hunter.pcx 	1	64	1	23	8	-3	-12
+-1 sprites/mus/pcx/hunter.pcx 	10	64	1	17	22	-11	-9
+-1 sprites/mus/pcx/hunter.pcx 	33	64	1	12	32	-16	-8
+-1 sprites/mus/pcx/hunter.pcx 	66	64	1	17	22	-11	-9
+
+
+// Action 2: Wagon hunter
+-1 * 0  02 00 AD 01 01 00 00 00 00
+-1 * 0  02 00 AE 81 10 00 FF 03 \b68 80 0D 0D \b70 80 14 14 \b30 80 16 16 AD 00 // <-- 73 pax and 31 tons
+-1 * 0  02 00 AF 81 0C 00 FF 02 \b20 80 12 12   AE 00 36 36 AD 00
+// Low cost when standing still
+-1 * 0  02 00 A3 81 10 00 FF 02 \b70 80 14 14 \b30 80 16 16 AD 00
+-1 * 0  02 00 A4 81 0C 00 FF 02 \b20 80 12 12   A3 00  36 36  AD 00
+-1 * 0  02 00 AF 82 B4 00 FF 01 A4 00  00 00  AF 00
+
+//Action1: Wagon-mail hunter
+-1 * 0  01 00 01 04
+// Format: spritenum pcxfile 							
+-1 sprites/mus/pcx/hunter.pcx 	1	96	1	23	8	-3	-12
+-1 sprites/mus/pcx/hunter.pcx 	10	96	1	17	22	-11	-9
+-1 sprites/mus/pcx/hunter.pcx 	33	96	1	12	32	-16	-8
+-1 sprites/mus/pcx/hunter.pcx 	66	96	1	17	22	-11	-9
+
+
+// Action 2: Wagon hunter
+-1 * 0  02 00 B0 01 01 00 00 00 00
+
+-1 * 0  02 00 AD 81 10 00 FF 03 \b68 80 0D 0D \b53 80 14 14 \b30 80 16 16 B0 00 // <-- 12 pax and 47 tons
+-1 * 0  02 00 B1 81 0C 00 FF 02 \b15 80 12 12  AD 00  36 36  B0 00
+// Low cost when standing still
+-1 * 0  02 00 A3 81 10 00 FF 02 \b53 80 14 14 \b30 80 16 16  B0 00
+-1 * 0  02 00 A4 81 0C 00 FF 02 \b15 80 12 12  A3 00  36 36  B0 00
+-1 * 0  02 00 B0 82 B4 00 FF 01 A4 00  00 00  B1 00
+
+// Action 3: hunter
+-1 * 0  03 00 01 \b*7500 01 FF A1 00 AC 00
+-1 * 0  03 00 81 70 00 AF 00
+-1 * 0  03 00 81 5F 00 B0 00
+
+
+

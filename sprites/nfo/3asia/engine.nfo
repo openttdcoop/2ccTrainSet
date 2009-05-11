@@ -1,0 +1,160 @@
+// Asian Engines
+
+
+
+
+// ############ kz2a #############
+//Action1: kz2a
+-1 * 0  01 00 01 08
+// Format: spritenum pcxfile 							
+-1 sprites/engines_updated/pcx/kz2a.pcx 	89	1	1	24	8	-3	-12
+-1 sprites/engines_updated/pcx/kz2a.pcx 	98	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/kz2a.pcx 	121	1	1	15	32	-16	-11
+-1 sprites/engines_updated/pcx/kz2a.pcx 	154	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/kz2a.pcx 	1	1	1	24	8	-3	-12
+-1 sprites/engines_updated/pcx/kz2a.pcx 	10	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/kz2a.pcx 	33	1	1	15	32	-16	-11
+-1 sprites/engines_updated/pcx/kz2a.pcx 	66	1	1	18	22	-11	-10
+
+// Action 2: kz2a
+-1 * 0  02 00 AA 01 01 00 00 00 00
+// Connectable?
+-1 * 0	02 00 AD 81 C6 00 FF 01 FE 80 00 FF FB 80 
+-1 * 0	02 00 AA 81 0C 00 FF 01 AD 00 1D 1D AA 00
+// Low cost when standing still
+-1 * 0  02 00 A3 81 10 00 FF 01 \b1 80 0D 0D  AA 00
+-1 * 0  02 00 A4 81 0C 00 FF 01 A3 00  36 36  AA 00
+-1 * 0  02 00 AA 82 B4 00 FF 01 A4 00  00 00  AA 00
+
+//Purch List
+-1 * 0  01 00 01 04
+-1 * 0  0
+-1 * 0  0
+-1 sprites/engines_updated/pcx/kz2a.pcx 	1	32 	01 	12 	77	-15 	-8	7
+-1 * 0  0
+
+//Action2: Purch List
+-1 * 0  02 00 A0 01 01 00 00 00 00
+
+// Action 3: ID
+-1 * 0  03 00 01 \b*3200 01 FF A0 00 AA 00
+
+// ############ ss6 #############
+//Action1: ss6
+-1 * 0  01 00 01 08
+// Format: spritenum pcxfile 							
+-1 sprites/engines_updated/pcx/ss6.pcx 	1	1	1	24	8	-3	-12
+-1 sprites/engines_updated/pcx/ss6.pcx 	10	1	1	17	22	-11	-9
+-1 sprites/engines_updated/pcx/ss6.pcx 	33	1	1	17	31	-16	-13
+-1 sprites/engines_updated/pcx/ss6.pcx 	66	1	1	17	22	-10	-9
+-1 sprites/engines_updated/pcx/ss6.pcx 	89	1	1	24	8	-3	-12
+-1 sprites/engines_updated/pcx/ss6.pcx 	98	1	1	17	22	-11	-9
+-1 sprites/engines_updated/pcx/ss6.pcx 	121	1	1	17	31	-16	-13
+-1 sprites/engines_updated/pcx/ss6.pcx 	154	1	1	17	22	-10	-9
+
+
+// Action 2: ss6
+-1 * 0  02 00 AA 01 01 00 00 00 00
+// Connectable?
+-1 * 0	02 00 AD 81 C6 00 FF 02 F9 80 5F 5F F9 80 70 70 FE 80 
+-1 * 0	02 00 AA 81 0C 00 FF 01 AD 00 1D 1D AA 00
+// Low cost when standing still
+-1 * 0  02 00 A3 81 10 00 FF 01 \b1 80 0D 0D  AA 00
+-1 * 0  02 00 A4 81 0C 00 FF 01 A3 00  36 36  AA 00
+-1 * 0  02 00 AA 82 B4 00 FF 01 A4 00  00 00  AA 00
+
+
+//Purch List
+-1 * 0  01 00 01 04
+-1 * 0  0
+-1 * 0  0
+-1 sprites/engines_updated/pcx/ss6.pcx 	1 	32 	01 	12	77 	-16 	-8	7
+-1 * 0  0
+
+//Action2: Purch List
+-1 * 0  02 00 A0 01 01 00 00 00 00
+
+// Action 3: ID
+-1 * 0  03 00 01 \b*3201 01 FF A0 00 AA 00
+
+// ############ wcm1 #############
+//Action1: wcm1
+-1 * 0  01 00 01 08
+// Format: spritenum pcxfile 							
+-1 sprites/engines_updated/pcx/wcm1.pcx 	1	1	1	24	8	-3	-12
+-1 sprites/engines_updated/pcx/wcm1.pcx 	10	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/wcm1.pcx 	33	1	1	15	32	-27	-11
+-1 sprites/engines_updated/pcx/wcm1.pcx 	66	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/wcm1.pcx 	89	1	1	24	8	-3	-12
+-1 sprites/engines_updated/pcx/wcm1.pcx 	98	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/wcm1.pcx 	121	1	1	15	32	-27	-11
+-1 sprites/engines_updated/pcx/wcm1.pcx 	154	1	1	18	22	-11	-10
+
+
+// Action 2: wcm1
+-1 * 0  02 00 AA 01 01 00 00 00 00
+// Connectable?
+-1 * 0	02 00 AD 81 C6 00 FF 01 FE 80 00 FF FB 80 
+-1 * 0	02 00 AA 81 0C 00 FF 01 AD 00 1D 1D AA 00
+// Low cost when standing still
+-1 * 0  02 00 A3 81 10 00 FF 01 \b1 80 0D 0D  AA 00
+-1 * 0  02 00 A4 81 0C 00 FF 01 A3 00  36 36  AA 00
+-1 * 0  02 00 AA 82 B4 00 FF 01 A4 00  00 00  AA 00
+
+//Purch List
+-1 * 0  01 00 01 04
+-1 * 0  0
+-1 * 0  0
+-1 sprites/engines_updated/pcx/wcm1.pcx 	1	32 	01 	12 	77	-15 	-8	7
+-1 * 0  0
+
+//Action2: Purch List
+-1 * 0  02 00 A0 01 01 00 00 00 00
+
+// Action 3: ID
+-1 * 0  03 00 01 \b*3202 01 FF A0 00 AA 00
+
+
+// ----- wdm2 ---------
+-1 * 0  01 00 01 08
+// Format: spritenum 		pcxfile 	      xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
+-1 sprites/engines_updated/pcx/wdm2.pcx 	1	1	1	24	8	-3	-12
+-1 sprites/engines_updated/pcx/wdm2.pcx 	10	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/wdm2.pcx 	33	1	1	14	32	-16	-10
+-1 sprites/engines_updated/pcx/wdm2.pcx 	66	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/wdm2.pcx 	89	1	1	24	8	-3	-12
+-1 sprites/engines_updated/pcx/wdm2.pcx 	98	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/wdm2.pcx 	121	1	1	14	32	-16	-10
+-1 sprites/engines_updated/pcx/wdm2.pcx 	154	1	1	18	22	-11	-10
+
+
+// Action 2: NS Class 1000
+-1 * 0  02 00 AA 01 01 00 00 00 00
+// Connectable?
+-1 * 0	02 00 AD 81 C6 00 FF 02 // 2 ranges
+                    F9 80 5F 5F // Dissalow 5F to 5F. I.E. the express muwagon with message F9 
+                    F9 80 70 70 // Dissalow 70 to 70. I.E. the PAX muwagon with message F9
+                    FE 80       // Allow everything else
+-1 * 0	02 00 AA 81 0C 00 FF 01 AD 00 1D 1D AA 00
+// Low cost when standing still
+-1 * 0  02 00 A3 81 10 00 FF 01 \b1 80 0D 0D AA 00
+-1 * 0  02 00 A4 81 0C 00 FF 01 A3 00  36 36  AA 00
+-1 * 0  02 00 AA 82 B4 00 FF 01 A4 00  00 00  AA 00
+
+
+// Action 1: purch List
+-1 * 0  01 00 01 04
+// Forward
+// Format: spritenum 		pcxfile 	xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
+-1 * 0  0
+-1 * 0  0
+-1 sprites/engines_updated/pcx/wdm2.pcx 	1	32	01 	12	77	-15 	-8	3
+-1 * 0  0
+
+//Action2: Purch List
+-1 * 0  02 00 A0 01 01 00 00 00 00
+                                                  
+// Action 3: ID
+-1 * 0  03 00 01 \b*3100 01 FF A0 00 AA 00
+
+

@@ -1,0 +1,134 @@
+// South American Engines
+
+/ ##### emd-gl8 #########
+-1 * 0  01 00 01 08
+// Format: spritenum pcxfile xpos ypos							
+-1 sprites/engines_updated/pcx/emd-gl8.pcx	1	1	1	24	8	-3	-12
+-1 sprites/engines_updated/pcx/emd-gl8.pcx	10	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/emd-gl8.pcx	33	1	1	14	32	-16	-10
+-1 sprites/engines_updated/pcx/emd-gl8.pcx	66	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/emd-gl8.pcx	89	1	1	24	8	-3	-12
+-1 sprites/engines_updated/pcx/emd-gl8.pcx	98	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/emd-gl8.pcx	121	1	1	14	32	-16	-10
+-1 sprites/engines_updated/pcx/emd-gl8.pcx	154	1	1	18	22	-11	-10
+
+
+// Action 2:
+-1 * 0  02 00 AA 01 01 00 00 00 00
+// Connectable?
+-1 * 0	02 00 AD 81 C6 00 FF 02 F9 80 5F 5F F9 80 70 70 FE 80 
+-1 * 0	02 00 AA 81 0C 00 FF 01 AD 00 1D 1D AA 00
+// Low cost when standing still
+-1 * 0  02 00 A3 81 10 00 FF 01 \b1 80 0D 0D  AA 00
+-1 * 0  02 00 A4 81 0C 00 FF 01 A3 00  36 36  AA 00
+-1 * 0  02 00 AA 82 B4 00 FF 01 A4 00  00 00  AA 00
+
+// Action 1: purch List
+-1 * 0  01 00 01 04
+// Format: spritenum 		pcxfile 	xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
+-1 * 0  0
+-1 * 0  0
+-1 sprites/engines_updated/pcx/emd-gl8.pcx 	1	32	01 	12	77	-15 	-8	3
+-1 * 0  0
+-1 * 0  02 00 A0 01 01 00 00 00 00
+                                                  
+// Action 3: ID
+-1 * 0  03 00 01 \b*6101 01 FF A0 00 AA 00
+
+
+// ##### j16cw #########
+-1 * 0  01 00 01 08
+// Format: spritenum							
+-1 sprites/engines_updated/pcx/j16cw.pcx	1	1	1	24	8	-3	-12
+-1 sprites/engines_updated/pcx/j16cw.pcx	10	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/j16cw.pcx	33	1	1	14	32	-16	-10
+-1 sprites/engines_updated/pcx/j16cw.pcx	66	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/j16cw.pcx	89	1	1	24	8	-3	-12
+-1 sprites/engines_updated/pcx/j16cw.pcx	98	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/j16cw.pcx	121	1	1	14	32	-16	-10
+-1 sprites/engines_updated/pcx/j16cw.pcx	154	1	1	18	22	-11	-10
+
+
+// Action 2:
+-1 * 0  02 00 AA 01 01 00 00 00 00
+// Connectable?
+-1 * 0	02 00 AD 81 C6 00 FF 02 F9 80 5F 5F F9 80 70 70 FE 80 
+-1 * 0	02 00 AA 81 0C 00 FF 01 AD 00 1D 1D AA 00
+// Low cost when standing still
+-1 * 0  02 00 A3 81 10 00 FF 01 \b1 80 0D 0D  AA 00
+-1 * 0  02 00 A4 81 0C 00 FF 01 A3 00  36 36  AA 00
+-1 * 0  02 00 AA 82 B4 00 FF 01 A4 00  00 00  AA 00
+
+// Action 1: purch List
+-1 * 0  01 00 01 04
+// Format: spritenum 		pcxfile 	xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
+-1 * 0  0
+-1 * 0  0
+-1 sprites/engines_updated/pcx/j16cw.pcx 	1	32	01 	12	77	-15 	-8	3
+-1 * 0  0
+-1 * 0  02 00 A0 01 01 00 00 00 00
+                                                  
+// Action 3: ID
+-1 * 0  03 00 01 \b*6100 01 FF A0 00 AA 00
+
+ 
+
+// ############ 11b-2-8-0 #############
+
+// Action 1: Engine - 11b-2-8-0
+-1 * 0  01 00 02 08
+// Format: spritenum pcxfile  xpos  ypos  comp ysize  xsize  xrel  yrel dir							
+-1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	1	1	1	24	8	-3	-12
+-1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	10	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	33	1	1	14	32	-16	-10
+-1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	66	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	89	1	1	24	8	-3	-12
+-1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	98	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	121	1	1	14	32	-16	-10
+-1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	154	1	1	18	22	-11	-10
+// Tender							
+-1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	1	32	1	24	8	-3	-12
+-1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	10	32	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	33	32	1	14	32	-16	-10
+-1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	66	32	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	89	32	1	24	8	-3	-12
+-1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	98	32	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	121	32	1	14	32	-16	-10
+-1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	154	32	1	18	22	-11	-10
+
+// Action 2:
+-1 * 0  02 00 B4 01 01 00 00 00 00
+-1 * 0  02 00 C0 01 01 01 00 01 00
+-1 * 0  02 00 C1 81 0C 00 FF 01 04 80 11 11 C0 00 // shorter tender
+
+-1 * 0	02 00 00 81 40 00 01 01  B4 00 00 00  C1 00 //<-- if first entity, use B4
+-1 * 0  02 00 01 81 10 00 FF 02  00 80 00 00  73 80 01 01  FF 80 // <-- what where?
+-1 * 0	02 00 02 81 0C 00 FF 01  01 00 16 16  00 00 //<-- Articulation
+
+// Connectable?
+-1 * 0	02 00 AD 81 C6 00 FF 02 F9 80 5F 5F F9 80 70 70 FE 80 
+-1 * 0	02 00 B4 81 0C 00 FF 01 AD 00 1D 1D 02 00
+// Low cost when standing still
+-1 * 0  02 00 A3 81 10 00 FF 01 \b1 80 0D 0D  B4 00
+-1 * 0  02 00 A4 81 0C 00 FF 01 A3 00  36 36  B4 00
+-1 * 0  02 00 B4 82 B4 00 FF 01 A4 00  00 00  B4 00
+
+//Purch List
+-1 * 0  01 00 01 08
+// Format: spritenum pcxfile 			xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
+-1 * 0  0
+-1 * 0  0
+-1 * 0	0
+-1 * 0  0
+-1 * 0  0
+-1 * 0  0
+-1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	1	64	01 	12	77 	-16 	-8	7
+-1 * 0  0
+-1 * 0  02 00 A0 01 01 00 00 00 00
+
+// Action 3: ID
+-1 * 0  03 00 01 \b*6000 01 FF A0 00 B4 00
+-1 * 0  03 00 81 73 00 C1 00
+
+
+  

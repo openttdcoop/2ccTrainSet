@@ -1,0 +1,271 @@
+// East European Engines
+// ALIGNMENTS ER NÅ OK!
+
+
+
+
+
+
+// ----- ds3 ---------
+
+-1 * 0  01 00 01 08
+// Format: spritenum							
+-1 sprites/engines_updated/pcx/ds3.pcx	1	1	1	24	8	-3	-12
+-1 sprites/engines_updated/pcx/ds3.pcx	10	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/ds3.pcx	33	1	1	18	32	-16	-14
+-1 sprites/engines_updated/pcx/ds3.pcx	66	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/ds3.pcx	89	1	1	24	8	-3	-12
+-1 sprites/engines_updated/pcx/ds3.pcx	98	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/ds3.pcx	121	1	1	18	32	-16	-14
+-1 sprites/engines_updated/pcx/ds3.pcx	154	1	1	18	22	-11	-10
+
+
+// Action 2:
+-1 * 0  02 00 AA 01 01 00 00 00 00
+// Connectable?
+-1 * 0	02 00 AD 81 C6 00 FF 02 F9 80 5F 5F F9 80 70 70 FE 80 
+-1 * 0	02 00 AA 81 0C 00 FF 01 AD 00 1D 1D AA 00
+
+// Action 1: purch List
+-1 * 0  01 00 01 04
+// Forward
+// Format: spritenum 		pcxfile 	xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
+-1 * 0  0
+-1 * 0  0
+-1 sprites/engines_updated/pcx/ds3.pcx 	1	32	01 	12	77	-15 	-8	3
+-1 * 0  0
+
+//Action2: Purch List
+-1 * 0  02 00 A0 01 01 00 00 00 00
+                                                  
+// Action 3: ID
+-1 * 0  03 00 01 \b*4200 01 FF A0 00 AA 00
+
+
+
+
+
+
+
+// ############# vl15 - russa ##########
+// Action 1: Engine -vl15
+-1 * 0  01 00 01 08
+// Engine
+// Format: spritenum pcxfile							
+-1 sprites/engines_updated/pcx/vl15.pcx	1	1	1	25	8	-3	-12
+-1 sprites/engines_updated/pcx/vl15.pcx	10	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/vl15.pcx	33	1	1	17	31	-16	-13
+-1 sprites/engines_updated/pcx/vl15.pcx	66	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/vl15.pcx	89	1	1	24	8	-3	-12
+-1 sprites/engines_updated/pcx/vl15.pcx	98	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/vl15.pcx	121	1	1	17	32	-16	-13
+-1 sprites/engines_updated/pcx/vl15.pcx	154	1	1	18	22	-11	-10
+
+
+-1 * 0  02 00 AA 01 01 00 00 00 00
+
+-1 * 0  01 00 01 08
+// 2nd part
+// Format: spritenum pcxfile xpos ypos comp ysize xsize xrel yrel dir							
+-1 sprites/engines_updated/pcx/vl15.pcx	1	32	1	24	8	-3	-12
+-1 sprites/engines_updated/pcx/vl15.pcx	10	32	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/vl15.pcx	33	32	1	17	32	-16	-13
+-1 sprites/engines_updated/pcx/vl15.pcx	66	32	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/vl15.pcx	89	32	1	25	8	-3	-12
+-1 sprites/engines_updated/pcx/vl15.pcx	98	32	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/vl15.pcx	121	32	1	17	31	-16	-13
+-1 sprites/engines_updated/pcx/vl15.pcx	154	32	1	18	22	-11	-10
+
+
+-1 * 0  02 00 AB 01 01 00 00 00 00
+
+-1 * 0  01 00 01 04
+// Purch List
+// Format: spritenum pcxfile 			xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
+-1 * 0  0
+-1 * 0  0
+-1 sprites/engines_updated/pcx/vl15.pcx 	1	64	01 	12	87 	-25 	-8	3
+-1 * 0  0
+
+// Action2; Purch List
+-1 * 0  02 00 A0 01 01 00 00 00 00
+
+// VarAction2's
+-1 * 0	02 00 00 81 41 00 01 01 AA 00 00 00 AB 00 //<-- if first entity, use AA, else use AB
+-1 * 0	02 00 01 81 10 00 FF 01 73 80 01 01 FF 80 //<-- the 2A is VehID
+-1 * 0	02 00 02 81 0C 00 FF 01 01 00 16 16 00 00 //<-- Articulation
+// Connectable?
+-1 * 0	02 00 AD 81 C6 00 FF 02 FE 80 00 6F FE 80 71 FF F9 80 
+-1 * 0	02 00 02 81 0C 00 FF 01 AD 00 1D 1D 02 00
+//Action 3
+-1 * 0  03 00 01 \b*4201 01 FF A0 00 02 00
+-1 * 0  03 00 81 73 00 AB 00
+
+
+
+// ############ TEP 150 #############
+//Action1: TEP 150
+-1 * 0  01 00 01 08
+// Format: spritenum pcxfile							
+-1 sprites/engines_updated/pcx/tep150.pcx	1	1	1	24	8	-3	-12
+-1 sprites/engines_updated/pcx/tep150.pcx	10	1	1	17	22	-11	-9
+-1 sprites/engines_updated/pcx/tep150.pcx	33	1	1	14	32	-16	-10
+-1 sprites/engines_updated/pcx/tep150.pcx	66	1	1	17	22	-10	-9
+-1 sprites/engines_updated/pcx/tep150.pcx	89	1	1	24	8	-3	-13
+-1 sprites/engines_updated/pcx/tep150.pcx	98	1	1	17	22	-11	-9
+-1 sprites/engines_updated/pcx/tep150.pcx	121	1	1	14	32	-16	-10
+-1 sprites/engines_updated/pcx/tep150.pcx	154	1	1	17	22	-10	-9
+
+// Action 2: TEP 150
+-1 * 0  02 00 AA 01 01 00 00 00 00
+
+//Purch List
+-1 * 0  01 00 01 04
+-1 * 0  0
+-1 * 0  0
+-1 sprites/engines_updated/pcx/tep150.pcx 	1	32 	01 	12 	77 	-16 	-8	7
+-1 * 0  0
+
+//Action2: Purch List
+-1 * 0  02 00 A0 01 01 00 00 00 00
+
+// Action 3: ID
+-1 * 0  03 00 01 \b*4100 01 FF A0 00 AA 00
+
+
+
+// ############# et41 - Poland ##########
+// Action 1: Engine -et41
+-1 * 0  01 00 01 08
+// Engine
+// Format: spritenum pcxfile							
+-1 sprites/engines_updated/pcx/et41.pcx 	1	1	1	22	8	-3	-11
+-1 sprites/engines_updated/pcx/et41.pcx 	10	1	1	17	20	-10	-9
+-1 sprites/engines_updated/pcx/et41.pcx 	31	1	1	15	27	-14	-11
+-1 sprites/engines_updated/pcx/et41.pcx 	60	1	1	17	20	-10	-9
+-1 sprites/engines_updated/pcx/et41.pcx 	81	1	1	22	8	-3	-11
+-1 sprites/engines_updated/pcx/et41.pcx 	90	1	1	17	20	-10	-9
+-1 sprites/engines_updated/pcx/et41.pcx 	111	1	1	15	28	-14	-11
+-1 sprites/engines_updated/pcx/et41.pcx 	140	1	1	17	20	-10	-9
+-1 * 0  02 00 AA 01 01 00 00 00 00
+
+-1 * 0  01 00 01 08
+// 2nd part
+// Format: spritenum pcxfile  xpos 							
+-1 sprites/engines_updated/pcx/et41.pcx 	1	32	1	22	8	-3	-11
+-1 sprites/engines_updated/pcx/et41.pcx 	10	32	1	17	20	-10	-9
+-1 sprites/engines_updated/pcx/et41.pcx 	31	32	1	15	28	-14	-11
+-1 sprites/engines_updated/pcx/et41.pcx 	60	32	1	17	20	-10	-9
+-1 sprites/engines_updated/pcx/et41.pcx 	81	32	1	22	8	-3	-11
+-1 sprites/engines_updated/pcx/et41.pcx 	90	32	1	17	20	-10	-9
+-1 sprites/engines_updated/pcx/et41.pcx 	111	32	1	15	27	-14	-11
+-1 sprites/engines_updated/pcx/et41.pcx 	140	32	1	17	20	-10	-9
+
+
+-1 * 0  02 00 AB 01 01 00 00 00 00
+
+-1 * 0  01 00 01 04
+// Purch List
+// Format: spritenum pcxfile 			xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
+-1 * 0  0
+-1 * 0  0
+-1 sprites/engines_updated/pcx/et41.pcx 	1	80	01 	12 	87 	-25 	-8	3
+-1 * 0  0
+
+// Action2; Purch List
+-1 * 0  02 00 A0 01 01 00 00 00 00
+
+// VarAction2's
+-1 * 0	02 00 00 81 41 00 01 01 AA 00 00 00 AB 00 //<-- if first entity, use AA, else use AB
+-1 * 0	02 00 01 81 10 00 FF 01 73 80 01 01 FF 80 //<-- the 18 is VehID
+-1 * 0	02 00 02 81 0C 00 FF 01 01 00 16 16 00 00 //<-- Articulation
+// Connectable?
+-1 * 0	02 00 AD 81 C6 00 FF 02 F9 80 5F 5F F9 80 70 70 FE 80 
+-1 * 0	02 00 02 81 0C 00 FF 01 AD 00 1D 1D 02 00
+
+//Action 3
+-1 * 0  03 00 01 \b*4202 01 FF A0 00 02 00
+-1 * 0  03 00 81 73 00 AB 00
+
+
+
+
+// ############ okz32 #############
+// Action 1: Engine - okz32
+-1 * 0  01 00 04 08
+// Forward
+// Format: spritenum pcxfile							
+-1 sprites/engines_updated/pcx/okz32.pcx 	3	3	1	20	8	-3	-10
+-1 sprites/engines_updated/pcx/okz32.pcx 	16	3	1	17	20	-10	-9
+-1 sprites/engines_updated/pcx/okz32.pcx 	43	3	1	14	28	-16	-10
+-1 sprites/engines_updated/pcx/okz32.pcx 	80	3	1	17	20	-10	-9
+-1 sprites/engines_updated/pcx/okz32.pcx 	107	3	1	20	8	-3	-10
+-1 sprites/engines_updated/pcx/okz32.pcx 	120	3	1	17	20	-10	-9
+-1 sprites/engines_updated/pcx/okz32.pcx 	147	3	1	14	28	-16	-10
+-1 sprites/engines_updated/pcx/okz32.pcx 	183	3	1	17	20	-10	-9
+// 2nd frame							
+-1 sprites/engines_updated/pcx/okz32.pcx 	3	28	1	20	8	-3	-10
+-1 sprites/engines_updated/pcx/okz32.pcx 	16	28	1	17	20	-10	-9
+-1 sprites/engines_updated/pcx/okz32.pcx 	43	28	1	14	28	-16	-10
+-1 sprites/engines_updated/pcx/okz32.pcx 	80	28	1	17	20	-10	-9
+-1 sprites/engines_updated/pcx/okz32.pcx 	107	28	1	20	8	-3	-10
+-1 sprites/engines_updated/pcx/okz32.pcx 	120	28	1	17	20	-10	-9
+-1 sprites/engines_updated/pcx/okz32.pcx 	147	28	1	14	28	-16	-10
+-1 sprites/engines_updated/pcx/okz32.pcx 	183	28	1	17	20	-10	-9
+// 3rd frame
+// Format: spritenum pcxfile  xpos 							
+-1 sprites/engines_updated/pcx/okz32.pcx 	3	53	1	20	8	-3	-10
+-1 sprites/engines_updated/pcx/okz32.pcx 	16	53	1	17	20	-10	-9
+-1 sprites/engines_updated/pcx/okz32.pcx 	43	53	1	14	28	-16	-10
+-1 sprites/engines_updated/pcx/okz32.pcx 	80	53	1	17	20	-10	-9
+-1 sprites/engines_updated/pcx/okz32.pcx 	107	53	1	20	8	-3	-10
+-1 sprites/engines_updated/pcx/okz32.pcx 	120	53	1	17	20	-10	-9
+-1 sprites/engines_updated/pcx/okz32.pcx 	147	53	1	14	28	-16	-10
+-1 sprites/engines_updated/pcx/okz32.pcx 	183	53	1	17	20	-10	-9
+// 4th frame							
+-1 sprites/engines_updated/pcx/okz32.pcx 	3	78	1	20	8	-3	-10
+-1 sprites/engines_updated/pcx/okz32.pcx 	16	78	1	17	20	-10	-9
+-1 sprites/engines_updated/pcx/okz32.pcx 	43	78	1	14	28	-16	-10
+-1 sprites/engines_updated/pcx/okz32.pcx 	80	78	1	17	20	-10	-9
+-1 sprites/engines_updated/pcx/okz32.pcx 	107	78	1	20	8	-3	-10
+-1 sprites/engines_updated/pcx/okz32.pcx 	120	78	1	17	20	-10	-9
+-1 sprites/engines_updated/pcx/okz32.pcx 	147	78	1	14	28	-16	-10
+-1 sprites/engines_updated/pcx/okz32.pcx 	183	78	1	17	20	-10	-9
+
+
+// Action 2:
+-1 * 0  02 00 B0 01 01 00 00 00 00
+-1 * 0  02 00 B1 01 01 01 00 01 00
+-1 * 0  02 00 B2 01 01 02 00 02 00
+-1 * 0  02 00 B3 01 01 03 00 03 00
+
+// Animation
+-1 * 0  02 00 B4 82 46 08 03 03
+                        B0 00 00 00
+                        B1 00 01 01
+                        B2 00 02 02
+                        B3 00
+// Connectable?
+-1 * 0	02 00 AD 81 C6 00 FF 02 F9 80 5F 5F F9 80 70 70 FE 80 
+-1 * 0	02 00 B4 81 0C 00 FF 01 AD 00 1D 1D B4 00
+
+//Purch List
+-1 * 0  01 00 01 08
+// Format: spritenum pcxfile 			xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
+-1 * 0  0
+-1 * 0  0
+-1 * 0	0
+-1 * 0  0
+-1 * 0  0
+-1 * 0  0
+-1 sprites/engines_updated/pcx/okz32.pcx 	1	208	01 	12	77 	-16 	-8	7
+-1 * 0  0
+
+//Action2: Purch List
+-1 * 0  02 00 A0 01 01 00 00 00 00
+
+// Action 3: ID
+-1 * 0  03 00 01 \b*4000 01 FF A0 00 B4 00
+
+
+

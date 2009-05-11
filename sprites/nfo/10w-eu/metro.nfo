@@ -1,0 +1,556 @@
+bbb// West european metros
+
+
+
+// ############ ut2 #############
+//Action1: ut2
+-1 * 0  01 00 01 08
+// Format: spritenum pcxfile 							
+-1 sprites/metro/pcx/ut2.pcx 	1	1	1	24	8	-3	-12
+-1 sprites/metro/pcx/ut2.pcx 	10	1	1	18	22	-11	-10
+-1 sprites/metro/pcx/ut2.pcx 	33	1	1	14	32	-16	-10
+-1 sprites/metro/pcx/ut2.pcx 	66	1	1	18	22	-11	-10
+-1 sprites/metro/pcx/ut2.pcx 	89	1	1	24	8	-3	-12
+-1 sprites/metro/pcx/ut2.pcx 	98	1	1	18	22	-11	-10
+-1 sprites/metro/pcx/ut2.pcx 	121	1	1	14	32	-16	-10
+-1 sprites/metro/pcx/ut2.pcx 	154	1	1	18	22	-11	-10
+
+
+// Action 2: ut2
+-1 * 0  02 00 AA 01 01 00 00 00 00
+// Connectable?
+-1 * 0	02 00 AD 85 C6 00 FF FF 01 FE 80 \w10406 \w10406 F8 80 
+-1 * 0	02 00 AA 81 0C 00 FF 01 AD 00 1D 1D AA 00
+
+//Purch List
+-1 * 0  01 00 01 04
+-1 * 0  0
+-1 * 0  0
+-1 sprites/metro/pcx/ut2.pcx 	1	32 	01 	12 	77	-15 	-8	7
+-1 * 0  0
+
+//Action2: Purch List
+-1 * 0  02 00 A0 01 01 00 00 00 00
+
+// Action 3: ID
+-1 * 0  03 00 01 \b*10406 01 FF A0 00 AA 00
+
+
+
+
+
+
+// ############# mp89 France ##########
+// Action 1: purch List -mp89
+-1 * 0  01 00 01 08
+// Forward
+// Format: spritenum pcxfile 	xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
+-1 * 0  0
+-1 * 0  0
+-1 sprites/metro/pcx/mp89.pcx 	1	96 	01 	12 	87 	-40 	-8	3
+-1 * 0  0
+-1 * 0  0
+-1 * 0  0
+-1 sprites/metro/pcx/mp89.pcx 	1	96	01 	1 	1 	0 	-0	7
+-1 * 0  0
+
+//Action2: Purch List
+-1 * 0  02 00 A0 01 01 00 00 00 00                // Purchise Screen sprites
+-1 * 0  02 00 A1 81 0C 00 FF 01 15 80 23 23 A0 00 // Purchise Screen text
+
+
+// Action 1: Engine -mp89 forward
+-1 * 0  01 00 02 08
+// Forward
+// Format: spritenum pcxfile  xpos  ypos  comp ysize  xsize  xrel  yrel dir							
+-1 sprites/metro/pcx/mp89.pcx 	1	1	1	19	8	-3	-9
+-1 sprites/metro/pcx/mp89.pcx 	10	1	1	16	21	-10	-8
+-1 sprites/metro/pcx/mp89.pcx 	32	1	1	13	28	-14	-9
+-1 sprites/metro/pcx/mp89.pcx 	61	1	1	16	21	-10	-8
+-1 sprites/metro/pcx/mp89.pcx 	83	1	1	19	8	-3	-12
+-1 sprites/metro/pcx/mp89.pcx 	92	1	1	17	21	-11	-9
+-1 sprites/metro/pcx/mp89.pcx 	114	1	1	13	28	-14	-9
+-1 sprites/metro/pcx/mp89.pcx 	143	1	1	16	21	-11	-8
+// Backwards							
+-1 sprites/metro/pcx/mp89.pcx 	1	32	1	19	8	-3	-9
+-1 sprites/metro/pcx/mp89.pcx 	10	32	1	16	21	-10	-8
+-1 sprites/metro/pcx/mp89.pcx 	32	32	1	13	28	-14	-9
+-1 sprites/metro/pcx/mp89.pcx 	61	32	1	16	21	-10	-8
+-1 sprites/metro/pcx/mp89.pcx 	83	32	1	19	8	-3	-12
+-1 sprites/metro/pcx/mp89.pcx 	92	32	1	17	21	-11	-9
+-1 sprites/metro/pcx/mp89.pcx 	114	32	1	13	28	-14	-9
+-1 sprites/metro/pcx/mp89.pcx 	143	32	1	16	21	-11	-8
+
+
+
+// Action 2: Engine -mp89
+-1 * 0  02 00 AA 01 01 00 00 00 00
+-1 * 0  02 00 AB 01 01 01 00 01 00
+
+// VarAction2: Front with panto, back without
+-1 * 0  02 00 AC 81 40 00 FF 01 AA 00 00 00 AB 00
+
+//Action1: Wagon-pax -mp89
+-1 * 0  01 00 01 04
+// Format: spritenum pcxfile  xpos  ypos  comp ysize  xsize  xrel  yrel dir							
+-1 sprites/metro/pcx/mp89.pcx 	1	64	1	19	8	-3	-12
+-1 sprites/metro/pcx/mp89.pcx 	10	64	1	16	21	-10	-8
+-1 sprites/metro/pcx/mp89.pcx 	32	64	1	13	28	-14	-9
+-1 sprites/metro/pcx/mp89.pcx 	61	64	1	16	21	-10	-8
+
+
+// Action 2: Wagon -mp89
+-1 * 0  02 00 B0 01 01 00 00 00 00
+
+
+// -1 * 0  02 00 AE 81 10 00 FF 01 \b120 80 14 14 AD 00
+-1 * 0  02 00 B1 81 10 00 FF 02 \b120 80 14 14 \b28 80 16 16 B0 00
+-1 * 0  02 00 B2 81 0C 00 FF 02 B1 00 36 36 01 80 11 11 B0 00
+
+//-1 * 0  02 00 B2 81 0C 00 FF 01 B1 00 36 36 B0 00
+//-1 * 0  02 00 B3 81 0C 00 FF 01 01 80 11 11 B2 00
+
+// Action 3: mp89
+-1 * 0  03 00 01 \b*10405 01 FF A1 00 AC 00
+-1 * 0  03 00 81 72 00 B2 00
+
+
+
+
+
+// ############# london1903 ##########
+// Action 1: purch List -london1903
+-1 * 0  01 00 01 08
+// Forward
+// Format: spritenum pcxfile 	xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
+-1 * 0  0
+-1 * 0  0
+-1 sprites/metro/pcx/london1903.pcx 	1	96 	01 	12 	87 	-40 	-8	3
+-1 * 0  0
+-1 * 0  0
+-1 * 0  0
+-1 sprites/metro/pcx/london1903.pcx 	1	96	01 	1 	1 	0 	-0	7
+-1 * 0  0
+
+//Action2: Purch List
+-1 * 0  02 00 A0 01 01 00 00 00 00                // Purchise Screen sprites
+-1 * 0  02 00 A1 81 0C 00 FF 01 15 80 23 23 A0 00 // Purchise Screen text
+
+
+// Action 1: Engine -london1903 forward
+-1 * 0  01 00 02 08
+// Forward
+// Format: spritenum pcxfile 							
+-1 sprites/metro/pcx/london1903.pcx 	1	1	1	24	8	-3	-12
+-1 sprites/metro/pcx/london1903.pcx 	10	1	1	18	22	-11	-10
+-1 sprites/metro/pcx/london1903.pcx 	33	1	1	14	32	-16	-10
+-1 sprites/metro/pcx/london1903.pcx 	66	1	1	18	22	-11	-10
+-1 sprites/metro/pcx/london1903.pcx 	89	1	1	24	8	-3	-12
+-1 sprites/metro/pcx/london1903.pcx 	98	1	1	18	22	-11	-10
+-1 sprites/metro/pcx/london1903.pcx 	121	1	1	14	32	-16	-10
+-1 sprites/metro/pcx/london1903.pcx 	154	1	1	18	22	-11	-10
+// Forward							
+-1 sprites/metro/pcx/london1903.pcx 	1	32	1	24	8	-3	-12
+-1 sprites/metro/pcx/london1903.pcx 	10	32	1	18	22	-11	-10
+-1 sprites/metro/pcx/london1903.pcx 	33	32	1	14	32	-16	-10
+-1 sprites/metro/pcx/london1903.pcx 	66	32	1	18	22	-11	-10
+-1 sprites/metro/pcx/london1903.pcx 	89	32	1	24	8	-3	-12
+-1 sprites/metro/pcx/london1903.pcx 	98	32	1	18	22	-11	-10
+-1 sprites/metro/pcx/london1903.pcx 	121	32	1	14	32	-16	-10
+-1 sprites/metro/pcx/london1903.pcx 	154	32	1	18	22	-11	-10
+
+// Action 2: Engine -london1903
+-1 * 0  02 00 AA 01 01 00 00 00 00
+-1 * 0  02 00 AB 01 01 01 00 01 00
+
+// VarAction2: Front with panto, back without
+-1 * 0  02 00 AC 81 40 00 FF 01 AA 00 00 00 AB 00
+
+//Action1: Wagon-pax -london1903
+-1 * 0  01 00 01 04
+// Format: spritenum pcxfile 							
+-1 sprites/metro/pcx/london1903.pcx 	1	64	1	24	8	-3	-12
+-1 sprites/metro/pcx/london1903.pcx 	10	64	1	18	22	-11	-10
+-1 sprites/metro/pcx/london1903.pcx 	33	64	1	14	32	-16	-10
+-1 sprites/metro/pcx/london1903.pcx 	66	64	1	18	22	-11	-10
+
+
+// Action 2: Wagon -london1903
+-1 * 0  02 00 B0 01 01 00 00 00 00
+
+
+// -1 * 0  02 00 AE 81 10 00 FF 01 \b120 80 14 14 AD 00
+-1 * 0  02 00 B1 81 10 00 FF 02 \b120 80 14 14 \b28 80 16 16 B0 00
+-1 * 0  02 00 B2 81 0C 00 FF 02 00 80 11 11 B1 00 36 36 B0 00
+
+
+// Action 3: london1903
+-1 * 0  03 00 01 \b*10407 01 FF A1 00 AC 00
+-1 * 0  03 00 81 72 00 B2 00
+
+
+// ############# m2-840 France ##########
+// Action 1: purch List -m2-840
+-1 * 0  01 00 01 08
+// Forward
+// Format: spritenum pcxfile 	xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
+-1 * 0  0
+-1 * 0  0
+-1 sprites/metro/pcx/m2-840.pcx 	1	96 	01 	12 	87 	-40 	-8	3
+-1 * 0  0
+-1 * 0  0
+-1 * 0  0
+-1 sprites/metro/pcx/m2-840.pcx 	1	96	01 	1 	1 	0 	-0	7
+-1 * 0  0
+
+//Action2: Purch List
+-1 * 0  02 00 A0 01 01 00 00 00 00                // Purchise Screen sprites
+-1 * 0  02 00 A1 81 0C 00 FF 01 15 80 23 23 A0 00 // Purchise Screen text
+
+
+// Action 1: Engine -m2-840 forward
+-1 * 0  01 00 02 08
+// Forward
+// Format: spritenum pcxfile  xpos  ypos  comp ysize  xsize  xrel  yrel dir							
+-1 sprites/metro/pcx/m2-840.pcx 	1	1	1	21	8	-3	-9
+-1 sprites/metro/pcx/m2-840.pcx 	10	1	1	16	20	-10	-8
+-1 sprites/metro/pcx/m2-840.pcx 	33	1	1	13	27	-14	-9
+-1 sprites/metro/pcx/m2-840.pcx 	66	1	1	16	20	-11	-8
+-1 sprites/metro/pcx/m2-840.pcx 	89	1	1	21	8	-3	-12
+-1 sprites/metro/pcx/m2-840.pcx 	98	1	1	16	20	-10	-8
+-1 sprites/metro/pcx/m2-840.pcx 	121	1	1	13	28	-14	-9
+-1 sprites/metro/pcx/m2-840.pcx 	154	1	1	16	20	-11	-8
+// Backwards							
+-1 sprites/metro/pcx/m2-840.pcx 	1	32	1	21	8	-3	-9
+-1 sprites/metro/pcx/m2-840.pcx 	10	32	1	16	20	-10	-8
+-1 sprites/metro/pcx/m2-840.pcx 	33	32	1	13	27	-14	-9
+-1 sprites/metro/pcx/m2-840.pcx 	66	32	1	16	20	-11	-8
+-1 sprites/metro/pcx/m2-840.pcx 	89	32	1	21	8	-3	-12
+-1 sprites/metro/pcx/m2-840.pcx 	98	32	1	16	20	-10	-8
+-1 sprites/metro/pcx/m2-840.pcx 	121	32	1	13	28	-14	-9
+-1 sprites/metro/pcx/m2-840.pcx 	154	32	1	16	20	-11	-8
+
+
+// Action 2: Engine -m2-840
+-1 * 0  02 00 AA 01 01 00 00 00 00
+-1 * 0  02 00 AB 01 01 01 00 01 00
+
+// VarAction2: Front with panto, back without
+-1 * 0  02 00 AC 81 40 00 FF 01 AA 00 00 00 AB 00
+
+//Action1: Wagon-pax -m2-840
+-1 * 0  01 00 01 04
+// Format: spritenum pcxfile  xpos  ypos  comp ysize  xsize  xrel  yrel dir							
+-1 sprites/metro/pcx/m2-840.pcx 	1	64	1	21	8	-3	-12
+-1 sprites/metro/pcx/m2-840.pcx 	10	64	1	16	20	-10	-8
+-1 sprites/metro/pcx/m2-840.pcx 	33	64	1	13	28	-14	-9
+-1 sprites/metro/pcx/m2-840.pcx 	66	64	1	16	20	-11	-8
+
+
+// Action 2: Wagon -m2-840
+-1 * 0  02 00 B0 01 01 00 00 00 00
+
+// -1 * 0  02 00 AE 81 10 00 FF 01 \b120 80 14 14 AD 00
+-1 * 0  02 00 B1 81 10 00 FF 02 \b140 80 14 14 \b37 80 16 16 B0 00
+-1 * 0  02 00 B2 81 0C 00 FF 02 B1 00 36 36 01 80 11 11 B0 00
+
+
+// Action 3: m2-840
+-1 * 0  03 00 01 \b*10404 01 FF A1 00 AC 00
+-1 * 0  03 00 81 72 00 B2 00
+
+
+
+
+
+// ############# dlr UK ##########
+// Action 1: purch List -dlr
+-1 * 0  01 00 01 08
+// Forward
+// Format: spritenum pcxfile 	xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
+-1 * 0  0
+-1 * 0  0
+-1 sprites/metro/pcx/dlr.pcx 	1	96 	01 	12 	87 	-40 	-8	3
+-1 * 0  0
+-1 * 0  0
+-1 * 0  0
+-1 sprites/metro/pcx/dlr.pcx 	1	96	01 	1 	1 	0 	-0	7
+-1 * 0  0
+
+//Action2: Purch List
+-1 * 0  02 00 A0 01 01 00 00 00 00                // Purchise Screen sprites
+-1 * 0  02 00 A1 81 0C 00 FF 01 15 80 23 23 A0 00 // Purchise Screen text
+
+
+// Action 1: Engine -dlr forward
+-1 * 0  01 00 02 08
+// Forward
+// Format: spritenum pcxfile  xpos  ypos  comp ysize  xsize  xrel  yrel dir							
+-1 sprites/metro/pcx/dlr.pcx 	1	1	1	19	8	-3	-9
+-1 sprites/metro/pcx/dlr.pcx 	10	1	1	14	18	-9	-6
+-1 sprites/metro/pcx/dlr.pcx 	33	1	1	12	23	-12	-8
+-1 sprites/metro/pcx/dlr.pcx 	66	1	1	14	18	-9	-6
+-1 sprites/metro/pcx/dlr.pcx 	89	1	1	19	8	-3	-9
+-1 sprites/metro/pcx/dlr.pcx 	98	1	1	14	18	-9	-6
+-1 sprites/metro/pcx/dlr.pcx 	121	1	1	12	24	-12	-8
+-1 sprites/metro/pcx/dlr.pcx 	154	1	1	14	18	-9	-6
+// Backwards							
+-1 sprites/metro/pcx/dlr.pcx 	1	32	1	19	8	-3	-9
+-1 sprites/metro/pcx/dlr.pcx 	10	32	1	14	18	-9	-6
+-1 sprites/metro/pcx/dlr.pcx 	33	32	1	12	23	-12	-8
+-1 sprites/metro/pcx/dlr.pcx 	66	32	1	14	18	-9	-6
+-1 sprites/metro/pcx/dlr.pcx 	89	32	1	19	8	-3	-9
+-1 sprites/metro/pcx/dlr.pcx 	98	32	1	14	18	-9	-6
+-1 sprites/metro/pcx/dlr.pcx 	121	32	1	12	24	-12	-8
+-1 sprites/metro/pcx/dlr.pcx 	154	32	1	14	18	-9	-6
+
+
+// Action 2: Engine -dlr
+-1 * 0  02 00 AA 01 01 00 00 00 00
+-1 * 0  02 00 AB 01 01 01 00 01 00
+
+// VarAction2: Front with panto, back without
+-1 * 0  02 00 AC 81 40 00 FF 01 AA 00 00 00 AB 00
+
+//Action1: Wagon-pax -dlr
+-1 * 0  01 00 01 04
+// Format: spritenum pcxfile 							
+-1 sprites/metro/pcx/dlr.pcx 	1	64	1	19	8	-3	-9
+-1 sprites/metro/pcx/dlr.pcx 	10	64	1	14	18	-9	-6
+-1 sprites/metro/pcx/dlr.pcx 	33	64	1	12	24	-12	-8
+-1 sprites/metro/pcx/dlr.pcx 	66	64	1	14	18	-9	-6
+
+
+// Action 2: Wagon -dlr
+-1 * 0  02 00 B0 01 01 00 00 00 00
+
+
+// -1 * 0  02 00 AE 81 10 00 FF 01 \b120 80 14 14 AD 00
+-1 * 0  02 00 B1 81 10 00 FF 02 \b147 80 14 14 \b18 80 16 16 B0 00
+-1 * 0  02 00 B2 81 0C 00 FF 02 B1 00 36 36 02 80 11 11 B0 00
+
+
+// Action 3: dlr
+-1 * 0  03 00 01 \b*10401 01 FF A1 00 AC 00
+-1 * 0  03 00 81 72 00 B2 00
+
+
+
+
+// ############# 1938 UK ##########
+// Action 1: purch List -1938
+-1 * 0  01 00 01 08
+// Forward
+// Format: spritenum pcxfile 	xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
+-1 * 0  0
+-1 * 0  0
+-1 sprites/metro/pcx/1938.pcx 	1	96 	01 	12 	87 	-40 	-8	3
+-1 * 0  0
+-1 * 0  0
+-1 * 0  0
+-1 sprites/metro/pcx/1938.pcx 	1	96	01 	1 	1 	0 	-0	7
+-1 * 0  0
+
+//Action2: Purch List
+-1 * 0  02 00 A0 01 01 00 00 00 00                // Purchise Screen sprites
+-1 * 0  02 00 A1 81 0C 00 FF 01 15 80 23 23 A0 00 // Purchise Screen text
+
+
+// Action 1: Engine -1938 forward
+-1 * 0  01 00 02 08
+// Forward
+// Format: spritenum pcxfile  xpos  ypos  comp ysize  xsize  xrel  yrel dir							
+-1 sprites/metro/pcx/1938.pcx 	1	1	1	22	8	-3	-10
+-1 sprites/metro/pcx/1938.pcx 	10	1	1	14	20	-10	-6
+-1 sprites/metro/pcx/1938.pcx 	33	1	1	12	27	-14	-8
+-1 sprites/metro/pcx/1938.pcx 	66	1	1	14	20	-10	-6
+-1 sprites/metro/pcx/1938.pcx 	89	1	1	22	8	-3	-10
+-1 sprites/metro/pcx/1938.pcx 	98	1	1	14	20	-10	-6
+-1 sprites/metro/pcx/1938.pcx 	121	1	1	12	28	-14	-8
+-1 sprites/metro/pcx/1938.pcx 	154	1	1	14	20	-10	-6
+// Format: spritenum pcxfile 							
+-1 sprites/metro/pcx/1938.pcx 	1	32	1	22	8	-3	-10
+-1 sprites/metro/pcx/1938.pcx 	10	32	1	14	20	-10	-6
+-1 sprites/metro/pcx/1938.pcx 	33	32	1	12	27	-14	-8
+-1 sprites/metro/pcx/1938.pcx 	66	32	1	14	20	-10	-6
+-1 sprites/metro/pcx/1938.pcx 	89	32	1	22	8	-3	-10
+-1 sprites/metro/pcx/1938.pcx 	98	32	1	14	20	-10	-6
+-1 sprites/metro/pcx/1938.pcx 	121	32	1	12	28	-14	-8
+-1 sprites/metro/pcx/1938.pcx 	154	32	1	14	20	-10	-6
+
+
+// Action 2: Engine -1938
+-1 * 0  02 00 AA 01 01 00 00 00 00
+-1 * 0  02 00 AB 01 01 01 00 01 00
+
+// VarAction2: Front with panto, back without
+-1 * 0  02 00 AC 81 40 00 FF 01 AA 00 00 00 AB 00
+
+//Action1: Wagon-pax -1938
+-1 * 0  01 00 01 04
+// Format: spritenum pcxfile  xpos  ypos  comp ysize  xsize  xrel  yrel dir							
+-1 sprites/metro/pcx/1938.pcx 	1	64	1	22	8	-3	-10
+-1 sprites/metro/pcx/1938.pcx 	10	64	1	14	20	-10	-6
+-1 sprites/metro/pcx/1938.pcx 	33	64	1	12	28	-14	-8
+-1 sprites/metro/pcx/1938.pcx 	66	64	1	14	20	-10	-6
+
+
+// Action 2: Wagon -1938
+-1 * 0  02 00 B0 01 01 00 00 00 00
+
+
+// -1 * 0  02 00 AE 81 10 00 FF 01 \b120 80 14 14 AD 00
+-1 * 0  02 00 B1 81 10 00 FF 02 \b120 80 14 14 \b26 80 16 16 B0 00
+-1 * 0  02 00 B2 81 0C 00 FF 02 B1 00 36 36 01 80 11 11 B0 00
+
+
+// Action 3: 1938
+-1 * 0  03 00 01 \b*10402 01 FF A1 00 AC 00
+-1 * 0  03 00 81 72 00 B2 00
+
+
+
+// ############# m1 holland ##########
+// Action 1: purch List -m1
+-1 * 0  01 00 01 08
+// Forward
+// Format: spritenum pcxfile 	xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
+-1 * 0  0
+-1 * 0  0
+-1 sprites/metro/pcx/m1.pcx 	1	96 	01 	12 	87 	-40 	-8	3
+-1 * 0  0
+-1 * 0  0
+-1 * 0  0
+-1 sprites/metro/pcx/m1.pcx 	1	96	01 	1 	1 	0 	-0	7
+-1 * 0  0
+
+//Action2: Purch List
+-1 * 0  02 00 A0 01 01 00 00 00 00                // Purchise Screen sprites
+-1 * 0  02 00 A1 81 0C 00 FF 01 14 80 23 23 A0 00 // Purchise Screen text
+
+
+// Action 1: Engine -m1 forward
+-1 * 0  01 00 02 08
+// Forward
+// Format: spritenum pcxfile  xpos  ypos  comp ysize  xsize  xrel  yrel dir							
+-1 sprites/metro/pcx/m1.pcx 	1	1	1	24	8	-3	-9
+-1 sprites/metro/pcx/m1.pcx 	10	1	1	17	22	-11	-9
+-1 sprites/metro/pcx/m1.pcx 	33	1	1	13	31	-16	-9
+-1 sprites/metro/pcx/m1.pcx 	66	1	1	17	22	-11	-9
+-1 sprites/metro/pcx/m1.pcx 	89	1	1	24	8	-3	-12
+-1 sprites/metro/pcx/m1.pcx 	98	1	1	17	22	-11	-9
+-1 sprites/metro/pcx/m1.pcx 	121	1	1	13	32	-16	-9
+-1 sprites/metro/pcx/m1.pcx 	154	1	1	17	22	-11	-9
+// Format: spritenum pcxfile 							
+-1 sprites/metro/pcx/m1.pcx 	1	32	1	24	8	-3	-9
+-1 sprites/metro/pcx/m1.pcx 	10	32	1	17	22	-11	-9
+-1 sprites/metro/pcx/m1.pcx 	33	32	1	13	31	-16	-9
+-1 sprites/metro/pcx/m1.pcx 	66	32	1	17	22	-11	-9
+-1 sprites/metro/pcx/m1.pcx 	89	32	1	24	8	-3	-12
+-1 sprites/metro/pcx/m1.pcx 	98	32	1	17	22	-11	-9
+-1 sprites/metro/pcx/m1.pcx 	121	32	1	13	32	-16	-9
+-1 sprites/metro/pcx/m1.pcx 	154	32	1	17	22	-11	-9
+
+// Action 2: Engine -m1
+-1 * 0  02 00 AA 01 01 00 00 00 00
+-1 * 0  02 00 AB 01 01 01 00 01 00
+
+// VarAction2: Front with panto, back without
+-1 * 0  02 00 AC 81 40 00 FF 01 AA 00 00 00 AB 00
+
+//Action1: Wagon-pax -m1
+-1 * 0  01 00 01 08
+// Format: spritenum pcxfile  xpos  ypos  comp ysize  xsize  xrel  yrel dir							
+-1 sprites/metro/pcx/m1.pcx 	1	64	1	22	8	-3	-10
+-1 sprites/metro/pcx/m1.pcx 	10	64	1	17	22	-11	-9
+-1 sprites/metro/pcx/m1.pcx 	33	64	1	13	28	-12	-9
+-1 sprites/metro/pcx/m1.pcx 	66	64	1	17	22	-11	-9
+-1 sprites/metro/pcx/m1.pcx 	89	64	1	22	8	-3	-10
+-1 sprites/metro/pcx/m1.pcx 	98	64	1	17	22	-11	-9
+-1 sprites/metro/pcx/m1.pcx 	121	64	1	13	28	-16	-9
+-1 sprites/metro/pcx/m1.pcx 	154	64	1	17	22	-11	-9
+
+// Action 2: Wagon -m1
+-1 * 0  02 00 AD 01 01 00 00 00 00
+// Capacity/weight mods
+-1 * 0  02 00 AE 81 10 00 FF 02 \b174 80 14 14 \b31 80 16 16 AD 00
+-1 * 0  02 00 B0 81 0C 00 FF 02 01 80 11 11 AE 00 36 36 AD 00
+
+// Action 3: m1
+-1 * 0  03 00 01 \b*10403 01 FF A1 00 AC 00
+-1 * 0  03 00 81 72 00 B0 00
+
+
+
+
+
+
+
+
+
+// ############# caf90 holland ##########
+// Action 1: purch List -caf90
+-1 * 0  01 00 01 08
+// Forward
+// Format: spritenum pcxfile 	xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
+-1 * 0  0
+-1 * 0  0
+-1 sprites/metro/pcx/caf90.pcx 	1	96 	01 	12 	87 	-40 	-8	3
+-1 * 0  0
+-1 * 0  0
+-1 * 0  0
+-1 sprites/metro/pcx/caf90.pcx 	1	96	01 	1 	1 	0 	-0	7
+-1 * 0  0
+
+//Action2: Purch List
+-1 * 0  02 00 A0 01 01 00 00 00 00                // Purchise Screen sprites
+-1 * 0  02 00 A1 81 0C 00 FF 01 14 80 23 23 A0 00 // Purchise Screen text
+
+
+// Action 1: Engine -caf90 forward
+-1 * 0  01 00 02 08
+// Forward
+// Format: spritenum pcxfile  xpos  ypos  comp ysize  xsize  xrel  yrel dir							
+-1 sprites/metro/pcx/caf90.pcx 	1	1	1	25	8	-3	-9
+-1 sprites/metro/pcx/caf90.pcx 	10	1	1	18	22	-11	-10
+-1 sprites/metro/pcx/caf90.pcx 	34	1	1	13	31	-16	-9
+-1 sprites/metro/pcx/caf90.pcx 	66	1	1	18	22	-11	-10
+-1 sprites/metro/pcx/caf90.pcx 	89	1	1	25	8	-3	-12
+-1 sprites/metro/pcx/caf90.pcx 	98	1	1	18	22	-11	-10
+-1 sprites/metro/pcx/caf90.pcx 	121	1	1	13	32	-16	-9
+-1 sprites/metro/pcx/caf90.pcx 	154	1	1	18	22	-11	-10
+// Format: spritenum pcxfile 							
+-1 sprites/metro/pcx/caf90.pcx 	1	32	1	25	8	-3	-9
+-1 sprites/metro/pcx/caf90.pcx 	10	32	1	18	22	-11	-10
+-1 sprites/metro/pcx/caf90.pcx 	34	32	1	13	31	-16	-9
+-1 sprites/metro/pcx/caf90.pcx 	66	32	1	18	22	-11	-10
+-1 sprites/metro/pcx/caf90.pcx 	89	32	1	25	8	-3	-12
+-1 sprites/metro/pcx/caf90.pcx 	98	32	1	18	22	-11	-10
+-1 sprites/metro/pcx/caf90.pcx 	121	32	1	13	32	-16	-9
+-1 sprites/metro/pcx/caf90.pcx 	154	32	1	18	22	-11	-10
+
+// Action 2: Engine -caf90
+-1 * 0  02 00 AA 01 01 00 00 00 00
+-1 * 0  02 00 AB 01 01 01 00 01 00
+
+// VarAction2: Front with panto, back without
+-1 * 0  02 00 AC 81 40 00 FF 01 AA 00 00 00 AB 00
+
+//Action1: Wagon-pax -caf90
+-1 * 0  01 00 01 04
+// Format: spritenum pcxfile  xpos  ypos  comp ysize  xsize  xrel  yrel dir							
+-1 sprites/metro/pcx/caf90.pcx 	1	64	1	25	8	-3	-12
+-1 sprites/metro/pcx/caf90.pcx 	10	64	1	18	22	-11	-10
+-1 sprites/metro/pcx/caf90.pcx 	33	64	1	13	32	-16	-9
+-1 sprites/metro/pcx/caf90.pcx 	66	64	1	18	22	-11	-10
+
+
+// Action 2: Wagon -caf90
+-1 * 0  02 00 AD 01 01 00 00 00 00
+// Capacity/weight mods
+-1 * 0  02 00 AE 81 10 00 FF 02 \b250 80 14 14 \b47 80 16 16 AD 00
+-1 * 0  02 00 B0 81 0C 00 FF 02 00 80 11 11 AE 00 36 36 AD 00
+
+// Action 3: caf90
+-1 * 0  03 00 01 \b*10400 01 FF A1 00 AC 00
+-1 * 0  03 00 81 72 00 B0 00
