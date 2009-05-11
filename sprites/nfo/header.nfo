@@ -24,7 +24,7 @@
 // "MILK" "TOUR" "OLSD" 	            // 40-42
 
 // Cargo translation table
-    2 * 178	 00 08 01 2B 00 09 "COAL" "WATR" "RUBB" "MAIL" "OIL_" "LVST" "GOOD" "CERE" "GRAN" "WHET" "MAIZ" "WOOD" "WODT" "IORE" "CORE" "STEL"
+    -1 * 178	 00 08 01 2B 00 09 "COAL" "WATR" "RUBB" "MAIL" "OIL_" "LVST" "GOOD" "CERE" "GRAN" "WHET" "MAIZ" "WOOD" "WODT" "IORE" "CORE" "STEL"
      "PLAS" "VALU" "GOLD" "DIAM" "PAPR" "FOOD" "FRUT" "FISH" "WOOL" "POTA" "SAND" "GLAS" "WDPR" "DYES" "FERT" "PASS" "RFPR" "VEHI" "PETR" "BRCK"
       "SULP" "CMNT" "FICR" "LIME" "MILK" "TOUR" "OLSD"
 
