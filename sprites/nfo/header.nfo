@@ -156,7 +156,7 @@
 
 
 -1 * 0  11 \b1 00
--1 ** sprites/sounds/Metro3.wav
+-1 ** sprites/sounds/metro3.wav
 -1 * 0  00 0C 02 01 49 08 80 0A \b71
 
 //----------------------------
