@@ -283,7 +283,7 @@
 -1 * 0  02 00 A0 01 01 03 00 03 00 // P-list
 
 // P-list things
--1 * 0  02 00 A1 81 0C 00 FF 01 48 80 23 23 A0 00 // Purchise Screen text
+-1 * 0  02 00 A1 81 0C 00 FF 01 47 80 23 23 A0 00 // Purchise Screen text
 
 // Light/panto at back
 -1 * 0  02 00 B2 81 40 08 FF 01 B1 00 00 00 B0 00

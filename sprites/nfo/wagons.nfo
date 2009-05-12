@@ -433,7 +433,7 @@
 -1 sprites/wagons/pcx/newpax.pcx 	66	480	1	18	22	-11	-10
 -1 sprites/wagons/pcx/newpax.pcx 	89	480	1	24	8	-3	-11
 -1 sprites/wagons/pcx/newpax.pcx 	98	480	1	18	22	-11	-10
--1 sprites/wagons/pcx/newpax.pcx 	121	480	1	14	32	-1	-10
+-1 sprites/wagons/pcx/newpax.pcx 	121	480	1	14	32	-16	-10
 -1 sprites/wagons/pcx/newpax.pcx 	154	480	1	18	22	-11	-10
 
 // Format: spritenum pcxfile 							
