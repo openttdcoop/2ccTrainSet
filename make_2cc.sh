@@ -22,9 +22,9 @@ cat a0a4.nfo engine.nfo mus.nfo metro.nfo > ../9.nfo
 cd ../10w-eu
 cat a0a4.nfo engine.nfo mus.nfo metro.nfo > ../A.nfo
 cd ..
-cat header.nfo wagons.nfo 2.nfo 3.nfo 4.nfo 5.nfo 6.nfo 7.nfo 8.nfo 9.nfo A.nfo metrorail.nfo regsel.nfo > ../2cc.nfo
+cat 0header.nfo 1wagons.nfo 2.nfo 3.nfo 4.nfo 5.nfo 6.nfo 7.nfo 8.nfo 9.nfo A.nfo metrorail.nfo regsel.nfo > ../2cc.nfo
 
 cd ../..
 renum -k 2cc.nfo
-ECHO Running GRFCodec. . .
+echo Running GRFCodec. . .
 grfcodec -c -e -p 2 2cc.nfo
