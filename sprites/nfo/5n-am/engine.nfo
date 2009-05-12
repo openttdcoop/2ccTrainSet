@@ -223,14 +223,14 @@
 -1 * 0  01 00 01 08
 // Engine
 // Format: spritenum pcxfile  xpos 							
--1 sprites/engines_updated/pcx/sdp-40f.pcx 	1	1	1	24	8	-3	-12
--1 sprites/engines_updated/pcx/sdp-40f.pcx 	10	1	1	17	22	-11	-9
--1 sprites/engines_updated/pcx/sdp-40f.pcx 	33	1	1	13	32	-16	-9
--1 sprites/engines_updated/pcx/sdp-40f.pcx 	66	1	1	17	22	-11	-9
--1 sprites/engines_updated/pcx/sdp-40f.pcx 	89	1	1	24	8	-3	-13
--1 sprites/engines_updated/pcx/sdp-40f.pcx 	98	1	1	17	22	-11	-9
--1 sprites/engines_updated/pcx/sdp-40f.pcx 	121	1	1	13	32	-16	-9
--1 sprites/engines_updated/pcx/sdp-40f.pcx 	154	1	1	17	22	-11	-9
+-1 sprites/engines_updated/pcx/SDP-40F.pcx 	1	1	1	24	8	-3	-12
+-1 sprites/engines_updated/pcx/SDP-40F.pcx 	10	1	1	17	22	-11	-9
+-1 sprites/engines_updated/pcx/SDP-40F.pcx 	33	1	1	13	32	-16	-9
+-1 sprites/engines_updated/pcx/SDP-40F.pcx 	66	1	1	17	22	-11	-9
+-1 sprites/engines_updated/pcx/SDP-40F.pcx 	89	1	1	24	8	-3	-13
+-1 sprites/engines_updated/pcx/SDP-40F.pcx 	98	1	1	17	22	-11	-9
+-1 sprites/engines_updated/pcx/SDP-40F.pcx 	121	1	1	13	32	-16	-9
+-1 sprites/engines_updated/pcx/SDP-40F.pcx 	154	1	1	17	22	-11	-9
 
 
 -1 * 0  02 00 AA 01 01 00 00 00 00
@@ -238,14 +238,14 @@
 -1 * 0  01 00 01 08
 // 2nd part
 // Format: spritenum pcxfile  xpos 							
--1 sprites/engines_updated/pcx/sdp-40f.pcx 	89	1	1	24	8	-3	-13
--1 sprites/engines_updated/pcx/sdp-40f.pcx 	98	1	1	17	22	-11	-9
--1 sprites/engines_updated/pcx/sdp-40f.pcx 	121	1	1	13	32	-16	-9
--1 sprites/engines_updated/pcx/sdp-40f.pcx 	154	1	1	17	22	-11	-9
--1 sprites/engines_updated/pcx/sdp-40f.pcx 	1	1	1	24	8	-3	-12
--1 sprites/engines_updated/pcx/sdp-40f.pcx 	10	1	1	17	22	-11	-9
--1 sprites/engines_updated/pcx/sdp-40f.pcx 	33	1	1	13	32	-16	-9
--1 sprites/engines_updated/pcx/sdp-40f.pcx 	66	1	1	17	22	-11	-9
+-1 sprites/engines_updated/pcx/SDP-40F.pcx 	89	1	1	24	8	-3	-13
+-1 sprites/engines_updated/pcx/SDP-40F.pcx 	98	1	1	17	22	-11	-9
+-1 sprites/engines_updated/pcx/SDP-40F.pcx 	121	1	1	13	32	-16	-9
+-1 sprites/engines_updated/pcx/SDP-40F.pcx 	154	1	1	17	22	-11	-9
+-1 sprites/engines_updated/pcx/SDP-40F.pcx 	1	1	1	24	8	-3	-12
+-1 sprites/engines_updated/pcx/SDP-40F.pcx 	10	1	1	17	22	-11	-9
+-1 sprites/engines_updated/pcx/SDP-40F.pcx 	33	1	1	13	32	-16	-9
+-1 sprites/engines_updated/pcx/SDP-40F.pcx 	66	1	1	17	22	-11	-9
 
 -1 * 0  02 00 AB 01 01 00 00 00 00
 // 50% cheaper running cost on B-unit
@@ -257,7 +257,7 @@
 // Format: spritenum pcxfile 			xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
 -1 * 0  0
 -1 * 0  0
--1 sprites/engines_updated/pcx/sdp-40f.pcx 	1	48	01 	12 	87	-25 	-8	3
+-1 sprites/engines_updated/pcx/SDP-40F.pcx 	1	48	01 	12 	87	-25 	-8	3
 -1 * 0  0
 
 // Action2; Purch List
