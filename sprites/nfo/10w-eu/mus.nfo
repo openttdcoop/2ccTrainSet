@@ -2138,46 +2138,46 @@
 
 
 // ############ VT612 ##########
-//Action1: vt612
+//Action1: VT612
 -1 * 0  01 00 04 08
 // Head
 // Format: spritenum pcxfile xpos ypos comp ysize xsize xrel yrel dir							
--1 sprites/mus/pcx/vt612.pcx	1	1	1	24	8	-3	-12
--1 sprites/mus/pcx/vt612.pcx	10	1	1	18	22	-11	-10
--1 sprites/mus/pcx/vt612.pcx	33	1	1	14	32	-16	-10
--1 sprites/mus/pcx/vt612.pcx	66	1	1	18	22	-11	-10
--1 sprites/mus/pcx/vt612.pcx	89	1	1	24	8	-3	-12
--1 sprites/mus/pcx/vt612.pcx	98	1	1	18	22	-11	-10
--1 sprites/mus/pcx/vt612.pcx	121	1	1	14	32	-16	-10
--1 sprites/mus/pcx/vt612.pcx	154	1	1	18	22	-11	-10
+-1 sprites/mus/pcx/VT612.pcx	1	1	1	24	8	-3	-12
+-1 sprites/mus/pcx/VT612.pcx	10	1	1	18	22	-11	-10
+-1 sprites/mus/pcx/VT612.pcx	33	1	1	14	32	-16	-10
+-1 sprites/mus/pcx/VT612.pcx	66	1	1	18	22	-11	-10
+-1 sprites/mus/pcx/VT612.pcx	89	1	1	24	8	-3	-12
+-1 sprites/mus/pcx/VT612.pcx	98	1	1	18	22	-11	-10
+-1 sprites/mus/pcx/VT612.pcx	121	1	1	14	32	-16	-10
+-1 sprites/mus/pcx/VT612.pcx	154	1	1	18	22	-11	-10
 //End							
--1 sprites/mus/pcx/vt612.pcx	1	32	1	24	8	-3	-12
--1 sprites/mus/pcx/vt612.pcx	10	32	1	18	22	-11	-10
--1 sprites/mus/pcx/vt612.pcx	33	32	1	14	32	-16	-10
--1 sprites/mus/pcx/vt612.pcx	66	32	1	18	22	-11	-10
--1 sprites/mus/pcx/vt612.pcx	89	32	1	24	8	-3	-12
--1 sprites/mus/pcx/vt612.pcx	98	32	1	18	22	-11	-10
--1 sprites/mus/pcx/vt612.pcx	121	32	1	14	32	-16	-10
--1 sprites/mus/pcx/vt612.pcx	154	32	1	18	22	-11	-10
+-1 sprites/mus/pcx/VT612.pcx	1	32	1	24	8	-3	-12
+-1 sprites/mus/pcx/VT612.pcx	10	32	1	18	22	-11	-10
+-1 sprites/mus/pcx/VT612.pcx	33	32	1	14	32	-16	-10
+-1 sprites/mus/pcx/VT612.pcx	66	32	1	18	22	-11	-10
+-1 sprites/mus/pcx/VT612.pcx	89	32	1	24	8	-3	-12
+-1 sprites/mus/pcx/VT612.pcx	98	32	1	18	22	-11	-10
+-1 sprites/mus/pcx/VT612.pcx	121	32	1	14	32	-16	-10
+-1 sprites/mus/pcx/VT612.pcx	154	32	1	18	22	-11	-10
 // PAX
 // Format: spritenum pcxfile  xpos  ypos  comp ysize  xsize  xrel  yrel dir							
--1 sprites/mus/pcx/vt612.pcx	1	64	1	24	8	-3	-12
--1 sprites/mus/pcx/vt612.pcx	10	64	1	18	22	-11	-10
--1 sprites/mus/pcx/vt612.pcx	33	64	1	14	32	-16	-10
--1 sprites/mus/pcx/vt612.pcx	66	64	1	18	22	-11	-10
--1 sprites/mus/pcx/vt612.pcx	1	64	1	24	8	-3	-12
--1 sprites/mus/pcx/vt612.pcx	10	64	1	18	22	-11	-10
--1 sprites/mus/pcx/vt612.pcx	33	64	1	14	32	-16	-10
--1 sprites/mus/pcx/vt612.pcx	66	64	1	18	22	-11	-10
+-1 sprites/mus/pcx/VT612.pcx	1	64	1	24	8	-3	-12
+-1 sprites/mus/pcx/VT612.pcx	10	64	1	18	22	-11	-10
+-1 sprites/mus/pcx/VT612.pcx	33	64	1	14	32	-16	-10
+-1 sprites/mus/pcx/VT612.pcx	66	64	1	18	22	-11	-10
+-1 sprites/mus/pcx/VT612.pcx	1	64	1	24	8	-3	-12
+-1 sprites/mus/pcx/VT612.pcx	10	64	1	18	22	-11	-10
+-1 sprites/mus/pcx/VT612.pcx	33	64	1	14	32	-16	-10
+-1 sprites/mus/pcx/VT612.pcx	66	64	1	18	22	-11	-10
 
 // Format: spritenum pcxfile 	xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
 -1 * 0 0
 -1 * 0 0
--1 sprites/mus/pcx/vt612.pcx 	1    1	    01 	    1	   1	    0 	0	  3
+-1 sprites/mus/pcx/VT612.pcx 	1    1	    01 	    1	   1	    0 	0	  3
 -1 * 0 0
 -1 * 0 0
 -1 * 0 0
--1 sprites/mus/pcx/vt612.pcx 	1    128	    01 	    12	   87	    -11 	-8	  7
+-1 sprites/mus/pcx/VT612.pcx 	1    128	    01 	    12	   87	    -11 	-8	  7
 -1 * 0 0
 
 -1 * 0  02 00 C0 01 01 \w0 \w0 // Head
@@ -2402,22 +2402,22 @@
 // ----------------------
 
 
-// ############ vt133 #############
+// ############ VT133 #############
 
-//Action1: vt133
+//Action1: VT133
 -1 * 0  01 00 01 08
 // Format: spritenum pcxfile 							
--1 sprites/mus/pcx/vt133.pcx 	1	1	1	24	8	-3	-12
--1 sprites/mus/pcx/vt133.pcx 	10	1	1	18	22	-11	-10
--1 sprites/mus/pcx/vt133.pcx 	33	1	1	14	32	-16	-10
--1 sprites/mus/pcx/vt133.pcx 	66	1	1	18	22	-11	-10
--1 sprites/mus/pcx/vt133.pcx 	89	1	1	24	8	-3	-12
--1 sprites/mus/pcx/vt133.pcx 	98	1	1	18	22	-11	-10
--1 sprites/mus/pcx/vt133.pcx 	121	1	1	14	32	-16	-10
--1 sprites/mus/pcx/vt133.pcx 	154	1	1	18	22	-11	-10
+-1 sprites/mus/pcx/VT133.pcx 	1	1	1	24	8	-3	-12
+-1 sprites/mus/pcx/VT133.pcx 	10	1	1	18	22	-11	-10
+-1 sprites/mus/pcx/VT133.pcx 	33	1	1	14	32	-16	-10
+-1 sprites/mus/pcx/VT133.pcx 	66	1	1	18	22	-11	-10
+-1 sprites/mus/pcx/VT133.pcx 	89	1	1	24	8	-3	-12
+-1 sprites/mus/pcx/VT133.pcx 	98	1	1	18	22	-11	-10
+-1 sprites/mus/pcx/VT133.pcx 	121	1	1	14	32	-16	-10
+-1 sprites/mus/pcx/VT133.pcx 	154	1	1	18	22	-11	-10
 
 
-// Action 2: vt133
+// Action 2: VT133
 -1 * 0  02 00 AA 01 01 00 00 00 00
 // Connectable?
 -1 * 0	02 00 AD 85 C6 00 FF FF 01 FE 80 \w10301 \w10301 F7 80
@@ -2427,7 +2427,7 @@
 -1 * 0  01 00 01 04
 -1 * 0  0
 -1 * 0  0
--1 sprites/mus/pcx/vt133.pcx 	1	32 	01 	12 	77	-15 	-8	7
+-1 sprites/mus/pcx/VT133.pcx 	1	32 	01 	12 	77	-15 	-8	7
 -1 * 0  0
 
 //Action2: Purch List
