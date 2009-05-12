@@ -288,28 +288,28 @@
 -1 * 0  01 00 01 08
 // Engine
 // Format: spritenum pcxfile  xpos 							
--1 sprites/engines_updated/pcx/mlw-m420w.pcx 	1	1	1	24	8	-3	-12
--1 sprites/engines_updated/pcx/mlw-m420w.pcx 	10	1	1	17	22	-11	-9
--1 sprites/engines_updated/pcx/mlw-m420w.pcx 	33	1	1	12	32	-16	-8
--1 sprites/engines_updated/pcx/mlw-m420w.pcx 	66	1	1	17	22	-11	-9
--1 sprites/engines_updated/pcx/mlw-m420w.pcx 	89	1	1	24	8	-3	-13
--1 sprites/engines_updated/pcx/mlw-m420w.pcx 	98	1	1	17	22	-11	-9
--1 sprites/engines_updated/pcx/mlw-m420w.pcx 	121	1	1	12	32	-16	-8
--1 sprites/engines_updated/pcx/mlw-m420w.pcx 	154	1	1	17	22	-11	-9
+-1 sprites/engines_updated/pcx/MLW-M420W.pcx 	1	1	1	24	8	-3	-12
+-1 sprites/engines_updated/pcx/MLW-M420W.pcx 	10	1	1	17	22	-11	-9
+-1 sprites/engines_updated/pcx/MLW-M420W.pcx 	33	1	1	12	32	-16	-8
+-1 sprites/engines_updated/pcx/MLW-M420W.pcx 	66	1	1	17	22	-11	-9
+-1 sprites/engines_updated/pcx/MLW-M420W.pcx 	89	1	1	24	8	-3	-13
+-1 sprites/engines_updated/pcx/MLW-M420W.pcx 	98	1	1	17	22	-11	-9
+-1 sprites/engines_updated/pcx/MLW-M420W.pcx 	121	1	1	12	32	-16	-8
+-1 sprites/engines_updated/pcx/MLW-M420W.pcx 	154	1	1	17	22	-11	-9
 
 -1 * 0  02 00 AA 01 01 00 00 00 00
 
 -1 * 0  01 00 01 08
 // 2nd part
 // Format: spritenum pcxfile  xpos 							
--1 sprites/engines_updated/pcx/mlw-m420w.pcx 	89	1	1	24	8	-3	-13
--1 sprites/engines_updated/pcx/mlw-m420w.pcx 	98	1	1	17	22	-11	-9
--1 sprites/engines_updated/pcx/mlw-m420w.pcx 	121	1	1	12	32	-16	-8
--1 sprites/engines_updated/pcx/mlw-m420w.pcx 	154	1	1	17	22	-11	-9
--1 sprites/engines_updated/pcx/mlw-m420w.pcx 	1	1	1	24	8	-3	-12
--1 sprites/engines_updated/pcx/mlw-m420w.pcx 	10	1	1	17	22	-11	-9
--1 sprites/engines_updated/pcx/mlw-m420w.pcx 	33	1	1	12	32	-16	-8
--1 sprites/engines_updated/pcx/mlw-m420w.pcx 	66	1	1	17	22	-11	-9
+-1 sprites/engines_updated/pcx/MLW-M420W.pcx 	89	1	1	24	8	-3	-13
+-1 sprites/engines_updated/pcx/MLW-M420W.pcx 	98	1	1	17	22	-11	-9
+-1 sprites/engines_updated/pcx/MLW-M420W.pcx 	121	1	1	12	32	-16	-8
+-1 sprites/engines_updated/pcx/MLW-M420W.pcx 	154	1	1	17	22	-11	-9
+-1 sprites/engines_updated/pcx/MLW-M420W.pcx 	1	1	1	24	8	-3	-12
+-1 sprites/engines_updated/pcx/MLW-M420W.pcx 	10	1	1	17	22	-11	-9
+-1 sprites/engines_updated/pcx/MLW-M420W.pcx 	33	1	1	12	32	-16	-8
+-1 sprites/engines_updated/pcx/MLW-M420W.pcx 	66	1	1	17	22	-11	-9
 
 -1 * 0  02 00 AB 01 01 00 00 00 00
 // 50% cheaper running cost on B-unit
@@ -322,7 +322,7 @@
 // Format: spritenum pcxfile 			xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
 -1 * 0  0
 -1 * 0  0
--1 sprites/engines_updated/pcx/mlw-m420w.pcx 	1	64	01 	12 	87 	-25 	-8	3
+-1 sprites/engines_updated/pcx/MLW-M420W.pcx 	1	64	01 	12 	87 	-25 	-8	3
 -1 * 0  0
 
 // Action2; Purch List
