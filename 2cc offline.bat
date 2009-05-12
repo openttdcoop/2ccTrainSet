@@ -12,7 +12,7 @@ copy /Y nfo\8scandinavia\a0a4.nfo+nfo\8scandinavia\engine.nfo+nfo\8scandinavia\m
 copy /Y nfo\9s-eu\a0a4.nfo+nfo\9s-eu\engine.nfo+nfo\9s-eu\mus.nfo+nfo\9s-eu\metro.nfo nfo\9.nfo
 copy /Y nfo\10w-eu\a0a4.nfo+nfo\10w-eu\engine.nfo+nfo\10w-eu\mus.nfo+nfo\10w-eu\metro.nfo nfo\10.nfo
 Echo on
-copy /Y nfo\header.nfo+nfo\wagons.nfo+nfo\2.nfo+nfo\3.nfo+nfo\4.nfo+nfo\5.nfo+nfo\6.nfo+nfo\7.nfo+nfo\8.nfo+nfo\9.nfo+nfo\10.nfo+nfo\metrorail.nfo+nfo\regsel.nfo 2ccdj.nfo
+copy /Y nfo\0header.nfo+nfo\1wagons.nfo+nfo\2.nfo+nfo\3.nfo+nfo\4.nfo+nfo\5.nfo+nfo\6.nfo+nfo\7.nfo+nfo\8.nfo+nfo\9.nfo+nfo\10.nfo+nfo\metrorail.nfo+nfo\11regsel.nfo 2ccdj.nfo
 
 cd ..
 ECHO Running NFORenum. . .
