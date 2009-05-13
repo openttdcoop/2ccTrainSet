@@ -16,6 +16,6 @@ cat 10w-eu/*.nfo > ./10.nfo
 cat *.nfo > ../2ccdj.nfo
 
 cd ../..
-renum -k 2ccdj.nfo
+renum -2ccdj.nfo
 echo Running GRFCodec. . .
-grfcodec -c -e -p 2 2ccdj.nfo
+grfcodec -c -e -p 2 2ccdj.grf
