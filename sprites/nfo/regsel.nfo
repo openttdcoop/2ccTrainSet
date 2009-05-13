@@ -13,7 +13,8 @@
 // EMUs
 -1 * 0  00 00 \b1 01 \b*8507	1A \b*10300	//	X2000 (Sweden)
 -1 * 0  00 00 \b1 01 \b*10515	1A \b*8507	//	TGV Thalys (France)
--1 * 0  00 00 \b1 01 \b*10514	1A \b*10515	//	TGV Duplex (France)
+-1 * 0  00 00 \b1 01 \b30	1A \b*10515	//	TGV POS V150
+-1 * 0  00 00 \b1 01 \b*10514	1A \b30		//	TGV Duplex (France)
 -1 * 0  00 00 \b1 01 \b*10513	1A \b*10514	//	TGV Atlantique (France)
 -1 * 0  00 00 \b1 01 \b*8506	1A \b*10513	//	Sm4 (Finland)
 -1 * 0  00 00 \b1 01 \b*8505	1A \b*8506	//	Sm2 (Finland)
@@ -21,7 +22,7 @@
 -1 * 0  00 00 \b1 01 \b*10511	1A \b*10512	//	rabde510 (Switzerland)
 -1 * 0  00 00 \b1 01 \b*10510	1A \b*10511	//	Plan Y (Netherlands)
 -1 * 0  00 00 \b1 01 \b*7501	1A \b*10510	//	OSC (Australia)
--1 * 0  00 00 \b1 01 \b*10518 1A \b*7501  //  Mat36
+-1 * 0  00 00 \b1 01 \b*10518	1A \b*7501	//	Mat36
 -1 * 0  00 00 \b1 01 \b*10509	1A \b*10518	//	Mat24 (Netherlands)
 -1 * 0  00 00 \b1 01 \b*10508	1A \b*10509	//	ICM (Netherlands)
 -1 * 0  00 00 \b1 01 \b*10507	1A \b*10508	//	ICE-3 (Germany)
