@@ -3,28 +3,19 @@
 
 Echo Compiling files to one .nfo
 cd sprites/nfo
-cd 2africa
-cat a0a4.nfo engine.nfo mus.nfo metro.nfo > ../2.nfo
-cd ../3asia
-cat a0a4.nfo engine.nfo mus.nfo metro.nfo > ../3.nfo
-cd ../4e-eu
-cat a0a4.nfo engine.nfo mus.nfo metro.nfo > ../4.nfo
-cd ../5n-am
-cat a0a4.nfo engine.nfo mus.nfo metro.nfo > ../5.nfo
-cd ../6s-am
-cat a0a4.nfo engine.nfo mus.nfo metro.nfo > ../6.nfo
-cd ../7ocean
-cat a0a4.nfo engine.nfo mus.nfo metro.nfo > ../7.nfo
-cd ../8scandinavia
-cat a0a4.nfo engine.nfo mus.nfo metro.nfo > ../8.nfo
-cd ../9s-eu
-cat a0a4.nfo engine.nfo mus.nfo metro.nfo > ../9.nfo
-cd ../10w-eu
-cat a0a4.nfo engine.nfo mus.nfo metro.nfo > ../A.nfo
-cd ..
-cat 0header.nfo 1wagons.nfo 2.nfo 3.nfo 4.nfo 5.nfo 6.nfo 7.nfo 8.nfo 9.nfo A.nfo metrorail.nfo regsel.nfo > ../2cc.nfo
+cat 2africa/*.nfo > ./02.nfo
+cat 3asia/*.nfo > ./03.nfo
+cat 4e-eu/*.nfo > ./04.nfo
+cat 5n-am/*.nfo > ./05.nfo
+cat 6s-am/*.nfo > ./06.nfo
+cat 7ocean/*.nfo > ./07.nfo
+cat 8scandinavia/*.nfo > ./08.nfo
+cat 9s-eu/*.nfo > ./09.nfo
+cat 10w-eu/*.nfo > ./10.nfo
+
+cat *.nfo > ../2ccdj.nfo
 
 cd ../..
-renum -k 2cc.nfo
+renum -k 2ccdj.nfo
 echo Running GRFCodec. . .
-grfcodec -c -e -p 2 2cc.nfo
+grfcodec -c -e -p 2 2ccdj.nfo
