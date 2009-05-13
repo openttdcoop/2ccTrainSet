@@ -138,26 +138,10 @@
 -1 * 2	 10 F0
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Some stuff
 -1 * 9	 0D 9E 08 9E FF 08 00 00 00 // Draw all 32 px in the depot view
 -1 * 9	 0D 8E \D= FF 00 02 00 00 00 // Drop 2px in depot view
 
-
--1 * 0  11 \b1 00
--1 ** sprites/sounds/metro3.wav
--1 * 0  00 0C 02 01 49 08 80 0A \b71
 
 //----------------------------
 //--------Div Text -----------
