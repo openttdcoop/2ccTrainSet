@@ -1,5 +1,7 @@
 #!/bin/sh
 #
+rm sprites/2cc*.nfo*
+rm sprites/nfo/??.nfo
 
 echo Compiling files to one .nfo
 cd sprites/nfo
@@ -16,6 +18,6 @@ cat 10w-eu/*.nfo > ./10.nfo
 cat *.nfo > ../2ccdj.nfo
 
 cd ../..
-./renum -w 42,94,141,143,144,147,17 2ccdj.nfo
+renum -w 42,94,141,143,144,147,17 2ccdj.nfo
 echo Running GRFCodec. . .
 grfcodec -c -e -p 2 2ccdj.grf
