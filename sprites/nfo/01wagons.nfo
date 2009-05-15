@@ -4,20 +4,20 @@
 
 
 //  names
--1 * 0  04 00 7F 01 5D "          Double Decker 4th gen" 00
+-1 * 0  04 00 7F 01 5D "            Double Decker 4th gen" 00
 -1 * 0  04 00 7F 01 5F "2CC xMU Express Wagon" 00
--1 * 0  04 00 7F 01 60 "Flatbed Wagon (Long)" 00
--1 * 0  04 00 7F 01 61 "Tanker Wagon (Long)" 00
--1 * 0  04 00 7F 01 62 "Silo Wagon (Long)" 00
--1 * 0  04 00 7F 01 63 "Selfdischarging Hopper" 00
--1 * 0  04 00 7F 01 64 "Livestock Wagon" 00
--1 * 0  04 00 7F 01 65 "Boxcar (Long)" 00
--1 * 0  04 00 7F 01 66 "Boxcar (Short)" 00
--1 * 0  04 00 7F 01 67 "Tanker (Short)" 00
--1 * 0  04 00 7F 01 68 "Silo (Short)" 00
--1 * 0	04 00 7F 01 69 "Hopper (Short)" 00
--1 * 0	04 00 7F 01 6A "Livestock Wagon (Short)" 00
--1 * 0	04 00 7F 01 6B "Gondola (Short)" 00
+-1 * 0  04 00 7F 01 60 "     Flatbed Wagon (Long)" 00
+-1 * 0  04 00 7F 01 61 "     Tanker Wagon (Long)" 00
+-1 * 0  04 00 7F 01 62 "     Silo Wagon (Long)" 00
+-1 * 0  04 00 7F 01 63 "     Selfdischarging Hopper" 00
+-1 * 0  04 00 7F 01 64 "     Livestock Wagon" 00
+-1 * 0  04 00 7F 01 65 "     Boxcar (Long)" 00
+-1 * 0  04 00 7F 01 66 "     Boxcar (Short)" 00
+-1 * 0  04 00 7F 01 67 "     Tanker (Short)" 00
+-1 * 0  04 00 7F 01 68 "     Silo (Short)" 00
+-1 * 0	04 00 7F 01 69 "     Hopper (Short)" 00
+-1 * 0	04 00 7F 01 6A "     Livestock Wagon (Short)" 00
+-1 * 0	04 00 7F 01 6B "     Gondola (Short)" 00
 -1 * 0  00 00 01 01 6C 06 00
 
 -1 * 0  04 00 7F 01 70 "2CC xMU Pax Coach" 00
@@ -25,32 +25,32 @@
 -1 * 0  04 00 7F 01 72 "Metro Van" 00
 -1 * 0  04 00 7F 01 73 "Tender" 00
 	
--1 * 0  04 00 7F 01 \b120 "2nd Class Coach 1st gen" 00
--1 * 0  04 00 7F 01 \b121 "2nd Class Coach 2nd gen" 00
--1 * 0  04 00 7F 01 \b122 "2nd Class Coach 3rd gen" 00
--1 * 0  04 00 7F 01 \b123 "2nd Class Coach 4th gen" 00
--1 * 0  04 00 7F 01 \b124 "2nd Class Coach 5th gen" 00
+-1 * 0  04 00 7F 01 \b120 "     2nd Class Coach 1st gen" 00
+-1 * 0  04 00 7F 01 \b121 "     2nd Class Coach 2nd gen" 00
+-1 * 0  04 00 7F 01 \b122 "     2nd Class Coach 3rd gen" 00
+-1 * 0  04 00 7F 01 \b123 "     2nd Class Coach 4th gen" 00
+-1 * 0  04 00 7F 01 \b124 "     2nd Class Coach 5th gen" 00
 
--1 * 0  04 00 7F 01 \b125 "1st Class Coach 1st gen" 00
--1 * 0  04 00 7F 01 \b126 "1st Class Coach 2nd gen" 00
--1 * 0  04 00 7F 01 \b127 "1st Class Coach 3rd gen" 00
--1 * 0  04 00 7F 01 \b128 "1st Class Coach 4th gen" 00
--1 * 0  04 00 7F 01 \b129 "1st Class Coach 5th gen" 00
+-1 * 0  04 00 7F 01 \b125 "     1st Class Coach 1st gen" 00
+-1 * 0  04 00 7F 01 \b126 "     1st Class Coach 2nd gen" 00
+-1 * 0  04 00 7F 01 \b127 "     1st Class Coach 3rd gen" 00
+-1 * 0  04 00 7F 01 \b128 "     1st Class Coach 4th gen" 00
+-1 * 0  04 00 7F 01 \b129 "     1st Class Coach 5th gen" 00
 
--1 * 0  04 00 7F 01 \b130 "Tourist Class Coach 1st gen" 00
--1 * 0  04 00 7F 01 \b131 "Tourist Class Coach 2nd gen" 00
--1 * 0  04 00 7F 01 \b132 "Tourist Class Coach 3rd gen" 00
--1 * 0  04 00 7F 01 \b133 "Tourist Class Coach 4th gen" 00
--1 * 0  04 00 7F 01 \b134 "Tourist Class Coach 5th gen" 00
+-1 * 0  04 00 7F 01 \b130 "     Tourist Class Coach 1st gen" 00
+-1 * 0  04 00 7F 01 \b131 "     Tourist Class Coach 2nd gen" 00
+-1 * 0  04 00 7F 01 \b132 "     Tourist Class Coach 3rd gen" 00
+-1 * 0  04 00 7F 01 \b133 "     Tourist Class Coach 4th gen" 00
+-1 * 0  04 00 7F 01 \b134 "     Tourist Class Coach 5th gen" 00
 
--1 * 0  04 00 7F 01 \b135 "Express Coach 1st gen" 00
--1 * 0  04 00 7F 01 \b136 "Express Coach 2nd gen" 00
--1 * 0  04 00 7F 01 \b137 "Express Coach 3rd gen" 00
--1 * 0  04 00 7F 01 \b138 "Express Coach 4th gen" 00
--1 * 0  04 00 7F 01 \b139 "Express Coach 5th gen" 00
+-1 * 0  04 00 7F 01 \b135 "         Express Coach 1st gen" 00
+-1 * 0  04 00 7F 01 \b136 "         Express Coach 2nd gen" 00
+-1 * 0  04 00 7F 01 \b137 "         Express Coach 3rd gen" 00
+-1 * 0  04 00 7F 01 \b138 "         Express Coach 4th gen" 00
+-1 * 0  04 00 7F 01 \b139 "         Express Coach 5th gen" 00
 
--1 * 0  04 00 7F 01 \b*1100 "Refridgerated car" 00
--1 * 0  04 00 7F 01 \b*1101 "Intermediate Boxcar" 00
+-1 * 0  04 00 7F 01 \b*1100 "     Refridgerated car" 00
+-1 * 0  04 00 7F 01 \b*1101 "     Intermediate Boxcar" 00
 -1 * 0  04 00 7F 01 \b*1102 "     Doubledecker 5th gen" 00
 
 
@@ -176,7 +176,7 @@
 -1 * 0  00 00 \b17 01 68 00 \w1920-01-01 04 \b50 05 00 06 07 07 05 09 \w160 12 FD 14 \b27 15 06 16 \b26 17 \b64 1C 00 21 02 27 02 28 \w64 29 \w11 1D \dx110
 
 // short Hopper
--1 * 0  00 00 \b16 01 69 00 \w1920-01-01 04 \b50 05 00 06 07 07 05 09 \w160 12 FD 14 \b30 15 03 16 \b23 17 \b60 1C 00 21 03 27 02 28 \w16 29 \w975
+-1 * 0  00 00 \b16 01 69 00 \w1920-01-01 04 \b50 05 00 06 07 07 05 09 \w160 12 FD 14 \b30 15 01 16 \b23 17 \b60 1C 00 21 03 27 02 28 \w16 29 \w975
 
 // Livestock Short
 -1 * 0  00 00 \b14 01 6A 00 \w1920-01-01 04 \b50 05 00 06 07 07 07 09 \w160 12 FD 14 \b25 15 04 16 \b17 17 \b78 1C 00 21 03 27 02 
@@ -497,30 +497,76 @@
 -1 * 0  02 00 E3 01 01 \w18 \w18 //
 -1 * 0  02 00 E4 01 01 \w19 \w19 //
 
+-1 * 0  01 00 \b20 01
+-1 sprites/wagons/pcx/newpax.pcx 	176	1	1	12	63	-25	-8
+-2 sprites/wagons/pcx/newpax.pcx 	176	32	1	12	63	-25	-8
+-2 sprites/wagons/pcx/newpax.pcx 	176	64	1	12	63	-25	-8
+-3 sprites/wagons/pcx/newpax.pcx 	176	96	1	12	63	-25	-8
+-4 sprites/wagons/pcx/newpax.pcx 	176	128	1	12	63	-25	-8
+-5 sprites/wagons/pcx/newpax.pcx 	176	160	1	12	63	-25	-8
+-6 sprites/wagons/pcx/newpax.pcx 	176	192	1	12	63	-25	-8
+-7 sprites/wagons/pcx/newpax.pcx 	176	224	1	12	63	-25	-8
+-8 sprites/wagons/pcx/newpax.pcx 	176	256	1	12	63	-25	-8
+-9 sprites/wagons/pcx/newpax.pcx 	176	288	1	12	63	-25	-8
+-0 sprites/wagons/pcx/newpax.pcx 	176	320	1	12	63	-25	-8
+-1 sprites/wagons/pcx/newpax.pcx 	176	352	1	12	63	-25	-8
+-2 sprites/wagons/pcx/newpax.pcx 	176	384	1	12	63	-25	-8
+-3 sprites/wagons/pcx/newpax.pcx 	176	416	1	12	63	-25	-8
+-4 sprites/wagons/pcx/newpax.pcx 	176	448	1	12	63	-25	-8
+-5 sprites/wagons/pcx/newpax.pcx 	176	480	1	12	63	-25	-8
+-6 sprites/wagons/pcx/newpax.pcx 	176	512	1	12	63	-25	-8
+-7 sprites/wagons/pcx/newpax.pcx 	176	544	1	12	63	-25	-8
+-8 sprites/wagons/pcx/newpax.pcx 	176	576	1	12	63	-25	-8
+-9 sprites/wagons/pcx/newpax.pcx 	176	608	1	12	63	-25	-8
+
+
+-1 * 0  02 00 11 01 01 \w0 \w0 // pre pax
+-1 * 0  02 00 12 01 01 \w1 \w1 // pre 1
+-1 * 0  02 00 13 01 01 \w2 \w2 // pre tou (ikke der)
+-1 * 0  02 00 14 01 01 \w3 \w3 // pre express
+-1 * 0  02 00 21 01 01 \w4 \w4 // 
+-1 * 0  02 00 22 01 01 \w5 \w5 // 
+-1 * 0  02 00 23 01 01 \w6 \w6 // 
+-1 * 0  02 00 24 01 01 \w7 \w7 // 
+-1 * 0  02 00 31 01 01 \w8 \w8 // 
+-1 * 0  02 00 32 01 01 \w9 \w9 // 
+-1 * 0  02 00 33 01 01 \w10 \w10 // 
+-1 * 0  02 00 34 01 01 \w11 \w11 //
+-1 * 0  02 00 41 01 01 \w12 \w12 //
+-1 * 0  02 00 42 01 01 \w13 \w13 // 48x28
+-1 * 0  02 00 43 01 01 \w14 \w14 // 1627
+-1 * 0  02 00 44 01 01 \w15 \w15 //
+-1 * 0  02 00 51 01 01 \w16 \w16 //
+-1 * 0  02 00 52 01 01 \w17 \w17 //
+-1 * 0  02 00 53 01 01 \w18 \w18 //
+-1 * 0  02 00 54 01 01 \w19 \w19 //
+
+
+
 // Action3 2nd
--1 * 0  03 00 01 \b120 00 A1 00
--1 * 0  03 00 01 \b121 00 B1 00
--1 * 0  03 00 01 \b122 00 C1 00
--1 * 0  03 00 01 \b123 00 D1 00
--1 * 0  03 00 01 \b124 00 E1 00
+-1 * 0  03 00 01 \b120 01 FF 11 00 A1 00
+-1 * 0  03 00 01 \b121 01 FF 21 00 B1 00
+-1 * 0  03 00 01 \b122 01 FF 31 00 C1 00
+-1 * 0  03 00 01 \b123 01 FF 41 00 D1 00
+-1 * 0  03 00 01 \b124 01 FF 51 00 E1 00
 // Action3 1st
--1 * 0  03 00 01 \b125 00 A2 00
--1 * 0  03 00 01 \b126 00 B2 00
--1 * 0  03 00 01 \b127 00 C2 00
--1 * 0  03 00 01 \b128 00 D2 00
--1 * 0  03 00 01 \b129 00 E2 00
+-1 * 0  03 00 01 \b125 01 FF 12 00 A2 00
+-1 * 0  03 00 01 \b126 01 FF 22 00 B2 00
+-1 * 0  03 00 01 \b127 01 FF 32 00 C2 00
+-1 * 0  03 00 01 \b128 01 FF 42 00 D2 00
+-1 * 0  03 00 01 \b129 01 FF 52 00 E2 00
 // Action3 trst
--1 * 0  03 00 01 \b130 00 A3 00
--1 * 0  03 00 01 \b131 00 B3 00
--1 * 0  03 00 01 \b132 00 C3 00
--1 * 0  03 00 01 \b133 00 D3 00
--1 * 0  03 00 01 \b134 00 E3 00
+-1 * 0  03 00 01 \b130 01 FF 13 00 A3 00
+-1 * 0  03 00 01 \b131 01 FF 23 00 B3 00
+-1 * 0  03 00 01 \b132 01 FF 33 00 C3 00
+-1 * 0  03 00 01 \b133 01 FF 43 00 D3 00
+-1 * 0  03 00 01 \b134 01 FF 53 00 E3 00
 // Action3 express
--1 * 0  03 00 01 \b135 00 A4 00
--1 * 0  03 00 01 \b136 00 B4 00
--1 * 0  03 00 01 \b137 00 C4 00
--1 * 0  03 00 01 \b138 00 D4 00
--1 * 0  03 00 01 \b139 00 E4 00
+-1 * 0  03 00 01 \b135 01 FF 14 00 A4 00
+-1 * 0  03 00 01 \b136 01 FF 24 00 B4 00
+-1 * 0  03 00 01 \b137 01 FF 34 00 C4 00
+-1 * 0  03 00 01 \b138 01 FF 44 00 D4 00
+-1 * 0  03 00 01 \b139 01 FF 54 00 E4 00
 
 
 
@@ -736,8 +782,6 @@
 -1 sprites/wagons/pcx/flatbed.pcx 	198	140	1	13	27	-14	-9
 -1 sprites/wagons/pcx/flatbed.pcx 	230	140	1	16	20	-10	-8
 
-
-
 // Action 2: Steel
 -1 * 0  02 00 A0 04 04 00 00 01 00 02 00 03 00 00 00 01 00 02 00 03 00
 // Action 2: Boxes
@@ -747,8 +791,13 @@
 // Action 2: Wood
 -1 * 0  02 00 A3 04 04 09 00 0A 00 0B 00 0C 00 09 00 0A 00 0B 00 0C 00
 
+// P-list
+-1 * 0  01 00 \b1 01
+-1 sprites/wagons/pcx/flatbed.pcx 	1	1	1	12	63	-25	-8
+-1 * 0  02 00 05 01 01 00 00 00 00
+
 // Action 3: 
--1 * 0  03 00 01 60 03 \b15 A0 00 \b20 A2 00 \b11 A3 00 A1 00
+-1 * 0  03 00 01 60 04 FF 05 00 \b15 A0 00 \b20 A2 00 \b11 A3 00 A1 00
 
 
 // ####### Flatbed Short ######
@@ -865,8 +914,12 @@
 // Action 2: Wood
 -1 * 0  02 00 A3 03 03 07 00 08 00 09 00 07 00 08 00 09 00
 
+// P-list
+-1 * 0  01 00 \b1 01
+-1 sprites/wagons/pcx/plain.pcx 	1	416	1	12	63	-25	-8
+-1 * 0  02 00 05 01 01 00 00 00 00
 // Action 3: 
--1 * 0  03 00 01 6B 03 \b15 A0 00 \b20 A2 00 \b11 A3 00 A1 00
+-1 * 0  03 00 01 6B 03 FF 05 00 \b15 A0 00 \b20 A2 00 \b11 A3 00 A1 00
 
 // ##### TANKER/SILO #####
 //Action1:
@@ -896,9 +949,15 @@
 -1 * 0  02 00 A0 01 01 00 00 00 00 // Tanker
 -1 * 0  02 00 A1 01 01 01 00 01 00 // Silo
 
+-1 * 0  01 00 \b2 01
+-1 sprites/wagons/pcx/tankerssilos.pcx	1	192	1	12	63	-25	-8
+-1 sprites/wagons/pcx/tankerssilos.pcx	1	208	1	12	63	-25	-8
+-1 * 0  02 00 05 01 01 00 00 00 00
+-1 * 0  02 00 06 01 01 01 00 01 00
+
 // Action 3's
--1 * 0  03 00 01 61 00 A0 00
--1 * 0  03 00 01 62 00 A1 00
+-1 * 0  03 00 01 61 01 FF 05 00 A0 00
+-1 * 0  03 00 01 62 01 FF 06 00 A1 00
 
 
 // ##### Tanker/Silo - Short #####
@@ -928,16 +987,24 @@
 -1 * 0  02 00 A0 01 01 00 00 00 00 // Tanker
 -1 * 0  02 00 A1 01 01 01 00 01 00 // Silo
 
+// P-list
+-1 * 0  01 00 02 01
+-1 sprites/wagons/pcx/tankersmall.pcx	177	1	1	12	63	-25	-8
+-1 sprites/wagons/pcx/tankersmall.pcx 	177	32	1	12	63	-25	-8
+-1 * 0  02 00 05 01 01 00 00 00 00
+-1 * 0  02 00 06 01 01 01 00 01 00
+
 // Action 3's
--1 * 0  03 00 01 67 00 A0 00
--1 * 0  03 00 01 68 00 A1 00
+-1 * 0  03 00 01 67 01   FF 05 00   A0 00
+-1 * 0  03 00 01 68 01   FF 06 00   A1 00
+
 
 
 // Action 2+3
--1 * 0  02 00 A0 01 01 00 00 00 00
--1 * 0  02 00 A1 01 01 01 00 01 00
+//-1 * 0  02 00 A0 01 01 00 00 00 00
+//-1 * 0  02 00 A1 01 01 01 00 01 00
 
--1 * 0  03 00 01 66 01 FF A1 00 A0 00
+//-1 * 0  03 00 01 66 01 FF A1 00 A0 00
 
 
 
@@ -985,13 +1052,18 @@
 -1 sprites/wagons/pcx/wagons2.pcx 	196	253	1	13	26	-13	-9
 -1 sprites/wagons/pcx/wagons2.pcx 	228	253	1	15	19	-10	-7
 
-
 // Action 2's;
 -1 * 0  02 00 A0 03 03 00 00 01 00 02 00 00 00 01 00 02 00 // Coal
 -1 * 0  02 00 A1 03 03 00 00 03 00 04 00 00 00 03 00 04 00 // Iron
 -1 * 0  02 00 A2 03 03 00 00 05 00 06 00 00 00 05 00 06 00 //Copper/Default
+
+// P-list
+-1 * 0  01 00 01 01
+-1 sprites/wagons/pcx/wagons2.pcx	96	1	1	12	63	-25	-8
+-1 * 0  02 00 05 01 01 00 00 00 00
+
 // Action 3:
--1 * 0  03 00 01 63 02 \b00 A0 00 \b13 A1 00 A2 00
+-1 * 0  03 00 01 63 03   FF 05 00    \b00 A0 00 \b13 A1 00 A2 00
 
 
 // ##### Short dumper #####
@@ -1073,8 +1145,14 @@
 -1 * 0  02 00 A0 03 03 00 00 01 00 02 00 00 00 01 00 02 00 // Coal
 -1 * 0  02 00 A1 03 03 00 00 03 00 04 00 00 00 03 00 04 00 // Iron
 -1 * 0  02 00 A2 03 03 00 00 05 00 06 00 00 00 05 00 06 00 //Copper/Default
+
+// P-list
+-1 * 0  01 00 01 01
+-1 sprites/wagons/pcx/dumper.pcx 	1	224	1	12	63	-25	-8
+-1 * 0  02 00 05 01 01 00 00 00 00
+
 // Action 3:
--1 * 0  03 00 01 69 02 \b00 A0 00 \b13 A1 00 A2 00
+-1 * 0  03 00 01 69 03   FF 05 00   \b00 A0 00   \b13 A1 00   A2 00
 
 
 // ---------------
@@ -1117,7 +1195,13 @@
 
 // Action 2+3
 -1 * 0  02 00 A0 03 03 00 00 01 00 02 00 00 00 01 00 02 00 // Lifestock
--1 * 0  03 00 01 6A 00 A0 00 
+
+// P-list
+-1 * 0  01 00 01 01
+-1 sprites/wagons/pcx/livestock.pcx 	1	96	1	12	63	-25	-8
+-1 * 0  02 00 05 01 01 00 00 00 00
+
+-1 * 0  03 00 01 6A 01   FF 05 00   A0 00 
 
 
 // ##### Lifestock Wagon - Long #####
@@ -1143,7 +1227,15 @@
 
 // Action 2+3
 -1 * 0  02 00 A0 03 03 00 00 01 00 02 00 00 00 01 00 02 00 // Lifestock
--1 * 0  03 00 01 64 00 A0 00 
+
+// P-list
+-1 * 0  01 00 01 01
+-1 sprites/wagons/pcx/wagons2.pcx	128	76	1	12	63	-25	-8
+-1 * 0  02 00 05 01 01 00 00 00 00
+
+-1 * 0  03 00 01 64 01   FF 05 00   A0 00 
+
+
 
 // ##### Boxcar - Short #####
 //Action1:
@@ -1162,11 +1254,11 @@
 //P-list
 -1 * 0 0
 -1 * 0 0
--1 sprites/wagons/pcx/wagonsfixed.pcx 	54	121	01 	12	32	-16 	-8	3
+-1 sprites/wagons/pcx/wagonsfixed.pcx 	248	121	01 	12	63	-52 	-8	3
 -1 * 0 0
 -1 * 0 0
 -1 * 0 0
--1 sprites/wagons/pcx/wagonsfixed.pcx 	176	121	01 	12	32	-16 	-8	3
+-1 sprites/wagons/pcx/wagonsfixed.pcx 	248	121	01 	12	63	-25 	-8	3
 -1 * 0 0
 
 
@@ -1226,7 +1318,7 @@
 // Format: spritenum pcxfile 		xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
 -1 * 0 0
 -1 * 0 0
--1 sprites/wagons/pcx/newwags.pcx 	121	1     01 	16	    32	    -16   -12	  3
+-1 sprites/wagons/pcx/newwags.pcx 	121	5     01 	12	    63	    -25  -8	  3
 -1 * 0 0
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/newwags.pcx	89	128	1	24	8	-3	-11
@@ -1289,7 +1381,7 @@
 // Format: spritenum pcxfile 		xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
 -1 * 0 0
 -1 * 0 0
--1 sprites/wagons/pcx/newwags.pcx 	121	160     01 	16	    32	    -16   -12	  3
+-1 sprites/wagons/pcx/newwags.pcx 	121	164     01 	12	63	-25	-8	  3
 -1 * 0 0
 
 
@@ -1330,11 +1422,11 @@
 
 -1 * 0 0
 -1 * 0 0
--1 sprites/wagons/pcx/newwags.pcx 	33	288 	   01 	16	    32	    -24   -12	  3
+-1 sprites/wagons/pcx/newwags.pcx 	177	293 	   01 	16	    63	    -25   -12	  3
 -1 * 0 0
 -1 * 0 0
 -1 * 0 0
--1 sprites/wagons/pcx/newwags.pcx 	33	288 	   01 	16	    32	    -24   -12	  3
+-1 sprites/wagons/pcx/newwags.pcx 	177	293 	   01 	16	    63	    -25   -12	  3
 -1 * 0 0
 // Action2
 -1 * 0  02 00 A0 01 01 00 00 00 00
@@ -1371,11 +1463,11 @@
 // Format: spritenum pcxfile 		xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
 -1 * 0 0 //1
 -1 * 0 0 //2 
--1 sprites/wagons/pcx/newwags.pcx 	177	224     01 	16	    56	    -28   -12	  3
+-1 sprites/wagons/pcx/newwags.pcx 	177	224     01 	16	    66	    -28   -12	  3
 -1 * 0 0 //4
 -1 * 0 0 //5
 -1 * 0 0 //6
--1 sprites/wagons/pcx/newwags.pcx 	177	224     01 	12	    56	    -28   -8	  3
+-1 sprites/wagons/pcx/newwags.pcx 	177	224     01 	12	    66	    -28   -8	  3
 -1 * 0 0
 
 // Randoms
