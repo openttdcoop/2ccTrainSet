@@ -4,7 +4,7 @@
 
 
 //  names
--1 * 0  04 00 7F 01 5D "Double Decker Passangar Coach" 00
+-1 * 0  04 00 7F 01 5D "          Double Decker 4th gen" 00
 -1 * 0  04 00 7F 01 5F "2CC xMU Express Wagon" 00
 -1 * 0  04 00 7F 01 60 "Flatbed Wagon (Long)" 00
 -1 * 0  04 00 7F 01 61 "Tanker Wagon (Long)" 00
@@ -24,7 +24,7 @@
 -1 * 0  00 00 01 01 71 06 00
 -1 * 0  04 00 7F 01 72 "Metro Van" 00
 -1 * 0  04 00 7F 01 73 "Tender" 00
-
+	
 -1 * 0  04 00 7F 01 \b120 "2nd Class Coach 1st gen" 00
 -1 * 0  04 00 7F 01 \b121 "2nd Class Coach 2nd gen" 00
 -1 * 0  04 00 7F 01 \b122 "2nd Class Coach 3rd gen" 00
@@ -51,7 +51,7 @@
 
 -1 * 0  04 00 7F 01 \b*1100 "Refridgerated car" 00
 -1 * 0  04 00 7F 01 \b*1101 "Intermediate Boxcar" 00
--1 * 0  04 00 7F 01 \b*1102 "Doubledecker 5th gen" 00
+-1 * 0  04 00 7F 01 \b*1102 "     Doubledecker 5th gen" 00
 
 
 // Tender Action 0
@@ -588,7 +588,7 @@
 // Format: spritenum pcxfile 	xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
 -1 * 0	0
 -1 * 0	0
--1 sprites/wagons/pcx/pax.pcx 	12 	336	01 	12 	40 	-20 	-8	
+-1 sprites/wagons/pcx/pax.pcx 	1 	336	01 	12 	87 	-25 	-8	
 -1 * 0	0
 // Action 2:
 -1 * 0  02 00 A0 01 01 00 00 00 00 // <--
@@ -1461,14 +1461,14 @@
 
 
 // P-list
-// Format: spritenum pcxfile 	xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
+// Format: spritenum pcxfile 		xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
 -1 * 0  0
 -1 * 0  0
 -1 sprites/wagons/pcx/newpax.pcx 	1	1	01 	1	1	-16 -10	3
 -1 * 0  0
 -1 * 0  0
 -1 * 0  0
--1 sprites/wagons/pcx/newpax.pcx 	177	640	01 	13	40	-20 -9	3
+-1 sprites/wagons/pcx/newpax.pcx 	181	657	01 	13	63	-25 -9	3
 -1 * 0  0
 
 -1 * 0  02 00 A0 01 01 00 00 00 00 // <--
