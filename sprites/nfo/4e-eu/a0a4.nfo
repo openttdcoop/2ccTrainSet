@@ -1,5 +1,5 @@
 
--1 * 0  09 03 01 \7=01 F0  //Skips the disabling sprites
+-1 * 0  09 03 01 \7= 01 F0  //Skips the disabling sprites
 
 // Steamers
 -1 * 0  04 00 7F 01 \b*4000 "                 Okz32 " 00

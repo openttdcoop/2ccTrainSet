@@ -1,5 +1,5 @@
 
--1 * 0  09 06 01 \7=01 F0  //Skips the disabling sprites
+-1 * 0  09 06 01 \7= 01 F0  //Skips the disabling sprites
 
 //Diesels
 -1 * 0  04 00 7F 01 \b*7100 "                 Class 2100 " 00
