@@ -17,7 +17,7 @@ pause
 cd ..
 ECHO Running NFORenum. . .
 @ECHO ON
-renum.exe -k  2ccdj.nfo
+renum.exe -k -w 42,94,141,143,144,147,17 2ccdj.nfo
 echo :) -w 42 -w 94 -w 141 -w 143 -w 144 -w 147 -w 170
 @ECHO OFF
 pause
