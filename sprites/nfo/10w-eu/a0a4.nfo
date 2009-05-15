@@ -1,7 +1,7 @@
 
 // West Europe
 // Engines
--1 * 0  09 09 01 \7=01 F0  //Skips the disabling sprites - West Europe 
+-1 * 0  09 09 01 \7= 01 F0  //Skips the disabling sprites - West Europe 
 
 // ########## metrovik ##########
 -1 * 0  00 00 \b24 01 \b*10211 00 \w1953-01-01 02 \b10 03 \b30 04 \b25 05 \b00 06 \b07 08 \b00 09 \w145 0B \w2490 12 FD 13 \b00 14 \b00 16 \b102 17 \b55 19 28 1C 00 1E 10 1F \b51 20 10 22 30 27 02 24 00 0E \dx4c3C 0D \b23

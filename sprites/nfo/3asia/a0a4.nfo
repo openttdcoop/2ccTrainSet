@@ -1,4 +1,4 @@
--1 * 0  09 02 01 \7=01 F0  //Skips the disabling sprites
+-1 * 0  09 02 01 \7= 01 F0  //Skips the disabling sprites
 
 //Electros
 -1 * 0  04 00 7F 01 \b*3200 "                 KZ2A" 00
