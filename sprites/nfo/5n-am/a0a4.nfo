@@ -1,5 +1,5 @@
 
--1 * 0  09 04 01 \7=01 F0  //Skips the disabling sprites
+-1 * 0  09 04 01 \7= 01 F0  //Skips the disabling sprites
 
 // Engines
 -1 * 0  04 00 7F 01 \b*5000 "                 Big Boy" 00 // <-- Must have old ID, articulation

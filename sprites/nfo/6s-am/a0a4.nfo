@@ -1,5 +1,5 @@
 
--1 * 0  09 05 01 \7=01 F0  //Skips the disabling sprites
+-1 * 0  09 05 01 \7= 01 F0  //Skips the disabling sprites
 
 //Steamer
 -1 * 0  04 00 7F 01 \b*6000 "                 Class 11B 0-8-2" 00
