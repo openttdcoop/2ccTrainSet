@@ -11,6 +11,7 @@ copy /Y nfo\7ocean\*.nfo nfo\07.nfo
 copy /Y nfo\8scandinavia\*.nfo nfo\08.nfo
 copy /Y nfo\9s-eu\*.nfo nfo\09.nfo
 copy /Y nfo\10w-eu\*.nfo nfo\10.nfo
+copy /Y nof\strings\*.nfo nfo\strings.nfo
 Echo on
 copy /Y nfo\*.nfo 2ccdj.nfo
 pause

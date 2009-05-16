@@ -2,6 +2,7 @@
 #
 rm sprites/2cc*.nfo*
 rm sprites/nfo/??.nfo
+rm sprites/nfo/strings.nfo
 
 echo Compiling files to one .nfo
 cd sprites/nfo
@@ -14,6 +15,7 @@ cat 7ocean/*.nfo > ./07.nfo
 cat 8scandinavia/*.nfo > ./08.nfo
 cat 9s-eu/*.nfo > ./09.nfo
 cat 10w-eu/*.nfo > ./10.nfo
+cat strings/*.nfo > ./strings.nfo
 
 cat *.nfo > ../2ccdj.nfo
 
