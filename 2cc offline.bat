@@ -31,7 +31,7 @@ ECHO.
 ECHO Remove old file, rename new file and copy file to ottd and ttdp dirs. . .
 DEL .\2ccdj.grf
 ren 2ccdj.nfo.new.grf 2ccdj.grf
-COPY .\2ccdj.grf "C:\Documents and Settings\bluser\Desktop\Privat\ottd\data" /Y
+COPY .\2ccdj.grf "C:\data\OpenTTD\data" /Y
 
 ECHO Done!
 pause
