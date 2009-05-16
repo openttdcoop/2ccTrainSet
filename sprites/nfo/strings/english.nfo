@@ -1,0 +1,302 @@
+// This file contains all strings of this grf
+//
+
+// Wagon names in ID order
+-1 * 0  04 00 7F 01 5D "            Double Decker 4th gen" 00
+-1 * 0  04 00 7F 01 5F "2CC xMU Express Wagon" 00
+-1 * 0  04 00 7F 01 60 "     Flatbed Wagon (Long)" 00
+-1 * 0  04 00 7F 01 61 "     Tanker Wagon (Long)" 00
+-1 * 0  04 00 7F 01 62 "     Silo Wagon (Long)" 00
+-1 * 0  04 00 7F 01 63 "     Selfdischarging Hopper" 00
+-1 * 0  04 00 7F 01 64 "     Livestock Wagon" 00
+-1 * 0  04 00 7F 01 65 "     Boxcar (Long)" 00
+-1 * 0  04 00 7F 01 66 "     Boxcar (Short)" 00
+-1 * 0  04 00 7F 01 67 "     Tanker (Short)" 00
+-1 * 0  04 00 7F 01 68 "     Silo (Short)" 00
+-1 * 0	04 00 7F 01 69 "     Hopper (Short)" 00
+-1 * 0	04 00 7F 01 6A "     Livestock Wagon (Short)" 00
+-1 * 0	04 00 7F 01 6B "     Gondola (Short)" 00
+-1 * 0  04 00 7F 01 70 "2CC xMU Pax Coach" 00
+-1 * 0  04 00 7F 01 72 "Metro Van" 00
+-1 * 0  04 00 7F 01 73 "Tender" 00
+-1 * 0  04 00 7F 01 \b120 "     2nd Class Coach 1st gen" 00
+-1 * 0  04 00 7F 01 \b121 "     2nd Class Coach 2nd gen" 00
+-1 * 0  04 00 7F 01 \b122 "     2nd Class Coach 3rd gen" 00
+-1 * 0  04 00 7F 01 \b123 "     2nd Class Coach 4th gen" 00
+-1 * 0  04 00 7F 01 \b124 "     2nd Class Coach 5th gen" 00
+-1 * 0  04 00 7F 01 \b125 "     1st Class Coach 1st gen" 00
+-1 * 0  04 00 7F 01 \b126 "     1st Class Coach 2nd gen" 00
+-1 * 0  04 00 7F 01 \b127 "     1st Class Coach 3rd gen" 00
+-1 * 0  04 00 7F 01 \b128 "     1st Class Coach 4th gen" 00
+-1 * 0  04 00 7F 01 \b129 "     1st Class Coach 5th gen" 00
+-1 * 0  04 00 7F 01 \b130 "     Tourist Class Coach 1st gen" 00
+-1 * 0  04 00 7F 01 \b131 "     Tourist Class Coach 2nd gen" 00
+-1 * 0  04 00 7F 01 \b132 "     Tourist Class Coach 3rd gen" 00
+-1 * 0  04 00 7F 01 \b133 "     Tourist Class Coach 4th gen" 00
+-1 * 0  04 00 7F 01 \b134 "     Tourist Class Coach 5th gen" 00
+-1 * 0  04 00 7F 01 \b135 "         Express Coach 1st gen" 00
+-1 * 0  04 00 7F 01 \b136 "         Express Coach 2nd gen" 00
+-1 * 0  04 00 7F 01 \b137 "         Express Coach 3rd gen" 00
+-1 * 0  04 00 7F 01 \b138 "         Express Coach 4th gen" 00
+-1 * 0  04 00 7F 01 \b139 "         Express Coach 5th gen" 00
+-1 * 0  04 00 7F 01 \b*1100 "     Refridgerated car" 00
+-1 * 0  04 00 7F 01 \b*1101 "     Intermediate Boxcar" 00
+-1 * 0  04 00 7F 01 \b*1102 "     Doubledecker 5th gen" 00
+-1 * 0  04 00 7F 01 F0 "                 TurboBus MKI" 00
+
+// Engines from region 2
+// -1 * 0  04 00 7F 01 \b*2400 "                 Cairo anno 1987" 00
+
+// Engines from region 3
+// -1 * 0  04 00 7F 01 \b*3200 "                 KZ2A" 00
+// -1 * 0  04 00 7F 01 \b*3201 "                 SS6 " 00
+// -1 * 0  04 00 7F 01 \b*3202 "                 WCM// -1" 00
+// -1 * 0  04 00 7F 01 \b*3100 "                 WDM-2" 00
+// -1 * 0  04 00 7F 01 \b*3400 "                 Tokyo 01 Series" 00
+// -1 * 0  04 00 7F 01 \b*3401 "                 Pyongynag D Stock" 00
+
+// Engines from region 4
+// -1 * 0  04 00 7F 01 \b*4000 "                 Okz32 " 00
+// -1 * 0  04 00 7F 01 \b*4100 "                 TEP 150 "  00
+// -1 * 0  04 00 7F 01 \b*4202 "                 ET 41 " 00
+// -1 * 0  04 00 7F 01 \b*4201 "                 VL15 " 00
+// -1 * 0  04 00 7F 01 \b*4200 "                 DS3" 00
+// -1 * 0  04 00 7F 01 \b*4500 "                 BDVmot" 00
+// -1 * 0  04 00 7F 01 \b*4501 "                 CD Class 680" 00
+// -1 * 0  04 00 7F 01 \b*4502 "                 Class 811" 00
+// -1 * 0  04 00 7F 01 \b*4503 "                 BDVmot w/mailcompartment" 00
+// -1 * 0  04 00 7F 01      15 "                 BDVmot mailcompartment" 00
+// -1 * 0  04 00 7F 01 \b*4300 "                 Railbus - 809" 00
+// -1 * 0  04 00 7F 01 \b*4301 "                 Railbus - AR2" 00
+// -1 * 0  04 00 7F 01 \b*4400 "                 Budapest 1894" 00
+// -1 * 0  04 00 7F 01 \b*4401 "                 EV3-200" 00
+// -1 * 0  04 00 7F 01 \b*4402 "                 81-729" 00
+
+// Engines from region 5
+// -1 * 0  04 00 7F 01 \b*5000 "                 Big Boy" 00 // <-- Must have old ID, articulation
+// -1 * 0  04 00 7F 01 \b*5001 "                 Royal Hudson" 00
+// -1 * 0  04 00 7F 01 \b*5100 "                 GE F3 " 00
+// -1 * 0  04 00 7F 01 \b*5101 "                 GE Genesis " 00
+// -1 * 0  04 00 7F 01 \b*5102 "                 MLW-M420W " 00 
+// -1 * 0  04 00 7F 01 \b*5103 "                 SDP-40F " 00
+// -1 * 0  04 00 7F 01 \b*5104 "                 Sharknose " 00
+// -1 * 0  04 00 7F 01 \b*5105 "                 ALCo-GE-IR Boxcar" 00
+// -1 * 0  04 00 7F 01 \b*5400 "                 Boston 01800" 00
+// -1 * 0  04 00 7F 01 \b*5401 "                 Brooklyn union gate car" 00
+
+// Engines from region 6
+// -1 * 0  04 00 7F 01 \b*6000 "                 Class 11B 0-8-2" 00
+// -1 * 0  04 00 7F 01 \b*6100 "                 GM-EMD-J16CW-AC" 00
+// -1 * 0  04 00 7F 01 \b*6101 "                 EMD GL8" 00
+
+// Engines from region 7
+// -1 * 0  04 00 7F 01 \b*7100 "                 Class 2100 " 00
+// -1 * 0  04 00 7F 01 \b*7101 "                 Class 442 " 00
+// -1 * 0  04 00 7F 01 \b*7500 "                 Hunter Railcar" 00
+// -1 * 0  04 00 7f 01 \b*7501 "                 OSCar" 00
+
+// Engines from region 5
+// -1 * 0  04 00 7F 01 \b*8100 "                 Dr12 "00
+// -1 * 0  04 00 7F 01 \b*8001 "                 MTAB Iore " 00
+// -1 * 0  04 00 7F 01 \b*8003 "                 MTAB Dm3 " 00
+// -1 * 0  04 00 7F 01 \b*8102 "                 Sr1 " 00
+// -1 * 0  04 00 7F 01 \b*8500 "                 BM 93 'Talent'" 00
+// -1 * 0  04 00 7F 01 \b*8501 "                 Lint41" 00
+// -1 * 0  04 00 7F 01 \b*8502 "                 Y2" 00
+// -1 * 0  04 00 7F 01 \b*8503 "                 BM65" 00
+// -1 * 0  04 00 7F 01 \b*8504 "                 BM73" 00
+// -1 * 0  04 00 7F 01 \b*8505 "                 Sm2" 00
+// -1 * 0  04 00 7F 01 \b*8506 "                 Sm4" 00
+// -1 * 0  04 00 7F 01 \b*8507 "                 X2000" 00
+// -1 * 0  04 00 7F 01 \b*8300 "                 Railbus - Dm7" 00
+// -1 * 0  04 00 7F 01 \b*8400 "                 M100" 00
+
+// Engines from region 9
+// -1 * 0  04 00 7F 01 \b*9201 "                 E646 " 00
+// -1 * 0  04 00 7F 01 \b*9200 "                 E52500" 00
+// -1 * 0  04 00 7f 01 \b*9500 "                 ERT500" 00
+// -1 * 0  04 00 7F 01 \b*9501 "                 594 TRD" 00
+
+// Engines from region 10
+// -1 * 0  04 00 7F 01 \b*10000 "                 SNCF 140C "00
+// -1 * 0  04 00 7F 01 \b*10001 "                 SNCF 141TA " 00
+// -1 * 0  04 00 7F 01 \b*10002 "                 SNCF 150B " 00
+// -1 * 0  04 00 7F 01 \b*10003 "                 NS Class 6300 " 00
+// -1 * 0  04 00 7F 01 \b*10100 "                 Class 66 " 00
+// -1 * 0  04 00 7F 01 \b*10101 "                 Class 67 " 00
+// -1 * 0  04 00 7F 01 \b*10102 "                 V200 " 00
+// -1 * 0  04 00 7F 01 \b*10103 "                 SNCB 78" 00
+// -1 * 0  04 00 7F 01 \b*10200 "                 Ae 6/6 " 00
+// -1 * 0  04 00 7F 01 \b*10201 "                 Ce 4/4 " 00
+// -1 * 0  04 00 7F 01 \b*10202 "                 Class 1044 " 00
+// -1 * 0  04 00 7F 01 \b*10203 "                 SNCF 26000 " 00
+// -1 * 0  04 00 7F 01 \b*10204 "                 E04 01 " 00
+// -1 * 0  04 00 7F 01 \b*10205 "                 HLE13" 00
+// -1 * 0  04 00 7F 01 \b*10206 "                 NS Class 1000 " 00
+// -1 * 0  04 00 7F 01 \b*10207 "                 NS Class 1600 " 00
+// -1 * 0  04 00 7F 01 \b*10208 "                 Re460 'Lok2000'" 00
+// -1 * 0  04 00 7F 01 \b*10209 "                 27000" 00
+// -1 * 0  04 00 7F 01 \b*10210 "                 NER EF1" 00
+// -1 * 0  04 00 7F 01 \b*10211 "                 Metrovic EM2" 00
+// -1 * 0  04 00 7F 01 \b*10500 "                 Cargo Sprinter" 00
+// -1 * 0  04 00 7F 01 \b*10501 "                 Class 168" 00
+// -1 * 0  04 00 7F 01 \b*10502 "                 EMU 2200" 00
+// -1 * 0  04 00 7F 01 \b*10503 "                 EMU 4041" 00
+// -1 * 0  04 00 7F 01 \b*10504 "                 mDDm" 00
+// -1 * 0  04 00 7f 01 \b*10505 "                 ET420" 00
+// -1 * 0  04 00 7f 01 \b*10506 "                 HSA" 00
+// -1 * 0  04 00 7f 01 \b*10507 "                 ICE3" 00
+// -1 * 0  04 00 7f 01 \b*10508 "                 ICM" 00
+// -1 * 0  04 00 7f 01 \b*10509 "                 Mat'24 " 00
+// -1 * 0  04 00 7f 01 \b*10510 "                 Plan Y" 00
+// -1 * 0  04 00 7F 01 \b*10511 "                 Radbe510" 00
+// -1 * 0  04 00 7F 01 \b*10512 "                 Rbde560" 00
+// -1 * 0  04 00 7f 01 \b*10513 "                 TGV Atlantique" 00
+// -1 * 0  04 00 7F 01 \b*10514 "                 TGV Duplex " 00 
+// -1 * 0  04 00 7F 01 \b*10515 "                 TGV Thalys" 00
+// -1 * 0  04 00 7F 01 \b*10516 "                 VT612 'Regioswinger'" 00
+// -1 * 0  04 00 7F 01 \b*10517 "                 InterCity125" 00
+// -1 * 0  04 00 7F 01 \b*10518 "                 Mat'36" 00
+// -1 * 0  04 00 7F 01 \b30     "                 TVG POS V150" 00
+// -1 * 0  04 00 7F 01 \b*10300 "                 Railbus - 479" 00
+// -1 * 0  04 00 7F 01 \b*10301 "                 Railbus - VT 133" 00
+// -1 * 0  04 00 7F 01 \b*15311 "                 Railbus - Class 153 '153111'" 00
+// -1 * 0  04 00 7F 01 \b*10400 "                 Caf90" 00
+// -1 * 0  04 00 7F 01 \b*10401 "                 DLR" 00
+// -1 * 0  04 00 7F 01 \b*10402 "                 London Underground 1938" 00
+// -1 * 0  04 00 7F 01 \b*10403 "                 Type M1" 00
+// -1 * 0  04 00 7F 01 \b*10404 "                 M2 840" 00
+// -1 * 0  04 00 7F 01 \b*10405 "                 MP 89" 00
+// -1 * 0	04 00 7F 01 \b*10406 "                 U-Bahn C-II" 00
+// -1 * 0  04 00 7F 01 \b*10407 "                 London 1903 Stock" 00
+
+// Other strings
+// -1 * 0  04 00 FF 01 \wxd000 "" 00
+// -1 * 0  04 00 FF 01 \wxd001 "" 00
+// -1 * 0  04 00 FF 01 \wxd002 "" 00
+// -1 * 0  04 00 FF 01 \wxd003 "" 00
+// -1 * 0  04 00 FF 01 \wxd004 "" 00
+// -1 * 0  04 00 FF 01 \wxd005 "" 00
+// -1 * 0  04 00 FF 01 \wxd006 "" 00
+// -1 * 0  04 00 FF 01 \wxd007 "" 00
+// -1 * 0  04 00 FF 01 \wxd008 "" 00
+// -1 * 0  04 00 FF 01 \wxd009 "" 00
+// -1 * 0  04 00 FF 01 \wxd00A "" 00
+// -1 * 0  04 00 FF 01 \wxd00B "" 00
+// -1 * 0  04 00 FF 01 \wxd00C "" 00
+// -1 * 0  04 00 FF 01 \wxd00D "" 00
+// -1 * 0  04 00 FF 01 \wxd00E "" 00
+// -1 * 0  04 00 FF 01 \wxd00F "" 00
+// -1 * 0  04 00 FF 01 \wxd010 "" 00
+// -1 * 0  04 00 FF 01 \wxd011 "" 00
+// -1 * 0  04 00 FF 01 \wxd012 "" 00
+// -1 * 0  04 00 FF 01 \wxd013 "" 00
+// -1 * 0  04 00 FF 01 \wxd014 "" 00
+// -1 * 0  04 00 FF 01 \wxd015 "" 00
+// -1 * 0  04 00 FF 01 \wxd016 "" 00
+// -1 * 0  04 00 FF 01 \wxd017 "" 00
+// -1 * 0  04 00 FF 01 \wxd018 "" 00
+// -1 * 0  04 00 FF 01 \wxd019 "" 00
+// -1 * 0  04 00 FF 01 \wxd01A "" 00
+// -1 * 0  04 00 FF 01 \wxd01B "" 00
+// -1 * 0  04 00 FF 01 \wxd01C "" 00
+// -1 * 0  04 00 FF 01 \wxd01D "" 00
+// -1 * 0  04 00 FF 01 \wxd01E "" 00
+// -1 * 0  04 00 FF 01 \wxd01F "" 00
+// -1 * 0  04 00 FF 01 \wxd020 "" 00
+// -1 * 0  04 00 FF 01 \wxd021 "" 00
+// -1 * 0  04 00 FF 01 \wxd022 "" 00
+// -1 * 0  04 00 FF 01 \wxd023 "" 00
+// -1 * 0  04 00 FF 01 \wxd024 "" 00
+// -1 * 0  04 00 FF 01 \wxd025 "" 00
+// -1 * 0  04 00 FF 01 \wxd026 "" 00
+// -1 * 0  04 00 FF 01 \wxd027 "" 00
+// -1 * 0  04 00 FF 01 \wxd028 "" 00
+// -1 * 0  04 00 FF 01 \wxd029 "" 00
+// -1 * 0  04 00 FF 01 \wxd02A "" 00
+// -1 * 0  04 00 FF 01 \wxd033 "Carriage Capacity: " 8A "63 Passengers/48 Mail\n" 98 "Loading Speed: " 8A "Medium\n" 8B "NB: " 98 "Running costs per 1 unit" 00 //594
+// -1 * 0  04 00 FF 01 \wxd02C "Carriage Capacity: " 8A "38 Passengers/29 Mail\n" 98 "Loading Speed: " 8A "Low" 00 	// 811
+// -1 * 0  04 00 FF 01 \wxd02D "Carriage Capacity: " 8A "55 Passengers/41 Mail\n" 98 "Loading Speed: " 8A "Low" 00 	// BM93
+// -1 * 0  04 00 FF 01 \wxd02E "Trailer Capacity: " 8A "80 Crates\n" 00						// CargoSprinter
+// -1 * 0  04 00 FF 01 \wxd02F "Carriage Capacity: " 8A "75 Passengers/56 Mail\n" 98 "Loading Speed: " 8A "Medium" 00 	// DMU168
+// -1 * 0  04 00 FF 01 \wxd030 "Carriage Capacity: " 8A "70 Passengers/53 Mail\n" 98 "Loading Speed: " 8A "Medium" 00 	// Hunter Railcar
+// -1 * 0  04 00 FF 01 \wxd031 "Carriage Capacity: " 8A "73 Passengers/55 Mail\n" 98 "Loading Speed: " 8A "Medium" 00 	// Lint41
+// -1 * 0  04 00 FF 01 \wxd032 "Carriage Capacity: " 8A "48 Passengers/36 Mail\n" 98 "Loading Speed: " 8A "Low" 00 	// Y2
+// -1 * 0  04 00 FF 01 \wxd033 "Carriage Capacity: " 8A "110 Passengers/84 Mail\n" 98 "Loading Speed: " 8A "Medium\n" 8B "NB: " 98 "Running costs per 1 unit" 00 // 2200
+// -1 * 0  04 00 FF 01 \wxd034 "Carriage Capacity: " 8A "40 Passengers/30 Mail\n" 98 "Loading Speed: " 8A "Low" 00 	// 4041
+// -1 * 0  04 00 FF 01 \wxd035 "Carriage Capacity: " 8A "75 Passengers/56 Mail\n" 98 "Loading Speed: " 8A "Medium"  00 	// BDVmot 
+// -1 * 0  04 00 FF 01 \wxd036 "Carriage Capacity: " 8A "50 Passengers/38 Mail\n" 98 "Loading Speed: " 8A "Medium" 00 	// BM65
+// -1 * 0  04 00 FF 01 \wxd037 "Carriage Capacity: " 8A "40 Passengers/30 Mail\n" 98 "Loading Speed: " 8A "Low\n" 8B "NB: " 98 "Running costs per 1 unit" 00 // BM73
+// -1 * 0  04 00 FF 01 \wxd038 "Carriage Capacity: " 8A "70 Passengers/53 Mail\n" 98 "Loading Speed: " 8A "Medium" 00 	// DD-AR
+// -1 * 0  04 00 FF 01 \wxd039 "Carriage Capacity: " 8A "45 Passengers\n" 98 "Loading Speed: " 8A "Low\n" 8B "NB: " 98 "Running costs per 1 unit" 00 // Pendolino
+// -1 * 0  04 00 FF 01 \wxd03A "Carriage Capacity: " 8A "75 Passengers/56 Mail\n" 98 "Loading Speed: " 8A "Medium\n" 8B "NB: " 98 "Running costs per 1 unit" 00 	// ET420
+// -1 * 0  04 00 FF 01 \wxd03B "Carriage Capacity: " 8A "60 Passengers/45 Mail\n" 98 "Loading Speed: " 8A "Low" 00 	// ETR500
+// -1 * 0  04 00 FF 01 \wxd03C "Carriage Capacity: " 8A "42 Passengers/32 Mail\n" 98 "Loading Speed: " 8A "Low\n" 8B "NB: " 98 "Running costs per 1 unit" 00 	// HSA
+// -1 * 0  04 00 FF 01 \wxd03D "Carriage Capacity: " 8A "45 Passengers\n" 98 "Loading Speed: " 8A "Low\n" 8B "NB: " 98 "Running costs per 1 unit" 00 // Ice3
+// -1 * 0  04 00 FF 01 \wxd03E "Carriage Capacity: " 8A "61 Passengers/46 Mail\n" 98 "Loading Speed: " 8A "Low\n" 8B "NB: " 98 "Running costs per 1 unit" 00 	// ICM
+// -1 * 0  04 00 FF 01 \wxd03F "Carriage Capacity: " 8A "30 Passengers/25 Mail\n" 98 "Loading Speed: " 8A "Low" 00 	// Mat24
+// -1 * 0  04 00 FF 01 \wxd040 "Carriage Capacity: " 8A "112 Passengers/84 Mail\n" 98 "Loading Speed: " 8A "Medium\n" 8B "NB: " 98 "Running costs per 1 unit" 00 // Oscar
+// -1 * 0  04 00 FF 01 \wxd041 "Carriage Capacity: " 8A "66 Passengers/50 Mail\n" 98 "Loading Speed: " 8A "Medium\n" 8B "NB: " 98 "Running costs per 1 unit" 00 // Oscar 	// Plan Y
+// -1 * 0  04 00 FF 01 \wxd042 "Carriage Capacity: " 8A "56 Passengers/42 Mail\n" 98 "Loading Speed: " 8A "Medium\n" 8B "NB: " 98 "Running costs per 1 unit" 00 	// RDBDE510
+// -1 * 0  04 00 FF 01 \wxd043 "Carriage Capacity: " 8A "56 Passengers/42 Mail\n" 98 "Loading Speed: " 8A "Medium\n" 8B "NB: " 98 "Running costs per 1 unit" 00 	// RDBDE560
+// -1 * 0  04 00 FF 01 \wxd044 "Carriage Capacity: " 8A "76 Passengers/57 Mail\n" 98 "Loading Speed: " 8A "Medium\n" 8B "NB: " 98 "Running costs per 1 unit" 00 	// SM2
+// -1 * 0  04 00 FF 01 \wxd045 "Carriage Capacity: " 8A "100 Passengers/75 Mail\n" 98 "Loading Speed: " 8A "Medium\n" 8B "NB: " 98 "Running costs per 1 unit" 00 	// SM4
+// -1 * 0  04 00 FF 01 \wxd046 "Carriage Capacity: " 8A "45 Passengers/34 Mail\n" 98 "Loading Speed: " 8A "Low" 00 	// TGV Atl.
+// -1 * 0  04 00 FF 01 \wxd047 "Carriage Capacity: " 8A "75 Passengers\n" 98 "Loading Speed: " 8A "Low" 00 	// TGV Duplex
+// -1 * 0  04 00 FF 01 \wxd048 "Carriage Capacity: " 8A "45 Passengers/34 Mail\n" 98 "Loading Speed: " 8A "Low" 00 	// TGV Thalys
+// -1 * 0  04 00 FF 01 \wxd049 "Carriage Capacity: " 8A "45 Passengers/34 Mail\n" 98 "Loading Speed: " 8A "Low" 00		// X2000
+// -1 * 0  04 00 FF 01 \wxd04A "Carriage Capacity: " 8A "73 Passengers\n" 98 "Loading Speed: " 8A "Medium" 00		// VT612
+// -1 * 0  04 00 FF 01 \wxd04B "Carriage Capacity: " 8A "52 Passengers/39 Mail\n" 98 "Loading Speed: " 8A "Low" 00		// IC125
+// -1 * 0  04 00 FF 01 \wxd04C "Carriage Capacity: " 8A "52 Passengers\n" 98 "Loading Speed: " 8A "Low" 00		// mat36
+// -1 * 0  04 00 FF 01 \wxd04D "" 00
+// -1 * 0  04 00 FF 01 \wxd04E "" 00
+// -1 * 0  04 00 FF 01 \wxd04F "" 00
+// -1 * 0  04 00 FF 01 \wxd050 "" 00
+// -1 * 0  04 00 FF 01 \wxd051 "" 00
+// -1 * 0  04 00 FF 01 \wxd052 "" 00
+// -1 * 0  04 00 FF 01 \wxd053 "" 00
+// -1 * 0  04 00 FF 01 \wxd054 "" 00
+// -1 * 0  04 00 FF 01 \wxd055 "" 00
+// -1 * 0  04 00 FF 01 \wxd056 "" 00
+// -1 * 0  04 00 FF 01 \wxd057 "" 00
+// -1 * 0  04 00 FF 01 \wxd058 "" 00
+// -1 * 0  04 00 FF 01 \wxd059 "" 00
+// -1 * 0  04 00 FF 01 \wxd05A "" 00
+// -1 * 0  04 00 FF 01 \wxd05B "" 00
+// -1 * 0  04 00 FF 01 \wxd05C "" 00
+// -1 * 0  04 00 FF 01 \wxd05D "" 00
+// -1 * 0  04 00 FF 01 \wxd05E "" 00
+// -1 * 0  04 00 FF 01 \wxd05F "" 00
+// -1 * 0  04 00 FF 01 \wxd060 "" 00
+// -1 * 0  04 00 FF 01 \wxd061 "" 00
+// -1 * 0  04 00 FF 01 \wxd062 "" 00
+// -1 * 0  04 00 FF 01 \wxd063 "" 00
+// -1 * 0  04 00 FF 01 \wxd064 "" 00
+// -1 * 0  04 00 FF 01 \wxd065 "" 00
+// -1 * 0  04 00 FF 01 \wxd066 "" 00
+// -1 * 0  04 00 FF 01 \wxd067 "" 00
+// -1 * 0  04 00 FF 01 \wxd068 "" 00
+// -1 * 0  04 00 FF 01 \wxd069 "" 00
+// -1 * 0  04 00 FF 01 \wxd06A "" 00
+// -1 * 0  04 00 FF 01 \wxd06B "" 00
+// -1 * 0  04 00 FF 01 \wxd06C "" 00
+// -1 * 0  04 00 FF 01 \wxd06D "" 00
+// -1 * 0  04 00 FF 01 \wxd06E "" 00
+// -1 * 0  04 00 FF 01 \wxd06F "" 00
+// -1 * 0  04 00 FF 01 \wxd070 "\n" 98 "Capacity will change when attached to a loco\nUse OpenTTD or TTDPatch r1966 or newer\n" 8B "Can only be used with Multiple Units" 00
+// -1 * 0  04 00 FF 01 \wxd071 "" 00
+// -1 * 0  04 00 FF 01 \wxd072 "" 00
+// -1 * 0  04 00 FF 01 \wxd073 "" 00
+// -1 * 0  04 00 FF 01 \wxd074 "" 00
+// -1 * 0  04 00 FF 01 \wxd075 "" 00
+// -1 * 0  04 00 FF 01 \wxd076 "" 00
+// -1 * 0  04 00 FF 01 \wxd0D0 "\nExperimental world record train" 00 // POS V150
+// -1 * 0  04 00 FF 01 \wxd0F6 "Can only be one unit long" 00
+// -1 * 0  04 00 FF 01 \wxd0F7 "Can only attach to itself" 00
+// -1 * 0  04 00 FF 01 \wxd0F8 "Single unit Subway cars can only connect to their own kind" 00 
+// -1 * 0	04 00 FF 01 \wxd0F9 "MU-wagons can only be attached to MU's" 00
+// -1 * 0	04 00 FF 01 \wxd0FA "Use only Boxcars on CargoSprinter" 00
+// -1 * 0  04 00 FF 01 \wxd0FB "Use PAX/Express MU-wagons" 00
+// -1 * 0  04 00 FF 01 \wxd0FC "Use PAX MU-wagon" 00
+// -1 * 0  04 00 FF 01 \wxd0FE 8B "Optional B-unit(s)(50% runningcost)," 98 " Can be used at either end" 00
+// -1 * 0  04 00 FF 01 \wxd0FF 8B "Optional B-unit(s)(50% runningcost)" 00

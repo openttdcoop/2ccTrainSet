@@ -2,57 +2,11 @@
 // Contains Wagons
 // ---------------
 
-
-//  names
--1 * 0  04 00 7F 01 5D "            Double Decker 4th gen" 00
--1 * 0  04 00 7F 01 5F "2CC xMU Express Wagon" 00
--1 * 0  04 00 7F 01 60 "     Flatbed Wagon (Long)" 00
--1 * 0  04 00 7F 01 61 "     Tanker Wagon (Long)" 00
--1 * 0  04 00 7F 01 62 "     Silo Wagon (Long)" 00
--1 * 0  04 00 7F 01 63 "     Selfdischarging Hopper" 00
--1 * 0  04 00 7F 01 64 "     Livestock Wagon" 00
--1 * 0  04 00 7F 01 65 "     Boxcar (Long)" 00
--1 * 0  04 00 7F 01 66 "     Boxcar (Short)" 00
--1 * 0  04 00 7F 01 67 "     Tanker (Short)" 00
--1 * 0  04 00 7F 01 68 "     Silo (Short)" 00
--1 * 0	04 00 7F 01 69 "     Hopper (Short)" 00
--1 * 0	04 00 7F 01 6A "     Livestock Wagon (Short)" 00
--1 * 0	04 00 7F 01 6B "     Gondola (Short)" 00
+// climate availability of wagons
 -1 * 0  00 00 01 01 6C 06 00
 
--1 * 0  04 00 7F 01 70 "2CC xMU Pax Coach" 00
--1 * 0  00 00 01 01 71 06 00
--1 * 0  04 00 7F 01 72 "Metro Van" 00
--1 * 0  04 00 7F 01 73 "Tender" 00
-	
--1 * 0  04 00 7F 01 \b120 "     2nd Class Coach 1st gen" 00
--1 * 0  04 00 7F 01 \b121 "     2nd Class Coach 2nd gen" 00
--1 * 0  04 00 7F 01 \b122 "     2nd Class Coach 3rd gen" 00
--1 * 0  04 00 7F 01 \b123 "     2nd Class Coach 4th gen" 00
--1 * 0  04 00 7F 01 \b124 "     2nd Class Coach 5th gen" 00
-
--1 * 0  04 00 7F 01 \b125 "     1st Class Coach 1st gen" 00
--1 * 0  04 00 7F 01 \b126 "     1st Class Coach 2nd gen" 00
--1 * 0  04 00 7F 01 \b127 "     1st Class Coach 3rd gen" 00
--1 * 0  04 00 7F 01 \b128 "     1st Class Coach 4th gen" 00
--1 * 0  04 00 7F 01 \b129 "     1st Class Coach 5th gen" 00
-
--1 * 0  04 00 7F 01 \b130 "     Tourist Class Coach 1st gen" 00
--1 * 0  04 00 7F 01 \b131 "     Tourist Class Coach 2nd gen" 00
--1 * 0  04 00 7F 01 \b132 "     Tourist Class Coach 3rd gen" 00
--1 * 0  04 00 7F 01 \b133 "     Tourist Class Coach 4th gen" 00
--1 * 0  04 00 7F 01 \b134 "     Tourist Class Coach 5th gen" 00
-
--1 * 0  04 00 7F 01 \b135 "         Express Coach 1st gen" 00
--1 * 0  04 00 7F 01 \b136 "         Express Coach 2nd gen" 00
--1 * 0  04 00 7F 01 \b137 "         Express Coach 3rd gen" 00
--1 * 0  04 00 7F 01 \b138 "         Express Coach 4th gen" 00
--1 * 0  04 00 7F 01 \b139 "         Express Coach 5th gen" 00
-
--1 * 0  04 00 7F 01 \b*1100 "     Refridgerated car" 00
--1 * 0  04 00 7F 01 \b*1101 "     Intermediate Boxcar" 00
--1 * 0  04 00 7F 01 \b*1102 "     Doubledecker 5th gen" 00
-
+// names
+// see strings/english.nfo and translations
 
 // Tender Action 0
 -1 * 0  00 00 08 01 73  05 00  06 00  12 FD  14 00  16 \b205  1E 02 27 02 21 01
@@ -1655,19 +1609,5 @@
 
 // Action 3: ID
 -1 * 0  03 00 01 F0 01 FF A0 00 AA 00
-
-
-
-
-
-
--1 * 0  04 00 7F 01 F0 "                 TurboBus MKI" 00
-
-
-
-
-
-
-
 
 // EOF
