@@ -22,6 +22,6 @@ cat *.nfo > ../2ccdj.nfo
 cd ../..
 echo "Using repository version:" > renum.log
 hg tip | grep 'changeset' | tee -a renum.log
-renum -w 42,94,141,143,144,147,17 2ccdj.nfo | tee -a renum.log
+renum -w 42,94,141,143,144,147,170 2ccdj.nfo | tee -a renum.log
 echo Running GRFCodec. . .
 grfcodec -c -e -p 2 2ccdj.grf
