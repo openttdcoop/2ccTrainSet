@@ -7,7 +7,7 @@
 
 
 // Action 8: define GRF version (07), GRFID (number), Name and Description.
--1 * 0	 08 07 27 71 10 02 "2cc-Set BETA 2.02 4th april 2009" 00 "Drawn by Purno, Snail, Wile E Coyote and DanMack\nCoded by DJ Nekkid\n" 8E "Check the readme for parameters\nHowever, Parameter1 (Prices: 0 = default, 9 = Double, 7 = Half, 6 = 1/4th, 5 = 1/8th, etc" 00
+-1 * 0	 08 07 27 71 10 02 "2cc-Set BETA 2.03 pre-release" 00 "Drawn by Purno, Snail, Wile E Coyote and DanMack\nCoded by DJ Nekkid\n" 8E "Check the readme for parameters\nHowever, Parameter1 (Prices: 0 = default, 9 = Double, 7 = Half, 6 = 1/4th, 5 = 1/8th, etc" 00
 
 -1 * 0 07 A1 04 \7= FF FF FF FF 01
 -1 * 0 07 A1 04 \7> \w13500 00 07 01
