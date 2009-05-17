@@ -1,0 +1,371 @@
+// This file contains all strings of this grf
+//
+
+// Wagon names in ID order
+-1 * 0  04 00 02 \b22 5D 
+	"     Doppelstockwagen (4. Gen)"	00 // 5D
+	""										00 // 5E
+	"     2CC Expressgut Triebwagen"		00 // 5F
+	"     Flachwagen (lang)"				00 // 60
+	"     Kesselwagen (lang)"				00 // 61
+	"     geschlossener Schüttgutwagen (lang)"	00 // 62
+	"     selbstentlandender Schüttgutwagen"00 // 63
+	"     Güterwagen"						00 // 64
+	"     geschlossener Güterwagen (lang)"	00 // 65
+	"     geschlossener Güterwagen (kurz)"	00 // 66
+	"     Kesselwagen (kurz)"				00 // 67
+	"     geschlossener Schüttgutwagen (kurz)"	00 // 68
+	"     offener Schüttgutwagen (kurz)"	00 // 69
+	"     Güterwagen (kurz)"				00 // 6A
+	"     offener Güterwagen (kurz)"		00 // 6B
+	""										00 // 6C (not used)
+	""										00 // 6D (not used)
+	""										00 // 6E (not used)
+	""										00 // 6F (not used)
+	"     2CC Passagiertriebwagen"			00 // 70
+	"     Metro Wagen"						00 // 71
+	"     Tender"							00 // 72
+	
+-1 * 0  04 00 02 \b20 \b120 
+	"     2. Klasse Wagen (1. Gen)"			00 // \b120
+	"     2. Klasse Wagen (2. Gen)"			00 // \b121
+	"     2. Klasse Wagen (3. Gen)"			00 // \b122
+	"     2. Klasse Wagen (4. Gen)"			00 // \b123
+	"     2. Klasse Wagen (5. Gen)"			00 // \b124
+	"     1. Klasse Wagen (1. Gen)"			00 // \b125
+	"     1. Klasse Wagen (2. Gen)"			00 // \b126
+	"     1. Klasse Wagen (3. Gen)"			00 // \b127
+	"     1. Klasse Wagen (4. Gen)"			00 // \b128
+	"     1. Klasse Wagen (5. Gen)"			00 // \b129
+	"     Touristenklasse Wagen (1. Gen)"	00 // \b130
+	"     Touristenklasse Wagen (2. Gen)"	00 // \b131
+	"     Touristenklasse Wagen (3. Gen)"	00 // \b132
+	"     Touristenklasse Wagen (4. Gen)"	00 // \b133
+	"     Touristenklasse Wagen (5. Gen)"	00 // \b134
+	"     Expressgut-Wagon (1. Gen)"		00 // \b135
+	"     Expressgut-Wagon (2. Gen)"		00 // \b136
+	"     Expressgut-Wagon (3. Gen)"		00 // \b137
+	"     Expressgut-Wagon (4. Gen)"		00 // \b138
+	"     Expressgut-Wagon (5. Gen)"		00 // \b139
+	
+-1 * 0  04 00 02 01 02 
+	"                 TurboBus MKI"			00 // 02	
+	
+-1 * 0  04 00 02 \b3 \b*1100 
+	"     Kühlwagen"						00 // \b1100
+	"     Güterwagen (mittel)"				00 // \b1101
+	"     Doppelstockwagen (5. Gen)"		00 // \b1102
+
+// Engines from region 2
+-1 * 0  04 00 02 01 \b*2400 
+	"                 Cairo anno 1987"		00 // \b2400
+
+// Engines from region 3
+-1 * 0  04 00 02 \b3 \b*3200 
+	"                 KZ2A"					00 // \b3200
+	"                 SS6 "					00 // \b3201
+	"                 WCM-1"				00 // \b3202
+
+-1 * 0  04 00 02 01 \b*3100 
+	"                 WDM-2"				00 // \b3100
+	
+-1 * 0  04 00 02 \b2 \b*3400 
+	"                 Baureihe Tokyo 01"	00 // \b3400
+	"                 Pyongynag D Stock"	00 // \b3401
+
+// Engines from region 4
+-1 * 0  04 00 02 01      15 
+	"                 BDVmot Postabteil"		00 // 0x15
+
+-1 * 0  04 00 02 01 \b*4000 
+	"                 Okz32 "					00 // \b4000
+-1 * 0  04 00 02 01 \b*4100 
+	"                 TEP 150 "					00 // \b4100
+
+-1 * 0  04 00 02 03 \b*4200 
+	"                 DS3"						00 // \b4200
+	"                 VL15 "					00 // \b4201
+	"                 ET 41 "					00 // \b4202
+
+-1 * 0  04 00 02 02 \b*4300 
+	"                 Schienenbus - 809"		00 // \b4300
+	"                 Schienenbus - AR2"		00 // \b4301
+
+-1 * 0  04 00 02 03 \b*4400 
+	"                 Budapest 1894"			00 // \b4400
+	"                 EV3-200"					00 // \b4401
+	"                 81-729"					00 // \b4402
+
+-1 * 0  04 00 02 04 \b*4500 
+	"                 BDVmot"					00 // \b4500
+	"                 CD Baureihe 680"			00 // \b4501
+	"                 Baureihe 811"				00 // \b4502
+	"                 BDVmot mit Postabteil"	00 // \b4503
+
+// Engines from region 5
+-1 * 0  04 00 02 02 \b*5000 
+	"                 Big Boy"					00 // \b5000  <-- Must have old ID, articulation
+	"                 Royal Hudson"				00 // \b5001
+	
+-1 * 0  04 00 02 \b6 \b*5100 
+	"                 GE F3 "					00 // \b5100
+	"                 GE Genesis "				00 // \b5101
+	"                 MLW-M420W "				00 // \b5102 
+	"                 SDP-40F "					00 // \b5103
+	"                 Sharknose "				00 // \b5104
+	"                 ALCo-GE-IR Boxcar"		00 // \b5105
+	
+-1 * 0  04 00 02 \b2 \b*5400 
+	"                 Boston 01800"				00 // \5400
+	"                 Brooklyn union gate Wagen"00 // \5401
+
+// Engines from region 6
+-1 * 0  04 00 02 01 \b*6000 
+	"                 Baureihe 11B 0-8-2"		00 // \b6000
+	
+-1 * 0  04 00 02 02 \b*6100 
+	"                 GM-EMD-J16CW-AC"			00 // \b6100
+	"                 EMD GL8"					00 // \b6101
+
+// Engines from region 7
+-1 * 0  04 00 02 \b2 \b*7100 
+	"                 Baureihe 2100 "			00 // \b7100
+	"                 Baureihe 442 "			00 // \b7101
+-1 * 0  04 00 02 \b2 \b*7500 
+	"                 Hunter Schienenfahrzeug"	00 // \b7500
+	"                 OSCar"					00 // \b7501
+
+// Engines from region 5
+-1 * 0  04 00 02 \b3 \b*8001 
+	"                 MTAB Iore "				00 // \b8001
+	""											00 // \b8002 (unused)
+	"                 MTAB Dm3 "				00 // \b8003
+-1 * 0  04 00 02 01 \b*8100 
+	"                 Dr12 "					00 // \b8100
+	""											00 // \b8101 (unused)
+	"                 Sr1 "						00 // \b8002
+-1 * 0  04 00 02 01 \b*8300 
+	"                 Schienenbus - Dm7"		00 // \b8300
+-1 * 0  04 00 02 01 \b*8400 
+	"                 M100"						00 // \b8400
+-1 * 0  04 00 02 \b8 \b*8500 
+	"                 BM 93 'Talent'"			00 // \b8500
+	"                 Lint41"					00 // \b8501
+	"                 Y2"						00 // \b8502
+	"                 BM65"						00 // \b8503
+	"                 BM73"						00 // \b8504
+	"                 Sm2"						00 // \b8505
+	"                 Sm4"						00 // \b8506
+	"                 X2000"					00 // \b8507
+
+// Engines from region 9
+-1 * 0  04 00 02 \b2 \b*9200 
+	"                 E52500"					00 // \b9202
+	"                 E646 "					00 // \b9201
+-1 * 0  04 00 7f \b2 \b*9500 
+	"                 ERT500"					00 // \b9500
+	"                 594 TRD"					00 // \b9501
+
+// Engines from region 10
+-1 * 0  04 00 02 01 \b30     
+	"                 TVG POS V150"				00 // \b30
+-1 * 0  04 00 02 \b4 \b*10000					// \b10000
+	"                 SNCF 140C "				00 // \b10000
+	"                 SNCF 141TA "				00 // \b10001
+	"                 SNCF 150B "				00 // \b10002
+	"                 NS Class 6300 "			00 // \b10003
+	
+-1 * 0  04 00 02 \b4 \b*10100					// \b10100
+	"                 Baureihe 66 "				00 // \b10100
+	"                 Baureihe 67 "				00 // \b10101
+	"                 V200 "					00 // \b10102
+	"                 SNCB 78"					00 // \b10103
+	
+-1 * 0  04 00 02 \b12 \b*10200					// \b10200
+	"                 Ae 6/6 "					00 // \b10200
+	"                 Ce 4/4 "					00 // \b10201
+	"                 Baureihe 1044 "			00 // \b10202
+	"                 SNCF 26000 "				00 // \b10203
+	"                 E04 01 "					00 // \b10204
+	"                 HLE13"					00 // \b10205
+	"                 NS Baureihe 1000 "		00 // \b10206
+	"                 NS Baureihe 1600 "		00 // \b10207
+	"                 Re460 'Lok2000'"			00 // \b10208
+	"                 27000"					00 // \b10209
+	"                 NER EF1"					00 // \b10210
+	"                 Metrovic EM2"				00 // \b10211
+	-1 * 0  04 00 02 \b19 \b*10500 
+	"                 Cargo Sprinter"			00 // \b10500
+	"                 Baureihe 168"				00 // \b10501
+	"                 El. Triebwagen 2200"		00 // \b10502
+	"                 El. Triebwagen 4041"		00 // \b10503
+	"                 mDDm"						00 // \b10504
+	"                 ET420"					00 // \b10505
+	"                 HSA"						00 // \b10506
+	"                 ICE3"						00 // \b10507
+	"                 ICM"						00 // \b10508
+	"                 Mat'24 "					00 // \b10509
+	"                 Plan Y"					00 // \b10510
+	"                 Radbe510"					00 // \b10511
+	"                 Rbde560"					00 // \b10512
+	"                 TGV Atlantique"			00 // \b10513
+	"                 TGV Duplex "				00 // \b10514
+	"                 TGV Thalys"				00 // \b10515
+	"                 VT612 'Regioswinger'"		00 // \b10516
+	"                 InterCity125"				00 // \b10517
+	"                 Mat'36"					00 // \b10518
+-1 * 0  04 00 02 \b2 \b*10300 
+	"                 Schienenbus - 479"		00 // \b10300
+	"                 Schienenbus - VT 133"		00 // \b10301
+-1 * 0  04 00 02 \b1 \b*15311 
+	"                 Railbus - Class 153 '153111'"	00 // \b10311
+-1 * 0  04 00 02 \b8 \b*10400 
+	"                 Caf90"						00 // \b10400
+	"                 DLR"							00 // \b10401
+	"                 Londoner U-Bahn 1938"			00 // \b10402
+	"                 Typ M1"						00 // \b10403
+	"                 M2 840"						00 // \b10404
+	"                 MP 89"						00 // \b10405
+	"                 U-Bahn C-II"					00 // \b10406
+	"                 London 1903 Stock"			00 // \b10407
+
+// Other strings (moved here from 00header.nfo)
+-1 * 0  04 00 82 2B \wxd000 
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used)
+	"" 00 // (not used) (#42=2A)
+
+// string \wxd02B (not used)
+	
+-1 * 0  04 00 82 \b34 \wxd02B 
+	"Beförderungskapazität: " 8A "63 Passagiere/48 Mail\n" 98 "Ladegeschwindigkeit: " 8A "durchschn.\n" 8B "NB: " 98 "Betriebskosten pro Wagon"		00 // \wxD02B	594
+	"Beförderungskapazität: " 8A "38 Passagiere/29 Mail\n" 98 "Ladegeschwindigkeit: " 8A "niedrig"													00 // \wxD02C	811
+	"Beförderungskapazität: " 8A "55 Passagiere/41 Mail\n" 98 "Ladegeschwindigkeit: " 8A "niedrig"													00 // \wxD02D	BM93
+	"Wagenkapazität: " 8A "80 Kisten\n"																								00 // \wxD02E	CargoSprinter
+	"Beförderungskapazität: " 8A "75 Passagiere/56 Mail\n" 98 "Ladegeschwindigkeit: " 8A "durchschn."													00 // \wxD02F	DMU168
+	"Beförderungskapazität: " 8A "70 Passagiere/53 Mail\n" 98 "Ladegeschwindigkeit: " 8A "durchschn."													00 // \wxD030	Hunter Railcar
+	"Beförderungskapazität: " 8A "73 Passagiere/55 Mail\n" 98 "Ladegeschwindigkeit: " 8A "durchschn."													00 // \wxD031	Lint41
+	"Beförderungskapazität: " 8A "48 Passagiere/36 Mail\n" 98 "Ladegeschwindigkeit: " 8A "niedrig"													00 // \wxD032	Y2
+	"Beförderungskapazität: " 8A "110 Passagiere/84 Mail\n" 98 "Ladegeschwindigkeit: " 8A "durchschn.\n" 8B "NB: " 98 "Betriebskosten pro Wagon"		00 // \wxD033	2200
+	"Beförderungskapazität: " 8A "40 Passagiere/30 Mail\n" 98 "Ladegeschwindigkeit: " 8A "niedrig"													00 // \wxD034	4041
+	"Beförderungskapazität: " 8A "75 Passagiere/56 Mail\n" 98 "Ladegeschwindigkeit: " 8A "durchschn."													00 // \wxD035	BDVmot 
+	"Beförderungskapazität: " 8A "50 Passagiere/38 Mail\n" 98 "Ladegeschwindigkeit: " 8A "durchschn."													00 // \wxD036	BM65
+	"Beförderungskapazität: " 8A "40 Passagiere/30 Mail\n" 98 "Ladegeschwindigkeit: " 8A "niedrig\n" 8B "NB: " 98 "Betriebskosten pro Wagon"			00 // \wxD037	BM73
+	"Beförderungskapazität: " 8A "70 Passagiere/53 Mail\n" 98 "Ladegeschwindigkeit: " 8A "durchschn."													00 // \wxD038	DD-AR
+	"Beförderungskapazität: " 8A "45 Passagiere\n" 98 "Ladegeschwindigkeit: " 8A "niedrig\n" 8B "NB: " 98 "Betriebskosten pro Wagon"					00 // \wxD039	Pendolino
+	"Beförderungskapazität: " 8A "75 Passagiere/56 Mail\n" 98 "Ladegeschwindigkeit: " 8A "durchschn.\n" 8B "NB: " 98 "Betriebskosten pro Wagon"		00 // \wxD03A	ET420
+	"Beförderungskapazität: " 8A "60 Passagiere/45 Mail\n" 98 "Ladegeschwindigkeit: " 8A "niedrig"													00 // \wxD03B	ETR500
+	"Beförderungskapazität: " 8A "42 Passagiere/32 Mail\n" 98 "Ladegeschwindigkeit: " 8A "niedrig\n" 8B "NB: " 98 "Betriebskosten pro Wagon"		00 // \wxD03C	HSA
+	"Beförderungskapazität: " 8A "45 Passagiere\n" 98 "Ladegeschwindigkeit: " 8A "niedrig\n" 8B "NB: " 98 "Betriebskosten pro Wagon"				00 // \wxD03D	Ice3
+	"Beförderungskapazität: " 8A "61 Passagiere/46 Mail\n" 98 "Ladegeschwindigkeit: " 8A "niedrig\n" 8B "NB: " 98 "Betriebskosten pro Wagon"		00 // \wxD03E	ICM
+	"Beförderungskapazität: " 8A "30 Passagiere/25 Mail\n" 98 "Ladegeschwindigkeit: " 8A "niedrig"													00 // \wxD03F	Mat24
+	"Beförderungskapazität: " 8A "112 Passagiere/84 Mail\n" 98 "Ladegeschwindigkeit: " 8A "durchschn.\n" 8B "NB: " 98 "Betriebskosten pro Wagon"	00 // \wxD040	Oscar
+	"Beförderungskapazität: " 8A "66 Passagiere/50 Mail\n" 98 "Ladegeschwindigkeit: " 8A "durchschn.\n" 8B "NB: " 98 "Betriebskosten pro Wagon"		00 // \wxD041	Oscar 	// Plan Y
+	"Beförderungskapazität: " 8A "56 Passagiere/42 Mail\n" 98 "Ladegeschwindigkeit: " 8A "durchschn.\n" 8B "NB: " 98 "Betriebskosten pro Wagon"		00 // \wxD042	RDBDE510
+	"Beförderungskapazität: " 8A "56 Passagiere/42 Mail\n" 98 "Ladegeschwindigkeit: " 8A "durchschn.\n" 8B "NB: " 98 "Betriebskosten pro Wagon"		00 // \wxD043	RDBDE560
+	"Beförderungskapazität: " 8A "76 Passagiere/57 Mail\n" 98 "Ladegeschwindigkeit: " 8A "durchschn.\n" 8B "NB: " 98 "Betriebskosten pro Wagon"		00 // \wxD044	SM2
+	"Beförderungskapazität: " 8A "100 Passagiere/75 Mail\n" 98 "Ladegeschwindigkeit: " 8A "durchschn.\n" 8B "NB: " 98 "Betriebskosten pro Wagon"	00 // \wxD045	SM4
+	"Beförderungskapazität: " 8A "45 Passagiere/34 Mail\n" 98 "Ladegeschwindigkeit: " 8A "niedrig"													00 // \wxD046	TGV Atl.
+	"Beförderungskapazität: " 8A "75 Passagiere\n" 98 "Ladegeschwindigkeit: " 8A "niedrig"															00 // \wxD047	TGV Duplex
+	"Beförderungskapazität: " 8A "45 Passagiere/34 Mail\n" 98 "Ladegeschwindigkeit: " 8A "niedrig"													00 // \wxD048	TGV Thalys
+	"Beförderungskapazität: " 8A "45 Passagiere/34 Mail\n" 98 "Ladegeschwindigkeit: " 8A "niedrig"													00 // \wxD049	X2000
+	"Beförderungskapazität: " 8A "73 Passagiere\n" 98 "Ladegeschwindigkeit: " 8A "durchschn."														00 // \wxD04A	VT612
+	"Beförderungskapazität: " 8A "52 Passagiere/39 Mail\n" 98 "Ladegeschwindigkeit: " 8A "niedrig"													00 // \wxD04B	IC125
+	"Beförderungskapazität: " 8A "52 Passagiere\n" 98 "Ladegeschwindigkeit: " 8A "niedrig"															00 // \wxD04C	mat36
+-1 * 0  04 00 82 \b35 \wxd04D 
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+	"" 00 // (not used)	\wxd06F
+-1 * 0  04 00 82 \b7 \wxd070 
+	"\n" 98 "Die Kapazität ändert sich, wenn an eine Lok angehängt\n Nutze OpenTTD oder TTDPatch r1966 oder neuer\n" 8B "Kann nur mit Triebwagen genutzt werden"		00 // \wxd070	
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+	"" 00 // (not used) 
+-1 * 0  04 00 82 01 \wxd0D0 
+	"\nExperimenteller Weltrekords-Zug"											00 // \wxD0D0	POS V150
+-1 * 0  04 00 82 \b10 \wxd0F6 
+	"Can nur einen Wagen lang sein"												00 // \wxD0F6	
+	"Kann nur an gleichen Typ angehängt werden"									00 // \wxD0F7
+	"U-Bahnwagen können nur an gleichen Typ angehängt werden"					00 // \wxD0F8 
+	"Triebwagen können nur an Triebwagen angehängt werden"						00 // \wxD0F9
+	"Nutze Schiebwandwagen nur am CargoSprinter"								00 // \wxD0FA
+	"Nutze Passagier- / Expressgut-Triebwagen"									00 // \wxD0FB
+	"Nutze Passagier-Triebwagen"												00 // \wxD0FC
+	""																			00 // \wxD0FD	(not used)
+	8B "Optionale B-Baureihe (50% Betriebskosten)," 98 " Kann an jedem Ende genutzt werden"	00 // \wxD0FE
+	8B "Optionale B-Baureihe (50% Betriebskosten)"									00 // \wxD002
