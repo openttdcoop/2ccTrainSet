@@ -109,9 +109,9 @@
 
 // Wagon names in ID order
 -1 * 0  04 00 7F \b22 5D 
-	"            Double Decker 4th gen"		00 // 5D
+	"     Double Decker 4th gen"			00 // 5D
 	""										00 // 5E
-	"2CC xMU Express Wagon"					00 // 5F
+	"     2CC xMU Express Wagon"			00 // 5F
 	"     Flatbed Wagon (Long)"				00 // 60
 	"     Tanker Wagon (Long)"				00 // 61
 	"     Silo Wagon (Long)"				00 // 62
@@ -128,9 +128,9 @@
 	""										00 // 6D (not used)
 	""										00 // 6E (not used)
 	""										00 // 6F (not used)
-	"2CC xMU Pax Coach"						00 // 70
-	"Metro Van"								00 // 71
-	"Tender"								00 // 72
+	"     2CC xMU Pax Coach"				00 // 70
+	"     Metro Van"						00 // 71
+	"     Tender"							00 // 72
 	
 -1 * 0  04 00 7F \b20 \b120 
 	"     2nd Class Coach 1st gen"			00 // \b120
@@ -148,11 +148,11 @@
 	"     Tourist Class Coach 3rd gen"		00 // \b132
 	"     Tourist Class Coach 4th gen"		00 // \b133
 	"     Tourist Class Coach 5th gen"		00 // \b134
-	"         Express Coach 1st gen"		00 // \b135
-	"         Express Coach 2nd gen"		00 // \b136
-	"         Express Coach 3rd gen"		00 // \b137
-	"         Express Coach 4th gen"		00 // \b138
-	"         Express Coach 5th gen"		00 // \b139
+	"     Express Coach 1st gen"			00 // \b135
+	"     Express Coach 2nd gen"			00 // \b136
+	"     Express Coach 3rd gen"			00 // \b137
+	"     Express Coach 4th gen"			00 // \b138
+	"     Express Coach 5th gen"			00 // \b139
 	
 -1 * 0  04 00 7F 01 F0 
 	"                 TurboBus MKI"			00 // F0	
@@ -183,9 +183,10 @@
 -1 * 0  04 00 7F 01      15 
 	"                 BDVmot mailcompartment"	00 // 0x15
 
--1 * 0  04 00 7F 02 \b*4000 
+-1 * 0  04 00 7F 01 \b*4000 
 	"                 Okz32 "					00 // \b4000
-	"                 TEP 150 "					00 // \b4001
+-1 * 0  04 00 7F 01 \b*4100 
+	"                 TEP 150 "					00 // \b4100
 
 -1 * 0  04 00 7F 03 \b*4200 
 	"                 DS3"						00 // \b4200
@@ -243,10 +244,12 @@
 // Engines from region 5
 -1 * 0  04 00 7F \b3 \b*8001 
 	"                 MTAB Iore "				00 // \b8001
-	"                 Sr1 "						00 // \b8002
+	""											00 // \b8002 (unused)
 	"                 MTAB Dm3 "				00 // \b8003
--1 * 0  04 00 7F 01 \b*8100 
+-1 * 0  04 00 7F \b3 \b*8100 
 	"                 Dr12 "					00 // \b8100
+	""											00 // \b8101 (unused)
+	"                 Sr1 "						00 // \b8002
 -1 * 0  04 00 7F 01 \b*8300 
 	"                 Railbus - Dm7"			00 // \b8300
 -1 * 0  04 00 7F 01 \b*8400 
@@ -262,9 +265,9 @@
 	"                 X2000"					00 // \b8507
 
 // Engines from region 9
--1 * 0  04 00 7F \b2 \b*9201 
-	"                 E646 "					00 // \b9201
+-1 * 0  04 00 7F \b2 \b*9200 
 	"                 E52500"					00 // \b9202
+	"                 E646 "					00 // \b9201
 -1 * 0  04 00 7f \b2 \b*9500 
 	"                 ERT500"					00 // \b9500
 	"                 594 TRD"					00 // \b9501
@@ -317,18 +320,10 @@
 	"                 VT612 'Regioswinger'"		00 // \b10516
 	"                 InterCity125"				00 // \b10517
 	"                 Mat'36"					00 // \b10518
--1 * 0  04 00 7F \b12 \b*10300 
+-1 * 0  04 00 7F \b2 \b*10300 
 	"                 Railbus - 479"			00 // \b10300
 	"                 Railbus - VT 133"			00 // \b10301
-	"" 00
-	"" 00
-	"" 00
-	"" 00
-	"" 00
-	"" 00
-	"" 00
-	"" 00
-	"" 00
+-1 * 0  04 00 7F \b1 \b*15311 
 	"                 Railbus - Class 153 '153111'"	00 // \b10311
 -1 * 0  04 00 7F \b8 \b*10400 
 	"                 Caf90"						00 // \b10400
