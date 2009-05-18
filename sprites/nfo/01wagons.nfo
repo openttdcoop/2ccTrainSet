@@ -97,7 +97,10 @@
 // いいいいいいいい
 
 // Long Flatbed
--1 * 0  00 00 \b17 01 60 00 \w1960-01-01 04 \b255 05 00 06 07 07 08 09 \w160 12 FD 14 \b50 15 09 16 \b16 17 \b64 1C 00 21 01 27 02 28 \w32 29 \w75 1D \dx20
+-1 * 0  00 00 \b17 01 60 00 \w1960-01-01 04 \b255 05 00 06 07 07 08 09 \w160 12 FD 14 \b50 15 07 16 \b16 17 \b64 1C 00 21 01 27 02 28 \wxAA0 29 \wxDC 1D \dx10
+// Principle way to modify the wagons as a function of climate:
+//-1 * 0  09 83 01 \7! 04 02 		// skip next sprite, if tropical (basically unneeded, if we default to wood)
+//-1 * 0  00 00 \b01 01 60 15 09 	// Anything but tropical climate: default cargo = steel
 
 // Long Tanker
 -1 * 0  00 00 \b16 01 61 00 \w1960-01-01 04 \b255 05 00 06 07 07 08 09 \w160 12 FD 14 \b45 15 03 16 \b23 17 \b77 1C 00 21 00 27 02 28 \w64 29 \w959
