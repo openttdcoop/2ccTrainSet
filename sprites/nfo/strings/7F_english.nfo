@@ -94,6 +94,10 @@
 // of lines matches the number of lines of the English original
 // it is a good indicator that the translation is up to date
 //
+// Please also keep the exact amount of leading white space in the 
+// strings naming wagons and engines. Otherwise your text would become
+// mis-aligned wrt the graphics, especially the flags.
+//
 //
 // CONTACT
 // 
