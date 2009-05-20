@@ -120,13 +120,13 @@
 	"     Kesselwagen (lang)"				00 // 61
 	"     geschlossener Schüttgutwagen (lang)"	00 // 62
 	"     selbstentlandender Schüttgutwagen"00 // 63
-	"     Güterwagen"						00 // 64
+	"     Viehtransporter"						00 // 64
 	"     geschlossener Güterwagen (lang)"	00 // 65
 	"     geschlossener Güterwagen (kurz)"	00 // 66
 	"     Kesselwagen (kurz)"				00 // 67
 	"     geschlossener Schüttgutwagen (kurz)"	00 // 68
 	"     offener Schüttgutwagen (kurz)"	00 // 69
-	"     Güterwagen (kurz)"				00 // 6A
+	"     Viehtransporter (kurz)"				00 // 6A
 	"     offener Güterwagen (kurz)"		00 // 6B
 	""										00 // 6C (not used)
 	""										00 // 6D (not used)
