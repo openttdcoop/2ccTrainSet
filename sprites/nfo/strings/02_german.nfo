@@ -112,7 +112,7 @@
 //   irc://irc.oftc.net/openttdcoop.devzone
 
 // Wagon names in ID order
--1 * 0  04 00 02 \b22 5D 
+-1 * 0  04 00 02 \b23 5D 
 	"     Doppelstockwagen (4. Gen)"	00 // 5D
 	""										00 // 5E
 	"     2CC Expressgut Triebwagen"		00 // 5F

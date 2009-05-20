@@ -112,7 +112,7 @@
 //   irc://irc.oftc.net/openttdcoop.devzone
 
 // Wagon names in ID order
--1 * 0  04 00 36 \b22 5D 
+-1 * 0  04 00 36 \b23 5D 
 	C3 9E "     Carruagem 2 Andares 4ªG"			00 // 5D
 	C3 9E ""										00 // 5E
 	C3 9E "     Vagão Expresso 2CC xMU"			00 // 5F
