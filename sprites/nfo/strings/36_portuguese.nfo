@@ -1,0 +1,482 @@
+// This file contains all strings of the 2cc newgrf
+// 
+//
+//
+// FILE FORMAT:
+//
+// This file only contains Action 04 entries, e.g. only defines
+// strings. A typical entry looks like this:
+// -1 * 0 04 00 <langID> \b<number consecutive strings> <first StringID>
+//		C3 9E "String1"	00 // Comment
+//		C3 9E "String2"	00 // comment
+//
+// Generally each string occupies exactly one line
+// Some strings are multiline strings and define colour, thus look a bit
+// more complicated. 
+//
+// For an in-depth explanation see the newgrf wiki (look for
+// Action 04):
+// http://wiki.ttdpatch.net/tiki-index.php?page=NewGraphicsSpecs
+//
+//
+// HOW TO TRANSLATE:
+//
+// For translational purposes only the parts between 
+// quotation marks needs to be considered and replaced by the
+// translation itself. There are especially in the engine
+// section strings which might not require a translation
+// Just keep them then.
+// The numbers in the sprite definitions are not of interests
+// except the language ID:
+//
+// each language has its own language ID which needs to replace the
+// "7F" and "FF" in the definition strings:
+// 
+// ID (hex)	Language
+// 00	American
+// 01	English
+// 02	German
+// 03	French
+// 04	Spanish
+// 05	Esperanto
+// 06	Ido
+// 07	Russian
+// 0C	Chinese (Traditional)
+// 0D	Serbian
+// 0E	Norwegian (Nynorsk)
+// 0F	Welsh
+// 14	Arabic (Egypt)
+// 15	Czech
+// 16	Slovak
+// 18	Bulgarian
+// 1B	Afrikaans
+// 1E	Greek
+// 1F	Dutch
+// 22	Catalan
+// 23	Luxembourgish
+// 24	Hungarian
+// 26	Macedonian
+// 27	Italian
+// 28	Romanian
+// 29	Icelandic
+// 2A	Latvian
+// 2B	Lithuanian
+// 2C	Slovenian
+// 2D	Danish
+// 2E	Swedish
+// 2F	Norwegian (Bokmal)
+// 30	Polish
+// 31	Galician
+// 32	Frisian
+// 33	Ukrainian
+// 34	Estonian
+// 35	Finnish
+// 36	Portuguese
+// 37	Brazilian Portuguese
+// 38	Croatian
+// 39	Japanese
+// 3A	Korean
+// 3C	Malay
+// 3E	Turkish
+// 42	Thai
+// 56	Chinese (Simplified)
+// 5A	Indonesian
+// 5C	Urdu
+// 61	Hebrew
+// 62	Persian
+// 80	Flag for generic strings (added to language ID)
+// 7F	any (will be applied no matter what language is active)
+// 
+// for an up-to date list of all available language IDs please
+// see http://wiki.ttdpatch.net/tiki-index.php?page=NewGraphicsSpecs
+//
+// Please don't add or delete lines from this file. If the number
+// of lines matches the number of lines of the English original
+// it is a good indicator that the translation is up to date
+//
+// Please also keep the exact amount of leading white space in the 
+// strings naming wagons and engines. Otherwise your text would become
+// mis-aligned wrt the graphics, especially the flags.
+//
+//
+// CONTACT
+// 
+// * use our development site: 
+//   http://dev.openttdcoop.org/projects/2cctrainset/issues 
+//   and submit feature requests or bug reports there
+// * write in the 2cc trainset thread in the tt-forums.net
+//   http://www.tt-forums.net/viewtopic.php?f=26&t=28051
+// * write us a pm via tt-forums.net
+// * contact us on IRC (planetmaker, DJNekkid)
+//   irc://irc.oftc.net/openttd or
+//   irc://irc.oftc.net/openttdcoop.devzone
+
+// Wagon names in ID order
+-1 * 0  04 00 36 \b22 5D 
+	C3 9E "     Carruagem 2 Andares 4ªG"			00 // 5D
+	C3 9E ""										00 // 5E
+	C3 9E "     Vagão Expresso 2CC xMU"			00 // 5F
+	C3 9E "     Vagão Plano (Longo)"				00 // 60
+	C3 9E "     Vagão-Tanque (Longo)"				00 // 61
+	C3 9E "     Vagão-Silo (Longo)"				00 // 62
+	C3 9E "     Vagão Aberto Autodescarregante"			00 // 63
+	C3 9E "     Vagão de Gado"					00 // 64
+	C3 9E "     Vagão Coberto (Longo)"					00 // 65
+	C3 9E "     Vagão Coberto (Curto)"					00 // 66
+	C3 9E "     Tanque (Curto)"					00 // 67
+	C3 9E "     Silo (Curto)"						00 // 68
+	C3 9E "     Vagão Aberto (Curto)"					00 // 69
+	C3 9E "     Vagão de Gado (Curto)"			00 // 6A
+	C3 9E "     Gôndola (Curto)"					00 // 6B
+	C3 9E ""										00 // 6C (not used)
+	C3 9E ""										00 // 6D (not used)
+	C3 9E ""										00 // 6E (not used)
+	C3 9E ""										00 // 6F (not used)
+	C3 9E "     Carruagem Pax 2CC xMU"				00 // 70
+        C3 9E ""						          00 // 71
+	C3 9E "     Carruagem de Metro"						00 // 72
+	C3 9E "Tender"							00 // 73
+	
+-1 * 0  04 00 36 \b20 \b120 
+	C3 9E "     Carruagem 2ª Classe 1ªG"			00 // \b120
+	C3 9E "     Carruagem 2ª Classe 2ªG"			00 // \b121
+	C3 9E "     Carruagem 2ª Classe 3ªG"			00 // \b122
+	C3 9E "     Carruagem 2ª Classe 4ªG"			00 // \b123
+	C3 9E "     Carruagem 2ª Classe 5ªG"			00 // \b124
+	C3 9E "     Carruagem 1ª Classe 1ªG"			00 // \b125
+	C3 9E "     Carruagem 1ª Classe 2ªG"			00 // \b126
+	C3 9E "     Carruagem 1ª Classe 3ªG"			00 // \b127
+	C3 9E "     Carruagem 1ª Classe 4ªG"			00 // \b128
+	C3 9E "     Carruagem 1ª Classe 5ªG"			00 // \b129
+	C3 9E "     Carruagem Classe Turística 1ªG"		00 // \b130
+	C3 9E "     Carruagem Classe Turística 2ªG"		00 // \b131
+	C3 9E "     Carruagem Classe Turística 3ªG"		00 // \b132
+	C3 9E "     Carruagem Classe Turística 4ªG"		00 // \b133
+	C3 9E "     Carruagem Classe Turística 5ªG"		00 // \b134
+	C3 9E "     Carruagem Expresso 1ªG"			00 // \b135
+	C3 9E "     Carruagem Expresso 2ªG"			00 // \b136
+	C3 9E "     Carruagem Expresso 3ªG"			00 // \b137
+	C3 9E "     Carruagem Expresso 4ªG"			00 // \b138
+	C3 9E "     Carruagem Expresso 5ªG"			00 // \b139
+	
+-1 * 0  04 00 36 01 F0 
+	C3 9E "                 TurboBus MKI"			00 // F0	
+	
+-1 * 0  04 00 36 \b3 \b*1100 
+	C3 9E "     Carruagem Refrigerada"				00 // \b1100
+	C3 9E "     Vagão Intermédio"				00 // \b1101
+	C3 9E "     Carruagem 2 Andares 5ªG"				00 // \b1102
+
+// Engines from region 2
+-1 * 0  04 00 36 01 \b*2400 
+	C3 9E "                 Cairo anno 1987"		00 // \b2400
+
+// Engines from region 3
+-1 * 0  04 00 36 \b3 \b*3200 
+	C3 9E "                 KZ2A"					00 // \b3200
+	C3 9E "                 SS6 "					00 // \b3201
+	C3 9E "                 WCM-1"				00 // \b3202
+
+-1 * 0  04 00 36 01 \b*3100 
+	C3 9E "                 WDM-2"				00 // \b3100
+	
+-1 * 0  04 00 36 \b2 \b*3400 
+	C3 9E "                 Tokyo 01 Series"		00 // \b3400
+	C3 9E "                 Pyongynag D Stock"	00 // \b3401
+
+// Engines from region 4
+-1 * 0  04 00 36 01      15 
+	C3 9E "                 BDVmot correio"	00 // 0x15
+
+-1 * 0  04 00 36 01 \b*4000 
+	C3 9E "                 Okz32 "					00 // \b4000
+-1 * 0  04 00 36 01 \b*4100 
+	C3 9E "                 TEP 150 "					00 // \b4100
+
+-1 * 0  04 00 36 03 \b*4200 
+	C3 9E "                 DS3"						00 // \b4200
+	C3 9E "                 VL15 "					00 // \b4201
+	C3 9E "                 ET 41 "					00 // \b4202
+
+-1 * 0  04 00 36 02 \b*4300 
+	C3 9E "                 Railbus - 809"			00 // \b4300
+	C3 9E "                 Railbus - AR2"			00 // \b4301
+
+-1 * 0  04 00 36 03 \b*4400 
+	C3 9E "                 Budapest 1894"			00 // \b4400
+	C3 9E "                 EV3-200"					00 // \b4401
+	C3 9E "                 81-729"					00 // \b4402
+
+-1 * 0  04 00 36 04 \b*4500 
+	C3 9E "                 BDVmot"					00 // \b4500
+	C3 9E "                 CD Class 680"				00 // \b4501
+	C3 9E "                 Class 811"				00 // \b4502
+	C3 9E "                 BDVmot c/correio" 00 // \b4503
+
+// Engines from region 5
+-1 * 0  04 00 36 02 \b*5000 
+	C3 9E "                 Big Boy"					00 // \b5000  <-- Must have old ID, articulation
+	C3 9E "                 Royal Hudson"				00 // \b5001
+	
+-1 * 0  04 00 36 \b6 \b*5100 
+	C3 9E "                 GE F3 "					00 // \b5100
+	C3 9E "                 GE Genesis "				00 // \b5101
+	C3 9E "                 MLW-M420W "				00 // \b5102 
+	C3 9E "                 SDP-40F "					00 // \b5103
+	C3 9E "                 Sharknose "				00 // \b5104
+	C3 9E "                 ALCo-GE-IR Boxcab"		00 // \b5105
+	
+-1 * 0  04 00 36 \b2 \b*5400 
+	C3 9E "                 Boston 01800"				00 // \5400
+	C3 9E "                 Brooklyn union gate car"	00 // \5401
+
+// Engines from region 6
+-1 * 0  04 00 36 01 \b*6000 
+	C3 9E "                 Class 11B 0-8-2"			00 // \b6000
+	
+-1 * 0  04 00 36 02 \b*6100 
+	C3 9E "                 GM-EMD-J16CW-AC"			00 // \b6100
+	C3 9E "                 EMD GL8"					00 // \b6101
+
+// Engines from region 7
+-1 * 0  04 00 36 \b2 \b*7100 
+	C3 9E "                 Class 2100 "				00 // \b7100
+	C3 9E "                 Class 442 "				00 // \b7101
+-1 * 0  04 00 36 \b2 \b*7500 
+	C3 9E "                 Hunter Railcar"			00 // \b7500
+	C3 9E "                 OSCar"					00 // \b7501
+
+// Engines from region 5
+-1 * 0  04 00 36 \b3 \b*8001 
+	C3 9E "                 MTAB Iore "				00 // \b8001
+	C3 9E ""											00 // \b8002 (unused)
+	C3 9E "                 MTAB Dm3 "				00 // \b8003
+-1 * 0  04 00 36 \b3 \b*8100 
+	C3 9E "                 Dr12 "					00 // \b8100
+	C3 9E ""											00 // \b8101 (unused)
+	C3 9E "                 Sr1 "						00 // \b8002
+-1 * 0  04 00 36 01 \b*8300 
+	C3 9E "                 Railbus - Dm7"			00 // \b8300
+-1 * 0  04 00 36 01 \b*8400 
+	C3 9E "                 M100"						00 // \b8400
+-1 * 0  04 00 36 \b8 \b*8500 
+	C3 9E "                 BM 93 'Talent'"			00 // \b8500
+	C3 9E "                 Lint41"					00 // \b8501
+	C3 9E "                 Y2"						00 // \b8502
+	C3 9E "                 BM65"						00 // \b8503
+	C3 9E "                 BM73"						00 // \b8504
+	C3 9E "                 Sm2"						00 // \b8505
+	C3 9E "                 Sm4"						00 // \b8506
+	C3 9E "                 X2000"					00 // \b8507
+
+// Engines from region 9
+-1 * 0  04 00 36 \b2 \b*9200 
+	C3 9E "                 E52500"					00 // \b9202
+	C3 9E "                 E646 "					00 // \b9201
+-1 * 0  04 00 36 \b2 \b*9500 
+	C3 9E "                 ERT500"					00 // \b9500
+	C3 9E "                 594 TRD"					00 // \b9501
+
+// Engines from region 10
+-1 * 0  04 00 36 01 \b30     
+	C3 9E "                 TVG POS V150"				00 // \b30
+-1 * 0  04 00 36 \b4 \b*10000					// \b10000
+	C3 9E "                 SNCF 140C "				00 // \b10000
+	C3 9E "                 SNCF 141TA "				00 // \b10001
+	C3 9E "                 SNCF 150B "				00 // \b10002
+	C3 9E "                 NS Class 6300 "			00 // \b10003
+	
+-1 * 0  04 00 36 \b4 \b*10100					// \b10100
+	C3 9E "                 Class 66 "				00 // \b10100
+	C3 9E "                 Class 67 "				00 // \b10101
+	C3 9E "                 V200 "					00 // \b10102
+	C3 9E "                 SNCB 78"					00 // \b10103
+	
+-1 * 0  04 00 36 \b12 \b*10200					// \b10200
+	C3 9E "                 Ae 6/6 "					00 // \b10200
+	C3 9E "                 Ce 4/4 "					00 // \b10201
+	C3 9E "                 Class 1044 "				00 // \b10202
+	C3 9E "                 SNCF 26000 "				00 // \b10203
+	C3 9E "                 E04 01 "					00 // \b10204
+	C3 9E "                 HLE13"					00 // \b10205
+	C3 9E "                 NS Class 1000 "			00 // \b10206
+	C3 9E "                 NS Class 1600 "			00 // \b10207
+	C3 9E "                 Re460 'Lok2000'"			00 // \b10208
+	C3 9E "                 27000"					00 // \b10209
+	C3 9E "                 NER EF1"					00 // \b10210
+	C3 9E "                 Metrovic EM2"				00 // \b10211
+	-1 * 0  04 00 36 \b19 \b*10500 
+	C3 9E "                 Cargo Sprinter"			00 // \b10500
+	C3 9E "                 Class 168"				00 // \b10501
+	C3 9E "                 EMU 2200"					00 // \b10502
+	C3 9E "                 EMU 4041"					00 // \b10503
+	C3 9E "                 mDDm"						00 // \b10504
+	C3 9E "                 ET420"					00 // \b10505
+	C3 9E "                 HSA"						00 // \b10506
+	C3 9E "                 ICE3"						00 // \b10507
+	C3 9E "                 ICM"						00 // \b10508
+	C3 9E "                 Mat'24 "					00 // \b10509
+	C3 9E "                 Plan Y"					00 // \b10510
+	C3 9E "                 Radbe510"					00 // \b10511
+	C3 9E "                 Rbde560"					00 // \b10512
+	C3 9E "                 TGV Atlantique"			00 // \b10513
+	C3 9E "                 TGV Duplex "				00 // \b10514
+	C3 9E "                 TGV Thalys"				00 // \b10515
+	C3 9E "                 VT612 'Regioswinger'"		00 // \b10516
+	C3 9E "                 InterCity125"				00 // \b10517
+	C3 9E "                 Mat'36"					00 // \b10518
+-1 * 0  04 00 36 \b2 \b*10300 
+	C3 9E "                 Railbus - 479"			00 // \b10300
+	C3 9E "                 Railbus - VT 133"			00 // \b10301
+-1 * 0  04 00 36 \b1 \b*15311 
+	C3 9E "                 Railbus - Class 153 '153111'"	00 // \b10311
+-1 * 0  04 00 36 \b8 \b*10400 
+	C3 9E "                 Caf90"						00 // \b10400
+	C3 9E "                 DLR"							00 // \b10401
+	C3 9E "                 London Underground 1938"		00 // \b10402
+	C3 9E "                 Type M1"						00 // \b10403
+	C3 9E "                 M2 840"						00 // \b10404
+	C3 9E "                 MP 89"						00 // \b10405
+	C3 9E "                 U-Bahn C-II"					00 // \b10406
+	C3 9E "                 London 1903 Stock"			00 // \b10407
+
+// Other strings (moved here from 00header.nfo)
+-1 * 0  04 00 B6 2B \wxd000 
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used)
+	C3 9E "" 00 // (not used) (#42=2A)
+
+// string \wxd02B (not used)
+	
+-1 * 0  04 00 B6 \b34 \wxd02B 
+	C3 9E "Capacidade da Carruagem: " 8A "63 Passageiros/48 Correio\n" 98 "Velocidade de Carregamento: " 8A "Médio\n" 8B "NB: " 98 "Custo de manutenção por unidade"		00 // \wxD02B	594
+	C3 9E "Capacidade da Carruagem: " 8A "38 Passageiros/29 Correio\n" 98 "Velocidade de Carregamento: " 8A "Baixo"													00 // \wxD02C	811
+	C3 9E "Capacidade da Carruagem: " 8A "55 Passageiros/41 Correio\n" 98 "Velocidade de Carregamento: " 8A "Baixo"													00 // \wxD02D	BM93
+	C3 9E "Capacidade do Reboque: " 8A "80 Caixas\n"																								00 // \wxD02E	CargoSprinter
+	C3 9E "Capacidade da Carruagem: " 8A "75 Passageiros/56 Correio\n" 98 "Velocidade de Carregamento: " 8A "Médio"													00 // \wxD02F	DMU168
+	C3 9E "Capacidade da Carruagem: " 8A "70 Passageiros/53 Correio\n" 98 "Velocidade de Carregamento: " 8A "Médio"													00 // \wxD030	Hunter Railcar
+	C3 9E "Capacidade da Carruagem: " 8A "73 Passageiros/55 Correio\n" 98 "Velocidade de Carregamento: " 8A "Médio"													00 // \wxD031	Lint41
+	C3 9E "Capacidade da Carruagem: " 8A "48 Passageiros/36 Correio\n" 98 "Velocidade de Carregamento: " 8A "Baixo"													00 // \wxD032	Y2
+	C3 9E "Capacidade da Carruagem: " 8A "110 Passageiros/84 Correio\n" 98 "Velocidade de Carregamento: " 8A "Médio\n" 8B "NB: " 98 "Custo de manutenção por unidade"		00 // \wxD033	2200
+	C3 9E "Capacidade da Carruagem: " 8A "40 Passageiros/30 Correio\n" 98 "Velocidade de Carregamento: " 8A "Baixo"													00 // \wxD034	4041
+	C3 9E "Capacidade da Carruagem: " 8A "75 Passageiros/56 Correio\n" 98 "Velocidade de Carregamento: " 8A "Médio"													00 // \wxD035	BDVmot 
+	C3 9E "Capacidade da Carruagem: " 8A "50 Passageiros/38 Correio\n" 98 "Velocidade de Carregamento: " 8A "Médio"													00 // \wxD036	BM65
+	C3 9E "Capacidade da Carruagem: " 8A "40 Passageiros/30 Correio\n" 98 "Velocidade de Carregamento: " 8A "Baixo\n" 8B "NB: " 98 "Custo de manutenção por unidade"			00 // \wxD037	BM73
+	C3 9E "Capacidade da Carruagem: " 8A "70 Passageiros/53 Correio\n" 98 "Velocidade de Carregamento: " 8A "Médio"													00 // \wxD038	DD-AR
+	C3 9E "Capacidade da Carruagem: " 8A "45 Passageiros\n" 98 "Velocidade de Carregamento: " 8A "Baixo\n" 8B "NB: " 98 "Custo de manutenção por unidade"					00 // \wxD039	Pendolino
+	C3 9E "Capacidade da Carruagem: " 8A "75 Passageiros/56 Correio\n" 98 "Velocidade de Carregamento: " 8A "Médio\n" 8B "NB: " 98 "Custo de manutenção por unidade"		00 // \wxD03A	ET420
+	C3 9E "Capacidade da Carruagem: " 8A "60 Passageiros/45 Correio\n" 98 "Velocidade de Carregamento: " 8A "Baixo"													00 // \wxD03B	ETR500
+	C3 9E "Capacidade da Carruagem: " 8A "42 Passageiros/32 Correio\n" 98 "Velocidade de Carregamento: " 8A "Baixo\n" 8B "NB: " 98 "Custo de manutenção por unidade"			00 // \wxD03C	HSA
+	C3 9E "Capacidade da Carruagem: " 8A "45 Passageiros\n" 98 "Velocidade de Carregamento: " 8A "Baixo\n" 8B "NB: " 98 "Custo de manutenção por unidade"					00 // \wxD03D	Ice3
+	C3 9E "Capacidade da Carruagem: " 8A "61 Passageiros/46 Correio\n" 98 "Velocidade de Carregamento: " 8A "Baixo\n" 8B "NB: " 98 "Custo de manutenção por unidade"			00 // \wxD03E	ICM
+	C3 9E "Capacidade da Carruagem: " 8A "30 Passageiros/25 Correio\n" 98 "Velocidade de Carregamento: " 8A "Baixo"													00 // \wxD03F	Mat24
+	C3 9E "Capacidade da Carruagem: " 8A "112 Passageiros/84 Correio\n" 98 "Velocidade de Carregamento: " 8A "Médio\n" 8B "NB: " 98 "Custo de manutenção por unidade"		00 // \wxD040	Oscar
+	C3 9E "Capacidade da Carruagem: " 8A "66 Passageiros/50 Correio\n" 98 "Velocidade de Carregamento: " 8A "Médio\n" 8B "NB: " 98 "Custo de manutenção por unidade"		00 // \wxD041	Oscar 	// Plan Y
+	C3 9E "Capacidade da Carruagem: " 8A "56 Passageiros/42 Correio\n" 98 "Velocidade de Carregamento: " 8A "Médio\n" 8B "NB: " 98 "Custo de manutenção por unidade"		00 // \wxD042	RDBDE510
+	C3 9E "Capacidade da Carruagem: " 8A "56 Passageiros/42 Correio\n" 98 "Velocidade de Carregamento: " 8A "Médio\n" 8B "NB: " 98 "Custo de manutenção por unidade"		00 // \wxD043	RDBDE560
+	C3 9E "Capacidade da Carruagem: " 8A "76 Passageiros/57 Correio\n" 98 "Velocidade de Carregamento: " 8A "Médio\n" 8B "NB: " 98 "Custo de manutenção por unidade"		00 // \wxD044	SM2
+	C3 9E "Capacidade da Carruagem: " 8A "100 Passageiros/75 Correio\n" 98 "Velocidade de Carregamento: " 8A "Médio\n" 8B "NB: " 98 "Custo de manutenção por unidade"		00 // \wxD045	SM4
+	C3 9E "Capacidade da Carruagem: " 8A "45 Passageiros/34 Correio\n" 98 "Velocidade de Carregamento: " 8A "Baixo"													00 // \wxD046	TGV Atl.
+	C3 9E "Capacidade da Carruagem: " 8A "75 Passageiros\n" 98 "Velocidade de Carregamento: " 8A "Baixo"															00 // \wxD047	TGV Duplex
+	C3 9E "Capacidade da Carruagem: " 8A "45 Passageiros/34 Correio\n" 98 "Velocidade de Carregamento: " 8A "Baixo"													00 // \wxD048	TGV Thalys
+	C3 9E "Capacidade da Carruagem: " 8A "45 Passageiros/34 Correio\n" 98 "Velocidade de Carregamento: " 8A "Baixo"													00 // \wxD049	X2000
+	C3 9E "Capacidade da Carruagem: " 8A "73 Passageiros\n" 98 "Velocidade de Carregamento: " 8A "Médio"															00 // \wxD04A	VT612
+	C3 9E "Capacidade da Carruagem: " 8A "52 Passageiros/39 Correio\n" 98 "Velocidade de Carregamento: " 8A "Baixo"													00 // \wxD04B	IC125
+	C3 9E "Capacidade da Carruagem: " 8A "52 Passageiros\n" 98 "Velocidade de Carregamento: " 8A "Baixo"															00 // \wxD04C	mat36
+-1 * 0  04 00 B6 \b35 \wxd04D 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used)	\wxd06F
+-1 * 0  04 00 B6 \b7 \wxd070 
+	C3 9E "\n" 98 "A capacidade varia quando ligado a uma locomotiva\nUtilize o OpenTTD ou TTDPatch r1966 ou mais recente\n" 8B "Só pode ser utilizado com Unidades Múltiplas (MU)"		00 // \wxd070	
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+	C3 9E "" 00 // (not used) 
+-1 * 0  04 00 B6 01 \wxd0D0 
+	C3 9E "\nComboio experimental para records mundais"											00 // \wxD0D0	POS V150
+-1 * 0  04 00 B6 \b10 \wxd0F6 
+	C3 9E "Só pode ter uma unidade de comprimento"													00 // \wxD0F6	
+	C3 9E "Só pode ser ligado a si próprio"													00 // \wxD0F7
+	C3 9E "Carruagens de Metro de unidade Única só podem ser ligadas às do seu género"				00 // \wxD0F8 
+	C3 9E "Vagões MU só podem ser ligados a MUs"									00 // \wxD0F9
+	C3 9E "Utilize apenas Vagões Cobertos com a CargoSprinter"											00 // \wxD0FA
+	C3 9E "Utilize vagões MU PAX/Expresso"													00 // \wxD0FB
+	C3 9E "Utilize vagões MU PAX"															00 // \wxD0FC
+	C3 9E ""																			00 // \wxD0FD	(not used)
+	8B "Unidade(s) opcionais (50% custo manutenção)," 98 " Podem ser utilizadas em qualquer ponta"	00 // \wxD0FE
+	8B "Unidade(s) opcionais (50% custo manutenção)"									00 // \wxD0FF
