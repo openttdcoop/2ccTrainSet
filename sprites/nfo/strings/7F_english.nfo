@@ -112,7 +112,7 @@
 //   irc://irc.oftc.net/openttdcoop.devzone
 
 // Wagon names in ID order
--1 * 0  04 00 7F \b22 5D 
+-1 * 0  04 00 7F \b23 5D 
 	"     Double Decker 4th gen"			00 // 5D
 	""										00 // 5E
 	"     2CC xMU Express Wagon"			00 // 5F
