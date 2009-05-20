@@ -17,6 +17,7 @@
 // For an in-depth explanation see the newgrf wiki (look for
 // Action 04):
 // http://wiki.ttdpatch.net/tiki-index.php?page=NewGraphicsSpecs
+// Strings are UTF-8 encoded.
 //
 //
 // HOW TO TRANSLATE:
@@ -112,30 +113,33 @@
 //   irc://irc.oftc.net/openttdcoop.devzone
 
 // Wagon names in ID order
--1 * 0  04 00 02 \b23 5D 
+-1 * 0  04 00 02 \b1 5D 
 	"     Doppelstockwagen (4. Gen)"	00 // 5D
-	""										00 // 5E
+
+-1 * 0  04 00 02 \b13 5F
 	"     2CC Expressgut Triebwagen"		00 // 5F
 	"     Flachwagen (lang)"				00 // 60
 	"     Kesselwagen (lang)"				00 // 61
 	"     geschlossener Schüttgutwagen (lang)"	00 // 62
 	"     selbstentlandender Schüttgutwagen"00 // 63
-	"     Viehtransporter"						00 // 64
+	"     Viehtransporter"					00 // 64
 	"     geschlossener Güterwagen (lang)"	00 // 65
 	"     geschlossener Güterwagen (kurz)"	00 // 66
 	"     Kesselwagen (kurz)"				00 // 67
 	"     geschlossener Schüttgutwagen (kurz)"	00 // 68
 	"     offener Schüttgutwagen (kurz)"	00 // 69
-	"     Viehtransporter (kurz)"				00 // 6A
+	"     Viehtransporter (kurz)"			00 // 6A
 	"     offener Güterwagen (kurz)"		00 // 6B
-	""										00 // 6C (not used)
-	""										00 // 6D (not used)
-	""										00 // 6E (not used)
-	""										00 // 6F (not used)
+//	""										00 // 6C (not used)
+//	""										00 // 6D (not used)
+//	""										00 // 6E (not used)
+//	""										00 // 6F (not used)
+-1 * 0  04 00 7F \b01 70
 	"     2CC Passagiertriebwagen"			00 // 70
-	""							00 // 71 (not used)
+//	""										00 // 71 (not used)
+-1 * 0  04 00 7F \b02 72 
 	"     Metro Wagen"						00 // 72
-	"Tender"							00 // 73
+	"Tender"								00 // 73
 	
 -1 * 0  04 00 02 \b20 \b120 
 	"     2. Klasse Wagen (1. Gen)"			00 // \b120
@@ -176,10 +180,8 @@
 	"                 KZ2A"					00 // \b3200
 	"                 SS6 "					00 // \b3201
 	"                 WCM-1"				00 // \b3202
-
 -1 * 0  04 00 02 01 \b*3100 
 	"                 WDM-2"				00 // \b3100
-	
 -1 * 0  04 00 02 \b2 \b*3400 
 	"                 Baureihe Tokyo 01"	00 // \b3400
 	"                 Pyongynag D Stock"	00 // \b3401
@@ -187,26 +189,21 @@
 // Engines from region 4
 -1 * 0  04 00 02 01      15 
 	"                 BDVmot Postabteil"		00 // 0x15
-
 -1 * 0  04 00 02 01 \b*4000 
 	"                 Okz32 "					00 // \b4000
 -1 * 0  04 00 02 01 \b*4100 
 	"                 TEP 150 "					00 // \b4100
-
 -1 * 0  04 00 02 03 \b*4200 
 	"                 DS3"						00 // \b4200
 	"                 VL15 "					00 // \b4201
 	"                 ET 41 "					00 // \b4202
-
 -1 * 0  04 00 02 02 \b*4300 
 	"                 Schienenbus - 809"		00 // \b4300
 	"                 Schienenbus - AR2"		00 // \b4301
-
 -1 * 0  04 00 02 03 \b*4400 
 	"                 Budapest 1894"			00 // \b4400
 	"                 EV3-200"					00 // \b4401
 	"                 81-729"					00 // \b4402
-
 -1 * 0  04 00 02 04 \b*4500 
 	"                 BDVmot"					00 // \b4500
 	"                 CD Baureihe 680"			00 // \b4501
@@ -217,7 +214,6 @@
 -1 * 0  04 00 02 02 \b*5000 
 	"                 Big Boy"					00 // \b5000  <-- Must have old ID, articulation
 	"                 Royal Hudson"				00 // \b5001
-	
 -1 * 0  04 00 02 \b6 \b*5100 
 	"                 GE F3 "					00 // \b5100
 	"                 GE Genesis "				00 // \b5101
@@ -225,7 +221,6 @@
 	"                 SDP-40F "					00 // \b5103
 	"                 Sharknose "				00 // \b5104
 	"                 ALCo-GE-IR Boxcar"		00 // \b5105
-	
 -1 * 0  04 00 02 \b2 \b*5400 
 	"                 Boston 01800"				00 // \5400
 	"                 Brooklyn union gate Wagen"00 // \5401
@@ -233,7 +228,6 @@
 // Engines from region 6
 -1 * 0  04 00 02 01 \b*6000 
 	"                 Baureihe 11B 0-8-2"		00 // \b6000
-	
 -1 * 0  04 00 02 02 \b*6100 
 	"                 GM-EMD-J16CW-AC"			00 // \b6100
 	"                 EMD GL8"					00 // \b6101
@@ -246,14 +240,14 @@
 	"                 Hunter Schienenfahrzeug"	00 // \b7500
 	"                 OSCar"					00 // \b7501
 
-// Engines from region 5
--1 * 0  04 00 02 \b3 \b*8001 
+// Engines from region 8
+-1 * 0  04 00 02 \b1 \b*8001 
 	"                 MTAB Iore "				00 // \b8001
-	""											00 // \b8002 (unused)
+-1 * 0  04 00 7F \b1 \b*8003 
 	"                 MTAB Dm3 "				00 // \b8003
--1 * 0  04 00 02 03 \b*8100 
+-1 * 0  04 00 02 01 \b*8100 
 	"                 Dr12 "					00 // \b8100
-	""											00 // \b8101 (unused)
+-1 * 0  04 00 7F \b1 \b*8102 
 	"                 Sr1 "						00 // \b8002
 -1 * 0  04 00 02 01 \b*8300 
 	"                 Schienenbus - Dm7"		00 // \b8300
@@ -285,13 +279,11 @@
 	"                 SNCF 141TA "				00 // \b10001
 	"                 SNCF 150B "				00 // \b10002
 	"                 NS Class 6300 "			00 // \b10003
-	
 -1 * 0  04 00 02 \b4 \b*10100					// \b10100
 	"                 Baureihe 66 "				00 // \b10100
 	"                 Baureihe 67 "				00 // \b10101
 	"                 V200 "					00 // \b10102
 	"                 SNCB 78"					00 // \b10103
-	
 -1 * 0  04 00 02 \b12 \b*10200					// \b10200
 	"                 Ae 6/6 "					00 // \b10200
 	"                 Ce 4/4 "					00 // \b10201
@@ -341,52 +333,7 @@
 	"                 London 1903 Stock"			00 // \b10407
 
 // Other strings (moved here from 00header.nfo)
--1 * 0  04 00 82 2B \wxd000 
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used)
-	"" 00 // (not used) (#42=2A)
-
-// string \wxd02B (not used)
+//-1 * 0  04 00 82 2B \wxd000 ... \wxd02A (not used)
 	
 -1 * 0  04 00 82 \b34 \wxd02B 
 	"Beförderungskapazität: " 8A "63 Passagiere/48 Mail\n" 98 "Ladegeschwindigkeit: " 8A "durchschn.\n" 8B "NB: " 98 "Betriebskosten pro Wagon"		00 // \wxD02B	594
@@ -423,53 +370,16 @@
 	"Beförderungskapazität: " 8A "73 Passagiere\n" 98 "Ladegeschwindigkeit: " 8A "durchschn."														00 // \wxD04A	VT612
 	"Beförderungskapazität: " 8A "52 Passagiere/39 Mail\n" 98 "Ladegeschwindigkeit: " 8A "niedrig"													00 // \wxD04B	IC125
 	"Beförderungskapazität: " 8A "52 Passagiere\n" 98 "Ladegeschwindigkeit: " 8A "niedrig"															00 // \wxD04C	mat36
--1 * 0  04 00 82 \b35 \wxd04D 
-	"" 00 // (not used) 
-	"" 00 // (not used) 
-	"" 00 // (not used) 
-	"" 00 // (not used) 
-	"" 00 // (not used) 
-	"" 00 // (not used) 
-	"" 00 // (not used) 
-	"" 00 // (not used) 
-	"" 00 // (not used) 
-	"" 00 // (not used) 
-	"" 00 // (not used) 
-	"" 00 // (not used) 
-	"" 00 // (not used) 
-	"" 00 // (not used) 
-	"" 00 // (not used) 
-	"" 00 // (not used) 
-	"" 00 // (not used) 
-	"" 00 // (not used) 
-	"" 00 // (not used) 
-	"" 00 // (not used) 
-	"" 00 // (not used) 
-	"" 00 // (not used) 
-	"" 00 // (not used) 
-	"" 00 // (not used) 
-	"" 00 // (not used) 
-	"" 00 // (not used) 
-	"" 00 // (not used) 
-	"" 00 // (not used) 
-	"" 00 // (not used) 
-	"" 00 // (not used) 
-	"" 00 // (not used) 
-	"" 00 // (not used) 
-	"" 00 // (not used) 
-	"" 00 // (not used) 
-	"" 00 // (not used)	\wxd06F
--1 * 0  04 00 82 \b7 \wxd070 
+
+// -1 * 0  04 00 82 \b35 \wxd04D ... \wxd06F (not used)
+
+-1 * 0  04 00 82 \b1 \wxd070 
 	"\n" 98 "Die Kapazität ändert sich, wenn an eine Lok angehängt\n Nutze OpenTTD oder TTDPatch r1966 oder neuer\n" 8B "Kann nur mit Triebwagen genutzt werden"		00 // \wxd070	
-	"" 00 // (not used) 
-	"" 00 // (not used) 
-	"" 00 // (not used) 
-	"" 00 // (not used) 
-	"" 00 // (not used) 
-	"" 00 // (not used) 
+
 -1 * 0  04 00 82 01 \wxd0D0 
 	"\nExperimenteller Weltrekords-Zug"											00 // \wxD0D0	POS V150
--1 * 0  04 00 82 \b10 \wxd0F6 
+	
+-1 * 0  04 00 82 \b7 \wxd0F6 
 	"Can nur einen Wagen lang sein"												00 // \wxD0F6	
 	"Kann nur an gleichen Typ angehängt werden"									00 // \wxD0F7
 	"U-Bahnwagen können nur an gleichen Typ angehängt werden"					00 // \wxD0F8 
@@ -477,6 +387,7 @@
 	"Nutze Schiebwandwagen nur am CargoSprinter"								00 // \wxD0FA
 	"Nutze Passagier- / Expressgut-Triebwagen"									00 // \wxD0FB
 	"Nutze Passagier-Triebwagen"												00 // \wxD0FC
-	""																			00 // \wxD0FD	(not used)
-	8B "Optionale B-Baureihe (50% Betriebskosten)," 98 " Kann an jedem Ende genutzt werden"	00 // \wxD0FE
-	8B "Optionale B-Baureihe (50% Betriebskosten)"									00 // \wxD002
+
+-1 * 0  04 00 82 \b2 \wxd0F6 
+	C3 9E 8B "Optionale B-Baureihe (50% Betriebskosten)," 98 " Kann an jedem Ende genutzt werden"	00 // \wxD0FE
+	C3 9E 8B "Optionale B-Baureihe (50% Betriebskosten)"									00 // \wxD0FF
