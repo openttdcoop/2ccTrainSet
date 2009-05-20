@@ -133,8 +133,9 @@
 	""										00 // 6E (not used)
 	""										00 // 6F (not used)
 	"     2CC xMU Pax Coach"				00 // 70
-	"     Metro Van"						00 // 71
-	"     Tender"							00 // 72
+	""							00 // 71 (not used)
+	"     Metro Van"						00 // 72
+	"Tender"							00 // 73
 	
 -1 * 0  04 00 7F \b20 \b120 
 	"     2nd Class Coach 1st gen"			00 // \b120
