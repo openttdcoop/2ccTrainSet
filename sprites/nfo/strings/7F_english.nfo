@@ -63,11 +63,11 @@
 	C3 9E "     Intermediate Boxcar"				00 // \b1101
 	C3 9E "     Doubledecker 5th gen"				00 // \b1102
 
-// Engines from region 2
+// Engines from region 2 (Africa)
 -1 * 0  04 00 7F 01 \b*2400 
 	C3 9E "                 Cairo anno 1987"		00 // \b2400
 
-// Engines from region 3
+// Engines from region 3 (Asia)
 -1 * 0  04 00 7F \b3 \b*3200 
 	C3 9E "                 KZ2A"					00 // \b3200
 	C3 9E "                 SS6 "					00 // \b3201
@@ -78,7 +78,7 @@
 	C3 9E "                 Tokyo 01 Series"		00 // \b3400
 	C3 9E "                 Pyongyang D Stock"		00 // \b3401
 
-// Engines from region 4
+// Engines from region 4 (Eastern Europe)
 -1 * 0  04 00 7F 01      15 
 	C3 9E "                 BDVmot mailcompartment"		00 // 0x15
 -1 * 0  04 00 7F 01 \b*4000 
@@ -102,7 +102,7 @@
 	C3 9E "                 Class 811"					00 // \b4502
 	C3 9E "                 BDVmot w/mailcompartment"	00 // \b4503
 
-// Engines from region 5
+// Engines from region 5 (North America)
 -1 * 0  04 00 7F 02 \b*5000 
 	C3 9E "                 Big Boy"					00 // \b5000  <-- Must have old ID, articulation
 	C3 9E "                 Royal Hudson"				00 // \b5001
@@ -117,14 +117,14 @@
 	C3 9E "                 Boston 01800"				00 // \5400
 	C3 9E "                 Brooklyn union gate car"	00 // \5401
 
-// Engines from region 6
+// Engines from region 6 (South America)
 -1 * 0  04 00 7F 01 \b*6000 
 	C3 9E "                 Class 11B 0-8-2"			00 // \b6000
 -1 * 0  04 00 7F 02 \b*6100 
 	C3 9E "                 GM-EMD-J16CW-AC"			00 // \b6100
 	C3 9E "                 EMD GL8"					00 // \b6101
 
-// Engines from region 7
+// Engines from region 7 (Oceania)
 -1 * 0  04 00 7F \b2 \b*7100 
 	C3 9E "                 Class 2100 "				00 // \b7100
 	C3 9E "                 Class 442 "					00 // \b7101
@@ -132,7 +132,7 @@
 	C3 9E "                 Hunter Railcar"				00 // \b7500
 	C3 9E "                 OSCar"						00 // \b7501
 
-// Engines from region 8
+// Engines from region 8 (Scandinavia)
 -1 * 0  04 00 7F \b1 \b*8001 
 	C3 9E "                 MTAB Iore "					00 // \b8001
 -1 * 0  04 00 7F \b1 \b*8003 
@@ -155,7 +155,7 @@
 	C3 9E "                 Sm4"						00 // \b8506
 	C3 9E "                 X2000"						00 // \b8507
 
-// Engines from region 9
+// Engines from region 9 (Southern Europe)
 -1 * 0  04 00 7F \b2 \b*9200 
 	C3 9E "                 E52500"						00 // \b9202
 	C3 9E "                 E646 "						00 // \b9201
@@ -163,7 +163,7 @@
 	C3 9E "                 ERT500"						00 // \b9500
 	C3 9E "                 594 TRD"					00 // \b9501
 
-// Engines from region 10
+// Engines from region 10 (Western Europe)
 -1 * 0  04 00 7F 01 \b30     
 	C3 9E "                 TVG POS V150"				00 // \b30
 -1 * 0  04 00 7F \b4 \b*10000
