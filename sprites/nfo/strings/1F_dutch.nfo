@@ -1,4 +1,4 @@
-﻿// Language: Dutch
+// Language: Dutch
 // Language ID: 1F
 // ID for generic strings: 9F
 
@@ -270,7 +270,7 @@
 	C3 9E "\nExperimentele wereldrecord trein"									00 // \wxD0D0	POS V150
 	
 -1 * 0  04 00 9F \b7 \wxd0F6 
-	C3 9E "Kan slechts \U+00E9\U+00E9n eenheid lang zijn"						00 // \wxD0F6	
+	C3 9E "Kan slechts één eenheid lang zijn"						00 // \wxD0F6	
 	C3 9E "Kan alleen koppelen aan zichzelf"									00 // \wxD0F7
 	C3 9E "Metro Rijtuigen kunnen alleen aan hun eigen soort gekoppeld worden"	00 // \wxD0F8 
 	C3 9E "Treinstel-Rijtuigen kunnen alleen gekoppeld worden aan treinstellen"	00 // \wxD0F9
