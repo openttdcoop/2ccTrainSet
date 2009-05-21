@@ -116,6 +116,8 @@
 -1 * 0  04 00 36 \b2 \b*5400 
 	C3 9E "                 Boston 01800"				00 // \5400
 	C3 9E "                 Brooklyn union gate car"	00 // \5401
+-1 * 0  04 00 36 \b1 \b*5500
+	C3 9E "                 Chicago Doubler"			00 // \b5500
 
 // Engines from region 6
 -1 * 0  04 00 36 01 \b*6000 
@@ -227,11 +229,11 @@
 // Other strings (moved here from 00header.nfo)
 //-1 * 0  04 00 B6 2B \wxd000 ... \wxd02A (not used)
 	
--1 * 0  04 00 B6 \b34 \wxd02B 
-	C3 9E "Capacidade da Carruagem: " 8A "63 Passageiros/48 Correio\n" 98 "Velocidade de Carregamento: " 8A "Médio\n" 8B "NB: " 98 "Custo de manutenção por unidade"		00 // \wxD02B	594
+-1 * 0  04 00 B6 \b35 \wxd02B 
+	C3 9E "Capacidade da Carruagem: " 8A "63 Passageiros/48 Correio\n" 98 "Velocidade de Carregamento: " 8A "Médio\n" 8B "NB: " 98 "Custo de manutenção por unidade"00 // \wxD02B	594
 	C3 9E "Capacidade da Carruagem: " 8A "38 Passageiros/29 Correio\n" 98 "Velocidade de Carregamento: " 8A "Baixo"													00 // \wxD02C	811
 	C3 9E "Capacidade da Carruagem: " 8A "55 Passageiros/41 Correio\n" 98 "Velocidade de Carregamento: " 8A "Baixo"													00 // \wxD02D	BM93
-	C3 9E "Capacidade do Reboque: " 8A "80 Caixas\n"																								00 // \wxD02E	CargoSprinter
+	C3 9E "Capacidade do Reboque: " 8A "80 Caixas\n"																												00 // \wxD02E	CargoSprinter
 	C3 9E "Capacidade da Carruagem: " 8A "75 Passageiros/56 Correio\n" 98 "Velocidade de Carregamento: " 8A "Médio"													00 // \wxD02F	DMU168
 	C3 9E "Capacidade da Carruagem: " 8A "70 Passageiros/53 Correio\n" 98 "Velocidade de Carregamento: " 8A "Médio"													00 // \wxD030	Hunter Railcar
 	C3 9E "Capacidade da Carruagem: " 8A "73 Passageiros/55 Correio\n" 98 "Velocidade de Carregamento: " 8A "Médio"													00 // \wxD031	Lint41
@@ -240,28 +242,29 @@
 	C3 9E "Capacidade da Carruagem: " 8A "40 Passageiros/30 Correio\n" 98 "Velocidade de Carregamento: " 8A "Baixo"													00 // \wxD034	4041
 	C3 9E "Capacidade da Carruagem: " 8A "75 Passageiros/56 Correio\n" 98 "Velocidade de Carregamento: " 8A "Médio"													00 // \wxD035	BDVmot 
 	C3 9E "Capacidade da Carruagem: " 8A "50 Passageiros/38 Correio\n" 98 "Velocidade de Carregamento: " 8A "Médio"													00 // \wxD036	BM65
-	C3 9E "Capacidade da Carruagem: " 8A "40 Passageiros/30 Correio\n" 98 "Velocidade de Carregamento: " 8A "Baixo\n" 8B "NB: " 98 "Custo de manutenção por unidade"			00 // \wxD037	BM73
-	C3 9E "Capacidade da Carruagem: " 8A "70 Passageiros/53 Correio\n" 98 "Velocidade de Carregamento: " 8A "Médio"													00 // \wxD038	DD-AR
+	C3 9E "Capacidade da Carruagem: " 8A "40 Passageiros/30 Correio\n" 98 "Velocidade de Carregamento: " 8A "Baixo\n" 8B "NB: " 98 "Custo de manutenção por unidade"		00 // \wxD037	BM73
+	C3 9E "Capacidade da Carruagem: " 8A "70 Passageiros/53 Correio\n" 98 "Velocidade de Carregamento: " 8A "Médio"															00 // \wxD038	DD-AR
 	C3 9E "Capacidade da Carruagem: " 8A "45 Passageiros\n" 98 "Velocidade de Carregamento: " 8A "Baixo\n" 8B "NB: " 98 "Custo de manutenção por unidade"					00 // \wxD039	Pendolino
 	C3 9E "Capacidade da Carruagem: " 8A "75 Passageiros/56 Correio\n" 98 "Velocidade de Carregamento: " 8A "Médio\n" 8B "NB: " 98 "Custo de manutenção por unidade"		00 // \wxD03A	ET420
-	C3 9E "Capacidade da Carruagem: " 8A "60 Passageiros/45 Correio\n" 98 "Velocidade de Carregamento: " 8A "Baixo"													00 // \wxD03B	ETR500
-	C3 9E "Capacidade da Carruagem: " 8A "42 Passageiros/32 Correio\n" 98 "Velocidade de Carregamento: " 8A "Baixo\n" 8B "NB: " 98 "Custo de manutenção por unidade"			00 // \wxD03C	HSA
+	C3 9E "Capacidade da Carruagem: " 8A "60 Passageiros/45 Correio\n" 98 "Velocidade de Carregamento: " 8A "Baixo"															00 // \wxD03B	ETR500
+	C3 9E "Capacidade da Carruagem: " 8A "42 Passageiros/32 Correio\n" 98 "Velocidade de Carregamento: " 8A "Baixo\n" 8B "NB: " 98 "Custo de manutenção por unidade"		00 // \wxD03C	HSA
 	C3 9E "Capacidade da Carruagem: " 8A "45 Passageiros\n" 98 "Velocidade de Carregamento: " 8A "Baixo\n" 8B "NB: " 98 "Custo de manutenção por unidade"					00 // \wxD03D	Ice3
-	C3 9E "Capacidade da Carruagem: " 8A "61 Passageiros/46 Correio\n" 98 "Velocidade de Carregamento: " 8A "Baixo\n" 8B "NB: " 98 "Custo de manutenção por unidade"			00 // \wxD03E	ICM
-	C3 9E "Capacidade da Carruagem: " 8A "30 Passageiros/25 Correio\n" 98 "Velocidade de Carregamento: " 8A "Baixo"													00 // \wxD03F	Mat24
+	C3 9E "Capacidade da Carruagem: " 8A "61 Passageiros/46 Correio\n" 98 "Velocidade de Carregamento: " 8A "Baixo\n" 8B "NB: " 98 "Custo de manutenção por unidade"		00 // \wxD03E	ICM
+	C3 9E "Capacidade da Carruagem: " 8A "30 Passageiros/25 Correio\n" 98 "Velocidade de Carregamento: " 8A "Baixo"															00 // \wxD03F	Mat24
 	C3 9E "Capacidade da Carruagem: " 8A "112 Passageiros/84 Correio\n" 98 "Velocidade de Carregamento: " 8A "Médio\n" 8B "NB: " 98 "Custo de manutenção por unidade"		00 // \wxD040	Oscar
 	C3 9E "Capacidade da Carruagem: " 8A "66 Passageiros/50 Correio\n" 98 "Velocidade de Carregamento: " 8A "Médio\n" 8B "NB: " 98 "Custo de manutenção por unidade"		00 // \wxD041	Oscar 	// Plan Y
 	C3 9E "Capacidade da Carruagem: " 8A "56 Passageiros/42 Correio\n" 98 "Velocidade de Carregamento: " 8A "Médio\n" 8B "NB: " 98 "Custo de manutenção por unidade"		00 // \wxD042	RDBDE510
 	C3 9E "Capacidade da Carruagem: " 8A "56 Passageiros/42 Correio\n" 98 "Velocidade de Carregamento: " 8A "Médio\n" 8B "NB: " 98 "Custo de manutenção por unidade"		00 // \wxD043	RDBDE560
 	C3 9E "Capacidade da Carruagem: " 8A "76 Passageiros/57 Correio\n" 98 "Velocidade de Carregamento: " 8A "Médio\n" 8B "NB: " 98 "Custo de manutenção por unidade"		00 // \wxD044	SM2
 	C3 9E "Capacidade da Carruagem: " 8A "100 Passageiros/75 Correio\n" 98 "Velocidade de Carregamento: " 8A "Médio\n" 8B "NB: " 98 "Custo de manutenção por unidade"		00 // \wxD045	SM4
-	C3 9E "Capacidade da Carruagem: " 8A "45 Passageiros/34 Correio\n" 98 "Velocidade de Carregamento: " 8A "Baixo"													00 // \wxD046	TGV Atl.
-	C3 9E "Capacidade da Carruagem: " 8A "75 Passageiros\n" 98 "Velocidade de Carregamento: " 8A "Baixo"															00 // \wxD047	TGV Duplex
-	C3 9E "Capacidade da Carruagem: " 8A "45 Passageiros/34 Correio\n" 98 "Velocidade de Carregamento: " 8A "Baixo"													00 // \wxD048	TGV Thalys
-	C3 9E "Capacidade da Carruagem: " 8A "45 Passageiros/34 Correio\n" 98 "Velocidade de Carregamento: " 8A "Baixo"													00 // \wxD049	X2000
-	C3 9E "Capacidade da Carruagem: " 8A "73 Passageiros\n" 98 "Velocidade de Carregamento: " 8A "Médio"															00 // \wxD04A	VT612
-	C3 9E "Capacidade da Carruagem: " 8A "52 Passageiros/39 Correio\n" 98 "Velocidade de Carregamento: " 8A "Baixo"													00 // \wxD04B	IC125
-	C3 9E "Capacidade da Carruagem: " 8A "52 Passageiros\n" 98 "Velocidade de Carregamento: " 8A "Baixo"															00 // \wxD04C	mat36
+	C3 9E "Capacidade da Carruagem: " 8A "45 Passageiros/34 Correio\n" 98 "Velocidade de Carregamento: " 8A "Baixo"															00 // \wxD046	TGV Atl.
+	C3 9E "Capacidade da Carruagem: " 8A "75 Passageiros\n" 98 "Velocidade de Carregamento: " 8A "Baixo"																	00 // \wxD047	TGV Duplex
+	C3 9E "Capacidade da Carruagem: " 8A "45 Passageiros/34 Correio\n" 98 "Velocidade de Carregamento: " 8A "Baixo"															00 // \wxD048	TGV Thalys
+	C3 9E "Capacidade da Carruagem: " 8A "45 Passageiros/34 Correio\n" 98 "Velocidade de Carregamento: " 8A "Baixo"															00 // \wxD049	X2000
+	C3 9E "Capacidade da Carruagem: " 8A "73 Passageiros\n" 98 "Velocidade de Carregamento: " 8A "Médio"																	00 // \wxD04A	VT612
+	C3 9E "Capacidade da Carruagem: " 8A "52 Passageiros/39 Correio\n" 98 "Velocidade de Carregamento: " 8A "Baixo"															00 // \wxD04B	IC125
+	C3 9E "Capacidade da Carruagem: " 8A "52 Passageiros\n" 98 "Velocidade de Carregamento: " 8A "Baixo"																	00 // \wxD04C	mat36
+	C3 9E "Capacidade da Carruagem: " 8A "90 Passageiros/68 Correio\n" 98 "Velocidade de Carregamento: " 8A "Médio\n" 8B "NB: " 98 "Custo de manutenção por unidade"		00 // \wxD045	SM4
 
 // -1 * 0  04 00 B6 \b35 \wxd04D ... \wxd06F (not used)
 
