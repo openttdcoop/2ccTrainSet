@@ -157,11 +157,11 @@
 	"     Touristenklasse Wagen (3. Gen)"	00 // \b132
 	"     Touristenklasse Wagen (4. Gen)"	00 // \b133
 	"     Touristenklasse Wagen (5. Gen)"	00 // \b134
-	"     Expressgut-Wagon (1. Gen)"		00 // \b135
-	"     Expressgut-Wagon (2. Gen)"		00 // \b136
-	"     Expressgut-Wagon (3. Gen)"		00 // \b137
-	"     Expressgut-Wagon (4. Gen)"		00 // \b138
-	"     Expressgut-Wagon (5. Gen)"		00 // \b139
+	"     Expressgutwagen (1. Gen)"		00 // \b135
+	"     Expressgutwagen (2. Gen)"		00 // \b136
+	"     Expressgutwagen (3. Gen)"		00 // \b137
+	"     Expressgutwagen (4. Gen)"		00 // \b138
+	"     Expressgutwagen (5. Gen)"		00 // \b139
 	
 -1 * 0  04 00 02 01 02 
 	"                 TurboBus MKI"			00 // 02	
@@ -278,7 +278,7 @@
 	"                 SNCF 140C "				00 // \b10000
 	"                 SNCF 141TA "				00 // \b10001
 	"                 SNCF 150B "				00 // \b10002
-	"                 NS Class 6300 "			00 // \b10003
+	"                 NS Baureihe 6300 "			00 // \b10003
 -1 * 0  04 00 02 \b4 \b*10100					// \b10100
 	"                 Baureihe 66 "				00 // \b10100
 	"                 Baureihe 67 "				00 // \b10101
@@ -321,7 +321,7 @@
 	"                 Schienenbus - 479"		00 // \b10300
 	"                 Schienenbus - VT 133"		00 // \b10301
 -1 * 0  04 00 02 \b1 \b*15311 
-	"                 Railbus - Class 153 '153111'"	00 // \b10311
+	"                 Schienenbus - Baureihe 153 '153111'"	00 // \b10311
 -1 * 0  04 00 02 \b8 \b*10400 
 	"                 Caf90"						00 // \b10400
 	"                 DLR"							00 // \b10401
