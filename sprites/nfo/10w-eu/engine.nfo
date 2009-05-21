@@ -781,7 +781,7 @@
                         B3 00
 
 // Var2 tender shorter
--1 * 0  02 00 C1 81 0C 00 FF 01 03 80 11 11 C0 00
+-1 * 0  02 00 C1 81 0C 00 FF 01   03 80 11 11   C0 00
 
 //Action2: Purch List
 
