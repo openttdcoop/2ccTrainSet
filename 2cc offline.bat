@@ -25,7 +25,7 @@ pause
 ECHO.
 ECHO Running GRFCodec. . .
 @ECHO ON
-grfcodec.exe -c -e -p 2 2ccdj.nfo.new.nfo
+grfcodec.exe -e -p 2 2ccdj.nfo.new.nfo
 @ECHO OFF
 ECHO.
 ECHO Remove old file, rename new file and copy file to ottd and ttdp dirs. . .
