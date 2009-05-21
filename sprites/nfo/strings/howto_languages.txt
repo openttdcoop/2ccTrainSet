@@ -1,0 +1,128 @@
+// Description of the language files for the 2cc train set
+// and how they work in NFO
+//
+// FILE FORMAT:
+//
+// each file has a header which mentions the language and its ID and the
+// value used for generic strings (language ID + 0x80). The header looks
+// like this:
+// "
+// This file contains all strings of the 2cc newgrf
+// Language: Portuguese
+// Language ID: 36
+// ID for generic strings: B6
+// "
+//
+// Subsequently file only contains Action 04 entries, e.g. only defines
+// strings. A typical entry looks like this:
+// -1 * 0 04 00 <langID> \b<number consecutive strings> <first StringID>
+//		C3 9E "String1"	00 // Comment
+//		C3 9E "String2"	00 // comment
+//
+// Generally each string occupies exactly one line
+// Some strings are multiline strings and define colour, thus look a bit
+// more complicated. 
+//
+// For an in-depth explanation see the newgrf wiki (look for
+// Action 04):
+// http://wiki.ttdpatch.net/tiki-index.php?page=NewGraphicsSpecs
+// Strings are UTF-8 encoded.
+// The numbers in the sprite definitions are not of interests
+// except the language ID:
+//
+// each language has its own language ID which needs to replace the
+// "7F" in the definition strings:
+// 
+// ID (hex)	Language
+// 00	American
+// 01	English
+// 02	German
+// 03	French
+// 04	Spanish
+// 05	Esperanto
+// 06	Ido
+// 07	Russian
+// 0C	Chinese (Traditional)
+// 0D	Serbian
+// 0E	Norwegian (Nynorsk)
+// 0F	Welsh
+// 14	Arabic (Egypt)
+// 15	Czech
+// 16	Slovak
+// 18	Bulgarian
+// 1B	Afrikaans
+// 1E	Greek
+// 1F	Dutch
+// 22	Catalan
+// 23	Luxembourgish
+// 24	Hungarian
+// 26	Macedonian
+// 27	Italian
+// 28	Romanian
+// 29	Icelandic
+// 2A	Latvian
+// 2B	Lithuanian
+// 2C	Slovenian
+// 2D	Danish
+// 2E	Swedish
+// 2F	Norwegian (Bokmal)
+// 30	Polish
+// 31	Galician
+// 32	Frisian
+// 33	Ukrainian
+// 34	Estonian
+// 35	Finnish
+// 36	Portuguese
+// 37	Brazilian Portuguese
+// 38	Croatian
+// 39	Japanese
+// 3A	Korean
+// 3C	Malay
+// 3E	Turkish
+// 42	Thai
+// 56	Chinese (Simplified)
+// 5A	Indonesian
+// 5C	Urdu
+// 61	Hebrew
+// 62	Persian
+// 80	Flag for generic strings (added to language ID)
+// 7F	any (will be applied no matter what language is active)
+//
+// Concerning actions with FF as language ID: 
+// Add 0x80 to the above language ID
+// and replace the FF with the resulting number.
+// for an up-to date list of all available language IDs please
+// see http://wiki.ttdpatch.net/tiki-index.php?page=NewGraphicsSpecs
+//
+//
+// HOW TO TRANSLATE:
+//
+// Easy way:
+//
+// just grab the English language file and substitute each 
+// string by your translation. Keep those strings which
+// you cannot sensibly translate (e.g. a few engine names).
+// For translational purposes only the parts between 
+// quotation marks needs to be considered and replaced by the
+// translation itself. 
+//
+// Please don't add or delete lines from this file. If the number
+// of lines matches the number of lines of the English original
+// it is a good indicator that the translation is up to date.
+//
+// Please also keep the exact amount of leading white space in the 
+// strings naming wagons and engines. Otherwise your text would become
+// mis-aligned wrt the graphics, especially the flags.
+//
+//
+// CONTACT
+// 
+// * use our development site: 
+//   http://dev.openttdcoop.org/projects/2cctrainset/issues 
+//   and submit feature requests or bug reports there
+// * write in the 2cc trainset thread in the tt-forums.net
+//   http://www.tt-forums.net/viewtopic.php?f=26&t=28051
+// * write us a pm via tt-forums.net
+// * contact us on IRC (planetmaker, DJNekkid)
+//   irc://irc.oftc.net/openttd or
+//   irc://irc.oftc.net/openttdcoop.devzone
