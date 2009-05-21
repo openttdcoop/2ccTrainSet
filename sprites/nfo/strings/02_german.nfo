@@ -388,6 +388,6 @@
 	"Nutze Passagier- / Expressgut-Triebwagen"									00 // \wxD0FB
 	"Nutze Passagier-Triebwagen"												00 // \wxD0FC
 
--1 * 0  04 00 82 \b2 \wxd0F6 
+-1 * 0  04 00 82 \b2 \wxD0FE 
 	C3 9E 8B "Optionale B-Baureihe (50% Betriebskosten)," 98 " Kann an jedem Ende genutzt werden"	00 // \wxD0FE
 	C3 9E 8B "Optionale B-Baureihe (50% Betriebskosten)"									00 // \wxD0FF
