@@ -116,6 +116,9 @@
 -1 * 0  04 00 7F \b2 \b*5400 
 	C3 9E "                 Boston 01800"				00 // \5400
 	C3 9E "                 Brooklyn union gate car"	00 // \5401
+-1 * 0  04 00 7F \b1 \b*5500
+  C3 9E "                 Chicago Doubler" 00 // ID 5500
+
 
 // Engines from region 6 (South America)
 -1 * 0  04 00 7F 01 \b*6000 
