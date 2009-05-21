@@ -46,7 +46,8 @@
 -1 * 0  00 00 \b1 01 \b*10517	1A \b*8501	//	InterCity125
 -1 * 0  00 00 \b1 01 \b*7500	1A \b*10517	//	Hunter (Australia)
 -1 * 0  00 00 \b1 01 \b*10501	1A \b*7500	//	DMU 168 (UK)
--1 * 0  00 00 \b1 01 \b*10500	1A \b*10501	//	Cargo Sprinter (Germany)
+-1 * 0  00 00 \b1 01 \b*5500  1A \b*10501 //  Chicago Doubler
+-1 * 0  00 00 \b1 01 \b*10500	1A \b*5500	//	Cargo Sprinter (Germany)
 -1 * 0  00 00 \b1 01 \b*8500	1A \b*10500	//	BM93 (Norway)
 -1 * 0  00 00 \b1 01 \b*4502	1A \b*8500	//	811 DMU (Serbia)
 -1 * 0  00 00 \b1 01 \b*9501	1A \b*4502	//	594 TRD (Spain)
