@@ -4,6 +4,8 @@
 
 SOURCE="7F_english.nfo"
 
+cd sprites/nfo/strings
+
 function count {
 # $1	file
 	echo "---------------------------------"
@@ -13,8 +15,7 @@ function count {
 	echo "rows: `cat $1 | wc -l`"
 	echo "Action4: `cat $1 | grep " 04 00 " | wc -l`"
 	echo "Translated: `cat $1 | grep " 00 $ID " | wc -l`"
-GIDDEC=`let x=0x$ID+0x80; echo $x`
-GID=`printf '%X\n' $GIDDEC`
+	GID=`../../../scripts/lang.id2gen.sh "$ID"`
 	echo "generic: `cat $1 | grep " 00 $GID " | wc -l`"
 }
 
@@ -24,3 +25,5 @@ for i in `ls -1 *.nfo | grep -v $SOURCE`
 do
 	count $i	
 done
+
+cd ../../..
