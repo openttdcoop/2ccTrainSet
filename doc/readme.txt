@@ -93,7 +93,7 @@ This file is part of the 2cc train set newgrf project.
 The license of this newgrf is two-fold, seperated into the NFO part and the graphics part:
 
 NFO license:
-This NFO code of this set is licensed under the GNU Public Licence and can be obtained via the #openttdcoop Devzone ( http://redmine.ammler.ch/projects/2cctrainset ). As such, it may be freely distributed and modified as long as it remains under this license.
+This NFO code of this set is licensed under the GNU Public Licence and can be obtained via the #openttdcoop DevZone ( http://dev.openttdcoop.org/projects/2cctrainset ). As such, it may be freely distributed and modified as long as it remains under this license.
 
 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or any later version.
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
@@ -135,7 +135,8 @@ DJ Nekkid
 trainboy2004
 
 Host:
-orudge
-ThorRune (ex-host) 
+orudge (Project's main page)
+ThorRune (ex-host)
+#openttdcoop (DevZone) 
 
 You will find most authors at tt-forums.net
