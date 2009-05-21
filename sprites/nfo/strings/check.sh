@@ -13,6 +13,9 @@ function count {
 	echo "rows: `cat $1 | wc -l`"
 	echo "Action4: `cat $1 | grep " 04 00 " | wc -l`"
 	echo "Translated: `cat $1 | grep " 00 $ID " | wc -l`"
+GIDDEC=`let x=0x$ID+0x80; echo $x`
+GID=`printf '%X\n' $GIDDEC`
+	echo "generic: `cat $1 | grep " 00 $GID " | wc -l`"
 }
 
 count $SOURCE
