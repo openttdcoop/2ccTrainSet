@@ -110,7 +110,7 @@
 	C3 9E "                 MLW-M420W"					00 // \b5102 
 	C3 9E "                 SDP-40F"					00 // \b5103
 	C3 9E "                 Sharknose"					00 // \b5104
-	C3 9E "                 ALCo-GE-IR Boxcar"			00 // \b5105
+	C3 9E "                 ALCo-GE-IR Gesloten wagen"	00 // \b5105
 -1 * 0  04 00 1F \b2 \b*5400 
 	C3 9E "                 Boston 01800"				00 // \5400
 	C3 9E "                 Brooklyn union gate Wagen"	00 // \5401
@@ -127,7 +127,7 @@
 	C3 9E "                 Klasse 2100"				00 // \b7100
 	C3 9E "                 Klasse 442"					00 // \b7101
 -1 * 0  04 00 1F \b2 \b*7500 
-	C3 9E "                 Hunter Railcar"				00 // \b7500
+	C3 9E "                 Hunter Treinstel"			00 // \b7500
 	C3 9E "                 OSCar"						00 // \b7501
 
 // Engines from region 8
@@ -226,7 +226,7 @@
 //-1 * 0  04 00 9F 2B \wxd000 ... \wxd02A (not used)
 	
 -1 * 0  04 00 9F \b34 \wxd02B 
-	C3 9E "Rijtuig Capaciteit: " 8A "63 Passagiers/48 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Operatiekosten zijn per eenheid"	00 // \wxD02B	594
+	C3 9E "Rijtuig Capaciteit: " 8A "63 Passagiers/48 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"	00 // \wxD02B	594
 	C3 9E "Rijtuig Capaciteit: " 8A "38 Passagiers/29 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag"															00 // \wxD02C	811
 	C3 9E "Rijtuig Capaciteit: " 8A "55 Passagiers/41 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag"															00 // \wxD02D	BM93
 	C3 9E "Wagen Capaciteit: " 8A "80 Pallets\n"																												00 // \wxD02E	CargoSprinter
@@ -234,25 +234,25 @@
 	C3 9E "Rijtuig Capaciteit: " 8A "70 Passagiers/53 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld"														00 // \wxD030	Hunter Railcar
 	C3 9E "Rijtuig Capaciteit: " 8A "73 Passagiers/55 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld"														00 // \wxD031	Lint41
 	C3 9E "Rijtuig Capaciteit: " 8A "48 Passagiers/36 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag"															00 // \wxD032	Y2
-	C3 9E "Rijtuig Capaciteit: " 8A "110 Passagiers/84 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Operatiekosten zijn per eenheid"	00 // \wxD033	2200
+	C3 9E "Rijtuig Capaciteit: " 8A "110 Passagiers/84 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"	00 // \wxD033	2200
 	C3 9E "Rijtuig Capaciteit: " 8A "40 Passagiers/30 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag"															00 // \wxD034	4041
 	C3 9E "Rijtuig Capaciteit: " 8A "75 Passagiers/56 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld"														00 // \wxD035	BDVmot 
 	C3 9E "Rijtuig Capaciteit: " 8A "50 Passagiers/38 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld"														00 // \wxD036	BM65
-	C3 9E "Rijtuig Capaciteit: " 8A "40 Passagiers/30 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag\n" 8B "NB: " 98 "Operatiekosten zijn per eenheid"			00 // \wxD037	BM73
+	C3 9E "Rijtuig Capaciteit: " 8A "40 Passagiers/30 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"			00 // \wxD037	BM73
 	C3 9E "Rijtuig Capaciteit: " 8A "70 Passagiers/53 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld"														00 // \wxD038	DD-AR
-	C3 9E "Rijtuig Capaciteit: " 8A "45 Passagiers\n" 98 "Laadsnelheid: " 8A "Laag\n" 8B "NB: " 98 "Operatiekosten zijn per eenheid"						00 // \wxD039	Pendolino
-	C3 9E "Rijtuig Capaciteit: " 8A "75 Passagiers/56 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Operatiekosten zijn per eenheid"	00 // \wxD03A	ET420
+	C3 9E "Rijtuig Capaciteit: " 8A "45 Passagiers\n" 98 "Laadsnelheid: " 8A "Laag\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"						00 // \wxD039	Pendolino
+	C3 9E "Rijtuig Capaciteit: " 8A "75 Passagiers/56 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"	00 // \wxD03A	ET420
 	C3 9E "Rijtuig Capaciteit: " 8A "60 Passagiers/45 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag"															00 // \wxD03B	ETR500
-	C3 9E "Rijtuig Capaciteit: " 8A "42 Passagiers/32 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag\n" 8B "NB: " 98 "Operatiekosten zijn per eenheid"			00 // \wxD03C	HSA
-	C3 9E "Rijtuig Capaciteit: " 8A "45 Passagiers\n" 98 "Laadsnelheid: " 8A "Laag\n" 8B "NB: " 98 "Operatiekosten zijn per eenheid"						00 // \wxD03D	Ice3
-	C3 9E "Rijtuig Capaciteit: " 8A "61 Passagiers/46 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag\n" 8B "NB: " 98 "Operatiekosten zijn per eenheid"			00 // \wxD03E	ICM
+	C3 9E "Rijtuig Capaciteit: " 8A "42 Passagiers/32 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"			00 // \wxD03C	HSA
+	C3 9E "Rijtuig Capaciteit: " 8A "45 Passagiers\n" 98 "Laadsnelheid: " 8A "Laag\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"						00 // \wxD03D	Ice3
+	C3 9E "Rijtuig Capaciteit: " 8A "61 Passagiers/46 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"			00 // \wxD03E	ICM
 	C3 9E "Rijtuig Capaciteit: " 8A "30 Passagiers/25 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag"															00 // \wxD03F	Mat24
-	C3 9E "Rijtuig Capaciteit: " 8A "112 Passagiers/84 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Operatiekosten zijn per eenheid"	00 // \wxD040	Oscar
-	C3 9E "Rijtuig Capaciteit: " 8A "66 Passagiers/50 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Operatiekosten zijn per eenheid"	00 // \wxD041	Oscar 	// Plan Y
-	C3 9E "Rijtuig Capaciteit: " 8A "56 Passagiers/42 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Operatiekosten zijn per eenheid"	00 // \wxD042	RDBDE510
-	C3 9E "Rijtuig Capaciteit: " 8A "56 Passagiers/42 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Operatiekosten zijn per eenheid"	00 // \wxD043	RDBDE560
-	C3 9E "Rijtuig Capaciteit: " 8A "76 Passagiers/57 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Operatiekosten zijn per eenheid"	00 // \wxD044	SM2
-	C3 9E "Rijtuig Capaciteit: " 8A "100 Passagiers/75 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Operatiekosten zijn per eenheid"	00 // \wxD045	SM4
+	C3 9E "Rijtuig Capaciteit: " 8A "112 Passagiers/84 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"	00 // \wxD040	Oscar
+	C3 9E "Rijtuig Capaciteit: " 8A "66 Passagiers/50 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"	00 // \wxD041	Oscar 	// Plan Y
+	C3 9E "Rijtuig Capaciteit: " 8A "56 Passagiers/42 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"	00 // \wxD042	RDBDE510
+	C3 9E "Rijtuig Capaciteit: " 8A "56 Passagiers/42 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"	00 // \wxD043	RDBDE560
+	C3 9E "Rijtuig Capaciteit: " 8A "76 Passagiers/57 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"	00 // \wxD044	SM2
+	C3 9E "Rijtuig Capaciteit: " 8A "100 Passagiers/75 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"	00 // \wxD045	SM4
 	C3 9E "Rijtuig Capaciteit: " 8A "45 Passagiers/34 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag"															00 // \wxD046	TGV Atl.
 	C3 9E "Rijtuig Capaciteit: " 8A "75 Passagiers\n" 98 "Laadsnelheid: " 8A "Laag"																			00 // \wxD047	TGV Duplex
 	C3 9E "Rijtuig Capaciteit: " 8A "45 Passagiers/34 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag"															00 // \wxD048	TGV Thalys
@@ -270,7 +270,7 @@
 	C3 9E "\nExperimentele wereldrecord trein"									00 // \wxD0D0	POS V150
 	
 -1 * 0  04 00 9F \b7 \wxd0F6 
-	C3 9E "Kan slechts U+00E9U+00E9n eenheid lang zijn"									00 // \wxD0F6	
+	C3 9E "Kan slechts \U+00E9\U+00E9n eenheid lang zijn"						00 // \wxD0F6	
 	C3 9E "Kan alleen koppelen aan zichzelf"									00 // \wxD0F7
 	C3 9E "Metro Rijtuigen kunnen alleen aan hun eigen soort gekoppeld worden"	00 // \wxD0F8 
 	C3 9E "Treinstel-Rijtuigen kunnen alleen gekoppeld worden aan treinstellen"	00 // \wxD0F9
@@ -279,5 +279,5 @@
 	C3 9E "Gebruik Passagiers Treinstel-Rijtuigen"								00 // \wxD0FC
 	
 -1 * 0  04 00 9F \b2 \wxD0FE 
-	C3 9E 8B "Optionele B-eenheid/eenheden (50% operatiekosten)," 98 " Kan gebruikt worden aan beide einden"	00 // \wxD0FE
-	C3 9E 8B "Optionele B-eenheid/eenheden (50% operatiekosten)"												00 // \wxD0FF
+	C3 9E 8B "Optionele B-eenheid/eenheden (50% onderhoudskosten)," 98 " Kan gebruikt worden aan beide einden"	00 // \wxD0FE
+	C3 9E 8B "Optionele B-eenheid/eenheden (50% onderhoudskosten)"												00 // \wxD0FF
