@@ -230,13 +230,13 @@
 // Other strings (moved here from 00header.nfo)
 //-1 * 0  04 00 FF 2B \wxd000 ... \wxd02A (not used)
 	
--1 * 0  04 00 FF \b34 \wxd02B 
+-1 * 0  04 00 FF \b35 \wxd02B 
 	C3 9E "Carriage Capacity: " 8A "63 Passengers/48 Mail\n" 98 "Loading Speed: " 8A "Medium\n" 8B "NB: " 98 "Running costs per 1 unit"		00 // \wxD02B	594
 	C3 9E "Carriage Capacity: " 8A "38 Passengers/29 Mail\n" 98 "Loading Speed: " 8A "Low"													00 // \wxD02C	811
 	C3 9E "Carriage Capacity: " 8A "55 Passengers/41 Mail\n" 98 "Loading Speed: " 8A "Low"													00 // \wxD02D	BM93
 	C3 9E "Trailer Capacity: " 8A "80 Crates\n"																								00 // \wxD02E	CargoSprinter
 	C3 9E "Carriage Capacity: " 8A "75 Passengers/56 Mail\n" 98 "Loading Speed: " 8A "Medium"												00 // \wxD02F	DMU168
-	C3 9E "Carriage Capacity: " 8A "70 Passengers/53 Mail\n" 98 "Loading Speed: " 8A "Medium"												00 // \wxD030	Hunter Railcar
+	C3 9E "Carriage Capacity: " 8A "70 Passengers/53 Mail\n" 98 "Loading Speed: " 8A "Medium\n" 8B "NB: " 98 "Running costs per 1 unit"	00 // \wxD030	Hunter Railcar
 	C3 9E "Carriage Capacity: " 8A "73 Passengers/55 Mail\n" 98 "Loading Speed: " 8A "Medium"												00 // \wxD031	Lint41
 	C3 9E "Carriage Capacity: " 8A "48 Passengers/36 Mail\n" 98 "Loading Speed: " 8A "Low"													00 // \wxD032	Y2
 	C3 9E "Carriage Capacity: " 8A "110 Passengers/84 Mail\n" 98 "Loading Speed: " 8A "Medium\n" 8B "NB: " 98 "Running costs per 1 unit"	00 // \wxD033	2200
@@ -265,6 +265,7 @@
 	C3 9E "Carriage Capacity: " 8A "73 Passengers\n" 98 "Loading Speed: " 8A "Medium"														00 // \wxD04A	VT612
 	C3 9E "Carriage Capacity: " 8A "52 Passengers/39 Mail\n" 98 "Loading Speed: " 8A "Low"													00 // \wxD04B	IC125
 	C3 9E "Carriage Capacity: " 8A "52 Passengers\n" 98 "Loading Speed: " 8A "Low"															00 // \wxD04C	mat36
+  C3 9E "Carriage Capacity: " 8A "90 Passengers/68 Mail\n" 98 "Loading Speed: " 8A "Medium\n" 8B "NB: " 98 "Running costs per 1 unit"		00 // \wxD04D Chicago Doubler
 
 // -1 * 0  04 00 FF \b35 \wxd04D ... \wxd06F (not used)
 
