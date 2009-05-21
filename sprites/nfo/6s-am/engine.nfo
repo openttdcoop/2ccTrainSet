@@ -1,16 +1,17 @@
 // South American Engines
 
-/ ##### emd-gl8 #########
+// ##### emd-gl8 #########
 -1 * 0  01 00 01 08
 // Format: spritenum pcxfile xpos ypos							
 -1 sprites/engines_updated/pcx/emd-gl8.pcx	1	1	1	24	8	-3	-12
--1 sprites/engines_updated/pcx/emd-gl8.pcx	10	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/emd-gl8.pcx	10	1	1	18	22	-11	-12
 -1 sprites/engines_updated/pcx/emd-gl8.pcx	33	1	1	14	32	-16	-10
--1 sprites/engines_updated/pcx/emd-gl8.pcx	66	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/emd-gl8.pcx	66	1	1	18	22	-11	-13
 -1 sprites/engines_updated/pcx/emd-gl8.pcx	89	1	1	24	8	-3	-12
--1 sprites/engines_updated/pcx/emd-gl8.pcx	98	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/emd-gl8.pcx	98	1	1	18	22	-11	-12
 -1 sprites/engines_updated/pcx/emd-gl8.pcx	121	1	1	14	32	-16	-10
--1 sprites/engines_updated/pcx/emd-gl8.pcx	154	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/emd-gl8.pcx	154	1	1	18	22	-11	-13
+
 
 
 // Action 2:
@@ -40,13 +41,14 @@
 -1 * 0  01 00 01 08
 // Format: spritenum							
 -1 sprites/engines_updated/pcx/j16cw.pcx	1	1	1	24	8	-3	-12
--1 sprites/engines_updated/pcx/j16cw.pcx	10	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/j16cw.pcx	10	1	1	18	22	-11	-12
 -1 sprites/engines_updated/pcx/j16cw.pcx	33	1	1	14	32	-16	-10
--1 sprites/engines_updated/pcx/j16cw.pcx	66	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/j16cw.pcx	66	1	1	18	22	-11	-13
 -1 sprites/engines_updated/pcx/j16cw.pcx	89	1	1	24	8	-3	-12
--1 sprites/engines_updated/pcx/j16cw.pcx	98	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/j16cw.pcx	98	1	1	18	22	-11	-12
 -1 sprites/engines_updated/pcx/j16cw.pcx	121	1	1	14	32	-16	-10
--1 sprites/engines_updated/pcx/j16cw.pcx	154	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/j16cw.pcx	154	1	1	18	22	-11	-13
+
 
 
 // Action 2:
@@ -79,22 +81,23 @@
 -1 * 0  01 00 02 08
 // Format: spritenum pcxfile  xpos  ypos  comp ysize  xsize  xrel  yrel dir							
 -1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	1	1	1	24	8	-3	-12
--1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	10	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	10	1	1	18	22	-11	-12
 -1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	33	1	1	14	32	-16	-10
--1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	66	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	66	1	1	18	22	-11	-13
 -1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	89	1	1	24	8	-3	-12
--1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	98	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	98	1	1	18	22	-11	-12
 -1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	121	1	1	14	32	-16	-10
--1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	154	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	154	1	1	18	22	-11	-13
 // Tender							
 -1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	1	32	1	24	8	-3	-12
--1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	10	32	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	10	32	1	18	22	-11	-12
 -1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	33	32	1	14	32	-16	-10
--1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	66	32	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	66	32	1	18	22	-11	-13
 -1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	89	32	1	24	8	-3	-12
--1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	98	32	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	98	32	1	18	22	-11	-12
 -1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	121	32	1	14	32	-16	-10
--1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	154	32	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/11b-2-8-0.pcx 	154	32	1	18	22	-11	-13
+
 
 // Action 2:
 -1 * 0  02 00 B4 01 01 00 00 00 00

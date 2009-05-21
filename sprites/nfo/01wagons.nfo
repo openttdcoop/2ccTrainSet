@@ -245,192 +245,193 @@
 // 1 - 0000 2ndpax
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/newpax.pcx 	1	1	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	10	1	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	10	1	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	33	1	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	66	1	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	66	1	1	18	22	-11	-13
 -1 sprites/wagons/pcx/newpax.pcx 	89	1	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	98	1	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	98	1	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	121	1	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	154	1	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	154	1	1	18	22	-11	-13
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/newpax.pcx 	1	32	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	10	32	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	10	32	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	33	32	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	66	32	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	66	32	1	18	22	-11	-13
 -1 sprites/wagons/pcx/newpax.pcx 	89	32	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	98	32	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	98	32	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	121	32	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	154	32	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	154	32	1	18	22	-11	-13
+
 
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/newpax.pcx 	1	64	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	10	64	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	10	64	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	33	64	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	66	64	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	66	64	1	18	22	-11	-13
 -1 sprites/wagons/pcx/newpax.pcx 	89	64	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	98	64	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	98	64	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	121	64	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	154	64	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	154	64	1	18	22	-11	-13
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/newpax.pcx 	1	96	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	10	96	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	10	96	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	33	96	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	66	96	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	66	96	1	18	22	-11	-13
 -1 sprites/wagons/pcx/newpax.pcx 	89	96	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	98	96	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	98	96	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	121	96	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	154	96	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	154	96	1	18	22	-11	-13
 
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/newpax.pcx 	1	128	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	10	128	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	10	128	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	33	128	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	66	128	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	66	128	1	18	22	-11	-13
 -1 sprites/wagons/pcx/newpax.pcx 	89	128	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	98	128	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	98	128	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	121	128	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	154	128	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	154	128	1	18	22	-11	-13
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/newpax.pcx 	1	160	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	10	160	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	10	160	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	33	160	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	66	160	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	66	160	1	18	22	-11	-13
 -1 sprites/wagons/pcx/newpax.pcx 	89	160	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	98	160	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	98	160	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	121	160	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	154	160	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	154	160	1	18	22	-11	-13
 
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/newpax.pcx 	1	192	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	10	192	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	10	192	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	33	192	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	66	192	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	66	192	1	18	22	-11	-13
 -1 sprites/wagons/pcx/newpax.pcx 	89	192	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	98	192	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	98	192	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	121	192	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	154	192	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	154	192	1	18	22	-11	-13
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/newpax.pcx 	1	224	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	10	224	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	10	224	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	33	224	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	66	224	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	66	224	1	18	22	-11	-13
 -1 sprites/wagons/pcx/newpax.pcx 	89	224	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	98	224	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	98	224	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	121	224	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	154	224	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	154	224	1	18	22	-11	-13
 
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/newpax.pcx 	1	256	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	10	256	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	10	256	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	33	256	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	66	256	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	66	256	1	18	22	-11	-13
 -1 sprites/wagons/pcx/newpax.pcx 	89	256	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	98	256	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	98	256	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	121	256	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	154	256	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	154	256	1	18	22	-11	-13
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/newpax.pcx 	1	288	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	10	288	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	10	288	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	33	288	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	66	288	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	66	288	1	18	22	-11	-13
 -1 sprites/wagons/pcx/newpax.pcx 	89	288	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	98	288	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	98	288	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	121	288	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	154	288	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	154	288	1	18	22	-11	-13
 
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/newpax.pcx 	1	320	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	10	320	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	10	320	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	33	320	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	66	320	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	66	320	1	18	22	-11	-13
 -1 sprites/wagons/pcx/newpax.pcx 	89	320	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	98	320	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	98	320	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	121	320	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	154	320	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	154	320	1	18	22	-11	-13
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/newpax.pcx 	1	352	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	10	352	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	10	352	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	33	352	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	66	352	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	66	352	1	18	22	-11	-13
 -1 sprites/wagons/pcx/newpax.pcx 	89	352	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	98	352	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	98	352	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	121	352	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	154	352	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	154	352	1	18	22	-11	-13
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/newpax.pcx 	1	384	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	10	384	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	10	384	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	33	384	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	66	384	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	66	384	1	18	22	-11	-13
 -1 sprites/wagons/pcx/newpax.pcx 	89	384	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	98	384	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	98	384	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	121	384	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	154	384	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	154	384	1	18	22	-11	-13
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/newpax.pcx 	1	416	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	10	416	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	10	416	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	33	416	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	66	416	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	66	416	1	18	22	-11	-13
 -1 sprites/wagons/pcx/newpax.pcx 	89	416	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	98	416	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	98	416	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	121	416	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	154	416	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	154	416	1	18	22	-11	-13
 
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/newpax.pcx 	1	448	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	10	448	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	10	448	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	33	448	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	66	448	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	66	448	1	18	22	-11	-13
 -1 sprites/wagons/pcx/newpax.pcx 	89	448	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	98	448	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	98	448	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	121	448	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	154	448	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	154	448	1	18	22	-11	-13
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/newpax.pcx 	1	480	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	10	480	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	10	480	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	33	480	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	66	480	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	66	480	1	18	22	-11	-13
 -1 sprites/wagons/pcx/newpax.pcx 	89	480	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	98	480	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	98	480	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	121	480	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	154	480	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	154	480	1	18	22	-11	-13
 
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/newpax.pcx 	1	512	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	10	512	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	10	512	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	33	512	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	66	512	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	66	512	1	18	22	-11	-13
 -1 sprites/wagons/pcx/newpax.pcx 	89	512	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	98	512	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	98	512	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	121	512	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	154	512	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	154	512	1	18	22	-11	-13
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/newpax.pcx 	1	544	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	10	544	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	10	544	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	33	544	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	66	544	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	66	544	1	18	22	-11	-13
 -1 sprites/wagons/pcx/newpax.pcx 	89	544	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	98	544	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	98	544	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	121	544	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	154	544	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	154	544	1	18	22	-11	-13
 
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/newpax.pcx 	1	576	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	10	576	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	10	576	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	33	576	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	66	576	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	66	576	1	18	22	-11	-13
 -1 sprites/wagons/pcx/newpax.pcx 	89	576	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	98	576	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	98	576	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	121	576	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	154	576	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	154	576	1	18	22	-11	-13
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/newpax.pcx 	1	608	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	10	608	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	10	608	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	33	608	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	66	608	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	66	608	1	18	22	-11	-13
 -1 sprites/wagons/pcx/newpax.pcx 	89	608	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx 	98	608	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	98	608	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	121	608	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	154	608	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newpax.pcx 	154	608	1	18	22	-11	-13
 
 
 
@@ -532,42 +533,44 @@
 -1 * 0  01 00 04 08
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/pax.pcx 	184	272	1	25	8	-3	-12
--1 sprites/wagons/pcx/pax.pcx 	194	272	1	18	22	-11	-10
+-1 sprites/wagons/pcx/pax.pcx 	194	272	1	18	22	-11	-12
 -1 sprites/wagons/pcx/pax.pcx 	218	272	1	15	32	-16	-11
--1 sprites/wagons/pcx/pax.pcx 	251	272	1	18	22	-11	-10
+-1 sprites/wagons/pcx/pax.pcx 	251	272	1	18	22	-11	-13
 -1 sprites/wagons/pcx/pax.pcx 	93	272	1	25	8	-3	-12
--1 sprites/wagons/pcx/pax.pcx 	103	272	1	18	22	-11	-10
+-1 sprites/wagons/pcx/pax.pcx 	103	272	1	18	22	-11	-12
 -1 sprites/wagons/pcx/pax.pcx 	127	272	1	15	32	-16	-11
--1 sprites/wagons/pcx/pax.pcx 	161	272	1	18	22	-11	-10
+-1 sprites/wagons/pcx/pax.pcx 	161	272	1	18	22	-11	-13
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/pax.pcx 	184	304	1	25	8	-3	-12
--1 sprites/wagons/pcx/pax.pcx 	194	304	1	18	22	-11	-10
+-1 sprites/wagons/pcx/pax.pcx 	194	304	1	18	22	-11	-12
 -1 sprites/wagons/pcx/pax.pcx 	218	304	1	15	32	-16	-11
--1 sprites/wagons/pcx/pax.pcx 	251	304	1	18	22	-11	-10
+-1 sprites/wagons/pcx/pax.pcx 	251	304	1	18	22	-11	-13
 -1 sprites/wagons/pcx/pax.pcx 	93	304	1	25	8	-3	-12
--1 sprites/wagons/pcx/pax.pcx 	103	304	1	18	22	-11	-10
+-1 sprites/wagons/pcx/pax.pcx 	103	304	1	18	22	-11	-12
 -1 sprites/wagons/pcx/pax.pcx 	127	304	1	15	32	-16	-11
--1 sprites/wagons/pcx/pax.pcx 	161	304	1	18	22	-11	-10
+-1 sprites/wagons/pcx/pax.pcx 	161	304	1	18	22	-11	-13
+
 
 
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/pax.pcx 	93	272	1	25	8	-3	-12
--1 sprites/wagons/pcx/pax.pcx 	103	272	1	18	22	-11	-10
+-1 sprites/wagons/pcx/pax.pcx 	103	272	1	18	22	-11	-12
 -1 sprites/wagons/pcx/pax.pcx 	127	272	1	15	32	-16	-11
--1 sprites/wagons/pcx/pax.pcx 	161	272	1	18	22	-11	-10
+-1 sprites/wagons/pcx/pax.pcx 	161	272	1	18	22	-11	-13
 -1 sprites/wagons/pcx/pax.pcx 	184	272	1	25	8	-3	-12
--1 sprites/wagons/pcx/pax.pcx 	194	272	1	18	22	-11	-10
+-1 sprites/wagons/pcx/pax.pcx 	194	272	1	18	22	-11	-12
 -1 sprites/wagons/pcx/pax.pcx 	218	272	1	15	32	-16	-11
--1 sprites/wagons/pcx/pax.pcx 	251	272	1	18	22	-11	-10
+-1 sprites/wagons/pcx/pax.pcx 	251	272	1	18	22	-11	-13
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/pax.pcx 	93	304	1	25	8	-3	-12
--1 sprites/wagons/pcx/pax.pcx 	103	304	1	18	22	-11	-10
+-1 sprites/wagons/pcx/pax.pcx 	103	304	1	18	22	-11	-12
 -1 sprites/wagons/pcx/pax.pcx 	127	304	1	15	32	-16	-11
--1 sprites/wagons/pcx/pax.pcx 	161	304	1	18	22	-11	-10
+-1 sprites/wagons/pcx/pax.pcx 	161	304	1	18	22	-11	-13
 -1 sprites/wagons/pcx/pax.pcx 	184	304	1	25	8	-3	-12
--1 sprites/wagons/pcx/pax.pcx 	194	304	1	18	22	-11	-10
+-1 sprites/wagons/pcx/pax.pcx 	194	304	1	18	22	-11	-12
 -1 sprites/wagons/pcx/pax.pcx 	218	304	1	15	32	-16	-11
--1 sprites/wagons/pcx/pax.pcx 	251	304	1	18	22	-11	-10
+-1 sprites/wagons/pcx/pax.pcx 	251	304	1	18	22	-11	-13
+
 
 
 -1 * 0  02 00 A1 01 01 00 00 00 00 // <-- back
@@ -578,22 +581,20 @@
 -1 * 0  01 00 03 04
 // Format: spritenum pcxfile  xpos  ypos  comp ysize  xsize  xrel  yrel dir							
 -1 sprites/wagons/pcx/pax.pcx 	1	272	1	25	8	-3	-12
--1 sprites/wagons/pcx/pax.pcx 	11	272	1	18	22	-11	-10
+-1 sprites/wagons/pcx/pax.pcx 	11	272	1	18	22	-11	-12
 -1 sprites/wagons/pcx/pax.pcx 	35	272	1	15	32	-16	-11
--1 sprites/wagons/pcx/pax.pcx 	69	272	1	18	22	-11	-10
-
+-1 sprites/wagons/pcx/pax.pcx 	69	272	1	18	22	-11	-13
 // Format: spritenum pcxfile  xpos  ypos  comp ysize  xsize  xrel  yrel dir							
 -1 sprites/wagons/pcx/pax.pcx 	1	304	1	25	8	-3	-12
--1 sprites/wagons/pcx/pax.pcx 	11	304	1	18	22	-11	-10
+-1 sprites/wagons/pcx/pax.pcx 	11	304	1	18	22	-11	-12
 -1 sprites/wagons/pcx/pax.pcx 	35	304	1	15	32	-16	-11
--1 sprites/wagons/pcx/pax.pcx 	69	304	1	18	22	-11	-10
-
-
+-1 sprites/wagons/pcx/pax.pcx 	69	304	1	18	22	-11	-13
 // Format: spritenum pcxfile 	xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
 -1 * 0	0
 -1 * 0	0
 -1 sprites/wagons/pcx/pax.pcx 	1 	336	01 	12 	87 	-25 	-8	
 -1 * 0	0
+
 // Action 2:
 -1 * 0  02 00 A0 01 01 00 00 00 00 // <--
 -1 * 0  02 00 B0 01 01 01 00 01 00 // -->
@@ -618,127 +619,134 @@
 // Empty 00
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/flatbed.pcx 	10	39	1	20	8	-3	-12
--1 sprites/wagons/pcx/flatbed.pcx 	26	39	1	14	20	-10	-6
+-1 sprites/wagons/pcx/flatbed.pcx 	26	39	1	14	20	-10	-8
 -1 sprites/wagons/pcx/flatbed.pcx 	58	39	1	11	27	-14	-7
--1 sprites/wagons/pcx/flatbed.pcx 	90	39	1	14	20	-10	-6
+-1 sprites/wagons/pcx/flatbed.pcx 	90	39	1	14	20	-10	-9
 -1 sprites/wagons/pcx/flatbed.pcx 	10	39	1	20	8	-3	-12
--1 sprites/wagons/pcx/flatbed.pcx 	26	39	1	14	20	-10	-6
+-1 sprites/wagons/pcx/flatbed.pcx 	26	39	1	14	20	-10	-8
 -1 sprites/wagons/pcx/flatbed.pcx 	58	39	1	11	27	-14	-7
--1 sprites/wagons/pcx/flatbed.pcx 	90	39	1	14	20	-10	-6
+-1 sprites/wagons/pcx/flatbed.pcx 	90	39	1	14	20	-10	-9
 // Steel Stage 1 - 01 							
 -1 sprites/wagons/pcx/flatbed.pcx 	10	190	1	20	8	-3	-12
--1 sprites/wagons/pcx/flatbed.pcx 	26	190	1	14	20	-10	-6
+-1 sprites/wagons/pcx/flatbed.pcx 	26	190	1	14	20	-10	-8
 -1 sprites/wagons/pcx/flatbed.pcx 	58	190	1	11	27	-14	-7
--1 sprites/wagons/pcx/flatbed.pcx 	90	190	1	14	20	-10	-6
+-1 sprites/wagons/pcx/flatbed.pcx 	90	190	1	14	20	-10	-9
 -1 sprites/wagons/pcx/flatbed.pcx 	10	211	1	20	8	-3	-12
--1 sprites/wagons/pcx/flatbed.pcx 	26	211	1	14	20	-10	-6
+-1 sprites/wagons/pcx/flatbed.pcx 	26	211	1	14	20	-10	-8
 -1 sprites/wagons/pcx/flatbed.pcx 	58	211	1	11	27	-14	-7
--1 sprites/wagons/pcx/flatbed.pcx 	90	211	1	14	20	-10	-6
+-1 sprites/wagons/pcx/flatbed.pcx 	90	211	1	14	20	-10	-9
+
 
 // Steel Stage 2 - 02 							
 -1 sprites/wagons/pcx/flatbed.pcx 	10	246	1	20	8	-3	-12
--1 sprites/wagons/pcx/flatbed.pcx 	26	246	1	14	20	-10	-6
+-1 sprites/wagons/pcx/flatbed.pcx 	26	246	1	14	20	-10	-8
 -1 sprites/wagons/pcx/flatbed.pcx 	58	246	1	11	27	-14	-7
--1 sprites/wagons/pcx/flatbed.pcx 	90	246	1	14	20	-10	-6
+-1 sprites/wagons/pcx/flatbed.pcx 	90	246	1	14	20	-10	-9
 -1 sprites/wagons/pcx/flatbed.pcx 	10	267	1	20	8	-3	-12
--1 sprites/wagons/pcx/flatbed.pcx 	26	267	1	14	20	-10	-6
+-1 sprites/wagons/pcx/flatbed.pcx 	26	267	1	14	20	-10	-8
 -1 sprites/wagons/pcx/flatbed.pcx 	58	267	1	11	27	-14	-7
--1 sprites/wagons/pcx/flatbed.pcx 	90	267	1	14	20	-10	-6
+-1 sprites/wagons/pcx/flatbed.pcx 	90	267	1	14	20	-10	-9
 // Steel Stage 3 - 03 							
 -1 sprites/wagons/pcx/flatbed.pcx 	10	302	1	20	8	-3	-12
--1 sprites/wagons/pcx/flatbed.pcx 	26	302	1	14	20	-10	-6
+-1 sprites/wagons/pcx/flatbed.pcx 	26	302	1	14	20	-10	-8
 -1 sprites/wagons/pcx/flatbed.pcx 	58	302	1	11	27	-14	-7
--1 sprites/wagons/pcx/flatbed.pcx 	90	302	1	14	20	-10	-6
+-1 sprites/wagons/pcx/flatbed.pcx 	90	302	1	14	20	-10	-9
 -1 sprites/wagons/pcx/flatbed.pcx 	10	302	1	20	8	-3	-12
--1 sprites/wagons/pcx/flatbed.pcx 	26	302	1	14	20	-10	-6
+-1 sprites/wagons/pcx/flatbed.pcx 	26	302	1	14	20	-10	-8
 -1 sprites/wagons/pcx/flatbed.pcx 	58	302	1	11	27	-14	-7
--1 sprites/wagons/pcx/flatbed.pcx 	90	302	1	14	20	-10	-6
+-1 sprites/wagons/pcx/flatbed.pcx 	90	302	1	14	20	-10	-9
+
 
 // Boxes Stage 1 04							
 -1 sprites/wagons/pcx/flatbed.pcx 	10	75	1	20	8	-3	-12
--1 sprites/wagons/pcx/flatbed.pcx 	26	75	1	14	20	-10	-6
+-1 sprites/wagons/pcx/flatbed.pcx 	26	75	1	14	20	-10	-8
 -1 sprites/wagons/pcx/flatbed.pcx 	58	75	1	11	27	-14	-7
--1 sprites/wagons/pcx/flatbed.pcx 	90	75	1	14	20	-10	-6
+-1 sprites/wagons/pcx/flatbed.pcx 	90	75	1	14	20	-10	-9
 -1 sprites/wagons/pcx/flatbed.pcx 	10	97	1	20	8	-3	-12
--1 sprites/wagons/pcx/flatbed.pcx 	26	97	1	14	20	-10	-6
+-1 sprites/wagons/pcx/flatbed.pcx 	26	97	1	14	20	-10	-8
 -1 sprites/wagons/pcx/flatbed.pcx 	58	97	1	11	27	-14	-7
--1 sprites/wagons/pcx/flatbed.pcx 	90	97	1	14	20	-10	-6
+-1 sprites/wagons/pcx/flatbed.pcx 	90	97	1	14	20	-10	-9
 // Boxes Stage 2 05							
 -1 sprites/wagons/pcx/flatbed.pcx 	10	132	1	20	8	-3	-12
--1 sprites/wagons/pcx/flatbed.pcx 	26	132	1	14	20	-10	-6
+-1 sprites/wagons/pcx/flatbed.pcx 	26	132	1	14	20	-10	-8
 -1 sprites/wagons/pcx/flatbed.pcx 	58	132	1	11	27	-14	-7
--1 sprites/wagons/pcx/flatbed.pcx 	90	132	1	14	20	-10	-6
+-1 sprites/wagons/pcx/flatbed.pcx 	90	132	1	14	20	-10	-9
 -1 sprites/wagons/pcx/flatbed.pcx 	10	132	1	20	8	-3	-12
--1 sprites/wagons/pcx/flatbed.pcx 	26	132	1	14	20	-10	-6
+-1 sprites/wagons/pcx/flatbed.pcx 	26	132	1	14	20	-10	-8
 -1 sprites/wagons/pcx/flatbed.pcx 	58	132	1	11	27	-14	-7
--1 sprites/wagons/pcx/flatbed.pcx 	90	132	1	14	20	-10	-6
+-1 sprites/wagons/pcx/flatbed.pcx 	90	132	1	14	20	-10	-9
+
 
 // Paper Stage 1 06							
 -1 sprites/wagons/pcx/flatbed.pcx 	10	336	1	20	8	-3	-12
--1 sprites/wagons/pcx/flatbed.pcx 	26	336	1	14	20	-10	-6
+-1 sprites/wagons/pcx/flatbed.pcx 	26	336	1	14	20	-10	-8
 -1 sprites/wagons/pcx/flatbed.pcx 	58	336	1	11	27	-14	-7
--1 sprites/wagons/pcx/flatbed.pcx 	90	336	1	14	20	-10	-6
+-1 sprites/wagons/pcx/flatbed.pcx 	90	336	1	14	20	-10	-9
 -1 sprites/wagons/pcx/flatbed.pcx 	10	357	1	20	8	-3	-12
--1 sprites/wagons/pcx/flatbed.pcx 	26	357	1	14	20	-10	-6
+-1 sprites/wagons/pcx/flatbed.pcx 	26	357	1	14	20	-10	-8
 -1 sprites/wagons/pcx/flatbed.pcx 	58	357	1	11	27	-14	-7
--1 sprites/wagons/pcx/flatbed.pcx 	90	357	1	14	20	-10	-6
+-1 sprites/wagons/pcx/flatbed.pcx 	90	357	1	14	20	-10	-9
 // Paper Stage 2 07							
 -1 sprites/wagons/pcx/flatbed.pcx 	10	392	1	20	8	-3	-12
--1 sprites/wagons/pcx/flatbed.pcx 	26	392	1	14	20	-10	-6
+-1 sprites/wagons/pcx/flatbed.pcx 	26	392	1	14	20	-10	-8
 -1 sprites/wagons/pcx/flatbed.pcx 	58	392	1	11	27	-14	-7
--1 sprites/wagons/pcx/flatbed.pcx 	90	392	1	14	20	-10	-6
+-1 sprites/wagons/pcx/flatbed.pcx 	90	392	1	14	20	-10	-9
 -1 sprites/wagons/pcx/flatbed.pcx 	10	413	1	20	8	-3	-12
--1 sprites/wagons/pcx/flatbed.pcx 	26	413	1	14	20	-10	-6
+-1 sprites/wagons/pcx/flatbed.pcx 	26	413	1	14	20	-10	-8
 -1 sprites/wagons/pcx/flatbed.pcx 	58	413	1	11	27	-14	-7
--1 sprites/wagons/pcx/flatbed.pcx 	90	413	1	14	20	-10	-6
+-1 sprites/wagons/pcx/flatbed.pcx 	90	413	1	14	20	-10	-9
+
 
 // Paper Stage 3 08							
 -1 sprites/wagons/pcx/flatbed.pcx 	10	449	1	20	8	-3	-12
--1 sprites/wagons/pcx/flatbed.pcx 	26	449	1	14	20	-10	-6
+-1 sprites/wagons/pcx/flatbed.pcx 	26	449	1	14	20	-10	-8
 -1 sprites/wagons/pcx/flatbed.pcx 	58	449	1	11	27	-14	-7
--1 sprites/wagons/pcx/flatbed.pcx 	90	449	1	14	20	-10	-6
+-1 sprites/wagons/pcx/flatbed.pcx 	90	449	1	14	20	-10	-9
 -1 sprites/wagons/pcx/flatbed.pcx 	10	449	1	20	8	-3	-12
--1 sprites/wagons/pcx/flatbed.pcx 	26	449	1	14	20	-10	-6
+-1 sprites/wagons/pcx/flatbed.pcx 	26	449	1	14	20	-10	-8
 -1 sprites/wagons/pcx/flatbed.pcx 	58	449	1	11	27	-14	-7
--1 sprites/wagons/pcx/flatbed.pcx 	90	449	1	14	20	-10	-6
+-1 sprites/wagons/pcx/flatbed.pcx 	90	449	1	14	20	-10	-9
 // Wood Empty 09							
 -1 sprites/wagons/pcx/flatbed.pcx 	150	39	1	20	8	-3	-12
--1 sprites/wagons/pcx/flatbed.pcx 	166	39	1	16	20	-10	-8
+-1 sprites/wagons/pcx/flatbed.pcx 	166	39	1	16	20	-10	-10
 -1 sprites/wagons/pcx/flatbed.pcx 	198	39	1	13	27	-14	-9
--1 sprites/wagons/pcx/flatbed.pcx 	230	39	1	16	20	-10	-8
+-1 sprites/wagons/pcx/flatbed.pcx 	230	39	1	16	20	-10	-11
 -1 sprites/wagons/pcx/flatbed.pcx 	150	39	1	20	8	-3	-12
--1 sprites/wagons/pcx/flatbed.pcx 	166	39	1	16	20	-10	-8
+-1 sprites/wagons/pcx/flatbed.pcx 	166	39	1	16	20	-10	-10
 -1 sprites/wagons/pcx/flatbed.pcx 	198	39	1	13	27	-14	-9
--1 sprites/wagons/pcx/flatbed.pcx 	230	39	1	16	20	-10	-8
+-1 sprites/wagons/pcx/flatbed.pcx 	230	39	1	16	20	-10	-11
+
 
 // Wood Stage 1 0A							
 -1 sprites/wagons/pcx/flatbed.pcx 	150	72	1	20	8	-3	-12
--1 sprites/wagons/pcx/flatbed.pcx 	166	72	1	16	20	-10	-8
+-1 sprites/wagons/pcx/flatbed.pcx 	166	72	1	16	20	-10	-10
 -1 sprites/wagons/pcx/flatbed.pcx 	198	72	1	13	27	-14	-9
--1 sprites/wagons/pcx/flatbed.pcx 	230	72	1	16	20	-10	-8
+-1 sprites/wagons/pcx/flatbed.pcx 	230	72	1	16	20	-10	-11
 -1 sprites/wagons/pcx/flatbed.pcx 	150	72	1	20	8	-3	-12
--1 sprites/wagons/pcx/flatbed.pcx 	166	72	1	16	20	-10	-8
+-1 sprites/wagons/pcx/flatbed.pcx 	166	72	1	16	20	-10	-10
 -1 sprites/wagons/pcx/flatbed.pcx 	198	72	1	13	27	-14	-9
--1 sprites/wagons/pcx/flatbed.pcx 	230	72	1	16	20	-10	-8
+-1 sprites/wagons/pcx/flatbed.pcx 	230	72	1	16	20	-10	-11
 // Wood Stage 2 0B							
 -1 sprites/wagons/pcx/flatbed.pcx 	150	104	1	20	8	-3	-12
--1 sprites/wagons/pcx/flatbed.pcx 	166	104	1	16	20	-10	-8
+-1 sprites/wagons/pcx/flatbed.pcx 	166	104	1	16	20	-10	-10
 -1 sprites/wagons/pcx/flatbed.pcx 	198	104	1	13	27	-14	-9
--1 sprites/wagons/pcx/flatbed.pcx 	230	104	1	16	20	-10	-8
+-1 sprites/wagons/pcx/flatbed.pcx 	230	104	1	16	20	-10	-11
 -1 sprites/wagons/pcx/flatbed.pcx 	150	104	1	20	8	-3	-12
--1 sprites/wagons/pcx/flatbed.pcx 	166	104	1	16	20	-10	-8
+-1 sprites/wagons/pcx/flatbed.pcx 	166	104	1	16	20	-10	-10
 -1 sprites/wagons/pcx/flatbed.pcx 	198	104	1	13	27	-14	-9
--1 sprites/wagons/pcx/flatbed.pcx 	230	104	1	16	20	-10	-8
+-1 sprites/wagons/pcx/flatbed.pcx 	230	104	1	16	20	-10	-11
+
 
 // Wood Stage 3 0C							
 -1 sprites/wagons/pcx/flatbed.pcx 	150	140	1	20	8	-3	-12
--1 sprites/wagons/pcx/flatbed.pcx 	166	140	1	16	20	-10	-8
+-1 sprites/wagons/pcx/flatbed.pcx 	166	140	1	16	20	-10	-10
 -1 sprites/wagons/pcx/flatbed.pcx 	198	140	1	13	27	-14	-9
--1 sprites/wagons/pcx/flatbed.pcx 	230	140	1	16	20	-10	-8
+-1 sprites/wagons/pcx/flatbed.pcx 	230	140	1	16	20	-10	-11
 -1 sprites/wagons/pcx/flatbed.pcx 	150	140	1	20	8	-3	-12
--1 sprites/wagons/pcx/flatbed.pcx 	166	140	1	16	20	-10	-8
+-1 sprites/wagons/pcx/flatbed.pcx 	166	140	1	16	20	-10	-10
 -1 sprites/wagons/pcx/flatbed.pcx 	198	140	1	13	27	-14	-9
--1 sprites/wagons/pcx/flatbed.pcx 	230	140	1	16	20	-10	-8
+-1 sprites/wagons/pcx/flatbed.pcx 	230	140	1	16	20	-10	-11
+
 
 // Action 2: Steel
 -1 * 0  02 00 A0 04 04 00 00 01 00 02 00 03 00 00 00 01 00 02 00 03 00
@@ -765,102 +773,107 @@
 // Empty
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/plain.pcx 	1	1	1	23	8	-3	-11
--1 sprites/wagons/pcx/plain.pcx 	10	1	1	16	22	-11	-8
+-1 sprites/wagons/pcx/plain.pcx 	10	1	1	16	22	-11	-10
 -1 sprites/wagons/pcx/plain.pcx 	33	1	1	12	32	-16	-8
--1 sprites/wagons/pcx/plain.pcx 	66	1	1	16	22	-11	-8
+-1 sprites/wagons/pcx/plain.pcx 	66	1	1	16	22	-11	-11
 -1 sprites/wagons/pcx/plain.pcx 	89	1	1	23	8	-3	-11
--1 sprites/wagons/pcx/plain.pcx 	98	1	1	16	22	-11	-8
+-1 sprites/wagons/pcx/plain.pcx 	98	1	1	16	22	-11	-10
 -1 sprites/wagons/pcx/plain.pcx 	121	1	1	12	32	-16	-8
--1 sprites/wagons/pcx/plain.pcx 	154	1	1	16	22	-11	-8
+-1 sprites/wagons/pcx/plain.pcx 	154	1	1	16	22	-11	-11
 // Boxes 1							
 -1 sprites/wagons/pcx/plain.pcx 	1	32	1	23	8	-3	-11
--1 sprites/wagons/pcx/plain.pcx 	10	32	1	16	22	-11	-8
+-1 sprites/wagons/pcx/plain.pcx 	10	32	1	16	22	-11	-10
 -1 sprites/wagons/pcx/plain.pcx 	33	32	1	12	32	-16	-8
--1 sprites/wagons/pcx/plain.pcx 	66	32	1	16	22	-11	-8
+-1 sprites/wagons/pcx/plain.pcx 	66	32	1	16	22	-11	-11
 -1 sprites/wagons/pcx/plain.pcx 	89	32	1	23	8	-3	-11
--1 sprites/wagons/pcx/plain.pcx 	98	32	1	16	22	-11	-8
+-1 sprites/wagons/pcx/plain.pcx 	98	32	1	16	22	-11	-10
 -1 sprites/wagons/pcx/plain.pcx 	121	32	1	12	32	-16	-8
--1 sprites/wagons/pcx/plain.pcx 	154	32	1	16	22	-11	-8
+-1 sprites/wagons/pcx/plain.pcx 	154	32	1	16	22	-11	-11
+
 
 // Boxes 2
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/plain.pcx 	1	64	1	23	8	-3	-11
--1 sprites/wagons/pcx/plain.pcx 	10	64	1	16	22	-11	-8
+-1 sprites/wagons/pcx/plain.pcx 	10	64	1	16	22	-11	-10
 -1 sprites/wagons/pcx/plain.pcx 	33	64	1	12	32	-16	-8
--1 sprites/wagons/pcx/plain.pcx 	66	64	1	16	22	-11	-8
+-1 sprites/wagons/pcx/plain.pcx 	66	64	1	16	22	-11	-11
 -1 sprites/wagons/pcx/plain.pcx 	89	64	1	23	8	-3	-11
--1 sprites/wagons/pcx/plain.pcx 	98	64	1	16	22	-11	-8
+-1 sprites/wagons/pcx/plain.pcx 	98	64	1	16	22	-11	-10
 -1 sprites/wagons/pcx/plain.pcx 	121	64	1	12	32	-16	-8
--1 sprites/wagons/pcx/plain.pcx 	154	64	1	16	22	-11	-8
+-1 sprites/wagons/pcx/plain.pcx 	154	64	1	16	22	-11	-11
 // Steel 1							
 -1 sprites/wagons/pcx/plain.pcx 	1	96	1	23	8	-3	-11
--1 sprites/wagons/pcx/plain.pcx 	10	96	1	16	22	-11	-8
+-1 sprites/wagons/pcx/plain.pcx 	10	96	1	16	22	-11	-10
 -1 sprites/wagons/pcx/plain.pcx 	33	96	1	12	32	-16	-8
--1 sprites/wagons/pcx/plain.pcx 	66	96	1	16	22	-11	-8
+-1 sprites/wagons/pcx/plain.pcx 	66	96	1	16	22	-11	-11
 -1 sprites/wagons/pcx/plain.pcx 	89	96	1	23	8	-3	-11
--1 sprites/wagons/pcx/plain.pcx 	98	96	1	16	22	-11	-8
+-1 sprites/wagons/pcx/plain.pcx 	98	96	1	16	22	-11	-10
 -1 sprites/wagons/pcx/plain.pcx 	121	96	1	12	32	-16	-8
--1 sprites/wagons/pcx/plain.pcx 	154	96	1	16	22	-11	-8
+-1 sprites/wagons/pcx/plain.pcx 	154	96	1	16	22	-11	-11
+
 
 // Steel 2
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/plain.pcx 	1	128	1	23	8	-3	-11
--1 sprites/wagons/pcx/plain.pcx 	10	128	1	16	22	-11	-8
+-1 sprites/wagons/pcx/plain.pcx 	10	128	1	16	22	-11	-10
 -1 sprites/wagons/pcx/plain.pcx 	33	128	1	12	32	-16	-8
--1 sprites/wagons/pcx/plain.pcx 	66	128	1	16	22	-11	-8
+-1 sprites/wagons/pcx/plain.pcx 	66	128	1	16	22	-11	-11
 -1 sprites/wagons/pcx/plain.pcx 	89	128	1	23	8	-3	-11
--1 sprites/wagons/pcx/plain.pcx 	98	128	1	16	22	-11	-8
+-1 sprites/wagons/pcx/plain.pcx 	98	128	1	16	22	-11	-10
 -1 sprites/wagons/pcx/plain.pcx 	121	128	1	12	32	-16	-8
--1 sprites/wagons/pcx/plain.pcx 	154	128	1	16	22	-11	-8
+-1 sprites/wagons/pcx/plain.pcx 	154	128	1	16	22	-11	-11
 // Paper 1							
 -1 sprites/wagons/pcx/plain.pcx 	1	160	1	23	8	-3	-11
--1 sprites/wagons/pcx/plain.pcx 	10	160	1	16	22	-11	-8
+-1 sprites/wagons/pcx/plain.pcx 	10	160	1	16	22	-11	-10
 -1 sprites/wagons/pcx/plain.pcx 	33	160	1	12	32	-16	-8
--1 sprites/wagons/pcx/plain.pcx 	66	160	1	16	22	-11	-8
+-1 sprites/wagons/pcx/plain.pcx 	66	160	1	16	22	-11	-11
 -1 sprites/wagons/pcx/plain.pcx 	89	160	1	23	8	-3	-11
--1 sprites/wagons/pcx/plain.pcx 	98	160	1	16	22	-11	-8
+-1 sprites/wagons/pcx/plain.pcx 	98	160	1	16	22	-11	-10
 -1 sprites/wagons/pcx/plain.pcx 	121	160	1	12	32	-16	-8
--1 sprites/wagons/pcx/plain.pcx 	154	160	1	16	22	-11	-8
+-1 sprites/wagons/pcx/plain.pcx 	154	160	1	16	22	-11	-11
+
 
 // Paper 2
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/plain.pcx 	1	192	1	23	8	-3	-11
--1 sprites/wagons/pcx/plain.pcx 	10	192	1	16	22	-11	-8
+-1 sprites/wagons/pcx/plain.pcx 	10	192	1	16	22	-11	-10
 -1 sprites/wagons/pcx/plain.pcx 	33	192	1	12	32	-16	-8
--1 sprites/wagons/pcx/plain.pcx 	66	192	1	16	22	-11	-8
+-1 sprites/wagons/pcx/plain.pcx 	66	192	1	16	22	-11	-11
 -1 sprites/wagons/pcx/plain.pcx 	89	192	1	23	8	-3	-11
--1 sprites/wagons/pcx/plain.pcx 	98	192	1	16	22	-11	-8
+-1 sprites/wagons/pcx/plain.pcx 	98	192	1	16	22	-11	-10
 -1 sprites/wagons/pcx/plain.pcx 	121	192	1	12	32	-16	-8
--1 sprites/wagons/pcx/plain.pcx 	154	192	1	16	22	-11	-8
+-1 sprites/wagons/pcx/plain.pcx 	154	192	1	16	22	-11	-11
 // Wood Empty							
 -1 sprites/wagons/pcx/plain.pcx 	1	224	1	25	8	-3	-13
--1 sprites/wagons/pcx/plain.pcx 	10	224	1	18	22	-11	-10
+-1 sprites/wagons/pcx/plain.pcx 	10	224	1	18	22	-11	-12
 -1 sprites/wagons/pcx/plain.pcx 	33	224	1	14	32	-16	-10
--1 sprites/wagons/pcx/plain.pcx 	66	224	1	18	22	-11	-10
+-1 sprites/wagons/pcx/plain.pcx 	66	224	1	18	22	-11	-13
 -1 sprites/wagons/pcx/plain.pcx 	89	224	1	25	8	-3	-13
--1 sprites/wagons/pcx/plain.pcx 	98	224	1	18	22	-11	-10
+-1 sprites/wagons/pcx/plain.pcx 	98	224	1	18	22	-11	-12
 -1 sprites/wagons/pcx/plain.pcx 	121	224	1	14	32	-16	-10
--1 sprites/wagons/pcx/plain.pcx 	154	224	1	18	22	-11	-10
+-1 sprites/wagons/pcx/plain.pcx 	154	224	1	18	22	-11	-13
+
 
 // Wood 1
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/plain.pcx 	1	256	1	25	8	-3	-13
--1 sprites/wagons/pcx/plain.pcx 	10	256	1	18	22	-11	-10
+-1 sprites/wagons/pcx/plain.pcx 	10	256	1	18	22	-11	-12
 -1 sprites/wagons/pcx/plain.pcx 	33	256	1	14	32	-16	-10
--1 sprites/wagons/pcx/plain.pcx 	66	256	1	18	22	-11	-10
+-1 sprites/wagons/pcx/plain.pcx 	66	256	1	18	22	-11	-13
 -1 sprites/wagons/pcx/plain.pcx 	89	256	1	25	8	-3	-13
--1 sprites/wagons/pcx/plain.pcx 	98	256	1	18	22	-11	-10
+-1 sprites/wagons/pcx/plain.pcx 	98	256	1	18	22	-11	-12
 -1 sprites/wagons/pcx/plain.pcx 	121	256	1	14	32	-16	-10
--1 sprites/wagons/pcx/plain.pcx 	154	256	1	18	22	-11	-10
+-1 sprites/wagons/pcx/plain.pcx 	154	256	1	18	22	-11	-13
 // Wood 2							
 -1 sprites/wagons/pcx/plain.pcx 	1	288	1	25	8	-3	-13
--1 sprites/wagons/pcx/plain.pcx 	10	288	1	18	22	-11	-10
+-1 sprites/wagons/pcx/plain.pcx 	10	288	1	18	22	-11	-12
 -1 sprites/wagons/pcx/plain.pcx 	33	288	1	14	32	-16	-10
--1 sprites/wagons/pcx/plain.pcx 	66	288	1	18	22	-11	-10
+-1 sprites/wagons/pcx/plain.pcx 	66	288	1	18	22	-11	-13
 -1 sprites/wagons/pcx/plain.pcx 	89	288	1	25	8	-3	-13
--1 sprites/wagons/pcx/plain.pcx 	98	288	1	18	22	-11	-10
+-1 sprites/wagons/pcx/plain.pcx 	98	288	1	18	22	-11	-12
 -1 sprites/wagons/pcx/plain.pcx 	121	288	1	14	32	-16	-10
--1 sprites/wagons/pcx/plain.pcx 	154	288	1	18	22	-11	-10
+-1 sprites/wagons/pcx/plain.pcx 	154	288	1	18	22	-11	-13
+
 
 
 // Action 2: Steel
@@ -885,22 +898,23 @@
 // Silo
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/tankerssilos.pcx 	1	160	1	24	8	-3	-12
--1 sprites/wagons/pcx/tankerssilos.pcx 	10	160	1	18	22	-11	-10
+-1 sprites/wagons/pcx/tankerssilos.pcx 	10	160	1	18	22	-11	-12
 -1 sprites/wagons/pcx/tankerssilos.pcx 	33	160	1	12	32	-16	-8
--1 sprites/wagons/pcx/tankerssilos.pcx 	66	160	1	18	22	-11	-10
+-1 sprites/wagons/pcx/tankerssilos.pcx 	66	160	1	18	22	-11	-13
 -1 sprites/wagons/pcx/tankerssilos.pcx 	89	160	1	24	8	-3	-11
--1 sprites/wagons/pcx/tankerssilos.pcx 	98	160	1	18	22	-11	-10
+-1 sprites/wagons/pcx/tankerssilos.pcx 	98	160	1	18	22	-11	-12
 -1 sprites/wagons/pcx/tankerssilos.pcx 	121	160	1	12	32	-16	-8
--1 sprites/wagons/pcx/tankerssilos.pcx 	154	160	1	18	22	-11	-10
+-1 sprites/wagons/pcx/tankerssilos.pcx 	154	160	1	18	22	-11	-13
 // Tanker							
 -1 sprites/wagons/pcx/tankerssilos.pcx 	1	128	1	24	8	-3	-12
--1 sprites/wagons/pcx/tankerssilos.pcx 	10	128	1	18	22	-11	-10
+-1 sprites/wagons/pcx/tankerssilos.pcx 	10	128	1	18	22	-11	-12
 -1 sprites/wagons/pcx/tankerssilos.pcx 	33	128	1	12	32	-16	-8
--1 sprites/wagons/pcx/tankerssilos.pcx 	66	128	1	18	22	-11	-10
+-1 sprites/wagons/pcx/tankerssilos.pcx 	66	128	1	18	22	-11	-13
 -1 sprites/wagons/pcx/tankerssilos.pcx 	89	128	1	24	8	-3	-11
--1 sprites/wagons/pcx/tankerssilos.pcx 	98	128	1	18	22	-11	-10
+-1 sprites/wagons/pcx/tankerssilos.pcx 	98	128	1	18	22	-11	-12
 -1 sprites/wagons/pcx/tankerssilos.pcx 	121	128	1	12	32	-16	-8
--1 sprites/wagons/pcx/tankerssilos.pcx 	154	128	1	18	22	-11	-10
+-1 sprites/wagons/pcx/tankerssilos.pcx 	154	128	1	18	22	-11	-13
+
 
 
 // Action 2's
@@ -924,22 +938,23 @@
 // Tanker
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/tankersmall.pcx 	1	1	1	23	8	-3	-11
--1 sprites/wagons/pcx/tankersmall.pcx 	10	1	1	16	22	-11	-8
+-1 sprites/wagons/pcx/tankersmall.pcx 	10	1	1	16	22	-11	-10
 -1 sprites/wagons/pcx/tankersmall.pcx 	33	1	1	12	32	-16	-8
--1 sprites/wagons/pcx/tankersmall.pcx 	66	1	1	16	22	-11	-8
+-1 sprites/wagons/pcx/tankersmall.pcx 	66	1	1	16	22	-11	-11
 -1 sprites/wagons/pcx/tankersmall.pcx 	89	1	1	23	8	-3	-11
--1 sprites/wagons/pcx/tankersmall.pcx 	98	1	1	16	22	-11	-8
+-1 sprites/wagons/pcx/tankersmall.pcx 	98	1	1	16	22	-11	-10
 -1 sprites/wagons/pcx/tankersmall.pcx 	121	1	1	12	32	-16	-8
--1 sprites/wagons/pcx/tankersmall.pcx 	154	1	1	16	22	-11	-8
+-1 sprites/wagons/pcx/tankersmall.pcx 	154	1	1	16	22	-11	-11
 //Silo							
 -1 sprites/wagons/pcx/tankersmall.pcx 	1	32	1	23	8	-3	-11
--1 sprites/wagons/pcx/tankersmall.pcx 	10	32	1	16	22	-11	-8
+-1 sprites/wagons/pcx/tankersmall.pcx 	10	32	1	16	22	-11	-10
 -1 sprites/wagons/pcx/tankersmall.pcx 	33	32	1	12	32	-16	-8
--1 sprites/wagons/pcx/tankersmall.pcx 	66	32	1	16	22	-11	-8
+-1 sprites/wagons/pcx/tankersmall.pcx 	66	32	1	16	22	-11	-11
 -1 sprites/wagons/pcx/tankersmall.pcx 	89	32	1	23	8	-3	-11
--1 sprites/wagons/pcx/tankersmall.pcx 	98	32	1	16	22	-11	-8
+-1 sprites/wagons/pcx/tankersmall.pcx 	98	32	1	16	22	-11	-10
 -1 sprites/wagons/pcx/tankersmall.pcx 	121	32	1	12	32	-16	-8
--1 sprites/wagons/pcx/tankersmall.pcx 	154	32	1	16	22	-11	-8
+-1 sprites/wagons/pcx/tankersmall.pcx 	154	32	1	16	22	-11	-11
+
 
 // Action 2's
 -1 * 0  02 00 A0 01 01 00 00 00 00 // Tanker
@@ -974,41 +989,47 @@
 // Empty 00
 // Format: spritenum pcxfile  xpos  ypos  comp ysize  xsize  xrel  yrel dir							
 -1 sprites/wagons/pcx/wagons2.pcx 	148	103	1	21	8	-3	-12
--1 sprites/wagons/pcx/wagons2.pcx 	164	103	1	15	19	-10	-7
+-1 sprites/wagons/pcx/wagons2.pcx 	164	103	1	15	19	-10	-9
 -1 sprites/wagons/pcx/wagons2.pcx 	196	103	1	13	26	-13	-9
--1 sprites/wagons/pcx/wagons2.pcx 	228	103	1	15	19	-10	-7
+-1 sprites/wagons/pcx/wagons2.pcx 	228	103	1	15	19	-10	-10
 // Coal 1 01							
 -1 sprites/wagons/pcx/wagons2.pcx 	148	128	1	21	8	-3	-12
--1 sprites/wagons/pcx/wagons2.pcx 	164	128	1	15	19	-10	-7
+-1 sprites/wagons/pcx/wagons2.pcx 	164	128	1	15	19	-10	-9
 -1 sprites/wagons/pcx/wagons2.pcx 	196	128	1	13	26	-13	-9
--1 sprites/wagons/pcx/wagons2.pcx 	228	128	1	15	19	-10	-7
+-1 sprites/wagons/pcx/wagons2.pcx 	228	128	1	15	19	-10	-10
+
+
 // Coal 2 02							
 -1 sprites/wagons/pcx/wagons2.pcx 	148	153	1	21	8	-3	-12
--1 sprites/wagons/pcx/wagons2.pcx 	164	153	1	15	19	-10	-7
+-1 sprites/wagons/pcx/wagons2.pcx 	164	153	1	15	19	-10	-9
 -1 sprites/wagons/pcx/wagons2.pcx 	196	153	1	13	26	-13	-9
--1 sprites/wagons/pcx/wagons2.pcx 	228	153	1	15	19	-10	-7
+-1 sprites/wagons/pcx/wagons2.pcx 	228	153	1	15	19	-10	-10
 // Iron 1 03							
 -1 sprites/wagons/pcx/wagons2.pcx 	148	178	1	21	8	-3	-12
--1 sprites/wagons/pcx/wagons2.pcx 	164	178	1	15	19	-10	-7
+-1 sprites/wagons/pcx/wagons2.pcx 	164	178	1	15	19	-10	-9
 -1 sprites/wagons/pcx/wagons2.pcx 	196	178	1	13	26	-13	-9
--1 sprites/wagons/pcx/wagons2.pcx 	228	178	1	15	19	-10	-7
+-1 sprites/wagons/pcx/wagons2.pcx 	228	178	1	15	19	-10	-10
+
 
 // Iron 2 04
 // Format: spritenum pcxfile  xpos  ypos  comp ysize  xsize  xrel  yrel dir							
 -1 sprites/wagons/pcx/wagons2.pcx 	148	203	1	21	8	-3	-12
--1 sprites/wagons/pcx/wagons2.pcx 	164	203	1	15	19	-10	-7
+-1 sprites/wagons/pcx/wagons2.pcx 	164	203	1	15	19	-10	-9
 -1 sprites/wagons/pcx/wagons2.pcx 	196	203	1	13	26	-13	-9
--1 sprites/wagons/pcx/wagons2.pcx 	228	203	1	15	19	-10	-7
+-1 sprites/wagons/pcx/wagons2.pcx 	228	203	1	15	19	-10	-10
 // Default/Copper 1 05							
 -1 sprites/wagons/pcx/wagons2.pcx 	148	228	1	21	8	-3	-12
--1 sprites/wagons/pcx/wagons2.pcx 	164	228	1	15	19	-10	-7
+-1 sprites/wagons/pcx/wagons2.pcx 	164	228	1	15	19	-10	-9
 -1 sprites/wagons/pcx/wagons2.pcx 	196	228	1	13	26	-13	-9
--1 sprites/wagons/pcx/wagons2.pcx 	228	228	1	15	19	-10	-7
+-1 sprites/wagons/pcx/wagons2.pcx 	228	228	1	15	19	-10	-10
+
+
 // Default/Copper 2 06							
 -1 sprites/wagons/pcx/wagons2.pcx 	148	253	1	21	8	-3	-12
--1 sprites/wagons/pcx/wagons2.pcx 	164	253	1	15	19	-10	-7
+-1 sprites/wagons/pcx/wagons2.pcx 	164	253	1	15	19	-10	-9
 -1 sprites/wagons/pcx/wagons2.pcx 	196	253	1	13	26	-13	-9
--1 sprites/wagons/pcx/wagons2.pcx 	228	253	1	15	19	-10	-7
+-1 sprites/wagons/pcx/wagons2.pcx 	228	253	1	15	19	-10	-10
+
 
 // Action 2's;
 -1 * 0  02 00 A0 03 03 00 00 01 00 02 00 00 00 01 00 02 00 // Coal
@@ -1030,73 +1051,77 @@
 // Empty 00
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/dumper.pcx 	1	1	1	23	8	-3	-11
--1 sprites/wagons/pcx/dumper.pcx 	10	1	1	16	22	-11	-8
+-1 sprites/wagons/pcx/dumper.pcx 	10	1	1	16	22	-11	-10
 -1 sprites/wagons/pcx/dumper.pcx 	33	1	1	12	32	-16	-8
--1 sprites/wagons/pcx/dumper.pcx 	66	1	1	16	22	-11	-8
+-1 sprites/wagons/pcx/dumper.pcx 	66	1	1	16	22	-11	-11
 -1 sprites/wagons/pcx/dumper.pcx 	89	1	1	23	8	-3	-11
--1 sprites/wagons/pcx/dumper.pcx 	98	1	1	16	22	-11	-8
+-1 sprites/wagons/pcx/dumper.pcx 	98	1	1	16	22	-11	-10
 -1 sprites/wagons/pcx/dumper.pcx 	121	1	1	12	32	-16	-8
--1 sprites/wagons/pcx/dumper.pcx 	154	1	1	16	22	-11	-8
+-1 sprites/wagons/pcx/dumper.pcx 	154	1	1	16	22	-11	-11
 // Coal 1 01							
 -1 sprites/wagons/pcx/dumper.pcx 	1	32	1	23	8	-3	-11
--1 sprites/wagons/pcx/dumper.pcx 	10	32	1	16	22	-11	-8
+-1 sprites/wagons/pcx/dumper.pcx 	10	32	1	16	22	-11	-10
 -1 sprites/wagons/pcx/dumper.pcx 	33	32	1	12	32	-16	-8
--1 sprites/wagons/pcx/dumper.pcx 	66	32	1	16	22	-11	-8
+-1 sprites/wagons/pcx/dumper.pcx 	66	32	1	16	22	-11	-11
 -1 sprites/wagons/pcx/dumper.pcx 	89	32	1	23	8	-3	-11
--1 sprites/wagons/pcx/dumper.pcx 	98	32	1	16	22	-11	-8
+-1 sprites/wagons/pcx/dumper.pcx 	98	32	1	16	22	-11	-10
 -1 sprites/wagons/pcx/dumper.pcx 	121	32	1	12	32	-16	-8
--1 sprites/wagons/pcx/dumper.pcx 	154	32	1	16	22	-11	-8
+-1 sprites/wagons/pcx/dumper.pcx 	154	32	1	16	22	-11	-11
+
 
 // Coal 2 02
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/dumper.pcx 	1	64	1	23	8	-3	-11
--1 sprites/wagons/pcx/dumper.pcx 	10	64	1	16	22	-11	-8
+-1 sprites/wagons/pcx/dumper.pcx 	10	64	1	16	22	-11	-10
 -1 sprites/wagons/pcx/dumper.pcx 	33	64	1	12	32	-16	-8
--1 sprites/wagons/pcx/dumper.pcx 	66	64	1	16	22	-11	-8
+-1 sprites/wagons/pcx/dumper.pcx 	66	64	1	16	22	-11	-11
 -1 sprites/wagons/pcx/dumper.pcx 	89	64	1	23	8	-3	-11
--1 sprites/wagons/pcx/dumper.pcx 	98	64	1	16	22	-11	-8
+-1 sprites/wagons/pcx/dumper.pcx 	98	64	1	16	22	-11	-10
 -1 sprites/wagons/pcx/dumper.pcx 	121	64	1	12	32	-16	-8
--1 sprites/wagons/pcx/dumper.pcx 	154	64	1	16	22	-11	-8
+-1 sprites/wagons/pcx/dumper.pcx 	154	64	1	16	22	-11	-11
 // Iron 1 03							
 -1 sprites/wagons/pcx/dumper.pcx 	1	96	1	23	8	-3	-11
--1 sprites/wagons/pcx/dumper.pcx 	10	96	1	16	22	-11	-8
+-1 sprites/wagons/pcx/dumper.pcx 	10	96	1	16	22	-11	-10
 -1 sprites/wagons/pcx/dumper.pcx 	33	96	1	12	32	-16	-8
--1 sprites/wagons/pcx/dumper.pcx 	66	96	1	16	22	-11	-8
+-1 sprites/wagons/pcx/dumper.pcx 	66	96	1	16	22	-11	-11
 -1 sprites/wagons/pcx/dumper.pcx 	89	96	1	23	8	-3	-11
--1 sprites/wagons/pcx/dumper.pcx 	98	96	1	16	22	-11	-8
+-1 sprites/wagons/pcx/dumper.pcx 	98	96	1	16	22	-11	-10
 -1 sprites/wagons/pcx/dumper.pcx 	121	96	1	12	32	-16	-8
--1 sprites/wagons/pcx/dumper.pcx 	154	96	1	16	22	-11	-8
+-1 sprites/wagons/pcx/dumper.pcx 	154	96	1	16	22	-11	-11
+
 
 // Iron 2 04
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/dumper.pcx 	1	128	1	23	8	-3	-11
--1 sprites/wagons/pcx/dumper.pcx 	10	128	1	16	22	-11	-8
+-1 sprites/wagons/pcx/dumper.pcx 	10	128	1	16	22	-11	-10
 -1 sprites/wagons/pcx/dumper.pcx 	33	128	1	12	32	-16	-8
--1 sprites/wagons/pcx/dumper.pcx 	66	128	1	16	22	-11	-8
+-1 sprites/wagons/pcx/dumper.pcx 	66	128	1	16	22	-11	-11
 -1 sprites/wagons/pcx/dumper.pcx 	89	128	1	23	8	-3	-11
--1 sprites/wagons/pcx/dumper.pcx 	98	128	1	16	22	-11	-8
+-1 sprites/wagons/pcx/dumper.pcx 	98	128	1	16	22	-11	-10
 -1 sprites/wagons/pcx/dumper.pcx 	121	128	1	12	32	-16	-8
--1 sprites/wagons/pcx/dumper.pcx 	154	128	1	16	22	-11	-8
+-1 sprites/wagons/pcx/dumper.pcx 	154	128	1	16	22	-11	-11
 // Default/Copper 1 05							
 -1 sprites/wagons/pcx/dumper.pcx 	1	160	1	23	8	-3	-11
--1 sprites/wagons/pcx/dumper.pcx 	10	160	1	16	22	-11	-8
+-1 sprites/wagons/pcx/dumper.pcx 	10	160	1	16	22	-11	-10
 -1 sprites/wagons/pcx/dumper.pcx 	33	160	1	12	32	-16	-8
--1 sprites/wagons/pcx/dumper.pcx 	66	160	1	16	22	-11	-8
+-1 sprites/wagons/pcx/dumper.pcx 	66	160	1	16	22	-11	-11
 -1 sprites/wagons/pcx/dumper.pcx 	89	160	1	23	8	-3	-11
--1 sprites/wagons/pcx/dumper.pcx 	98	160	1	16	22	-11	-8
+-1 sprites/wagons/pcx/dumper.pcx 	98	160	1	16	22	-11	-10
 -1 sprites/wagons/pcx/dumper.pcx 	121	160	1	12	32	-16	-8
--1 sprites/wagons/pcx/dumper.pcx 	154	160	1	16	22	-11	-8
+-1 sprites/wagons/pcx/dumper.pcx 	154	160	1	16	22	-11	-11
+
 
 // Default/Copper 2 06
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/dumper.pcx 	1	192	1	23	8	-3	-11
--1 sprites/wagons/pcx/dumper.pcx 	10	192	1	16	22	-11	-8
+-1 sprites/wagons/pcx/dumper.pcx 	10	192	1	16	22	-11	-10
 -1 sprites/wagons/pcx/dumper.pcx 	33	192	1	12	32	-16	-8
--1 sprites/wagons/pcx/dumper.pcx 	66	192	1	16	22	-11	-8
+-1 sprites/wagons/pcx/dumper.pcx 	66	192	1	16	22	-11	-11
 -1 sprites/wagons/pcx/dumper.pcx 	89	192	1	23	8	-3	-11
--1 sprites/wagons/pcx/dumper.pcx 	98	192	1	16	22	-11	-8
+-1 sprites/wagons/pcx/dumper.pcx 	98	192	1	16	22	-11	-10
 -1 sprites/wagons/pcx/dumper.pcx 	121	192	1	12	32	-16	-8
--1 sprites/wagons/pcx/dumper.pcx 	154	192	1	16	22	-11	-8
+-1 sprites/wagons/pcx/dumper.pcx 	154	192	1	16	22	-11	-11
+
 
 
 // Action 2's;
@@ -1142,13 +1167,14 @@
 // Coal 2 02
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/livestock.pcx 	1	64	1	23	8	-3	-11
--1 sprites/wagons/pcx/livestock.pcx 	10	64	1	16	22	-11	-8
+-1 sprites/wagons/pcx/livestock.pcx 	10	64	1	16	22	-11	-10
 -1 sprites/wagons/pcx/livestock.pcx 	33	64	1	12	32	-16	-8
--1 sprites/wagons/pcx/livestock.pcx 	66	64	1	16	22	-11	-8
+-1 sprites/wagons/pcx/livestock.pcx 	66	64	1	16	22	-11	-11
 -1 sprites/wagons/pcx/livestock.pcx 	89	64	1	23	8	-3	-11
--1 sprites/wagons/pcx/livestock.pcx 	98	64	1	16	22	-11	-8
+-1 sprites/wagons/pcx/livestock.pcx 	98	64	1	16	22	-11	-10
 -1 sprites/wagons/pcx/livestock.pcx 	121	64	1	12	32	-16	-8
--1 sprites/wagons/pcx/livestock.pcx 	154	64	1	16	22	-11	-8
+-1 sprites/wagons/pcx/livestock.pcx 	154	64	1	16	22	-11	-11
+
 
 
 // Action 2+3
@@ -1168,19 +1194,21 @@
 // Empty 00
 // Format: spritenum pcxfile  xpos  ypos  comp ysize  xsize  xrel  yrel dir							
 -1 sprites/wagons/pcx/wagons2.pcx 	6	76	1	23	8	-3	-12
--1 sprites/wagons/pcx/wagons2.pcx 	22	76	1	16	22	-11	-8
+-1 sprites/wagons/pcx/wagons2.pcx 	22	76	1	16	22	-11	-10
 -1 sprites/wagons/pcx/wagons2.pcx 	54	76	1	12	32	-16	-8
--1 sprites/wagons/pcx/wagons2.pcx 	102	76	1	16	22	-11	-8
+-1 sprites/wagons/pcx/wagons2.pcx 	102	76	1	16	22	-11	-11
 // Stage 1 01							
 -1 sprites/wagons/pcx/wagons2.pcx 	6	103	1	23	8	-3	-12
--1 sprites/wagons/pcx/wagons2.pcx 	22	103	1	16	22	-11	-8
+-1 sprites/wagons/pcx/wagons2.pcx 	22	103	1	16	22	-11	-10
 -1 sprites/wagons/pcx/wagons2.pcx 	54	103	1	12	32	-16	-8
--1 sprites/wagons/pcx/wagons2.pcx 	102	103	1	16	22	-11	-8
+-1 sprites/wagons/pcx/wagons2.pcx 	102	103	1	16	22	-11	-11
+
 // Stage 2 02							
 -1 sprites/wagons/pcx/wagons2.pcx 	6	129	1	23	8	-3	-12
--1 sprites/wagons/pcx/wagons2.pcx 	22	129	1	16	22	-11	-8
+-1 sprites/wagons/pcx/wagons2.pcx 	22	129	1	16	22	-11	-10
 -1 sprites/wagons/pcx/wagons2.pcx 	54	129	1	12	32	-16	-8
--1 sprites/wagons/pcx/wagons2.pcx 	102	129	1	16	22	-11	-8
+-1 sprites/wagons/pcx/wagons2.pcx 	102	129	1	16	22	-11	-11
+
 
 
 // Action 2+3
@@ -1201,13 +1229,14 @@
 // Empty 00
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/wagonsfixed.pcx 	6	121	1	23	8	-3	-11
--1 sprites/wagons/pcx/wagonsfixed.pcx 	22	121	1	16	22	-11	-8
+-1 sprites/wagons/pcx/wagonsfixed.pcx 	22	121	1	16	22	-11	-10
 -1 sprites/wagons/pcx/wagonsfixed.pcx 	54	121	1	12	32	-16	-8
--1 sprites/wagons/pcx/wagonsfixed.pcx 	102	121	1	16	22	-11	-8
+-1 sprites/wagons/pcx/wagonsfixed.pcx 	102	121	1	16	22	-11	-11
 -1 sprites/wagons/pcx/wagonsfixed.pcx 	128	121	1	23	8	-3	-11
--1 sprites/wagons/pcx/wagonsfixed.pcx 	144	121	1	16	22	-11	-8
+-1 sprites/wagons/pcx/wagonsfixed.pcx 	144	121	1	16	22	-11	-10
 -1 sprites/wagons/pcx/wagonsfixed.pcx 	176	121	1	12	32	-16	-8
--1 sprites/wagons/pcx/wagonsfixed.pcx 	224	121	1	16	22	-11	-8
+-1 sprites/wagons/pcx/wagonsfixed.pcx 	224	121	1	16	22	-11	-11
+
 
 //P-list
 -1 * 0 0
@@ -1245,31 +1274,34 @@
 // 1 Blue
 // Format: spritenum pcxfile  xpos  ypos  comp ysize  xsize  xrel  yrel dir							
 -1 sprites/wagons/pcx/newwags.pcx	1	1	1	24	8	-3	-11
--1 sprites/wagons/pcx/newwags.pcx	10	1	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newwags.pcx	10	1	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newwags.pcx	33	1	1	16	32	-16	-12
--1 sprites/wagons/pcx/newwags.pcx	66	1	1	18	22	-11	-10
-// Format: spritenum pcxfile  xpos  ypos  comp ysize  xsize  xrel  yrel dir								
+-1 sprites/wagons/pcx/newwags.pcx	66	1	1	18	22	-11	-13
+// Format: spritenum pcxfile  xpos  ypos  comp ysize  xsize  xrel  yrel dir							
 -1 sprites/wagons/pcx/newwags.pcx	1	32	1	24	8	-3	-11
--1 sprites/wagons/pcx/newwags.pcx	10	32	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newwags.pcx	10	32	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newwags.pcx	33	32	1	16	32	-16	-12
--1 sprites/wagons/pcx/newwags.pcx	66	32	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newwags.pcx	66	32	1	18	22	-11	-13
+
 // Format: spritenum pcxfile  xpos  ypos  comp ysize  xsize  xrel  yrel dir							
 -1 sprites/wagons/pcx/newwags.pcx	1	64	1	24	8	-3	-11
--1 sprites/wagons/pcx/newwags.pcx	10	64	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newwags.pcx	10	64	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newwags.pcx	33	64	1	16	32	-16	-12
--1 sprites/wagons/pcx/newwags.pcx	66	64	1	18	22	-11	-10
-// Format: spritenum pcxfile  xpos  ypos  comp ysize  xsize  xrel  yrel dir		
+-1 sprites/wagons/pcx/newwags.pcx	66	64	1	18	22	-11	-13
+// Format: spritenum pcxfile  xpos  ypos  comp ysize  xsize  xrel  yrel dir							
 -1 sprites/wagons/pcx/newwags.pcx	1	96	1	24	8	-3	-11
--1 sprites/wagons/pcx/newwags.pcx	10	96	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newwags.pcx	10	96	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newwags.pcx	33	96	1	16	32	-16	-12
--1 sprites/wagons/pcx/newwags.pcx	66	96	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newwags.pcx	66	96	1	18	22	-11	-13
+
 
 // 1 White-blue - Food
 // Format: spritenum pcxfile							
 -1 sprites/wagons/pcx/newwags.pcx 	1	128	1	24	8	-3	-11
--1 sprites/wagons/pcx/newwags.pcx 	10	128	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newwags.pcx 	10	128	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newwags.pcx 	33	128	1	16	32	-16	-12
--1 sprites/wagons/pcx/newwags.pcx 	66	128	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newwags.pcx 	66	128	1	18	22	-11	-13
+
 
 
 // 1 Rainbow - P-list
@@ -1280,9 +1312,9 @@
 -1 * 0 0
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/newwags.pcx	89	128	1	24	8	-3	-11
--1 sprites/wagons/pcx/newwags.pcx	98	128	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newwags.pcx	98	128	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newwags.pcx	121	128	1	16	32	-16	-12
--1 sprites/wagons/pcx/newwags.pcx	154	128	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newwags.pcx	154	128	1	18	22	-11	-13
 
 
 
@@ -1326,14 +1358,15 @@
 -1 * 0  01 00 \b3 04
 // Format: spritenum pcxfile  xpos  ypos  comp ysize  xsize  xrel  yrel dir							
 -1 sprites/wagons/pcx/newwags.pcx	1	160	1	24	8	-3	-11
--1 sprites/wagons/pcx/newwags.pcx	10	160	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newwags.pcx	10	160	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newwags.pcx	33	160	1	16	32	-16	-12
--1 sprites/wagons/pcx/newwags.pcx	66	160	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newwags.pcx	66	160	1	18	22	-11	-13
 // 1 White-blue - Food							
 -1 sprites/wagons/pcx/newwags.pcx	1	192	1	24	8	-3	-11
--1 sprites/wagons/pcx/newwags.pcx	10	192	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newwags.pcx	10	192	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newwags.pcx	33	192	1	16	32	-16	-12
--1 sprites/wagons/pcx/newwags.pcx	66	192	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newwags.pcx	66	192	1	18	22	-11	-13
+
 
 // 1 Rainbow - P-list
 // Format: spritenum pcxfile 		xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
@@ -1370,13 +1403,14 @@
 -1 * 0  01 00 \b2 08
 // Format: spritenum pcxfile							
 -1 sprites/wagons/pcx/newwags.pcx	1	288	1	24	8	-3	-11
--1 sprites/wagons/pcx/newwags.pcx	10	288	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newwags.pcx	10	288	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newwags.pcx	33	288	1	16	32	-16	-12
--1 sprites/wagons/pcx/newwags.pcx	66	288	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newwags.pcx	66	288	1	18	22	-11	-13
 -1 sprites/wagons/pcx/newwags.pcx	89	288	1	24	8	-3	-11
--1 sprites/wagons/pcx/newwags.pcx	98	288	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newwags.pcx	98	288	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newwags.pcx	121	288	1	16	32	-16	-12
--1 sprites/wagons/pcx/newwags.pcx	154	288	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newwags.pcx	154	288	1	18	22	-11	-13
+
 
 -1 * 0 0
 -1 * 0 0
@@ -1400,22 +1434,23 @@
 -1 * 0  01 00 \b3 08
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/newwags.pcx	1	224	1	24	8	-3	-11
--1 sprites/wagons/pcx/newwags.pcx	10	224	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newwags.pcx	10	224	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newwags.pcx	33	224	1	16	32	-16	-12
--1 sprites/wagons/pcx/newwags.pcx	66	224	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newwags.pcx	66	224	1	18	22	-11	-13
 -1 sprites/wagons/pcx/newwags.pcx	89	224	1	24	8	-3	-11
--1 sprites/wagons/pcx/newwags.pcx	98	224	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newwags.pcx	98	224	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newwags.pcx	121	224	1	16	32	-16	-12
--1 sprites/wagons/pcx/newwags.pcx	154	224	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newwags.pcx	154	224	1	18	22	-11	-13
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/newwags.pcx	1	256	1	24	8	-3	-11
--1 sprites/wagons/pcx/newwags.pcx	10	256	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newwags.pcx	10	256	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newwags.pcx	33	256	1	16	32	-16	-12
--1 sprites/wagons/pcx/newwags.pcx	66	256	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newwags.pcx	66	256	1	18	22	-11	-13
 -1 sprites/wagons/pcx/newwags.pcx	89	256	1	24	8	-3	-11
--1 sprites/wagons/pcx/newwags.pcx	98	256	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newwags.pcx	98	256	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newwags.pcx	121	256	1	16	32	-16	-12
--1 sprites/wagons/pcx/newwags.pcx	154	256	1	18	22	-11	-10
+-1 sprites/wagons/pcx/newwags.pcx	154	256	1	18	22	-11	-13
+
 
 // 1 Rainbow - P-list
 // Format: spritenum pcxfile 		xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
@@ -1455,58 +1490,61 @@
 // -->
 // Format: spritenum pcxfile  xpos  ypos  comp ysize  xsize  xrel  yrel dir								
 -1 sprites/wagons/pcx/newpax.pcx	1	640	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx	10	640	1	19	22	-11	-11
+-1 sprites/wagons/pcx/newpax.pcx	10	640	1	19	22	-11	-13
 -1 sprites/wagons/pcx/newpax.pcx	33	640	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx	66	640	1	19	22	-11	-11
+-1 sprites/wagons/pcx/newpax.pcx	66	640	1	19	22	-11	-14
 -1 sprites/wagons/pcx/newpax.pcx	1	640	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx	10	640	1	19	22	-11	-11
+-1 sprites/wagons/pcx/newpax.pcx	10	640	1	19	22	-11	-13
 -1 sprites/wagons/pcx/newpax.pcx	33	640	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx	66	640	1	19	22	-11	-11
+-1 sprites/wagons/pcx/newpax.pcx	66	640	1	19	22	-11	-14
 // <--							
 -1 sprites/wagons/pcx/newpax.pcx	89	640	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx	98	640	1	19	22	-11	-11
+-1 sprites/wagons/pcx/newpax.pcx	98	640	1	19	22	-11	-13
 -1 sprites/wagons/pcx/newpax.pcx	121	640	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx	154	640	1	19	22	-11	-11
+-1 sprites/wagons/pcx/newpax.pcx	154	640	1	19	22	-11	-14
 -1 sprites/wagons/pcx/newpax.pcx	89	640	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx	98	640	1	19	22	-11	-11
+-1 sprites/wagons/pcx/newpax.pcx	98	640	1	19	22	-11	-13
 -1 sprites/wagons/pcx/newpax.pcx	121	640	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx	154	640	1	19	22	-11	-11
+-1 sprites/wagons/pcx/newpax.pcx	154	640	1	19	22	-11	-14
+
 // /<-- 						
 -1 sprites/wagons/pcx/newpax.pcx	1	672	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx	10	672	1	19	22	-11	-11
+-1 sprites/wagons/pcx/newpax.pcx	10	672	1	19	22	-11	-13
 -1 sprites/wagons/pcx/newpax.pcx	33	672	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx	66	672	1	19	22	-11	-11
+-1 sprites/wagons/pcx/newpax.pcx	66	672	1	19	22	-11	-14
 -1 sprites/wagons/pcx/newpax.pcx	89	672	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx	98	672	1	19	22	-11	-11
+-1 sprites/wagons/pcx/newpax.pcx	98	672	1	19	22	-11	-13
 -1 sprites/wagons/pcx/newpax.pcx	121	672	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx	154	672	1	19	22	-11	-11
+-1 sprites/wagons/pcx/newpax.pcx	154	672	1	19	22	-11	-14
 // /--> 							
 -1 sprites/wagons/pcx/newpax.pcx	89	672	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx	98	672	1	19	22	-11	-11
+-1 sprites/wagons/pcx/newpax.pcx	98	672	1	19	22	-11	-13
 -1 sprites/wagons/pcx/newpax.pcx	121	672	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx	154	672	1	19	22	-11	-11
+-1 sprites/wagons/pcx/newpax.pcx	154	672	1	19	22	-11	-14
 -1 sprites/wagons/pcx/newpax.pcx	1	672	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx	10	672	1	19	22	-11	-11
+-1 sprites/wagons/pcx/newpax.pcx	10	672	1	19	22	-11	-13
 -1 sprites/wagons/pcx/newpax.pcx	33	672	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx	66	672	1	19	22	-11	-11
+-1 sprites/wagons/pcx/newpax.pcx	66	672	1	19	22	-11	-14
+
 // -->\							
 -1 sprites/wagons/pcx/newpax.pcx	1	704	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx	10	704	1	19	22	-11	-11
+-1 sprites/wagons/pcx/newpax.pcx	10	704	1	19	22	-11	-13
 -1 sprites/wagons/pcx/newpax.pcx	33	704	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx	66	704	1	19	22	-11	-11
+-1 sprites/wagons/pcx/newpax.pcx	66	704	1	19	22	-11	-14
 -1 sprites/wagons/pcx/newpax.pcx	89	704	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx	98	704	1	19	22	-11	-11
+-1 sprites/wagons/pcx/newpax.pcx	98	704	1	19	22	-11	-13
 -1 sprites/wagons/pcx/newpax.pcx	121	704	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx	154	704	1	19	22	-11	-11
+-1 sprites/wagons/pcx/newpax.pcx	154	704	1	19	22	-11	-14
 // <--\							
 -1 sprites/wagons/pcx/newpax.pcx	89	704	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx	98	704	1	19	22	-11	-11
+-1 sprites/wagons/pcx/newpax.pcx	98	704	1	19	22	-11	-13
 -1 sprites/wagons/pcx/newpax.pcx	121	704	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx	154	704	1	19	22	-11	-11
+-1 sprites/wagons/pcx/newpax.pcx	154	704	1	19	22	-11	-14
 -1 sprites/wagons/pcx/newpax.pcx	1	704	1	24	8	-3	-11
--1 sprites/wagons/pcx/newpax.pcx	10	704	1	19	22	-11	-11
+-1 sprites/wagons/pcx/newpax.pcx	10	704	1	19	22	-11	-13
 -1 sprites/wagons/pcx/newpax.pcx	33	704	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx	66	704	1	19	22	-11	-11
+-1 sprites/wagons/pcx/newpax.pcx	66	704	1	19	22	-11	-14
+
 
 
 
@@ -1584,14 +1622,15 @@
 //Action1: vt133
 -1 * 0  01 00 01 08
 // Format: spritenum pcxfile 		xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
--1 sprites/mus/pcx/alstom-turbobus.pcx 	64	18	01 	23	8 	-3 	-13	1
--1 sprites/mus/pcx/alstom-turbobus.pcx 	74 	18	01 	16 	25	-9	-11	2x
--1 sprites/mus/pcx/alstom-turbobus.pcx 	101	18	01 	12 	40 	-12 	-7	3
--1 sprites/mus/pcx/alstom-turbobus.pcx 	143	18	01 	16	25	-9 	-8	4
--1 sprites/mus/pcx/alstom-turbobus.pcx 	170	18	01 	23	8 	-3 	-13	5
--1 sprites/mus/pcx/alstom-turbobus.pcx 	180	18	01 	16	25	-9 	-11	6x
--1 sprites/mus/pcx/alstom-turbobus.pcx 	207 	18	01 	12 	40	-12 	-7	7
--1 sprites/mus/pcx/alstom-turbobus.pcx 	249	18	01 	16	25	-9 	-8	8
+-1 sprites/mus/pcx/alstom-turbobus.pcx 	64	18	1	23	8	-3	-13
+-1 sprites/mus/pcx/alstom-turbobus.pcx 	74	18	1	16	25	-9	-10
+-1 sprites/mus/pcx/alstom-turbobus.pcx 	101	18	1	12	40	-12	-8
+-1 sprites/mus/pcx/alstom-turbobus.pcx 	143	18	1	16	25	-9	-11
+-1 sprites/mus/pcx/alstom-turbobus.pcx 	170	18	1	23	8	-3	-13
+-1 sprites/mus/pcx/alstom-turbobus.pcx 	180	18	1	16	25	-9	-10
+-1 sprites/mus/pcx/alstom-turbobus.pcx 	207	18	1	12	40	-12	-8
+-1 sprites/mus/pcx/alstom-turbobus.pcx 	249	18	1	16	25	-9	-11
+
 
 // Action 2: alstom-turbobus
 -1 * 0  02 00 AA 01 01 00 00 00 00

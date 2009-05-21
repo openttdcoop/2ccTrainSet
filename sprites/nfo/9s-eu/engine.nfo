@@ -8,13 +8,14 @@
 -1 * 0  01 00 01 08
 // Format: spritenum							
 -1 sprites/engines_updated/pcx/e52500.pcx	1	1	1	24	8	-3	-12
--1 sprites/engines_updated/pcx/e52500.pcx 	10	1	1	19	22	-11	-11
+-1 sprites/engines_updated/pcx/e52500.pcx 	10	1	1	19	22	-11	-13
 -1 sprites/engines_updated/pcx/e52500.pcx 	33	1	1	17	32	-16	-13
--1 sprites/engines_updated/pcx/e52500.pcx 	66	1	1	19	22	-11	-11
+-1 sprites/engines_updated/pcx/e52500.pcx 	66	1	1	19	22	-11	-14
 -1 sprites/engines_updated/pcx/e52500.pcx 	89	1	1	24	8	-3	-12
--1 sprites/engines_updated/pcx/e52500.pcx 	98	1	1	19	22	-11	-11
+-1 sprites/engines_updated/pcx/e52500.pcx 	98	1	1	19	22	-11	-13
 -1 sprites/engines_updated/pcx/e52500.pcx 	121	1	1	17	32	-16	-13
--1 sprites/engines_updated/pcx/e52500.pcx 	154	1	1	19	22	-11	-11
+-1 sprites/engines_updated/pcx/e52500.pcx 	154	1	1	19	22	-11	-14
+
 
 
 
@@ -53,24 +54,18 @@
 
 // ############# E646 - Italy ##########
 // Action 1: Engine -e646
--1 * 0  01 00 01 08
+-1 * 0  01 00 02 08
 // Engine
 // Format: spritenum pcxfile							
 -1 sprites/engines_updated/pcx/e646.pcx 	1	1	1	18	8	-3	-9
--1 sprites/engines_updated/pcx/e646.pcx 	10	1	1	14	16	-8	-6
+-1 sprites/engines_updated/pcx/e646.pcx 	10	1	1	14	16	-8	-8
 -1 sprites/engines_updated/pcx/e646.pcx 	33	1	1	14	20	-10	-10
--1 sprites/engines_updated/pcx/e646.pcx 	66	1	1	14	16	-8	-6
+-1 sprites/engines_updated/pcx/e646.pcx 	66	1	1	14	16	-8	-9
 -1 sprites/engines_updated/pcx/e646.pcx 	89	1	1	18	8	-3	-9
--1 sprites/engines_updated/pcx/e646.pcx 	98	1	1	14	16	-8	-6
+-1 sprites/engines_updated/pcx/e646.pcx 	98	1	1	14	16	-8	-8
 -1 sprites/engines_updated/pcx/e646.pcx 	121	1	1	14	20	-10	-10
--1 sprites/engines_updated/pcx/e646.pcx 	154	1	1	14	16	-8	-6
-
-
--1 * 0  02 00 AA 01 01 00 00 00 00
-
--1 * 0  01 00 01 08
-// 2nd part
-// Format: spritenum pcxfile	xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
+-1 sprites/engines_updated/pcx/e646.pcx 	154	1	1	14	16	-8	-9
+// 2nd part							
 -1 sprites/engines_updated/pcx/e646.pcx 	1	32	1	18	8	-3	-9
 -1 sprites/engines_updated/pcx/e646.pcx 	10	32	1	14	16	-8	-8
 -1 sprites/engines_updated/pcx/e646.pcx 	33	32	1	14	20	-10	-10
@@ -80,7 +75,8 @@
 -1 sprites/engines_updated/pcx/e646.pcx 	121	32	1	14	20	-10	-10
 -1 sprites/engines_updated/pcx/e646.pcx 	154	32	1	14	16	-8	-9
 
--1 * 0  02 00 AB 01 01 00 00 00 00
+-1 * 0  02 00 AA 01 01 00 00 00 00
+-1 * 0  02 00 AB 01 01 01 00 01 00
 
 -1 * 0  01 00 01 04
 // Purch List

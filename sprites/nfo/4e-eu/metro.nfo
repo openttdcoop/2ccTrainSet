@@ -6,13 +6,14 @@
 -1 * 0  01 00 01 08
 // Format: spritenum pcxfile 							
 -1 sprites/metro/pcx/budapest.pcx 	1	1	1	24	8	-3	-12
--1 sprites/metro/pcx/budapest.pcx 	10	1	1	18	22	-11	-10
+-1 sprites/metro/pcx/budapest.pcx 	10	1	1	18	22	-11	-12
 -1 sprites/metro/pcx/budapest.pcx 	33	1	1	14	32	-16	-10
--1 sprites/metro/pcx/budapest.pcx 	66	1	1	18	22	-11	-10
+-1 sprites/metro/pcx/budapest.pcx 	66	1	1	18	22	-11	-13
 -1 sprites/metro/pcx/budapest.pcx 	89	1	1	24	8	-3	-12
--1 sprites/metro/pcx/budapest.pcx 	98	1	1	18	22	-11	-10
+-1 sprites/metro/pcx/budapest.pcx 	98	1	1	18	22	-11	-12
 -1 sprites/metro/pcx/budapest.pcx 	121	1	1	14	32	-16	-10
--1 sprites/metro/pcx/budapest.pcx 	154	1	1	18	22	-11	-10
+-1 sprites/metro/pcx/budapest.pcx 	154	1	1	18	22	-11	-13
+
 
 
 // Action 2: budapest
@@ -58,37 +59,31 @@
 
 
 // Action 1: Engine -ev3-200 forward
--1 * 0  01 00 01 08
+-1 * 0  01 00 02 08
 // Forward
 // Format: spritenum pcxfile 							
 -1 sprites/metro/pcx/ev3-200.pcx 	1	1	1	24	8	-3	-12
--1 sprites/metro/pcx/ev3-200.pcx 	10	1	1	18	22	-11	-10
+-1 sprites/metro/pcx/ev3-200.pcx 	10	1	1	18	22	-11	-12
 -1 sprites/metro/pcx/ev3-200.pcx 	33	1	1	14	32	-16	-10
--1 sprites/metro/pcx/ev3-200.pcx 	66	1	1	18	22	-11	-10
+-1 sprites/metro/pcx/ev3-200.pcx 	66	1	1	18	22	-11	-13
 -1 sprites/metro/pcx/ev3-200.pcx 	89	1	1	24	8	-3	-12
--1 sprites/metro/pcx/ev3-200.pcx 	98	1	1	18	22	-11	-10
+-1 sprites/metro/pcx/ev3-200.pcx 	98	1	1	18	22	-11	-12
 -1 sprites/metro/pcx/ev3-200.pcx 	121	1	1	14	32	-16	-10
--1 sprites/metro/pcx/ev3-200.pcx 	154	1	1	18	22	-11	-10
+-1 sprites/metro/pcx/ev3-200.pcx 	154	1	1	18	22	-11	-13
+// Reverse							
+-1 sprites/metro/pcx/ev3-200.pcx 	1	32	1	24	8	-3	-12
+-1 sprites/metro/pcx/ev3-200.pcx 	10	32	1	18	22	-11	-12
+-1 sprites/metro/pcx/ev3-200.pcx 	33	32	1	14	32	-16	-10
+-1 sprites/metro/pcx/ev3-200.pcx 	66	32	1	18	22	-11	-13
+-1 sprites/metro/pcx/ev3-200.pcx 	89	32	1	24	8	-3	-12
+-1 sprites/metro/pcx/ev3-200.pcx 	98	32	1	18	22	-11	-12
+-1 sprites/metro/pcx/ev3-200.pcx 	121	32	1	14	32	-16	-10
+-1 sprites/metro/pcx/ev3-200.pcx 	154	32	1	18	22	-11	-13
 
 
 // Action 2: Engine -ev3-200
 -1 * 0  02 00 AA 01 01 00 00 00 00
-
-// Action 1: Engine -ev3-200 
--1 * 0  01 00 01 08
-// Forward
-// Format: spritenum pcxfile 							
--1 sprites/metro/pcx/ev3-200.pcx 	1	32	1	24	8	-3	-12
--1 sprites/metro/pcx/ev3-200.pcx 	10	32	1	18	22	-11	-10
--1 sprites/metro/pcx/ev3-200.pcx 	33	32	1	14	32	-16	-10
--1 sprites/metro/pcx/ev3-200.pcx 	66	32	1	18	22	-11	-10
--1 sprites/metro/pcx/ev3-200.pcx 	89	32	1	24	8	-3	-12
--1 sprites/metro/pcx/ev3-200.pcx 	98	32	1	18	22	-11	-10
--1 sprites/metro/pcx/ev3-200.pcx 	121	32	1	14	32	-16	-10
--1 sprites/metro/pcx/ev3-200.pcx 	154	32	1	18	22	-11	-10
-
-// Action 2: Engine -ev3-200
--1 * 0  02 00 AB 01 01 00 00 00 00
+-1 * 0  02 00 AB 01 01 01 00 01 00
 
 // VarAction2: Front with panto, back without
 -1 * 0  02 00 AC 81 40 00 FF 01 AA 00 00 00 AB 00
@@ -97,9 +92,10 @@
 -1 * 0  01 00 01 04
 // Format: spritenum pcxfile 							
 -1 sprites/metro/pcx/ev3-200.pcx 	1	64	1	24	8	-3	-12
--1 sprites/metro/pcx/ev3-200.pcx 	10	64	1	18	22	-11	-10
+-1 sprites/metro/pcx/ev3-200.pcx 	10	64	1	18	22	-11	-12
 -1 sprites/metro/pcx/ev3-200.pcx 	33	64	1	14	32	-16	-10
--1 sprites/metro/pcx/ev3-200.pcx 	66	64	1	18	22	-11	-10
+-1 sprites/metro/pcx/ev3-200.pcx 	66	64	1	18	22	-11	-13
+
 
 
 // Action 2: Wagon -ev3-200
@@ -138,40 +134,30 @@
 
 
 // Action 1: Engine -81-729 forward
--1 * 0  01 00 01 08
+-1 * 0  01 00 02 08
 // Forward
 // Format: spritenum pcxfile 							
 -1 sprites/metro/pcx/81-729.pcx 	1	1	1	25	8	-3	-9
--1 sprites/metro/pcx/81-729.pcx 	10	1	1	17	22	-11	-9
+-1 sprites/metro/pcx/81-729.pcx 	10	1	1	17	22	-11	-11
 -1 sprites/metro/pcx/81-729.pcx 	33	1	1	13	31	-16	-9
--1 sprites/metro/pcx/81-729.pcx 	66	1	1	17	22	-11	-9
+-1 sprites/metro/pcx/81-729.pcx 	66	1	1	17	22	-11	-12
 -1 sprites/metro/pcx/81-729.pcx 	89	1	1	25	8	-3	-12
--1 sprites/metro/pcx/81-729.pcx 	98	1	1	17	22	-11	-9
+-1 sprites/metro/pcx/81-729.pcx 	98	1	1	17	22	-11	-11
 -1 sprites/metro/pcx/81-729.pcx 	121	1	1	13	32	-16	-9
--1 sprites/metro/pcx/81-729.pcx 	154	1	1	17	22	-11	-9
-
-
-
-// Action 2: Engine -81-729
--1 * 0  02 00 AA 01 01 00 00 00 00
-
-// Action 1: Engine -81-729 
--1 * 0  01 00 01 08
-// Forward
-// Format: spritenum pcxfile 							
+-1 sprites/metro/pcx/81-729.pcx 	154	1	1	17	22	-11	-12
+// Reverse							
 -1 sprites/metro/pcx/81-729.pcx 	1	32	1	25	8	-3	-9
--1 sprites/metro/pcx/81-729.pcx 	10	32	1	17	22	-11	-9
+-1 sprites/metro/pcx/81-729.pcx 	10	32	1	17	22	-11	-11
 -1 sprites/metro/pcx/81-729.pcx 	33	32	1	13	31	-16	-9
--1 sprites/metro/pcx/81-729.pcx 	66	32	1	17	22	-11	-9
+-1 sprites/metro/pcx/81-729.pcx 	66	32	1	17	22	-11	-12
 -1 sprites/metro/pcx/81-729.pcx 	89	32	1	25	8	-3	-12
--1 sprites/metro/pcx/81-729.pcx 	98	32	1	17	22	-11	-9
+-1 sprites/metro/pcx/81-729.pcx 	98	32	1	17	22	-11	-11
 -1 sprites/metro/pcx/81-729.pcx 	121	32	1	13	32	-16	-9
--1 sprites/metro/pcx/81-729.pcx 	154	32	1	17	22	-11	-9
+-1 sprites/metro/pcx/81-729.pcx 	154	32	1	17	22	-11	-12
 
 
-
-// Action 2: Engine -81-729
--1 * 0  02 00 AB 01 01 00 00 00 00
+-1 * 0  02 00 AA 01 01 00 00 00 00
+-1 * 0  02 00 AB 01 01 01 00 01 00
 
 // VarAction2: Front with panto, back without
 -1 * 0  02 00 AC 81 40 00 FF 01 AA 00 00 00 AB 00
@@ -180,9 +166,10 @@
 -1 * 0  01 00 01 04
 // Format: spritenum pcxfile 							
 -1 sprites/metro/pcx/81-729.pcx 	1	64	1	25	8	-3	-12
--1 sprites/metro/pcx/81-729.pcx 	10	64	1	17	22	-11	-9
+-1 sprites/metro/pcx/81-729.pcx 	10	64	1	17	22	-11	-11
 -1 sprites/metro/pcx/81-729.pcx 	33	64	1	13	32	-16	-9
--1 sprites/metro/pcx/81-729.pcx 	66	64	1	17	22	-11	-9
+-1 sprites/metro/pcx/81-729.pcx 	66	64	1	17	22	-11	-12
+
 
 	
 

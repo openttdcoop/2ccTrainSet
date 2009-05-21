@@ -10,22 +10,23 @@
 // Forward
 // Format: spritenum pcxfile 							
 -1 sprites/engines_updated/pcx/iore.pcx 	1	1	1	23	8	-3	-13
--1 sprites/engines_updated/pcx/iore.pcx 	10	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/iore.pcx 	10	1	1	18	22	-11	-12
 -1 sprites/engines_updated/pcx/iore.pcx 	33	1	1	15	31	-16	-11
--1 sprites/engines_updated/pcx/iore.pcx 	66	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/iore.pcx 	66	1	1	18	22	-11	-13
 -1 sprites/engines_updated/pcx/iore.pcx 	89	1	1	23	8	-3	-13
--1 sprites/engines_updated/pcx/iore.pcx 	98	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/iore.pcx 	98	1	1	18	22	-11	-12
 -1 sprites/engines_updated/pcx/iore.pcx 	121	1	1	15	32	-16	-11
--1 sprites/engines_updated/pcx/iore.pcx 	154	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/iore.pcx 	154	1	1	18	22	-11	-13
 // Backwards							
 -1 sprites/engines_updated/pcx/iore.pcx 	1	32	1	23	8	-3	-13
--1 sprites/engines_updated/pcx/iore.pcx 	10	32	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/iore.pcx 	10	32	1	18	22	-11	-12
 -1 sprites/engines_updated/pcx/iore.pcx 	33	32	1	15	31	-16	-11
--1 sprites/engines_updated/pcx/iore.pcx 	66	32	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/iore.pcx 	66	32	1	18	22	-11	-13
 -1 sprites/engines_updated/pcx/iore.pcx 	89	32	1	23	8	-3	-13
--1 sprites/engines_updated/pcx/iore.pcx 	98	32	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/iore.pcx 	98	32	1	18	22	-11	-12
 -1 sprites/engines_updated/pcx/iore.pcx 	121	32	1	15	32	-16	-11
--1 sprites/engines_updated/pcx/iore.pcx 	154	32	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/iore.pcx 	154	32	1	18	22	-11	-13
+
 
 
 // Purch
@@ -67,13 +68,14 @@
 // Engine
 // Format: spritenum pcxfile xpos ypos 							
 -1 sprites/engines_updated/pcx/mtabde3.pcx 	1	1	1	22	8	-3	-11
--1 sprites/engines_updated/pcx/mtabde3.pcx 	10	1	1	17	20	-10	-9
+-1 sprites/engines_updated/pcx/mtabde3.pcx 	10	1	1	17	20	-10	-11
 -1 sprites/engines_updated/pcx/mtabde3.pcx 	33	1	1	14	27	-14	-10
--1 sprites/engines_updated/pcx/mtabde3.pcx 	66	1	1	17	20	-10	-9
+-1 sprites/engines_updated/pcx/mtabde3.pcx 	66	1	1	17	20	-10	-12
 -1 sprites/engines_updated/pcx/mtabde3.pcx 	89	1	1	22	8	-3	-11
--1 sprites/engines_updated/pcx/mtabde3.pcx 	98	1	1	17	20	-10	-9
+-1 sprites/engines_updated/pcx/mtabde3.pcx 	98	1	1	17	20	-10	-11
 -1 sprites/engines_updated/pcx/mtabde3.pcx 	121	1	1	14	28	-14	-10
--1 sprites/engines_updated/pcx/mtabde3.pcx 	154	1	1	17	20	-10	-9
+-1 sprites/engines_updated/pcx/mtabde3.pcx 	154	1	1	17	20	-10	-12
+
 
 
 -1 * 0  02 00 AA 01 01 00 00 00 00
@@ -82,13 +84,14 @@
 // 3nd part
 // Format: spritenum pcxfile  xpos 							
 -1 sprites/engines_updated/pcx/mtabde3.pcx 	1	64	1	22	8	-3	-11
--1 sprites/engines_updated/pcx/mtabde3.pcx 	10	64	1	17	20	-10	-9
+-1 sprites/engines_updated/pcx/mtabde3.pcx 	10	64	1	17	20	-10	-11
 -1 sprites/engines_updated/pcx/mtabde3.pcx 	33	64	1	14	28	-14	-10
--1 sprites/engines_updated/pcx/mtabde3.pcx 	66	64	1	17	20	-10	-9
+-1 sprites/engines_updated/pcx/mtabde3.pcx 	66	64	1	17	20	-10	-12
 -1 sprites/engines_updated/pcx/mtabde3.pcx 	89	64	1	22	8	-3	-11
--1 sprites/engines_updated/pcx/mtabde3.pcx 	98	64	1	17	20	-9	-9
+-1 sprites/engines_updated/pcx/mtabde3.pcx 	98	64	1	17	20	-9	-11
 -1 sprites/engines_updated/pcx/mtabde3.pcx 	121	64	1	14	27	-14	-10
--1 sprites/engines_updated/pcx/mtabde3.pcx 	154	64	1	17	20	-10	-9
+-1 sprites/engines_updated/pcx/mtabde3.pcx 	154	64	1	17	20	-10	-12
+
 
 
 -1 * 0  02 00 AC 01 01 00 00 00 00
@@ -97,13 +100,14 @@
 // 2nd part
 // Format: spritenum pcxfile  xpos 							
 -1 sprites/engines_updated/pcx/mtabde3.pcx 	1	32	1	19	8	-3	-11
--1 sprites/engines_updated/pcx/mtabde3.pcx 	10	32	1	14	18	-8	-6
+-1 sprites/engines_updated/pcx/mtabde3.pcx 	10	32	1	14	18	-8	-8
 -1 sprites/engines_updated/pcx/mtabde3.pcx 	33	32	1	14	24	-10	-10
--1 sprites/engines_updated/pcx/mtabde3.pcx 	66	32	1	14	18	-8	-6
+-1 sprites/engines_updated/pcx/mtabde3.pcx 	66	32	1	14	18	-8	-9
 -1 sprites/engines_updated/pcx/mtabde3.pcx 	89	32	1	19	8	-3	-9
--1 sprites/engines_updated/pcx/mtabde3.pcx 	98	32	1	14	18	-10	-6
+-1 sprites/engines_updated/pcx/mtabde3.pcx 	98	32	1	14	18	-10	-8
 -1 sprites/engines_updated/pcx/mtabde3.pcx 	121	32	1	14	24	-14	-10
--1 sprites/engines_updated/pcx/mtabde3.pcx 	154	32	1	14	18	-10	-6
+-1 sprites/engines_updated/pcx/mtabde3.pcx 	154	32	1	14	18	-10	-9
+
 
 
 -1 * 0  02 00 AB 01 01 00 00 00 00
@@ -149,13 +153,14 @@
 -1 * 0  01 00 01 08
 // Format: spritenum pcxfile  xpos 							
 -1 sprites/engines_updated/pcx/sr1.pcx 	1	1	1	24	8	-3	-12
--1 sprites/engines_updated/pcx/sr1.pcx 	10	1	1	17	22	-11	-9
+-1 sprites/engines_updated/pcx/sr1.pcx 	10	1	1	17	22	-11	-11
 -1 sprites/engines_updated/pcx/sr1.pcx 	33	1	1	15	32	-16	-11
--1 sprites/engines_updated/pcx/sr1.pcx 	66	1	1	16	22	-11	-8
+-1 sprites/engines_updated/pcx/sr1.pcx 	66	1	1	16	22	-11	-11
 -1 sprites/engines_updated/pcx/sr1.pcx 	89	1	1	24	8	-3	-12
--1 sprites/engines_updated/pcx/sr1.pcx 	98	1	1	16	22	-11	-8
+-1 sprites/engines_updated/pcx/sr1.pcx 	98	1	1	16	22	-11	-10
 -1 sprites/engines_updated/pcx/sr1.pcx 	121	1	1	15	32	-16	-11
--1 sprites/engines_updated/pcx/sr1.pcx 	154	1	1	17	22	-11	-9
+-1 sprites/engines_updated/pcx/sr1.pcx 	154	1	1	17	22	-11	-12
+
 
 
 
@@ -195,13 +200,14 @@
 // Forward
 // Format: spritenum pcxfile  xpos 							
 -1 sprites/engines_updated/pcx/dr12.pcx 	1	1	1	23	8	-3	-12
--1 sprites/engines_updated/pcx/dr12.pcx 	10	1	1	16	22	-10	-8
+-1 sprites/engines_updated/pcx/dr12.pcx 	10	1	1	16	22	-10	-10
 -1 sprites/engines_updated/pcx/dr12.pcx 	33	1	1	13	32	-16	-9
--1 sprites/engines_updated/pcx/dr12.pcx 	66	1	1	16	22	-10	-8
+-1 sprites/engines_updated/pcx/dr12.pcx 	66	1	1	16	22	-10	-11
 -1 sprites/engines_updated/pcx/dr12.pcx 	89	1	1	23	8	-3	-12
--1 sprites/engines_updated/pcx/dr12.pcx 	98	1	1	16	22	-10	-8
+-1 sprites/engines_updated/pcx/dr12.pcx 	98	1	1	16	22	-10	-10
 -1 sprites/engines_updated/pcx/dr12.pcx 	121	1	1	13	32	-16	-9
--1 sprites/engines_updated/pcx/dr12.pcx 	154	1	1	16	22	-11	-8
+-1 sprites/engines_updated/pcx/dr12.pcx 	154	1	1	16	22	-11	-11
+
 
 // Action 2: dr12
 -1 * 0  02 00 AA 01 01 00 00 00 00
