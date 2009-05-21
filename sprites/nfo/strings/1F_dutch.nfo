@@ -1,283 +1,284 @@
-﻿// Language: Dutch
+// Language: Dutch
 // Language ID: 1F
 // ID for generic strings: 9F
 
 // Wagon names in ID order
 -1 * 0  04 00 1F \b1 5D 
-	C3 9E "     Dubbeldekker (4e gen)"			00 // 5D
+        C3 9E "     Dubbeldekker (4e gen)"                      00 // 5D
 
 -1 * 0  04 00 1F \b13 5F 
-	C3 9E "     2CC Expresgoederen Treinstel-Rijtuig"	00 // 5F
-	C3 9E "     Platte wagen (Lang)"			00 // 60
-	C3 9E "     Ketelwagen (Lang)"				00 // 61
-	C3 9E "     Silowagen (Lang)"				00 // 62
-	C3 9E "     Zelflosser"						00 // 63
-	C3 9E "     Veewagen"						00 // 64
-	C3 9E "     Gesloten Wagen (Lang)"			00 // 65
-	C3 9E "     Gesloten Wagen (Kort)"			00 // 66
-	C3 9E "     Ketelwagen (Kort)"				00 // 67
-	C3 9E "     Silowagen (Kort)"				00 // 68
-	C3 9E "     Onderlosser (Kort)"				00 // 69
-	C3 9E "     Veewagen (Kort)"				00 // 6A
-	C3 9E "     Open Wagen (Kort)"				00 // 6B
-//	C3 9E ""									00 // 6C (not used)
-//	C3 9E ""									00 // 6D (not used)
-//	C3 9E ""									00 // 6E (not used)
-//	C3 9E ""									00 // 6F (not used)
+        C3 9E "     2CC Expresgoederen Treinstel-Rijtuig"       00 // 5F
+        C3 9E "     Platte wagen (Lang)"                        00 // 60
+        C3 9E "     Ketelwagen (Lang)"                          00 // 61
+        C3 9E "     Silowagen (Lang)"                           00 // 62
+        C3 9E "     Zelflosser"                                         00 // 63
+        C3 9E "     Veewagen"                                           00 // 64
+        C3 9E "     Gesloten Wagen (Lang)"                      00 // 65
+        C3 9E "     Gesloten Wagen (Kort)"                      00 // 66
+        C3 9E "     Ketelwagen (Kort)"                          00 // 67
+        C3 9E "     Silowagen (Kort)"                           00 // 68
+        C3 9E "     Onderlosser (Kort)"                         00 // 69
+        C3 9E "     Veewagen (Kort)"                            00 // 6A
+        C3 9E "     Open Wagen (Kort)"                          00 // 6B
+//      C3 9E ""                                                                        00 // 6C (not used)
+//      C3 9E ""                                                                        00 // 6D (not used)
+//      C3 9E ""                                                                        00 // 6E (not used)
+//      C3 9E ""                                                                        00 // 6F (not used)
 -1 * 0  04 00 1F \b01 70 
-	C3 9E "     2CC Passagiers Treinstel-Rijtuig"	00 // 70
-//	C3 9E ""									00 // 71 (not used)
+        C3 9E "     2CC Passagiers Treinstel-Rijtuig"   00 // 70
+//      C3 9E ""                                                                        00 // 71 (not used)
 -1 * 0  04 00 1F \b02 72 
-	C3 9E "     Metro Rijtuig"						00 // 72
-	C3 9E "Tender"								00 // 73
+        C3 9E "     Metro Rijtuig"                                              00 // 72
+        C3 9E "Tender"                                                          00 // 73
 
 -1 * 0  04 00 1F \b20 \b120 
-	C3 9E "     2e Klasse Rijtuig (1e gen)"			00 // \b120
-	C3 9E "     2e Klasse Rijtuig (2e gen)"			00 // \b121
-	C3 9E "     2e Klasse Rijtuig (3e gen)"			00 // \b122
-	C3 9E "     2e Klasse Rijtuig (4e gen)"			00 // \b123
-	C3 9E "     2e Klasse Rijtuig (5e gen)"			00 // \b124
-	C3 9E "     1e Klasse Rijtuig (1e gen)"			00 // \b125
-	C3 9E "     1e Klasse Rijtuig (2e gen)"			00 // \b126
-	C3 9E "     1e Klasse Rijtuig (3e gen)"			00 // \b127
-	C3 9E "     1e Klasse Rijtuig (4e gen)"			00 // \b128
-	C3 9E "     1e Klasse Rijtuig (5e gen)"			00 // \b129
-	C3 9E "     Touristenklasse Rijtuig (1e gen)"		00 // \b130
-	C3 9E "     Touristenklasse Rijtuig (2e gen)"		00 // \b131
-	C3 9E "     Touristenklasse Rijtuig (3e gen)"		00 // \b132
-	C3 9E "     Touristenklasse Rijtuig (4e gen)"		00 // \b133
-	C3 9E "     Touristenklasse Rijtuig (5e gen)"		00 // \b134
-	C3 9E "     Expresgoederen Rijtuig (1e gen)"		00 // \b135
-	C3 9E "     Expresgoederen Rijtuig (2e gen)"		00 // \b136
-	C3 9E "     Expresgoederen Rijtuig (3e gen)"		00 // \b137
-	C3 9E "     Expresgoederen Rijtuig (4e gen)"		00 // \b138
-	C3 9E "     Expresgoederen Rijtuig (5e gen)"		00 // \b139
-	
+        C3 9E "     2e Klasse Rijtuig (1e gen)"                 00 // \b120
+        C3 9E "     2e Klasse Rijtuig (2e gen)"                 00 // \b121
+        C3 9E "     2e Klasse Rijtuig (3e gen)"                 00 // \b122
+        C3 9E "     2e Klasse Rijtuig (4e gen)"                 00 // \b123
+        C3 9E "     2e Klasse Rijtuig (5e gen)"                 00 // \b124
+        C3 9E "     1e Klasse Rijtuig (1e gen)"                 00 // \b125
+        C3 9E "     1e Klasse Rijtuig (2e gen)"                 00 // \b126
+        C3 9E "     1e Klasse Rijtuig (3e gen)"                 00 // \b127
+        C3 9E "     1e Klasse Rijtuig (4e gen)"                 00 // \b128
+        C3 9E "     1e Klasse Rijtuig (5e gen)"                 00 // \b129
+        C3 9E "     Touristenklasse Rijtuig (1e gen)"           00 // \b130
+        C3 9E "     Touristenklasse Rijtuig (2e gen)"           00 // \b131
+        C3 9E "     Touristenklasse Rijtuig (3e gen)"           00 // \b132
+        C3 9E "     Touristenklasse Rijtuig (4e gen)"           00 // \b133
+        C3 9E "     Touristenklasse Rijtuig (5e gen)"           00 // \b134
+        C3 9E "     Expresgoederen Rijtuig (1e gen)"            00 // \b135
+        C3 9E "     Expresgoederen Rijtuig (2e gen)"            00 // \b136
+        C3 9E "     Expresgoederen Rijtuig (3e gen)"            00 // \b137
+        C3 9E "     Expresgoederen Rijtuig (4e gen)"            00 // \b138
+        C3 9E "     Expresgoederen Rijtuig (5e gen)"            00 // \b139
+
 -1 * 0  04 00 1F 01 F0 
-	C3 9E "                 TurboBus MKI"			00 // F0	
-	
+        C3 9E "                 TurboBus MKI"                   00 // F0
+
 -1 * 0  04 00 1F \b3 \b*1100 
-	C3 9E "     Koelwagen"					00 // \b1100
-	C3 9E "     Gesloten wagen (Gemiddeld)"				00 // \b1101
-	C3 9E "     Dubbeldekker (5e gen)"				00 // \b1102
+        C3 9E "     Koelwagen"                                  00 // \b1100
+        C3 9E "     Gesloten wagen (Gemiddeld)"                         00 // \b1101
+        C3 9E "     Dubbeldekker (5e gen)"                              00 // \b1102
 
 // Engines from region 2
 -1 * 0  04 00 1F 01 \b*2400 
-	C3 9E "                 Cairo anno 1987"		00 // \b2400
+        C3 9E "                 Cairo anno 1987"                00 // \b2400
 
 // Engines from region 3
 -1 * 0  04 00 1F \b3 \b*3200 
-	C3 9E "                 KZ2A"					00 // \b3200
-	C3 9E "                 SS6"					00 // \b3201
-	C3 9E "                 WCM-1"					00 // \b3202
+        C3 9E "                 KZ2A"                                   00 // \b3200
+        C3 9E "                 SS6"                                    00 // \b3201
+        C3 9E "                 WCM-1"                                  00 // \b3202
 -1 * 0  04 00 1F 01 \b*3100 
-	C3 9E "                 WDM-2"					00 // \b3100
+        C3 9E "                 WDM-2"                                  00 // \b3100
 -1 * 0  04 00 1F \b2 \b*3400 
-	C3 9E "                 Tokyo 01 Serie"			00 // \b3400
-	C3 9E "                 Pyongyang D-Materieel"	00 // \b3401
+        C3 9E "                 Tokyo 01 Serie"                 00 // \b3400
+        C3 9E "                 Pyongyang D-Materieel"  00 // \b3401
 
 // Engines from region 4
 -1 * 0  04 00 1F 01      15 
-	C3 9E "                 BDVmot Postrijtuig"			00 // 0x15
+        C3 9E "                 BDVmot Postrijtuig"                     00 // 0x15
 -1 * 0  04 00 1F 01 \b*4000 
-	C3 9E "                 Okz32"						00 // \b4000
+        C3 9E "                 Okz32"                                          00 // \b4000
 -1 * 0  04 00 1F 01 \b*4100 
-	C3 9E "                 TEP 150"					00 // \b4100
+        C3 9E "                 TEP 150"                                        00 // \b4100
 -1 * 0  04 00 1F 03 \b*4200 
-	C3 9E "                 DS3"						00 // \b4200
-	C3 9E "                 VL15"						00 // \b4201
-	C3 9E "                 ET 41"						00 // \b4202
+        C3 9E "                 DS3"                                            00 // \b4200
+        C3 9E "                 VL15"                                           00 // \b4201
+        C3 9E "                 ET 41"                                          00 // \b4202
 -1 * 0  04 00 1F 02 \b*4300 
-	C3 9E "                 Motorrijtuig - 809"			00 // \b4300
-	C3 9E "                 Motorrijtuig - AR2"			00 // \b4301
+        C3 9E "                 Motorrijtuig - 809"                     00 // \b4300
+        C3 9E "                 Motorrijtuig - AR2"                     00 // \b4301
 -1 * 0  04 00 1F 03 \b*4400 
-	C3 9E "                 Budapest 1894"				00 // \b4400
-	C3 9E "                 EV3-200"					00 // \b4401
-	C3 9E "                 81-729"						00 // \b4402
+        C3 9E "                 Budapest 1894"                          00 // \b4400
+        C3 9E "                 EV3-200"                                        00 // \b4401
+        C3 9E "                 81-729"                                         00 // \b4402
 -1 * 0  04 00 1F 04 \b*4500 
-	C3 9E "                 BDVmot"						00 // \b4500
-	C3 9E "                 CD Klasse 680"				00 // \b4501
-	C3 9E "                 Klasse 811"					00 // \b4502
-	C3 9E "                 BDVmot met Postafdeling"	00 // \b4503
+        C3 9E "                 BDVmot"                                         00 // \b4500
+        C3 9E "                 CD Klasse 680"                          00 // \b4501
+        C3 9E "                 Klasse 811"                                     00 // \b4502
+        C3 9E "                 BDVmot met Postafdeling"        00 // \b4503
 
 // Engines from region 5
 -1 * 0  04 00 1F 02 \b*5000 
-	C3 9E "                 Big Boy"					00 // \b5000  <-- Must have old ID, articulation
-	C3 9E "                 Royal Hudson"				00 // \b5001
+        C3 9E "                 Big Boy"                                        00 // \b5000  <-- Must have old ID, articulation
+        C3 9E "                 Royal Hudson"                           00 // \b5001
 -1 * 0  04 00 1F \b6 \b*5100
-	C3 9E "                 GE F3"						00 // \b5100
-	C3 9E "                 GE Genesis"					00 // \b5101
-	C3 9E "                 MLW-M420W"					00 // \b5102 
-	C3 9E "                 SDP-40F"					00 // \b5103
-	C3 9E "                 Sharknose"					00 // \b5104
-	C3 9E "                 ALCo-GE-IR Gesloten wagen"	00 // \b5105
+        C3 9E "                 GE F3"                                          00 // \b5100
+        C3 9E "                 GE Genesis"                                     00 // \b5101
+        C3 9E "                 MLW-M420W"                                      00 // \b5102 
+        C3 9E "                 SDP-40F"                                        00 // \b5103
+        C3 9E "                 Sharknose"                                      00 // \b5104
+        C3 9E "                 ALCo-GE-IR Gesloten wagen"      00 // \b5105
 -1 * 0  04 00 1F \b2 \b*5400 
-	C3 9E "                 Boston 01800"				00 // \5400
-	C3 9E "                 Brooklyn union gate Wagen"	00 // \5401
+        C3 9E "                 Boston 01800"                           00 // \5400
+        C3 9E "                 Brooklyn union gate Wagen"      00 // \5401
 
 // Engines from region 6
 -1 * 0  04 00 1F 01 \b*6000 
-	C3 9E "                 Klasse 11B 0-8-2"			00 // \b6000
+        C3 9E "                 Klasse 11B 0-8-2"                       00 // \b6000
 -1 * 0  04 00 1F 02 \b*6100 
-	C3 9E "                 GM-EMD-J16CW-AC"			00 // \b6100
-	C3 9E "                 EMD GL8"					00 // \b6101
+        C3 9E "                 GM-EMD-J16CW-AC"                        00 // \b6100
+        C3 9E "                 EMD GL8"                                        00 // \b6101
 
 // Engines from region 7
 -1 * 0  04 00 1F \b2 \b*7100 
-	C3 9E "                 Klasse 2100"				00 // \b7100
-	C3 9E "                 Klasse 442"					00 // \b7101
+        C3 9E "                 Klasse 2100"                            00 // \b7100
+        C3 9E "                 Klasse 442"                                     00 // \b7101
 -1 * 0  04 00 1F \b2 \b*7500 
-	C3 9E "                 Hunter Treinstel"			00 // \b7500
-	C3 9E "                 OSCar"						00 // \b7501
+        C3 9E "                 Hunter Treinstel"                       00 // \b7500
+        C3 9E "                 OSCar"                                          00 // \b7501
 
 // Engines from region 8
 -1 * 0  04 00 1F \b1 \b*8001 
-	C3 9E "                 MTAB Iore"					00 // \b8001
+        C3 9E "                 MTAB Iore"                                      00 // \b8001
 -1 * 0  04 00 1F \b1 \b*8003 
-	C3 9E "                 MTAB Dm3"					00 // \b8003
+        C3 9E "                 MTAB Dm3"                                       00 // \b8003
 -1 * 0  04 00 1F \b1 \b*8100 
-	C3 9E "                 Dr12"						00 // \b8100
+        C3 9E "                 Dr12"                                           00 // \b8100
 -1 * 0  04 00 1F \b1 \b*8102 
-	C3 9E "                 Sr1"						00 // \b8002
+        C3 9E "                 Sr1"                                            00 // \b8002
 -1 * 0  04 00 1F 01 \b*8300 
-	C3 9E "                 Motorrijtuig - Dm7"			00 // \b8300
+        C3 9E "                 Motorrijtuig - Dm7"                     00 // \b8300
 -1 * 0  04 00 1F 01 \b*8400 
-	C3 9E "                 M100"						00 // \b8400
+        C3 9E "                 M100"                                           00 // \b8400
 -1 * 0  04 00 1F \b8 \b*8500 
-	C3 9E "                 BM 93 'Talent'"				00 // \b8500
-	C3 9E "                 Lint41"						00 // \b8501
-	C3 9E "                 Y2"							00 // \b8502
-	C3 9E "                 BM65"						00 // \b8503
-	C3 9E "                 BM73"						00 // \b8504
-	C3 9E "                 Sm2"						00 // \b8505
-	C3 9E "                 Sm4"						00 // \b8506
-	C3 9E "                 X2000"						00 // \b8507
+        C3 9E "                 BM 93 'Talent'"                         00 // \b8500
+        C3 9E "                 Lint41"                                         00 // \b8501
+        C3 9E "                 Y2"                                                     00 // \b8502
+        C3 9E "                 BM65"                                           00 // \b8503
+        C3 9E "                 BM73"                                           00 // \b8504
+        C3 9E "                 Sm2"                                            00 // \b8505
+        C3 9E "                 Sm4"                                            00 // \b8506
+        C3 9E "                 X2000"                                          00 // \b8507
 
 // Engines from region 9
 -1 * 0  04 00 1F \b2 \b*9200 
-	C3 9E "                 E52500"						00 // \b9202
-	C3 9E "                 E646"						00 // \b9201
+        C3 9E "                 E52500"                                         00 // \b9202
+        C3 9E "                 E646"                                           00 // \b9201
 -1 * 0  04 00 7f \b2 \b*9500 
-	C3 9E "                 ERT500"						00 // \b9500
-	C3 9E "                 594 TRD"					00 // \b9501
+        C3 9E "                 ERT500"                                         00 // \b9500
+        C3 9E "                 594 TRD"                                        00 // \b9501
 
 // Engines from region 10
 -1 * 0  04 00 1F 01 \b30     
-	C3 9E "                 TVG POS V150"				00 // \b30
+        C3 9E "                 TVG POS V150"                           00 // \b30
 -1 * 0  04 00 1F \b4 \b*10000
-	C3 9E "                 SNCF 140C"					00 // \b10000
-	C3 9E "                 SNCF 141TA"				00 // \b10001
-	C3 9E "                 SNCF 150B"					00 // \b10002
-	C3 9E "                 NS Klasse 6300"				00 // \b10003	
+        C3 9E "                 SNCF 140C"                                      00 // \b10000
+        C3 9E "                 SNCF 141TA"                             00 // \b10001
+        C3 9E "                 SNCF 150B"                                      00 // \b10002
+        C3 9E "                 NS Klasse 6300"                         00 // \b10003
 -1 * 0  04 00 1F \b4 \b*10100
-	C3 9E "                 Klasse 66"					00 // \b10100
-	C3 9E "                 Klasse 67"					00 // \b10101
-	C3 9E "                 V200"						00 // \b10102
-	C3 9E "                 SNCB 78"					00 // \b10103
+        C3 9E "                 Klasse 66"                                      00 // \b10100
+        C3 9E "                 Klasse 67"                                      00 // \b10101
+        C3 9E "                 V200"                                           00 // \b10102
+        C3 9E "                 SNCB 78"                                        00 // \b10103
 -1 * 0  04 00 1F \b12 \b*10200
-	C3 9E "                 Ae 6/6"						00 // \b10200
-	C3 9E "                 Ce 4/4"						00 // \b10201
-	C3 9E "                 Klasse 1044"				00 // \b10202
-	C3 9E "                 SNCF 26000"					00 // \b10203
-	C3 9E "                 E04 01"						00 // \b10204
-	C3 9E "                 HLE13"						00 // \b10205
-	C3 9E "                 NS Serie 1000"				00 // \b10206
-	C3 9E "                 NS Serie 1600"				00 // \b10207
-	C3 9E "                 Re460 'Lok2000'"			00 // \b10208
-	C3 9E "                 27000"						00 // \b10209
-	C3 9E "                 NER EF1"					00 // \b10210
-	C3 9E "                 Metrovic EM2"				00 // \b10211
-	-1 * 0  04 00 1F \b19 \b*10500 
-	C3 9E "                 Goederen Sprinter"			00 // \b10500
-	C3 9E "                 Klasse 168"					00 // \b10501
-	C3 9E "                 EMU 2200"					00 // \b10502
-	C3 9E "                 EMU 4041"					00 // \b10503
-	C3 9E "                 mDDm"						00 // \b10504
-	C3 9E "                 ET420"						00 // \b10505
-	C3 9E "                 HSA"						00 // \b10506
-	C3 9E "                 ICE3"						00 // \b10507
-	C3 9E "                 ICM"						00 // \b10508
-	C3 9E "                 Mat'24 "					00 // \b10509
-	C3 9E "                 Plan Y"						00 // \b10510
-	C3 9E "                 Radbe510"					00 // \b10511
-	C3 9E "                 Rbde560"					00 // \b10512
-	C3 9E "                 TGV Atlantique"				00 // \b10513
-	C3 9E "                 TGV Dubbeldekker "			00 // \b10514
-	C3 9E "                 TGV Thalys"					00 // \b10515
-	C3 9E "                 VT612 'Regioswinger'"		00 // \b10516
-	C3 9E "                 InterCity125"				00 // \b10517
-	C3 9E "                 Mat'36"						00 // \b10518
+        C3 9E "                 Ae 6/6"                                         00 // \b10200
+        C3 9E "                 Ce 4/4"                                         00 // \b10201
+        C3 9E "                 Klasse 1044"                            00 // \b10202
+        C3 9E "                 SNCF 26000"                                     00 // \b10203
+        C3 9E "                 E04 01"                                         00 // \b10204
+        C3 9E "                 HLE13"                                          00 // \b10205
+        C3 9E "                 NS Serie 1000"                          00 // \b10206
+        C3 9E "                 NS Serie 1600"                          00 // \b10207
+        C3 9E "                 Re460 'Lok2000'"                        00 // \b10208
+        C3 9E "                 27000"                                          00 // \b10209
+        C3 9E "                 NER EF1"                                        00 // \b10210
+        C3 9E "                 Metrovic EM2"                           00 // \b10211
+        -1 * 0  04 00 1F \b19 \b*10500 
+        C3 9E "                 Goederen Sprinter"                      00 // \b10500
+        C3 9E "                 Klasse 168"                                     00 // \b10501
+        C3 9E "                 EMU 2200"                                       00 // \b10502
+        C3 9E "                 EMU 4041"                                       00 // \b10503
+        C3 9E "                 mDDm"                                           00 // \b10504
+        C3 9E "                 ET420"                                          00 // \b10505
+        C3 9E "                 HSA"                                            00 // \b10506
+        C3 9E "                 ICE3"                                           00 // \b10507
+        C3 9E "                 ICM"                                            00 // \b10508
+        C3 9E "                 Mat'24 "                                        00 // \b10509
+        C3 9E "                 Plan Y"                                         00 // \b10510
+        C3 9E "                 Radbe510"                                       00 // \b10511
+        C3 9E "                 Rbde560"                                        00 // \b10512
+        C3 9E "                 TGV Atlantique"                         00 // \b10513
+        C3 9E "                 TGV Dubbeldekker "                      00 // \b10514
+        C3 9E "                 TGV Thalys"                                     00 // \b10515
+        C3 9E "                 VT612 'Regioswinger'"           00 // \b10516
+        C3 9E "                 InterCity125"                           00 // \b10517
+        C3 9E "                 Mat'36"                                         00 // \b10518
 -1 * 0  04 00 1F \b2 \b*10300 
-	C3 9E "                 Motorrijtuig - 479"				00 // \b10300
-	C3 9E "                 Motorrijtuig - VT 133"			00 // \b10301
+        C3 9E "                 Motorrijtuig - 479"                             00 // \b10300
+        C3 9E "                 Motorrijtuig - VT 133"                  00 // \b10301
 -1 * 0  04 00 1F \b1 \b*15311 
-	C3 9E "                 Motorrijtuig - Klasse 153 '153111'"	00 // \b10311
+        C3 9E "                 Motorrijtuig - Klasse 153 '153111'"     00 // \b10311
 -1 * 0  04 00 1F \b8 \b*10400 
-	C3 9E "                 Caf90"							00 // \b10400
-	C3 9E "                 DLR"							00 // \b10401
-	C3 9E "                 Londense Metro 1938"			00 // \b10402
-	C3 9E "                 Type M1"						00 // \b10403
-	C3 9E "                 M2 840"							00 // \b10404
-	C3 9E "                 MP 89"							00 // \b10405
-	C3 9E "                 U-Bahn C-II"					00 // \b10406
-	C3 9E "                 Londen 1903 Materieel"			00 // \b10407
+        C3 9E "                 Caf90"                                                  00 // \b10400
+        C3 9E "                 DLR"                                                    00 // \b10401
+        C3 9E "                 Londense Metro 1938"                    00 // \b10402
+        C3 9E "                 Type M1"                                                00 // \b10403
+        C3 9E "                 M2 840"                                                 00 // \b10404
+        C3 9E "                 MP 89"                                                  00 // \b10405
+        C3 9E "                 U-Bahn C-II"                                    00 // \b10406
+        C3 9E "                 Londen 1903 Materieel"                  00 // \b10407
 
 // Other strings (moved here from 00header.nfo)
 //-1 * 0  04 00 9F 2B \wxd000 ... \wxd02A (not used)
-	
+
 -1 * 0  04 00 9F \b34 \wxd02B 
-	C3 9E "Rijtuig Capaciteit: " 8A "63 Passagiers/48 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"	00 // \wxD02B	594
-	C3 9E "Rijtuig Capaciteit: " 8A "38 Passagiers/29 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag"															00 // \wxD02C	811
-	C3 9E "Rijtuig Capaciteit: " 8A "55 Passagiers/41 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag"															00 // \wxD02D	BM93
-	C3 9E "Wagen Capaciteit: " 8A "80 Pallets\n"																												00 // \wxD02E	CargoSprinter
-	C3 9E "Rijtuig Capaciteit: " 8A "75 Passagiers/56 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld"														00 // \wxD02F	DMU168
-	C3 9E "Rijtuig Capaciteit: " 8A "70 Passagiers/53 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld"														00 // \wxD030	Hunter Railcar
-	C3 9E "Rijtuig Capaciteit: " 8A "73 Passagiers/55 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld"														00 // \wxD031	Lint41
-	C3 9E "Rijtuig Capaciteit: " 8A "48 Passagiers/36 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag"															00 // \wxD032	Y2
-	C3 9E "Rijtuig Capaciteit: " 8A "110 Passagiers/84 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"	00 // \wxD033	2200
-	C3 9E "Rijtuig Capaciteit: " 8A "40 Passagiers/30 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag"															00 // \wxD034	4041
-	C3 9E "Rijtuig Capaciteit: " 8A "75 Passagiers/56 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld"														00 // \wxD035	BDVmot 
-	C3 9E "Rijtuig Capaciteit: " 8A "50 Passagiers/38 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld"														00 // \wxD036	BM65
-	C3 9E "Rijtuig Capaciteit: " 8A "40 Passagiers/30 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"			00 // \wxD037	BM73
-	C3 9E "Rijtuig Capaciteit: " 8A "70 Passagiers/53 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld"														00 // \wxD038	DD-AR
-	C3 9E "Rijtuig Capaciteit: " 8A "45 Passagiers\n" 98 "Laadsnelheid: " 8A "Laag\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"						00 // \wxD039	Pendolino
-	C3 9E "Rijtuig Capaciteit: " 8A "75 Passagiers/56 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"	00 // \wxD03A	ET420
-	C3 9E "Rijtuig Capaciteit: " 8A "60 Passagiers/45 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag"															00 // \wxD03B	ETR500
-	C3 9E "Rijtuig Capaciteit: " 8A "42 Passagiers/32 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"			00 // \wxD03C	HSA
-	C3 9E "Rijtuig Capaciteit: " 8A "45 Passagiers\n" 98 "Laadsnelheid: " 8A "Laag\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"						00 // \wxD03D	Ice3
-	C3 9E "Rijtuig Capaciteit: " 8A "61 Passagiers/46 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"			00 // \wxD03E	ICM
-	C3 9E "Rijtuig Capaciteit: " 8A "30 Passagiers/25 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag"															00 // \wxD03F	Mat24
-	C3 9E "Rijtuig Capaciteit: " 8A "112 Passagiers/84 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"	00 // \wxD040	Oscar
-	C3 9E "Rijtuig Capaciteit: " 8A "66 Passagiers/50 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"	00 // \wxD041	Oscar 	// Plan Y
-	C3 9E "Rijtuig Capaciteit: " 8A "56 Passagiers/42 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"	00 // \wxD042	RDBDE510
-	C3 9E "Rijtuig Capaciteit: " 8A "56 Passagiers/42 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"	00 // \wxD043	RDBDE560
-	C3 9E "Rijtuig Capaciteit: " 8A "76 Passagiers/57 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"	00 // \wxD044	SM2
-	C3 9E "Rijtuig Capaciteit: " 8A "100 Passagiers/75 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"	00 // \wxD045	SM4
-	C3 9E "Rijtuig Capaciteit: " 8A "45 Passagiers/34 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag"															00 // \wxD046	TGV Atl.
-	C3 9E "Rijtuig Capaciteit: " 8A "75 Passagiers\n" 98 "Laadsnelheid: " 8A "Laag"																			00 // \wxD047	TGV Duplex
-	C3 9E "Rijtuig Capaciteit: " 8A "45 Passagiers/34 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag"															00 // \wxD048	TGV Thalys
-	C3 9E "Rijtuig Capaciteit: " 8A "45 Passagiers/34 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag"															00 // \wxD049	X2000
-	C3 9E "Rijtuig Capaciteit: " 8A "73 Passagiers\n" 98 "Laadsnelheid: " 8A "Gemiddeld"																	00 // \wxD04A	VT612
-	C3 9E "Rijtuig Capaciteit: " 8A "52 Passagiers/39 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag"															00 // \wxD04B	IC125
-	C3 9E "Rijtuig Capaciteit: " 8A "52 Passagiers\n" 98 "Laadsnelheid: " 8A "Laag"																			00 // \wxD04C	mat36
+        C3 9E "Rijtuig Capaciteit: " 8A "63 Passagiers/48 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"     00 // \wxD02B   594
+        C3 9E "Rijtuig Capaciteit: " 8A "38 Passagiers/29 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag"            00 // \wxD02C    811
+        C3 9E "Rijtuig Capaciteit: " 8A "55 Passagiers/41 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag"            00 // \wxD02D    BM93
+        C3 9E "Wagen Capaciteit: " 8A "80 Pallets\n"                                                              00 // \wxD02E    CargoSprinter
+        C3 9E "Rijtuig Capaciteit: " 8A "75 Passagiers/56 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld"       00 // \wxD02F    DMU168
+        C3 9E "Rijtuig Capaciteit: " 8A "70 Passagiers/53 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld"       00 // \wxD030    Hunter Railcar
+        C3 9E "Rijtuig Capaciteit: " 8A "73 Passagiers/55 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld"       00 // \wxD031    Lint41
+        C3 9E "Rijtuig Capaciteit: " 8A "48 Passagiers/36 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag"            00 // \wxD032    Y2
+        C3 9E "Rijtuig Capaciteit: " 8A "110 Passagiers/84 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"    00 // \wxD033   2200
+        C3 9E "Rijtuig Capaciteit: " 8A "40 Passagiers/30 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag"            00 // \wxD034    4041
+        C3 9E "Rijtuig Capaciteit: " 8A "75 Passagiers/56 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld"       00 // \wxD035    BDVmot 
+        C3 9E "Rijtuig Capaciteit: " 8A "50 Passagiers/38 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld"       00 // \wxD036    BM65
+        C3 9E "Rijtuig Capaciteit: " 8A "40 Passagiers/30 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"                  00 // \wxD037   BM73
+        C3 9E "Rijtuig Capaciteit: " 8A "70 Passagiers/53 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld"       00 // \wxD038    DD-AR
+        C3 9E "Rijtuig Capaciteit: " 8A "45 Passagiers\n" 98 "Laadsnelheid: " 8A "Laag\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"                                         00 // \wxD039   Pendolino
+        C3 9E "Rijtuig Capaciteit: " 8A "75 Passagiers/56 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"     00 // \wxD03A   ET420
+        C3 9E "Rijtuig Capaciteit: " 8A "60 Passagiers/45 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag"            00 // \wxD03B    ETR500
+        C3 9E "Rijtuig Capaciteit: " 8A "42 Passagiers/32 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"                  00 // \wxD03C   HSA
+        C3 9E "Rijtuig Capaciteit: " 8A "45 Passagiers\n" 98 "Laadsnelheid: " 8A "Laag\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"                                         00 // \wxD03D   Ice3
+        C3 9E "Rijtuig Capaciteit: " 8A "61 Passagiers/46 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"                  00 // \wxD03E   ICM
+        C3 9E "Rijtuig Capaciteit: " 8A "30 Passagiers/25 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag"            00 // \wxD03F    Mat24
+        C3 9E "Rijtuig Capaciteit: " 8A "112 Passagiers/84 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"    00 // \wxD040   Oscar
+        C3 9E "Rijtuig Capaciteit: " 8A "66 Passagiers/50 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"     00 // \wxD041   Oscar   // Plan Y
+        C3 9E "Rijtuig Capaciteit: " 8A "56 Passagiers/42 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"     00 // \wxD042   RDBDE510
+        C3 9E "Rijtuig Capaciteit: " 8A "56 Passagiers/42 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"     00 // \wxD043   RDBDE560
+        C3 9E "Rijtuig Capaciteit: " 8A "76 Passagiers/57 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"     00 // \wxD044   SM2
+        C3 9E "Rijtuig Capaciteit: " 8A "100 Passagiers/75 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"    00 // \wxD045   SM4
+        C3 9E "Rijtuig Capaciteit: " 8A "45 Passagiers/34 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag"            00 // \wxD046    TGV Atl.
+        C3 9E "Rijtuig Capaciteit: " 8A "75 Passagiers\n" 98 "Laadsnelheid: " 8A "Laag"                           00 // \wxD047    TGV Duplex
+        C3 9E "Rijtuig Capaciteit: " 8A "45 Passagiers/34 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag"            00 // \wxD048    TGV Thalys
+        C3 9E "Rijtuig Capaciteit: " 8A "45 Passagiers/34 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag"            00 // \wxD049    X2000
+        C3 9E "Rijtuig Capaciteit: " 8A "73 Passagiers\n" 98 "Laadsnelheid: " 8A "Gemiddeld"                      00 // \wxD04A    VT612
+        C3 9E "Rijtuig Capaciteit: " 8A "52 Passagiers/39 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag"            00 // \wxD04B    IC125
+        C3 9E "Rijtuig Capaciteit: " 8A "52 Passagiers\n" 98 "Laadsnelheid: " 8A "Laag"                           00 // \wxD04C    mat36
 
 // -1 * 0  04 00 9F \b35 \wxd04D ... \wxd06F (not used)
 
 -1 * 0  04 00 9F \b1 \wxd070 
-	C3 9E "\n" 98 "Capaciteit verandert bij koppeling aan locomotief\nGebruik OpenTTD of TTDPatch r1966 of nieuwer\n" 8B "Kan alleen gebruikt worden met treinstellen"	00 // \wxd070	
+        C3 9E "\n" 98 "Capaciteit verandert bij koppeling aan locomotief\nGebruik OpenTTD of TTDPatch r1966 of nieuwer\n" 8B "Kan alleen gebruikt worden met treinstellen" 00 // \wxd070
 
 -1 * 0  04 00 9F 01 \wxd0D0 
-	C3 9E "\nExperimentele wereldrecord trein"									00 // \wxD0D0	POS V150
-	
+        C3 9E "\nExperimentele wereldrecord trein"                                                                00 // \wxD0D0    POS V150
+
 -1 * 0  04 00 9F \b7 \wxd0F6 
-	C3 9E "Kan slechts \U+00E9\U+00E9n eenheid lang zijn"						00 // \wxD0F6	
-	C3 9E "Kan alleen koppelen aan zichzelf"									00 // \wxD0F7
-	C3 9E "Metro Rijtuigen kunnen alleen aan hun eigen soort gekoppeld worden"	00 // \wxD0F8 
-	C3 9E "Treinstel-Rijtuigen kunnen alleen gekoppeld worden aan treinstellen"	00 // \wxD0F9
-	C3 9E "Gebruik alleen Gesloten wagens voor de Goederen Sprinter"			00 // \wxD0FA
-	C3 9E "Gebruik Passagiers/Expresgoederen Treinstel-Rijtuigen"				00 // \wxD0FB
-	C3 9E "Gebruik Passagiers Treinstel-Rijtuigen"								00 // \wxD0FC
-	
+        C3 9E "Kan slechts eenheid lang zijn"                                           00 // \wxD0F6
+        C3 9E "Kan alleen koppelen aan zichzelf"                                                                  00 // \wxD0F7
+        C3 9E "Metro Rijtuigen kunnen alleen aan hun eigen soort gekoppeld worden"      00 // \wxD0F8 
+        C3 9E "Treinstel-Rijtuigen kunnen alleen gekoppeld worden aan treinstellen"     00 // \wxD0F9
+        C3 9E "Gebruik alleen Gesloten wagens voor de Goederen Sprinter"                        00 // \wxD0FA
+        C3 9E "Gebruik Passagiers/Expresgoederen Treinstel-Rijtuigen"                           00 // \wxD0FB
+        C3 9E "Gebruik Passagiers Treinstel-Rijtuigen"                                                          00 // \wxD0FC
+
 -1 * 0  04 00 9F \b2 \wxD0FE 
-	C3 9E 8B "Optionele B-eenheid/eenheden (50% onderhoudskosten)," 98 " Kan gebruikt worden aan beide einden"	00 // \wxD0FE
-	C3 9E 8B "Optionele B-eenheid/eenheden (50% onderhoudskosten)"												00 // \wxD0FF
+        C3 9E 8B "Optionele B-eenheid/eenheden (50% onderhoudskosten)," 98 " Kan gebruikt worden aan beide einden"00 // \wxD0FE
+        C3 9E 8B "Optionele B-eenheid/eenheden (50% onderhoudskosten)"                                            00 // \wxD0FF
+
