@@ -25,13 +25,14 @@
 // Forward
 // Format: spritenum pcxfile 							
 -1 sprites/metro/pcx/m100.pcx 	2	1	1	24	8	-3	-9
--1 sprites/metro/pcx/m100.pcx 	11	1	1	16	22	-11	-8
+-1 sprites/metro/pcx/m100.pcx 	11	1	1	16	22	-11	-10
 -1 sprites/metro/pcx/m100.pcx 	34	1	1	13	31	-16	-9
--1 sprites/metro/pcx/m100.pcx 	66	1	1	16	22	-11	-8
+-1 sprites/metro/pcx/m100.pcx 	66	1	1	16	22	-11	-11
 -1 sprites/metro/pcx/m100.pcx 	89	1	1	24	8	-3	-12
--1 sprites/metro/pcx/m100.pcx 	98	1	1	16	22	-11	-8
+-1 sprites/metro/pcx/m100.pcx 	98	1	1	16	22	-11	-10
 -1 sprites/metro/pcx/m100.pcx 	121	1	1	13	32	-16	-9
--1 sprites/metro/pcx/m100.pcx 	154	1	1	16	22	-11	-8
+-1 sprites/metro/pcx/m100.pcx 	154	1	1	16	22	-11	-11
+
 
 // Action 2: Engine -m100
 -1 * 0  02 00 AA 01 01 00 00 00 00
@@ -41,13 +42,14 @@
 // Forward
 // Format: spritenum pcxfile 							
 -1 sprites/metro/pcx/m100.pcx 	2	32	1	24	8	-3	-9
--1 sprites/metro/pcx/m100.pcx 	11	32	1	16	22	-11	-8
+-1 sprites/metro/pcx/m100.pcx 	11	32	1	16	22	-11	-10
 -1 sprites/metro/pcx/m100.pcx 	34	32	1	13	31	-16	-9
--1 sprites/metro/pcx/m100.pcx 	66	32	1	16	22	-11	-8
+-1 sprites/metro/pcx/m100.pcx 	66	32	1	16	22	-11	-11
 -1 sprites/metro/pcx/m100.pcx 	89	32	1	24	8	-3	-12
--1 sprites/metro/pcx/m100.pcx 	98	32	1	16	22	-11	-8
+-1 sprites/metro/pcx/m100.pcx 	98	32	1	16	22	-11	-10
 -1 sprites/metro/pcx/m100.pcx 	121	32	1	13	32	-16	-9
--1 sprites/metro/pcx/m100.pcx 	154	32	1	16	22	-11	-8
+-1 sprites/metro/pcx/m100.pcx 	154	32	1	16	22	-11	-11
+
 
 // Action 2: Engine -m100
 -1 * 0  02 00 AB 01 01 00 00 00 00
@@ -59,9 +61,10 @@
 -1 * 0  01 00 01 04
 // Format: spritenum pcxfile 							
 -1 sprites/metro/pcx/m100.pcx 	1	64	1	24	8	-3	-12
--1 sprites/metro/pcx/m100.pcx 	10	64	1	16	22	-11	-8
+-1 sprites/metro/pcx/m100.pcx 	10	64	1	16	22	-11	-10
 -1 sprites/metro/pcx/m100.pcx 	33	64	1	13	32	-16	-9
--1 sprites/metro/pcx/m100.pcx 	66	64	1	16	22	-11	-8
+-1 sprites/metro/pcx/m100.pcx 	66	64	1	16	22	-11	-11
+
 
 
 
