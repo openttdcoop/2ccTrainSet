@@ -264,7 +264,7 @@
 // -1 * 0  04 00 9F \b35 \wxd04D ... \wxd06F (not used)
 
 -1 * 0  04 00 9F \b1 \wxd070 
-	C3 9E "\n" 98 "Capaciteit verandert bij koppeling aan locomotief\Gebruik OpenTTD of TTDPatch r1966 of nieuwer\n" 8B "Kan alleen gebruikt worden met treinstellen"	00 // \wxd070	
+	C3 9E "\n" 98 "Capaciteit verandert bij koppeling aan locomotief\nGebruik OpenTTD of TTDPatch r1966 of nieuwer\n" 8B "Kan alleen gebruikt worden met treinstellen"	00 // \wxd070	
 
 -1 * 0  04 00 9F 01 \wxd0D0 
 	C3 9E "\nExperimentele wereldrecord trein"									00 // \wxD0D0	POS V150
