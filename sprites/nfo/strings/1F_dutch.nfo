@@ -1,7 +1,9 @@
+// This file contains all strings of the 2cc newgrf
 // Language: Dutch
 // Language ID: 1F
 // ID for generic strings: 9F
-
+//
+//
 // Wagon names in ID order
 -1 * 0  04 00 1F \b1 5D 
 	C3 9E "     Dubbeldekker (4e gen)"			00 // 5D
@@ -114,6 +116,8 @@
 -1 * 0  04 00 1F \b2 \b*5400 
 	C3 9E "                 Boston 01800"				00 // \5400
 	C3 9E "                 Brooklyn union gate Wagen"	00 // \5401
+-1 * 0  04 00 1F \b1 \b*5500
+	C3 9E "                 Chicago Doubler"			00 // \b5500
 
 // Engines from region 6
 -1 * 0  04 00 1F 01 \b*6000 
@@ -225,7 +229,7 @@
 // Other strings (moved here from 00header.nfo)
 //-1 * 0  04 00 9F 2B \wxd000 ... \wxd02A (not used)
 	
--1 * 0  04 00 9F \b34 \wxd02B 
+-1 * 0  04 00 9F \b35 \wxd02B 
 	C3 9E "Rijtuig Capaciteit: " 8A "63 Passagiers/48 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"	00 // \wxD02B	594
 	C3 9E "Rijtuig Capaciteit: " 8A "38 Passagiers/29 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag"															00 // \wxD02C	811
 	C3 9E "Rijtuig Capaciteit: " 8A "55 Passagiers/41 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag"															00 // \wxD02D	BM93
@@ -260,6 +264,7 @@
 	C3 9E "Rijtuig Capaciteit: " 8A "73 Passagiers\n" 98 "Laadsnelheid: " 8A "Gemiddeld"																	00 // \wxD04A	VT612
 	C3 9E "Rijtuig Capaciteit: " 8A "52 Passagiers/39 zakken Post\n" 98 "Laadsnelheid: " 8A "Laag"															00 // \wxD04B	IC125
 	C3 9E "Rijtuig Capaciteit: " 8A "52 Passagiers\n" 98 "Laadsnelheid: " 8A "Laag"																			00 // \wxD04C	mat36
+	C3 9E "Rijtuig Capaciteit: " 8A "90 Passagiers/68 zakken Post\n" 98 "Laadsnelheid: " 8A "Gemiddeld\n" 8B "NB: " 98 "Onderhoudskosten zijn per eenheid"	00 // \wxD04D	Chicago Doubler
 
 // -1 * 0  04 00 9F \b35 \wxd04D ... \wxd06F (not used)
 
