@@ -388,6 +388,6 @@
 	C3 9E "Utilize vagões MU PAX/Expresso"													00 // \wxD0FB
 	C3 9E "Utilize vagões MU PAX"															00 // \wxD0FC
 
--1 * 0  04 00 B6 \b2 \wxd0F6 
+-1 * 0  04 00 B6 \b2 \wxD0FE 
 	C3 9E 8B "Unidade(s) opcionais (50% custo manutenção)," 98 " Podem ser utilizadas em qualquer ponta"	00 // \wxD0FE
 	C3 9E 8B "Unidade(s) opcionais (50% custo manutenção)"									00 // \wxD0FF

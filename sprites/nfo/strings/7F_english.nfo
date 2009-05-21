@@ -388,6 +388,6 @@
 	C3 9E "Use PAX/Express MU-wagons"											00 // \wxD0FB
 	C3 9E "Use PAX MU-wagon"													00 // \wxD0FC
 	
--1 * 0  04 00 FF \b2 \wxd0F6 
+-1 * 0  04 00 FF \b2 \wxD0FE 
 	C3 9E 8B "Optional B-unit(s)(50% runningcost)," 98 " Can be used at either end"	00 // \wxD0FE
 	C3 9E 8B "Optional B-unit(s)(50% runningcost)"									00 // \wxD0FF
