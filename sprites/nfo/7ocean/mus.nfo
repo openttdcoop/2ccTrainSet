@@ -126,7 +126,7 @@
 
 // Action 2: Engine hunter
 -1 * 0  02 00 A0 01 01 00 00 00 00                // Purchise Screen sprites
--1 * 0  02 00 A1 81 0C 00 FF 01 31 80 23 23 A0 00 // Purchise Screen text
+-1 * 0  02 00 A1 81 0C 00 FF 01 30 80 23 23 A0 00 // Purchise Screen text
 -1 * 0  02 00 A2 81 10 00 FF 01 \b68 80 0D 0D A1 00
 -1 * 0  02 00 A1 81 0C 00 FF 01 A2 00 36 36 A1 00
 
