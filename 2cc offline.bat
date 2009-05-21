@@ -35,4 +35,3 @@ COPY .\2ccdj.grf "C:\data\OpenTTD\data" /Y
 
 ECHO Done!
 pause
-exit
