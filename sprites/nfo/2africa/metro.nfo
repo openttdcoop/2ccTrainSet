@@ -29,13 +29,14 @@
 // Forward
 // Format: spritenum pcxfile 							
 -1 sprites/metro/pcx/cairo1987.pcx 	1	1	1	24	8	-3	-12
--1 sprites/metro/pcx/cairo1987.pcx 	10	1	1	18	22	-11	-10
+-1 sprites/metro/pcx/cairo1987.pcx 	10	1	1	18	22	-11	-12
 -1 sprites/metro/pcx/cairo1987.pcx 	33	1	1	14	32	-16	-10
--1 sprites/metro/pcx/cairo1987.pcx 	66	1	1	18	22	-11	-10
+-1 sprites/metro/pcx/cairo1987.pcx 	66	1	1	18	22	-11	-13
 -1 sprites/metro/pcx/cairo1987.pcx 	89	1	1	24	8	-3	-12
--1 sprites/metro/pcx/cairo1987.pcx 	98	1	1	18	22	-11	-10
+-1 sprites/metro/pcx/cairo1987.pcx 	98	1	1	18	22	-11	-12
 -1 sprites/metro/pcx/cairo1987.pcx 	121	1	1	14	32	-16	-10
--1 sprites/metro/pcx/cairo1987.pcx 	154	1	1	18	22	-11	-10
+-1 sprites/metro/pcx/cairo1987.pcx 	154	1	1	18	22	-11	-13
+
 
 
 // Action 2: Engine -cairo1987
@@ -46,13 +47,14 @@
 // Forward
 // Format: spritenum pcxfile 							
 -1 sprites/metro/pcx/cairo1987.pcx 	1	32	1	24	8	-3	-12
--1 sprites/metro/pcx/cairo1987.pcx 	10	32	1	18	22	-11	-10
+-1 sprites/metro/pcx/cairo1987.pcx 	10	32	1	18	22	-11	-12
 -1 sprites/metro/pcx/cairo1987.pcx 	33	32	1	14	32	-16	-10
--1 sprites/metro/pcx/cairo1987.pcx 	66	32	1	18	22	-11	-10
+-1 sprites/metro/pcx/cairo1987.pcx 	66	32	1	18	22	-11	-13
 -1 sprites/metro/pcx/cairo1987.pcx 	89	32	1	24	8	-3	-12
--1 sprites/metro/pcx/cairo1987.pcx 	98	32	1	18	22	-11	-10
+-1 sprites/metro/pcx/cairo1987.pcx 	98	32	1	18	22	-11	-12
 -1 sprites/metro/pcx/cairo1987.pcx 	121	32	1	14	32	-16	-10
--1 sprites/metro/pcx/cairo1987.pcx 	154	32	1	18	22	-11	-10
+-1 sprites/metro/pcx/cairo1987.pcx 	154	32	1	18	22	-11	-13
+
 
 // Action 2: Engine -cairo1987
 -1 * 0  02 00 AB 01 01 00 00 00 00
@@ -64,9 +66,10 @@
 -1 * 0  01 00 01 04
 // Format: spritenum pcxfile 							
 -1 sprites/metro/pcx/cairo1987.pcx 	1	64	1	24	8	-3	-12
--1 sprites/metro/pcx/cairo1987.pcx 	10	64	1	18	22	-11	-10
+-1 sprites/metro/pcx/cairo1987.pcx 	10	64	1	18	22	-11	-12
 -1 sprites/metro/pcx/cairo1987.pcx 	33	64	1	14	32	-16	-10
--1 sprites/metro/pcx/cairo1987.pcx 	66	64	1	18	22	-11	-10
+-1 sprites/metro/pcx/cairo1987.pcx 	66	64	1	18	22	-11	-13
+
 
 
 // Action 2: Wagon -cairo1987

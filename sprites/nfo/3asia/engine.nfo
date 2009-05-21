@@ -8,13 +8,14 @@
 -1 * 0  01 00 01 08
 // Format: spritenum pcxfile 							
 -1 sprites/engines_updated/pcx/kz2a.pcx 	89	1	1	24	8	-3	-12
--1 sprites/engines_updated/pcx/kz2a.pcx 	98	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/kz2a.pcx 	98	1	1	18	22	-11	-12
 -1 sprites/engines_updated/pcx/kz2a.pcx 	121	1	1	15	32	-16	-11
--1 sprites/engines_updated/pcx/kz2a.pcx 	154	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/kz2a.pcx 	154	1	1	18	22	-11	-13
 -1 sprites/engines_updated/pcx/kz2a.pcx 	1	1	1	24	8	-3	-12
--1 sprites/engines_updated/pcx/kz2a.pcx 	10	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/kz2a.pcx 	10	1	1	18	22	-11	-12
 -1 sprites/engines_updated/pcx/kz2a.pcx 	33	1	1	15	32	-16	-11
--1 sprites/engines_updated/pcx/kz2a.pcx 	66	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/kz2a.pcx 	66	1	1	18	22	-11	-13
+
 
 // Action 2: kz2a
 -1 * 0  02 00 AA 01 01 00 00 00 00
@@ -44,13 +45,14 @@
 -1 * 0  01 00 01 08
 // Format: spritenum pcxfile 							
 -1 sprites/engines_updated/pcx/ss6.pcx 	1	1	1	24	8	-3	-12
--1 sprites/engines_updated/pcx/ss6.pcx 	10	1	1	17	22	-11	-9
+-1 sprites/engines_updated/pcx/ss6.pcx 	10	1	1	17	22	-11	-11
 -1 sprites/engines_updated/pcx/ss6.pcx 	33	1	1	17	31	-16	-13
--1 sprites/engines_updated/pcx/ss6.pcx 	66	1	1	17	22	-10	-9
+-1 sprites/engines_updated/pcx/ss6.pcx 	66	1	1	17	22	-10	-12
 -1 sprites/engines_updated/pcx/ss6.pcx 	89	1	1	24	8	-3	-12
--1 sprites/engines_updated/pcx/ss6.pcx 	98	1	1	17	22	-11	-9
+-1 sprites/engines_updated/pcx/ss6.pcx 	98	1	1	17	22	-11	-11
 -1 sprites/engines_updated/pcx/ss6.pcx 	121	1	1	17	31	-16	-13
--1 sprites/engines_updated/pcx/ss6.pcx 	154	1	1	17	22	-10	-9
+-1 sprites/engines_updated/pcx/ss6.pcx 	154	1	1	17	22	-10	-12
+
 
 
 // Action 2: ss6
@@ -82,13 +84,14 @@
 -1 * 0  01 00 01 08
 // Format: spritenum pcxfile 							
 -1 sprites/engines_updated/pcx/wcm1.pcx 	1	1	1	24	8	-3	-12
--1 sprites/engines_updated/pcx/wcm1.pcx 	10	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/wcm1.pcx 	10	1	1	18	22	-11	-12
 -1 sprites/engines_updated/pcx/wcm1.pcx 	33	1	1	15	32	-27	-11
--1 sprites/engines_updated/pcx/wcm1.pcx 	66	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/wcm1.pcx 	66	1	1	18	22	-11	-13
 -1 sprites/engines_updated/pcx/wcm1.pcx 	89	1	1	24	8	-3	-12
--1 sprites/engines_updated/pcx/wcm1.pcx 	98	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/wcm1.pcx 	98	1	1	18	22	-11	-12
 -1 sprites/engines_updated/pcx/wcm1.pcx 	121	1	1	15	32	-27	-11
--1 sprites/engines_updated/pcx/wcm1.pcx 	154	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/wcm1.pcx 	154	1	1	18	22	-11	-13
+
 
 
 // Action 2: wcm1
@@ -119,13 +122,14 @@
 -1 * 0  01 00 01 08
 // Format: spritenum 		pcxfile 	      xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
 -1 sprites/engines_updated/pcx/wdm2.pcx 	1	1	1	24	8	-3	-12
--1 sprites/engines_updated/pcx/wdm2.pcx 	10	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/wdm2.pcx 	10	1	1	18	22	-11	-12
 -1 sprites/engines_updated/pcx/wdm2.pcx 	33	1	1	14	32	-16	-10
--1 sprites/engines_updated/pcx/wdm2.pcx 	66	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/wdm2.pcx 	66	1	1	18	22	-11	-13
 -1 sprites/engines_updated/pcx/wdm2.pcx 	89	1	1	24	8	-3	-12
--1 sprites/engines_updated/pcx/wdm2.pcx 	98	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/wdm2.pcx 	98	1	1	18	22	-11	-12
 -1 sprites/engines_updated/pcx/wdm2.pcx 	121	1	1	14	32	-16	-10
--1 sprites/engines_updated/pcx/wdm2.pcx 	154	1	1	18	22	-11	-10
+-1 sprites/engines_updated/pcx/wdm2.pcx 	154	1	1	18	22	-11	-13
+
 
 
 // Action 2: NS Class 1000
