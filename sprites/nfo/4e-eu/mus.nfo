@@ -25,13 +25,14 @@
 // Forward
 // Format: spritenum pcxfile 							
 -1 sprites/mus/pcx/bdvmot.pcx 	1	1	1	24	8	-3	-12
--1 sprites/mus/pcx/bdvmot.pcx 	10	1	1	19	22	-11	-11
+-1 sprites/mus/pcx/bdvmot.pcx 	10	1	1	19	22	-11	-13
 -1 sprites/mus/pcx/bdvmot.pcx 	33	1	1	14	31	-16	-10
--1 sprites/mus/pcx/bdvmot.pcx 	66	1	1	19	22	-11	-11
+-1 sprites/mus/pcx/bdvmot.pcx 	66	1	1	19	22	-11	-14
 -1 sprites/mus/pcx/bdvmot.pcx 	89	1	1	24	8	-3	-12
--1 sprites/mus/pcx/bdvmot.pcx 	98	1	1	19	22	-11	-11
+-1 sprites/mus/pcx/bdvmot.pcx 	98	1	1	19	22	-11	-13
 -1 sprites/mus/pcx/bdvmot.pcx 	121	1	1	14	32	-16	-10
--1 sprites/mus/pcx/bdvmot.pcx 	154	1	1	19	22	-11	-11
+-1 sprites/mus/pcx/bdvmot.pcx 	154	1	1	19	22	-11	-14
+
 
 
 // Action 2: Front
@@ -48,13 +49,14 @@
 -1 * 0  01 00 01 08
 // Format: spritenum pcxfile 							
 -1 sprites/mus/pcx/bdvmot.pcx 	89	32	1	24	8	-3	-12
--1 sprites/mus/pcx/bdvmot.pcx 	98	32	1	19	22	-11	-11
+-1 sprites/mus/pcx/bdvmot.pcx 	98	32	1	19	22	-11	-13
 -1 sprites/mus/pcx/bdvmot.pcx 	121	32	1	14	32	-16	-10
--1 sprites/mus/pcx/bdvmot.pcx 	154	32	1	19	22	-11	-11
+-1 sprites/mus/pcx/bdvmot.pcx 	154	32	1	19	22	-11	-14
 -1 sprites/mus/pcx/bdvmot.pcx 	1	32	1	24	8	-3	-12
--1 sprites/mus/pcx/bdvmot.pcx 	10	32	1	19	22	-11	-11
+-1 sprites/mus/pcx/bdvmot.pcx 	10	32	1	19	22	-11	-13
 -1 sprites/mus/pcx/bdvmot.pcx 	33	32	1	14	31	-16	-10
--1 sprites/mus/pcx/bdvmot.pcx 	66	32	1	19	22	-11	-11
+-1 sprites/mus/pcx/bdvmot.pcx 	66	32	1	19	22	-11	-14
+
 
 
 // Action 2: Back
@@ -63,10 +65,11 @@
 //Action1: Wagon-pax
 -1 * 0  01 00 01 04
 // Format: spritenum pcxfile 	xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
--1 sprites/mus/pcx/bdvmot.pcx 	1	64	01 	24	8 	-3 	-12	1
--1 sprites/mus/pcx/bdvmot.pcx 	10 	64	01 	19	22 	-11 	-13	2x
--1 sprites/mus/pcx/bdvmot.pcx 	33 	64	01 	14	32	-16 	-10	3
--1 sprites/mus/pcx/bdvmot.pcx 	66 	64	01 	19	22 	-11 	-14	4x
+-1 sprites/mus/pcx/bdvmot.pcx 	1	64	1	24	8	-3	-12
+-1 sprites/mus/pcx/bdvmot.pcx 	10	64	1	19	22	-11	-13
+-1 sprites/mus/pcx/bdvmot.pcx 	33	64	1	14	32	-16	-10
+-1 sprites/mus/pcx/bdvmot.pcx 	66	64	1	19	22	-11	-14
+
 
 // Action 2: Wagon
 -1 * 0  02 00 AD 01 01 00 00 00 00
@@ -77,10 +80,11 @@
 //Action1: Wagon-mail
 -1 * 0  01 00 01 04
 // Format: spritenum pcxfile 	xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
--1 sprites/mus/pcx/bdvmot.pcx 	1	96	01 	24	8 	-3 	-12	1
--1 sprites/mus/pcx/bdvmot.pcx 	10 	96	01 	19	22 	-11 	-13	2x
--1 sprites/mus/pcx/bdvmot.pcx 	33 	96	01 	14	32	-16 	-10	3
--1 sprites/mus/pcx/bdvmot.pcx 	66 	96	01 	19	22 	-11 	-14	4x
+-1 sprites/mus/pcx/bdvmot.pcx 	1	96	1	24	8	-3	-12
+-1 sprites/mus/pcx/bdvmot.pcx 	10	96	1	19	22	-11	-13
+-1 sprites/mus/pcx/bdvmot.pcx 	33	96	1	14	32	-16	-10
+-1 sprites/mus/pcx/bdvmot.pcx 	66	96	1	19	22	-11	-14
+
 
 // Action 2: Wagon -bdvmot
 -1 * 0  02 00 AE 01 01 00 00 00 00
@@ -120,13 +124,14 @@
 // Forward
 // Format: spritenum pcxfile 							
 -1 sprites/mus/pcx/bdvmot.pcx 	1	1	1	24	8	-3	-12
--1 sprites/mus/pcx/bdvmot.pcx 	10	1	1	19	22	-11	-11
+-1 sprites/mus/pcx/bdvmot.pcx 	10	1	1	19	22	-11	-13
 -1 sprites/mus/pcx/bdvmot.pcx 	33	1	1	14	31	-16	-10
--1 sprites/mus/pcx/bdvmot.pcx 	66	1	1	19	22	-11	-11
+-1 sprites/mus/pcx/bdvmot.pcx 	66	1	1	19	22	-11	-14
 -1 sprites/mus/pcx/bdvmot.pcx 	89	1	1	24	8	-3	-12
--1 sprites/mus/pcx/bdvmot.pcx 	98	1	1	19	22	-11	-11
+-1 sprites/mus/pcx/bdvmot.pcx 	98	1	1	19	22	-11	-13
 -1 sprites/mus/pcx/bdvmot.pcx 	121	1	1	14	32	-16	-10
--1 sprites/mus/pcx/bdvmot.pcx 	154	1	1	19	22	-11	-11
+-1 sprites/mus/pcx/bdvmot.pcx 	154	1	1	19	22	-11	-14
+
 
 
 // Action 2: Front
@@ -161,13 +166,14 @@
 -1 * 0  01 00 01 08
 // Format: spritenum pcxfile 							
 -1 sprites/mus/pcx/bdvmot.pcx 	89	32	1	24	8	-3	-12
--1 sprites/mus/pcx/bdvmot.pcx 	98	32	1	19	22	-11	-11
+-1 sprites/mus/pcx/bdvmot.pcx 	98	32	1	19	22	-11	-13
 -1 sprites/mus/pcx/bdvmot.pcx 	121	32	1	14	32	-16	-10
--1 sprites/mus/pcx/bdvmot.pcx 	154	32	1	19	22	-11	-11
+-1 sprites/mus/pcx/bdvmot.pcx 	154	32	1	19	22	-11	-14
 -1 sprites/mus/pcx/bdvmot.pcx 	1	32	1	24	8	-3	-12
--1 sprites/mus/pcx/bdvmot.pcx 	10	32	1	19	22	-11	-11
+-1 sprites/mus/pcx/bdvmot.pcx 	10	32	1	19	22	-11	-13
 -1 sprites/mus/pcx/bdvmot.pcx 	33	32	1	14	31	-16	-10
--1 sprites/mus/pcx/bdvmot.pcx 	66	32	1	19	22	-11	-11
+-1 sprites/mus/pcx/bdvmot.pcx 	66	32	1	19	22	-11	-14
+
 
 
 // Action 2: Back
@@ -177,22 +183,23 @@
 -1 * 0  01 00 02 08
 // Format: spritenum pcxfile							
 -1 sprites/mus/pcx/bdvmot.pcx	1	64	1	24	8	-3	-12
--1 sprites/mus/pcx/bdvmot.pcx	10	64	1	19	22	-11	-11
+-1 sprites/mus/pcx/bdvmot.pcx	10	64	1	19	22	-11	-13
 -1 sprites/mus/pcx/bdvmot.pcx	33	64	1	14	32	-16	-10
--1 sprites/mus/pcx/bdvmot.pcx	66	64	1	19	22	-11	-11
+-1 sprites/mus/pcx/bdvmot.pcx	66	64	1	19	22	-11	-14
 -1 sprites/mus/pcx/bdvmot.pcx	1	64	1	24	8	-3	-12
--1 sprites/mus/pcx/bdvmot.pcx	10	64	1	19	22	-11	-11
+-1 sprites/mus/pcx/bdvmot.pcx	10	64	1	19	22	-11	-13
 -1 sprites/mus/pcx/bdvmot.pcx	33	64	1	14	32	-16	-10
--1 sprites/mus/pcx/bdvmot.pcx	66	64	1	19	22	-11	-11
+-1 sprites/mus/pcx/bdvmot.pcx	66	64	1	19	22	-11	-14
 //Action1: pax first							
 -1 sprites/mus/pcx/bdvmot.pcx	1	64	1	24	8	-3	-20
--1 sprites/mus/pcx/bdvmot.pcx	10	64	1	19	22	-3	-11
+-1 sprites/mus/pcx/bdvmot.pcx	10	64	1	19	22	-3	-13
 -1 sprites/mus/pcx/bdvmot.pcx	33	64	1	14	32	0	-10
--1 sprites/mus/pcx/bdvmot.pcx	66	64	1	19	22	-3	-11
+-1 sprites/mus/pcx/bdvmot.pcx	66	64	1	19	22	-3	-14
 -1 sprites/mus/pcx/bdvmot.pcx	1	64	1	24	8	-3	-3
--1 sprites/mus/pcx/bdvmot.pcx	10	64	1	19	22	-19	-11
+-1 sprites/mus/pcx/bdvmot.pcx	10	64	1	19	22	-19	-13
 -1 sprites/mus/pcx/bdvmot.pcx	33	64	1	14	32	-32	-10
--1 sprites/mus/pcx/bdvmot.pcx	66	64	1	19	22	-19	-11
+-1 sprites/mus/pcx/bdvmot.pcx	66	64	1	19	22	-19	-14
+
 
 
 // Action 2: Wagon
@@ -208,22 +215,23 @@
 -1 * 0  01 00 02 08
 // Format: spritenum pcxfile							
 -1 sprites/mus/pcx/bdvmot.pcx	1	96	1	24	8	-3	-12
--1 sprites/mus/pcx/bdvmot.pcx	10	96	1	19	22	-11	-11
+-1 sprites/mus/pcx/bdvmot.pcx	10	96	1	19	22	-11	-13
 -1 sprites/mus/pcx/bdvmot.pcx	33	96	1	14	32	-16	-10
--1 sprites/mus/pcx/bdvmot.pcx	66	96	1	19	22	-11	-11
+-1 sprites/mus/pcx/bdvmot.pcx	66	96	1	19	22	-11	-14
 -1 sprites/mus/pcx/bdvmot.pcx	1	96	1	24	8	-3	-12
--1 sprites/mus/pcx/bdvmot.pcx	10	96	1	19	22	-11	-11
+-1 sprites/mus/pcx/bdvmot.pcx	10	96	1	19	22	-11	-13
 -1 sprites/mus/pcx/bdvmot.pcx	33	96	1	14	32	-16	-10
--1 sprites/mus/pcx/bdvmot.pcx	66	96	1	19	22	-11	-11
+-1 sprites/mus/pcx/bdvmot.pcx	66	96	1	19	22	-11	-14
 //Action1: Wagon-first-mail							
 -1 sprites/mus/pcx/bdvmot.pcx	1	96	1	24	8	-3	-20
--1 sprites/mus/pcx/bdvmot.pcx	10	96	1	19	22	-3	-11
+-1 sprites/mus/pcx/bdvmot.pcx	10	96	1	19	22	-3	-13
 -1 sprites/mus/pcx/bdvmot.pcx	33	96	1	14	32	0	-10
--1 sprites/mus/pcx/bdvmot.pcx	66	96	1	19	22	-3	-11
+-1 sprites/mus/pcx/bdvmot.pcx	66	96	1	19	22	-3	-14
 -1 sprites/mus/pcx/bdvmot.pcx	1	96	1	24	8	-3	-3
--1 sprites/mus/pcx/bdvmot.pcx	10	96	1	19	22	-19	-11
+-1 sprites/mus/pcx/bdvmot.pcx	10	96	1	19	22	-19	-13
 -1 sprites/mus/pcx/bdvmot.pcx	33	96	1	14	32	-32	-10
--1 sprites/mus/pcx/bdvmot.pcx	66	96	1	19	22	-19	-11
+-1 sprites/mus/pcx/bdvmot.pcx	66	96	1	19	22	-19	-14
+
 
 
 // Action 2: Wagon -bdvmot
@@ -252,22 +260,23 @@
 // Forward
 // Format: spritenum pcxfile 							
 -1 sprites/mus/pcx/680.pcx 	1	1	1	25	8	-3	-13
--1 sprites/mus/pcx/680.pcx 	10	1	1	19	22	-11	-11
+-1 sprites/mus/pcx/680.pcx 	10	1	1	19	22	-11	-13
 -1 sprites/mus/pcx/680.pcx 	33	1	1	14	31	-16	-10
--1 sprites/mus/pcx/680.pcx 	66	1	1	19	22	-11	-11
+-1 sprites/mus/pcx/680.pcx 	66	1	1	19	22	-11	-14
 -1 sprites/mus/pcx/680.pcx 	89	1	1	25	8	-3	-13
--1 sprites/mus/pcx/680.pcx 	98	1	1	19	22	-11	-11
+-1 sprites/mus/pcx/680.pcx 	98	1	1	19	22	-11	-13
 -1 sprites/mus/pcx/680.pcx 	121	1	1	14	32	-16	-10
--1 sprites/mus/pcx/680.pcx 	154	1	1	19	22	-11	-11
+-1 sprites/mus/pcx/680.pcx 	154	1	1	19	22	-11	-14
 // Backwards							
 -1 sprites/mus/pcx/680.pcx 	1	32	1	25	8	-3	-13
--1 sprites/mus/pcx/680.pcx 	10	32	1	19	22	-11	-11
+-1 sprites/mus/pcx/680.pcx 	10	32	1	19	22	-11	-13
 -1 sprites/mus/pcx/680.pcx 	33	32	1	14	31	-16	-10
--1 sprites/mus/pcx/680.pcx 	66	32	1	19	22	-11	-11
+-1 sprites/mus/pcx/680.pcx 	66	32	1	19	22	-11	-14
 -1 sprites/mus/pcx/680.pcx 	89	32	1	25	8	-3	-13
--1 sprites/mus/pcx/680.pcx 	98	32	1	19	22	-11	-11
+-1 sprites/mus/pcx/680.pcx 	98	32	1	19	22	-11	-13
 -1 sprites/mus/pcx/680.pcx 	121	32	1	14	32	-16	-10
--1 sprites/mus/pcx/680.pcx 	154	32	1	19	22	-11	-11
+-1 sprites/mus/pcx/680.pcx 	154	32	1	19	22	-11	-14
+
 
 
 
@@ -311,9 +320,10 @@
 -1 * 0  01 00 01 04
 // Format: spritenum pcxfile 							
 -1 sprites/mus/pcx/680.pcx 	1	64	1	25	8	-3	-13
--1 sprites/mus/pcx/680.pcx 	10	64	1	19	22	-11	-11
+-1 sprites/mus/pcx/680.pcx 	10	64	1	19	22	-11	-13
 -1 sprites/mus/pcx/680.pcx 	33	64	1	14	32	-16	-10
--1 sprites/mus/pcx/680.pcx 	66	64	1	19	22	-11	-11
+-1 sprites/mus/pcx/680.pcx 	66	64	1	19	22	-11	-14
+
 
 
 
@@ -363,22 +373,23 @@
 // Forward
 // Format: spritenum pcxfile 							
 -1 sprites/mus/pcx/811.pcx 	1	1	1	23	8	-3	-12
--1 sprites/mus/pcx/811.pcx 	10	1	1	16	22	-11	-8
+-1 sprites/mus/pcx/811.pcx 	10	1	1	16	22	-11	-10
 -1 sprites/mus/pcx/811.pcx 	33	1	1	11	32	-16	-7
--1 sprites/mus/pcx/811.pcx 	66	1	1	16	22	-11	-8
+-1 sprites/mus/pcx/811.pcx 	66	1	1	16	22	-11	-11
 -1 sprites/mus/pcx/811.pcx 	89	1	1	23	8	-3	-12
--1 sprites/mus/pcx/811.pcx 	98	1	1	16	22	-11	-8
+-1 sprites/mus/pcx/811.pcx 	98	1	1	16	22	-11	-10
 -1 sprites/mus/pcx/811.pcx 	121	1	1	11	32	-16	-7
--1 sprites/mus/pcx/811.pcx 	154	1	1	16	22	-11	-8
+-1 sprites/mus/pcx/811.pcx 	154	1	1	16	22	-11	-11
 // Forward							
 -1 sprites/mus/pcx/811.pcx 	1	32	1	23	8	-3	-12
--1 sprites/mus/pcx/811.pcx 	10	32	1	16	22	-11	-8
+-1 sprites/mus/pcx/811.pcx 	10	32	1	16	22	-11	-10
 -1 sprites/mus/pcx/811.pcx 	33	32	1	11	32	-16	-7
--1 sprites/mus/pcx/811.pcx 	66	32	1	16	22	-11	-8
+-1 sprites/mus/pcx/811.pcx 	66	32	1	16	22	-11	-11
 -1 sprites/mus/pcx/811.pcx 	89	32	1	23	8	-3	-12
--1 sprites/mus/pcx/811.pcx 	98	32	1	16	22	-11	-8
+-1 sprites/mus/pcx/811.pcx 	98	32	1	16	22	-11	-10
 -1 sprites/mus/pcx/811.pcx 	121	32	1	11	32	-16	-7
--1 sprites/mus/pcx/811.pcx 	154	32	1	16	22	-11	-8
+-1 sprites/mus/pcx/811.pcx 	154	32	1	16	22	-11	-11
+
 
 
 
@@ -404,9 +415,10 @@
 -1 * 0  01 00 01 04
 // Format: spritenum pcxfile 							
 -1 sprites/mus/pcx/811.pcx 	1	64	1	23	8	-3	-12
--1 sprites/mus/pcx/811.pcx 	10	64	1	16	22	-11	-8
+-1 sprites/mus/pcx/811.pcx 	10	64	1	16	22	-11	-10
 -1 sprites/mus/pcx/811.pcx 	33	64	1	11	32	-16	-7
--1 sprites/mus/pcx/811.pcx 	66	64	1	16	22	-11	-8
+-1 sprites/mus/pcx/811.pcx 	66	64	1	16	22	-11	-11
+
 
 
 
@@ -423,9 +435,10 @@
 -1 * 0  01 00 01 04
 // Format: spritenum pcxfile 							
 -1 sprites/mus/pcx/811.pcx 	1	96	1	23	8	-3	-12
--1 sprites/mus/pcx/811.pcx 	10	96	1	16	22	-11	-8
+-1 sprites/mus/pcx/811.pcx 	10	96	1	16	22	-11	-10
 -1 sprites/mus/pcx/811.pcx 	33	96	1	11	32	-16	-7
--1 sprites/mus/pcx/811.pcx 	66	96	1	16	22	-11	-8
+-1 sprites/mus/pcx/811.pcx 	66	96	1	16	22	-11	-11
+
 
 
 // Action 2: Wagon 811
@@ -453,13 +466,14 @@
 -1 * 0  01 00 01 08
 // Format: spritenum pcxfile 							
 -1 sprites/mus/pcx/809.pcx 	1	1	1	24	8	-3	-12
--1 sprites/mus/pcx/809.pcx 	10	1	1	18	22	-11	-10
+-1 sprites/mus/pcx/809.pcx 	10	1	1	18	22	-11	-12
 -1 sprites/mus/pcx/809.pcx 	33	1	1	14	32	-26	-10
--1 sprites/mus/pcx/809.pcx 	66	1	1	18	22	-11	-10
+-1 sprites/mus/pcx/809.pcx 	66	1	1	18	22	-11	-13
 -1 sprites/mus/pcx/809.pcx 	89	1	1	24	8	-3	-12
--1 sprites/mus/pcx/809.pcx 	98	1	1	18	22	-11	-10
+-1 sprites/mus/pcx/809.pcx 	98	1	1	18	22	-11	-12
 -1 sprites/mus/pcx/809.pcx 	121	1	1	14	32	-26	-10
--1 sprites/mus/pcx/809.pcx 	154	1	1	18	22	-11	-10
+-1 sprites/mus/pcx/809.pcx 	154	1	1	18	22	-11	-13
+
 
 
 
@@ -488,13 +502,14 @@
 -1 * 0  01 00 01 08
 // Format: spritenum pcxfile 							
 -1 sprites/mus/pcx/ar2.pcx 	1	1	1	24	8	-3	-12
--1 sprites/mus/pcx/ar2.pcx 	10	1	1	18	22	-11	-10
+-1 sprites/mus/pcx/ar2.pcx 	10	1	1	18	22	-11	-12
 -1 sprites/mus/pcx/ar2.pcx 	33	1	1	14	32	-16	-10
--1 sprites/mus/pcx/ar2.pcx 	66	1	1	18	22	-11	-10
+-1 sprites/mus/pcx/ar2.pcx 	66	1	1	18	22	-11	-13
 -1 sprites/mus/pcx/ar2.pcx 	89	1	1	24	8	-3	-12
--1 sprites/mus/pcx/ar2.pcx 	98	1	1	18	22	-11	-10
+-1 sprites/mus/pcx/ar2.pcx 	98	1	1	18	22	-11	-12
 -1 sprites/mus/pcx/ar2.pcx 	121	1	1	14	32	-16	-10
--1 sprites/mus/pcx/ar2.pcx 	154	1	1	18	22	-11	-10
+-1 sprites/mus/pcx/ar2.pcx 	154	1	1	18	22	-11	-13
+
 
 
 // Action 2: ar2
