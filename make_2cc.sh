@@ -17,15 +17,15 @@ cat 9s-eu/*.nfo > ./09.nfo
 cat 10w-eu/*.nfo > ./10.nfo
 cat strings/*.nfo > ./strings.nfo
 
-cat *.nfo > ../2ccdj.nfo
+cat *.nfo > ../2cc_trainset.nfo
 cd ../..
 ./scripts/sed.sh
 
 echo "Using repository version:" > renum.log
 hg tip | grep 'changeset' | tee -a renum.log
-renum -w 141 2ccdj.nfo | tee -a renum.log
+renum -w 141 2cc_trainset.nfo | tee -a renum.log
 echo Running GRFCodec. . .
-grfcodec -e -p 2 2ccdj.grf | tee grfcodec.log
+grfcodec -e -p 2 2cc_trainset.grf | tee grfcodec.log
 
 rm sprites/nfo/??.nfo
 rm sprites/nfo/strings.nfo
