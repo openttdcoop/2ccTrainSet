@@ -134,6 +134,11 @@ Ameecher
 DJ Nekkid
 trainboy2004
 
+Translators:
+Hirundo (Dutch)
+micomico (Portuguese)
+planetmaker (German)
+
 Host:
 orudge (Project's main page)
 ThorRune (ex-host)
