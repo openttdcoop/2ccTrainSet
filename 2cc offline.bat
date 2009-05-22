@@ -1,4 +1,4 @@
-  @ECHO OFF
+echo  @ECHO OFF
 ECHO.
 Echo Compiling files to one .nfo
 cd sprites
@@ -15,8 +15,10 @@ copy /Y nfo\strings\*.nfo nfo\strings.nfo
 Echo on
 copy /Y nfo\*.nfo 2cc_trainset.nfo.pre
 pause
+
+
 ECHO sed...
-sed.exe -f ..\scripts\nfo.sed 2cc_trainset.nfo.pre > 2cc_trainset.nfo
+"C:\Program Files\GnuWin32\bin\sed.exe" -f ..\scripts\nfo.sed 2cc_trainset.nfo.pre > 2cc_trainset.nfo
 del 2cc_trainset.nfo.pre
 pause
 cd ..
@@ -34,7 +36,7 @@ grfcodec.exe -e -p 2 2cc_trainset.nfo.new.nfo
 ECHO.
 ECHO Remove old file, rename new file and copy file to ottd and ttdp dirs. . .
 DEL .\2cc_trainset.grf
-ren 2cc_trainset.nfo.new.grf 2cc_trainset.grf
+ren 2cc_trainset.nfo.new.new.new 2cc_trainset.grf
 COPY .\2cc_trainset.grf "C:\data\OpenTTD\data" /Y
 
 ECHO Done!
