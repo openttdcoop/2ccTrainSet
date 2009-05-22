@@ -13,7 +13,11 @@ copy /Y nfo\9s-eu\*.nfo nfo\09.nfo
 copy /Y nfo\10w-eu\*.nfo nfo\10.nfo
 copy /Y nfo\strings\*.nfo nfo\strings.nfo
 Echo on
-copy /Y nfo\*.nfo 2cc_trainset.nfo
+copy /Y nfo\*.nfo 2cc_trainset.nfo.pre
+pause
+ECHO sed...
+sed.exe -f ..\scripts\nfo.sed 2cc_trainset.nfo.pre > 2cc_trainset.nfo
+del 2cc_trainset.nfo.pre
 pause
 cd ..
 ECHO Running NFORenum. . .
