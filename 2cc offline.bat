@@ -1,6 +1,11 @@
 echo  @ECHO OFF
 
 set SED_PATH=%PROGRAMFILES%\GnuWin32\bin\sed.exe
+set RENUM_WARN=-w 42,94,141,143,144,147,170
+set GRF_FILENAME=2cc_trainset
+
+set LOG_RENUM=renum.log
+set LOG_GRFCODEC=grfcodec.log
 
 ECHO.
 Echo Compiling files to one .nfo
@@ -19,26 +24,23 @@ Echo on
 copy /Y nfo\*.nfo 2cc_trainset.nfo.pre
 pause
 
-ECHO sed...
+ECHO sed... inserting version into file.
 
-"%SED_PATH%" -f ..\scripts\nfo.sed 2cc_trainset.nfo.pre > 2cc_trainset.nfo
+"%SED_PATH%" -f ..\scripts\nfo.sed 2cc_trainset.nfo.pre > %GRF_FILENAME%.nfo
 del 2cc_trainset.nfo.pre
+del nfo\??.nfo
+del nfo\strings.nfo
 pause
 cd ..
 ECHO Running NFORenum. . .
 
-renum.exe -k -w 42,94,141,143,144,147,170 2cc_trainset.nfo
+renum.exe %RENUM_WARN% %GRF_FILENAME%.nfo | tee %LOG_RENUM%
 
 pause
 
-ren sprites\2cc_trainset.nfo.new.nfo 2cc.nfo
-del 2cc.grf
-grfcodec.exe -e -p 2 2cc.nfo
+grfcodec.exe -e -p 2 %GRF_FILENAME%.nfo | tee %LOG_GRFCODEC%
 
-
-copy 2cc.grf 2cc_trainset.grf
-del 2cc.grf
-COPY .\2cc_trainset.grf "C:\data\OpenTTD\data" /Y
+COPY %GRF_FILENAME%.grf "C:\data\OpenTTD\data" /Y
 
 ECHO Done!
 pause
