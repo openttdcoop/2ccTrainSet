@@ -1,7 +1,8 @@
 echo  @ECHO OFF
 
 set SED_PATH=%PROGRAMFILES%\GnuWin32\bin\sed.exe
-set RENUM_WARN=-w 42,94,141,143,144,147,170
+rem set RENUM_WARN=-w 42,94,141,143,144,147,170
+set RENUM_WARN=-w 141
 set GRF_FILENAME=2cc_trainset
 
 set LOG_RENUM=renum.log
