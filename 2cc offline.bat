@@ -36,7 +36,8 @@ del 2cc.grf
 grfcodec.exe -e -p 2 2cc.nfo
 
 
-ren 2cc.grf 2cc_trainset.grf
+copy 2cc.grf 2cc_trainset.grf
+del 2cc.grf
 COPY .\2cc_trainset.grf "C:\data\OpenTTD\data" /Y
 
 ECHO Done!
