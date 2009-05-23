@@ -1,4 +1,7 @@
 echo  @ECHO OFF
+
+set SED_PATH=%PROGRAMFILES%\GnuWin32\bin\sed.exe
+
 ECHO.
 Echo Compiling files to one .nfo
 cd sprites
@@ -18,13 +21,13 @@ pause
 
 ECHO sed...
 
-"C:\Program Files\GnuWin32\bin\sed.exe" -f ..\scripts\nfo.sed 2cc_trainset.nfo.pre > 2cc_trainset.nfo
+"%SED_PATH%" -f ..\scripts\nfo.sed 2cc_trainset.nfo.pre > 2cc_trainset.nfo
 del 2cc_trainset.nfo.pre
 pause
 cd ..
 ECHO Running NFORenum. . .
 
-renum.exe -k -w 42,94,141,143,144,147,17 2cc_trainset.nfo
+renum.exe -k -w 42,94,141,143,144,147,170 2cc_trainset.nfo
 
 pause
 
