@@ -26,8 +26,3 @@ hg tip | grep 'changeset' | tee -a renum.log
 renum -w 141 2cc_trainset.nfo | tee -a renum.log
 echo Running GRFCodec. . .
 grfcodec -e -p 2 2cc_trainset.grf | tee grfcodec.log
-
-rm sprites/nfo/??.nfo
-rm sprites/nfo/strings.nfo
-rm sprites/nfo/*/*.orig
-rm sprites/nfo/*.orig
