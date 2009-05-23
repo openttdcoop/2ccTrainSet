@@ -10,7 +10,7 @@
 -1 * 0	 08 07 27 71 10 02 "{{NAME}} {{VERSION}}" 00 "Drawn by Purno, Snail, Wile E Coyote and DanMack\nCoded by DJ Nekkid, planetmaker and Ammler\n" 8E "Check the readme for parameters\nHowever, Parameter1 (Prices: 0 = default, 9 = Double, 8 = Half, 7 = 1/4th, 6 = 1/8th, etc" 00
 
 -1 * 0 07 A1 04 \7= FF FF FF FF 01
--1 * 0 07 A1 04 \7> \w13500 00 07 01
+-1 * 0 07 A1 04 \7> \w16374 00 07 01
 
 // Cargo translation table
 // -1 * 0  00 08 01 29 00 09
