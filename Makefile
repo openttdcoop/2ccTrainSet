@@ -1,44 +1,20 @@
 # Makefile for the 2cc train set
-#
 
 MAKEFILELOCAL=Makefile.local
-
-GRF_NAME     = 2cc Train Set
-GRF_VERSION  = 1.0.1 (pre-release)
-GRF_FILENAME = 2cc_trainset
-
-NFORENUM_FLAGS = -w 141
-GRFCODEC_FLAGS = -e -p 2
+MAKEFILECONFIG=Makefile.config
 
 SHELL = /bin/sh
+
+include ${MAKEFILECONFIG}
+
 # OS detection: Cygwin vs Linux
 ISCYGWIN = $(shell [ ! -d /cygdrive/ ]; echo $$?)
 NFORENUM = $(shell [ \( $(ISCYGWIN) -eq 1 \) ] && echo renum.exe || echo renum)
 GRFCODEC =  $(shell [ \( $(ISCYGWIN) -eq 1 \) ] && echo grfcodec.exe || echo grfcodec)
 #INSTALLDIR = $(shell [ \( $(OSTYPE) -eq linux \) ] && echo ~/.openttd/data || echo ~/Documents/OpenTTD/data)
 
-NFORENUM = renum
-GRFCODEC = grfcodec
-
-SPRITEDIR   = ./sprites
-SCRIPTDIR   = ./scripts
-DOCDIR      = ./doc
-WEBDIR      = ./website
-NFODIR      = $(SPRITEDIR)/nfo
-REGION_DIRS = 2africa 3asia 4e-eu 5n-am 6s-am 7ocean 8scandinavia 9s-eu 10w-eu
-LANG_DIR    = strings
-
-MAINDIRS    = $(SPRITEDIR) $(SCRIPTDIR) $(DOCDIR) $(WEBDIR)
-
-HEADER      = 00header
-OTHER		= 01wagons 00sounds
-FOOTER      = regsel
-
-
 # this overrides definitions from above:
 -include ${MAKEFILELOCAL}
-
-NAME = $(GRF_FILENAME)
 
 # Now, the fun stuff:
 
@@ -63,7 +39,7 @@ renumber : nfo
 	@echo
 	
 # Prepare the nfo file	
-nfo : regions lang
+nfo : regions lang 
 	@echo "Generating the nfo:"
 	cat $(NFODIR)/*.nfo > $(SPRITEDIR)/$(GRF_FILENAME).nfo.pre
 	sed -f scripts/nfo.sed $(SPRITEDIR)/$(GRF_FILENAME).nfo.pre > $(SPRITEDIR)/$(GRF_FILENAME).nfo
