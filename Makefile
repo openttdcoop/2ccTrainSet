@@ -19,7 +19,7 @@ GRFCODEC =  $(shell [ \( $(ISCYGWIN) -eq 1 \) ] && echo grfcodec.exe || echo grf
 # Now, the fun stuff:
 
 # Target for all:
-all : renumber grf
+all : renumber grf install
 
 test : 
 	@echo "Call of nforenum:             $(NFORENUM) $(NFORENUM_FLAGS)"
@@ -42,7 +42,8 @@ renumber : nfo
 nfo : regions lang 
 	@echo "Generating the nfo:"
 	cat $(NFODIR)/*.nfo > $(SPRITEDIR)/$(GRF_FILENAME).nfo.pre
-	sed -f scripts/nfo.sed $(SPRITEDIR)/$(GRF_FILENAME).nfo.pre > $(SPRITEDIR)/$(GRF_FILENAME).nfo
+# replace the place holders for version and name by the respective variables:
+	sed s/{{VERSION}}/'$(GRF_VERSION)'/ $(SPRITEDIR)/$(GRF_FILENAME).nfo.pre | sed s/{{NAME}}/'$(GRF_NAME)'/ > $(SPRITEDIR)/$(GRF_FILENAME).nfo
 	@echo	
 	
 regions:
