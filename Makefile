@@ -13,17 +13,23 @@ GRFCODEC_FLAGS = -e -p 2
 SHELL = /bin/sh
 # OS detection: Cygwin vs Linux
 ISCYGWIN = $(shell [ ! -d /cygdrive/ ]; echo $$?)
-# NFORENUM = $(shell [ \( $(ISCYGWIN) -eq 1 \) ] && echo renum.exe || echo renum)
+NFORENUM = $(shell [ \( $(ISCYGWIN) -eq 1 \) ] && echo renum.exe || echo renum)
 GRFCODEC =  $(shell [ \( $(ISCYGWIN) -eq 1 \) ] && echo grfcodec.exe || echo grfcodec)
-GRFDIR = $(shell [ \( $(OSTYPE) -eq linux \) ] && echo ~/.openttd/data || echo ~/Documents/OpenTTD/data
+#INSTALLDIR = $(shell [ \( $(OSTYPE) -eq linux \) ] && echo ~/.openttd/data || echo ~/Documents/OpenTTD/data)
 
 NFORENUM = renum
 GRFCODEC = grfcodec
 
 SPRITEDIR   = ./sprites
+SCRIPTDIR   = ./scripts
+DOCDIR      = ./doc
+WEBDIR      = ./website
 NFODIR      = $(SPRITEDIR)/nfo
 REGION_DIRS = 2africa 3asia 4e-eu 5n-am 6s-am 7ocean 8scandinavia 9s-eu 10w-eu
 LANG_DIR    = strings
+
+MAINDIRS    = $(SPRITEDIR) $(SCRIPTDIR) $(DOCDIR) $(WEBDIR)
+
 HEADER      = 00header
 OTHER		= 01wagons 00sounds
 FOOTER      = regsel
@@ -40,9 +46,9 @@ NAME = $(GRF_FILENAME)
 all : renumber grf
 
 test : 
-	@echo $(NFORENUM) $(NFORENUM_FLAGS)
-	@echo $(GRFCODEC) $(GRFCODEC_FLAGS)
-	@echo $(GRFDIR)
+	@echo "Call of nforenum:             $(NFORENUM) $(NFORENUM_FLAGS)"
+	@echo "Call of grfcodec:             $(GRFCODEC) $(GRFCODEC_FLAGS)"
+	@echo "Local installation directory: $(GRFDIR)"
 
 # Compile GRF
 grf : renumber
@@ -59,7 +65,7 @@ renumber : nfo
 # Prepare the nfo file	
 nfo : regions lang
 	@echo "Generating the nfo:"
-	-cat $(NFODIR)/*.nfo > $(SPRITEDIR)/$(GRF_FILENAME).nfo.pre
+	cat $(NFODIR)/*.nfo > $(SPRITEDIR)/$(GRF_FILENAME).nfo.pre
 	sed -f scripts/nfo.sed $(SPRITEDIR)/$(GRF_FILENAME).nfo.pre > $(SPRITEDIR)/$(GRF_FILENAME).nfo
 	@echo	
 	
@@ -70,31 +76,39 @@ regions:
 
 lang:
 	@echo "Compiling languages:"
-	-cat $(NFODIR)/$(LANG_DIR)/*.nfo > $(NFODIR)/$(LANG_DIR).nfo
+	cat $(NFODIR)/$(LANG_DIR)/*.nfo > $(NFODIR)/$(LANG_DIR).nfo
 	@echo
 	
 # Clean the source tree
 clean:
 	@echo "Cleaning source tree:"
 	@echo "Remove backups:"
-	-rm $(SPRITEDIR)/*.bak *~
+	-rm $(NFODIR)/*/*.orig
+	-rm $(NFODIR)/*.orig
+	-rm $(SPRITEDIR)/*.pre
+	-for i in $(MAINDIRS); do rm $$i/*.orig; done
 	@echo
-	@echo "Remove .nfo:"
+	@echo "Remove temporary .nfo:"
 	-rm $(SPRITEDIR)/*.nfo
 	-rm $(NFODIR)/$(LANG_DIR).nfo
 	-rm $(NFODIR)/*.orig
 	-rm $(NFODIR)/$(LANG_DIR)/*.orig
-	for i in $(REGION_DIRS); do rm $(NFODIR)/$$i.nfo; done
+	-for i in $(REGION_DIRS); do rm $(NFODIR)/$$i.nfo; done
 	@echo
 	@echo "Remove compiled .grf:"
 	-rm *.grf
+	@echo
+	@echo "Removing old logs:"
+	-rm *.log
 
 # Installation process
 install:
-	@echo Installing .grf files to $(GRFDIR).
-	@echo "Windows GRF:"
-	-cp $(GRF_FILENAME).grf $(INSTALLDIR)/$(GRF_FILENAME).grf
+#	ifneq ($(flavour INSTALLDIR), "undefined")
+		@echo "Installing grf to $(INSTALLDIR)"
+		-cp $(GRF_FILENAME).grf $(INSTALLDIR)/$(GRF_FILENAME).grf
+#	else
+#		@echo "Please edit (or create) your Makefile.local"
+#		@echo "and define an installation dir:"
+#		@echo "INSTALLDIR=<where the grf goes>"
+#	endif
 	@echo
-#	@echo "DOS GRF:"
-#	-cp $(NAME).grf $(GRFDIR)/$(NAME).grf
-
