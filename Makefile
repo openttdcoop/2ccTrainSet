@@ -5,26 +5,32 @@ MAKEFILECONFIG=Makefile.config
 
 SHELL = /bin/sh
 
+GRF_REVISION = $(shell hg parent | grep 'changeset' | grep 'changeset' | cut -d: -f2 | sed 's/^[ ]*//')
+
 include ${MAKEFILECONFIG}
 
 # OS detection: Cygwin vs Linux
 ISCYGWIN = $(shell [ ! -d /cygdrive/ ]; echo $$?)
 NFORENUM = $(shell [ \( $(ISCYGWIN) -eq 1 \) ] && echo renum.exe || echo renum)
 GRFCODEC =  $(shell [ \( $(ISCYGWIN) -eq 1 \) ] && echo grfcodec.exe || echo grfcodec)
-#INSTALLDIR = $(shell [ \( $(OSTYPE) -eq linux \) ] && echo ~/.openttd/data || echo ~/Documents/OpenTTD/data)
 
 # this overrides definitions from above:
 -include ${MAKEFILELOCAL}
 
 # Now, the fun stuff:
 
+# Targets:
+# all, test, bundle, install
+
 # Target for all:
-all : renumber grf install
+all : renumber grf
 
 test : 
 	@echo "Call of nforenum:             $(NFORENUM) $(NFORENUM_FLAGS)"
 	@echo "Call of grfcodec:             $(GRFCODEC) $(GRFCODEC_FLAGS)"
-	@echo "Local installation directory: $(GRFDIR)"
+	@echo "Local installation directory: $(INSTALLDIR)"
+	@echo "Repository revision:          r$(GRF_REVISION)"
+	@echo "GRF title:                    $(GRF_TITLE)"
 
 # Compile GRF
 grf : renumber
@@ -39,22 +45,27 @@ renumber : nfo
 	@echo
 	
 # Prepare the nfo file	
-nfo : regions lang 
-	@echo "Generating the nfo:"
-	cat $(NFODIR)/*.nfo > $(SPRITEDIR)/$(GRF_FILENAME).nfo.pre
-# replace the place holders for version and name by the respective variables:
-	sed s/{{VERSION}}/'$(GRF_VERSION)'/ $(SPRITEDIR)/$(GRF_FILENAME).nfo.pre | sed s/{{NAME}}/'$(GRF_NAME)'/ > $(SPRITEDIR)/$(GRF_FILENAME).nfo
+nfo : unify
+	# replace the place holders for version and name by the respective variables:
+	@echo "Setting title to $(GRF_TITLE)"
+	@sed s/{{GRF_TITLE}}/'$(GRF_TITLE)'/ $(SPRITEDIR)/$(GRF_FILENAME).nfo.pre > $(SPRITEDIR)/$(GRF_FILENAME).nfo
 	@echo	
 	
-regions:
-	@echo "Compiling regions:"
-	for i in $(REGION_DIRS); do cat $(NFODIR)/$$i/*.nfo > $(NFODIR)/$$i.nfo; done
+unify:
 	@echo
-
-lang:
-	@echo "Compiling languages:"
-	cat $(NFODIR)/$(LANG_DIR)/*.nfo > $(NFODIR)/$(LANG_DIR).nfo
-	@echo
+	@echo "Generating the nfo:"
+	@-rm $(SPRITEDIR)/$(GRF_FILENAME).nfo.pre
+	@echo "Header..."
+	@cat $(NFODIR)/$(HEADER).nfo > $(SPRITEDIR)/$(GRF_FILENAME).nfo.pre
+	@echo "...other stuff..."
+	@for i in $(OTHERS); do cat $(NFODIR)/$$i.nfo >> $(SPRITEDIR)/$(GRF_FILENAME).nfo.pre; done
+	@echo "...engines by region..."
+	@for i in $(REGION_DIRS); do cat $(NFODIR)/$$i/*.nfo >> $(SPRITEDIR)/$(GRF_FILENAME).nfo.pre; done
+	@echo "...languages..."
+	@cat $(NFODIR)/$(LANG_DIR)/*.nfo >> $(SPRITEDIR)/$(GRF_FILENAME).nfo.pre
+	@echo "... and footer."
+	@cat $(NFODIR)/$(FOOTER).nfo >> $(SPRITEDIR)/$(GRF_FILENAME).nfo.pre
+	
 	
 # Clean the source tree
 clean:
@@ -77,6 +88,10 @@ clean:
 	@echo
 	@echo "Removing old logs:"
 	-rm *.log
+	
+bundle :
+	@echo "Automatic creation of the release bundle is not yet supported"
+	@echo
 
 # Installation process
 install:
