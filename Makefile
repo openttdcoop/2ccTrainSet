@@ -5,7 +5,7 @@ MAKEFILECONFIG=Makefile.config
 
 SHELL = /bin/sh
 
-GRF_REVISION = $(shell hg parent | grep 'changeset' | grep 'changeset' | cut -d: -f2 | sed 's/^[ ]*//')
+GRF_REVISION = $(shell hg parent --template="{rev}\n")
 
 include ${MAKEFILECONFIG}
 
