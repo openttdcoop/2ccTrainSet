@@ -92,13 +92,13 @@
 -1 * 0  01 00 01 08
 // Format: spritenum 		pcxfile 	xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
 -1 sprites/engines_updated/pcx/lok2k.pcx 	1	1	1	24	8	-3	-12
--1 sprites/engines_updated/pcx/lok2k.pcx 	10	1	1	18	24	-12	-12
+-1 sprites/engines_updated/pcx/lok2k.pcx 	10	1	1	18	24	-12	-11
 -1 sprites/engines_updated/pcx/lok2k.pcx 	35	1	1	18	32	-16	-14
--1 sprites/engines_updated/pcx/lok2k.pcx 	68	1	1	18	24	-10	-13
+-1 sprites/engines_updated/pcx/lok2k.pcx 	68	1	1	18	24	-12	-11
 -1 sprites/engines_updated/pcx/lok2k.pcx 	93	1	1	24	8	-3	-12
--1 sprites/engines_updated/pcx/lok2k.pcx 	102	1	1	18	24	-12	-12
+-1 sprites/engines_updated/pcx/lok2k.pcx 	102	1	1	18	24	-12	-11
 -1 sprites/engines_updated/pcx/lok2k.pcx 	127	1	1	18	32	-16	-14
--1 sprites/engines_updated/pcx/lok2k.pcx 	160	1	1	18	24	-14	-13
+-1 sprites/engines_updated/pcx/lok2k.pcx 	160	1	1	18	24	-12	-11
 
 
 
