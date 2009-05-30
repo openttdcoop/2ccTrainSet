@@ -757,7 +757,11 @@
 -1 * 0  02 00 05 01 01 00 00 00 00
 
 // Action 3: 
--1 * 0  03 00 01 60 04 FF 05 00 \b09 A0 00 \b20 A2 00 \b07 A3 00 A1 00
+-1 * 0  03 00 01 60 04   FF 05 00 // Plist
+                         09 A0 00 // Steel
+                         0B A2 00 // paper
+                       \b07 A3 00 // wood
+                            A1 00
 
 
 // ####### Flatbed Short ######
@@ -884,7 +888,12 @@
 -1 sprites/wagons/pcx/plain.pcx 	1	416	1	12	63	-25	-8
 -1 * 0  02 00 05 01 01 00 00 00 00
 // Action 3: 
--1 * 0  03 00 01 6B 03 FF 05 00 \b15 A0 00 \b20 A2 00 \b11 A3 00 A1 00
+-1 * 0  03 00 01 6B 04   FF 05 00  // p-list
+                         08 A0 00  // steel
+                         0B A2 00  // paper
+                         07 A3 00  // wood
+                         A1 00     // else/boxes
+
 
 // ##### TANKER/SILO #####
 //Action1:
