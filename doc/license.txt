@@ -1,0 +1,23 @@
+Licensing
+This file is part of the 2cc train set newgrf project.
+
+The license of this newgrf is two-fold, seperated into the NFO part and the graphics part:
+
+NFO license:
+This NFO code of this set is licensed under the GNU Public Licence. As such, it may be freely distributed and modified as long as it remains under this license.
+
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or any later version.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+If you wish to contact the developers, please use the TT-Forums.
+See http://creativecommons.org/license/cc-gpl and attached gpl.txt
+
+Graphics license:
+The graphics contained within this set are license under the CC - BY-NC-ND license. That means you can distribute and use them as you like provided:
+- you do not alter them in any way
+- you do not sell them in any way
+- give credit to the authors
+See http://creativecommons.org/licenses/by-nc-nd/3.0/
+
+For a list of authors and contact information see the readme.html
