@@ -44,42 +44,42 @@ test :
 #	@echo "Header and footer:            $(NFODIR)/$(HEADER) $(NFODIR)/$(FOOTER)"
 
 # Compile GRF
-grf : renumber
+grf : $(GRF_FILENAME) $(SUB_FILES) $(LANG_FILES) $(OTHER_FILES) $(HEADER_FILE) $(FOOTER_FILE)
+
+$(GRF_FILENAME): $(NFO_FILENAME)
 	# pipe all nfo files through grfcodec and produce the grf(s)
 	@echo "Compiling GRF:"
-	$(GRFCODEC) ${GRFCODEC_FLAGS} ${NFO_FILENAME}
+	$(GRFCODEC) ${GRFCODEC_FLAGS} $(notdir ${NFO_FILENAME})
 	@echo
 	
 # NFORENUM process copy of the NFO
-renumber : nfo
+$(NFO_FILENAME) : $(PNFO_FILENAME)
+	# replace the place holders for version and name by the respective variables:
+	@echo "Setting title to $(GRF_TITLE)"
+	@sed s/{{GRF_TITLE}}/'$(GRF_TITLE)'/ $(PNFO_FILENAME) > $(NFO_FILENAME)
+	@echo	
 	@echo "NFORENUM processing:"
 	-$(NFORENUM) ${NFORENUM_FLAGS} $(NFO_FILENAME)
 	@echo
 	
 # Prepare the nfo file	
-nfo : unify
-	# replace the place holders for version and name by the respective variables:
-	@echo "Setting title to $(GRF_TITLE)"
-	@sed s/{{GRF_TITLE}}/'$(GRF_TITLE)'/ $(SPRITEDIR)/$(PNFO_FILENAME) > $(SPRITEDIR)/$(NFO_FILENAME)
-	@echo	
-	
-unify:
+$(PNFO_FILENAME) : $(SUB_FILES) $(LANG_FILES) $(OTHER_FILES) $(HEADER_FILE) $(FOOTER_FILE)
 	@echo
 	@echo "Generating the nfo:"
 	# The header file has to go first, the footer file has to go last. The others may in principle
 	# be juggled in between as seen fi.
-	@-rm $(SPRITEDIR)/$(PNFO_FILENAME)
+	@-rm $(PNFO_FILENAME)
 	@echo "Header..."
-	@cat $(NFODIR)/$(HEADER) > $(SPRITEDIR)/$(PNFO_FILENAME)
+	@cat $(NFODIR)/$(HEADER) > $(PNFO_FILENAME)
 	@echo "...other stuff..."
-	@cat $(OTHER_FILES) >> $(SPRITEDIR)/$(PNFO_FILENAME)
+	@cat $(OTHER_FILES) >> $(PNFO_FILENAME)
 	@echo "...engines by region..."
-	@cat $(SUB_FILES) >> $(SPRITEDIR)/$(PNFO_FILENAME)
+	@cat $(SUB_FILES) >> $(PNFO_FILENAME)
 	@echo "...languages..."
-	@cat $(LANG_FILES) >> $(SPRITEDIR)/$(PNFO_FILENAME)
+	@cat $(LANG_FILES) >> $(PNFO_FILENAME)
 	@echo "... and footer."
-	@cat $(NFODIR)/$(FOOTER) >> $(SPRITEDIR)/$(PNFO_FILENAME)
-		
+	@cat $(NFODIR)/$(FOOTER) >> $(PNFO_FILENAME)
+			
 # Clean the source tree
 clean:
 	@echo "Cleaning source tree:"
