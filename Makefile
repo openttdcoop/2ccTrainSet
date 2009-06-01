@@ -39,6 +39,9 @@ test :
 	@echo "GRF title:                    $(GRF_TITLE)"
 	@echo "Bundled files:				 $(FILES_BUNDLE)"
 	@echo "Bundle filenames:             Tar=$(TAR_FILENAME) Zip=$(ZIP_FILENAME) Bz2=$(BZIP_FILENAME)"
+#	@echo "Language files:               $(LANG_FILES)"
+#	@echo "NFO files:                    $(OTHER_FILES) $(SUB_FILES)"
+#	@echo "Header and footer:            $(NFODIR)/$(HEADER) $(NFODIR)/$(FOOTER)"
 
 # Compile GRF
 grf : renumber
@@ -69,11 +72,11 @@ unify:
 	@echo "Header..."
 	@cat $(NFODIR)/$(HEADER) > $(SPRITEDIR)/$(PNFO_FILENAME)
 	@echo "...other stuff..."
-	@for i in $(OTHERS); do cat $(NFODIR)/$$i >> $(SPRITEDIR)/$(PNFO_FILENAME); done
+	@cat $(OTHER_FILES) >> $(SPRITEDIR)/$(PNFO_FILENAME)
 	@echo "...engines by region..."
-	@for i in $(SUB_DIRS); do cat $(NFODIR)/$$i/*.$(NFO_SUFFIX) >> $(SPRITEDIR)/$(PNFO_FILENAME); done
+	@cat $(SUB_FILES) >> $(SPRITEDIR)/$(PNFO_FILENAME)
 	@echo "...languages..."
-	@cat $(NFODIR)/$(LANG_DIR)/*.$(NFO_SUFFIX) >> $(SPRITEDIR)/$(PNFO_FILENAME)
+	@cat $(LANG_FILES) >> $(SPRITEDIR)/$(PNFO_FILENAME)
 	@echo "... and footer."
 	@cat $(NFODIR)/$(FOOTER) >> $(SPRITEDIR)/$(PNFO_FILENAME)
 		
@@ -97,7 +100,7 @@ clean:
 	
 # Create the release bundle with all files in one tar
 tar : $(GRF_FILENAME)
-	$(TAR) $(TAR_FLAGS) $(TAR_FILENAME) -P $(FILES_BUNDLE)
+	$(TAR) $(TAR_FLAGS) $(TAR_FILENAME) $(FILES_BUNDLE)
 	@echo "Creating tar for publication"
 	@echo
 
