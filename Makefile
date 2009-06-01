@@ -81,23 +81,19 @@ unify:
 clean:
 	@echo "Cleaning source tree:"
 	@echo "Remove backups:"
-	-rm $(NFODIR)/*/*.orig
-	-rm $(NFODIR)/*.orig
-	-rm $(SPRITEDIR)/*.pre
-	-for i in $(MAINDIRS); do rm $$i/*.orig; done
-	@echo
-	@echo "Remove temporary .nfo:"
-	-rm $(SPRITEDIR)/*.nfo
-	-rm $(NFODIR)/$(LANG_DIR).nfo
-	-rm $(NFODIR)/*.orig
-	-rm $(NFODIR)/$(LANG_DIR)/*.orig
-	-for i in $(SUB_DIRS); do rm $(NFODIR)/$$i.nfo; done
-	@echo
-	@echo "Remove compiled .grf:"
-	-rm *.grf
-	@echo
+	-rm *.orig
+	-rm *.pre
+	-rm *.bak
+	-rm *~
+	@echo "Removing old bundles"
+	-rm $(FILENAME)*$(suffix $(TAR_FILENAME))
+	-rm $(FILENAME)*$(suffix $(ZIP_FILENAME))
+	-rm $(FILENAME)*$(suffix $(BZIP_FILENAME))
+	@echo "Removing old grfs and intermediate files"
+	-rm $(GRF_FILENAME)
+	-rm $(SPRITEDIR)/$(FILENAME).*
 	@echo "Removing old logs:"
-	-rm *.log
+	-rm *log
 	
 # Create the release bundle with all files in one tar
 tar : $(GRF_FILENAME)
