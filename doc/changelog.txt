@@ -1,0 +1,14 @@
+Changelog
+
+Version 1.0
+	initial introduction of changelog.txt :P
+
+Version 1.1
+	Change (r167): add license.txt
+	Feature (r161): French translation
+	Fix (r159, Bug #137): Self discharging hopper sprites
+	Fix (r158, Bug #139): Sm2 Engine couldn't use express wagons
+	Fix (r157, Bug #132): Wrong sprites assigned to gondola
+	Fix (r156): Flatbed wagon stats
+	Feature (r145): Build system using 'make'
+	
