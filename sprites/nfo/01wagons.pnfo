@@ -92,9 +92,9 @@
 
 
 
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
-// ¤¤¤ The rest ¤¤¤
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+// ï¿½ï¿½ï¿½ The rest ï¿½ï¿½ï¿½
+// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 // Long Flatbed
 -1 * 0  00 00 \b17 01 60 00 \w1960-01-01 04 \b255 05 00 06 07 07 08 09 \w160 12 FD 14 \b50 15 07 16 \b16 17 \b64 1C 00 21 01 27 02 28 \wxAA0 29 \wxDC 1D \dx10
@@ -1604,81 +1604,5 @@
 -1 * 0  02 00 E0 81 41 00 01 01  D3 00  00 00  C3 00
 
 -1 * 0  03 00 01 \b*1102 01 FF A1 00 E0 00
-
-// ############ Turbobus #############
-
-// Action 0:
--1 * 0  00 00 \b23 01 F0 00 \w2040-01-01 02 20 03 \b20 04 \b255 05 02 06 07 07 \b30 09 \w749 0B \w5000 12 FD 13 00  14 \b90  15 00  16 \b30  17 \b107  19 38  1F \b42  20 00  21 00  22 00  27 03 0E \dx4c3c 0D \b20
-
-//00 // Action 0
-//00 // Trains
-//ff // Number of props to change
-//01 // Only 1 at a time
-//1B // ID
-//00 \w1955-01-01 // Intro year \wyyyy-mm-dd
-//02 10 // Reliability Decay
-//03 \b60 // Vehicle Life/Years
-//04 \b15 // Model Life/Years
-//05 00 // Track type; 00 Rail, 01 Mono, 02 Mlev
-//06 07 // Climate availability
-//07 // Loading Speed
-//08 // AI Pax optimized
-//09 \w120 // Speed (word)
-//0B \w3298 // Power in HP (word)
-//0D // Running Cost Factor
-//0E // Running cost Base
-//12 FD // Use new grapics
-//13 00 // Dualhead? 00/01
-//14 00 // Cargo Capacity
-//15 // Cargo Type
-//16 \b130 // Weight/Tons
-//17 29 // Cost Factor; 01 = 3000, 10 = 50k, 20 = 100k, 80 = 400k, A0 = 500k, FF = 800k
-//19 28 // Traction Type; 00 Steam, 08 Diesel, 28 Electric, 32 Mono, 38 Mlev
-//1B // Power added by wagon (word)
-//23 // Tons added by wagon
-//1C // Refit cost
-//1D // Refit bitmask
-//1E // Callbacks
-//1F 2E // Tractive effort
-//20 40 // Air Drag
-//21 // Shorter vehicle
-//22 30 // Set visual effect, sparks, fumes, etc
-//27 // 01 tilt + 02 2cc + 04 = xMU
-//28 // New cargo (word) (\w1 = pax )
-//29 // New cargo not to use (\w464 = all but pax)
-
-//Action1: vt133
--1 * 0  01 00 01 08
-// Format: spritenum pcxfile 		xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
--1 sprites/mus/pcx/alstom-turbobus.pcx 	64	18	1	23	8	-3	-13
--1 sprites/mus/pcx/alstom-turbobus.pcx 	74	18	1	16	25	-9	-10
--1 sprites/mus/pcx/alstom-turbobus.pcx 	101	18	1	12	40	-12	-8
--1 sprites/mus/pcx/alstom-turbobus.pcx 	143	18	1	16	25	-9	-11
--1 sprites/mus/pcx/alstom-turbobus.pcx 	170	18	1	23	8	-3	-13
--1 sprites/mus/pcx/alstom-turbobus.pcx 	180	18	1	16	25	-9	-10
--1 sprites/mus/pcx/alstom-turbobus.pcx 	207	18	1	12	40	-12	-8
--1 sprites/mus/pcx/alstom-turbobus.pcx 	249	18	1	16	25	-9	-11
-
-
-// Action 2: alstom-turbobus
--1 * 0  02 00 AA 01 01 00 00 00 00
-
-//Purch List
--1 * 0  01 00 01 04
--1 * 0  0
--1 * 0  0
--1 sprites/mus/pcx/alstom-turbobus.pcx 	64	80 	01 	12 	87	-25 	-8	7
--1 * 0  0
-
-//Action2: Purch List
--1 * 0  02 00 A0 01 01 00 00 00 00
-//Connectable
--1 * 0	02 00 B3 81 C6 00 FF 01
-                    FE 80 00 00 
-                    F6 80       // allow everything else                     
--1 * 0	02 00 AA 81 0C 00 FF 01 B3 00 1D 1D AA 00
-
-// Action 3: ID
--1 * 0  03 00 01 F0 01 FF A0 00 AA 00
 
 // EOF
