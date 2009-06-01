@@ -1,3 +1,5 @@
 2cc*
 ./*.orig
 ./*log
+./*.bak
+Makefile.local
