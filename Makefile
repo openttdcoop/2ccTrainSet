@@ -36,7 +36,7 @@ test :
 	@echo "Local installation directory: $(INSTALLDIR)"
 	@echo "Repository revision:          r$(GRF_REVISION)"
 	@echo "GRF title:                    $(GRF_TITLE)"
-	@echo "Bundled files:				 $(GRF_BUNDLEDFILES)"
+	@echo "Bundled files:				 $(FILES_BUNDLE)"
 
 # Compile GRF
 grf : renumber
