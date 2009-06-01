@@ -1,7 +1,16 @@
 # Settings for the Makefile which define
 # various things like the names, paths, etc pp
 #
-# 
+
+# uncomment and edit your installation directory accordingly
+# it's the dir where the compiled grf goes so that OpenTTD
+# can find it and it's possible to include it in a game.
+# Linux:
+# INSTALLDIR = ~/.openttd/data
+# MacOS:
+# INSTALLDIR = ~/Documents/OpenTTD/data
+# Windows:
+# INSTALLDIR = %userprofile%\OpenTTD\data
 
 # GRF Name, Version, Build type or date
 # GRF_NAME        = 2cc Train Set
