@@ -28,9 +28,15 @@
 # Build parameters and programmes
 # NFORENUM_FLAGS = -w 141
 # GRFCODEC_FLAGS = -e -p 2
+# TAR_FLAGS      = cf
+# ZIP_FLAGS      = -9f
+# BZIP_FLAGS     = -k9f
 
 # NFORENUM = renum
 # GRFCODEC = grfcodec
+# TAR      = tar
+# ZIP      = gzip
+# BZIP     = bzip2
 
 # Paths defining the directory layout
 # SPRITEDIR   = ./sprites
@@ -60,7 +66,10 @@
 
 # GRF_TITLE    = $(GRF_NAME) $(GRF_BUILDNAME)
 
-# TAR_FILENAME  = $(FILENAME)-$(GRF_BUILDNAME).tar
+BUILDFILENAME = $(FILENAME)-$(GRF_BUILDNAME)
+# TAR_FILENAME  = $(BUILDFILENAME).tar
+# BZIP_FILENAME = $(BUILDFILENAME).bz2
+# ZIP_FILENAME  = $(BUILDFILENAME).zip
 # NFO_FILENAME  = $(addsuffix .$(NFO_SUFFIX), $(FILENAME))
 # PNFO_FILENAME = $(addsuffix .$(PNFO_SUFFIX),$(FILENAME))
 # GRF_FILENAME  = $(addsuffix .$(GRF_SUFFIX), $(FILENAME))

@@ -23,6 +23,7 @@ include ${MAKEFILECONFIG}
 # this overrides definitions from above by individual settings:
 -include ${MAKEFILELOCAL}
 
+BLUB = $(notdir $(FILES_BUNDLE))
 # Targets:
 # all, test, tar, install
 
@@ -37,6 +38,7 @@ test :
 	@echo "Repository revision:          r$(GRF_REVISION)"
 	@echo "GRF title:                    $(GRF_TITLE)"
 	@echo "Bundled files:				 $(FILES_BUNDLE)"
+	@echo "Bundle filenames:             Tar=$(TAR_FILENAME) Zip=$(ZIP_FILENAME) Bz2=$(BZIP_FILENAME)"
 
 # Compile GRF
 grf : renumber
@@ -98,13 +100,24 @@ clean:
 	-rm *.log
 	
 # Create the release bundle with all files in one tar
-tar :
-	tar cf $(TAR_FILENAME) $(FILES_BUNDLE)
+tar : $(GRF_FILENAME)
+	$(TAR) $(TAR_FLAGS) $(TAR_FILENAME) -P $(FILES_BUNDLE)
 	@echo "Creating tar for publication"
 	@echo
+
+zip : tar
+	@echo "creating zip'ed tar archive"
+	cat $(TAR_FILENAME) | $(ZIP) $(ZIP_FLAGS) > $(ZIP_FILENAME)
+
+bzip: tar
+	@echo "creating bzip2'ed tar archive"
+	$(BZIP) $(BZIP_FLAGS) $(TAR_FILENAME)
 
 # Installation process
 install: tar
 	@echo "Installing grf to $(INSTALLDIR)"
 	-cp $(TAR_FILENAME) $(INSTALLDIR)/$(TAR_FILENAME)
 	@echo
+
+bundle: grf tar bzip zip
+	@echo creating bundle for grf	
