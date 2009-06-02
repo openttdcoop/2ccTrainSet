@@ -120,3 +120,5 @@ install: tar
 
 bundle: grf tar bzip zip
 	@echo creating bundle for grf	
+	
+remake: clean all
