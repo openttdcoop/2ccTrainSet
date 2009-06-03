@@ -84,19 +84,7 @@ $(PNFO_FILENAME) : $(SUB_FILES) $(LANG_FILES) $(OTHER_FILES) $(HEADER_FILE) $(FO
 clean:
 	@echo "Cleaning source tree:"
 	@echo "Remove backups:"
-	-rm *.orig
-	-rm *.pre
-	-rm *.bak
-	-rm *~
-	@echo "Removing old bundles"
-	-rm $(FILENAME)*$(suffix $(TAR_FILENAME))
-	-rm $(FILENAME)*$(suffix $(ZIP_FILENAME))
-	-rm $(FILENAME)*$(suffix $(BZIP_FILENAME))
-	@echo "Removing old grfs and intermediate files"
-	-rm $(GRF_FILENAME)
-	-rm $(SPRITEDIR)/$(FILENAME).*
-	@echo "Removing old logs:"
-	-rm *log
+	-rm -rf *.orig *.pre *.bak *~ $(FILENAME)* $(SPRITEDIR)/$(FILENAME).*
 	
 # Create the release bundle with all files in one tar
 tar : $(GRF_FILENAME)
