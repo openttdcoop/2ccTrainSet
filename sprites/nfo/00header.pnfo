@@ -16,7 +16,7 @@
 // -1 * 0  00 08 01 29 00 09
 // "COAL" "WATR" "RUBB" "MAIL" "OIL_" // 0-4
 // "LVST" "GOOD" "CERE" "GRAN" "WHET" // 5-9
-// "MAIZ" "WOOD" "WODT" "IORE" "CORE" // 10-14
+// "MAIZ" "WOOD" "TWOD" "IORE" "CORE" // 10-14
 // "STEL" "PLAS" "VALU" "GOLD" "DIAM" // 15-19
 // "PAPR" "FOOD" "FRUT" "FISH" "WOOL" // 20-24
 // "POTA" "SAND" "GLAS" "WDPR" "DYES" // 25-29
