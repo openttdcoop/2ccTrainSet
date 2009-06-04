@@ -233,7 +233,7 @@
 	C3 9E "Carriage Capacity: " 8A "63 Passengers/48 Mail\n" 98 "Loading Speed: " 8A "Medium\n" 8B "NB: " 98 "Running costs per 1 unit"		00 // \wxD02B	594
 	C3 9E "Carriage Capacity: " 8A "38 Passengers/29 Mail\n" 98 "Loading Speed: " 8A "Low"													00 // \wxD02C	811
 	C3 9E "Carriage Capacity: " 8A "55 Passengers/41 Mail\n" 98 "Loading Speed: " 8A "Low"													00 // \wxD02D	BM93
-	C3 9E "Trailer Capacity: " 8A "80 Crates\n"																								00 // \wxD02E	CargoSprinter
+	C3 9E "Trailer Capacity: " 8A "80 Crates\nAttach Boxcars to it"																								00 // \wxD02E	CargoSprinter
 	C3 9E "Carriage Capacity: " 8A "75 Passengers/56 Mail\n" 98 "Loading Speed: " 8A "Medium"												00 // \wxD02F	DMU168
 	C3 9E "Carriage Capacity: " 8A "70 Passengers/53 Mail\n" 98 "Loading Speed: " 8A "Medium\n" 8B "NB: " 98 "Running costs per 1 unit"	00 // \wxD030	Hunter Railcar
 	C3 9E "Carriage Capacity: " 8A "73 Passengers/55 Mail\n" 98 "Loading Speed: " 8A "Medium"												00 // \wxD031	Lint41
