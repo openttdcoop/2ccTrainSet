@@ -614,131 +614,131 @@
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/flatbed.pcx 	10	39	1	20	8	-3	-12
 -1 sprites/wagons/pcx/flatbed.pcx 	26	39	1	14	20	-10	-8
--1 sprites/wagons/pcx/flatbed.pcx 	58	39	1	11	27	-14	-7
+-1 sprites/wagons/pcx/flatbed.pcx 	58	39	1	11	28	-12	-7
 -1 sprites/wagons/pcx/flatbed.pcx 	90	39	1	14	20	-10	-9
 -1 sprites/wagons/pcx/flatbed.pcx 	10	39	1	20	8	-3	-12
 -1 sprites/wagons/pcx/flatbed.pcx 	26	39	1	14	20	-10	-8
--1 sprites/wagons/pcx/flatbed.pcx 	58	39	1	11	27	-14	-7
+-1 sprites/wagons/pcx/flatbed.pcx 	58	39	1	11	28	-16	-7
 -1 sprites/wagons/pcx/flatbed.pcx 	90	39	1	14	20	-10	-9
 // Steel Stage 1 - 01 							
 -1 sprites/wagons/pcx/flatbed.pcx 	10	190	1	20	8	-3	-12
 -1 sprites/wagons/pcx/flatbed.pcx 	26	190	1	14	20	-10	-8
--1 sprites/wagons/pcx/flatbed.pcx 	58	190	1	11	27	-14	-7
+-1 sprites/wagons/pcx/flatbed.pcx 	58	190	1	11	28	-12	-7
 -1 sprites/wagons/pcx/flatbed.pcx 	90	190	1	14	20	-10	-9
 -1 sprites/wagons/pcx/flatbed.pcx 	10	211	1	20	8	-3	-12
 -1 sprites/wagons/pcx/flatbed.pcx 	26	211	1	14	20	-10	-8
--1 sprites/wagons/pcx/flatbed.pcx 	58	211	1	11	27	-14	-7
+-1 sprites/wagons/pcx/flatbed.pcx 	58	211	1	11	28	-16	-7
 -1 sprites/wagons/pcx/flatbed.pcx 	90	211	1	14	20	-10	-9
 
 
 // Steel Stage 2 - 02 							
 -1 sprites/wagons/pcx/flatbed.pcx 	10	246	1	20	8	-3	-12
 -1 sprites/wagons/pcx/flatbed.pcx 	26	246	1	14	20	-10	-8
--1 sprites/wagons/pcx/flatbed.pcx 	58	246	1	11	27	-14	-7
+-1 sprites/wagons/pcx/flatbed.pcx 	58	246	1	11	28	-12 -7
 -1 sprites/wagons/pcx/flatbed.pcx 	90	246	1	14	20	-10	-9
 -1 sprites/wagons/pcx/flatbed.pcx 	10	267	1	20	8	-3	-12
 -1 sprites/wagons/pcx/flatbed.pcx 	26	267	1	14	20	-10	-8
--1 sprites/wagons/pcx/flatbed.pcx 	58	267	1	11	27	-14	-7
+-1 sprites/wagons/pcx/flatbed.pcx 	58	267	1	11	28	-16	-7
 -1 sprites/wagons/pcx/flatbed.pcx 	90	267	1	14	20	-10	-9
 // Steel Stage 3 - 03 							
 -1 sprites/wagons/pcx/flatbed.pcx 	10	302	1	20	8	-3	-12
 -1 sprites/wagons/pcx/flatbed.pcx 	26	302	1	14	20	-10	-8
--1 sprites/wagons/pcx/flatbed.pcx 	58	302	1	11	27	-14	-7
+-1 sprites/wagons/pcx/flatbed.pcx 	58	302	1	11	28	-12	-7
 -1 sprites/wagons/pcx/flatbed.pcx 	90	302	1	14	20	-10	-9
 -1 sprites/wagons/pcx/flatbed.pcx 	10	302	1	20	8	-3	-12
 -1 sprites/wagons/pcx/flatbed.pcx 	26	302	1	14	20	-10	-8
--1 sprites/wagons/pcx/flatbed.pcx 	58	302	1	11	27	-14	-7
+-1 sprites/wagons/pcx/flatbed.pcx 	58	302	1	11	28	-16	-7
 -1 sprites/wagons/pcx/flatbed.pcx 	90	302	1	14	20	-10	-9
 
 
 // Boxes Stage 1 04							
 -1 sprites/wagons/pcx/flatbed.pcx 	10	75	1	20	8	-3	-12
 -1 sprites/wagons/pcx/flatbed.pcx 	26	75	1	14	20	-10	-8
--1 sprites/wagons/pcx/flatbed.pcx 	58	75	1	11	27	-14	-7
+-1 sprites/wagons/pcx/flatbed.pcx 	58	75	1	11	28	-12	-7
 -1 sprites/wagons/pcx/flatbed.pcx 	90	75	1	14	20	-10	-9
 -1 sprites/wagons/pcx/flatbed.pcx 	10	97	1	20	8	-3	-12
 -1 sprites/wagons/pcx/flatbed.pcx 	26	97	1	14	20	-10	-8
--1 sprites/wagons/pcx/flatbed.pcx 	58	97	1	11	27	-14	-7
+-1 sprites/wagons/pcx/flatbed.pcx 	58	97	1	11	28	-16	-7
 -1 sprites/wagons/pcx/flatbed.pcx 	90	97	1	14	20	-10	-9
 // Boxes Stage 2 05							
 -1 sprites/wagons/pcx/flatbed.pcx 	10	132	1	20	8	-3	-12
 -1 sprites/wagons/pcx/flatbed.pcx 	26	132	1	14	20	-10	-8
--1 sprites/wagons/pcx/flatbed.pcx 	58	132	1	11	27	-14	-7
+-1 sprites/wagons/pcx/flatbed.pcx 	58	132	1	11	28	-12	-7
 -1 sprites/wagons/pcx/flatbed.pcx 	90	132	1	14	20	-10	-9
 -1 sprites/wagons/pcx/flatbed.pcx 	10	132	1	20	8	-3	-12
 -1 sprites/wagons/pcx/flatbed.pcx 	26	132	1	14	20	-10	-8
--1 sprites/wagons/pcx/flatbed.pcx 	58	132	1	11	27	-14	-7
+-1 sprites/wagons/pcx/flatbed.pcx 	58	132	1	11	28	-16	-7
 -1 sprites/wagons/pcx/flatbed.pcx 	90	132	1	14	20	-10	-9
 
 
 // Paper Stage 1 06							
 -1 sprites/wagons/pcx/flatbed.pcx 	10	336	1	20	8	-3	-12
 -1 sprites/wagons/pcx/flatbed.pcx 	26	336	1	14	20	-10	-8
--1 sprites/wagons/pcx/flatbed.pcx 	58	336	1	11	27	-14	-7
+-1 sprites/wagons/pcx/flatbed.pcx 	58	336	1	11	28	-12	-7
 -1 sprites/wagons/pcx/flatbed.pcx 	90	336	1	14	20	-10	-9
 -1 sprites/wagons/pcx/flatbed.pcx 	10	357	1	20	8	-3	-12
 -1 sprites/wagons/pcx/flatbed.pcx 	26	357	1	14	20	-10	-8
--1 sprites/wagons/pcx/flatbed.pcx 	58	357	1	11	27	-14	-7
+-1 sprites/wagons/pcx/flatbed.pcx 	58	357	1	11	28	-16	-7
 -1 sprites/wagons/pcx/flatbed.pcx 	90	357	1	14	20	-10	-9
 // Paper Stage 2 07							
 -1 sprites/wagons/pcx/flatbed.pcx 	10	392	1	20	8	-3	-12
 -1 sprites/wagons/pcx/flatbed.pcx 	26	392	1	14	20	-10	-8
--1 sprites/wagons/pcx/flatbed.pcx 	58	392	1	11	27	-14	-7
+-1 sprites/wagons/pcx/flatbed.pcx 	58	392	1	11	28	-12	-7
 -1 sprites/wagons/pcx/flatbed.pcx 	90	392	1	14	20	-10	-9
 -1 sprites/wagons/pcx/flatbed.pcx 	10	413	1	20	8	-3	-12
 -1 sprites/wagons/pcx/flatbed.pcx 	26	413	1	14	20	-10	-8
--1 sprites/wagons/pcx/flatbed.pcx 	58	413	1	11	27	-14	-7
+-1 sprites/wagons/pcx/flatbed.pcx 	58	413	1	11	28	-16	-7
 -1 sprites/wagons/pcx/flatbed.pcx 	90	413	1	14	20	-10	-9
 
 
 // Paper Stage 3 08							
 -1 sprites/wagons/pcx/flatbed.pcx 	10	449	1	20	8	-3	-12
 -1 sprites/wagons/pcx/flatbed.pcx 	26	449	1	14	20	-10	-8
--1 sprites/wagons/pcx/flatbed.pcx 	58	449	1	11	27	-14	-7
+-1 sprites/wagons/pcx/flatbed.pcx 	58	449	1	11	28	-12	-7
 -1 sprites/wagons/pcx/flatbed.pcx 	90	449	1	14	20	-10	-9
 -1 sprites/wagons/pcx/flatbed.pcx 	10	449	1	20	8	-3	-12
 -1 sprites/wagons/pcx/flatbed.pcx 	26	449	1	14	20	-10	-8
--1 sprites/wagons/pcx/flatbed.pcx 	58	449	1	11	27	-14	-7
+-1 sprites/wagons/pcx/flatbed.pcx 	58	449	1	11	28	-16	-7
 -1 sprites/wagons/pcx/flatbed.pcx 	90	449	1	14	20	-10	-9
 // Wood Empty 09							
 -1 sprites/wagons/pcx/flatbed.pcx 	150	39	1	20	8	-3	-12
 -1 sprites/wagons/pcx/flatbed.pcx 	166	39	1	16	20	-10	-10
--1 sprites/wagons/pcx/flatbed.pcx 	198	39	1	13	27	-14	-9
+-1 sprites/wagons/pcx/flatbed.pcx 	198	39	1	13	28	-12	-9
 -1 sprites/wagons/pcx/flatbed.pcx 	230	39	1	16	20	-10	-11
 -1 sprites/wagons/pcx/flatbed.pcx 	150	39	1	20	8	-3	-12
 -1 sprites/wagons/pcx/flatbed.pcx 	166	39	1	16	20	-10	-10
--1 sprites/wagons/pcx/flatbed.pcx 	198	39	1	13	27	-14	-9
+-1 sprites/wagons/pcx/flatbed.pcx 	198	39	1	13	28	-16	-9
 -1 sprites/wagons/pcx/flatbed.pcx 	230	39	1	16	20	-10	-11
 
 
 // Wood Stage 1 0A							
 -1 sprites/wagons/pcx/flatbed.pcx 	150	72	1	20	8	-3	-12
 -1 sprites/wagons/pcx/flatbed.pcx 	166	72	1	16	20	-10	-10
--1 sprites/wagons/pcx/flatbed.pcx 	198	72	1	13	27	-14	-9
+-1 sprites/wagons/pcx/flatbed.pcx 	198	72	1	13	28	-12	-9
 -1 sprites/wagons/pcx/flatbed.pcx 	230	72	1	16	20	-10	-11
 -1 sprites/wagons/pcx/flatbed.pcx 	150	72	1	20	8	-3	-12
 -1 sprites/wagons/pcx/flatbed.pcx 	166	72	1	16	20	-10	-10
--1 sprites/wagons/pcx/flatbed.pcx 	198	72	1	13	27	-14	-9
+-1 sprites/wagons/pcx/flatbed.pcx 	198	72	1	13	28	-16	-9
 -1 sprites/wagons/pcx/flatbed.pcx 	230	72	1	16	20	-10	-11
 // Wood Stage 2 0B							
 -1 sprites/wagons/pcx/flatbed.pcx 	150	104	1	20	8	-3	-12
 -1 sprites/wagons/pcx/flatbed.pcx 	166	104	1	16	20	-10	-10
--1 sprites/wagons/pcx/flatbed.pcx 	198	104	1	13	27	-14	-9
+-1 sprites/wagons/pcx/flatbed.pcx 	198	104	1	13	28	-12	-9
 -1 sprites/wagons/pcx/flatbed.pcx 	230	104	1	16	20	-10	-11
 -1 sprites/wagons/pcx/flatbed.pcx 	150	104	1	20	8	-3	-12
 -1 sprites/wagons/pcx/flatbed.pcx 	166	104	1	16	20	-10	-10
--1 sprites/wagons/pcx/flatbed.pcx 	198	104	1	13	27	-14	-9
+-1 sprites/wagons/pcx/flatbed.pcx 	198	104	1	13	28	-16	-9
 -1 sprites/wagons/pcx/flatbed.pcx 	230	104	1	16	20	-10	-11
 
 
 // Wood Stage 3 0C							
 -1 sprites/wagons/pcx/flatbed.pcx 	150	140	1	20	8	-3	-12
 -1 sprites/wagons/pcx/flatbed.pcx 	166	140	1	16	20	-10	-10
--1 sprites/wagons/pcx/flatbed.pcx 	198	140	1	13	27	-14	-9
+-1 sprites/wagons/pcx/flatbed.pcx 	198	140	1	13	28	-12	-9
 -1 sprites/wagons/pcx/flatbed.pcx 	230	140	1	16	20	-10	-11
 -1 sprites/wagons/pcx/flatbed.pcx 	150	140	1	20	8	-3	-12
 -1 sprites/wagons/pcx/flatbed.pcx 	166	140	1	16	20	-10	-10
--1 sprites/wagons/pcx/flatbed.pcx 	198	140	1	13	27	-14	-9
+-1 sprites/wagons/pcx/flatbed.pcx 	198	140	1	13	28	-16	-9
 -1 sprites/wagons/pcx/flatbed.pcx 	230	140	1	16	20	-10	-11
 
 
