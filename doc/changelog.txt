@@ -4,6 +4,12 @@ Version 1.0
 	initial introduction of changelog.txt :P
 
 Version 1.1
+	Fix (r187) Fixed GFX for silowagons and add cement to their cargo
+	Fix (r185, #153): CargoSprinter bug
+	Change (r183): Buffers for the flatbed wagon
+	Fix (r179,#133?): CargoID for (tropical) wood was wrong
+	Change (r178): Add wood capability to the hoppers
+	Fix (r170): Alignment of Turbobus
 	Change (r167): add license.txt
 	Feature (r161): French translation
 	Fix (r159, Bug #137): Self discharging hopper sprites
@@ -11,4 +17,5 @@ Version 1.1
 	Fix (r157, Bug #132): Wrong sprites assigned to gondola
 	Fix (r156): Flatbed wagon stats
 	Feature (r145): Build system using 'make'
+	
 	
