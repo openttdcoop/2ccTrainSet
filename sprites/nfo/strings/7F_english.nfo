@@ -11,7 +11,7 @@
 -1 * 0  04 00 7F \b13 5F 
 	C3 9E "     2CC xMU Express Wagon"			00 // 5F
 	C3 9E "     Flatbed Wagon (Long)"			00 // 60
-	C3 9E "     Tanker Wagon (Long)"			00 // 61
+	C3 9E "     Tanker Wagon (Long )"			00 // 61
 	C3 9E "     Silo Wagon (Long)"				00 // 62
 	C3 9E "     Selfdischarging Hopper"			00 // 63
 	C3 9E "     Livestock Wagon"				00 // 64

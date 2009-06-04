@@ -107,10 +107,10 @@
 -1 * 0  00 00 \b16 01 61 00 \w1960-01-01 04 \b255 05 00 06 07 07 08 09 \w160 12 FD 14 \b45 15 03 16 \b23 17 \b77 1C 00 21 00 27 02 28 \w64 29 \w959
 
 // Long Silo
--1 * 0  00 00 \b17 01 62 00 \w1960-01-01 04 \b255 05 00 06 07 07 07 09 \w160 12 FD 14 \b45 15 06 16 \b26 17 \b86 1C 00 21 00 27 02 28 \wx50 29 \wxC0 1D \dx14102
+-1 * 0  00 00 \b17 01 62 00 \w1960-01-01 04 \b255 05 00 06 07 07 07 09 \w160 12 FD 14 \b45 15 06 16 \b26 17 \b86 1C 00 21 00 27 02   28 \w64   29 \w11   \dx14102
 
 // Selfdischarging hopper
--1 * 0  00 00 \b17 01 63 00 \w1960-01-01 04 \b255 05 00 06 07 07 07 09 \w160 12 FD 14 \b49 15 01 16 \b20 17 \b80 1C 00 21 01 27 02 28 \w16 29 \w975   1D \dx80
+-1 * 0  00 00 \b17 01 63 00 \w1960-01-01 04 \b255 05 00 06 07 07 07 09 \w160 12 FD 14 \b49 15 01 16 \b20 17 \b80 1C 00 21 01 27 02   1D \dx80   28 \w16 29 \w975
 
 // Boxcar Wagon
 -1 * 0  00 00 \b16 01 65 00 \w1960-01-01 04 \b255 05 00 06 07 07 07 09 \w160 12 FD 14 \b50 15 05 16 \b24 17 \b100 1C 00 21 00 27 02 28 \w900 29 \w67
@@ -128,7 +128,7 @@
 -1 * 0  00 00 \b16 01 67 00 \w1920-01-01 04 \b50 05 00 06 07 07 05 09 \w160 12 FD 14 \b27 15 03 16 \b23 17 \b77 1C 00 21 03 27 02 28 \w64 29 \w959
 
 // short Silo
--1 * 0  00 00 \b17 01 68 00 \w1920-01-01 04 \b50 05 00 06 07 07 05 09 \w160 12 FD 14 \b27 15 06 16 \b26 17 \b64 1C 00 21 02 27 02 28 \wx50 29 \wxC0 1D \dx14102
+-1 * 0  00 00 \b17 01 68 00 \w1920-01-01 04 \b50 05 00 06 07 07 05 09 \w160 12 FD 14 \b27 15 06 16 \b26 17 \b64 1C 00 21 02 27 02   28 \w64   29 \w11   \dx14102
 
 // short Hopper
 -1 * 0  00 00 \b17 01 69 00 \w1920-01-01 04 \b50 05 00 06 07 07 05 09 \w160 12 FD 14 \b30 15 01 16 \b23 17 \b60 1C 00 21 03 27 02 28 \w16 29 \w975  1D \dx80
@@ -897,18 +897,8 @@
 
 // ##### TANKER/SILO #####
 //Action1:
--1 * 0  01 00 02 08
+-1 * 0  01 00 01 08
 // Silo
-// Format: spritenum pcxfile 							
--1 sprites/wagons/pcx/tankerssilos.pcx 	1	160	1	24	8	-3	-12
--1 sprites/wagons/pcx/tankerssilos.pcx 	10	160	1	18	22	-11	-12
--1 sprites/wagons/pcx/tankerssilos.pcx 	33	160	1	12	32	-16	-8
--1 sprites/wagons/pcx/tankerssilos.pcx 	66	160	1	18	22	-11	-13
--1 sprites/wagons/pcx/tankerssilos.pcx 	89	160	1	24	8	-3	-11
--1 sprites/wagons/pcx/tankerssilos.pcx 	98	160	1	18	22	-11	-12
--1 sprites/wagons/pcx/tankerssilos.pcx 	121	160	1	12	32	-16	-8
--1 sprites/wagons/pcx/tankerssilos.pcx 	154	160	1	18	22	-11	-13
-// Tanker							
 -1 sprites/wagons/pcx/tankerssilos.pcx 	1	128	1	24	8	-3	-12
 -1 sprites/wagons/pcx/tankerssilos.pcx 	10	128	1	18	22	-11	-12
 -1 sprites/wagons/pcx/tankerssilos.pcx 	33	128	1	12	32	-16	-8
@@ -919,20 +909,15 @@
 -1 sprites/wagons/pcx/tankerssilos.pcx 	154	128	1	18	22	-11	-13
 
 
-
 // Action 2's
--1 * 0  02 00 A0 01 01 00 00 00 00 // Tanker
--1 * 0  02 00 A1 01 01 01 00 01 00 // Silo
+-1 * 0  02 00 A0 01 01 00 00 00 00 // Silo
 
--1 * 0  01 00 \b2 01
--1 sprites/wagons/pcx/tankerssilos.pcx	1	192	1	12	63	-25	-8
--1 sprites/wagons/pcx/tankerssilos.pcx	1	208	1	12	63	-25	-8
--1 * 0  02 00 05 01 01 00 00 00 00
--1 * 0  02 00 06 01 01 01 00 01 00
+-1 * 0  01 00 \b1 01
+-1 sprites/wagons/pcx/tankerssilos.pcx	1	192	1	12	63	-25	-8 // Silo
+-1 * 0  02 00 05 01 01 00 00 00 00 // Silo
 
 // Action 3's
--1 * 0  03 00 01 61 01 FF 05 00 A0 00
--1 * 0  03 00 01 62 01 FF 06 00 A1 00
+-1 * 0  03 00 01 62 01 FF 05 00 A0 00 // silo
 
 
 // ##### Tanker/Silo - Short #####
