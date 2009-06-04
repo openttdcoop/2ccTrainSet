@@ -3,7 +3,7 @@ Changelog
 Version 1.0
 	initial introduction of changelog.txt :P
 
-Version 1.1
+Version 1.0.1
 	Fix (r187) Fixed GFX for silowagons and add cement to their cargo
 	Fix (r185, #153): CargoSprinter bug
 	Change (r183): Buffers for the flatbed wagon
@@ -17,5 +17,5 @@ Version 1.1
 	Fix (r157, Bug #132): Wrong sprites assigned to gondola
 	Fix (r156): Flatbed wagon stats
 	Feature (r145): Build system using 'make'
-	
+	translations: +French, +Danish
 	

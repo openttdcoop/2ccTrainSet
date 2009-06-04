@@ -127,7 +127,6 @@ planetmaker
 Ammler
 Death (ex-coder)
 Wile E. Coyote (ex-coder)
-XeryusTC (metro GRF coder)
 
 Stats Researcher:
 Ameecher
@@ -135,13 +134,16 @@ DJ Nekkid
 trainboy2004
 
 Translators:
+ (Danish)
+glx (French)
 Hirundo (Dutch)
 micomico (Portuguese)
 planetmaker (German)
 
 Host:
 orudge (Project's main page)
+#openttdcoop association (DevZone) 
 ThorRune (ex-host)
-#openttdcoop (DevZone) 
+
 
 You will find most authors at tt-forums.net
