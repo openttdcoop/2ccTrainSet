@@ -134,7 +134,7 @@ DJ Nekkid
 trainboy2004
 
 Translators:
- (Danish)
+Pizen (Danish)
 glx (French)
 Hirundo (Dutch)
 micomico (Portuguese)
