@@ -86,22 +86,32 @@ clean:
 	@echo "Remove backups:"
 	-rm -rf *.orig *.pre *.bak *~ $(FILENAME)* $(SPRITEDIR)/$(FILENAME).*
 	
-# Create the release bundle with all files in one tar
-tar : $(GRF_FILENAME)
-	$(TAR) $(TAR_FLAGS) $(TAR_FILENAME) $(FILES_BUNDLE)
+$(DIR_NAME): $(BUNDLE_FILES)
+	@-mkdir $@ 2>/dev/null
+	@-for i in $(REPO_DIRS); do mkdir $@/$$i 2>/dev/null; done
+	@echo $(BUNDLE_FILES)
+	@-for i in $(BUNDLE_FILES); do cp $$i $(DIR_NAME)/$$i; done	
+
+$(TAR_FILENAME): $(DIR_NAME) $(BUNDLE_FILES)
+	# Create the release bundle with all files in one tar
+	$(TAR) $(TAR_FLAGS) $(TAR_FILENAME) $(DIR_NAME)
 	@echo "Creating tar for publication"
 	@echo
 
-zip : tar
+tar : $(TAR_FILENAME)
+
+zip : tar $(ZIP_FILENAME)
+$(ZIP_FILENAME):
 	@echo "creating zip'ed tar archive"
 	cat $(TAR_FILENAME) | $(ZIP) $(ZIP_FLAGS) > $(ZIP_FILENAME)
 
-bzip: tar
+bzip: tar $(BZIP_FILENAME)
+$(BZIP_FILENAME):
 	@echo "creating bzip2'ed tar archive"
 	$(BZIP) $(BZIP_FLAGS) $(TAR_FILENAME)
 
 # Installation process
-install: tar
+install: $(TAR_FILENAME)
 	@echo "Installing grf to $(INSTALLDIR)"
 	-cp $(TAR_FILENAME) $(INSTALLDIR)/$(TAR_FILENAME)
 	@echo
