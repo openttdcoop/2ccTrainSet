@@ -23,7 +23,7 @@ include ${MAKEFILECONFIG}
 # this overrides definitions from above by individual settings:
 -include ${MAKEFILELOCAL}
 
-BLUB = $(notdir $(FILES_BUNDLE))
+REPO_DIRS    = $(dir $(BUNDLE_FILES))
 # Targets:
 # all, test, tar, install
 
