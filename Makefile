@@ -49,7 +49,7 @@ grf : $(GRF_FILENAME) $(SUB_FILES) $(LANG_FILES) $(OTHER_FILES) $(HEADER_FILE) $
 $(GRF_FILENAME): $(NFO_FILENAME)
 	# pipe all nfo files through grfcodec and produce the grf(s)
 	@echo "Compiling GRF:"
-	$(GRFCODEC) ${GRFCODEC_FLAGS} $(notdir ${NFO_FILENAME})
+	$(GRFCODEC) ${GRFCODEC_FLAGS} $(notdir ${GRF_FILENAME})
 	@echo
 	
 # NFORENUM process copy of the NFO
