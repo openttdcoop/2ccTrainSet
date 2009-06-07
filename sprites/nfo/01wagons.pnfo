@@ -1176,17 +1176,16 @@
 -1 sprites/wagons/pcx/livestock.pcx 	98	32	1	16	22	-11	-8
 -1 sprites/wagons/pcx/livestock.pcx 	121	32	1	12	32	-16	-8
 -1 sprites/wagons/pcx/livestock.pcx 	154	32	1	16	22	-11	-8
-
 // Coal 2 02
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/livestock.pcx 	1	64	1	23	8	-3	-11
--1 sprites/wagons/pcx/livestock.pcx 	10	64	1	16	22	-11	-10
+-1 sprites/wagons/pcx/livestock.pcx 	10	64	1	16	22	-11	-8
 -1 sprites/wagons/pcx/livestock.pcx 	33	64	1	12	32	-16	-8
--1 sprites/wagons/pcx/livestock.pcx 	66	64	1	16	22	-11	-11
+-1 sprites/wagons/pcx/livestock.pcx 	66	64	1	16	22	-11	-8
 -1 sprites/wagons/pcx/livestock.pcx 	89	64	1	23	8	-3	-11
--1 sprites/wagons/pcx/livestock.pcx 	98	64	1	16	22	-11	-10
+-1 sprites/wagons/pcx/livestock.pcx 	98	64	1	16	22	-11	-8
 -1 sprites/wagons/pcx/livestock.pcx 	121	64	1	12	32	-16	-8
--1 sprites/wagons/pcx/livestock.pcx 	154	64	1	16	22	-11	-11
+-1 sprites/wagons/pcx/livestock.pcx 	154	64	1	16	22	-11	-8
 
 
 
