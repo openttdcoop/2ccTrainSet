@@ -34,17 +34,20 @@ all : grf
 test : 
 	@echo "Call of nforenum:             $(NFORENUM) $(NFORENUM_FLAGS)"
 	@echo "Call of grfcodec:             $(GRFCODEC) $(GRFCODEC_FLAGS)"
-	@echo "Local installation directory: "$(shell [ -n "$(INSTALLDIR)" ] && echo "$(INSTALLDIR)" || echo "Not defined!")
+	@echo "Local installation directory: $(shell [ -n "$(INSTALLDIR)" ] && echo "$(INSTALLDIR)" || echo "Not defined!")"
 	@echo "Repository revision:          r$(GRF_REVISION)"
 	@echo "GRF title:                    $(GRF_TITLE)"
 	@echo "Bundled files:				 $(BUNDLE_FILES)"
 	@echo "Bundle filenames:             Tar=$(TAR_FILENAME) Zip=$(ZIP_FILENAME) Bz2=$(BZIP_FILENAME)"
-#	@echo "Language files:               $(LANG_FILES)"
-#	@echo "NFO files:                    $(OTHER_FILES) $(SUB_FILES)"
-#	@echo "Header and footer:            $(NFODIR)/$(HEADER) $(NFODIR)/$(FOOTER)"
+	@echo "Language files:               $(LANG_FILES)"
+	@echo "NFO files:                    $(HEADER_FILE) $(OTHER_FILES) $(NFO_SUBFILES) $(FOOTER_FILE)"
+	@echo "PCX files:                    $(PCX_FILES)"
+	@echo "Sub dirs:                     $(foreach dir,$(NFO_SUBDIRS),$(NFODIR)/$(dir))"
+#	@echo "Files in sub dirs:            $(NFO_SUBFILES)"
+#	@echo "Sub files:                    $(foreach dir,$(NFO_SUBDIRS),$(wildcard $(NFODIR)/$(dir)/*.$(PNFO_SUFFIX)))"
 
 # Compile GRF
-grf : $(GRF_FILENAME) $(SUB_FILES) $(LANG_FILES) $(OTHER_FILES) $(HEADER_FILE) $(FOOTER_FILE)
+grf : $(GRF_FILENAME)
 
 $(GRF_FILENAME): $(NFO_FILENAME)
 	# pipe all nfo files through grfcodec and produce the grf(s)
@@ -53,32 +56,37 @@ $(GRF_FILENAME): $(NFO_FILENAME)
 	@echo
 	
 # NFORENUM process copy of the NFO
-$(NFO_FILENAME) : $(PNFO_FILENAME)
+$(NFO_FILENAME) : $(CPNFO_FILENAME)
 	# replace the place holders for version and name by the respective variables:
 	@echo "Setting title to $(GRF_TITLE)"
-	@sed s/{{GRF_TITLE}}/'$(GRF_TITLE)'/ $(PNFO_FILENAME) > $(NFO_FILENAME)
+	@sed s/{{GRF_TITLE}}/'$(GRF_TITLE)'/ $(CPNFO_FILENAME) > $(NFO_FILENAME)
 	@echo	
 	@echo "NFORENUM processing:"
 	-$(NFORENUM) ${NFORENUM_FLAGS} $(NFO_FILENAME)
 	@echo
 	
 # Prepare the nfo file	
-$(PNFO_FILENAME) : $(SUB_FILES) $(LANG_FILES) $(OTHER_FILES) $(HEADER_FILE) $(FOOTER_FILE)
+$(CPNFO_FILENAME) : $(NFO_SUBFILES) $(PCX_FILES) $(LANG_FILES) $(OTHER_FILES) $(HEADER_FILE) $(FOOTER_FILE)
 	@echo
 	@echo "Generating the nfo:"
 	# The header file has to go first, the footer file has to go last. The others may in principle
-	# be juggled in between as seen fi.
-	@-rm $(PNFO_FILENAME)
+	# be juggled in between as seen fit.
 	@echo "Header..."
-	@cat $(NFODIR)/$(HEADER) > $(PNFO_FILENAME)
+	@cat $(HEADER_FILE) > $(CPNFO_FILENAME)
 	@echo "...other stuff..."
-	@cat $(OTHER_FILES) >> $(PNFO_FILENAME)
+	@cat $(OTHER_FILES) >> $(CPNFO_FILENAME)
 	@echo "...engines by region..."
-	@cat $(SUB_FILES) >> $(PNFO_FILENAME)
+	@cat $(NFO_SUBFILES) >> $(CPNFO_FILENAME)
 	@echo "...languages..."
-	@cat $(LANG_FILES) >> $(PNFO_FILENAME)
+	@cat $(LANG_FILES) >> $(CPNFO_FILENAME)
 	@echo "... and footer."
-	@cat $(NFODIR)/$(FOOTER) >> $(PNFO_FILENAME)
+	@cat $(FOOTER_FILE) >> $(CPNFO_FILENAME)
+	
+# Rules for making the appropriate files: no rule. Just check for them
+%.$(PCX_SUFFIX):
+	@echo "Checking $@"
+%.$(PNFO_SUFFIX):
+	@echo "Checking $@"
 			
 # Clean the source tree
 clean:
@@ -89,9 +97,8 @@ clean:
 $(DIR_NAME): $(BUNDLE_FILES)
 	@echo "Creating dir $(DIR_NAME)."
 	@-mkdir $@ 2>/dev/null
-	@-for i in $(REPO_DIRS); do [ ! -e $@/$$i ] && mkdir $@/$$i 2>/dev/null; done
 	@echo "Copying files: $(BUNDLE_FILES)"
-	@-for i in $(BUNDLE_FILES); do cp $$i $(DIR_NAME)/$$i; done	
+	@-for i in $(BUNDLE_FILES); do cp $$i $(DIR_NAME); done	
 
 $(TAR_FILENAME): $(DIR_NAME) $(BUNDLE_FILES)
 	# Create the release bundle with all files in one tar
