@@ -34,10 +34,10 @@ all : grf
 test : 
 	@echo "Call of nforenum:             $(NFORENUM) $(NFORENUM_FLAGS)"
 	@echo "Call of grfcodec:             $(GRFCODEC) $(GRFCODEC_FLAGS)"
-	@echo "Local installation directory: $(INSTALLDIR)"
+	@echo "Local installation directory: "$(shell [ -n "$(INSTALLDIR)" ] && echo "$(INSTALLDIR)" || echo "Not defined!")
 	@echo "Repository revision:          r$(GRF_REVISION)"
 	@echo "GRF title:                    $(GRF_TITLE)"
-	@echo "Bundled files:				 $(FILES_BUNDLE)"
+	@echo "Bundled files:				 $(BUNDLE_FILES)"
 	@echo "Bundle filenames:             Tar=$(TAR_FILENAME) Zip=$(ZIP_FILENAME) Bz2=$(BZIP_FILENAME)"
 #	@echo "Language files:               $(LANG_FILES)"
 #	@echo "NFO files:                    $(OTHER_FILES) $(SUB_FILES)"
