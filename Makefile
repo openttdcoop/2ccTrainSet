@@ -88,6 +88,7 @@ clean:
 $(DIR_NAME): $(BUNDLE_FILES)
 	@echo "Creating dir $(DIR_NAME)."
 	@-mkdir $@ 2>/dev/null
+	@-rm $@/* 2>/dev/null
 	@echo "Copying files: $(BUNDLE_FILES)"
 	@-for i in $(BUNDLE_FILES); do cp $$i $(DIR_NAME); done	
 
