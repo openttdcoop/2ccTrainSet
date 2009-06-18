@@ -57,8 +57,8 @@ $(GRF_FILENAME): $(NFO_FILENAME)
 	
 # NFORENUM process copy of the NFO
 $(NFO_FILENAME) : $(CPNFO_FILENAME)
-	# replace the place holders for version and name by the respective variables:
-	@echo "Setting title to $(GRF_TITLE)"
+	@# replace the place holders for version and name by the respective variables:
+	@echo "Setting title to $(GRF_TITLE)..."
 	@sed s/{{GRF_TITLE}}/'$(GRF_TITLE)'/ $(CPNFO_FILENAME) > $(NFO_FILENAME)
 	@echo	
 	@echo "NFORENUM processing:"
@@ -68,19 +68,10 @@ $(NFO_FILENAME) : $(CPNFO_FILENAME)
 # Prepare the nfo file	
 $(CPNFO_FILENAME) : $(NFO_SUBFILES) $(PCX_FILES) $(LANG_FILES) $(OTHER_FILES) $(HEADER_FILE) $(FOOTER_FILE)
 	@echo
-	@echo "Generating the nfo:"
-	# The header file has to go first, the footer file has to go last. The others may in principle
-	# be juggled in between as seen fit.
-	@echo "Header..."
-	@cat $(HEADER_FILE) > $(CPNFO_FILENAME)
-	@echo "...other stuff..."
-	@cat $(OTHER_FILES) >> $(CPNFO_FILENAME)
-	@echo "...engines by region..."
-	@cat $(NFO_SUBFILES) >> $(CPNFO_FILENAME)
-	@echo "...languages..."
-	@cat $(LANG_FILES) >> $(CPNFO_FILENAME)
-	@echo "... and footer."
-	@cat $(FOOTER_FILE) >> $(CPNFO_FILENAME)
+	@echo "Generating the $(CPNFO_FILENAME)..."
+	@# The header file has to go first, the footer file has to go last. The others may in principle
+	@# be juggled in between as seen fit.
+	@cat $(HEADER_FILE) $(OTHER_FILES) $(NFO_SUBFILES) $(LANG_FILES) $(FOOTER_FILE) > $(CPNFO_FILENAME)
 	
 # Rules for making the appropriate files: no rule. Just check for them
 %.$(PCX_SUFFIX):
