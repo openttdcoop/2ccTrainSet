@@ -13,19 +13,19 @@
 // Physical properties
   00 \w1995-01-01 // Intro year \wyyyy-mm-dd
   09 \w300  // Speed (word)
-  0B \w12000// Power in HP (word)
+  0B \w12000 // Power in HP (word)
   1F \b60   // Tractive effort
   16 \b65   // Weight/Tons
   20 20     // Air Drag
 
 // Economical properties
-  14 \b55   // Cargo Capacity
-  15 01     // Cargo Type
+  14 \b50   // Cargo Capacity
+  15 00     // Cargo Type
   1D \dx0   // Refit bitmask
-  28 \wx0   // New cargo (word)
+  28 \wx0b  // New cargo
   29 \wx3f0 // New NOT Cargo
-  0D \b10   // Running Cost Factor
-  0E \wx3c30// Running cost Base
+  0D \b100  // Running Cost Factor
+  0E \dx3c30 // Running cost Base
   17 40     // Cost Factor
   1C 00     // Refit cost
 
@@ -34,7 +34,7 @@
   19 28     // Traction Type; 00 Steam, 08 Diesel, 28 Electric, 32 Mono, 38 Mlev
   22 30     // Set visual effect, sparks, fumes, etc
   13 00     // Dualhead? 00/01
-  1E \wx3FF // Callbacks
+  1E FF     // Callbacks
   21 00     // Shorter vehicle
   27 06     // 01 tilt + 02 2cc + 04 xMU
 
@@ -51,14 +51,14 @@
 7 sprites/mus/pcx/test.pcx	121	01	1	14	32	-16	-10
 8 sprites/mus/pcx/test.pcx	154	01	1	18	22	-6	-10
 // End/Red lights
-1 sprites/mus/pcx/test.pcx	01	32	1	24	08	-3	-12
-2 sprites/mus/pcx/test.pcx	10	32	1	18	22	-14	-10
-3 sprites/mus/pcx/test.pcx	33	32	1	14	32	-16	-10
-4 sprites/mus/pcx/test.pcx	66	32	1	18	22	-6	-10
 5 sprites/mus/pcx/test.pcx	89	32	1	24	08	-3	-12
 6 sprites/mus/pcx/test.pcx	98	32	1	18	22	-14	-10
 7 sprites/mus/pcx/test.pcx	121	32	1	14	32	-16	-10
 8 sprites/mus/pcx/test.pcx	154	32	1	18	22	-6	-10
+1 sprites/mus/pcx/test.pcx	01	32	1	24	08	-3	-12
+2 sprites/mus/pcx/test.pcx	10	32	1	18	22	-14	-10
+3 sprites/mus/pcx/test.pcx	33	32	1	14	32	-16	-10
+4 sprites/mus/pcx/test.pcx	66	32	1	18	22	-6	-10
 // Pax
 1 sprites/mus/pcx/test.pcx	01	64	1	24	08	-3	-12
 2 sprites/mus/pcx/test.pcx	10	64	1	18	22	-14	-10
@@ -84,7 +84,7 @@
 4 * 0  0
 5 * 0  0
 6 * 0  0
-7 sprites/mus/pcx/test.pcx	01	128	1	12	87	-40	-08
+7 sprites/mus/pcx/test.pcx	01	128	1	12	87	-25	-08
 8 * 0  0
 
 -1 * 0  02 00 10 01 01 \w0 \w0 // ##>
@@ -94,24 +94,24 @@
 -1 * 0  02 00 40 01 01 \w4 \w4 // P-list
 
 // ----- Apply P-list text -----
--1 * 0  02 00 4F 0C 00 FF 01   STR_<engine> 80 23 23   40 00
+-1 * 0  02 00 4F 81 0C 00 FF 01   STR_<engine> 80 23 23   40 00
 
 // --------------------
 // ----- Generic ------
 // --------------------
-
+// Change the <speed> with actual loading speed.
 // Loading speed of the various cargos
 -1 * 0  02 00 E1 82 47 00 FF 02
                       \b<speed> 80 02 02 // Mail 
                       \b<speed> 80 08 08 // Armored 
                       \b<speed> 80       // pax/tourist 
                       
-//Capacty for use in '10' at the capacity spot 
-// x = 0 if <capacity> < 255, if more then 255, add 1 and substract 255 (i.e. 256 capacity is \b01 81) ---
--1 * 0  02 00 E4 82 47 00 FF 03
-               \b<capacity * 3> 8x 02 02 // Mail Capacity
-               \b<capacity * 2> 8x 08 08 // Armored capacity
-               \b<capacity * 4> 8x 05 05 // Tourist capacity
+//Capacty for use in CB15 
+//Change <capacity> with 
+-1 * 0  02 00 E5 82 47 00 FF 03
+                   \b<capacity> 80 02 02 // Mail Capacity
+                   \b<capacity> 80 08 08 // Armored capacity
+                   \b<capacity> 80 05 05 // Tourist capacity
                    \b<capacity> 80       // Other/pax capacity
 //Low cost when standing still, for use in the '10' at the running cost spot
 -1 * 0  02 00 ED 82 B4 00 FF 01        // 1 case
@@ -119,7 +119,7 @@
                        <cost> 80       // Running cost
 // '10' for CB36s
 -1 * 0  02 00 EF 82 10 00 FF 02
-                             E4 00 14 14 // New capacity
+                           \b<cap> 80 14 14 // New _PAX_ capacity
                              ED 00 0D 0D // Running cost
                              00 00       // Dont matter
 
@@ -132,8 +132,9 @@
                              FF 80 ID_MU ID_MU     // allow attaching MU-wagon
                              FF 80 ID_SELF ID_SELF // Allow attaching self
                              STR_CANTATTACH 80           // Dissalow everything else
--1 * 0  02 00 AF 81 0C 00 FF 03          // 3 callbacks
-                             E1 00 11 11 // Loading speed
+-1 * 0  02 00 AF 81 0C 00 FF 04          // 3 callbacks
+                             E1 00 12 12 // Loading speed
+                             E5 00 15 15 // Cargo Capacity
                              A6 00 1D 1D // Cannot attach 
                              EF 00 36 36 // New stuff
                              10 00       // Attach engine gfx
@@ -146,15 +147,16 @@
 -1 * 0  02 00 50 81 47 00 FF 02
                              30 00 02 02 // Mail gfx
                              30 00 08 08 // Armored gfx
-                             20 80       // Other/pax capacity
+                             20 00       // Tourist/pax gfx
 
 // GFX depending on pos in consist
 -1 * 0  02 00 51 81 41 08 FF 01          // 1 case, counted from behind
                              11 00 00 00 // Back engine if last
                              50 00       // GFX depending on cargo if not last
 
--1 * 0  02 00 5F 82 0C 00 FF 02          // 2 callback
-                             E1 00 11 11 // Loading speed
+-1 * 0  02 00 5F 82 0C 00 FF 03          // 2 callback
+                             E1 00 12 12 // Loading speed
+                             E5 00 15 15 // Cargo Capacity
                              EF 00 36 36 // Change props
                              51 00       // Attach GFX
 
