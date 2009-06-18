@@ -3,3 +3,5 @@
 ./*log
 ./*.bak
 Makefile.local
+.DS_Store
+./*.diff
