@@ -228,7 +228,8 @@
 
 // Other strings (moved here from 00header.nfo)
 //-1 * 0  04 00 FF 2B \wxd000 ... \wxd02A (not used)
-	
+
+// MU p-list window info
 -1 * 0  04 00 FF \b35 \wxd02B 
 	C3 9E "Carriage Capacity: " 8A "63 Passengers/48 Mail\n" 98 "Loading Speed: " 8A "Medium\n" 8B "NB: " 98 "Running costs per 1 unit"		00 // \wxD02B	594
 	C3 9E "Carriage Capacity: " 8A "38 Passengers/29 Mail\n" 98 "Loading Speed: " 8A "Low"													00 // \wxD02C	811
@@ -265,15 +266,14 @@
 	C3 9E "Carriage Capacity: " 8A "52 Passengers/39 Mail\n" 98 "Loading Speed: " 8A "Low"													00 // \wxD04B	IC125
 	C3 9E "Carriage Capacity: " 8A "52 Passengers\n" 98 "Loading Speed: " 8A "Low"															00 // \wxD04C	mat36
 	C3 9E "Carriage Capacity: " 8A "90 Passengers/68 Mail\n" 98 "Loading Speed: " 8A "Medium\n" 8B "NB: " 98 "Running costs per 1 unit"		00 // \wxD04D	Chicago Doubler
-
 // -1 * 0  04 00 FF \b35 \wxd04E ... \wxd06F (not used)
-
 -1 * 0  04 00 FF \b1 \wxd070 
 	C3 9E "\n" 98 "Capacity will change when attached to a loco\nUse OpenTTD or TTDPatch r1966 or newer\n" 8B "Can only be used with Multiple Units"	00 // \wxd070	
-
 -1 * 0  04 00 FF 01 \wxD0D0 
 	C3 9E "\nExperimental world record train"									00 // \wxD0D0	POS V150
 	
+	
+// Error messages
 -1 * 0  04 00 FF \b7 \wxd0F6 
 	C3 9E "Can only be one unit long"											00 // \wxD0F6	
 	C3 9E "Can only attach to itself"											00 // \wxD0F7
@@ -282,7 +282,8 @@
 	C3 9E "Use only long boxcars on CargoSprinter"								00 // \wxD0FA
 	C3 9E "Use PAX/Express MU-wagons"											00 // \wxD0FB
 	C3 9E "Use PAX MU-wagon"													00 // \wxD0FC
-	
+
+// Misc
 -1 * 0  04 00 FF \b2 \wxD0FE 
 	C3 9E 8B "Optional B-unit(s)(50% runningcost)," 98 " Can be used at either end"	00 // \wxD0FE
 	C3 9E 8B "Optional B-unit(s)(50% runningcost)"									00 // \wxD0FF
