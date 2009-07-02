@@ -1,4 +1,8 @@
-2cc*
+2cctrainset.grf
+2cctrainset.nfo
+2cctrainset.pnfo
+2cctrainset.cpnfo
+2cctrainset-nightly*
 ./*.orig
 ./*log
 ./*.bak
