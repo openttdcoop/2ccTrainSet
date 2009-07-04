@@ -12,6 +12,8 @@ Content
 6. License
 7. Authors	
 
+
+
 1. About the set:
 -----------------
 
@@ -21,6 +23,16 @@ Another thing about this set is the (by default) high runningcosts, but this is 
 Note that on MU's is the running cost showed PER unit. This means the price in the purchasewindow is applied to each unit in the train. If the price is shown as 5000$, 5 units (including both heads) is 25 000$.
 
 A nicely readable README with images can be found at the projects website: http://users.tt-forums.net/2cc/index.html
+
+If you want to check the integrity of your grf or check wether your self-compiled grf is the the same as it should, compare the values shown ingame in the NewGRF selection window with these values:
+
+GRF Name: {{GRF_TITLE}}
+GRF ID:   {{GRF_ID}}
+GRF MD5:  {{GRF_MD5}}
+
+Repository version: {{GRF_REVISION}}
+
+
 
 2. Parameters
 -------------
@@ -54,6 +66,8 @@ Other parameters set regional engine availability. with
 Example: add "7 0 0 0 0 0 0 0 0 1" in the "set parameters"-box, and you will get
 lowered costs, and everyting but western european engines 
 
+
+
 3. GRF Dependencies
 -------------------
 GRF Name 	Dependancy 		Where to get it 	Readme?
@@ -61,17 +75,21 @@ Metro Tracks 	HIGHLY Recommended 	Our download page 	Yes :)
 
 Note: FooBar's Transrapid Tracks are planned to be a recommended dependancy too. 
 
+
+
 4. Loading speed on passenger cars
 ----------------------------------
 
 In this set do we have 3 different "styles" of passenger cars, and they all have different loading speed based on their role in real life
 Type 			Loading Speed	Passengers 	Typical Capacity	Typical
-			Indiactor	per tick	Per Unit		Running speed
+					Indiactor	per tick		Per Unit	Running speed
 
-InterCity Trains 	Low 		8 per tick 	40-50 			125mph/200kmh or higher
-Commuter Trains 	Medium 		20 per tick 	45-120 			60-100mph/100-160kmh
-Metro Trains 		None	 	60 on them all! +-150 			Below 60mph/100kmh
-			(own system)
+InterCity Trains 	Low 		8 per tick		40-50 		125mph/200kmh or higher
+Commuter Trains 	Medium 		20 per tick 	45-120 		60-100mph/100-160kmh
+Metro Trains 		None	 	60 on them all! +-150 		Below 60mph/100kmh
+															(own system)
+
+
 
 5. Introduction years of track types in the regions
 ---------------------------------------------------
@@ -88,6 +106,8 @@ Australia 		1969: 422 		2007: OSCars 		N/A
 Africa		 	N/A		 	N/A 			1987: Cairo Metro
 
 Note: This overview is based upon known stats, it is possible the actual GRF got additional vehicles based upon guesstimates. Since the GRF is in development, it's even possible it includes less trains! 
+
+
 
 6. License
 ----------
@@ -112,6 +132,8 @@ The graphics contained within this set are license under the Creative Commons li
 - you do not sell them in any way
 - give credit to the authors
 See http://creativecommons.org/licenses/by-nc-nd/3.0/
+
+
 
 7. Authors:
 -----------
