@@ -93,7 +93,9 @@ $(NFO_FILENAME): $(PCX_FILES) $(PNFO_FILES) $(REV_FILENAME)
 	@-rm $(CPNFO_FILENAME)
 	@for i in $(PNFO_FILES); do echo "#include \"$$i\"" >> $(CPNFO_FILENAME); done
 	@echo "Setting title to $(GRF_TITLE)..."
-	@$(CC) $(CC_FLAGS) $(CPNFO_FILENAME) | sed -e "s/$(GRF_ID_DUMMY)/$(GRF_ID)/" -e "s/$(GRF_TITLE_DUMMY)/$(GRF_TITLE)/" | grep -v '#' > $@
+	@$(CC) $(CC_FLAGS) $(CPNFO_FILENAME) | sed -e "s/$(GRF_ID_DUMMY)/$(GRF_ID)/" \
+		| sed -e "s/$(GRF_TITLE_DUMMY)/$(GRF_TITLE)/" \
+		| grep -v '#' > $@
 	@echo	
 	@echo "NFORENUM processing:"
 	-$(NFORENUM) ${NFORENUM_FLAGS} $@
