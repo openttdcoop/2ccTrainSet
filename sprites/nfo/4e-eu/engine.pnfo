@@ -34,6 +34,10 @@
 
 //Action2: Purch List
 -1 * 0  02 00 A0 01 01 00 00 00 00
+// Low cost when standing still
+-1 * 0  02 00 A3 81 10 00 FF 01 \b1 80 0D 0D AA 00
+-1 * 0  02 00 A4 81 0C 00 FF 01 A3 00  36 36  AA 00
+-1 * 0  02 00 AA 82 B4 00 FF 01 A4 00  00 00  AA 00
                                                   
 // Action 3: ID
 -1 * 0  03 00 01 \b*4200 01 FF A0 00 AA 00
