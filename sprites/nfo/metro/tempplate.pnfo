@@ -1,0 +1,127 @@
+
+// Action 0
+-1 * 0  00 00 \b31 01 ID_ENGINE // ID
+// Game related props 
+  02 \b01   // Reliability Decay
+  03 \b30   // Vehicle Life/Years
+  04 \b255  // Model Life/Years
+  05 01     // Track type; 00 Rail, 01 Mono, 02 Mlev
+  06 07     // Climate availability
+  07 \b60   // Loading Speed
+  08 01     // AI Pax optimized
+   
+// Physical properties
+  00 \w1995-01-01 // Intro year \wyyyy-mm-dd
+  09 \w300  // Speed (word)
+  0B \w1200 // Power in HP (word)
+  1B \w600  // Power added by wagons, usually 1/2 of prop 0B
+  1F \b60   // Tractive effort
+  16 \b60   // Weight/Tons
+  23 \b30   // Weight of the attached wagon. Usually 1/2 og prop 16
+  20 20     // Air Drag
+
+// Economical properties
+  14 \b150  // Cargo Capacity
+  15 00     // Cargo Type
+  1D \dx0   // Refit bitmask
+  28 \wx0b  // New cargo
+  29 \wx3f0 // New NOT Cargo
+  0D \b100  // Running Cost Factor
+  0E \dx3c30 // Running cost Base
+  17 40     // Cost Factor
+  1C 00     // Refit cost
+
+// Misc
+  12 FD     // Use new grapics
+  19 32     // 32 Mono
+  22 30     // Set visual effect, sparks, fumes, etc
+  13 01     // Dualhead? 00/01
+  1E FF     // Callbacks
+  21 00     // Shorter vehicle
+  27 06     // 01 tilt + 02 2cc + 04 xMU
+
+
+// Action 1 with 4 views and 8 sprites each view
+-1 * 0  01 00 04 08
+// Front/White lights
+1 sprites/mus/pcx/test.pcx	01	01	1	24	08	-3	-12
+2 sprites/mus/pcx/test.pcx	10	01	1	18	22	-14	-10
+3 sprites/mus/pcx/test.pcx	33	01	1	14	32	-16	-10
+4 sprites/mus/pcx/test.pcx	66	01	1	18	22	-6	-10
+5 sprites/mus/pcx/test.pcx	89	01	1	24	08	-3	-12
+6 sprites/mus/pcx/test.pcx	98	01	1	18	22	-14	-10
+7 sprites/mus/pcx/test.pcx	121	01	1	14	32	-16	-10
+8 sprites/mus/pcx/test.pcx	154	01	1	18	22	-6	-10
+// End/Red lights
+5 sprites/mus/pcx/test.pcx	89	32	1	24	08	-3	-12
+6 sprites/mus/pcx/test.pcx	98	32	1	18	22	-14	-10
+7 sprites/mus/pcx/test.pcx	121	32	1	14	32	-16	-10
+8 sprites/mus/pcx/test.pcx	154	32	1	18	22	-6	-10
+1 sprites/mus/pcx/test.pcx	01	32	1	24	08	-3	-12
+2 sprites/mus/pcx/test.pcx	10	32	1	18	22	-14	-10
+3 sprites/mus/pcx/test.pcx	33	32	1	14	32	-16	-10
+4 sprites/mus/pcx/test.pcx	66	32	1	18	22	-6	-10
+// Pax
+1 sprites/mus/pcx/test.pcx	01	64	1	24	08	-3	-12
+2 sprites/mus/pcx/test.pcx	10	64	1	18	22	-14	-10
+3 sprites/mus/pcx/test.pcx	33	64	1	14	32	-16	-10
+4 sprites/mus/pcx/test.pcx	66	64	1	18	22	-6	-10
+5 sprites/mus/pcx/test.pcx	89	64	1	24	08	-3	-12
+6 sprites/mus/pcx/test.pcx	98	64	1	18	22	-14	-10
+7 sprites/mus/pcx/test.pcx	121	64	1	14	32	-16	-10
+8 sprites/mus/pcx/test.pcx	154	64	1	18	22	-6	-10
+// P-list
+1 * 0  0
+2 * 0  0
+3 sprites/mus/pcx/test.pcx	01	01  1 01  01  -00 -00
+4 * 0  0
+5 * 0  0
+6 * 0  0
+7 sprites/mus/pcx/test.pcx	01	128	1	12	87	-25	-08
+8 * 0  0
+
+-1 * 0  02 00 10 01 01 \w0 \w0 // ##>
+-1 * 0  02 00 11 01 01 \w1 \w1 // <##
+-1 * 0  02 00 20 01 01 \w2 \w2 // pax
+-1 * 0  02 00 40 01 01 \w3 \w3 // P-list
+
+
+// --------------------
+// ----- Generic ------
+// --------------------
+                      
+
+
+// --------------------
+// ------ Engine ------
+// --------------------
+
+-1 * 0  02 00 1F 81 40 08 FF 01       // What where from behind, 1 case
+                          11 00 00 00 // Use red lights if at last pos in train
+                          10 00       // Use white lights if at first of train
+
+// Cannot attach 
+-1 * 0  02 00 A6 81 C6 00 FF 02                    // 2 cases
+                             FF 80 VID_SUB VID_SUB     // allow attaching sub-wagon
+                             FF 80 VID_SELF VID_SELF // Allow attaching self
+                             STR_SELFONLY 80           // Dissalow everything else
+-1 * 0  02 00 AF 81 0C 00 FF 01
+                             A6 00 1D 1D // Cannot attach 
+                             1F 00       // Attach engine gfx
+
+// --------------------
+// ------ Wagon -------
+// --------------------
+// '10' for CB36s
+-1 * 0  02 00 EF 82 10 00 FF 01
+                           \b<cap> 80 14 14 // New _PAX_ capacity
+                             00 00       // Dont matter
+-1 * 0  02 00 5F 82 0C 00 FF 01          // 1 callback
+                             EF 00 36 36 // Change props
+                             20 00       // Attach GFX
+
+// Action 3's
+-1 * 0  03 00 01 ID_ENGINE 01
+                        FF 40 00    // P-list
+                           AF 00    // Normal
+-1 * 0  03 00 81 ID_SUB    00 5F 00 // Livery Override 

@@ -1557,18 +1557,15 @@
 -1 sprites/wagons/pcx/newpax.pcx	33	704	1	14	32	-16	-10
 -1 sprites/wagons/pcx/newpax.pcx	66	704	1	19	22	-11	-14
 
-
-
-
 // P-list
 // Format: spritenum pcxfile 		xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
 -1 * 0  0
 -1 * 0  0
--1 sprites/wagons/pcx/newpax.pcx 	1	1	01 	1	1	-16 -10	3
+-1 sprites/wagons/pcx/newpax.pcx 	1	1	01 	1	1	-16 -10
 -1 * 0  0
 -1 * 0  0
 -1 * 0  0
--1 sprites/wagons/pcx/newpax.pcx 	181	657	01 	13	63	-25 -9	3
+-1 sprites/wagons/pcx/newpax.pcx 	181	657	01 	13	63	-25 -9
 -1 * 0  0
 
 -1 * 0  02 00 A0 01 01 00 00 00 00 // <--
