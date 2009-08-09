@@ -151,7 +151,7 @@
 // '10' for CB36s w/high Runningcost
 -1 * 0  02 00 EF 81 10 00 FF 03
                              E5 00 14 14 // Capacity
-                           \b50 00 16 16 // weight
+                           \b50 80 16 16 // weight
                              ED 00 0D 0D // running cost
                              40 00       // Dont matter
 
