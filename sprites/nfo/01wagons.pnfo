@@ -1468,7 +1468,7 @@
 // Format: spritenum pcxfile 		xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
 -1 * 0 0 //1
 -1 * 0 0 //2 
--1 sprites/wagons/pcx/newwags.pcx 	177	224     01 	16	    66	    -28   -12	  3
+-1 sprites/wagons/pcx/newwags.pcx 	177	224     01 	12	    66	    -28   -12	  3
 -1 * 0 0 //4
 -1 * 0 0 //5
 -1 * 0 0 //6
