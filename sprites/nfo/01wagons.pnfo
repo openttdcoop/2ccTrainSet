@@ -254,7 +254,7 @@
 -1 sprites/wagons/pcx/newpax.pcx 	89	32	1	24	8	-3	-11
 -1 sprites/wagons/pcx/newpax.pcx 	98	32	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	121	32	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	154	32	1	18	22	-11	-13
+-1 sprites/wagons/pcx/newpax.pcx 	153	33	1	18	22	-11	-13
 
 
 // Format: spritenum pcxfile 							
@@ -293,7 +293,7 @@
 -1 sprites/wagons/pcx/newpax.pcx 	89	160	1	24	8	-3	-11
 -1 sprites/wagons/pcx/newpax.pcx 	98	160	1	18	22	-11	-12
 -1 sprites/wagons/pcx/newpax.pcx 	121	160	1	14	32	-16	-10
--1 sprites/wagons/pcx/newpax.pcx 	154	160	1	18	22	-11	-13
+-1 sprites/wagons/pcx/newpax.pcx 	153	160	1	18	22	-11	-13
 
 // Format: spritenum pcxfile 							
 -1 sprites/wagons/pcx/newpax.pcx 	1	192	1	24	8	-3	-11
@@ -701,22 +701,22 @@
 -1 sprites/wagons/pcx/flatbed.pcx 	58	449	1	11	28	-16	-7
 -1 sprites/wagons/pcx/flatbed.pcx 	90	449	1	14	20	-10	-9
 // Wood Empty 09							
--1 sprites/wagons/pcx/flatbed.pcx 	150	39	1	20	8	-3	-12
+-1 sprites/wagons/pcx/flatbed.pcx 	150	39	1	19	8	-3	-12
 -1 sprites/wagons/pcx/flatbed.pcx 	166	39	1	16	20	-10	-10
 -1 sprites/wagons/pcx/flatbed.pcx 	198	39	1	13	28	-12	-9
 -1 sprites/wagons/pcx/flatbed.pcx 	230	39	1	16	20	-10	-11
--1 sprites/wagons/pcx/flatbed.pcx 	150	39	1	20	8	-3	-12
+-1 sprites/wagons/pcx/flatbed.pcx 	150	39	1	19	8	-3	-12
 -1 sprites/wagons/pcx/flatbed.pcx 	166	39	1	16	20	-10	-10
 -1 sprites/wagons/pcx/flatbed.pcx 	198	39	1	13	28	-16	-9
 -1 sprites/wagons/pcx/flatbed.pcx 	230	39	1	16	20	-10	-11
 
 
 // Wood Stage 1 0A							
--1 sprites/wagons/pcx/flatbed.pcx 	150	72	1	20	8	-3	-12
+-1 sprites/wagons/pcx/flatbed.pcx 	150	72	1	19	8	-3	-12
 -1 sprites/wagons/pcx/flatbed.pcx 	166	72	1	16	20	-10	-10
 -1 sprites/wagons/pcx/flatbed.pcx 	198	72	1	13	28	-12	-9
 -1 sprites/wagons/pcx/flatbed.pcx 	230	72	1	16	20	-10	-11
--1 sprites/wagons/pcx/flatbed.pcx 	150	72	1	20	8	-3	-12
+-1 sprites/wagons/pcx/flatbed.pcx 	150	72	1	19	8	-3	-12
 -1 sprites/wagons/pcx/flatbed.pcx 	166	72	1	16	20	-10	-10
 -1 sprites/wagons/pcx/flatbed.pcx 	198	72	1	13	28	-16	-9
 -1 sprites/wagons/pcx/flatbed.pcx 	230	72	1	16	20	-10	-11
