@@ -1,11 +1,34 @@
-2cctrainset.grf
-2cctrainset.nfo
-2cctrainset.pnfo
-2cctrainset.cpnfo
-2cctrainset-nightly*
-./*.orig
-./*log
-./*.bak
+# Use glob syntax:
+syntax: glob
+
+# The local makefile should be ignored:
 Makefile.local
+
+# And the description file and the grs which are generated automatically
+# This has to be adopted to the newgrf filename
+2cctrainset.grf
+
+# Ignore intermediate files created by the Makefile:
+*.cpnfo
+*.nfo
+# Dependency files:
+*.d
+
+# Ignore directories from bundle creation / install:
+# Has to be adjusted to the newgrf-name
+2cctrainset-*
+
+#The .renum dir
+.renum
+
+# Ignore frequent development left-overs like
+# editor backups, patches, rejects etc. pp
+*.orig
+*.bak
+*.log
+*.rej
+*.diff
+
+# Files created by Mac image preview and file browser:
 .DS_Store
-./*.diff
+Thumbs.db
