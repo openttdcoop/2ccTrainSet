@@ -779,11 +779,11 @@
 -1 sprites/wagons/pcx/plain.pcx 	121	1	1	12	32	-16	-8
 -1 sprites/wagons/pcx/plain.pcx 	154	1	1	16	22	-11	-11
 // Boxes 1							
--1 sprites/wagons/pcx/plain.pcx 	1	32	1	23	8	-3	-11
+-1 sprites/wagons/pcx/plain.pcx 	1	33	1	22	8	-3	-11
 -1 sprites/wagons/pcx/plain.pcx 	10	32	1	16	22	-11	-10
 -1 sprites/wagons/pcx/plain.pcx 	33	32	1	12	32	-16	-8
 -1 sprites/wagons/pcx/plain.pcx 	66	32	1	16	22	-11	-11
--1 sprites/wagons/pcx/plain.pcx 	89	32	1	23	8	-3	-11
+-1 sprites/wagons/pcx/plain.pcx 	89	33	1	22	8	-3	-11
 -1 sprites/wagons/pcx/plain.pcx 	98	32	1	16	22	-11	-10
 -1 sprites/wagons/pcx/plain.pcx 	121	32	1	12	32	-16	-8
 -1 sprites/wagons/pcx/plain.pcx 	154	32	1	16	22	-11	-11
@@ -791,20 +791,20 @@
 
 // Boxes 2
 // Format: spritenum pcxfile 							
--1 sprites/wagons/pcx/plain.pcx 	1	64	1	23	8	-3	-11
+-1 sprites/wagons/pcx/plain.pcx 	1	65	1	22	8	-3	-11
 -1 sprites/wagons/pcx/plain.pcx 	10	64	1	16	22	-11	-10
 -1 sprites/wagons/pcx/plain.pcx 	33	64	1	12	32	-16	-8
 -1 sprites/wagons/pcx/plain.pcx 	66	64	1	16	22	-11	-11
--1 sprites/wagons/pcx/plain.pcx 	89	64	1	23	8	-3	-11
+-1 sprites/wagons/pcx/plain.pcx 	89	65	1	22	8	-3	-11
 -1 sprites/wagons/pcx/plain.pcx 	98	64	1	16	22	-11	-10
 -1 sprites/wagons/pcx/plain.pcx 	121	64	1	12	32	-16	-8
 -1 sprites/wagons/pcx/plain.pcx 	154	64	1	16	22	-11	-11
 // Steel 1							
--1 sprites/wagons/pcx/plain.pcx 	1	96	1	23	8	-3	-11
+-1 sprites/wagons/pcx/plain.pcx 	1	97	1	22	8	-3	-11
 -1 sprites/wagons/pcx/plain.pcx 	10	96	1	16	22	-11	-10
 -1 sprites/wagons/pcx/plain.pcx 	33	96	1	12	32	-16	-8
 -1 sprites/wagons/pcx/plain.pcx 	66	96	1	16	22	-11	-11
--1 sprites/wagons/pcx/plain.pcx 	89	96	1	23	8	-3	-11
+-1 sprites/wagons/pcx/plain.pcx 	89	97	1	22	8	-3	-11
 -1 sprites/wagons/pcx/plain.pcx 	98	96	1	16	22	-11	-10
 -1 sprites/wagons/pcx/plain.pcx 	121	96	1	12	32	-16	-8
 -1 sprites/wagons/pcx/plain.pcx 	154	96	1	16	22	-11	-11
@@ -812,20 +812,20 @@
 
 // Steel 2
 // Format: spritenum pcxfile 							
--1 sprites/wagons/pcx/plain.pcx 	1	128	1	23	8	-3	-11
+-1 sprites/wagons/pcx/plain.pcx 	1	129	1	22	8	-3	-11
 -1 sprites/wagons/pcx/plain.pcx 	10	128	1	16	22	-11	-10
 -1 sprites/wagons/pcx/plain.pcx 	33	128	1	12	32	-16	-8
 -1 sprites/wagons/pcx/plain.pcx 	66	128	1	16	22	-11	-11
--1 sprites/wagons/pcx/plain.pcx 	89	128	1	23	8	-3	-11
+-1 sprites/wagons/pcx/plain.pcx 	89	129	1	22	8	-3	-11
 -1 sprites/wagons/pcx/plain.pcx 	98	128	1	16	22	-11	-10
 -1 sprites/wagons/pcx/plain.pcx 	121	128	1	12	32	-16	-8
 -1 sprites/wagons/pcx/plain.pcx 	154	128	1	16	22	-11	-11
 // Paper 1							
--1 sprites/wagons/pcx/plain.pcx 	1	160	1	23	8	-3	-11
+-1 sprites/wagons/pcx/plain.pcx 	1	161	1	22	8	-3	-11
 -1 sprites/wagons/pcx/plain.pcx 	10	160	1	16	22	-11	-10
 -1 sprites/wagons/pcx/plain.pcx 	33	160	1	12	32	-16	-8
 -1 sprites/wagons/pcx/plain.pcx 	66	160	1	16	22	-11	-11
--1 sprites/wagons/pcx/plain.pcx 	89	160	1	23	8	-3	-11
+-1 sprites/wagons/pcx/plain.pcx 	89	161	1	22	8	-3	-11
 -1 sprites/wagons/pcx/plain.pcx 	98	160	1	16	22	-11	-10
 -1 sprites/wagons/pcx/plain.pcx 	121	160	1	12	32	-16	-8
 -1 sprites/wagons/pcx/plain.pcx 	154	160	1	16	22	-11	-11
@@ -833,20 +833,20 @@
 
 // Paper 2
 // Format: spritenum pcxfile 							
--1 sprites/wagons/pcx/plain.pcx 	1	192	1	23	8	-3	-11
+-1 sprites/wagons/pcx/plain.pcx 	1	193	1	22	8	-3	-11
 -1 sprites/wagons/pcx/plain.pcx 	10	192	1	16	22	-11	-10
 -1 sprites/wagons/pcx/plain.pcx 	33	192	1	12	32	-16	-8
 -1 sprites/wagons/pcx/plain.pcx 	66	192	1	16	22	-11	-11
--1 sprites/wagons/pcx/plain.pcx 	89	192	1	23	8	-3	-11
+-1 sprites/wagons/pcx/plain.pcx 	89	192	1	22	8	-3	-11
 -1 sprites/wagons/pcx/plain.pcx 	98	192	1	16	22	-11	-10
 -1 sprites/wagons/pcx/plain.pcx 	121	192	1	12	32	-16	-8
 -1 sprites/wagons/pcx/plain.pcx 	154	192	1	16	22	-11	-11
 // Wood Empty							
--1 sprites/wagons/pcx/plain.pcx 	1	224	1	25	8	-3	-13
+-1 sprites/wagons/pcx/plain.pcx 	1	225	1	24	8	-3	-13
 -1 sprites/wagons/pcx/plain.pcx 	10	224	1	18	22	-11	-12
 -1 sprites/wagons/pcx/plain.pcx 	33	224	1	14	32	-16	-10
 -1 sprites/wagons/pcx/plain.pcx 	66	224	1	18	22	-11	-13
--1 sprites/wagons/pcx/plain.pcx 	89	224	1	25	8	-3	-13
+-1 sprites/wagons/pcx/plain.pcx 	89	224	1	24	8	-3	-13
 -1 sprites/wagons/pcx/plain.pcx 	98	224	1	18	22	-11	-12
 -1 sprites/wagons/pcx/plain.pcx 	121	224	1	14	32	-16	-10
 -1 sprites/wagons/pcx/plain.pcx 	154	224	1	18	22	-11	-13
@@ -854,20 +854,20 @@
 
 // Wood 1
 // Format: spritenum pcxfile 							
--1 sprites/wagons/pcx/plain.pcx 	1	256	1	25	8	-3	-13
+-1 sprites/wagons/pcx/plain.pcx 	1	257	1	24	8	-3	-13
 -1 sprites/wagons/pcx/plain.pcx 	10	256	1	18	22	-11	-12
 -1 sprites/wagons/pcx/plain.pcx 	33	256	1	14	32	-16	-10
 -1 sprites/wagons/pcx/plain.pcx 	66	256	1	18	22	-11	-13
--1 sprites/wagons/pcx/plain.pcx 	89	256	1	25	8	-3	-13
+-1 sprites/wagons/pcx/plain.pcx 	89	256	1	24	8	-3	-13
 -1 sprites/wagons/pcx/plain.pcx 	98	256	1	18	22	-11	-12
 -1 sprites/wagons/pcx/plain.pcx 	121	256	1	14	32	-16	-10
 -1 sprites/wagons/pcx/plain.pcx 	154	256	1	18	22	-11	-13
 // Wood 2							
--1 sprites/wagons/pcx/plain.pcx 	1	288	1	25	8	-3	-13
+-1 sprites/wagons/pcx/plain.pcx 	1	289	1	24	8	-3	-13
 -1 sprites/wagons/pcx/plain.pcx 	10	288	1	18	22	-11	-12
 -1 sprites/wagons/pcx/plain.pcx 	33	288	1	14	32	-16	-10
 -1 sprites/wagons/pcx/plain.pcx 	66	288	1	18	22	-11	-13
--1 sprites/wagons/pcx/plain.pcx 	89	288	1	25	8	-3	-13
+-1 sprites/wagons/pcx/plain.pcx 	89	288	1	24	8	-3	-13
 -1 sprites/wagons/pcx/plain.pcx 	98	288	1	18	22	-11	-12
 -1 sprites/wagons/pcx/plain.pcx 	121	288	1	14	32	-16	-10
 -1 sprites/wagons/pcx/plain.pcx 	154	288	1	18	22	-11	-13
