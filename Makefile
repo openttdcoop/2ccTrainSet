@@ -183,10 +183,6 @@ release_source:
 $(INSTALLDIR):
 	$(_E) "$(error Installation dir does not exist. Check your makefile.local)"
 	
-bananas: $(BANANAS_FILENAME) 
-$(BANANAS_FILENAME): $(GRF_FILENAME) $(READMEFILE)
-	$(_E) "[Bananas] to $@"
-	$(_V) if [ -f $(BANANAS_FILENAME) ]; then rm $(BANANAS_FILENAME) ; fi
-	$(_V)$(TAR) $(TAR_FLAGS) $(BANANAS_FILENAME) $(GRF_FILENAME) -C $(DOCDIR) $(notdir $(READMEFILE) $(LICENSEFILE))
+bananas: $(TAR_FILENAME) 
 	
 remake: clean all
