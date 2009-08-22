@@ -114,7 +114,7 @@
 
 
 
-// ############# 81-729 Russa ##########
+// ############# 81-729 Russia ##########
 // Action 1: purch List -81-729
 -1 * 0  01 00 01 08
 // Forward
@@ -137,20 +137,20 @@
 -1 * 0  01 00 02 08
 // Forward
 // Format: spritenum pcxfile 							
--1 sprites/metro/pcx/81-729.pcx 	1	1	1	25	8	-3	-9
+-1 sprites/metro/pcx/81-729.pcx 	1	1	1	24	8	-3	-9
 -1 sprites/metro/pcx/81-729.pcx 	10	1	1	17	22	-11	-11
 -1 sprites/metro/pcx/81-729.pcx 	33	1	1	13	31	-16	-9
 -1 sprites/metro/pcx/81-729.pcx 	66	1	1	17	22	-11	-12
--1 sprites/metro/pcx/81-729.pcx 	89	1	1	25	8	-3	-12
+-1 sprites/metro/pcx/81-729.pcx 	89	1	1	24	8	-3	-12
 -1 sprites/metro/pcx/81-729.pcx 	98	1	1	17	22	-11	-11
 -1 sprites/metro/pcx/81-729.pcx 	121	1	1	13	32	-16	-9
 -1 sprites/metro/pcx/81-729.pcx 	154	1	1	17	22	-11	-12
 // Reverse							
--1 sprites/metro/pcx/81-729.pcx 	1	32	1	25	8	-3	-9
+-1 sprites/metro/pcx/81-729.pcx 	1	32	1	24	8	-3	-9
 -1 sprites/metro/pcx/81-729.pcx 	10	32	1	17	22	-11	-11
 -1 sprites/metro/pcx/81-729.pcx 	33	32	1	13	31	-16	-9
 -1 sprites/metro/pcx/81-729.pcx 	66	32	1	17	22	-11	-12
--1 sprites/metro/pcx/81-729.pcx 	89	32	1	25	8	-3	-12
+-1 sprites/metro/pcx/81-729.pcx 	89	32	1	24	8	-3	-12
 -1 sprites/metro/pcx/81-729.pcx 	98	32	1	17	22	-11	-11
 -1 sprites/metro/pcx/81-729.pcx 	121	32	1	13	32	-16	-9
 -1 sprites/metro/pcx/81-729.pcx 	154	32	1	17	22	-11	-12
@@ -165,7 +165,7 @@
 //Action1: Wagon-pax -81-729
 -1 * 0  01 00 01 04
 // Format: spritenum pcxfile 							
--1 sprites/metro/pcx/81-729.pcx 	1	64	1	25	8	-3	-12
+-1 sprites/metro/pcx/81-729.pcx 	1	64	1	24	8	-3	-12
 -1 sprites/metro/pcx/81-729.pcx 	10	64	1	17	22	-11	-11
 -1 sprites/metro/pcx/81-729.pcx 	33	64	1	13	32	-16	-9
 -1 sprites/metro/pcx/81-729.pcx 	66	64	1	17	22	-11	-12
