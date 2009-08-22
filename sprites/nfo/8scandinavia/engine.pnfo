@@ -32,7 +32,7 @@
 // Purch
 -1 * 0 0
 -1 * 0 0
--1 sprites/engines_updated/pcx/iore.pcx 	1 	64 	01 	13	55 	-25 	-9	3
+-1 sprites/engines_updated/pcx/iore.pcx 	1 	64 	01 	13	53 	-25 	-9	3
 -1 * 0 0
 -1 * 0 0
 -1 * 0 0
@@ -220,7 +220,7 @@
 -1 * 0  01 00 01 08
 -1 * 0  0
 -1 * 0  0
--1 sprites/engines_updated/pcx/dr12.pcx 	1 	1	01 	13 	32	-16 	-6	7
+-1 sprites/engines_updated/pcx/dr12.pcx 	1 	32	01 	12 	44	-16 	-6	7
 -1 * 0  0
 -1 * 0  0
 -1 * 0  0
