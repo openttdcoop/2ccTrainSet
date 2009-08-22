@@ -98,7 +98,7 @@
 -1 sprites/mus/pcx/tgv-a.pcx 	10	96	1	16	22	-11	-10
 -1 sprites/mus/pcx/tgv-a.pcx 	33	96	1	12	32	-16	-8
 -1 sprites/mus/pcx/tgv-a.pcx 	66	96	1	16	22	-11	-11
--1 sprites/mus/pcx/tgv-a.pcx 	89	96	1	23	8	-3	-11
+-1 sprites/mus/pcx/tgv-a.pcx 	89	96	1	22	8	-3	-11
 -1 sprites/mus/pcx/tgv-a.pcx 	98	96	1	16	22	-11	-10
 -1 sprites/mus/pcx/tgv-a.pcx 	121	96	1	12	32	-16	-8
 -1 sprites/mus/pcx/tgv-a.pcx 	154	96	1	16	22	-11	-11
@@ -154,7 +154,7 @@
 -1 sprites/mus/pcx/tgv-a.pcx 	10	157	1	16	22	-11	-10
 -1 sprites/mus/pcx/tgv-a.pcx 	33	157	1	12	32	-16	-8
 -1 sprites/mus/pcx/tgv-a.pcx 	66	157	1	16	22	-11	-11
--1 sprites/mus/pcx/tgv-a.pcx 	89	157	1	23	8	-3	-11
+-1 sprites/mus/pcx/tgv-a.pcx 	89	157	1	22	8	-3	-11
 -1 sprites/mus/pcx/tgv-a.pcx 	98	157	1	16	22	-11	-10
 -1 sprites/mus/pcx/tgv-a.pcx 	121	157	1	12	32	-16	-8
 -1 sprites/mus/pcx/tgv-a.pcx 	154	157	1	16	22	-11	-11
@@ -1734,11 +1734,11 @@
 -1 * 0  01 00 01 08
 // Forward
 // Format: spritenum pcxfile  xpos  ypos  comp ysize  xsize  xrel  yrel dir							
--1 sprites/mus/pcx/ice3.pcx 	1	1	1	25	8	-3	-13
+-1 sprites/mus/pcx/ice3.pcx 	1	1	1	24	8	-3	-13
 -1 sprites/mus/pcx/ice3.pcx 	10	1	1	18	22	-11	-12
 -1 sprites/mus/pcx/ice3.pcx 	33	1	1	13	31	-16	-9
 -1 sprites/mus/pcx/ice3.pcx 	66	1	1	18	22	-11	-13
--1 sprites/mus/pcx/ice3.pcx 	89	1	1	25	8	-3	-13
+-1 sprites/mus/pcx/ice3.pcx 	89	1	1	24	8	-3	-13
 -1 sprites/mus/pcx/ice3.pcx 	98	1	1	18	22	-11	-12
 -1 sprites/mus/pcx/ice3.pcx 	121	1	1	13	32	-16	-9
 -1 sprites/mus/pcx/ice3.pcx 	154	1	1	18	22	-11	-13
@@ -1766,7 +1766,7 @@
 -1 sprites/mus/pcx/ice3.pcx 	98	128	1	18	22	-11	-12
 -1 sprites/mus/pcx/ice3.pcx 	121	128	1	13	32	-16	-9
 -1 sprites/mus/pcx/ice3.pcx 	154	128	1	18	22	-11	-13
--1 sprites/mus/pcx/ice3.pcx 	1	128	1	25	8	-3	-13
+-1 sprites/mus/pcx/ice3.pcx 	1	128	1	24	8	-3	-13
 -1 sprites/mus/pcx/ice3.pcx 	10	128	1	18	22	-11	-12
 -1 sprites/mus/pcx/ice3.pcx 	33	128	1	13	31	-16	-9
 -1 sprites/mus/pcx/ice3.pcx 	66	128	1	18	22	-11	-13
