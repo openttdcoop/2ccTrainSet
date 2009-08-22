@@ -26,7 +26,7 @@
 // Forward
 -1 * 0  01 00 02 08
 // Format: spritenum pcxfile  xpos  ypos  comp ysize  xsize  xrel  yrel dir							
--1 sprites/mus/pcx/oscar.pcx 	46	10	1	24	8	-3	-11
+-1 sprites/mus/pcx/oscar.pcx 	46	10	1	22	8	-3	-11
 -1 sprites/mus/pcx/oscar.pcx 	55	10	1	18	22	-11	-12
 -1 sprites/mus/pcx/oscar.pcx 	78	10	1	15	31	-16	-11
 -1 sprites/mus/pcx/oscar.pcx 	111	10	1	20	22	-11	-15
@@ -35,7 +35,7 @@
 -1 sprites/mus/pcx/oscar.pcx 	166	10	1	15	32	-16	-11
 -1 sprites/mus/pcx/oscar.pcx 	199	10	1	17	22	-11	-12
 // Backwards							
--1 sprites/mus/pcx/oscar.pcx 	46	64	1	24	8	-3	-11
+-1 sprites/mus/pcx/oscar.pcx 	46	64	1	22	8	-3	-11
 -1 sprites/mus/pcx/oscar.pcx 	55	64	1	18	22	-11	-12
 -1 sprites/mus/pcx/oscar.pcx 	78	64	1	15	31	-16	-11
 -1 sprites/mus/pcx/oscar.pcx 	111	64	1	18	22	-11	-13
@@ -67,7 +67,7 @@
 //Action1: PAX-Wagon
 -1 * 0  01 00 01 04
 // Format: spritenum pcxfile  xpos  ypos  comp ysize  xsize  xrel  yrel dir							
--1 sprites/mus/pcx/oscar.pcx 	46	37	1	25	8	-3	-13
+-1 sprites/mus/pcx/oscar.pcx 	46	37	1	24	8	-3	-13
 -1 sprites/mus/pcx/oscar.pcx 	55	37	1	19	22	-11	-13
 -1 sprites/mus/pcx/oscar.pcx 	78	37	1	15	32	-16	-11
 -1 sprites/mus/pcx/oscar.pcx 	111	37	1	18	22	-11	-13
@@ -88,7 +88,7 @@
 //Action1: Mail-Wagon
 -1 * 0  01 00 01 04
 // Format: spritenum pcxfile  xpos  ypos  comp ysize  xsize  xrel  yrel dir							
--1 sprites/mus/pcx/oscar.pcx 	46	91	1	25	8	-3	-13
+-1 sprites/mus/pcx/oscar.pcx 	46	91	1	24	8	-3	-13
 -1 sprites/mus/pcx/oscar.pcx 	55	91	1	19	22	-11	-13
 -1 sprites/mus/pcx/oscar.pcx 	78	91	1	15	32	-16	-11
 -1 sprites/mus/pcx/oscar.pcx 	111	91	1	18	22	-11	-13
