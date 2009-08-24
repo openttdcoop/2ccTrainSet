@@ -72,11 +72,6 @@
 
 
 
-
-
-// Action 2: Engine -sm2
--1 * 0  02 00 AB 01 01 00 00 00 00
-
 //Action1: Wagon-pax -sm2
 -1 * 0  01 00 01 04
 // Format: spritenum pcxfile 							
@@ -694,12 +689,10 @@
 -1 sprites/mus/pcx/y2dmu.pcx 	98	64	1	16	22	-11	-10
 -1 sprites/mus/pcx/y2dmu.pcx 	121	64	1	11	32	-16	-7
 -1 sprites/mus/pcx/y2dmu.pcx 	154	64	1	16	22	-11	-11
-
-
-
-
 // Action 2: Engine y2dmu
 -1 * 0  02 00 AB 01 01 00 00 00 00
+
+
 
 //Action1: Wagon-pax y2dmu
 -1 * 0  01 00 01 04
@@ -817,12 +810,9 @@
 -1 sprites/mus/pcx/bm93.pcx 	98	32	1	16	22	-11	-10
 -1 sprites/mus/pcx/bm93.pcx 	121	32	1	11	33	-17	-7
 -1 sprites/mus/pcx/bm93.pcx 	155	32	1	16	22	-11	-11
-
-
-
-
 // Action 2: Engine bm93
 -1 * 0  02 00 AB 01 01 00 00 00 00
+
 
 // VarAction2: Front with panto, back without
 -1 * 0  02 00 AC 81 40 00 FF 01 AA 00 00 00 AB 00

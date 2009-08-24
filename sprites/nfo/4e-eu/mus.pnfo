@@ -43,7 +43,7 @@
 // Low cost when standing still
 -1 * 0  02 00 A3 81 10 00 FF 01 01 80  0D 0D  AA 00
 -1 * 0  02 00 A4 81 0C 00 FF 01 A3 00  36 36  AA 00
--1 * 0  02 00 AC 82 B4 00 FF 01 A4 00  00 00  AA 00
+-1 * 0  02 00 AC 82 B4 00 FF 01 A4 00  00 00  AC 00
 
 //Backwards
 -1 * 0  01 00 01 08
@@ -363,10 +363,11 @@
 -1 * 0  0
 
 // Action 2: Engine 811
--1 * 0  02 00 A0 01 01 00 00 00 00                // Purchise Screen sprites
--1 * 0  02 00 A1 81 0C 00 FF 01 2C 80 23 23 A0 00 // Purchise Screen text
--1 * 0  02 00 A1 81 10 00 FF 01 \b43 80 0D 0D A0 00
--1 * 0  02 00 A1 81 0C 00 FF 01 A1 00  36 36  A0 00
+-1 * 0  02 00 A0 01 01 00 00 00 00                    // Purchise Screen sprites
+-1 * 0  02 00 A1 81 10 00 FF 01  \b43 80 0D 0D  A0 00
+-1 * 0  02 00 A1 81 0C 00 FF 02    A1 00 36 36  
+                                   2C 80 23 23
+                                   A0 00
 
 // Action 1: Engine 811 forward
 -1 * 0  01 00 02 08
