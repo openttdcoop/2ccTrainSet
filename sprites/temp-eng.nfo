@@ -76,24 +76,15 @@
                         \b100 80       // Running cost
 
 // '10' for CB36s w/high Runningcost
--1 * 0  02 00 EF 81 10 00 FF 03
-                             E5 00 14 14 // Capacity
-                           \b50 80 16 16 // weight
+-1 * 0  02 00 EF 81 10 00 FF 01
                              ED 00 0D 0D // running cost
                              40 00       // Dont matter
 
-// --------------------
-// ------ Engine ------
-// --------------------
-
 // Cannot attach 
--1 * 0  02 00 A6 81 C6 00 FF 02          // 2 cases
-                             FF 80 1B 1B // allow attaching MU-wagon
-                             FF 80 00 00 // Allow attaching self
-                             E0 80       // Dissalow everything else
+-1 * 0  02 00 A6 81 C6 00 FF 01          // 2 cases
+                             E1 80 1B 1B // disallow MU-wagon
+                             FF 80       // Dissalow everything else
 -1 * 0  02 00 AF 81 0C 00 FF 04          // 3 callbacks
-                             E1 00 12 12 // Loading speed
-                             E5 00 15 15 // Cargo Capacity
                              A6 00 1D 1D // Cannot attach 
                              EF 00 36 36 // New stuff
                              10 00       // Attach engine gfx
