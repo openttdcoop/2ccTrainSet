@@ -1,0 +1,10 @@
+// Loading speeds
+
+#define COMPAX \b20
+#define ICPAX \b08
+
+#define COMMAIL \b15
+#define ICMAIL \b6
+
+#define COMARMOR \b10
+#define ICARMOR \b4
