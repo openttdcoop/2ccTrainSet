@@ -167,9 +167,6 @@
 -1 sprites/mus/pcx/594.pcx 	66	64	1	18	22	-11	-13
 
 
-
-
-
 // Action 2: Wagon
 -1 * 0  02 00 AD 01 01 00 00 00 00
 -1 * 0  02 00 AE 81 10 00 FF 03 \b67 80 0D 0D \b63 80 14 14 \b40 80 16 16 AD 00 // <-- 50 pax and 38 tons
@@ -177,7 +174,8 @@
 // Low cost when standing still
 -1 * 0  02 00 A3 81 10 00 FF 02 \b63 80 14 14 \b40 80 16 16 AD 00
 -1 * 0  02 00 A4 81 0C 00 FF 01 A3 00  36 36  AD 00
--1 * 0  02 00 AF 82 B4 00 FF 01 A4 00  00 00  AD 00
+-1 * 0  02 00 AF 82 B4 00 FF 01 A4 00  00 00  AF 00
+
 
 //Action1: Wagon-mail -594
 -1 * 0  01 00 01 04
