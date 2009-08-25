@@ -1,14 +1,14 @@
 // nfo renum header
-sprites/nfo/00header_nfo.pnfo
+sprites/nfo/nfo_header.pnfo
 
 // definitions
 sprites/nfo/ids.pnfo
 
 // main files
-sprites/nfo/00header.pnfo
-sprites/nfo/01wagons.pnfo
-sprites/nfo/00sounds.pnfo
-sprites/nfo/11maglev.pnfo
+sprites/nfo/header.pnfo
+sprites/nfo/wagons.pnfo
+sprites/nfo/sounds.pnfo
+sprites/nfo/maglev.pnfo
 
 // region files
 sprites/nfo/2africa/a0a4.pnfo
