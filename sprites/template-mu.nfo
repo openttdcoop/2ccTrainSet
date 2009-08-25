@@ -1,16 +1,12 @@
 
-#define ID ID_xxx      // Engine ID
-#define TX ID_STR_xxx  // String ID
-#define WT \bxx        // Weight of train and wagon (its the same for both)
-#define PC \bxx        // pax-capacity
-#define MC \bxx        // mail capacity (75% of pax)
-#define AC \bxx        // armored capacity (valu/gold/diamonds) (50% of pax)
+#define THIS_ID_ENG        ID_ENG xxx      // Engine ID
+#define THIS_STR_ENG       STR_ENG_xxx  // String ID
+#define THIS_ENG_WEIGHT    \bxx        // Weight of train and wagon (its the same for both)
+#define THIS_ENG_CAP_PAX   \bxx        // pax-capacity
+#define THIS_ENG_CAP_MAIL  \bxx        // mail capacity (75% of pax)
+#define THIS_ENG_CAP_ARMOR \bxx        // armored capacity (valu/gold/diamonds) (50% of pax)
 
-#define PS             // COMPAX for fast, ICPAX for slow (Commuter or Intercity)
-#define MS             // COMMAIL for fast, ICMAIL for slow (Commuter or Intercity)
-#define AS             // COMARMOR for fast, ICARMOR for slow (Commuter or Intercity)
-
-#define RU \bxx        // Running cost factor
+#define THIS_ENG_RUNNINGCOST \bxx        // Running cost factor
 
 
 // Action 0
@@ -29,19 +25,19 @@
   09 \w300  // Speed (word)
   0B \w12000 // Power in HP (word)
   1F \b60   // Tractive effort
-  16 \b65   // Weight/Tons
+  16 THIS_ENG_WEIGHT   // Weight/Tons
   20 20     // Air Drag
 
 // Economical properties
-  14 PC   // Cargo Capacity
-  15 00     // Cargo Type
-  1D \dx0   // Refit bitmask
-  28 \wx0b  // New cargo classes
-  29 \wx3f0 // New NOT Cargo classes
-  0D RU     // Running Cost Factor ---> Remember to also fix Var2 CargoID ED
-  0E \dx3c30 // Running cost Base
-  17 40     // Cost Factor
-  1C 00     // Refit cost
+  14 THIS_ENG_CAP_PAX     // Cargo Capacity
+  15 00                   // Cargo Type
+  1D \dx0                 // Refit bitmask
+  28 \wx0b                // New cargo classes
+  29 \wx3f0               // New NOT Cargo classes
+  0D THIS_ENG_RUNNINGCOST // Running Cost Factor ---> Remember to also fix Var2 CargoID ED
+  0E \dx3c30              // Running cost Base
+  17 40                   // Cost Factor
+  1C 00                   // Refit cost
 
 // Misc
   12 FD     // Use new grapics
@@ -110,7 +106,7 @@
 -1 * 0  02 00 40 01 01 \w4 \w4 // P-list
 
 // ----- Apply P-list text -----
--1 * 0  02 00 4F 81 0C 00 FF 01   TX 80 23 23   40 00
+-1 * 0  02 00 4F 81 0C 00 FF 01   THIS_STR_ENG 80 23 23   40 00
 
 // --------------------
 // ----- Generic ------
@@ -118,33 +114,33 @@
 
 // Loading speed of the various cargos
 -1 * 0  02 00 E1 81 47 10 FF 04
-                             MS 80 02 02 // Mail 
-                             MA 80 08 08 // Armored 
-                             MP 80 01 01 // PAX
-                             MP 80 05 05 // Tourists
-                             00 80       // others 
+                             LOADINGSPEED_COMMUTE_MAIL 80 02 02  // Mail 
+                             LOADINGSPEED_COMMUTE_ARMOR 80 08 08 // Armored 
+                             LOADINGSPEED_COMMUTE_PAX 80 01 01   // PAX
+                             LOADINGSPEED_COMMUTE_PAX 80 05 05   // Tourists
+                             00 80                               // others 
                     
 
                       
 //Capacty for use in CB15/36 
 -1 * 0  02 00 E5 81 47 10 FF 04
-                             MC 80 02 02 // Mail Capacity 41
-                             AC 80 08 08 // Armored capacity 30
-                             PC 80 05 05 // Tourist capacity 60
-                             PC 80 01 01 // Pax capacity 80
-                             00 80       // Everything else
+                             THIS_ENG_CAP_MAIL 80 02 02  // Mail Capacity 41
+                             THIS_ENG_CAP_ARMOR 80 08 08 // Armored capacity 30
+                             THIS_ENG_CAP_PAX 80 05 05   // Tourist capacity 60
+                             THIS_ENG_CAP_PAX 80 01 01   // Pax capacity 80
+                             00 80                       // Everything else
                            
 //Low cost when standing still, for use in the '10' at the running cost spot
--1 * 0  02 00 ED 82 B4 00 FF 01        // 1 case
-                         \b10 80 00 00 // Standing still cost 
-                           RU 80       // Running cost
+-1 * 0  02 00 ED 82 B4 00 FF 01                       // 1 case
+                         \b10 80 00 00                // Standing still cost 
+						THIS_ENG_RUNNINGCOST 80       // Running cost
 
 // '10' for CB36s w/high Runningcost
 -1 * 0  02 00 EF 81 10 00 FF 03
-                             E5 00 14 14 // Capacity
-                             WT 80 16 16 // weight
-                             ED 00 0D 0D // running cost
-                             40 00       // Dont matter
+                             E5 00 14 14              // Capacity
+                             THIS_ENG_WEIGHT 80 16 16 // weight
+                             ED 00 0D 0D              // running cost
+                             40 00                    // Dont matter
 
 
 // --------------------
@@ -193,13 +189,12 @@
               AF 00    // Normal
 -1 * 0  03 00 81 MU  00 5F 00 // Livery Override 
 
-#undefine ID
-#undefine TX
-#undefine WT
-#undefine PC
-#undefine MC
-#undefine AC
-#undefine PS
-#undefine MS
-#undefine AS
-#undefine RU
+
+#undefine THIS_ID_ENG
+#undefine THIS_STR_ENG
+#undefine THIS_ENG_WEIGHT
+#undefine THIS_ENG_CAP_PAX
+#undefine THIS_ENG_CAP_MAIL
+#undefine THIS_ENG_CAP_ARMOR
+
+#undefine THIS_ENG_RUNNINGCOST \bxx        // Running cost factor
