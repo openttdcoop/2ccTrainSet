@@ -58,3 +58,6 @@
 #define ID_WAG_TENDER					73
 
 											// IDs for engines
+											// IDs for metro
+#define ID_MET_CAIRO1987				\b*2400
+											
