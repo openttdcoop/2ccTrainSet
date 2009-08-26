@@ -112,7 +112,7 @@
 	C3 9E "                 MLW-M420W "					00 // \b5102 
 	C3 9E "                 SDP-40F "					00 // \b5103
 	C3 9E "                 Sharknose "					00 // \b5104
-	C3 9E "                 ALCo-GE-IR Boxcar"			00 // \b5105
+	C3 9E "                 ALCo-GE-IR geschlossener Wagen"		00 // \b5105
 -1 * 0  04 00 02 \b2 \b*5400 
 	C3 9E "                 Boston 01800"				00 // \5400
 	C3 9E "                 Brooklyn union gate Wagen"	00 // \5401
