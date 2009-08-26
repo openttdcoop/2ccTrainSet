@@ -58,6 +58,140 @@
 #define ID_WAG_TENDER					73
 
 											// IDs for engines
-											// IDs for metro
-#define ID_MET_CAIRO1987				\b*2400
+//Africa
+//Asia
+#define ID_ENG_KZ2A						\b*3200
+#define ID_ENG_SS6						\b*3201
+#define ID_ENG_WCM1						\b*3202
+#define ID_ENG_WDM2						\b*3100
+//East Europe
+#define ID_ENG_DS3						\b*4200
+#define ID_ENG_VL15						\b*4201
+#define ID_ENG_ET41						\b*4202
+#define ID_ENG_AKZ32					\b*4000
+#define ID_ENG_TEP150					\b*4100
+//North America
+#define ID_ENG_BIGBOY					\b*5000
+#define ID_ENG_ROYALHUDSON				\b*5001
+#define ID_ENG_F3						\b*5100
+#define ID_ENG_GENESIS					\b*5101
+#define ID_ENG_MLW-M420W				\b*5102
+#define ID_ENG_SDP-40F					\b*5103
+#define ID_ENG_SHARKNOSE				\b*5104
+#define ID_ENG_ALCO						\b*5105
+//South America
+#define ID_ENG_CLASS11B					\b*6000
+#define ID_ENG_GM-EMD-J16CW-AC			\b*6100
+#define ID_ENG_EMDGL8					\b*6101
+//Oceania
+#define ID_ENG_2100						\b*7100
+#define ID_ENG_422						\b*7101
+//Scandinavia
+#define ID_ENG_DR12						\b*8100
+#define ID_ENG_IORE						\b*8001
+#define ID_ENG_MTABDM3					\b*8003
+#define ID_ENG_SR1						\b*8102
+//South Europe
+#define ID_ENG_E52500					\b*9200
+#define ID_ENG_E646						\b*9201
+//West Europe
+#define ID_ENG_METROVIK					\b*10211
+#define ID_ENG_NER						\b*10210
+#define ID_ENG_LOK2K					\b*10208
+#define ID_ENG_NSCLASS1000				\b*10206
+#define ID_ENG_NS1600					\b*10207
+#define ID_ENG_CLASS66					\b*10100
+#define ID_ENG_26000					\b*10203
+#define ID_ENG_27000					\b*10209
+#define ID_ENG_1044						\b*10202
+#define ID_ENG_C4-4						\b*10201
+#define ID_ENG_HLE13					\b*10205
+#define ID_ENG_E04-01					\b*10204
+#define ID_ENG_V200						\b*10102
+#define ID_ENG_CLASS67					\b*10101
+#define ID_ENG_SNCB78					\b*10103
+#define ID_ENG_AE66						\b*10200
+#define ID_ENG_140C						\b*10000
+#define ID_ENG_141TA					\b*10001
+#define ID_ENG_150B						\b*10002
+#define ID_ENG_6300						\b*10003
 											
+											// IDs for metro
+//Africa
+#define ID_MET_CAIRO1987				\b*2400
+//Asia
+#define ID_MET_TOKYO-S01				\b*3400
+#define ID_MET_PJANG					\b*3401
+//East Europe
+#define ID_MET_BUDAPEST					\b*4400
+#define ID_MET_EV3-200					\b*4401
+#define ID_MET_81-729					\b*4402
+//North America
+#define ID_MET_BOSTON					\b*5400
+#define ID_MET_UNIONGATE				\b*5401
+//Scandinavia
+#define ID_MET_M100						\b*8400
+//West Europe
+#define ID_MET_UT2						\b*10406
+#define ID_MET_MP89						\b*10405
+#define ID_MET_LONDON1903				\b*10407
+#define ID_MET_M2-840					\b*10404
+#define ID_MET_DLR						\b*10401
+#define ID_MET_1938						\b*10402
+#define ID_MET_M1						\b*10403
+#define ID_MET_CAF90					\b*10400
+
+											// IDs for MUs
+//East Europe
+#define ID_MU_BDVMOT					\b*4500
+#define ID_MU_BDVMOT_WITHMAIL			\b*4503
+#define ID_MU_680						\b*4501
+#define ID_MU_811						\b*4502
+//North America
+#define ID_MU_CHICAGODOUBLER			\b*5500
+//Oceania
+#define ID_MU_OSCAR						\b*7501
+#define ID_MU_HUNTER					\b*7500
+//Scandinavia
+#define ID_MU_SM2						\b*8505
+#define ID_MU_SM4						\b*8506
+#define ID_MU_BM73						\b*8504
+#define ID_MU_LINT41					\b*8507
+#define ID_MU_Y2DMU						\b*8502
+#define ID_MU_BM93						\b*8500
+#define ID_MU_BM65						\b*8503
+//South Europe
+#define ID_MU_ETR500					\b*9500
+#define ID_MU_594						\b*9501
+//West Europe
+#define ID_MU_TGV-A						\b*10513
+#define ID_MU_TGVDUPLEX					\b*10514
+#define ID_MU_TGVPOSV150				\b30
+#define ID_MU_2200						\b*10502
+#define ID_MU_HSA						\b*10506
+#define ID_MU_TGV-THALYS				\b*10515
+#define ID_MU_ET420						\b*10505
+#define ID_MU_DMU168					\b*10501
+#define ID_MU_ICM						\b*10508
+#define ID_MU_DDAR						\b*10504
+#define ID_MU_PLANY						\b*10510
+#define ID_MU_RADBE510					\b*10511
+#define ID_MU_RBDE560					\b*10512
+#define ID_MU_ICE3						\b*10507
+#define ID_MU_CARGOSPRINTER				\b*10500
+#define ID_MU_4041						\b*10503
+#define ID_MU_MAT24						\b*10509
+#define ID_MU_MAT36						\b*10518
+#define ID_MU_VT612						\b*10516
+#define ID_MU_SH125						\b*10517
+
+											// IDs for rail cars
+//East Europe
+#define ID_RAILCAR_809					\b*4300
+#define ID_RAILCAR_AR2					\b*4301
+//Scandinavia
+#define ID_RAILCAR_DM7					\b*8300
+//West Europe
+#define ID_RAILCAR_VT133				\b*10301
+#define ID_RAILCAR_479					\b*10300
+#define ID_RAILCAR_153111				\b*15311
