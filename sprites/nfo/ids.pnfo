@@ -1,58 +1,60 @@
-// Loading speeds
+											// Loading speeds
 
-#define LOADSPEED_COMMUTE_PAX \b20
-#define LOADSPEED_IC_PAX      \b08
+#define LOADSPEED_COMMUTE_PAX			\b20
+#define LOADSPEED_IC_PAX				\b08
 
-#define LOADSPEED_COMMUTE_MAIL \b15
-#define LOADSPEED_IC_MAIL      \b6
+#define LOADSPEED_COMMUTE_MAIL			\b15
+#define LOADSPEED_IC_MAIL				\b6
 
-#define LOADSPEED_COMMUTE_ARMOR \b10
-#define LOADSPEED_IC_ARMOR      \b4
+#define LOADSPEED_COMMUTE_ARMOR			\b10
+#define LOADSPEED_IC_ARMOR				\b4
 
-// Defines of Wagon IDs
-#define ID_WAG_MU_PAX     70
-#define ID_WAG_MU_MAIL    5F
-#define ID_WAG_DOUBLEPAX  5D
-#define ID_WAG_DOUBLEPAX5 \b*1102
+											// Defines of Wagon IDs
+#define ID_WAG_MU_PAX					70
+#define ID_WAG_MU_MAIL					5F
+#define ID_WAG_DOUBLEPAX				5D
+#define ID_WAG_DOUBLEPAX5				\b*1102
 
-#define ID_WAG_PAX_2CLASS1GEN \b120
-#define ID_WAG_PAX_2CLASS2GEN \b121
-#define ID_WAG_PAX_2CLASS3GEN \b122
-#define ID_WAG_PAX_2CLASS4GEN \b123
-#define ID_WAG_PAX_2CLASS5GEN \b124
+#define ID_WAG_PAX_2CLASS1GEN			\b120
+#define ID_WAG_PAX_2CLASS2GEN			\b121
+#define ID_WAG_PAX_2CLASS3GEN			\b122
+#define ID_WAG_PAX_2CLASS4GEN			\b123
+#define ID_WAG_PAX_2CLASS5GEN			\b124
 
-#define ID_WAG_PAX_1CLASS1GEN \b125
-#define ID_WAG_PAX_1CLASS2GEN \b126
-#define ID_WAG_PAX_1CLASS3GEN \b127
-#define ID_WAG_PAX_1CLASS4GEN \b128
-#define ID_WAG_PAX_1CLASS5GEN \b129
+#define ID_WAG_PAX_1CLASS1GEN			\b125
+#define ID_WAG_PAX_1CLASS2GEN			\b126
+#define ID_WAG_PAX_1CLASS3GEN			\b127
+#define ID_WAG_PAX_1CLASS4GEN			\b128
+#define ID_WAG_PAX_1CLASS5GEN			\b129
 
-#define ID_WAG_PAX_TOUR1GEN   \b130
-#define ID_WAG_PAX_TOUR2GEN   \b131
-#define ID_WAG_PAX_TOUR3GEN   \b132
-#define ID_WAG_PAX_TOUR4GEN   \b133
-#define ID_WAG_PAX_TOUR5GEN   \b134
+#define ID_WAG_PAX_TOUR1GEN				\b130
+#define ID_WAG_PAX_TOUR2GEN				\b131
+#define ID_WAG_PAX_TOUR3GEN				\b132
+#define ID_WAG_PAX_TOUR4GEN				\b133
+#define ID_WAG_PAX_TOUR5GEN				\b134
 
-#define ID_WAG_EXPRESS1GEN    \b135
-#define ID_WAG_EXPRESS2GEN    \b136
-#define ID_WAG_EXPRESS3GEN    \b137
-#define ID_WAG_EXPRESS4GEN    \b138
-#define ID_WAG_EXPRESS5GEN    \b139
+#define ID_WAG_EXPRESS1GEN				\b135
+#define ID_WAG_EXPRESS2GEN				\b136
+#define ID_WAG_EXPRESS3GEN				\b137
+#define ID_WAG_EXPRESS4GEN				\b138
+#define ID_WAG_EXPRESS5GEN				\b139
 
-#define ID_WAG_FLATBED_LONG   60
-#define ID_WAG_TANKER_LONG    61
-#define ID_WAG_SILO_LONG      62
-#define ID_WAG_HOPPER_SELFDISCHARGING 63
-#define ID_WAG_BOXCAR_LONG    65
-#define ID_WAG_BOXCAR_MED     \b*1101
-#define ID_WAG_BOXCAR_SHORT   66
-#define ID_WAG_FRIDGE_SHORT   \b*1100
-#define ID_WAG_TANKER_SHORT   67
-#define ID_WAG_SILO_SHORT     68
-#define ID_WAG_HOPPER_SHORT   69
-#define ID_WAG_LIVESTOCK_SHORT 6A
-#define ID_WAG_LIVESTOCK       64
-#define ID_WAG_GONDOLA_SHORT   6B
-#define ID_WAG_METROVAN        72
+#define ID_WAG_FLATBED_LONG				60
+#define ID_WAG_TANKER_LONG				61
+#define ID_WAG_SILO_LONG				62
+#define ID_WAG_HOPPER_SELFDISCHARGING	63
+#define ID_WAG_BOXCAR_LONG				65
+#define ID_WAG_BOXCAR_MED				\b*1101
+#define ID_WAG_BOXCAR_SHORT				66
+#define ID_WAG_FRIDGE_SHORT				\b*1100
+#define ID_WAG_TANKER_SHORT				67
+#define ID_WAG_SILO_SHORT				68
+#define ID_WAG_HOPPER_SHORT				69
+#define ID_WAG_LIVESTOCK_SHORT			6A
+#define ID_WAG_LIVESTOCK				64
+#define ID_WAG_GONDOLA_SHORT			6B
+#define ID_WAG_METROVAN					72
 
-#define ID_WAG_TENDER          73
+#define ID_WAG_TENDER					73
+
+											// IDs for engines
