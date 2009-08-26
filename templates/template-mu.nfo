@@ -6,56 +6,56 @@
 #define THIS_ENG_CAP_MAIL  \bxx        // mail capacity (75% of pax)
 #define THIS_ENG_CAP_ARMOR \bxx        // armored capacity (valu/gold/diamonds) (50% of pax)
 
-										// Some local definitions used in more than one line:
-#define THIS_ENG_RUNNINGCOST	\bxx							// Running cost factor
+					// Some local definitions used in more than one line:
+#define THIS_ENG_RUNCOST	\bxx	// RUN cost factor
 #define THIS_PCX_FILE			sprites/mus/pcx/test.pcx		// Graphics file
 
 
 // Action 0
 -1 * 0  00 00 \b29 01 ID
-								// Game related props 
-  02 \b01								// Reliability Decay
-  03 \b30								// Vehicle Life/Years
-  04 \b255								// Model Life/Years
-  05 00									// Track type; 00 Rail, 01 Mono, 02 Mlev
-  06 07									// Climate availability
-  07 \b10								// Loading Speed - Not needed in most cases
-  08 01									// AI Pax optimized
+// Game related props 
+  02 \b01	// Reliability Decay
+  03 \b30	// Vehicle Life/Years
+  04 \b255	// Model Life/Years
+  05 00		// Track type; 00 Rail, 01 Mono, 02 Mlev
+  06 07		// Climate availability
+  07 \b10	// Loading Speed - Not needed in most cases
+  08 01		// AI Pax optimized
    
-								// Physical properties
-  00 \w1995-01-01						// Intro year \wyyyy-mm-dd
-  09 \w300								// Speed (word)
-  0B \w12000							// Power in HP (word)
-  1F \b60								// Tractive effort
-  16 THIS_ENG_WEIGHT					// Weight/Tons
-  20 20									// Air Drag
+// Physical properties
+  00 \w1995-01-01	// Intro year \wyyyy-mm-dd
+  09 \w300		// Speed (word)
+  0B \w12000		// Power in HP (word)
+  1F \b60		// Tractive effort
+  16 THIS_ENG_WEIGHT	// Weight/Tons
+  20 20			// Air Drag
 
-								// Economical properties
-  14 THIS_ENG_CAP_PAX					// Cargo Capacity
-  15 00									// Cargo Type
-  1D \dx0								// Refit bitmask
-  28 \wx0b								// New cargo classes
-  29 \wx3f0								// New NOT Cargo classes
-  0D THIS_ENG_RUNNINGCOST				// Running Cost Factor ---> Remember to also fix Var2 CargoID ED
-  0E \dx3c30							// Running cost Base
-  17 40									// Cost Factor
-  1C 00									// Refit cost
+// Economical properties
+  14 THIS_ENG_CAP_PAX	// Cargo Capacity
+  15 00			// Cargo Type
+  1D \dx0		// Refit bitmask
+  28 \wx0b		// New cargo classes
+  29 \wx3f0		// New NOT Cargo classes
+  0D THIS_ENG_RUNCOST   // RUN Cost Factor ---> Remember to also fix Var2 CargoID ED
+  0E \dx3c30		// RUN cost Base
+  17 40			// Cost Factor
+  1C 00			// Refit cost
 
-								// Misc
-  12 FD									// Use new grapics
-  19 28									// Traction Type; 00 Steam, 08 Diesel, 28 Electric, 32 Mono, 38 Mlev
-  22 30									// Set visual effect, sparks, fumes, etc
-  13 00									// Dualhead? 00/01 (should "always" be 00)
-  1E FF									// Callbacks
-  21 00									// Shorter vehicle
-  27 06									// 01 tilt + 02 2cc + 04 xMU
+// Misc
+  12 FD	// Use new grapics
+  19 28	// Traction Type; 00 Steam, 08 Diesel, 28 Electric, 32 Mono, 38 Mlev
+  22 30	// Set visual effect, sparks, fumes, etc
+  13 00	// Dualhead? 00/01 (should "always" be 00)
+  1E FF // Callbacks
+  21 00 // Shorter vehicle
+  27 06 // 01 tilt + 02 2cc + 04 xMU
 
 
 // Dont need to change anything more then this (unless its a "special case" grapihcally)
 
-								// Action 1 with 5 views and 8 sprites each view
+// Action 1 with 5 views and 8 sprites each view
 -1 * 0  01 00 05 08
-								// Front/White lights
+// Front/White lights   xpos    ypos    comp    ysize   xsize   xrel    yrel
 1 THIS_PCX_FILE    	01	01	1	24	08	-3	-12
 2 THIS_PCX_FILE    	10	01	1	18	22	-14	-10
 3 THIS_PCX_FILE    	33	01	1	14	32	-16	-10
@@ -64,7 +64,7 @@
 6 THIS_PCX_FILE    	98	01	1	18	22	-14	-10
 7 THIS_PCX_FILE    	121	01	1	14	32	-16	-10
 8 THIS_PCX_FILE    	154	01	1	18	22	-6	-10
-								// End/Red lights
+// End/Red lights
 5 THIS_PCX_FILE    	89	32	1	24	08	-3	-12
 6 THIS_PCX_FILE    	98	32	1	18	22	-14	-10
 7 THIS_PCX_FILE    	121	32	1	14	32	-16	-10
@@ -73,7 +73,7 @@
 2 THIS_PCX_FILE    	10	32	1	18	22	-14	-10
 3 THIS_PCX_FILE    	33	32	1	14	32	-16	-10
 4 THIS_PCX_FILE    	66	32	1	18	22	-6	-10
-								// Pax
+// Pax
 1 THIS_PCX_FILE    	01	64	1	24	08	-3	-12
 2 THIS_PCX_FILE    	10	64	1	18	22	-14	-10
 3 THIS_PCX_FILE    	33	64	1	14	32	-16	-10
@@ -82,7 +82,7 @@
 6 THIS_PCX_FILE    	98	64	1	18	22	-14	-10
 7 THIS_PCX_FILE    	121	64	1	14	32	-16	-10
 8 THIS_PCX_FILE    	154	64	1	18	22	-6	-10
-								// Mail
+// Mail
 1 THIS_PCX_FILE    	01	96	1	24	08	-3	-12
 2 THIS_PCX_FILE    	10	96	1	18	22	-14	-10
 3 THIS_PCX_FILE    	33	96	1	14	32	-16	-10
@@ -91,7 +91,7 @@
 6 THIS_PCX_FILE    	98	96	1	18	22	-14	-10
 7 THIS_PCX_FILE    	121	96	1	14	32	-16	-10
 8 THIS_PCX_FILE    	154 96	1	18	22	-6	-10
-								// Purchase list
+// Purchase list
 1 * 0  0
 2 * 0  0
 3 THIS_PCX_FILE    	01	01  1 01  01  -00 -00
@@ -127,22 +127,22 @@
 //Capacty for use in CB15/36 
 -1 * 0  02 00 E5 81 47 10 FF 04
                              THIS_ENG_CAP_MAIL 80 02 02		// Mail Capacity 41
-                             THIS_ENG_CAP_ARMOR 80 08 08	// Armored capacity 30
+                             THIS_ENG_CAP_ARMOR 80 08 08        // Armored capacity 30
                              THIS_ENG_CAP_PAX 80 05 05		// Tourist capacity 60
                              THIS_ENG_CAP_PAX 80 01 01		// Pax capacity 80
-                             00 80							// Everything else
+                             00 80				// Everything else
                            
-//Low cost when standing still, for use in the '10' at the running cost spot
--1 * 0  02 00 ED 82 B4 00 FF 01								// 1 case
-                          \b10 80 00 00						// Standing still cost 
-                          THIS_ENG_RUNNINGCOST 80			// Running cost
+//Low cost when standing still, for use in the '10' at the RUN cost spot
+-1 * 0  02 00 ED 82 B4 00 FF 01			// 1 case
+                          \b10 80 00 00	        // Standing still cost 
+                          THIS_ENG_RUNCOST 80	// RUN cost
 
-// '10' for CB36s w/high Runningcost
+// '10' for CB36s w/high RUNcost
 -1 * 0  02 00 EF 81 10 00 FF 03
-                             E5 00 14 14					// Capacity
-                             THIS_ENG_WEIGHT 80 16 16		// weight
-                             ED 00 0D 0D					// running cost
-                             40 00							// Dont matter
+                             E5 00 14 14		// Capacity
+                             THIS_ENG_WEIGHT 80 16 16	// weight
+                             ED 00 0D 0D		// RUN cost
+                             40 00			// Dont matter
 
 
 // --------------------
@@ -186,10 +186,10 @@
 
 
 // Action 3's
--1 * 0  03 00 01 ID 01					// Id 00
-              FF 4F 00					// P-list
-              AF 00						// Normal
--1 * 0  03 00 81 MU  00 5F 00			// Livery Override 
+-1 * 0  03 00 01 ID 01		// Id 00
+              FF 4F 00		// P-list
+              AF 00		// Normal
+-1 * 0  03 00 81 MU  00 5F 00	// Livery Override 
 
 
 #undefine THIS_ID_ENG
@@ -199,5 +199,5 @@
 #undefine THIS_ENG_CAP_MAIL
 #undefine THIS_ENG_CAP_ARMOR
 
-#undefine THIS_ENG_RUNNINGCOST \bxx			// Running cost factor
+#undefine THIS_ENG_RUNCOST \bxx			// RUN cost factor
 #undefine THIS_PCX_FILE						// Graphics file
