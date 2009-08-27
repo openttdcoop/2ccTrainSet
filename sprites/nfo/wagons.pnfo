@@ -107,12 +107,15 @@
 -1 * 0  00 00 \b16 01 ID_WAG_TANKER_LONG 00 \w1960-01-01 04 \b255 05 00 06 07 07 08 09 \w160 12 FD 14 \b45 15 03 16 \b23 17 \b77 1C 00 21 00 27 02 28 \w64 29 \w959
 
 // Long Silo
--1 * 0  00 00 \b17 01 ID_WAG_SILO_LONG 00 \w1960-01-01 04 \b255 05 00 06 07 07 07 09 \w160 12 FD 14 \b45 15 06 16 \b26 17 \b86 1C 00 21 00 27 02   28 \w64   29 \w11 1D \dx14102
+-1 * 0  00 00 \b17 01 ID_WAG_SILO_LONG 00 \w1960-01-01 04 \b255 05 00 06 07 07 07 09 \w160 12 FD 14 \b45 15 06 16 \b26 17 \b86 1C 00 21 00 27 02   
+	28 \wx210   // Allow cargo classes: bulk freight covered/sheltered
+	29 \wx80EF  // Disallow cargo classes: PAX, mail, express, armored, piece, liquids, refridgerated, special
+	1D \dx00    // XOR Translation table: no changes
 
 // Selfdischarging hopper
 -1 * 0  00 00 \b17 01 ID_WAG_HOPPER_SELFDISCHARGING 00 \w1960-01-01 04 \b255 05 00 06 07 07 07 09 \w160 12 FD 14 \b49 15 01 16 \b20 17 \b80 1C 00 21 01 27 02   1D \dx80   28 \w16 29 \w975
 
-// Boxcab Wagon
+// Boxcar Wagon
 -1 * 0  00 00 \b16 01 ID_WAG_BOXCAR_LONG 00 \w1960-01-01 04 \b255 05 00 06 07 07 07 09 \w160 12 FD 14 \b50 15 05 16 \b24 17 \b100 1C 00 21 00 27 02 28 \w900 29 \w67
 
 // Boxcar Intermediate
