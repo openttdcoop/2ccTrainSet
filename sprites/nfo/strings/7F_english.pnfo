@@ -4,6 +4,13 @@
 // ID for generic strings: FF
 //
 //
+
+// 2.0 stuff
+
+-1 * 0  04 00 7F \b1 ID_MU_20_B 
+	C3 9E "                 2.0 Lint 41"				00 // 5D
+
+
 // Wagon names in ID order
 -1 * 0  04 00 7F \b1 5D 
 	C3 9E "     Double Decker 4th gen"				00 // 5D

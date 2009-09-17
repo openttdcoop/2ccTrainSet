@@ -56,6 +56,12 @@ sprites/nfo/10w-eu/engine.pnfo
 sprites/nfo/10w-eu/metro.pnfo
 sprites/nfo/10w-eu/mus.pnfo
 
+
+// V 2.0 files
+sprites/nfo/mus/mutest.pnfo
+
+
+
 // Language files
 sprites/nfo/strings/02_german.pnfo
 sprites/nfo/strings/03_french.pnfo

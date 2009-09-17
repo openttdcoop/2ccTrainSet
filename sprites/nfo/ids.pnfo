@@ -1,4 +1,4 @@
-											// Loading speeds
+// Loading speeds
 // Loading speed categories
 #define LOADSPEED_COMMUTE_PAX		\b20
 #define LOADSPEED_IC_PAX		\b08
@@ -9,7 +9,8 @@
 #define LOADSPEED_COMMUTE_ARMOR		\b10
 #define LOADSPEED_IC_ARMOR		\b4
 
-// Vehicle IDs for wagons											// Defines of Wagon IDs
+// Vehicle IDs for wagons		
+#define MU                           70	// Defines of Wagon IDs
 #define ID_WAG_MU_PAX			70
 #define ID_WAG_MU_MAIL			5F
 #define ID_WAG_DOUBLEPAX		5D
@@ -185,7 +186,7 @@
 #define ID_MU_VT612			\b*10516
 #define ID_MU_SH125			\b*10517
 
-											// IDs for rail cars
+// IDs for rail cars
 //East Europe
 #define ID_RAILCAR_809			\b*4300
 #define ID_RAILCAR_AR2			\b*4301
@@ -195,3 +196,9 @@
 #define ID_RAILCAR_VT133		\b*10301
 #define ID_RAILCAR_479			\b*10300
 #define ID_RAILCAR_153111		\b*15311
+
+
+
+// V. 2.0
+#define ID_MU_20_B                      \b*20000
+#define ID_MU_20_W                      \w20000

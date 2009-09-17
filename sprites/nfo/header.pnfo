@@ -29,70 +29,70 @@
 // last read entry will be used. If the parameter is found
 // we skip all other remaining definitions
 // 1/256th costs, Parameter1 = 1
--1 * 7	 00 08 01 01 0F 08 00 // Engine purchase price
+-1 * 7	 00 08 01 01 0F 08 02 // Engine purchase price
 -1 * 7	 00 08 01 01 10 08 01 // Waggon purchase price
 -1 * 7	 00 08 01 01 2A 08 01 // Steam running
 -1 * 7	 00 08 01 01 2C 08 05 // Electro Running
 -1 * 6	 09 00 01 \7= 01 F0  // (skip to F0)
 
 // 1/128th costs, Parameter1 = 2
--1 * 7	 00 08 01 01 0F 08 01 // Engine purchase price
+-1 * 7	 00 08 01 01 0F 08 03 // Engine purchase price
 -1 * 7	 00 08 01 01 10 08 02 // Waggon purchase price
 -1 * 7	 00 08 01 01 2A 08 02 // Steam running
 -1 * 7	 00 08 01 01 2C 08 06 // Electro Running
 -1 * 6	 09 00 01 \7= 02 F0  // (skip to F0)
 
 // 1/64th costs, Parameter1 = 3
--1 * 7	 00 08 01 01 0F 08 02 // Engine purchase price
+-1 * 7	 00 08 01 01 0F 08 04 // Engine purchase price
 -1 * 7	 00 08 01 01 10 08 03 // Waggon purchase price
 -1 * 7	 00 08 01 01 2A 08 03 // Steam running
 -1 * 7	 00 08 01 01 2C 08 07 // Electro Running
 -1 * 6	 09 00 01 \7= 03 F0  // (skip to F0)
 
 // 1/32th costs, Parameter1 = 4
--1 * 7	 00 08 01 01 0F 08 03 // Engine purchase price
+-1 * 7	 00 08 01 01 0F 08 05 // Engine purchase price
 -1 * 7	 00 08 01 01 10 08 04 // Waggon purchase price
 -1 * 7	 00 08 01 01 2A 08 04 // Steam running
 -1 * 7	 00 08 01 01 2C 08 08 // Electro Running
 -1 * 6	 09 00 01 \7= 04 F0  // (skip to F0)
 
 // 1/16th costs, Parameter1 = 5
--1 * 7	 00 08 01 01 0F 08 04 // Engine purchase price
+-1 * 7	 00 08 01 01 0F 08 06 // Engine purchase price
 -1 * 7	 00 08 01 01 10 08 05 // Waggon purchase price
 -1 * 7	 00 08 01 01 2A 08 05 // Steam running
 -1 * 7	 00 08 01 01 2C 08 09 // Electro Running
 -1 * 6	 09 00 01 \7= 05 F0  // (skip to F0)
 
 // 1/8th costs, Parameter1 = 6
--1 * 7	 00 08 01 01 0F 08 05 // Engine purchase price
+-1 * 7	 00 08 01 01 0F 08 07 // Engine purchase price
 -1 * 7	 00 08 01 01 10 08 06 // Waggon purchase price
 -1 * 7	 00 08 01 01 2A 08 06 // Steam running
 -1 * 7	 00 08 01 01 2C 08 0A // Electro Running
 -1 * 6	 09 00 01 \7= 06 F0  // (skip to F0)
 
 // 1/4th costs, Parameter1 = 7
--1 * 7	 00 08 01 01 0F 08 07 // Engine purchase price
+-1 * 7	 00 08 01 01 0F 08 08 // Engine purchase price
 -1 * 7	 00 08 01 01 10 08 08 // Waggon purchase price
 -1 * 7	 00 08 01 01 2A 08 07 // Steam running
 -1 * 7	 00 08 01 01 2C 08 0B // Electro Running
 -1 * 6	 09 00 01 \7= 07 F0  // (skip to F0)
 
 // Half costs, Parameter1 = 8
--1 * 7	 00 08 01 01 0F 08 08 // Engine purchase price
+-1 * 7	 00 08 01 01 0F 08 09 // Engine purchase price
 -1 * 7	 00 08 01 01 10 08 09 // Waggon purchase price
 -1 * 7	 00 08 01 01 2A 08 08 // Steam running
 -1 * 7	 00 08 01 01 2C 08 0C // Electro Running
 -1 * 6	 09 00 01 \7= 08 F0  // (skip to F0)
 
 // Double costs, Parameter1 = 9
--1 * 7	 00 08 01 01 0F 08 0A// Engine purchase price
+-1 * 7	 00 08 01 01 0F 08 0B// Engine purchase price
 -1 * 7	 00 08 01 01 10 08 0B // Waggon purchase price
 -1 * 7	 00 08 01 01 2A 08 0A // Steam running
 -1 * 7	 00 08 01 01 2C 08 0E // Electro Running
 -1 * 6	 09 00 01 \7= 09 F0  // (skip to F0)
 
 // Default costs
--1 * 7	 00 08 01 01 0F 08 09 // Engine purchase price
+-1 * 7	 00 08 01 01 0F 08 0A // Engine purchase price
 -1 * 7	 00 08 01 01 10 08 0A // Waggon purchase price
 -1 * 7	 00 08 01 01 2A 08 09 // Steam running
 -1 * 7	 00 08 01 01 2C 08 0D // Electro Running
