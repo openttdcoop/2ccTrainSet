@@ -7,7 +7,7 @@
 #define THIS_ENG_CAP_ARMOR \b25         // armored capacity (valu/gold/diamonds) (50% of pax)
 
 // Some local definitions used in more than one line:
-#define THIS_ENG_RUNCOST	\b255	// RUN cost factor
+#define THIS_ENG_RUNCOST	\b1	// RUN cost factor
 #define THIS_PCX_FILE	sprites/pcx/mus/lint41.pcx  // Graphics file
 
 
@@ -37,7 +37,7 @@
   28 \wx0b		// New cargo classes
   29 \wx3f0		// New NOT Cargo classes
   0D THIS_ENG_RUNCOST   // RUN Cost Factor
-  0E \dx4c30		// RUN cost Base
+  0E \dx4c3C		// RUN cost Base
   17 FF			// Cost Factor
   1C 00			// Refit cost
 
