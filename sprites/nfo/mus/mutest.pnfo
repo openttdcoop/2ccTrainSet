@@ -12,7 +12,7 @@
 
 
 // Action 0
--1 * 0  00 00 \b29 01 ID_B
+-1 * 0  00 00 \b30 01 ID_B
 // Game related props 
   02 \b01	// Reliability Decay
   03 \b30	// Vehicle Life/Years
@@ -28,6 +28,7 @@
   0B \w12000		// Power in HP (word)
   1F \b60		// Tractive effort
   16 THIS_ENG_WEIGHT	// Weight/Tons
+  24 \b0
   20 20			// Air Drag
 
 // Economical properties
