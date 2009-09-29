@@ -130,16 +130,21 @@
                              MU_nnn_CAP_WAG_PAX 80 05 05		// Tourist capacity
                              00 80				// Everything else
                           
-//Low cost when standing still, for use in the '10' at the RUN cost spot
--1 * 0  02 00 ED 82 B4 00 FF 01			// 1 case
+//Low cost when standing still, for use in the '10' at the RUN cost spot HEAD
+-1 * 0  02 00 EC 82 B4 00 FF 01			// 1 case
                           MU_nnn_RCOST_IDLE 80 00 00	        // Standing still cost 
                           MU_nnn_RCOST 80	// RUN cost
+
+//Low cost when standing still, for use in the '10' at the RUN cost spot WAGON
+-1 * 0  02 00 ED 82 B4 00 FF 01			// 1 case
+                          MU_TGV_T_RCOST_IDLE 80 00 00	        // Standing still cost 
+                          MU_TGV_T_RCOST_WAG 80	// RUN cost
 
 // '10' for CB36s HEAD
 -1 * 0  02 00 EE 81 10 00 FF 03
                              MU_nnn_CAP_HEAD_PAX 80 14 14		// Capacity
                              MU_nnn_WEIGHT 80 16 16	// weight
-                             ED 00 0D 0D		// RUN cost
+                             EC 00 0D 0D		// RUN cost
                              40 00			// Dont matter
 
 // '10' for CB36s Wagon
