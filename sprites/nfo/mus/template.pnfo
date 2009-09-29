@@ -1,7 +1,5 @@
 // change "nnn" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
 
-#define THIS_STR_ENG       2B           // String ID
-
 #define THIS_PCX_FILE	sprites/pcx/mus/nnn.pcx  // Graphics file
 
 
@@ -103,7 +101,7 @@
 -1 * 0  02 00 40 01 01 \w4 \w4 // P-list
 
 // ----- Apply Purchase list text -----
--1 * 0  02 00 4F 81 0C 00 FF 01   THIS_STR_ENG 80 23 23   40 00
+-1 * 0  02 00 4F 81 0C 00 FF 01   STR_B_MU_TGV_D 80 23 23   40 00
 
 // --------------------
 // ----- Generic ------
@@ -163,7 +161,7 @@
 -1 * 0  02 00 A6 85 C6 00 FF FF 02             // 2 cases
                              FF 80 MU 00 MU 00 // allow attaching MU-wagon
                              FF 80 MU_nnn_ID_W  MU_nnn_ID_W  // Allow attaching self
-                             E0 80             // Dissalow everything else
+                             ER_ONLYMU 80             // Dissalow everything else
 -1 * 0  02 00 AF 81 0C 00 FF 04          // 4 callbacks
                              E1 00 12 12 // Loading speed
                              E5 00 15 15 // Cargo Capacity

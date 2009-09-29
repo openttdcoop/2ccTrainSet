@@ -6,16 +6,23 @@
 #define LANG_ID  7F
 #define LANG_ID2 FF
 
-#define WORD_CC Carriage Capacity
-#define WORD_PAX Passengers
-#define WORD_MAIL Mail
-#define WORD_ARMOR Valuabels
-#define WORD_LS Loading Speed
-#define WORD_FAST Fast
-#define WORD_MEDIUM Medium
-#define WORD_SLOW Slow
-#define WORD_NB NB
-#define WORD_RC_1U Running costs per 1 unit
+#define WORD_CC         Carriage Capacity
+#define WORD_PAX        Passengers
+#define WORD_MAIL       Mail
+#define WORD_ARMOR      Valuabels
+#define WORD_LS         Loading Speed
+#define WORD_FAST       Fast
+#define WORD_MEDIUM     Medium
+#define WORD_SLOW       Slow
+#define WORD_NB         NB
+#define WORD_RC_1U      Running costs per 1 unit
+#define STR_ER_ONEUNIT      Can only be one unit long
+#define STR_ER_SELFONLY     Can only attach to itself
+#define STR_ER_SUBSELFONLY  Single unit subway cars can only connect to their own kind
+#define STR_ER_MUONLYONMU   MU-wagons can only be attached to MU's
+#define STR_ER_CSLOBONLY    Use only long boxcars on CargoSprinter
+#define STR_ER_ONLYMU       Use MU-wagon
+
 
 
 
@@ -23,6 +30,10 @@
 //-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_nnn    9E "WORD_CC: " 8A "MU_nnn_CAP_WAG_PAX WORD_PAX/MU_nnn_CAP_WAG_MAIL WORD_MAIL/ MU_nnn_CAP_WAG_ARMOR WORD_ARMOR"  "\n" 
 //                                98 "WORD_LS: " 8A "WORD_changeme" 
 //                                8B "NB: " 98 "Running costs per 1 unit"	00
+
+// ETR500
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_ETR500    9E "WORD_CC: " 8A "MU_ETR500_CAP_WAG_PAX WORD_PAX/MU_ETR500_CAP_WAG_MAIL WORD_MAIL/ MU_ETR500_CAP_WAG_ARMOR WORD_ARMOR"  "\n" 
+                                98 "WORD_LS: " 8A "WORD_SLOW"             00
 
 // TGV-Duplex
 -1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_TGV_D    9E "WORD_CC: " 8A "MU_TGV_D_CAP_WAG_PAX WORD_PAX/MU_TGV_D_CAP_WAG_MAIL WORD_MAIL/MU_TGV_D_CAP_WAG_ARMOR WORD_ARMOR"  "\n" 
@@ -33,6 +44,18 @@
                                 98 "WORD_LS: " 8A " WORD_SLOW "               00 
 
 
+
 // MU Names:
--1 * 0  04 00 LANG_ID \b1 MU_TGV_D_ID_B "                 TGV Duplex"              00
--1 * 0  04 00 LANG_ID \b1 MU_TGV_T_ID_B "                 TGV Thalys"              00
+-1 * 0  04 00 LANG_ID \b1 MU_ERT500_ID_B        "                 ETR 500"              00
+-1 * 0  04 00 LANG_ID \b1 MU_TGV_D_ID_B         "                 TGV Duplex"              00
+-1 * 0  04 00 LANG_ID \b1 MU_TGV_T_ID_B         "                 TGV Thalys"              00
+
+// --------------------------
+// ----- Error messages -----
+// --------------------------
+-1 * 0  04 00 LANG_ID2 \b1 \wxD0ER_ONEUNIT	"STR_ER_ONEUNIT" 00
+-1 * 0  04 00 LANG_ID2 \b1 \wxD0ER_SELFONLY	"STR_ER_SELFONLY" 00
+-1 * 0  04 00 LANG_ID2 \b1 \wxD0ER_SUBSELFONLY	"STR_ER_SUBSELFONLY" 00
+-1 * 0  04 00 LANG_ID2 \b1 \wxD0ER_MUONLYONMU	"STR_ER_MUONLYONMU" 00
+-1 * 0  04 00 LANG_ID2 \b1 \wxD0ER_CSLOBONLY	"STR_ER_CSLOBONLY" 00
+-1 * 0  04 00 LANG_ID2 \b1 \wxD0ER_ONLYMU	"STR_ER_ONLYMU" 00
