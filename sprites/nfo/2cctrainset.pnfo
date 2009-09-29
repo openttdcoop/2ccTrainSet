@@ -5,28 +5,25 @@ sprites/nfo/nfo_header.pnfo
 sprites/nfo/ids.pnfo
 sprites/nfo/action0.pnfo
 
-// main files
+// Header file(s)
 sprites/nfo/header.pnfo
-sprites/nfo/wagons.pnfo
-sprites/nfo/sounds.pnfo
-sprites/nfo/maglev.pnfo
-
-
-// V 2.0 files
-
-sprites/nfo/mus/tgv-t.pnfo
-
-
-
 
 // Language files
-sprites/nfo/strings/02_german.pnfo
-sprites/nfo/strings/03_french.pnfo
-sprites/nfo/strings/1F_dutch.pnfo
-sprites/nfo/strings/2D_danish.pnfo
-sprites/nfo/strings/36_portuguese.pnfo
-sprites/nfo/strings/37_BrazilianPortuguese.pnfo
 sprites/nfo/strings/7F_english.pnfo
+
+// Wagons
+sprites/nfo/wagons.pnfo
+
+// Sounds
+sprites/nfo/sounds.pnfo
+
+// MUs
+sprites/nfo/mus/tgv-d.pnfo
+sprites/nfo/mus/tgv-t.pnfo
+
+// Maglevs
+sprites/nfo/maglev.pnfo
+
 
 // footer file
 sprites/nfo/regsel.pnfo
