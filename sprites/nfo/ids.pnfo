@@ -1,15 +1,15 @@
 
 // Vehicle IDs for wagons
 #define MU                           70// Defines of Wagon IDs
-#define ID_WAG_MU_PAX70
+
 
 // Strings
-ER_ONEUNIT	E0
-ER_SELFONLY	E1
-ER_SUBSELFONLY	E2
-ER_MUONLYONMU	E3
-ER_CSLOBONLY	E4
-ER_ONLYMU	E5
+#define ER_ONEUNIT_	E0
+#define ER_SELFONLY	E1
+#define ER_SUBSELFONLY	E2
+#define ER_MUONLYONMU	E3
+#define ER_CSLOBONLY	E4
+#define ER_ONLYMU	E5
 
 
 // P-list ID
