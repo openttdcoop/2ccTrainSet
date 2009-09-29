@@ -31,7 +31,7 @@
   29 \wx3f0		     // New NOT Cargo classes
   0D MU_TGV_T_RCOST         // RUN Cost Factor
   0E MU_TGV_T_RCBASE    // RUN cost Base
-  17 FF			     // Cost Factor
+  17 MU_TGV_T_PCOST			     // Cost Factor
   1C 00			     // Refit cost
 
 // Misc
@@ -117,7 +117,7 @@
 4 * 0  0
 5 * 0  0
 6 * 0  0
-7 THIS_PCX_FILE    	01	288	1	12	87	-16	-08
+7 THIS_PCX_FILE    	01	288	1	12	87	-12	-08
 8 * 0  0
 // mail thingy
 1 THIS_PCX_FILE    	01	160	1	24	08	-3	-12

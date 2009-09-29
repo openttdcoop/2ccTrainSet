@@ -16,6 +16,7 @@
 #define WORD_SLOW       Slow
 #define WORD_NB         NB
 #define WORD_RC_1U      Running costs per 1 unit
+
 #define STR_ER_ONEUNIT      Can only be one unit long
 #define STR_ER_SELFONLY     Can only attach to itself
 #define STR_ER_SUBSELFONLY  Single unit subway cars can only connect to their own kind
@@ -29,24 +30,31 @@
 // P-list texts
 //-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_nnn    9E "WORD_CC: " 8A "MU_nnn_CAP_WAG_PAX WORD_PAX/MU_nnn_CAP_WAG_MAIL WORD_MAIL/ MU_nnn_CAP_WAG_ARMOR WORD_ARMOR"  "\n" 
 //                                98 "WORD_LS: " 8A "WORD_changeme" 
-//                                8B "NB: " 98 "Running costs per 1 unit"	00
+//                                8B "NB: " 98 "WORD_RC_1U"	00
+
+// 594
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_594    9E "WORD_CC: " 8A "MU_594_CAP_WAG_PAX WORD_PAX/MU_594_CAP_WAG_MAIL WORD_MAIL/ MU_594_CAP_WAG_ARMOR WORD_ARMOR"  "\n" 
+                                98 "WORD_LS: " 8A "WORD_MEDIUM" 
+                                8B "NB: " 98 "WORD_RC_1U"	00
 
 // ETR500
--1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_ETR500    9E "WORD_CC: " 8A "MU_ETR500_CAP_WAG_PAX WORD_PAX/MU_ETR500_CAP_WAG_MAIL WORD_MAIL/ MU_ETR500_CAP_WAG_ARMOR WORD_ARMOR"  "\n" 
-                                98 "WORD_LS: " 8A "WORD_SLOW"             00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_ETR500    9E \"WORD_CC: " 8A \"MU_ETR500_CAP_WAG_PAX WORD_PAX/MU_ETR500_CAP_WAG_MAIL WORD_MAIL/ MU_ETR500_CAP_WAG_ARMOR WORD_ARMOR\"  \"\n\" 
+                                98 \"WORD_LS: \" 8A \"WORD_SLOW\"             00
 
 // TGV-Duplex
--1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_TGV_D    9E "WORD_CC: " 8A "MU_TGV_D_CAP_WAG_PAX WORD_PAX/MU_TGV_D_CAP_WAG_MAIL WORD_MAIL/MU_TGV_D_CAP_WAG_ARMOR WORD_ARMOR"  "\n" 
-                                98 "WORD_LS: " 8A "WORD_SLOW"               00 
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_TGV_D    9E \"WORD_CC: \" 8A \"MU_TGV_D_CAP_WAG_PAX WORD_PAX/MU_TGV_D_CAP_WAG_MAIL WORD_MAIL/MU_TGV_D_CAP_WAG_ARMOR WORD_ARMOR\"  \"\n\" 
+                                98 \"WORD_LS: \" 8A \"WORD_SLOW\"               00 
 
 // TGV-Duplex
--1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_TGV_T    9E "WORD_CC: " 8A "MU_TGV_T_CAP_WAG_PAX WORD_PAX/MU_TGV_T_CAP_WAG_MAIL WORD_MAIL/ MU_TGV_T_CAP_WAG_ARMOR WORD_ARMOR"  "\n" 
-                                98 "WORD_LS: " 8A " WORD_SLOW "               00 
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_TGV_T    9E \"WORD_CC: \" 8A \"MU_TGV_T_CAP_WAG_PAX WORD_PAX/MU_TGV_T_CAP_WAG_MAIL WORD_MAIL/ MU_TGV_T_CAP_WAG_ARMOR WORD_ARMOR\"  \"\n\" 
+                                98 \"WORD_LS: \" 8A \" WORD_SLOW \"               00 
 
-
+// Wagon Names
+-1 * 0  04 00 LANG_ID \b1 MU                    "                 Multiple Unit Wagon"              00
 
 // MU Names:
--1 * 0  04 00 LANG_ID \b1 MU_ERT500_ID_B        "                 ETR 500"              00
+-1 * 0  04 00 LANG_ID \b1 MU_594_ID_B           "                 ETR 500"              00
+-1 * 0  04 00 LANG_ID \b1 MU_ETR500_ID_B        "                 ETR 500"              00
 -1 * 0  04 00 LANG_ID \b1 MU_TGV_D_ID_B         "                 TGV Duplex"              00
 -1 * 0  04 00 LANG_ID \b1 MU_TGV_T_ID_B         "                 TGV Thalys"              00
 
