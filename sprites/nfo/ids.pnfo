@@ -4,13 +4,20 @@
 
 
 // Strings
-#define ER_ONEUNIT_	E0
-#define ER_SELFONLY	E1
+// Error IDs
+#define ER_ONEUNIT      E0
+#define ER_SELFONLY     E1
 #define ER_SUBSELFONLY	E2
-#define ER_MUONLYONMU	E3
-#define ER_CSLOBONLY	E4
-#define ER_ONLYMU	E5
+#define ER_MUONLYONMU   E3
+#define ER_CSLOBONLY    E4
+#define ER_ONLYMU     	E5
 
+#define ER_ONEUNIT_W            \wxD0E0
+#define ER_SELFONLY_W	        \wxD0E1
+#define ER_SUBSELFONLY_W	\wxD0E2
+#define ER_MUONLYONMU_W	        \wxD0E3
+#define ER_CSLOBONLY_W	        \wxD0E4
+#define ER_ONLYMU_W     	\wxD0E5
 
 // P-list ID
 #define STR_W_MU_594 \wxD000	

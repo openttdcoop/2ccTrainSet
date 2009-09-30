@@ -8,21 +8,21 @@
 
 // A few words, note: Do not remove any "'s
 #define WORD_CC         "Carriage Capacity
-#define WORD_PAX        Passengers
-#define WORD_MAIL       Mail
-#define WORD_ARMOR      Valuabels
+#define WORD_PAX         Passengers
+#define WORD_MAIL        Mail
+#define WORD_ARMOR       Valuabels
 #define WORD_LS         "Loading Speed
-#define WORD_FAST       Fast
-#define WORD_MEDIUM     Medium
-#define WORD_SLOW       Slow
+#define WORD_FAST        Fast
+#define WORD_MEDIUM      Medium
+#define WORD_SLOW        Slow
 #define WORD_RC_1U      "Running costs per 1 unit
 
-#define STR_ER_ONEUNIT      Can only be one unit long
-#define STR_ER_SELFONLY     Can only attach to itself
-#define STR_ER_SUBSELFONLY  Single unit subway cars can only connect to their own kind
-#define STR_ER_MUONLYONMU   MU-wagons can only be attached to MU's
-#define STR_ER_CSLOBONLY    Use only long boxcars on CargoSprinter
-#define STR_ER_ONLYMU       Use MU-wagon
+#define STR_ER_ONEUNIT      "Can only be one unit long
+#define STR_ER_SELFONLY     "Can only attach to itself
+#define STR_ER_SUBSELFONLY  "Single unit subway cars can only connect to their own kind
+#define STR_ER_MUONLYONMU   "Multiple Unit Wagons can only be attached to Multiple Unit Trains
+#define STR_ER_CSLOBONLY    "Use only long boxcars on CargoSprinter
+#define STR_ER_ONLYMU       "Use Only Multiple Unit Wagons
 
 
 
@@ -73,9 +73,9 @@
 // --------------------------
 // ----- Error messages -----
 // --------------------------
--1 * 0  04 00 LANG_ID2 \b1 \wxD0ER_ONEUNIT	"STR_ER_ONEUNIT" 00
--1 * 0  04 00 LANG_ID2 \b1 \wxD0ER_SELFONLY	"STR_ER_SELFONLY" 00
--1 * 0  04 00 LANG_ID2 \b1 \wxD0ER_SUBSELFONLY	"STR_ER_SUBSELFONLY" 00
--1 * 0  04 00 LANG_ID2 \b1 \wxD0ER_MUONLYONMU	"STR_ER_MUONLYONMU" 00
--1 * 0  04 00 LANG_ID2 \b1 \wxD0ER_CSLOBONLY	"STR_ER_CSLOBONLY" 00
--1 * 0  04 00 LANG_ID2 \b1 \wxD0ER_ONLYMU	"STR_ER_ONLYMU" 00
+-1 * 0  04 00 LANG_ID2 \b1 ER_ONEUNIT_BW	        STR_ER_ONEUNIT" 00
+-1 * 0  04 00 LANG_ID2 \b1 ER_SELFONLY_W	STR_ER_SELFONLY" 00
+-1 * 0  04 00 LANG_ID2 \b1 ER_SUBSELFONLY_W	STR_ER_SUBSELFONLY" 00
+-1 * 0  04 00 LANG_ID2 \b1 ER_MUONLYONMU_W	STR_ER_MUONLYONMU" 00
+-1 * 0  04 00 LANG_ID2 \b1 ER_CSLOBONLY_W	STR_ER_CSLOBONLY" 00
+-1 * 0  04 00 LANG_ID2 \b1 ER_ONLYMU_W	        STR_ER_ONLYMU" 00
