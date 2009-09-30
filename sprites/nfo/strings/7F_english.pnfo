@@ -6,16 +6,16 @@
 #define LANG_ID  7F
 #define LANG_ID2 FF
 
-#define WORD_CC         Carriage Capacity
+// A few words, note: Do not remove any "'s
+#define WORD_CC         "Carriage Capacity
 #define WORD_PAX        Passengers
 #define WORD_MAIL       Mail
 #define WORD_ARMOR      Valuabels
-#define WORD_LS         Loading Speed
+#define WORD_LS         "Loading Speed
 #define WORD_FAST       Fast
 #define WORD_MEDIUM     Medium
 #define WORD_SLOW       Slow
-#define WORD_NB         NB
-#define WORD_RC_1U      Running costs per 1 unit
+#define WORD_RC_1U      "Running costs per 1 unit
 
 #define STR_ER_ONEUNIT      Can only be one unit long
 #define STR_ER_SELFONLY     Can only attach to itself
@@ -28,32 +28,44 @@
 
 
 // P-list texts
-//-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_nnn    9E "WORD_CC: " 8A "MU_nnn_CAP_WAG_PAX WORD_PAX/MU_nnn_CAP_WAG_MAIL WORD_MAIL/ MU_nnn_CAP_WAG_ARMOR WORD_ARMOR"  "\n" 
-//                                98 "WORD_LS: " 8A "WORD_changeme" 
-//                                8B "NB: " 98 "WORD_RC_1U"	00
+//-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_nnn      "\n"
+//                                WORD_CC: " 8A "MU_nnn_CAP_WAG_PAX_STR WORD_PAX/MU_nnn_CAP_WAG_MAIL_STR WORD_MAIL/ MU_nnn_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
+//                                98 WORD_LS: " 8A "WORD_changeme"  "\n"
+//                                8B "NB: " 98 WORD_RC_1U"	00
 
 // 594
--1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_594    9E "WORD_CC: " 8A "MU_594_CAP_WAG_PAX WORD_PAX/MU_594_CAP_WAG_MAIL WORD_MAIL/ MU_594_CAP_WAG_ARMOR WORD_ARMOR"  "\n" 
-                                98 "WORD_LS: " 8A "WORD_MEDIUM" 
-                                8B "NB: " 98 "WORD_RC_1U"	00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_594      "\n"
+                                WORD_CC: " 8A "MU_594_CAP_WAG_PAX_STR WORD_PAX/MU_594_CAP_WAG_MAIL_STR WORD_MAIL/ MU_594_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
+                                98 WORD_LS: " 8A "WORD_MEDIUM" "\n"
+                                8B "NB: " 98 WORD_RC_1U"	00
+
+// 680
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_680      "\n"
+                                WORD_CC: " 8A "MU_680_CAP_WAG_PAX_STR WORD_PAX/MU_680_CAP_WAG_MAIL_STR WORD_MAIL/ MU_680_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
+                                98 WORD_LS: " 8A "WORD_SLOW" "\n"
+                                8B "NB: " 98 WORD_RC_1U"	00
 
 // ETR500
--1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_ETR500    9E \"WORD_CC: " 8A \"MU_ETR500_CAP_WAG_PAX WORD_PAX/MU_ETR500_CAP_WAG_MAIL WORD_MAIL/ MU_ETR500_CAP_WAG_ARMOR WORD_ARMOR\"  \"\n\" 
-                                98 \"WORD_LS: \" 8A \"WORD_SLOW\"             00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_ETR500     "\n\n"
+                                WORD_CC: " 8A "MU_ETR500_CAP_WAG_PAX_STR WORD_PAX/MU_ETR500_CAP_WAG_MAIL_STR WORD_MAIL/ MU_ETR500_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
+                                98 WORD_LS: " 8A "WORD_SLOW"             00
 
 // TGV-Duplex
--1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_TGV_D    9E \"WORD_CC: \" 8A \"MU_TGV_D_CAP_WAG_PAX WORD_PAX/MU_TGV_D_CAP_WAG_MAIL WORD_MAIL/MU_TGV_D_CAP_WAG_ARMOR WORD_ARMOR\"  \"\n\" 
-                                98 \"WORD_LS: \" 8A \"WORD_SLOW\"               00 
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_TGV_D     "\n\n"
+                                WORD_CC: " 8A "MU_TGV_D_CAP_WAG_PAX_STR WORD_PAX/MU_TGV_D_CAP_WAG_MAIL_STR WORD_MAIL/MU_TGV_D_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
+                                98 WORD_LS: " 8A "WORD_SLOW"               00 
 
 // TGV-Duplex
--1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_TGV_T    9E \"WORD_CC: \" 8A \"MU_TGV_T_CAP_WAG_PAX WORD_PAX/MU_TGV_T_CAP_WAG_MAIL WORD_MAIL/ MU_TGV_T_CAP_WAG_ARMOR WORD_ARMOR\"  \"\n\" 
-                                98 \"WORD_LS: \" 8A \" WORD_SLOW \"               00 
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_TGV_T     "\n\n"
+                                WORD_CC: " 8A "MU_TGV_T_CAP_WAG_PAX_STR WORD_PAX/MU_TGV_T_CAP_WAG_MAIL_STR WORD_MAIL/ MU_TGV_T_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
+                                98 WORD_LS: " 8A " WORD_SLOW "               00 
 
 // Wagon Names
 -1 * 0  04 00 LANG_ID \b1 MU                    "                 Multiple Unit Wagon"              00
 
 // MU Names:
--1 * 0  04 00 LANG_ID \b1 MU_594_ID_B           "                 ETR 500"              00
+-1 * 0  04 00 LANG_ID \b1 MU_594_ID_B           "                 594"              00
+-1 * 0  04 00 LANG_ID \b1 MU_680_ID_B           "                 680"              00
 -1 * 0  04 00 LANG_ID \b1 MU_ETR500_ID_B        "                 ETR 500"              00
 -1 * 0  04 00 LANG_ID \b1 MU_TGV_D_ID_B         "                 TGV Duplex"              00
 -1 * 0  04 00 LANG_ID \b1 MU_TGV_T_ID_B         "                 TGV Thalys"              00
