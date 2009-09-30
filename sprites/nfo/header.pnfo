@@ -95,7 +95,7 @@
 -1 * 7	 00 08 01 01 0F 08 0A // Engine purchase price
 -1 * 7	 00 08 01 01 10 08 0A // Waggon purchase price
 -1 * 7	 00 08 01 01 2A 08 09 // Steam running
--1 * 7	 00 08 01 01 2C 08 0D // Electro Running
+-1 * 7	 00 08 01 01 2C 08 0C // Electro Running
 -1 * 7   00 08 01 01 2B 08 0E // Diesel running cost
 
 // Target of the skip for chosing running costs
