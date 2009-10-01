@@ -1,42 +1,43 @@
+// change "BR168" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
 
-#define THIS_PCX_FILE	sprites/pcx/mus/594.pcx  // Graphics file
+#define THIS_PCX_FILE	sprites/pcx/mus/BR168.pcx  // Graphics file
 
 
 // Action 0
--1 * 0  00 00 \b30 01 MU_594_ID_B
+-1 * 0  00 00 \b30 01 MU_BR168_ID_B
 // Game related props 
   02 \b01	// Reliability Decay
-  03 MU_594_V_LIFE	// Vehicle Life/Years
-  04 MU_594_M_LIFE	// Model Life/Years
+  03 MU_BR168_V_LIFE	// Vehicle Life/Years
+  04 MU_BR168_M_LIFE	// Model Life/Years
   05 00		// Track type; 00 Rail, 01 Mono, 02 Mlev
   06 07		// Climate availability
   07 \b10	// Loading Speed - Not needed in most cases
   08 01		// AI Pax optimized
    
 // Physical properties
-  00 MU_594_INTROYEAR	// Intro year \wyyyy-mm-dd
-  09 MU_594_SPEED		// Speed (word)
-  0B MU_594_HP		// Power in HP (word)
-  1B MU_594_WAG_HP           // Power in HP on attached wagons
-  1F MU_594_TE		// Tractive effort
-  16 MU_594_WEIGHT           // Weight/Tons
-  24 MU_594_WEIGHT_HIGH      // Highbyte on engines weighing >255 tons
+  00 MU_BR168_INTROYEAR	// Intro year \wyyyy-mm-dd
+  09 MU_BR168_SPEED		// Speed (word)
+  0B MU_BR168_HP		// Power in HP (word)
+  1B MU_BR168_WAG_HP           // Power in HP on attached wagons
+  1F MU_BR168_TE		// Tractive effort
+  16 MU_BR168_WEIGHT           // Weight/Tons
+  24 MU_BR168_WEIGHT_HIGH      // Highbyte on engines weighing >255 tons
   20 20                         // Air Drag
 
 // Economical properties
-  14 MU_594_CAP_HEAD_PAX  // Cargo Capacity
+  14 MU_BR168_CAP_HEAD_PAX  // Cargo Capacity
   15 00		             // Cargo Type
   1D \dx0                    // Refit bitmask
   28 \wx0b	             // New cargo classes
   29 \wx3f0		     // New NOT Cargo classes
-  0D MU_594_RCOST         // RUN Cost Factor
-  0E MU_594_RCBASE    // RUN cost Base
-  17 MU_594_PCOST			     // Cost Factor
+  0D MU_BR168_RCOST         // RUN Cost Factor
+  0E MU_BR168_RCBASE    // RUN cost Base
+  17 MU_BR168_PCOST			     // Cost Factor
   1C 00			     // Refit cost
 
 // Misc
   12 FD	// Use new grapics
-  19 MU_594_TRACTION_TYPE 
+  19 MU_BR168_TRACTION_TYPE 
   13 00	// Dualhead? 00/01 (should "always" be 00)
   1E FF // Callbacks
   21 00 // Shorter vehicle
@@ -100,7 +101,7 @@
 -1 * 0  02 00 40 01 01 \w4 \w4 // P-list
 
 // ----- Apply Purchase list text -----
--1 * 0  02 00 4F 81 0C 00 FF 01   STR_B_MU_594 80 23 23   40 00
+-1 * 0  02 00 4F 81 0C 00 FF 01   STR_B_MU_BR168 80 23 23   40 00
 
 // --------------------
 // ----- Generic ------
@@ -108,46 +109,46 @@
 
 // Loading speed of the various cargos
 -1 * 0  02 00 E1 81 47 10 FF 04
-                             MU_594_MAIL_LS 80 02 02  // Mail 
-                             MU_594_ARMOR_LS 80 08 08 // Armored 
-                             MU_594_PAX_LS 80 01 01   // PAX
-                             MU_594_PAX_LS 80 05 05   // Tourists
+                             MU_BR168_MAIL_LS 80 02 02  // Mail 
+                             MU_BR168_ARMOR_LS 80 08 08 // Armored 
+                             MU_BR168_PAX_LS 80 01 01   // PAX
+                             MU_BR168_PAX_LS 80 05 05   // Tourists
                              00 80                            // others 
              
 //Capacty for use in CB15/36 - Head
 -1 * 0  02 00 E5 81 47 10 FF 03
-                             MU_594_CAP_HEAD_MAIL 80 02 02		// Mail Capacity
-                             MU_594_CAP_HEAD_ARMOR 80 08 08        // Armored capacity
-                             MU_594_CAP_HEAD_PAX 80 05 05		// Tourist capacity
+                             MU_BR168_CAP_HEAD_MAIL 80 02 02		// Mail Capacity
+                             MU_BR168_CAP_HEAD_ARMOR 80 08 08        // Armored capacity
+                             MU_BR168_CAP_HEAD_PAX 80 05 05		// Tourist capacity
                              00 80				// Everything else
  //Capacty for use in CB15/36 - Wagon
 -1 * 0  02 00 E6 81 47 10 FF 03
-                             MU_594_CAP_WAG_MAIL 80 02 02		// Mail Capacity
-                             MU_594_CAP_WAG_ARMOR 80 08 08        // Armored capacity
-                             MU_594_CAP_WAG_PAX 80 05 05		// Tourist capacity
+                             MU_BR168_CAP_WAG_MAIL 80 02 02		// Mail Capacity
+                             MU_BR168_CAP_WAG_ARMOR 80 08 08        // Armored capacity
+                             MU_BR168_CAP_WAG_PAX 80 05 05		// Tourist capacity
                              00 80				// Everything else
                           
 //Low cost when standing still, for use in the '10' at the RUN cost spot HEAD
 -1 * 0  02 00 EC 82 B4 00 FF 01			// 1 case
-                          MU_594_RCOST_IDLE 80 00 00	        // Standing still cost 
-                          MU_594_RCOST 80	// RUN cost
+                          MU_BR168_RCOST_IDLE 80 00 00	        // Standing still cost 
+                          MU_BR168_RCOST 80	// RUN cost
 
 //Low cost when standing still, for use in the '10' at the RUN cost spot WAGON
 -1 * 0  02 00 ED 82 B4 00 FF 01			// 1 case
-                          MU_594_RCOST_IDLE 80 00 00	        // Standing still cost 
-                          MU_594_RCOST_WAG 80	// RUN cost
+                          MU_BR168_RCOST_IDLE 80 00 00	        // Standing still cost 
+                          MU_BR168_RCOST_WAG 80	// RUN cost
 
 // '10' for CB36s HEAD
 -1 * 0  02 00 EE 81 10 00 FF 03
-                             MU_594_CAP_HEAD_PAX 80 14 14		// Capacity
-                             MU_594_WEIGHT 80 16 16	// weight
+                             MU_BR168_CAP_HEAD_PAX 80 14 14		// Capacity
+                             MU_BR168_WEIGHT 80 16 16	// weight
                              EC 00 0D 0D		// RUN cost
                              40 00			// Dont matter
 
 // '10' for CB36s Wagon
 -1 * 0  02 00 EF 81 10 00 FF 03
-                             MU_594_CAP_WAG_PAX 80 14 14		// Capacity
-                             MU_594_WEIGHT 80 16 16	// weight
+                             MU_BR168_CAP_WAG_PAX 80 14 14		// Capacity
+                             MU_BR168_WEIGHT 80 16 16	// weight
                              ED 00 0D 0D		// RUN cost
                              40 00			// Dont matter
 
@@ -159,7 +160,7 @@
 // Cannot attach 
 -1 * 0  02 00 A6 85 C6 00 FF FF 02             // 2 cases
                              FF 80 MU 00 MU 00 // allow attaching MU-wagon
-                             FF 80 MU_594_ID_W  MU_594_ID_W  // Allow attaching self
+                             FF 80 MU_BR168_ID_W  MU_BR168_ID_W  // Allow attaching self
                              ER_ONLYMU 80             // Dissalow everything else
 -1 * 0  02 00 AF 81 0C 00 FF 04          // 4 callbacks
                              E1 00 12 12 // Loading speed
@@ -193,7 +194,7 @@
 // ----------------------
 // ----- Action 3's -----
 // ----------------------
--1 * 0  03 00 01 MU_594_ID_B 01	//
+-1 * 0  03 00 01 MU_BR168_ID_B 01	//
               FF 4F 00		// P-list
               AF 00		// Normal
 -1 * 0  03 00 81 MU 00 5F 00	// Livery Override 
