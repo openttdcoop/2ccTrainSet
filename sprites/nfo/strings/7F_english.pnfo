@@ -142,6 +142,12 @@
                                 98 WORD_LS: " 8A "WORD_MEDIUM"  "\n"
                                 8B "NB: " 98 WORD_RC_1U"	00
 
+// VT612
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_VT612      "\n"
+                                WORD_CC: " 8A "MU_VT612_CAP_WAG_PAX_STR WORD_PAX / MU_VT612_CAP_WAG_MAIL_STR WORD_MAIL / MU_VT612_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
+                                98 WORD_LS: " 8A "WORD_changeme"  "\n"
+                                8B "NB: " 98 WORD_RC_1U"	00
+
 // TGV-Duplex
 -1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_TGV_D     "\n\n"
                                 WORD_CC: " 8A "MU_TGV_D_CAP_WAG_PAX_STR WORD_PAX / MU_TGV_D_CAP_WAG_MAIL_STR WORD_MAIL / MU_TGV_D_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
@@ -151,6 +157,19 @@
 -1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_TGV_T     "\n\n"
                                 WORD_CC: " 8A "MU_TGV_T_CAP_WAG_PAX_STR WORD_PAX / MU_TGV_T_CAP_WAG_MAIL_STR WORD_MAIL / MU_TGV_T_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
                                 98 WORD_LS: " 8A "WORD_SLOW "               00 
+
+// SM2
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_SM2      "\n"
+                                WORD_CC: " 8A "MU_SM2_CAP_WAG_PAX_STR WORD_PAX / MU_SM2_CAP_WAG_MAIL_STR WORD_MAIL / MU_SM2_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
+                                98 WORD_LS: " 8A "WORD_MEDIUM"  "\n"
+                                8B "NB: " 98 WORD_RC_1U"	00
+
+// Y2
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_Y2      "\n"
+                                WORD_CC: " 8A "MU_Y2_CAP_WAG_PAX_STR WORD_PAX / MU_Y2_CAP_WAG_MAIL_STR WORD_MAIL / MU_Y2_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
+                                98 WORD_LS: " 8A "WORD_SLOW"  "\n"
+                                8B "NB: " 98 WORD_RC_1U"	00
+
 
 // Wagon Names
 -1 * 0  04 00 LANG_ID \b1 MU                    "                 Multiple Unit Wagon"              00
@@ -164,6 +183,8 @@
 -1 * 0  04 00 LANG_ID \b1 MU_BM65_ID_B           "                 BM65"              00
 -1 * 0  04 00 LANG_ID \b1 MU_BM93_ID_B           "                 BM93"              00
 -1 * 0  04 00 LANG_ID \b1 MU_BR168_ID_B           "                 BR168"              00
+-1 * 0  04 00 LANG_ID \b1 MU_CD_ID_B        "                 Chicago Doubler"              00
+-1 * 0  04 00 LANG_ID \b1 MU_ETR500_ID_B        "                 ETR 500"              00
 -1 * 0  04 00 LANG_ID \b1 MU_HUNTER_ID_B           "                 Hunter"              00
 -1 * 0  04 00 LANG_ID \b1 MU_IC125_ID_B           "                 IC125"              00
 -1 * 0  04 00 LANG_ID \b1 MU_LINT41_ID_B           "                 LINT41"              00
@@ -173,10 +194,11 @@
 -1 * 0  04 00 LANG_ID \b1 MU_OSCAR_ID_B         "                 OSCar"              00
 -1 * 0  04 00 LANG_ID \b1 MU_PLANY_ID_B         "                 Plan Y  "     00
 -1 * 0  04 00 LANG_ID \b1 MU_RBDE560_ID_B           "                 RBDE560"              00
--1 * 0  04 00 LANG_ID \b1 MU_CD_ID_B        "                 ETR 500"              00
--1 * 0  04 00 LANG_ID \b1 MU_CD_ID_B        "                 Chicago Doubler"              00
+-1 * 0  04 00 LANG_ID \b1 MU_VT612_ID_B           "                 VT612 'Regioswinger'"              00
+-1 * 0  04 00 LANG_ID \b1 MU_SM2_ID_B           "                 SM2"              00
 -1 * 0  04 00 LANG_ID \b1 MU_TGV_D_ID_B         "                 TGV Duplex"              00
 -1 * 0  04 00 LANG_ID \b1 MU_TGV_T_ID_B         "                 TGV Thalys"              00
+-1 * 0  04 00 LANG_ID \b1 MU_Y2_ID_B           "                 Y2"              00
 
 // --------------------------
 // ----- Error messages -----
