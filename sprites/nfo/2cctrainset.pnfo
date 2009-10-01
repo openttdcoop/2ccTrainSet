@@ -26,6 +26,7 @@ sprites/nfo/mus/bm65.pnfo
 sprites/nfo/mus/bm93.pnfo
 sprites/nfo/mus/br168.pnfo
 sprites/nfo/mus/cd.pnfo
+sprites/nfo/mus/etr500.pnfo
 sprites/nfo/mus/hunter.pnfo
 sprites/nfo/mus/ic125.pnfo
 sprites/nfo/mus/lint41.pnfo
@@ -35,8 +36,11 @@ sprites/nfo/mus/mat36.pnfo
 sprites/nfo/mus/oscar.pnfo
 sprites/nfo/mus/plany.pnfo
 sprites/nfo/mus/rbde560.pnfo
+sprites/nfo/mus/sm2.pnfo
 sprites/nfo/mus/tgv-d.pnfo
 sprites/nfo/mus/tgv-t.pnfo
+sprites/nfo/mus/vt612.pnfo
+sprites/nfo/mus/y2.pnfo
 
 // Maglevs
 sprites/nfo/maglev.pnfo
