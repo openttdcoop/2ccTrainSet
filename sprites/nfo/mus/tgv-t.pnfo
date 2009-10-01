@@ -288,3 +288,5 @@
               FF 4F 00		// P-list
               AF 00		// Normal
 -1 * 0  03 00 81 MU 00 5F 00	// Livery Override 
+
+#undef THIS_PCX_FILE

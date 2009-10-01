@@ -8,9 +8,9 @@
 
 // A few words, note: Do not remove any "'s
 #define WORD_CC         "Carriage Capacity
-#define WORD_PAX         Passengers
-#define WORD_MAIL        Mail
-#define WORD_ARMOR       Valuabels
+#define WORD_PAX         Passengers 
+#define WORD_MAIL        Mail 
+#define WORD_ARMOR       Valuabels 
 #define WORD_LS         "Loading Speed
 #define WORD_FAST        Fast
 #define WORD_MEDIUM      Medium
@@ -28,52 +28,160 @@
 
 
 // P-list texts
+// nnn
 //-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_nnn      "\n"
-//                                WORD_CC: " 8A "MU_nnn_CAP_WAG_PAX_STR WORD_PAX/MU_nnn_CAP_WAG_MAIL_STR WORD_MAIL/ MU_nnn_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
+//                                WORD_CC: " 8A "MU_nnn_CAP_WAG_PAX_STR WORD_PAX / MU_nnn_CAP_WAG_MAIL_STR WORD_MAIL / MU_nnn_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
 //                                98 WORD_LS: " 8A "WORD_changeme"  "\n"
 //                                8B "NB: " 98 WORD_RC_1U"	00
 
 // 594
 -1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_594      "\n"
-                                WORD_CC: " 8A "MU_594_CAP_WAG_PAX_STR WORD_PAX/MU_594_CAP_WAG_MAIL_STR WORD_MAIL/ MU_594_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
+                                WORD_CC: " 8A "MU_594_CAP_WAG_PAX_STR WORD_PAX / MU_594_CAP_WAG_MAIL_STR WORD_MAIL / MU_594_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
                                 98 WORD_LS: " 8A "WORD_MEDIUM" "\n"
                                 8B "NB: " 98 WORD_RC_1U"	00
 
 // 680
 -1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_680      "\n"
-                                WORD_CC: " 8A "MU_680_CAP_WAG_PAX_STR WORD_PAX/MU_680_CAP_WAG_MAIL_STR WORD_MAIL/ MU_680_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
+                                WORD_CC: " 8A "MU_680_CAP_WAG_PAX_STR WORD_PAX / MU_680_CAP_WAG_MAIL_STR WORD_MAIL / MU_680_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
                                 98 WORD_LS: " 8A "WORD_SLOW" "\n"
+                                8B "NB: " 98 WORD_RC_1U"	00
+// 2200
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_2200      "\n"
+                                WORD_CC: " 8A "MU_2200_CAP_WAG_PAX_STR WORD_PAX / MU_2200_CAP_WAG_MAIL_STR WORD_MAIL / MU_2200_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
+                                98 WORD_LS: " 8A "WORD_MEDIM" "\n"
+                                8B "NB: " 98 WORD_RC_1U"	00
+// 4041
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_4041      "\n"
+                                WORD_CC: " 8A "MU_4041_CAP_WAG_PAX_STR WORD_PAX / MU_4041_CAP_WAG_MAIL_STR WORD_MAIL / MU_4041_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
+                                98 WORD_LS: " 8A "WORD_MEDIUM" "\n"
+                                8B "NB: " 98 WORD_RC_1U"	00
+// BM65
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_BM65      "\n"
+                                WORD_CC: " 8A "MU_BM65_CAP_WAG_PAX_STR WORD_PAX / MU_BM65_CAP_WAG_MAIL_STR WORD_MAIL / MU_BM65_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
+                                98 WORD_LS: " 8A "WORD_SLOW" "\n"
+                                8B "NB: " 98 WORD_RC_1U"	00
+// BM93
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_BM93      "\n"
+                                WORD_CC: " 8A "MU_BM93_CAP_WAG_PAX_STR WORD_PAX / MU_BM93_CAP_WAG_MAIL_STR WORD_MAIL / MU_BM93_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
+                                98 WORD_LS: " 8A "WORD_MEDIUM" "\n"
+                                8B "NB: " 98 WORD_RC_1U"	00
+
+// BR168
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_BR168      "\n"
+                                WORD_CC: " 8A "MU_BR168_CAP_WAG_PAX_STR WORD_PAX / MU_BR168_CAP_WAG_MAIL_STR WORD_MAIL / MU_BR168_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
+                                98 WORD_LS: " 8A "WORD_MEDIUM"  "\n"
+                                8B "NB: " 98 WORD_RC_1U"	00
+
+// Chicago Doubler
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_CD      "\n"
+                                WORD_CC: " 8A "MU_CD_CAP_WAG_PAX_STR WORD_PAX / MU_CD_CAP_WAG_MAIL_STR WORD_MAIL / MU_CD_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
+                                98 WORD_LS: " 8A "WORD_MEDIUM"  "\n"
                                 8B "NB: " 98 WORD_RC_1U"	00
 
 // ETR500
 -1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_ETR500     "\n\n"
-                                WORD_CC: " 8A "MU_ETR500_CAP_WAG_PAX_STR WORD_PAX/MU_ETR500_CAP_WAG_MAIL_STR WORD_MAIL/ MU_ETR500_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
+                                WORD_CC: " 8A "MU_ETR500_CAP_WAG_PAX_STR WORD_PAX / MU_ETR500_CAP_WAG_MAIL_STR WORD_MAIL / MU_ETR500_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
                                 98 WORD_LS: " 8A "WORD_SLOW"             00
+
+// HUNTER
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_HUNTER      "\n"
+                                WORD_CC: " 8A "MU_HUNTER_CAP_WAG_PAX_STR WORD_PAX / MU_HUNTER_CAP_WAG_MAIL_STR WORD_MAIL / MU_HUNTER_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
+                                98 WORD_LS: " 8A "WORD_MEDIUM"  "\n"
+                                8B "NB: " 98 WORD_RC_1U"	00
+
+// IC125
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_IC125      "\n\n"
+                                WORD_CC: " 8A "MU_IC125_CAP_WAG_PAX_STR WORD_PAX / MU_IC125_CAP_WAG_MAIL_STR WORD_MAIL / MU_IC125_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
+                                98 WORD_LS: " 8A "WORD_SLOW"  00
+
+// LINT41
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_LINT41      "\n"
+                                WORD_CC: " 8A "MU_LINT41_CAP_WAG_PAX_STR WORD_PAX / MU_LINT41_CAP_WAG_MAIL_STR WORD_MAIL / MU_LINT41_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
+                                98 WORD_LS: " 8A "WORD_MEDIUM"  "\n"
+                                8B "NB: " 98 WORD_RC_1U"	00
+
+// LRC
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_LRC      "\n\n"
+                                WORD_CC: " 8A "MU_LRC_CAP_WAG_PAX_STR WORD_PAX / MU_LRC_CAP_WAG_MAIL_STR WORD_MAIL / MU_LRC_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
+                                98 WORD_LS: " 8A "WORD_SLOW"  00
+
+
+// ICM
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_ICM      "\n"
+                                WORD_CC: " 8A "MU_ICM_CAP_WAG_PAX_STR WORD_PAX / MU_ICM_CAP_WAG_MAIL_STR WORD_MAIL / MU_ICM_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
+                                98 WORD_LS: " 8A "WORD_MEDIUM"  "\n"
+                                8B "NB: " 98 WORD_RC_1U"	00
+
+// MAT24
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_MAT24      "\n"
+                                WORD_CC: " 8A "MU_MAT24_CAP_WAG_PAX_STR WORD_PAX / MU_MAT24_CAP_WAG_MAIL_STR WORD_MAIL / MU_MAT24_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
+                                98 WORD_LS: " 8A "WORD_MEDIUM"  "\n"
+                                8B "NB: " 98 WORD_RC_1U"	00
+
+// MAT36
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_MAT36      "\n"
+                                WORD_CC: " 8A "MU_MAT36_CAP_WAG_PAX_STR WORD_PAX / MU_MAT36_CAP_WAG_MAIL_STR WORD_MAIL / MU_MAT36_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
+                                98 WORD_LS: " 8A "WORD_MEDIUM"  "\n"
+                                8B "NB: " 98 WORD_RC_1U"	00
+
+// OSCAR
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_OSCAR      "\n"
+                                WORD_CC: " 8A "MU_OSCAR_CAP_WAG_PAX_STR WORD_PAX / MU_OSCAR_CAP_WAG_MAIL_STR WORD_MAIL / MU_OSCAR_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
+                                98 WORD_LS: " 8A "WORD_MEDIUM"  "\n"
+                                8B "NB: " 98 WORD_RC_1U"	00
+
+// PLANY
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_PLANY      "\n"
+                                WORD_CC: " 8A "MU_PLANY_CAP_WAG_PAX_STR WORD_PAX / MU_PLANY_CAP_WAG_MAIL_STR WORD_MAIL / MU_PLANY_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
+                                98 WORD_LS: " 8A "WORD_MEDIUM"  "\n"
+                                8B "NB: " 98 WORD_RC_1U"	00
+
+// RBDE560
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_RBDE560      "\n"
+                                WORD_CC: " 8A "MU_RBDE560_CAP_WAG_PAX_STR WORD_PAX / MU_RBDE560_CAP_WAG_MAIL_STR WORD_MAIL / MU_RBDE560_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
+                                98 WORD_LS: " 8A "WORD_MEDIUM"  "\n"
+                                8B "NB: " 98 WORD_RC_1U"	00
 
 // TGV-Duplex
 -1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_TGV_D     "\n\n"
-                                WORD_CC: " 8A "MU_TGV_D_CAP_WAG_PAX_STR WORD_PAX/MU_TGV_D_CAP_WAG_MAIL_STR WORD_MAIL/MU_TGV_D_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
+                                WORD_CC: " 8A "MU_TGV_D_CAP_WAG_PAX_STR WORD_PAX / MU_TGV_D_CAP_WAG_MAIL_STR WORD_MAIL / MU_TGV_D_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
                                 98 WORD_LS: " 8A "WORD_SLOW"               00 
 
 // TGV-Duplex
 -1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_TGV_T     "\n\n"
-                                WORD_CC: " 8A "MU_TGV_T_CAP_WAG_PAX_STR WORD_PAX/MU_TGV_T_CAP_WAG_MAIL_STR WORD_MAIL/ MU_TGV_T_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
-                                98 WORD_LS: " 8A " WORD_SLOW "               00 
+                                WORD_CC: " 8A "MU_TGV_T_CAP_WAG_PAX_STR WORD_PAX / MU_TGV_T_CAP_WAG_MAIL_STR WORD_MAIL / MU_TGV_T_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
+                                98 WORD_LS: " 8A "WORD_SLOW "               00 
 
 // Wagon Names
 -1 * 0  04 00 LANG_ID \b1 MU                    "                 Multiple Unit Wagon"              00
 
 // MU Names:
+//-1 * 0  04 00 LANG_ID \b1 MU_nnn_ID_B           "                 nnn"              00
 -1 * 0  04 00 LANG_ID \b1 MU_594_ID_B           "                 594"              00
 -1 * 0  04 00 LANG_ID \b1 MU_680_ID_B           "                 680"              00
--1 * 0  04 00 LANG_ID \b1 MU_ETR500_ID_B        "                 ETR 500"              00
+-1 * 0  04 00 LANG_ID \b1 MU_2200_ID_B          "                 2200"              00
+-1 * 0  04 00 LANG_ID \b1 MU_4041_ID_B          "                 4041"              00
+-1 * 0  04 00 LANG_ID \b1 MU_BM65_ID_B           "                 BM65"              00
+-1 * 0  04 00 LANG_ID \b1 MU_BM93_ID_B           "                 BM93"              00
+-1 * 0  04 00 LANG_ID \b1 MU_BR168_ID_B           "                 BR168"              00
+-1 * 0  04 00 LANG_ID \b1 MU_HUNTER_ID_B           "                 Hunter"              00
+-1 * 0  04 00 LANG_ID \b1 MU_IC125_ID_B           "                 IC125"              00
+-1 * 0  04 00 LANG_ID \b1 MU_LINT41_ID_B           "                 LINT41"              00
+-1 * 0  04 00 LANG_ID \b1 MU_LRC_ID_B           "                 LRC"              00
+-1 * 0  04 00 LANG_ID \b1 MU_MAT24_ID_B           "                 MAT'24"              00
+-1 * 0  04 00 LANG_ID \b1 MU_MAT36_ID_B           "                 MAT'36"              00
+-1 * 0  04 00 LANG_ID \b1 MU_OSCAR_ID_B         "                 OSCar"              00
+-1 * 0  04 00 LANG_ID \b1 MU_PLANY_ID_B         "                 Plan Y  "     00
+-1 * 0  04 00 LANG_ID \b1 MU_RBDE560_ID_B           "                 RBDE560"              00
+-1 * 0  04 00 LANG_ID \b1 MU_CD_ID_B        "                 ETR 500"              00
+-1 * 0  04 00 LANG_ID \b1 MU_CD_ID_B        "                 Chicago Doubler"              00
 -1 * 0  04 00 LANG_ID \b1 MU_TGV_D_ID_B         "                 TGV Duplex"              00
 -1 * 0  04 00 LANG_ID \b1 MU_TGV_T_ID_B         "                 TGV Thalys"              00
 
 // --------------------------
 // ----- Error messages -----
 // --------------------------
--1 * 0  04 00 LANG_ID2 \b1 ER_ONEUNIT_BW	        STR_ER_ONEUNIT" 00
+-1 * 0  04 00 LANG_ID2 \b1 ER_ONEUNIT_W	        STR_ER_ONEUNIT" 00
 -1 * 0  04 00 LANG_ID2 \b1 ER_SELFONLY_W	STR_ER_SELFONLY" 00
 -1 * 0  04 00 LANG_ID2 \b1 ER_SUBSELFONLY_W	STR_ER_SUBSELFONLY" 00
 -1 * 0  04 00 LANG_ID2 \b1 ER_MUONLYONMU_W	STR_ER_MUONLYONMU" 00

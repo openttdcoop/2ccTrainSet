@@ -20,7 +20,21 @@ sprites/nfo/sounds.pnfo
 // MUs
 sprites/nfo/mus/594.pnfo
 sprites/nfo/mus/680.pnfo
-sprites/nfo/mus/etr500.pnfo
+sprites/nfo/mus/2200.pnfo
+sprites/nfo/mus/4041.pnfo
+sprites/nfo/mus/bm65.pnfo
+sprites/nfo/mus/bm93.pnfo
+sprites/nfo/mus/br168.pnfo
+sprites/nfo/mus/cd.pnfo
+sprites/nfo/mus/hunter.pnfo
+sprites/nfo/mus/ic125.pnfo
+sprites/nfo/mus/lint41.pnfo
+sprites/nfo/mus/lrc.pnfo
+sprites/nfo/mus/mat24.pnfo
+sprites/nfo/mus/mat36.pnfo
+sprites/nfo/mus/oscar.pnfo
+sprites/nfo/mus/plany.pnfo
+sprites/nfo/mus/rbde560.pnfo
 sprites/nfo/mus/tgv-d.pnfo
 sprites/nfo/mus/tgv-t.pnfo
 
