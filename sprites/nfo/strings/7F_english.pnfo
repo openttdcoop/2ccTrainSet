@@ -164,6 +164,12 @@
                                 98 WORD_LS: " 8A "WORD_MEDIUM"  "\n"
                                 8B "NB: " 98 WORD_RC_1U"	00
 
+// SM4
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_SM4      "\n"
+                                WORD_CC: " 8A "MU_SM4_CAP_WAG_PAX_STR WORD_PAX / MU_SM4_CAP_WAG_MAIL_STR WORD_MAIL / MU_SM4_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
+                                98 WORD_LS: " 8A "WORD_MEDIUM"  "\n"
+                                8B "NB: " 98 WORD_RC_1U"	00
+
 // Y2
 -1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_Y2      "\n"
                                 WORD_CC: " 8A "MU_Y2_CAP_WAG_PAX_STR WORD_PAX / MU_Y2_CAP_WAG_MAIL_STR WORD_MAIL / MU_Y2_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
@@ -196,6 +202,7 @@
 -1 * 0  04 00 LANG_ID \b1 MU_RBDE560_ID_B           "                 RBDE560"              00
 -1 * 0  04 00 LANG_ID \b1 MU_VT612_ID_B           "                 VT612 'Regioswinger'"              00
 -1 * 0  04 00 LANG_ID \b1 MU_SM2_ID_B           "                 SM2"              00
+-1 * 0  04 00 LANG_ID \b1 MU_SM4_ID_B           "                 SM4"              00
 -1 * 0  04 00 LANG_ID \b1 MU_TGV_D_ID_B         "                 TGV Duplex"              00
 -1 * 0  04 00 LANG_ID \b1 MU_TGV_T_ID_B         "                 TGV Thalys"              00
 -1 * 0  04 00 LANG_ID \b1 MU_Y2_ID_B           "                 Y2"              00
