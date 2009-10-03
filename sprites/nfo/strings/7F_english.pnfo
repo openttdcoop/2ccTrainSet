@@ -159,6 +159,11 @@
                                 WORD_CC: " 8A "MU_RBDE560_CAP_WAG_PAX_STR WORD_PAX / MU_RBDE560_CAP_WAG_MAIL_STR WORD_MAIL / MU_RBDE560_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
                                 98 WORD_LS: " 8A "WORD_MEDIUM"  "\n"
                                 8B "NB: " 98 WORD_RC_1U"	00
+// RADBE510
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_RADBE510      "\n"
+                                WORD_CC: " 8A "MU_RADBE510_CAP_WAG_PAX_STR WORD_PAX / MU_RADBE510_CAP_WAG_MAIL_STR WORD_MAIL / MU_RADBE510_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
+                                98 WORD_LS: " 8A "WORD_MEDIUM"  "\n"
+                                8B "NB: " 98 WORD_RC_1U"	00
 
 // VT612
 -1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_VT612      "\n"
@@ -227,7 +232,8 @@
 -1 * 0  04 00 LANG_ID \b1 MU_MDDM_ID_B           "                 MDDM"              00
 -1 * 0  04 00 LANG_ID \b1 MU_OSCAR_ID_B         "                 OSCar"              00
 -1 * 0  04 00 LANG_ID \b1 MU_PLANY_ID_B         "                 Plan Y  "     00
--1 * 0  04 00 LANG_ID \b1 MU_RBDE560_ID_B           "                 RBDE560"              00
+-1 * 0  04 00 LANG_ID \b1 MU_RBDE560_ID_B           "                 Rbde560"              00
+-1 * 0  04 00 LANG_ID \b1 MU_RADBE510_ID_B           "                 Radbe510"              00
 -1 * 0  04 00 LANG_ID \b1 MU_VT612_ID_B           "                 VT612 'Regioswinger'"              00
 -1 * 0  04 00 LANG_ID \b1 MU_SM2_ID_B           "                 SM2"              00
 -1 * 0  04 00 LANG_ID \b1 MU_SM4_ID_B           "                 SM4"              00
