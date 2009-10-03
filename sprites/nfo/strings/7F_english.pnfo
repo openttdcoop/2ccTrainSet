@@ -90,6 +90,12 @@
                                 WORD_CC: " 8A "MU_ETR500_CAP_WAG_PAX_STR WORD_PAX / MU_ETR500_CAP_WAG_MAIL_STR WORD_MAIL / MU_ETR500_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
                                 98 WORD_LS: " 8A "WORD_SLOW"             00
 
+// ET420
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_ET420      "\n"
+                                WORD_CC: " 8A "MU_ET420_CAP_WAG_PAX_STR WORD_PAX / MU_ET420_CAP_WAG_MAIL_STR WORD_MAIL / MU_ET420_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
+                                98 WORD_LS: " 8A "WORD_MEDIUM"  "\n"
+                                8B "NB: " 98 WORD_RC_1U"	00
+
 // HUNTER
 -1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_HUNTER      "\n"
                                 WORD_CC: " 8A "MU_HUNTER_CAP_WAG_PAX_STR WORD_PAX / MU_HUNTER_CAP_WAG_MAIL_STR WORD_MAIL / MU_HUNTER_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
@@ -210,6 +216,7 @@
 -1 * 0  04 00 LANG_ID \b1 MU_BR168_ID_B           "                 BR168"              00
 -1 * 0  04 00 LANG_ID \b1 MU_CD_ID_B        "                 Chicago Doubler"              00
 -1 * 0  04 00 LANG_ID \b1 MU_ETR500_ID_B        "                 ETR 500"              00
+-1 * 0  04 00 LANG_ID \b1 MU_ET420_ID_B           "                 ET420"              00
 -1 * 0  04 00 LANG_ID \b1 MU_HUNTER_ID_B           "                 Hunter"              00
 -1 * 0  04 00 LANG_ID \b1 MU_IC125_ID_B           "                 IC125"              00
 -1 * 0  04 00 LANG_ID \b1 MU_LINT41_ID_B           "                 LINT41"              00
