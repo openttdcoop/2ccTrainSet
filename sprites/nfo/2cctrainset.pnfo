@@ -33,6 +33,7 @@ sprites/nfo/mus/lint41.pnfo
 sprites/nfo/mus/lrc.pnfo
 sprites/nfo/mus/mat24.pnfo
 sprites/nfo/mus/mat36.pnfo
+sprites/nfo/mus/mddm.pnfo
 sprites/nfo/mus/oscar.pnfo
 sprites/nfo/mus/plany.pnfo
 sprites/nfo/mus/rbde560.pnfo
@@ -41,6 +42,7 @@ sprites/nfo/mus/sm4.pnfo
 sprites/nfo/mus/tgv-d.pnfo
 sprites/nfo/mus/tgv-t.pnfo
 sprites/nfo/mus/vt612.pnfo
+sprites/nfo/mus/x2000.pnfo
 sprites/nfo/mus/y2.pnfo
 
 // Maglevs
