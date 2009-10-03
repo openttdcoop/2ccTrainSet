@@ -20,8 +20,8 @@
 	#define MU_594_WEIGHT \b49	
 	#define MU_594_WEIGHT_HIGH \b0	
 	#define MU_594_PCOST \b16	
-	#define MU_594_RCOST \b186	
-	#define MU_594_RCOST_WAG \b186	
+	#define MU_594_RCOST \b93	
+	#define MU_594_RCOST_WAG \b93	
 	#define MU_594_RCOST_IDLE \b14	
 	#define MU_594_RCBASE \dx4C30	
 	#define MU_594_TRACTION_TYPE 8	
@@ -53,8 +53,8 @@
 	#define MU_811_WEIGHT \b55	
 	#define MU_811_WEIGHT_HIGH \b0	
 	#define MU_811_PCOST \b10	
-	#define MU_811_RCOST \b112	
-	#define MU_811_RCOST_WAG \b112	
+	#define MU_811_RCOST \b56	
+	#define MU_811_RCOST_WAG \b56	
 	#define MU_811_RCOST_IDLE \b14	
 	#define MU_811_RCBASE \dx4C30	
 	#define MU_811_TRACTION_TYPE 8	
@@ -86,8 +86,8 @@
 	#define MU_BM93_WEIGHT \b29	
 	#define MU_BM93_WEIGHT_HIGH \b0	
 	#define MU_BM93_PCOST \b13	
-	#define MU_BM93_RCOST \b147	
-	#define MU_BM93_RCOST_WAG \b147	
+	#define MU_BM93_RCOST \b73	
+	#define MU_BM93_RCOST_WAG \b73	
 	#define MU_BM93_RCOST_IDLE \b14	
 	#define MU_BM93_RCBASE \dx4C30	
 	#define MU_BM93_TRACTION_TYPE 8	
@@ -119,8 +119,8 @@
 	#define MU_BR150_WEIGHT \b34	
 	#define MU_BR150_WEIGHT_HIGH \b0	
 	#define MU_BR150_PCOST \b11	
-	#define MU_BR150_RCOST \b123	
-	#define MU_BR150_RCOST_WAG \b123	
+	#define MU_BR150_RCOST \b61	
+	#define MU_BR150_RCOST_WAG \b61	
 	#define MU_BR150_RCOST_IDLE \b14	
 	#define MU_BR150_RCBASE \dx4C30	
 	#define MU_BR150_TRACTION_TYPE 8	
@@ -152,8 +152,8 @@
 	#define MU_BR158_WEIGHT \b37	
 	#define MU_BR158_WEIGHT_HIGH \b0	
 	#define MU_BR158_PCOST \b14	
-	#define MU_BR158_RCOST \b167	
-	#define MU_BR158_RCOST_WAG \b167	
+	#define MU_BR158_RCOST \b83	
+	#define MU_BR158_RCOST_WAG \b83	
 	#define MU_BR158_RCOST_IDLE \b14	
 	#define MU_BR158_RCBASE \dx4C30	
 	#define MU_BR158_TRACTION_TYPE 8	
@@ -185,8 +185,8 @@
 	#define MU_BR168_WEIGHT \b50	
 	#define MU_BR168_WEIGHT_HIGH \b0	
 	#define MU_BR168_PCOST \b17	
-	#define MU_BR168_RCOST \b189	
-	#define MU_BR168_RCOST_WAG \b189	
+	#define MU_BR168_RCOST \b95	
+	#define MU_BR168_RCOST_WAG \b95	
 	#define MU_BR168_RCOST_IDLE \b14	
 	#define MU_BR168_RCBASE \dx4C30	
 	#define MU_BR168_TRACTION_TYPE 8	
@@ -218,8 +218,8 @@
 	#define MU_CC_WEIGHT \b30	
 	#define MU_CC_WEIGHT_HIGH \b0	
 	#define MU_CC_PCOST \b13	
-	#define MU_CC_RCOST \b145	
-	#define MU_CC_RCOST_WAG \b145	
+	#define MU_CC_RCOST \b73	
+	#define MU_CC_RCOST_WAG \b73	
 	#define MU_CC_RCOST_IDLE \b14	
 	#define MU_CC_RCBASE \dx4C30	
 	#define MU_CC_TRACTION_TYPE 8	
@@ -251,8 +251,8 @@
 	#define MU_CD_WEIGHT \b38	
 	#define MU_CD_WEIGHT_HIGH \b0	
 	#define MU_CD_PCOST \b15	
-	#define MU_CD_RCOST \b179	
-	#define MU_CD_RCOST_WAG \b179	
+	#define MU_CD_RCOST \b89	
+	#define MU_CD_RCOST_WAG \b89	
 	#define MU_CD_RCOST_IDLE \b14	
 	#define MU_CD_RCBASE \dx4C30	
 	#define MU_CD_TRACTION_TYPE 8	
@@ -284,8 +284,8 @@
 	#define MU_HUNTER_WEIGHT \b30	
 	#define MU_HUNTER_WEIGHT_HIGH \b0	
 	#define MU_HUNTER_PCOST \b16	
-	#define MU_HUNTER_RCOST \b184	
-	#define MU_HUNTER_RCOST_WAG \b184	
+	#define MU_HUNTER_RCOST \b92	
+	#define MU_HUNTER_RCOST_WAG \b92	
 	#define MU_HUNTER_RCOST_IDLE \b14	
 	#define MU_HUNTER_RCBASE \dx4C30	
 	#define MU_HUNTER_TRACTION_TYPE 8	
@@ -350,8 +350,8 @@
 	#define MU_LINT41_WEIGHT \b31	
 	#define MU_LINT41_WEIGHT_HIGH \b0	
 	#define MU_LINT41_PCOST \b10	
-	#define MU_LINT41_RCOST \b114	
-	#define MU_LINT41_RCOST_WAG \b114	
+	#define MU_LINT41_RCOST \b57	
+	#define MU_LINT41_RCOST_WAG \b57	
 	#define MU_LINT41_RCOST_IDLE \b14	
 	#define MU_LINT41_RCBASE \dx4C30	
 	#define MU_LINT41_TRACTION_TYPE 8	
@@ -416,8 +416,8 @@
 	#define MU_VT612_WEIGHT \b58	
 	#define MU_VT612_WEIGHT_HIGH \b0	
 	#define MU_VT612_PCOST \b17	
-	#define MU_VT612_RCOST \b195	
-	#define MU_VT612_RCOST_WAG \b195	
+	#define MU_VT612_RCOST \b98	
+	#define MU_VT612_RCOST_WAG \b98	
 	#define MU_VT612_RCOST_IDLE \b14	
 	#define MU_VT612_RCBASE \dx4C30	
 	#define MU_VT612_TRACTION_TYPE 8	
@@ -443,14 +443,14 @@
 	#define MU_Y2_CAP_HEAD_PAX \b48	
 	#define MU_Y2_CAP_HEAD_MAIL \b36	
 	#define MU_Y2_CAP_HEAD_ARMOR \b24	
-	#define MU_Y2_PAX_LS \b20	
-	#define MU_Y2_MAIL_LS \b15	
-	#define MU_Y2_ARMOR_LS \b10	
+	#define MU_Y2_PAX_LS \b8	
+	#define MU_Y2_MAIL_LS \b6	
+	#define MU_Y2_ARMOR_LS \b4	
 	#define MU_Y2_WEIGHT \b32	
 	#define MU_Y2_WEIGHT_HIGH \b0	
 	#define MU_Y2_PCOST \b19	
-	#define MU_Y2_RCOST \b221	
-	#define MU_Y2_RCOST_WAG \b221	
+	#define MU_Y2_RCOST \b110	
+	#define MU_Y2_RCOST_WAG \b110	
 	#define MU_Y2_RCOST_IDLE \b14	
 	#define MU_Y2_RCBASE \dx4C30	
 	#define MU_Y2_TRACTION_TYPE 8	
@@ -482,8 +482,8 @@
 	#define MU_2200_WEIGHT \b53	
 	#define MU_2200_WEIGHT_HIGH \b0	
 	#define MU_2200_PCOST \b20	
-	#define MU_2200_RCOST \b155	
-	#define MU_2200_RCOST_WAG \b155	
+	#define MU_2200_RCOST \b78	
+	#define MU_2200_RCOST_WAG \b78	
 	#define MU_2200_RCOST_IDLE \b14	
 	#define MU_2200_RCBASE \dx4C30	
 	#define MU_2200_TRACTION_TYPE 28	
@@ -515,8 +515,8 @@
 	#define MU_4041_WEIGHT \b73	
 	#define MU_4041_WEIGHT_HIGH \b0	
 	#define MU_4041_PCOST \b7	
-	#define MU_4041_RCOST \b49	
-	#define MU_4041_RCOST_WAG \b49	
+	#define MU_4041_RCOST \b25	
+	#define MU_4041_RCOST_WAG \b25	
 	#define MU_4041_RCOST_IDLE \b14	
 	#define MU_4041_RCBASE \dx4C30	
 	#define MU_4041_TRACTION_TYPE 28	
@@ -548,10 +548,10 @@
 	#define MU_680_WEIGHT \b55	
 	#define MU_680_WEIGHT_HIGH \b0	
 	#define MU_680_PCOST \b33	
-	#define MU_680_RCOST \b20	
-	#define MU_680_RCOST_WAG \b20	
-	#define MU_680_RCOST_IDLE \b1	
-	#define MU_680_RCBASE \dx4c3C	
+	#define MU_680_RCOST \b127	
+	#define MU_680_RCOST_WAG \b127	
+	#define MU_680_RCOST_IDLE \b14	
+	#define MU_680_RCBASE \dx4C30	
 	#define MU_680_TRACTION_TYPE 28	
 	#define MU_680_ID_W \w3560	
 	#define MU_680_ID_B \b*3560	
@@ -614,8 +614,8 @@
 	#define MU_BM65_WEIGHT \b38	
 	#define MU_BM65_WEIGHT_HIGH \b0	
 	#define MU_BM65_PCOST \b6	
-	#define MU_BM65_RCOST \b40	
-	#define MU_BM65_RCOST_WAG \b40	
+	#define MU_BM65_RCOST \b20	
+	#define MU_BM65_RCOST_WAG \b20	
 	#define MU_BM65_RCOST_IDLE \b14	
 	#define MU_BM65_RCBASE \dx4C30	
 	#define MU_BM65_TRACTION_TYPE 28	
@@ -647,10 +647,10 @@
 	#define MU_BM73_WEIGHT \b54	
 	#define MU_BM73_WEIGHT_HIGH \b0	
 	#define MU_BM73_PCOST \b31	
-	#define MU_BM73_RCOST \b19	
-	#define MU_BM73_RCOST_WAG \b19	
-	#define MU_BM73_RCOST_IDLE \b1	
-	#define MU_BM73_RCBASE \dx4c3C	
+	#define MU_BM73_RCOST \b128	
+	#define MU_BM73_RCOST_WAG \b128	
+	#define MU_BM73_RCOST_IDLE \b14	
+	#define MU_BM73_RCBASE \dx4C30	
 	#define MU_BM73_TRACTION_TYPE 28	
 	#define MU_BM73_ID_W \w3612	
 	#define MU_BM73_ID_B \b*3612	
@@ -680,8 +680,8 @@
 	#define MU_ET420_WEIGHT \b46	
 	#define MU_ET420_WEIGHT_HIGH \b0	
 	#define MU_ET420_PCOST \b13	
-	#define MU_ET420_RCOST \b96	
-	#define MU_ET420_RCOST_WAG \b96	
+	#define MU_ET420_RCOST \b48	
+	#define MU_ET420_RCOST_WAG \b48	
 	#define MU_ET420_RCOST_IDLE \b14	
 	#define MU_ET420_RCBASE \dx4C30	
 	#define MU_ET420_TRACTION_TYPE 28	
@@ -746,10 +746,10 @@
 	#define MU_HSA_WEIGHT \b30	
 	#define MU_HSA_WEIGHT_HIGH \b0	
 	#define MU_HSA_PCOST \b50	
-	#define MU_HSA_RCOST \b32	
-	#define MU_HSA_RCOST_WAG \b32	
-	#define MU_HSA_RCOST_IDLE \b1	
-	#define MU_HSA_RCBASE \dx4c3C	
+	#define MU_HSA_RCOST \b215	
+	#define MU_HSA_RCOST_WAG \b215	
+	#define MU_HSA_RCOST_IDLE \b14	
+	#define MU_HSA_RCBASE \dx4C30	
 	#define MU_HSA_TRACTION_TYPE 28	
 	#define MU_HSA_ID_W \w3670	
 	#define MU_HSA_ID_B \b*3670	
@@ -779,10 +779,10 @@
 	#define MU_ICE3_WEIGHT \b51	
 	#define MU_ICE3_WEIGHT_HIGH \b0	
 	#define MU_ICE3_PCOST \b58	
-	#define MU_ICE3_RCOST \b38	
-	#define MU_ICE3_RCOST_WAG \b38	
-	#define MU_ICE3_RCOST_IDLE \b1	
-	#define MU_ICE3_RCBASE \dx4c3C	
+	#define MU_ICE3_RCOST \b255	
+	#define MU_ICE3_RCOST_WAG \b255	
+	#define MU_ICE3_RCOST_IDLE \b14	
+	#define MU_ICE3_RCBASE \dx4C30	
 	#define MU_ICE3_TRACTION_TYPE 28	
 	#define MU_ICE3_ID_W \w3680	
 	#define MU_ICE3_ID_B \b*3680	
@@ -812,8 +812,8 @@
 	#define MU_ICM_WEIGHT \b49	
 	#define MU_ICM_WEIGHT_HIGH \b0	
 	#define MU_ICM_PCOST \b19	
-	#define MU_ICM_RCOST \b147	
-	#define MU_ICM_RCOST_WAG \b147	
+	#define MU_ICM_RCOST \b74	
+	#define MU_ICM_RCOST_WAG \b74	
 	#define MU_ICM_RCOST_IDLE \b14	
 	#define MU_ICM_RCBASE \dx4C30	
 	#define MU_ICM_TRACTION_TYPE 28	
@@ -845,8 +845,8 @@
 	#define MU_MAT24_WEIGHT \b30	
 	#define MU_MAT24_WEIGHT_HIGH \b0	
 	#define MU_MAT24_PCOST \b10	
-	#define MU_MAT24_RCOST \b66	
-	#define MU_MAT24_RCOST_WAG \b66	
+	#define MU_MAT24_RCOST \b33	
+	#define MU_MAT24_RCOST_WAG \b33	
 	#define MU_MAT24_RCOST_IDLE \b14	
 	#define MU_MAT24_RCBASE \dx4C30	
 	#define MU_MAT24_TRACTION_TYPE 28	
@@ -878,8 +878,8 @@
 	#define MU_MAT36_WEIGHT \b45	
 	#define MU_MAT36_WEIGHT_HIGH \b0	
 	#define MU_MAT36_PCOST \b13	
-	#define MU_MAT36_RCOST \b97	
-	#define MU_MAT36_RCOST_WAG \b97	
+	#define MU_MAT36_RCOST \b48	
+	#define MU_MAT36_RCOST_WAG \b48	
 	#define MU_MAT36_RCOST_IDLE \b14	
 	#define MU_MAT36_RCBASE \dx4C30	
 	#define MU_MAT36_TRACTION_TYPE 28	
@@ -944,8 +944,8 @@
 	#define MU_OSCAR_WEIGHT \b47	
 	#define MU_OSCAR_WEIGHT_HIGH \b0	
 	#define MU_OSCAR_PCOST \b14	
-	#define MU_OSCAR_RCOST \b112	
-	#define MU_OSCAR_RCOST_WAG \b112	
+	#define MU_OSCAR_RCOST \b56	
+	#define MU_OSCAR_RCOST_WAG \b56	
 	#define MU_OSCAR_RCOST_IDLE \b14	
 	#define MU_OSCAR_RCBASE \dx4C30	
 	#define MU_OSCAR_TRACTION_TYPE 28	
@@ -977,8 +977,8 @@
 	#define MU_PLANY_WEIGHT \b53	
 	#define MU_PLANY_WEIGHT_HIGH \b0	
 	#define MU_PLANY_PCOST \b13	
-	#define MU_PLANY_RCOST \b99	
-	#define MU_PLANY_RCOST_WAG \b99	
+	#define MU_PLANY_RCOST \b49	
+	#define MU_PLANY_RCOST_WAG \b49	
 	#define MU_PLANY_RCOST_IDLE \b14	
 	#define MU_PLANY_RCBASE \dx4C30	
 	#define MU_PLANY_TRACTION_TYPE 28	
@@ -1010,8 +1010,8 @@
 	#define MU_RADBE510_WEIGHT \b56	
 	#define MU_RADBE510_WEIGHT_HIGH \b0	
 	#define MU_RADBE510_PCOST \b14	
-	#define MU_RADBE510_RCOST \b102	
-	#define MU_RADBE510_RCOST_WAG \b102	
+	#define MU_RADBE510_RCOST \b51	
+	#define MU_RADBE510_RCOST_WAG \b51	
 	#define MU_RADBE510_RCOST_IDLE \b14	
 	#define MU_RADBE510_RCBASE \dx4C30	
 	#define MU_RADBE510_TRACTION_TYPE 28	
@@ -1043,8 +1043,8 @@
 	#define MU_RBDE560_WEIGHT \b35	
 	#define MU_RBDE560_WEIGHT_HIGH \b0	
 	#define MU_RBDE560_PCOST \b16	
-	#define MU_RBDE560_RCOST \b121	
-	#define MU_RBDE560_RCOST_WAG \b121	
+	#define MU_RBDE560_RCOST \b60	
+	#define MU_RBDE560_RCOST_WAG \b60	
 	#define MU_RBDE560_RCOST_IDLE \b14	
 	#define MU_RBDE560_RCBASE \dx4C30	
 	#define MU_RBDE560_TRACTION_TYPE 28	
@@ -1076,13 +1076,14 @@
 	#define MU_SM2_WEIGHT \b38	
 	#define MU_SM2_WEIGHT_HIGH \b0	
 	#define MU_SM2_PCOST \b12	
-	#define MU_SM2_RCOST \b91	
-	#define MU_SM2_RCOST_WAG \b91	
+	#define MU_SM2_RCOST \b45	
+	#define MU_SM2_RCOST_WAG \b45	
 	#define MU_SM2_RCOST_IDLE \b14	
 	#define MU_SM2_RCBASE \dx4C30	
 	#define MU_SM2_TRACTION_TYPE 28	
 	#define MU_SM2_ID_W \w3780	
 	#define MU_SM2_ID_B \b*3780	
+	32	D020	
 	#define STR_W_MU_SM2 \wxD020	
 	#define STR_B_MU_SM2 20	
 	
@@ -1108,13 +1109,14 @@
 	#define MU_SM4_WEIGHT \b57	
 	#define MU_SM4_WEIGHT_HIGH \b0	
 	#define MU_SM4_PCOST \b19	
-	#define MU_SM4_RCOST \b153	
-	#define MU_SM4_RCOST_WAG \b153	
+	#define MU_SM4_RCOST \b76	
+	#define MU_SM4_RCOST_WAG \b76	
 	#define MU_SM4_RCOST_IDLE \b14	
 	#define MU_SM4_RCBASE \dx4C30	
 	#define MU_SM4_TRACTION_TYPE 28	
 	#define MU_SM4_ID_W \w3781	
 	#define MU_SM4_ID_B \b*3781	
+	33	D021	
 	#define STR_W_MU_SM4 \wxD021	
 	#define STR_B_MU_SM4 21	
 	
@@ -1140,13 +1142,14 @@
 	#define MU_TGV_A_WEIGHT \b38	
 	#define MU_TGV_A_WEIGHT_HIGH \b0	
 	#define MU_TGV_A_PCOST \b68	
-	#define MU_TGV_A_RCOST \b61	
+	#define MU_TGV_A_RCOST \b31	
 	#define MU_TGV_A_RCOST_WAG \b0	
 	#define MU_TGV_A_RCOST_IDLE \b1	
 	#define MU_TGV_A_RCBASE \dx4C36	
 	#define MU_TGV_A_TRACTION_TYPE 28	
 	#define MU_TGV_A_ID_W \w3790	
 	#define MU_TGV_A_ID_B \b*3790	
+	34	D022	
 	#define STR_W_MU_TGV_A \wxD022	
 	#define STR_B_MU_TGV_A 22	
 	
@@ -1172,7 +1175,7 @@
 	#define MU_TGV_D_WEIGHT \b38	
 	#define MU_TGV_D_WEIGHT_HIGH \b0	
 	#define MU_TGV_D_PCOST \b75	
-	#define MU_TGV_D_RCOST \b68	
+	#define MU_TGV_D_RCOST \b34	
 	#define MU_TGV_D_RCOST_WAG \b0	
 	#define MU_TGV_D_RCOST_IDLE \b1	
 	#define MU_TGV_D_RCBASE \dx4C36	
@@ -1205,13 +1208,14 @@
 	#define MU_TGV_T_WEIGHT \b38	
 	#define MU_TGV_T_WEIGHT_HIGH \b0	
 	#define MU_TGV_T_PCOST \b68	
-	#define MU_TGV_T_RCOST \b61	
+	#define MU_TGV_T_RCOST \b31	
 	#define MU_TGV_T_RCOST_WAG \b0	
 	#define MU_TGV_T_RCOST_IDLE \b1	
 	#define MU_TGV_T_RCBASE \dx4C36	
 	#define MU_TGV_T_TRACTION_TYPE 28	
 	#define MU_TGV_T_ID_W \w3792	
-	#define MU_TGV_T_ID_B \b*3792		
+	#define MU_TGV_T_ID_B \b*3792	
+	36	D024	
 	#define STR_W_MU_TGV_T \wxD024	
 	#define STR_B_MU_TGV_T 24	
 	
@@ -1237,15 +1241,14 @@
 	#define MU_TGV_V150_WEIGHT \b192	
 	#define MU_TGV_V150_WEIGHT_HIGH \b0	
 	#define MU_TGV_V150_PCOST \b184	
-	#define MU_TGV_V150_RCOST \b192	
+	#define MU_TGV_V150_RCOST \b96	
 	#define MU_TGV_V150_RCOST_WAG \b0	
 	#define MU_TGV_V150_RCOST_IDLE \b1	
 	#define MU_TGV_V150_RCBASE \dx4C36	
 	#define MU_TGV_V150_TRACTION_TYPE 28	
 	#define MU_TGV_V150_ID_W \w3793	
 	#define MU_TGV_V150_ID_B \b*3793	
-
-	
+	37	D025	
 	#define STR_W_MU_TGV_V150 \wxD025	
 	#define STR_B_MU_TGV_V150 25	
 	
@@ -1278,6 +1281,7 @@
 	#define MU_X2000_TRACTION_TYPE 28	
 	#define MU_X2000_ID_W \w3830	
 	#define MU_X2000_ID_B \b*3830	
+	38	D026	
 	#define STR_W_MU_X2000 \wxD026	
 	#define STR_B_MU_X2000 26	
 	
@@ -1303,13 +1307,14 @@
 	#define MU_CHIM_WEIGHT \b39	
 	#define MU_CHIM_WEIGHT_HIGH \b1	
 	#define MU_CHIM_PCOST \b158	
-	#define MU_CHIM_RCOST \b256	
+	#define MU_CHIM_RCOST \b128	
 	#define MU_CHIM_RCOST_WAG \b0	
 	#define MU_CHIM_RCOST_IDLE \b1	
 	#define MU_CHIM_RCBASE \dx4C36	
 	#define MU_CHIM_TRACTION_TYPE 38	
 	#define MU_CHIM_ID_W \w00	
-	#define MU_CHIM_ID_B \b*0039	D027	
+	#define MU_CHIM_ID_B \b*00	
+	39	D027	
 	#define STR_W_MU_CHIM \wxD027	
 	#define STR_B_MU_CHIM 27	
 	

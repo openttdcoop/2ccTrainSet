@@ -124,6 +124,11 @@
                                 98 WORD_LS: " 8A "WORD_MEDIUM"  "\n"
                                 8B "NB: " 98 WORD_RC_1U"	00
 
+// MDDM
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_MDDM      "\n\n"
+                                WORD_CC: " 8A "MU_MDDM_CAP_WAG_PAX_STR WORD_PAX / MU_MDDM_CAP_WAG_MAIL_STR WORD_MAIL / MU_MDDM_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
+                                98 WORD_LS: " 8A "WORD_changeme"  00
+
 // OSCAR
 -1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_OSCAR      "\n"
                                 WORD_CC: " 8A "MU_OSCAR_CAP_WAG_PAX_STR WORD_PAX / MU_OSCAR_CAP_WAG_MAIL_STR WORD_MAIL / MU_OSCAR_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
@@ -176,6 +181,12 @@
                                 98 WORD_LS: " 8A "WORD_SLOW"  "\n"
                                 8B "NB: " 98 WORD_RC_1U"	00
 
+// X2000
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_X2000      "\n\n"
+                                WORD_CC: " 8A "MU_X2000_CAP_WAG_PAX_STR WORD_PAX / MU_X2000_CAP_WAG_MAIL_STR WORD_MAIL / MU_X2000_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
+                                98 WORD_LS: " 8A "WORD_changeme"  00
+
+
 
 // Wagon Names
 -1 * 0  04 00 LANG_ID \b1 MU                    "                 Multiple Unit Wagon"              00
@@ -197,6 +208,7 @@
 -1 * 0  04 00 LANG_ID \b1 MU_LRC_ID_B           "                 LRC"              00
 -1 * 0  04 00 LANG_ID \b1 MU_MAT24_ID_B           "                 MAT'24"              00
 -1 * 0  04 00 LANG_ID \b1 MU_MAT36_ID_B           "                 MAT'36"              00
+-1 * 0  04 00 LANG_ID \b1 MU_MDDM_ID_B           "                 MDDM"              00
 -1 * 0  04 00 LANG_ID \b1 MU_OSCAR_ID_B         "                 OSCar"              00
 -1 * 0  04 00 LANG_ID \b1 MU_PLANY_ID_B         "                 Plan Y  "     00
 -1 * 0  04 00 LANG_ID \b1 MU_RBDE560_ID_B           "                 RBDE560"              00
@@ -206,6 +218,7 @@
 -1 * 0  04 00 LANG_ID \b1 MU_TGV_D_ID_B         "                 TGV Duplex"              00
 -1 * 0  04 00 LANG_ID \b1 MU_TGV_T_ID_B         "                 TGV Thalys"              00
 -1 * 0  04 00 LANG_ID \b1 MU_Y2_ID_B           "                 Y2"              00
+-1 * 0  04 00 LANG_ID \b1 MU_X2000_ID_B           "                 X2000"              00
 
 // --------------------------
 // ----- Error messages -----
