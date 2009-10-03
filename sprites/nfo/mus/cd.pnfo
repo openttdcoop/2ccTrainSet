@@ -1,6 +1,6 @@
 // change "CD" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
 
-#define THIS_PCX_FILE	sprites/pcx/mus/CD.pcx  // Graphics file
+#define THIS_PCX_FILE	sprites/pcx/mus/cd.pcx  // Graphics file
 
 
 // Action 0

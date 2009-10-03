@@ -1,6 +1,6 @@
 // change "BR168" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
 
-#define THIS_PCX_FILE	sprites/pcx/mus/BR168.pcx  // Graphics file
+#define THIS_PCX_FILE	sprites/pcx/mus/br168.pcx  // Graphics file
 
 
 // Action 0

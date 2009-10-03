@@ -1,6 +1,6 @@
 // change "OSCAR" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
 
-#define THIS_PCX_FILE	sprites/pcx/mus/OSCAR.pcx  // Graphics file
+#define THIS_PCX_FILE	sprites/pcx/mus/oscar.pcx  // Graphics file
 
 
 // Action 0

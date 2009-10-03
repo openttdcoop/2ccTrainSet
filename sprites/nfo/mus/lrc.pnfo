@@ -1,5 +1,5 @@
 
-#define THIS_PCX_FILE	sprites/pcx/mus/LRC.pcx  // Graphics file
+#define THIS_PCX_FILE	sprites/pcx/mus/lrc.pcx  // Graphics file
 
 // Action 0
 -1 * 0  00 00 \b30 01 MU_LRC_ID_B
