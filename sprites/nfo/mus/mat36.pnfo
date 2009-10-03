@@ -1,6 +1,6 @@
 // change "MAT36" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
 
-#define THIS_PCX_FILE	sprites/pcx/mus/MAT36.pcx  // Graphics file
+#define THIS_PCX_FILE	sprites/pcx/mus/mat36.pcx  // Graphics file
 
 
 // Action 0
