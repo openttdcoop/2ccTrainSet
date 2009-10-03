@@ -127,7 +127,7 @@
 // MDDM
 -1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_MDDM      "\n\n"
                                 WORD_CC: " 8A "MU_MDDM_CAP_WAG_PAX_STR WORD_PAX / MU_MDDM_CAP_WAG_MAIL_STR WORD_MAIL / MU_MDDM_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
-                                98 WORD_LS: " 8A "WORD_changeme"  00
+                                98 WORD_LS: " 8A "WORD_MEDIUM"  00
 
 // OSCAR
 -1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_OSCAR      "\n"
@@ -150,7 +150,7 @@
 // VT612
 -1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_VT612      "\n"
                                 WORD_CC: " 8A "MU_VT612_CAP_WAG_PAX_STR WORD_PAX / MU_VT612_CAP_WAG_MAIL_STR WORD_MAIL / MU_VT612_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
-                                98 WORD_LS: " 8A "WORD_changeme"  "\n"
+                                98 WORD_LS: " 8A "WORD_MEDIUM"  "\n"
                                 8B "NB: " 98 WORD_RC_1U"	00
 
 // TGV-Duplex
@@ -184,7 +184,7 @@
 // X2000
 -1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_X2000      "\n\n"
                                 WORD_CC: " 8A "MU_X2000_CAP_WAG_PAX_STR WORD_PAX / MU_X2000_CAP_WAG_MAIL_STR WORD_MAIL / MU_X2000_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
-                                98 WORD_LS: " 8A "WORD_changeme"  00
+                                98 WORD_LS: " 8A "WORD_SLOW"  00
 
 
 
