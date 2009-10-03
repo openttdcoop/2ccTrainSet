@@ -60,6 +60,13 @@
                                 WORD_CC: " 8A "MU_BM65_CAP_WAG_PAX_STR WORD_PAX / MU_BM65_CAP_WAG_MAIL_STR WORD_MAIL / MU_BM65_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
                                 98 WORD_LS: " 8A "WORD_SLOW" "\n"
                                 8B "NB: " 98 WORD_RC_1U"	00
+
+// BM73
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_BM73      "\n"
+                                WORD_CC: " 8A "MU_BM73_CAP_WAG_PAX_STR WORD_PAX / MU_BM73_CAP_WAG_MAIL_STR WORD_MAIL / MU_BM73_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
+                                98 WORD_LS: " 8A "WORD_SLOW"  "\n"
+                                8B "NB: " 98 WORD_RC_1U"	00
+
 // BM93
 -1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_BM93      "\n"
                                 WORD_CC: " 8A "MU_BM93_CAP_WAG_PAX_STR WORD_PAX / MU_BM93_CAP_WAG_MAIL_STR WORD_MAIL / MU_BM93_CAP_WAG_ARMOR_STR WORD_ARMOR"  "\n" 
@@ -198,6 +205,7 @@
 -1 * 0  04 00 LANG_ID \b1 MU_2200_ID_B          "                 2200"              00
 -1 * 0  04 00 LANG_ID \b1 MU_4041_ID_B          "                 4041"              00
 -1 * 0  04 00 LANG_ID \b1 MU_BM65_ID_B           "                 BM65"              00
+-1 * 0  04 00 LANG_ID \b1 MU_BM73_ID_B           "                 BM73"              00
 -1 * 0  04 00 LANG_ID \b1 MU_BM93_ID_B           "                 BM93"              00
 -1 * 0  04 00 LANG_ID \b1 MU_BR168_ID_B           "                 BR168"              00
 -1 * 0  04 00 LANG_ID \b1 MU_CD_ID_B        "                 Chicago Doubler"              00
