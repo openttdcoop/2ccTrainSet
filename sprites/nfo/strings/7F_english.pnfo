@@ -218,6 +218,7 @@
 -1 * 0  04 00 LANG_ID \b1 MU_ETR500_ID_B        "                 ETR 500"              00
 -1 * 0  04 00 LANG_ID \b1 MU_ET420_ID_B           "                 ET420"              00
 -1 * 0  04 00 LANG_ID \b1 MU_HUNTER_ID_B           "                 Hunter"              00
+-1 * 0  04 00 LANG_ID \b1 MU_HSA_ID_B           "                 HSA"              00
 -1 * 0  04 00 LANG_ID \b1 MU_IC125_ID_B           "                 IC125"              00
 -1 * 0  04 00 LANG_ID \b1 MU_LINT41_ID_B           "                 LINT41"              00
 -1 * 0  04 00 LANG_ID \b1 MU_LRC_ID_B           "                 LRC"              00
