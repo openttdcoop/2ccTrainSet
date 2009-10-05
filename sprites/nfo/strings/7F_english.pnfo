@@ -128,7 +128,7 @@
 // ICE3
 -1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_ICE3      "\n"
                                 WORD_CC 8A MU_ICE3_CAP_WAG_PAX_STR WORD_PAX " / " MU_ICE3_CAP_WAG_MAIL_STR WORD_MAIL " / " MU_ICE3_CAP_WAG_ARMOR_STR WORD_ARMOR  "\n" 
-                                98 WORD_LS 8A WORD_changeme  "\n"
+                                98 WORD_LS 8A WORD_SLOW  "\n"
                                 8B "NB: " 98 WORD_RC_1U	00
 
 // MAT24
