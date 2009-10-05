@@ -28,8 +28,7 @@
 	#define MU_594_ID_W \w3050	
 	#define MU_594_ID_B \b*3050	
 	#define STR_W_MU_594 \wxD000	
-	#define STR_B_MU_594 0	
-	
+	#define STR_B_MU_594 0
 #define MU_811_INTROYEAR \w1974-1-1	
 	#define MU_811_V_LIFE \b25	
 	#define MU_811_M_LIFE \b25	
@@ -60,8 +59,7 @@
 	#define MU_811_ID_W \w3080	
 	#define MU_811_ID_B \b*3080	
 	#define STR_W_MU_811 \wxD001	
-	#define STR_B_MU_811 1	
-	
+	#define STR_B_MU_811 1
 #define MU_BM93_INTROYEAR \w2001-1-1	
 	#define MU_BM93_V_LIFE \b25	
 	#define MU_BM93_M_LIFE \b255	
@@ -92,8 +90,7 @@
 	#define MU_BM93_ID_W \w3110	
 	#define MU_BM93_ID_B \b*3110	
 	#define STR_W_MU_BM93 \wxD002	
-	#define STR_B_MU_BM93 2	
-	
+	#define STR_B_MU_BM93 2
 #define MU_BR150_INTROYEAR \w1986-1-1	
 	#define MU_BR150_V_LIFE \b25	
 	#define MU_BR150_M_LIFE \b25	
@@ -124,8 +121,7 @@
 	#define MU_BR150_ID_W \w3111	
 	#define MU_BR150_ID_B \b*3111	
 	#define STR_W_MU_BR150 \wxD003	
-	#define STR_B_MU_BR150 3	
-	
+	#define STR_B_MU_BR150 3
 #define MU_BR158_INTROYEAR \w1991-1-1	
 	#define MU_BR158_V_LIFE \b25	
 	#define MU_BR158_M_LIFE \b35	
@@ -156,8 +152,7 @@
 	#define MU_BR158_ID_W \w3112	
 	#define MU_BR158_ID_B \b*3112	
 	#define STR_W_MU_BR158 \wxD004	
-	#define STR_B_MU_BR158 4	
-	
+	#define STR_B_MU_BR158 4
 #define MU_BR168_INTROYEAR \w1997-1-1	
 	#define MU_BR168_V_LIFE \b25	
 	#define MU_BR168_M_LIFE \b255	
@@ -188,8 +183,7 @@
 	#define MU_BR168_ID_W \w3113	
 	#define MU_BR168_ID_B \b*3113	
 	#define STR_W_MU_BR168 \wxD005	
-	#define STR_B_MU_BR168 5	
-	
+	#define STR_B_MU_BR168 5
 #define MU_CC_INTROYEAR \w1996-1-1	
 	#define MU_CC_V_LIFE \b25	
 	#define MU_CC_M_LIFE \b255	
@@ -220,8 +214,7 @@
 	#define MU_CC_ID_W \w3120	
 	#define MU_CC_ID_B \b*3120	
 	#define STR_W_MU_CC \wxD006	
-	#define STR_B_MU_CC 6	
-	
+	#define STR_B_MU_CC 6
 #define MU_CD_INTROYEAR \w2015-1-1	
 	#define MU_CD_V_LIFE \b25	
 	#define MU_CD_M_LIFE \b255	
@@ -252,8 +245,7 @@
 	#define MU_CD_ID_W \w3121	
 	#define MU_CD_ID_B \b*3121	
 	#define STR_W_MU_CD \wxD007	
-	#define STR_B_MU_CD 7	
-	
+	#define STR_B_MU_CD 7
 #define MU_HUNTER_INTROYEAR \w2006-1-1	
 	#define MU_HUNTER_V_LIFE \b25	
 	#define MU_HUNTER_M_LIFE \b255	
@@ -284,8 +276,7 @@
 	#define MU_HUNTER_ID_W \w3170	
 	#define MU_HUNTER_ID_B \b*3170	
 	#define STR_W_MU_HUNTER \wxD008	
-	#define STR_B_MU_HUNTER 8	
-	
+	#define STR_B_MU_HUNTER 8
 #define MU_IC125_INTROYEAR \w1976-1-1	
 	#define MU_IC125_V_LIFE \b25	
 	#define MU_IC125_M_LIFE \b25	
@@ -316,8 +307,7 @@
 	#define MU_IC125_ID_W \w3180	
 	#define MU_IC125_ID_B \b*3180	
 	#define STR_W_MU_IC125 \wxD009	
-	#define STR_B_MU_IC125 9	
-	
+	#define STR_B_MU_IC125 9
 #define MU_LINT41_INTROYEAR \w2001-1-1	
 	#define MU_LINT41_V_LIFE \b25	
 	#define MU_LINT41_M_LIFE \b255	
@@ -348,8 +338,7 @@
 	#define MU_LINT41_ID_W \w3210	
 	#define MU_LINT41_ID_B \b*3210	
 	#define STR_W_MU_LINT41 \wxD00A	
-	#define STR_B_MU_LINT41 A	
-	
+	#define STR_B_MU_LINT41 A
 #define MU_LRC_INTROYEAR \w1980-1-1	
 	#define MU_LRC_V_LIFE \b25	
 	#define MU_LRC_M_LIFE \b35	
@@ -380,8 +369,7 @@
 	#define MU_LRC_ID_W \w3211	
 	#define MU_LRC_ID_B \b*3211	
 	#define STR_W_MU_LRC \wxD00B	
-	#define STR_B_MU_LRC B	
-	
+	#define STR_B_MU_LRC B
 #define MU_VT612_INTROYEAR \w1998-1-1	
 	#define MU_VT612_V_LIFE \b25	
 	#define MU_VT612_M_LIFE \b255	
@@ -412,8 +400,7 @@
 	#define MU_VT612_ID_W \w3310	
 	#define MU_VT612_ID_B \b*3310	
 	#define STR_W_MU_VT612 \wxD00C	
-	#define STR_B_MU_VT612 C	
-	
+	#define STR_B_MU_VT612 C
 #define MU_Y2_INTROYEAR \w1990-1-1	
 	#define MU_Y2_V_LIFE \b25	
 	#define MU_Y2_M_LIFE \b255	
@@ -444,8 +431,7 @@
 	#define MU_Y2_ID_W \w3340	
 	#define MU_Y2_ID_B \b*3340	
 	#define STR_W_MU_Y2 \wxD00D	
-	#define STR_B_MU_Y2 D	
-	
+	#define STR_B_MU_Y2 D
 #define MU_2200_INTROYEAR \w1999-1-1	
 	#define MU_2200_V_LIFE \b25	
 	#define MU_2200_M_LIFE \b255	
@@ -476,8 +462,7 @@
 	#define MU_2200_ID_W \w3520	
 	#define MU_2200_ID_B \b*3520	
 	#define STR_W_MU_2200 \wxD00E	
-	#define STR_B_MU_2200 E	
-	
+	#define STR_B_MU_2200 E
 #define MU_4041_INTROYEAR \w1929-1-1	
 	#define MU_4041_V_LIFE \b25	
 	#define MU_4041_M_LIFE \b40	
@@ -508,8 +493,7 @@
 	#define MU_4041_ID_W \w3540	
 	#define MU_4041_ID_B \b*3540	
 	#define STR_W_MU_4041 \wxD00F	
-	#define STR_B_MU_4041 F	
-	
+	#define STR_B_MU_4041 F
 #define MU_680_INTROYEAR \w1999-1-1	
 	#define MU_680_V_LIFE \b25	
 	#define MU_680_M_LIFE \b255	
@@ -532,16 +516,15 @@
 	#define MU_680_WEIGHT \b55	
 	#define MU_680_WEIGHT_HIGH \b0	
 	#define MU_680_PCOST \b33	
-	#define MU_680_RCOST \b136	
-	#define MU_680_RCOST_WAG \b136	
+	#define MU_680_RCOST \b127	
+	#define MU_680_RCOST_WAG \b127	
 	#define MU_680_RCOST_IDLE \b14	
 	#define MU_680_RCBASE \dx4C30	
 	#define MU_680_TRACTION_TYPE 28	
 	#define MU_680_ID_W \w3560	
 	#define MU_680_ID_B \b*3560	
 	#define STR_W_MU_680 \wxD016	
-	#define STR_B_MU_680 10	
-	
+	#define STR_B_MU_680 10
 #define MU_BDVMOT_INTROYEAR \w1988-1-1	
 	#define MU_BDVMOT_V_LIFE \b25	
 	#define MU_BDVMOT_M_LIFE \b255	
@@ -572,8 +555,7 @@
 	#define MU_BDVMOT_ID_W \w3610	
 	#define MU_BDVMOT_ID_B \b*3610	
 	#define STR_W_MU_BDVMOT \wxD017	
-	#define STR_B_MU_BDVMOT 11	
-	
+	#define STR_B_MU_BDVMOT 11
 #define MU_BM65_INTROYEAR \w1942-1-1	
 	#define MU_BM65_V_LIFE \b25	
 	#define MU_BM65_M_LIFE \b40	
@@ -604,8 +586,7 @@
 	#define MU_BM65_ID_W \w3611	
 	#define MU_BM65_ID_B \b*3611	
 	#define STR_W_MU_BM65 \wxD018	
-	#define STR_B_MU_BM65 12	
-	
+	#define STR_B_MU_BM65 12
 #define MU_BM73_INTROYEAR \w1998-1-1	
 	#define MU_BM73_V_LIFE \b25	
 	#define MU_BM73_M_LIFE \b255	
@@ -636,8 +617,7 @@
 	#define MU_BM73_ID_W \w3612	
 	#define MU_BM73_ID_B \b*3612	
 	#define STR_W_MU_BM73 \wxD013	
-	#define STR_B_MU_BM73 13	
-	
+	#define STR_B_MU_BM73 13
 #define MU_ET420_INTROYEAR \w1969-1-1	
 	#define MU_ET420_V_LIFE \b25	
 	#define MU_ET420_M_LIFE \b30	
@@ -668,8 +648,7 @@
 	#define MU_ET420_ID_W \w3640	
 	#define MU_ET420_ID_B \b*3640	
 	#define STR_W_MU_ET420 \wxD014	
-	#define STR_B_MU_ET420 14	
-	
+	#define STR_B_MU_ET420 14
 #define MU_ETR500_INTROYEAR \w1993-1-1	
 	#define MU_ETR500_V_LIFE \b25	
 	#define MU_ETR500_M_LIFE \b255	
@@ -700,8 +679,7 @@
 	#define MU_ETR500_ID_W \w3641	
 	#define MU_ETR500_ID_B \b*3641	
 	#define STR_W_MU_ETR500 \wxD015	
-	#define STR_B_MU_ETR500 15	
-	
+	#define STR_B_MU_ETR500 15
 #define MU_HSA_INTROYEAR \w2012-1-1	
 	#define MU_HSA_V_LIFE \b25	
 	#define MU_HSA_M_LIFE \b255	
@@ -732,8 +710,7 @@
 	#define MU_HSA_ID_W \w3670	
 	#define MU_HSA_ID_B \b*3670	
 	#define STR_W_MU_HSA \wxD016	
-	#define STR_B_MU_HSA 16	
-	
+	#define STR_B_MU_HSA 16
 #define MU_ICE3_INTROYEAR \w2000-1-1	
 	#define MU_ICE3_V_LIFE \b25	
 	#define MU_ICE3_M_LIFE \b255	
@@ -756,16 +733,15 @@
 	#define MU_ICE3_WEIGHT \b51	
 	#define MU_ICE3_WEIGHT_HIGH \b0	
 	#define MU_ICE3_PCOST \b58	
-	#define MU_ICE3_RCOST \b38	
-	#define MU_ICE3_RCOST_WAG \b38	
-	#define MU_ICE3_RCOST_IDLE \b1	
-	#define MU_ICE3_RCBASE \dx4c3C	
+	#define MU_ICE3_RCOST \b255	
+	#define MU_ICE3_RCOST_WAG \b255	
+	#define MU_ICE3_RCOST_IDLE \b14	
+	#define MU_ICE3_RCBASE \dx4C30	
 	#define MU_ICE3_TRACTION_TYPE 28	
 	#define MU_ICE3_ID_W \w3680	
 	#define MU_ICE3_ID_B \b*3680	
 	#define STR_W_MU_ICE3 \wxD017	
-	#define STR_B_MU_ICE3 17	
-	
+	#define STR_B_MU_ICE3 17
 #define MU_ICM_INTROYEAR \w1979-1-1	
 	#define MU_ICM_V_LIFE \b25	
 	#define MU_ICM_M_LIFE \b35	
@@ -796,8 +772,7 @@
 	#define MU_ICM_ID_W \w3681	
 	#define MU_ICM_ID_B \b*3681	
 	#define STR_W_MU_ICM \wxD018	
-	#define STR_B_MU_ICM 18	
-	
+	#define STR_B_MU_ICM 18
 #define MU_MAT24_INTROYEAR \w1924-1-1	
 	#define MU_MAT24_V_LIFE \b25	
 	#define MU_MAT24_M_LIFE \b40	
@@ -828,8 +803,7 @@
 	#define MU_MAT24_ID_W \w3720	
 	#define MU_MAT24_ID_B \b*3720	
 	#define STR_W_MU_MAT24 \wxD019	
-	#define STR_B_MU_MAT24 19	
-	
+	#define STR_B_MU_MAT24 19
 #define MU_MAT36_INTROYEAR \w1936-1-1	
 	#define MU_MAT36_V_LIFE \b25	
 	#define MU_MAT36_M_LIFE \b35	
@@ -860,8 +834,7 @@
 	#define MU_MAT36_ID_W \w3721	
 	#define MU_MAT36_ID_B \b*3721	
 	#define STR_W_MU_MAT36 \wxD01A	
-	#define STR_B_MU_MAT36 1A	
-	
+	#define STR_B_MU_MAT36 1A
 #define MU_MDDM_INTROYEAR \w1997-1-1	
 	#define MU_MDDM_V_LIFE \b25	
 	#define MU_MDDM_M_LIFE \b255	
@@ -892,8 +865,7 @@
 	#define MU_MDDM_ID_W \w3722	
 	#define MU_MDDM_ID_B \b*3722	
 	#define STR_W_MU_MDDM \wxD01B	
-	#define STR_B_MU_MDDM 1B	
-	
+	#define STR_B_MU_MDDM 1B
 #define MU_OSCAR_INTROYEAR \w2007-1-1	
 	#define MU_OSCAR_V_LIFE \b25	
 	#define MU_OSCAR_M_LIFE \b255	
@@ -924,8 +896,7 @@
 	#define MU_OSCAR_ID_W \w3740	
 	#define MU_OSCAR_ID_B \b*3740	
 	#define STR_W_MU_OSCAR \wxD01C	
-	#define STR_B_MU_OSCAR 1C	
-	
+	#define STR_B_MU_OSCAR 1C
 #define MU_PLANY_INTROYEAR \w1975-1-1	
 	#define MU_PLANY_V_LIFE \b25	
 	#define MU_PLANY_M_LIFE \b35	
@@ -956,8 +927,7 @@
 	#define MU_PLANY_ID_W \w3750	
 	#define MU_PLANY_ID_B \b*3750	
 	#define STR_W_MU_PLANY \wxD01D	
-	#define STR_B_MU_PLANY 1D	
-	
+	#define STR_B_MU_PLANY 1D
 #define MU_RADBE510_INTROYEAR \w1965-1-1	
 	#define MU_RADBE510_V_LIFE \b25	
 	#define MU_RADBE510_M_LIFE \b35	
@@ -988,8 +958,7 @@
 	#define MU_RADBE510_ID_W \w3770	
 	#define MU_RADBE510_ID_B \b*3770	
 	#define STR_W_MU_RADBE510 \wxD01E	
-	#define STR_B_MU_RADBE510 1E	
-	
+	#define STR_B_MU_RADBE510 1E
 #define MU_RBDE560_INTROYEAR \w1984-1-1	
 	#define MU_RBDE560_V_LIFE \b25	
 	#define MU_RBDE560_M_LIFE \b50	
@@ -1020,8 +989,7 @@
 	#define MU_RBDE560_ID_W \w3771	
 	#define MU_RBDE560_ID_B \b*3771	
 	#define STR_W_MU_RBDE560 \wxD01F	
-	#define STR_B_MU_RBDE560 1F	
-	
+	#define STR_B_MU_RBDE560 1F
 #define MU_SM2_INTROYEAR \w1975-1-1	
 	#define MU_SM2_V_LIFE \b25	
 	#define MU_SM2_M_LIFE \b25	
@@ -1052,8 +1020,7 @@
 	#define MU_SM2_ID_W \w3780	
 	#define MU_SM2_ID_B \b*3780	
 	#define STR_W_MU_SM2 \wxD020	
-	#define STR_B_MU_SM2 20	
-	
+	#define STR_B_MU_SM2 20
 #define MU_SM4_INTROYEAR \w1999-1-1	
 	#define MU_SM4_V_LIFE \b25	
 	#define MU_SM4_M_LIFE \b255	
@@ -1084,8 +1051,7 @@
 	#define MU_SM4_ID_W \w3781	
 	#define MU_SM4_ID_B \b*3781	
 	#define STR_W_MU_SM4 \wxD021	
-	#define STR_B_MU_SM4 21	
-	
+	#define STR_B_MU_SM4 21
 #define MU_TGV_A_INTROYEAR \w1988-1-1	
 	#define MU_TGV_A_V_LIFE \b25	
 	#define MU_TGV_A_M_LIFE \b30	
@@ -1108,7 +1074,7 @@
 	#define MU_TGV_A_WEIGHT \b38	
 	#define MU_TGV_A_WEIGHT_HIGH \b0	
 	#define MU_TGV_A_PCOST \b68	
-	#define MU_TGV_A_RCOST \b15	
+	#define MU_TGV_A_RCOST \b31	
 	#define MU_TGV_A_RCOST_WAG \b0	
 	#define MU_TGV_A_RCOST_IDLE \b1	
 	#define MU_TGV_A_RCBASE \dx4C36	
@@ -1116,8 +1082,7 @@
 	#define MU_TGV_A_ID_W \w3790	
 	#define MU_TGV_A_ID_B \b*3790	
 	#define STR_W_MU_TGV_A \wxD022	
-	#define STR_B_MU_TGV_A 22	
-	
+	#define STR_B_MU_TGV_A 22
 #define MU_TGV_D_INTROYEAR \w1995-1-1	
 	#define MU_TGV_D_V_LIFE \b25	
 	#define MU_TGV_D_M_LIFE \b255	
@@ -1140,7 +1105,7 @@
 	#define MU_TGV_D_WEIGHT \b38	
 	#define MU_TGV_D_WEIGHT_HIGH \b0	
 	#define MU_TGV_D_PCOST \b75	
-	#define MU_TGV_D_RCOST \b17	
+	#define MU_TGV_D_RCOST \b34	
 	#define MU_TGV_D_RCOST_WAG \b0	
 	#define MU_TGV_D_RCOST_IDLE \b1	
 	#define MU_TGV_D_RCBASE \dx4C36	
@@ -1148,8 +1113,7 @@
 	#define MU_TGV_D_ID_W \w3791	
 	#define MU_TGV_D_ID_B \b*3791	
 	#define STR_W_MU_TGV_D \wxD023	
-	#define STR_B_MU_TGV_D 23	
-	
+	#define STR_B_MU_TGV_D 23
 #define MU_TGV_T_INTROYEAR \w1995-1-1	
 	#define MU_TGV_T_V_LIFE \b25	
 	#define MU_TGV_T_M_LIFE \b255	
@@ -1172,7 +1136,7 @@
 	#define MU_TGV_T_WEIGHT \b38	
 	#define MU_TGV_T_WEIGHT_HIGH \b0	
 	#define MU_TGV_T_PCOST \b68	
-	#define MU_TGV_T_RCOST \b15	
+	#define MU_TGV_T_RCOST \b31	
 	#define MU_TGV_T_RCOST_WAG \b0	
 	#define MU_TGV_T_RCOST_IDLE \b1	
 	#define MU_TGV_T_RCBASE \dx4C36	
@@ -1180,8 +1144,7 @@
 	#define MU_TGV_T_ID_W \w3792	
 	#define MU_TGV_T_ID_B \b*3792	
 	#define STR_W_MU_TGV_T \wxD024	
-	#define STR_B_MU_TGV_T 24	
-	
+	#define STR_B_MU_TGV_T 24
 #define MU_TGV_V150_INTROYEAR \w2007-1-1	
 	#define MU_TGV_V150_V_LIFE \b25	
 	#define MU_TGV_V150_M_LIFE \b255	
@@ -1204,7 +1167,7 @@
 	#define MU_TGV_V150_WEIGHT \b192	
 	#define MU_TGV_V150_WEIGHT_HIGH \b0	
 	#define MU_TGV_V150_PCOST \b184	
-	#define MU_TGV_V150_RCOST \b48	
+	#define MU_TGV_V150_RCOST \b96	
 	#define MU_TGV_V150_RCOST_WAG \b0	
 	#define MU_TGV_V150_RCOST_IDLE \b1	
 	#define MU_TGV_V150_RCBASE \dx4C36	
@@ -1212,8 +1175,7 @@
 	#define MU_TGV_V150_ID_W \w3793	
 	#define MU_TGV_V150_ID_B \b*3793	
 	#define STR_W_MU_TGV_V150 \wxD025	
-	#define STR_B_MU_TGV_V150 25	
-	
+	#define STR_B_MU_TGV_V150 25
 #define MU_X2000_INTROYEAR \w1990-1-1	
 	#define MU_X2000_V_LIFE \b25	
 	#define MU_X2000_M_LIFE \b255	
@@ -1244,31 +1206,30 @@
 	#define MU_X2000_ID_W \w3830	
 	#define MU_X2000_ID_B \b*3830	
 	#define STR_W_MU_X2000 \wxD026	
-	#define STR_B_MU_X2000 26	
-	
+	#define STR_B_MU_X2000 26
 #define MU_CHIM_INTROYEAR \w2035-1-1	
 	#define MU_CHIM_V_LIFE \b25	
 	#define MU_CHIM_M_LIFE \b255	
-	#define MU_CHIM_SPEED \w1000	
+	#define MU_CHIM_SPEED \w600	
 	#define MU_CHIM_TE \b0	
-	#define MU_CHIM_HP \w18000	
+	#define MU_CHIM_HP \w24000	
 	#define MU_CHIM_WAG_HP \w0	
-	#define MU_CHIM_CAP_WAG_PAX \b400	
-	#define MU_CHIM_CAP_WAG_MAIL \b300	
-	#define MU_CHIM_CAP_WAG_ARMOR \b200	
-	#define MU_CHIM_CAP_WAG_PAX_STR "400"	
-	#define MU_CHIM_CAP_WAG_MAIL_STR "300"	
-	#define MU_CHIM_CAP_WAG_ARMOR_STR "200"	
-	#define MU_CHIM_CAP_HEAD_PAX \b40	
-	#define MU_CHIM_CAP_HEAD_MAIL \b30	
-	#define MU_CHIM_CAP_HEAD_ARMOR \b20	
+	#define MU_CHIM_CAP_WAG_PAX \b288	
+	#define MU_CHIM_CAP_WAG_MAIL \b216	
+	#define MU_CHIM_CAP_WAG_ARMOR \b144	
+	#define MU_CHIM_CAP_WAG_PAX_STR "288"	
+	#define MU_CHIM_CAP_WAG_MAIL_STR "216"	
+	#define MU_CHIM_CAP_WAG_ARMOR_STR "144"	
+	#define MU_CHIM_CAP_HEAD_PAX \b288	
+	#define MU_CHIM_CAP_HEAD_MAIL \b216	
+	#define MU_CHIM_CAP_HEAD_ARMOR \b144	
 	#define MU_CHIM_PAX_LS \b8	
 	#define MU_CHIM_MAIL_LS \b6	
 	#define MU_CHIM_ARMOR_LS \b4	
-	#define MU_CHIM_WEIGHT \b180	
-	#define MU_CHIM_WEIGHT_HIGH \b0	
-	#define MU_CHIM_PCOST \b255	
-	#define MU_CHIM_RCOST \b70	
+	#define MU_CHIM_WEIGHT \b39	
+	#define MU_CHIM_WEIGHT_HIGH \b1	
+	#define MU_CHIM_PCOST \b158	
+	#define MU_CHIM_RCOST \b128	
 	#define MU_CHIM_RCOST_WAG \b0	
 	#define MU_CHIM_RCOST_IDLE \b1	
 	#define MU_CHIM_RCBASE \dx4C36	
@@ -1276,5 +1237,4 @@
 	#define MU_CHIM_ID_W \w00	
 	#define MU_CHIM_ID_B \b*00	
 	#define STR_W_MU_CHIM \wxD027	
-	#define STR_B_MU_CHIM 27	
-	
+	#define STR_B_MU_CHIM 27
