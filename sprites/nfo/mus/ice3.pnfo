@@ -325,8 +325,10 @@
 
 
 // GFX depending on pos in consist - normal pax
--1 * 0  02 00 56 81 41 00 01 01          // 1 case, counted from front
+-1 * 0  02 00 56 81 41 00 01 03          // 1 case, counted from front
                              50 00 00 00 // normal if whole
+                             53 00 64 64 // Remove a warning, fix this when you get the willpower to do so :) (remove cID 23+24+33+34+53+54)
+                             54 00 65 65 // Remove a warning, fix this when you get the willpower to do so :) (remove cID 23+24+33+34+53+54)
                              51 00       // rev if odd
 
 // GFX depending on pos in consist - pantos front

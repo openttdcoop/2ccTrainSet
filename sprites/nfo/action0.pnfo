@@ -8,9 +8,9 @@
 	#define MU_594_CAP_WAG_PAX \b63	
 	#define MU_594_CAP_WAG_MAIL \b47	
 	#define MU_594_CAP_WAG_ARMOR \b32	
-	#define MU_594_CAP_WAG_PAX_STR 63	
-	#define MU_594_CAP_WAG_MAIL_STR 47	
-	#define MU_594_CAP_WAG_ARMOR_STR 32	
+	#define MU_594_CAP_WAG_PAX_STR "63"	
+	#define MU_594_CAP_WAG_MAIL_STR "47"	
+	#define MU_594_CAP_WAG_ARMOR_STR "32"	
 	#define MU_594_CAP_HEAD_PAX \b63	
 	#define MU_594_CAP_HEAD_MAIL \b47	
 	#define MU_594_CAP_HEAD_ARMOR \b32	
@@ -27,10 +27,8 @@
 	#define MU_594_TRACTION_TYPE 8	
 	#define MU_594_ID_W \w3050	
 	#define MU_594_ID_B \b*3050	
-	0	D000	
 	#define STR_W_MU_594 \wxD000	
-	#define STR_B_MU_594 0	
-	
+	#define STR_B_MU_594 0
 #define MU_811_INTROYEAR \w1974-1-1	
 	#define MU_811_V_LIFE \b25	
 	#define MU_811_M_LIFE \b25	
@@ -41,9 +39,9 @@
 	#define MU_811_CAP_WAG_PAX \b38	
 	#define MU_811_CAP_WAG_MAIL \b29	
 	#define MU_811_CAP_WAG_ARMOR \b19	
-	#define MU_811_CAP_WAG_PAX_STR 38	
-	#define MU_811_CAP_WAG_MAIL_STR 29	
-	#define MU_811_CAP_WAG_ARMOR_STR 19	
+	#define MU_811_CAP_WAG_PAX_STR "38"	
+	#define MU_811_CAP_WAG_MAIL_STR "29"	
+	#define MU_811_CAP_WAG_ARMOR_STR "19"	
 	#define MU_811_CAP_HEAD_PAX \b38	
 	#define MU_811_CAP_HEAD_MAIL \b29	
 	#define MU_811_CAP_HEAD_ARMOR \b19	
@@ -60,10 +58,8 @@
 	#define MU_811_TRACTION_TYPE 8	
 	#define MU_811_ID_W \w3080	
 	#define MU_811_ID_B \b*3080	
-	1	D001	
 	#define STR_W_MU_811 \wxD001	
-	#define STR_B_MU_811 1	
-	
+	#define STR_B_MU_811 1
 #define MU_BM93_INTROYEAR \w2001-1-1	
 	#define MU_BM93_V_LIFE \b25	
 	#define MU_BM93_M_LIFE \b255	
@@ -74,9 +70,9 @@
 	#define MU_BM93_CAP_WAG_PAX \b55	
 	#define MU_BM93_CAP_WAG_MAIL \b41	
 	#define MU_BM93_CAP_WAG_ARMOR \b28	
-	#define MU_BM93_CAP_WAG_PAX_STR 55	
-	#define MU_BM93_CAP_WAG_MAIL_STR 41	
-	#define MU_BM93_CAP_WAG_ARMOR_STR 28	
+	#define MU_BM93_CAP_WAG_PAX_STR "55"	
+	#define MU_BM93_CAP_WAG_MAIL_STR "41"	
+	#define MU_BM93_CAP_WAG_ARMOR_STR "28"	
 	#define MU_BM93_CAP_HEAD_PAX \b55	
 	#define MU_BM93_CAP_HEAD_MAIL \b41	
 	#define MU_BM93_CAP_HEAD_ARMOR \b28	
@@ -93,10 +89,8 @@
 	#define MU_BM93_TRACTION_TYPE 8	
 	#define MU_BM93_ID_W \w3110	
 	#define MU_BM93_ID_B \b*3110	
-	2	D002	
 	#define STR_W_MU_BM93 \wxD002	
-	#define STR_B_MU_BM93 2	
-	
+	#define STR_B_MU_BM93 2
 #define MU_BR150_INTROYEAR \w1986-1-1	
 	#define MU_BR150_V_LIFE \b25	
 	#define MU_BR150_M_LIFE \b25	
@@ -107,9 +101,9 @@
 	#define MU_BR150_CAP_WAG_PAX \b75	
 	#define MU_BR150_CAP_WAG_MAIL \b56	
 	#define MU_BR150_CAP_WAG_ARMOR \b38	
-	#define MU_BR150_CAP_WAG_PAX_STR 75	
-	#define MU_BR150_CAP_WAG_MAIL_STR 56	
-	#define MU_BR150_CAP_WAG_ARMOR_STR 38	
+	#define MU_BR150_CAP_WAG_PAX_STR "75"	
+	#define MU_BR150_CAP_WAG_MAIL_STR "56"	
+	#define MU_BR150_CAP_WAG_ARMOR_STR "38"	
 	#define MU_BR150_CAP_HEAD_PAX \b75	
 	#define MU_BR150_CAP_HEAD_MAIL \b56	
 	#define MU_BR150_CAP_HEAD_ARMOR \b38	
@@ -126,10 +120,8 @@
 	#define MU_BR150_TRACTION_TYPE 8	
 	#define MU_BR150_ID_W \w3111	
 	#define MU_BR150_ID_B \b*3111	
-	3	D003	
 	#define STR_W_MU_BR150 \wxD003	
-	#define STR_B_MU_BR150 3	
-	
+	#define STR_B_MU_BR150 3
 #define MU_BR158_INTROYEAR \w1991-1-1	
 	#define MU_BR158_V_LIFE \b25	
 	#define MU_BR158_M_LIFE \b35	
@@ -140,9 +132,9 @@
 	#define MU_BR158_CAP_WAG_PAX \b69	
 	#define MU_BR158_CAP_WAG_MAIL \b52	
 	#define MU_BR158_CAP_WAG_ARMOR \b35	
-	#define MU_BR158_CAP_WAG_PAX_STR 69	
-	#define MU_BR158_CAP_WAG_MAIL_STR 52	
-	#define MU_BR158_CAP_WAG_ARMOR_STR 35	
+	#define MU_BR158_CAP_WAG_PAX_STR "69"	
+	#define MU_BR158_CAP_WAG_MAIL_STR "52"	
+	#define MU_BR158_CAP_WAG_ARMOR_STR "35"	
 	#define MU_BR158_CAP_HEAD_PAX \b69	
 	#define MU_BR158_CAP_HEAD_MAIL \b52	
 	#define MU_BR158_CAP_HEAD_ARMOR \b35	
@@ -159,10 +151,8 @@
 	#define MU_BR158_TRACTION_TYPE 8	
 	#define MU_BR158_ID_W \w3112	
 	#define MU_BR158_ID_B \b*3112	
-	4	D004	
 	#define STR_W_MU_BR158 \wxD004	
-	#define STR_B_MU_BR158 4	
-	
+	#define STR_B_MU_BR158 4
 #define MU_BR168_INTROYEAR \w1997-1-1	
 	#define MU_BR168_V_LIFE \b25	
 	#define MU_BR168_M_LIFE \b255	
@@ -173,9 +163,9 @@
 	#define MU_BR168_CAP_WAG_PAX \b42	
 	#define MU_BR168_CAP_WAG_MAIL \b32	
 	#define MU_BR168_CAP_WAG_ARMOR \b21	
-	#define MU_BR168_CAP_WAG_PAX_STR 42	
-	#define MU_BR168_CAP_WAG_MAIL_STR 32	
-	#define MU_BR168_CAP_WAG_ARMOR_STR 21	
+	#define MU_BR168_CAP_WAG_PAX_STR "42"	
+	#define MU_BR168_CAP_WAG_MAIL_STR "32"	
+	#define MU_BR168_CAP_WAG_ARMOR_STR "21"	
 	#define MU_BR168_CAP_HEAD_PAX \b42	
 	#define MU_BR168_CAP_HEAD_MAIL \b32	
 	#define MU_BR168_CAP_HEAD_ARMOR \b21	
@@ -192,10 +182,8 @@
 	#define MU_BR168_TRACTION_TYPE 8	
 	#define MU_BR168_ID_W \w3113	
 	#define MU_BR168_ID_B \b*3113	
-	5	D005	
 	#define STR_W_MU_BR168 \wxD005	
-	#define STR_B_MU_BR168 5	
-	
+	#define STR_B_MU_BR168 5
 #define MU_CC_INTROYEAR \w1996-1-1	
 	#define MU_CC_V_LIFE \b25	
 	#define MU_CC_M_LIFE \b255	
@@ -206,9 +194,9 @@
 	#define MU_CC_CAP_WAG_PAX \b80	
 	#define MU_CC_CAP_WAG_MAIL \b60	
 	#define MU_CC_CAP_WAG_ARMOR \b40	
-	#define MU_CC_CAP_WAG_PAX_STR 80	
-	#define MU_CC_CAP_WAG_MAIL_STR 60	
-	#define MU_CC_CAP_WAG_ARMOR_STR 40	
+	#define MU_CC_CAP_WAG_PAX_STR "80"	
+	#define MU_CC_CAP_WAG_MAIL_STR "60"	
+	#define MU_CC_CAP_WAG_ARMOR_STR "40"	
 	#define MU_CC_CAP_HEAD_PAX \b40	
 	#define MU_CC_CAP_HEAD_MAIL \b30	
 	#define MU_CC_CAP_HEAD_ARMOR \b20	
@@ -225,10 +213,8 @@
 	#define MU_CC_TRACTION_TYPE 8	
 	#define MU_CC_ID_W \w3120	
 	#define MU_CC_ID_B \b*3120	
-	6	D006	
 	#define STR_W_MU_CC \wxD006	
-	#define STR_B_MU_CC 6	
-	
+	#define STR_B_MU_CC 6
 #define MU_CD_INTROYEAR \w2015-1-1	
 	#define MU_CD_V_LIFE \b25	
 	#define MU_CD_M_LIFE \b255	
@@ -239,9 +225,9 @@
 	#define MU_CD_CAP_WAG_PAX \b75	
 	#define MU_CD_CAP_WAG_MAIL \b56	
 	#define MU_CD_CAP_WAG_ARMOR \b38	
-	#define MU_CD_CAP_WAG_PAX_STR 75	
-	#define MU_CD_CAP_WAG_MAIL_STR 56	
-	#define MU_CD_CAP_WAG_ARMOR_STR 38	
+	#define MU_CD_CAP_WAG_PAX_STR "75"	
+	#define MU_CD_CAP_WAG_MAIL_STR "56"	
+	#define MU_CD_CAP_WAG_ARMOR_STR "38"	
 	#define MU_CD_CAP_HEAD_PAX \b75	
 	#define MU_CD_CAP_HEAD_MAIL \b56	
 	#define MU_CD_CAP_HEAD_ARMOR \b38	
@@ -258,10 +244,8 @@
 	#define MU_CD_TRACTION_TYPE 8	
 	#define MU_CD_ID_W \w3121	
 	#define MU_CD_ID_B \b*3121	
-	7	D007	
 	#define STR_W_MU_CD \wxD007	
-	#define STR_B_MU_CD 7	
-	
+	#define STR_B_MU_CD 7
 #define MU_HUNTER_INTROYEAR \w2006-1-1	
 	#define MU_HUNTER_V_LIFE \b25	
 	#define MU_HUNTER_M_LIFE \b255	
@@ -272,9 +256,9 @@
 	#define MU_HUNTER_CAP_WAG_PAX \b70	
 	#define MU_HUNTER_CAP_WAG_MAIL \b53	
 	#define MU_HUNTER_CAP_WAG_ARMOR \b35	
-	#define MU_HUNTER_CAP_WAG_PAX_STR 70	
-	#define MU_HUNTER_CAP_WAG_MAIL_STR 53	
-	#define MU_HUNTER_CAP_WAG_ARMOR_STR 35	
+	#define MU_HUNTER_CAP_WAG_PAX_STR "70"	
+	#define MU_HUNTER_CAP_WAG_MAIL_STR "53"	
+	#define MU_HUNTER_CAP_WAG_ARMOR_STR "35"	
 	#define MU_HUNTER_CAP_HEAD_PAX \b70	
 	#define MU_HUNTER_CAP_HEAD_MAIL \b53	
 	#define MU_HUNTER_CAP_HEAD_ARMOR \b35	
@@ -291,10 +275,8 @@
 	#define MU_HUNTER_TRACTION_TYPE 8	
 	#define MU_HUNTER_ID_W \w3170	
 	#define MU_HUNTER_ID_B \b*3170	
-	8	D008	
 	#define STR_W_MU_HUNTER \wxD008	
-	#define STR_B_MU_HUNTER 8	
-	
+	#define STR_B_MU_HUNTER 8
 #define MU_IC125_INTROYEAR \w1976-1-1	
 	#define MU_IC125_V_LIFE \b25	
 	#define MU_IC125_M_LIFE \b25	
@@ -305,9 +287,9 @@
 	#define MU_IC125_CAP_WAG_PAX \b52	
 	#define MU_IC125_CAP_WAG_MAIL \b39	
 	#define MU_IC125_CAP_WAG_ARMOR \b26	
-	#define MU_IC125_CAP_WAG_PAX_STR 52	
-	#define MU_IC125_CAP_WAG_MAIL_STR 39	
-	#define MU_IC125_CAP_WAG_ARMOR_STR 26	
+	#define MU_IC125_CAP_WAG_PAX_STR "52"	
+	#define MU_IC125_CAP_WAG_MAIL_STR "39"	
+	#define MU_IC125_CAP_WAG_ARMOR_STR "26"	
 	#define MU_IC125_CAP_HEAD_PAX \b0	
 	#define MU_IC125_CAP_HEAD_MAIL \b0	
 	#define MU_IC125_CAP_HEAD_ARMOR \b0	
@@ -324,10 +306,8 @@
 	#define MU_IC125_TRACTION_TYPE 8	
 	#define MU_IC125_ID_W \w3180	
 	#define MU_IC125_ID_B \b*3180	
-	9	D009	
 	#define STR_W_MU_IC125 \wxD009	
-	#define STR_B_MU_IC125 9	
-	
+	#define STR_B_MU_IC125 9
 #define MU_LINT41_INTROYEAR \w2001-1-1	
 	#define MU_LINT41_V_LIFE \b25	
 	#define MU_LINT41_M_LIFE \b255	
@@ -338,9 +318,9 @@
 	#define MU_LINT41_CAP_WAG_PAX \b73	
 	#define MU_LINT41_CAP_WAG_MAIL \b55	
 	#define MU_LINT41_CAP_WAG_ARMOR \b37	
-	#define MU_LINT41_CAP_WAG_PAX_STR 73	
-	#define MU_LINT41_CAP_WAG_MAIL_STR 55	
-	#define MU_LINT41_CAP_WAG_ARMOR_STR 37	
+	#define MU_LINT41_CAP_WAG_PAX_STR "73"	
+	#define MU_LINT41_CAP_WAG_MAIL_STR "55"	
+	#define MU_LINT41_CAP_WAG_ARMOR_STR "37"	
 	#define MU_LINT41_CAP_HEAD_PAX \b73	
 	#define MU_LINT41_CAP_HEAD_MAIL \b55	
 	#define MU_LINT41_CAP_HEAD_ARMOR \b37	
@@ -357,10 +337,8 @@
 	#define MU_LINT41_TRACTION_TYPE 8	
 	#define MU_LINT41_ID_W \w3210	
 	#define MU_LINT41_ID_B \b*3210	
-	10	D00A	
 	#define STR_W_MU_LINT41 \wxD00A	
-	#define STR_B_MU_LINT41 A	
-	
+	#define STR_B_MU_LINT41 A
 #define MU_LRC_INTROYEAR \w1980-1-1	
 	#define MU_LRC_V_LIFE \b25	
 	#define MU_LRC_M_LIFE \b35	
@@ -371,9 +349,9 @@
 	#define MU_LRC_CAP_WAG_PAX \b55	
 	#define MU_LRC_CAP_WAG_MAIL \b41	
 	#define MU_LRC_CAP_WAG_ARMOR \b28	
-	#define MU_LRC_CAP_WAG_PAX_STR 55	
-	#define MU_LRC_CAP_WAG_MAIL_STR 41	
-	#define MU_LRC_CAP_WAG_ARMOR_STR 28	
+	#define MU_LRC_CAP_WAG_PAX_STR "55"	
+	#define MU_LRC_CAP_WAG_MAIL_STR "41"	
+	#define MU_LRC_CAP_WAG_ARMOR_STR "28"	
 	#define MU_LRC_CAP_HEAD_PAX \b0	
 	#define MU_LRC_CAP_HEAD_MAIL \b0	
 	#define MU_LRC_CAP_HEAD_ARMOR \b0	
@@ -390,10 +368,8 @@
 	#define MU_LRC_TRACTION_TYPE 8	
 	#define MU_LRC_ID_W \w3211	
 	#define MU_LRC_ID_B \b*3211	
-	11	D00B	
 	#define STR_W_MU_LRC \wxD00B	
-	#define STR_B_MU_LRC B	
-	
+	#define STR_B_MU_LRC B
 #define MU_VT612_INTROYEAR \w1998-1-1	
 	#define MU_VT612_V_LIFE \b25	
 	#define MU_VT612_M_LIFE \b255	
@@ -404,9 +380,9 @@
 	#define MU_VT612_CAP_WAG_PAX \b73	
 	#define MU_VT612_CAP_WAG_MAIL \b55	
 	#define MU_VT612_CAP_WAG_ARMOR \b37	
-	#define MU_VT612_CAP_WAG_PAX_STR 73	
-	#define MU_VT612_CAP_WAG_MAIL_STR 55	
-	#define MU_VT612_CAP_WAG_ARMOR_STR 37	
+	#define MU_VT612_CAP_WAG_PAX_STR "73"	
+	#define MU_VT612_CAP_WAG_MAIL_STR "55"	
+	#define MU_VT612_CAP_WAG_ARMOR_STR "37"	
 	#define MU_VT612_CAP_HEAD_PAX \b73	
 	#define MU_VT612_CAP_HEAD_MAIL \b55	
 	#define MU_VT612_CAP_HEAD_ARMOR \b37	
@@ -423,10 +399,8 @@
 	#define MU_VT612_TRACTION_TYPE 8	
 	#define MU_VT612_ID_W \w3310	
 	#define MU_VT612_ID_B \b*3310	
-	12	D00C	
 	#define STR_W_MU_VT612 \wxD00C	
-	#define STR_B_MU_VT612 C	
-	
+	#define STR_B_MU_VT612 C
 #define MU_Y2_INTROYEAR \w1990-1-1	
 	#define MU_Y2_V_LIFE \b25	
 	#define MU_Y2_M_LIFE \b255	
@@ -437,9 +411,9 @@
 	#define MU_Y2_CAP_WAG_PAX \b48	
 	#define MU_Y2_CAP_WAG_MAIL \b36	
 	#define MU_Y2_CAP_WAG_ARMOR \b24	
-	#define MU_Y2_CAP_WAG_PAX_STR 48	
-	#define MU_Y2_CAP_WAG_MAIL_STR 36	
-	#define MU_Y2_CAP_WAG_ARMOR_STR 24	
+	#define MU_Y2_CAP_WAG_PAX_STR "48"	
+	#define MU_Y2_CAP_WAG_MAIL_STR "36"	
+	#define MU_Y2_CAP_WAG_ARMOR_STR "24"	
 	#define MU_Y2_CAP_HEAD_PAX \b48	
 	#define MU_Y2_CAP_HEAD_MAIL \b36	
 	#define MU_Y2_CAP_HEAD_ARMOR \b24	
@@ -456,10 +430,8 @@
 	#define MU_Y2_TRACTION_TYPE 8	
 	#define MU_Y2_ID_W \w3340	
 	#define MU_Y2_ID_B \b*3340	
-	13	D00D	
 	#define STR_W_MU_Y2 \wxD00D	
-	#define STR_B_MU_Y2 D	
-	
+	#define STR_B_MU_Y2 D
 #define MU_2200_INTROYEAR \w1999-1-1	
 	#define MU_2200_V_LIFE \b25	
 	#define MU_2200_M_LIFE \b255	
@@ -470,9 +442,9 @@
 	#define MU_2200_CAP_WAG_PAX \b111	
 	#define MU_2200_CAP_WAG_MAIL \b83	
 	#define MU_2200_CAP_WAG_ARMOR \b56	
-	#define MU_2200_CAP_WAG_PAX_STR 111	
-	#define MU_2200_CAP_WAG_MAIL_STR 83	
-	#define MU_2200_CAP_WAG_ARMOR_STR 56	
+	#define MU_2200_CAP_WAG_PAX_STR "111"	
+	#define MU_2200_CAP_WAG_MAIL_STR "83"	
+	#define MU_2200_CAP_WAG_ARMOR_STR "56"	
 	#define MU_2200_CAP_HEAD_PAX \b111	
 	#define MU_2200_CAP_HEAD_MAIL \b83	
 	#define MU_2200_CAP_HEAD_ARMOR \b56	
@@ -489,10 +461,8 @@
 	#define MU_2200_TRACTION_TYPE 28	
 	#define MU_2200_ID_W \w3520	
 	#define MU_2200_ID_B \b*3520	
-	14	D00E	
 	#define STR_W_MU_2200 \wxD00E	
-	#define STR_B_MU_2200 E	
-	
+	#define STR_B_MU_2200 E
 #define MU_4041_INTROYEAR \w1929-1-1	
 	#define MU_4041_V_LIFE \b25	
 	#define MU_4041_M_LIFE \b40	
@@ -503,9 +473,9 @@
 	#define MU_4041_CAP_WAG_PAX \b40	
 	#define MU_4041_CAP_WAG_MAIL \b30	
 	#define MU_4041_CAP_WAG_ARMOR \b20	
-	#define MU_4041_CAP_WAG_PAX_STR 40	
-	#define MU_4041_CAP_WAG_MAIL_STR 30	
-	#define MU_4041_CAP_WAG_ARMOR_STR 20	
+	#define MU_4041_CAP_WAG_PAX_STR "40"	
+	#define MU_4041_CAP_WAG_MAIL_STR "30"	
+	#define MU_4041_CAP_WAG_ARMOR_STR "20"	
 	#define MU_4041_CAP_HEAD_PAX \b40	
 	#define MU_4041_CAP_HEAD_MAIL \b30	
 	#define MU_4041_CAP_HEAD_ARMOR \b20	
@@ -522,10 +492,8 @@
 	#define MU_4041_TRACTION_TYPE 28	
 	#define MU_4041_ID_W \w3540	
 	#define MU_4041_ID_B \b*3540	
-	15	D00F	
 	#define STR_W_MU_4041 \wxD00F	
-	#define STR_B_MU_4041 F	
-	
+	#define STR_B_MU_4041 F
 #define MU_680_INTROYEAR \w1999-1-1	
 	#define MU_680_V_LIFE \b25	
 	#define MU_680_M_LIFE \b255	
@@ -536,9 +504,9 @@
 	#define MU_680_CAP_WAG_PAX \b47	
 	#define MU_680_CAP_WAG_MAIL \b35	
 	#define MU_680_CAP_WAG_ARMOR \b24	
-	#define MU_680_CAP_WAG_PAX_STR 47	
-	#define MU_680_CAP_WAG_MAIL_STR 35	
-	#define MU_680_CAP_WAG_ARMOR_STR 24	
+	#define MU_680_CAP_WAG_PAX_STR "47"	
+	#define MU_680_CAP_WAG_MAIL_STR "35"	
+	#define MU_680_CAP_WAG_ARMOR_STR "24"	
 	#define MU_680_CAP_HEAD_PAX \b47	
 	#define MU_680_CAP_HEAD_MAIL \b35	
 	#define MU_680_CAP_HEAD_ARMOR \b24	
@@ -555,10 +523,8 @@
 	#define MU_680_TRACTION_TYPE 28	
 	#define MU_680_ID_W \w3560	
 	#define MU_680_ID_B \b*3560	
-	16	D016	
 	#define STR_W_MU_680 \wxD016	
-	#define STR_B_MU_680 10	
-	
+	#define STR_B_MU_680 10
 #define MU_BDVMOT_INTROYEAR \w1988-1-1	
 	#define MU_BDVMOT_V_LIFE \b25	
 	#define MU_BDVMOT_M_LIFE \b255	
@@ -569,9 +535,9 @@
 	#define MU_BDVMOT_CAP_WAG_PAX \b75	
 	#define MU_BDVMOT_CAP_WAG_MAIL \b56	
 	#define MU_BDVMOT_CAP_WAG_ARMOR \b38	
-	#define MU_BDVMOT_CAP_WAG_PAX_STR 75	
-	#define MU_BDVMOT_CAP_WAG_MAIL_STR 56	
-	#define MU_BDVMOT_CAP_WAG_ARMOR_STR 38	
+	#define MU_BDVMOT_CAP_WAG_PAX_STR "75"	
+	#define MU_BDVMOT_CAP_WAG_MAIL_STR "56"	
+	#define MU_BDVMOT_CAP_WAG_ARMOR_STR "38"	
 	#define MU_BDVMOT_CAP_HEAD_PAX \b75	
 	#define MU_BDVMOT_CAP_HEAD_MAIL \b56	
 	#define MU_BDVMOT_CAP_HEAD_ARMOR \b38	
@@ -588,10 +554,8 @@
 	#define MU_BDVMOT_TRACTION_TYPE 28	
 	#define MU_BDVMOT_ID_W \w3610	
 	#define MU_BDVMOT_ID_B \b*3610	
-	17	D017	
 	#define STR_W_MU_BDVMOT \wxD017	
-	#define STR_B_MU_BDVMOT 11	
-	
+	#define STR_B_MU_BDVMOT 11
 #define MU_BM65_INTROYEAR \w1942-1-1	
 	#define MU_BM65_V_LIFE \b25	
 	#define MU_BM65_M_LIFE \b40	
@@ -602,9 +566,9 @@
 	#define MU_BM65_CAP_WAG_PAX \b50	
 	#define MU_BM65_CAP_WAG_MAIL \b38	
 	#define MU_BM65_CAP_WAG_ARMOR \b25	
-	#define MU_BM65_CAP_WAG_PAX_STR 50	
-	#define MU_BM65_CAP_WAG_MAIL_STR 38	
-	#define MU_BM65_CAP_WAG_ARMOR_STR 25	
+	#define MU_BM65_CAP_WAG_PAX_STR "50"	
+	#define MU_BM65_CAP_WAG_MAIL_STR "38"	
+	#define MU_BM65_CAP_WAG_ARMOR_STR "25"	
 	#define MU_BM65_CAP_HEAD_PAX \b50	
 	#define MU_BM65_CAP_HEAD_MAIL \b38	
 	#define MU_BM65_CAP_HEAD_ARMOR \b25	
@@ -621,10 +585,8 @@
 	#define MU_BM65_TRACTION_TYPE 28	
 	#define MU_BM65_ID_W \w3611	
 	#define MU_BM65_ID_B \b*3611	
-	18	D018	
 	#define STR_W_MU_BM65 \wxD018	
-	#define STR_B_MU_BM65 12	
-	
+	#define STR_B_MU_BM65 12
 #define MU_BM73_INTROYEAR \w1998-1-1	
 	#define MU_BM73_V_LIFE \b25	
 	#define MU_BM73_M_LIFE \b255	
@@ -635,9 +597,9 @@
 	#define MU_BM73_CAP_WAG_PAX \b40	
 	#define MU_BM73_CAP_WAG_MAIL \b30	
 	#define MU_BM73_CAP_WAG_ARMOR \b20	
-	#define MU_BM73_CAP_WAG_PAX_STR 40	
-	#define MU_BM73_CAP_WAG_MAIL_STR 30	
-	#define MU_BM73_CAP_WAG_ARMOR_STR 20	
+	#define MU_BM73_CAP_WAG_PAX_STR "40"	
+	#define MU_BM73_CAP_WAG_MAIL_STR "30"	
+	#define MU_BM73_CAP_WAG_ARMOR_STR "20"	
 	#define MU_BM73_CAP_HEAD_PAX \b40	
 	#define MU_BM73_CAP_HEAD_MAIL \b30	
 	#define MU_BM73_CAP_HEAD_ARMOR \b20	
@@ -654,10 +616,8 @@
 	#define MU_BM73_TRACTION_TYPE 28	
 	#define MU_BM73_ID_W \w3612	
 	#define MU_BM73_ID_B \b*3612	
-	19	D013	
 	#define STR_W_MU_BM73 \wxD013	
-	#define STR_B_MU_BM73 13	
-	
+	#define STR_B_MU_BM73 13
 #define MU_ET420_INTROYEAR \w1969-1-1	
 	#define MU_ET420_V_LIFE \b25	
 	#define MU_ET420_M_LIFE \b30	
@@ -668,9 +628,9 @@
 	#define MU_ET420_CAP_WAG_PAX \b76	
 	#define MU_ET420_CAP_WAG_MAIL \b57	
 	#define MU_ET420_CAP_WAG_ARMOR \b38	
-	#define MU_ET420_CAP_WAG_PAX_STR 76	
-	#define MU_ET420_CAP_WAG_MAIL_STR 57	
-	#define MU_ET420_CAP_WAG_ARMOR_STR 38	
+	#define MU_ET420_CAP_WAG_PAX_STR "76"	
+	#define MU_ET420_CAP_WAG_MAIL_STR "57"	
+	#define MU_ET420_CAP_WAG_ARMOR_STR "38"	
 	#define MU_ET420_CAP_HEAD_PAX \b76	
 	#define MU_ET420_CAP_HEAD_MAIL \b57	
 	#define MU_ET420_CAP_HEAD_ARMOR \b38	
@@ -687,10 +647,8 @@
 	#define MU_ET420_TRACTION_TYPE 28	
 	#define MU_ET420_ID_W \w3640	
 	#define MU_ET420_ID_B \b*3640	
-	20	D014	
 	#define STR_W_MU_ET420 \wxD014	
-	#define STR_B_MU_ET420 14	
-	
+	#define STR_B_MU_ET420 14
 #define MU_ETR500_INTROYEAR \w1993-1-1	
 	#define MU_ETR500_V_LIFE \b25	
 	#define MU_ETR500_M_LIFE \b255	
@@ -701,9 +659,9 @@
 	#define MU_ETR500_CAP_WAG_PAX \b60	
 	#define MU_ETR500_CAP_WAG_MAIL \b45	
 	#define MU_ETR500_CAP_WAG_ARMOR \b30	
-	#define MU_ETR500_CAP_WAG_PAX_STR 60	
-	#define MU_ETR500_CAP_WAG_MAIL_STR 45	
-	#define MU_ETR500_CAP_WAG_ARMOR_STR 30	
+	#define MU_ETR500_CAP_WAG_PAX_STR "60"	
+	#define MU_ETR500_CAP_WAG_MAIL_STR "45"	
+	#define MU_ETR500_CAP_WAG_ARMOR_STR "30"	
 	#define MU_ETR500_CAP_HEAD_PAX \b0	
 	#define MU_ETR500_CAP_HEAD_MAIL \b0	
 	#define MU_ETR500_CAP_HEAD_ARMOR \b0	
@@ -720,10 +678,8 @@
 	#define MU_ETR500_TRACTION_TYPE 28	
 	#define MU_ETR500_ID_W \w3641	
 	#define MU_ETR500_ID_B \b*3641	
-	21	D015	
 	#define STR_W_MU_ETR500 \wxD015	
-	#define STR_B_MU_ETR500 15	
-	
+	#define STR_B_MU_ETR500 15
 #define MU_HSA_INTROYEAR \w2012-1-1	
 	#define MU_HSA_V_LIFE \b25	
 	#define MU_HSA_M_LIFE \b255	
@@ -734,9 +690,9 @@
 	#define MU_HSA_CAP_WAG_PAX \b42	
 	#define MU_HSA_CAP_WAG_MAIL \b32	
 	#define MU_HSA_CAP_WAG_ARMOR \b21	
-	#define MU_HSA_CAP_WAG_PAX_STR 42	
-	#define MU_HSA_CAP_WAG_MAIL_STR 32	
-	#define MU_HSA_CAP_WAG_ARMOR_STR 21	
+	#define MU_HSA_CAP_WAG_PAX_STR "42"	
+	#define MU_HSA_CAP_WAG_MAIL_STR "32"	
+	#define MU_HSA_CAP_WAG_ARMOR_STR "21"	
 	#define MU_HSA_CAP_HEAD_PAX \b42	
 	#define MU_HSA_CAP_HEAD_MAIL \b32	
 	#define MU_HSA_CAP_HEAD_ARMOR \b21	
@@ -753,10 +709,8 @@
 	#define MU_HSA_TRACTION_TYPE 28	
 	#define MU_HSA_ID_W \w3670	
 	#define MU_HSA_ID_B \b*3670	
-	22	D016	
 	#define STR_W_MU_HSA \wxD016	
-	#define STR_B_MU_HSA 16	
-	
+	#define STR_B_MU_HSA 16
 #define MU_ICE3_INTROYEAR \w2000-1-1	
 	#define MU_ICE3_V_LIFE \b25	
 	#define MU_ICE3_M_LIFE \b255	
@@ -767,9 +721,9 @@
 	#define MU_ICE3_CAP_WAG_PAX \b45	
 	#define MU_ICE3_CAP_WAG_MAIL \b34	
 	#define MU_ICE3_CAP_WAG_ARMOR \b23	
-	#define MU_ICE3_CAP_WAG_PAX_STR 45	
-	#define MU_ICE3_CAP_WAG_MAIL_STR 34	
-	#define MU_ICE3_CAP_WAG_ARMOR_STR 23	
+	#define MU_ICE3_CAP_WAG_PAX_STR "45"	
+	#define MU_ICE3_CAP_WAG_MAIL_STR "34"	
+	#define MU_ICE3_CAP_WAG_ARMOR_STR "23"	
 	#define MU_ICE3_CAP_HEAD_PAX \b45	
 	#define MU_ICE3_CAP_HEAD_MAIL \b34	
 	#define MU_ICE3_CAP_HEAD_ARMOR \b23	
@@ -786,10 +740,8 @@
 	#define MU_ICE3_TRACTION_TYPE 28	
 	#define MU_ICE3_ID_W \w3680	
 	#define MU_ICE3_ID_B \b*3680	
-	23	D017	
 	#define STR_W_MU_ICE3 \wxD017	
-	#define STR_B_MU_ICE3 17	
-	
+	#define STR_B_MU_ICE3 17
 #define MU_ICM_INTROYEAR \w1979-1-1	
 	#define MU_ICM_V_LIFE \b25	
 	#define MU_ICM_M_LIFE \b35	
@@ -800,9 +752,9 @@
 	#define MU_ICM_CAP_WAG_PAX \b61	
 	#define MU_ICM_CAP_WAG_MAIL \b46	
 	#define MU_ICM_CAP_WAG_ARMOR \b31	
-	#define MU_ICM_CAP_WAG_PAX_STR 61	
-	#define MU_ICM_CAP_WAG_MAIL_STR 46	
-	#define MU_ICM_CAP_WAG_ARMOR_STR 31	
+	#define MU_ICM_CAP_WAG_PAX_STR "61"	
+	#define MU_ICM_CAP_WAG_MAIL_STR "46"	
+	#define MU_ICM_CAP_WAG_ARMOR_STR "31"	
 	#define MU_ICM_CAP_HEAD_PAX \b61	
 	#define MU_ICM_CAP_HEAD_MAIL \b46	
 	#define MU_ICM_CAP_HEAD_ARMOR \b31	
@@ -819,10 +771,8 @@
 	#define MU_ICM_TRACTION_TYPE 28	
 	#define MU_ICM_ID_W \w3681	
 	#define MU_ICM_ID_B \b*3681	
-	24	D018	
 	#define STR_W_MU_ICM \wxD018	
-	#define STR_B_MU_ICM 18	
-	
+	#define STR_B_MU_ICM 18
 #define MU_MAT24_INTROYEAR \w1924-1-1	
 	#define MU_MAT24_V_LIFE \b25	
 	#define MU_MAT24_M_LIFE \b40	
@@ -833,9 +783,9 @@
 	#define MU_MAT24_CAP_WAG_PAX \b30	
 	#define MU_MAT24_CAP_WAG_MAIL \b23	
 	#define MU_MAT24_CAP_WAG_ARMOR \b15	
-	#define MU_MAT24_CAP_WAG_PAX_STR 30	
-	#define MU_MAT24_CAP_WAG_MAIL_STR 23	
-	#define MU_MAT24_CAP_WAG_ARMOR_STR 15	
+	#define MU_MAT24_CAP_WAG_PAX_STR "30"	
+	#define MU_MAT24_CAP_WAG_MAIL_STR "23"	
+	#define MU_MAT24_CAP_WAG_ARMOR_STR "15"	
 	#define MU_MAT24_CAP_HEAD_PAX \b30	
 	#define MU_MAT24_CAP_HEAD_MAIL \b23	
 	#define MU_MAT24_CAP_HEAD_ARMOR \b15	
@@ -852,10 +802,8 @@
 	#define MU_MAT24_TRACTION_TYPE 28	
 	#define MU_MAT24_ID_W \w3720	
 	#define MU_MAT24_ID_B \b*3720	
-	25	D019	
 	#define STR_W_MU_MAT24 \wxD019	
-	#define STR_B_MU_MAT24 19	
-	
+	#define STR_B_MU_MAT24 19
 #define MU_MAT36_INTROYEAR \w1936-1-1	
 	#define MU_MAT36_V_LIFE \b25	
 	#define MU_MAT36_M_LIFE \b35	
@@ -866,9 +814,9 @@
 	#define MU_MAT36_CAP_WAG_PAX \b52	
 	#define MU_MAT36_CAP_WAG_MAIL \b39	
 	#define MU_MAT36_CAP_WAG_ARMOR \b26	
-	#define MU_MAT36_CAP_WAG_PAX_STR 52	
-	#define MU_MAT36_CAP_WAG_MAIL_STR 39	
-	#define MU_MAT36_CAP_WAG_ARMOR_STR 26	
+	#define MU_MAT36_CAP_WAG_PAX_STR "52"	
+	#define MU_MAT36_CAP_WAG_MAIL_STR "39"	
+	#define MU_MAT36_CAP_WAG_ARMOR_STR "26"	
 	#define MU_MAT36_CAP_HEAD_PAX \b52	
 	#define MU_MAT36_CAP_HEAD_MAIL \b39	
 	#define MU_MAT36_CAP_HEAD_ARMOR \b26	
@@ -885,10 +833,8 @@
 	#define MU_MAT36_TRACTION_TYPE 28	
 	#define MU_MAT36_ID_W \w3721	
 	#define MU_MAT36_ID_B \b*3721	
-	26	D01A	
 	#define STR_W_MU_MAT36 \wxD01A	
-	#define STR_B_MU_MAT36 1A	
-	
+	#define STR_B_MU_MAT36 1A
 #define MU_MDDM_INTROYEAR \w1997-1-1	
 	#define MU_MDDM_V_LIFE \b25	
 	#define MU_MDDM_M_LIFE \b255	
@@ -899,9 +845,9 @@
 	#define MU_MDDM_CAP_WAG_PAX \b48	
 	#define MU_MDDM_CAP_WAG_MAIL \b36	
 	#define MU_MDDM_CAP_WAG_ARMOR \b24	
-	#define MU_MDDM_CAP_WAG_PAX_STR 48	
-	#define MU_MDDM_CAP_WAG_MAIL_STR 36	
-	#define MU_MDDM_CAP_WAG_ARMOR_STR 24	
+	#define MU_MDDM_CAP_WAG_PAX_STR "48"	
+	#define MU_MDDM_CAP_WAG_MAIL_STR "36"	
+	#define MU_MDDM_CAP_WAG_ARMOR_STR "24"	
 	#define MU_MDDM_CAP_HEAD_PAX \b48	
 	#define MU_MDDM_CAP_HEAD_MAIL \b36	
 	#define MU_MDDM_CAP_HEAD_ARMOR \b24	
@@ -918,10 +864,8 @@
 	#define MU_MDDM_TRACTION_TYPE 28	
 	#define MU_MDDM_ID_W \w3722	
 	#define MU_MDDM_ID_B \b*3722	
-	27	D01B	
 	#define STR_W_MU_MDDM \wxD01B	
-	#define STR_B_MU_MDDM 1B	
-	
+	#define STR_B_MU_MDDM 1B
 #define MU_OSCAR_INTROYEAR \w2007-1-1	
 	#define MU_OSCAR_V_LIFE \b25	
 	#define MU_OSCAR_M_LIFE \b255	
@@ -932,9 +876,9 @@
 	#define MU_OSCAR_CAP_WAG_PAX \b120	
 	#define MU_OSCAR_CAP_WAG_MAIL \b90	
 	#define MU_OSCAR_CAP_WAG_ARMOR \b60	
-	#define MU_OSCAR_CAP_WAG_PAX_STR 120	
-	#define MU_OSCAR_CAP_WAG_MAIL_STR 90	
-	#define MU_OSCAR_CAP_WAG_ARMOR_STR 60	
+	#define MU_OSCAR_CAP_WAG_PAX_STR "120"	
+	#define MU_OSCAR_CAP_WAG_MAIL_STR "90"	
+	#define MU_OSCAR_CAP_WAG_ARMOR_STR "60"	
 	#define MU_OSCAR_CAP_HEAD_PAX \b120	
 	#define MU_OSCAR_CAP_HEAD_MAIL \b90	
 	#define MU_OSCAR_CAP_HEAD_ARMOR \b60	
@@ -951,10 +895,8 @@
 	#define MU_OSCAR_TRACTION_TYPE 28	
 	#define MU_OSCAR_ID_W \w3740	
 	#define MU_OSCAR_ID_B \b*3740	
-	28	D01C	
 	#define STR_W_MU_OSCAR \wxD01C	
-	#define STR_B_MU_OSCAR 1C	
-	
+	#define STR_B_MU_OSCAR 1C
 #define MU_PLANY_INTROYEAR \w1975-1-1	
 	#define MU_PLANY_V_LIFE \b25	
 	#define MU_PLANY_M_LIFE \b35	
@@ -965,9 +907,9 @@
 	#define MU_PLANY_CAP_WAG_PAX \b66	
 	#define MU_PLANY_CAP_WAG_MAIL \b50	
 	#define MU_PLANY_CAP_WAG_ARMOR \b33	
-	#define MU_PLANY_CAP_WAG_PAX_STR 66	
-	#define MU_PLANY_CAP_WAG_MAIL_STR 50	
-	#define MU_PLANY_CAP_WAG_ARMOR_STR 33	
+	#define MU_PLANY_CAP_WAG_PAX_STR "66"	
+	#define MU_PLANY_CAP_WAG_MAIL_STR "50"	
+	#define MU_PLANY_CAP_WAG_ARMOR_STR "33"	
 	#define MU_PLANY_CAP_HEAD_PAX \b66	
 	#define MU_PLANY_CAP_HEAD_MAIL \b50	
 	#define MU_PLANY_CAP_HEAD_ARMOR \b33	
@@ -984,10 +926,8 @@
 	#define MU_PLANY_TRACTION_TYPE 28	
 	#define MU_PLANY_ID_W \w3750	
 	#define MU_PLANY_ID_B \b*3750	
-	29	D01D	
 	#define STR_W_MU_PLANY \wxD01D	
-	#define STR_B_MU_PLANY 1D	
-	
+	#define STR_B_MU_PLANY 1D
 #define MU_RADBE510_INTROYEAR \w1965-1-1	
 	#define MU_RADBE510_V_LIFE \b25	
 	#define MU_RADBE510_M_LIFE \b35	
@@ -998,9 +938,9 @@
 	#define MU_RADBE510_CAP_WAG_PAX \b56	
 	#define MU_RADBE510_CAP_WAG_MAIL \b42	
 	#define MU_RADBE510_CAP_WAG_ARMOR \b28	
-	#define MU_RADBE510_CAP_WAG_PAX_STR 56	
-	#define MU_RADBE510_CAP_WAG_MAIL_STR 42	
-	#define MU_RADBE510_CAP_WAG_ARMOR_STR 28	
+	#define MU_RADBE510_CAP_WAG_PAX_STR "56"	
+	#define MU_RADBE510_CAP_WAG_MAIL_STR "42"	
+	#define MU_RADBE510_CAP_WAG_ARMOR_STR "28"	
 	#define MU_RADBE510_CAP_HEAD_PAX \b56	
 	#define MU_RADBE510_CAP_HEAD_MAIL \b42	
 	#define MU_RADBE510_CAP_HEAD_ARMOR \b28	
@@ -1017,10 +957,8 @@
 	#define MU_RADBE510_TRACTION_TYPE 28	
 	#define MU_RADBE510_ID_W \w3770	
 	#define MU_RADBE510_ID_B \b*3770	
-	30	D01E	
 	#define STR_W_MU_RADBE510 \wxD01E	
-	#define STR_B_MU_RADBE510 1E	
-	
+	#define STR_B_MU_RADBE510 1E
 #define MU_RBDE560_INTROYEAR \w1984-1-1	
 	#define MU_RBDE560_V_LIFE \b25	
 	#define MU_RBDE560_M_LIFE \b50	
@@ -1031,9 +969,9 @@
 	#define MU_RBDE560_CAP_WAG_PAX \b56	
 	#define MU_RBDE560_CAP_WAG_MAIL \b42	
 	#define MU_RBDE560_CAP_WAG_ARMOR \b28	
-	#define MU_RBDE560_CAP_WAG_PAX_STR 56	
-	#define MU_RBDE560_CAP_WAG_MAIL_STR 42	
-	#define MU_RBDE560_CAP_WAG_ARMOR_STR 28	
+	#define MU_RBDE560_CAP_WAG_PAX_STR "56"	
+	#define MU_RBDE560_CAP_WAG_MAIL_STR "42"	
+	#define MU_RBDE560_CAP_WAG_ARMOR_STR "28"	
 	#define MU_RBDE560_CAP_HEAD_PAX \b56	
 	#define MU_RBDE560_CAP_HEAD_MAIL \b42	
 	#define MU_RBDE560_CAP_HEAD_ARMOR \b28	
@@ -1050,10 +988,8 @@
 	#define MU_RBDE560_TRACTION_TYPE 28	
 	#define MU_RBDE560_ID_W \w3771	
 	#define MU_RBDE560_ID_B \b*3771	
-	31	D01F	
 	#define STR_W_MU_RBDE560 \wxD01F	
-	#define STR_B_MU_RBDE560 1F	
-	
+	#define STR_B_MU_RBDE560 1F
 #define MU_SM2_INTROYEAR \w1975-1-1	
 	#define MU_SM2_V_LIFE \b25	
 	#define MU_SM2_M_LIFE \b25	
@@ -1064,9 +1000,9 @@
 	#define MU_SM2_CAP_WAG_PAX \b70	
 	#define MU_SM2_CAP_WAG_MAIL \b53	
 	#define MU_SM2_CAP_WAG_ARMOR \b35	
-	#define MU_SM2_CAP_WAG_PAX_STR 70	
-	#define MU_SM2_CAP_WAG_MAIL_STR 53	
-	#define MU_SM2_CAP_WAG_ARMOR_STR 35	
+	#define MU_SM2_CAP_WAG_PAX_STR "70"	
+	#define MU_SM2_CAP_WAG_MAIL_STR "53"	
+	#define MU_SM2_CAP_WAG_ARMOR_STR "35"	
 	#define MU_SM2_CAP_HEAD_PAX \b70	
 	#define MU_SM2_CAP_HEAD_MAIL \b53	
 	#define MU_SM2_CAP_HEAD_ARMOR \b35	
@@ -1083,10 +1019,8 @@
 	#define MU_SM2_TRACTION_TYPE 28	
 	#define MU_SM2_ID_W \w3780	
 	#define MU_SM2_ID_B \b*3780	
-	32	D020	
 	#define STR_W_MU_SM2 \wxD020	
-	#define STR_B_MU_SM2 20	
-	
+	#define STR_B_MU_SM2 20
 #define MU_SM4_INTROYEAR \w1999-1-1	
 	#define MU_SM4_V_LIFE \b25	
 	#define MU_SM4_M_LIFE \b255	
@@ -1097,9 +1031,9 @@
 	#define MU_SM4_CAP_WAG_PAX \b100	
 	#define MU_SM4_CAP_WAG_MAIL \b75	
 	#define MU_SM4_CAP_WAG_ARMOR \b50	
-	#define MU_SM4_CAP_WAG_PAX_STR 100	
-	#define MU_SM4_CAP_WAG_MAIL_STR 75	
-	#define MU_SM4_CAP_WAG_ARMOR_STR 50	
+	#define MU_SM4_CAP_WAG_PAX_STR "100"	
+	#define MU_SM4_CAP_WAG_MAIL_STR "75"	
+	#define MU_SM4_CAP_WAG_ARMOR_STR "50"	
 	#define MU_SM4_CAP_HEAD_PAX \b100	
 	#define MU_SM4_CAP_HEAD_MAIL \b75	
 	#define MU_SM4_CAP_HEAD_ARMOR \b50	
@@ -1116,10 +1050,8 @@
 	#define MU_SM4_TRACTION_TYPE 28	
 	#define MU_SM4_ID_W \w3781	
 	#define MU_SM4_ID_B \b*3781	
-	33	D021	
 	#define STR_W_MU_SM4 \wxD021	
-	#define STR_B_MU_SM4 21	
-	
+	#define STR_B_MU_SM4 21
 #define MU_TGV_A_INTROYEAR \w1988-1-1	
 	#define MU_TGV_A_V_LIFE \b25	
 	#define MU_TGV_A_M_LIFE \b30	
@@ -1130,9 +1062,9 @@
 	#define MU_TGV_A_CAP_WAG_PAX \b50	
 	#define MU_TGV_A_CAP_WAG_MAIL \b38	
 	#define MU_TGV_A_CAP_WAG_ARMOR \b25	
-	#define MU_TGV_A_CAP_WAG_PAX_STR 50	
-	#define MU_TGV_A_CAP_WAG_MAIL_STR 38	
-	#define MU_TGV_A_CAP_WAG_ARMOR_STR 25	
+	#define MU_TGV_A_CAP_WAG_PAX_STR "50"	
+	#define MU_TGV_A_CAP_WAG_MAIL_STR "38"	
+	#define MU_TGV_A_CAP_WAG_ARMOR_STR "25"	
 	#define MU_TGV_A_CAP_HEAD_PAX \b0	
 	#define MU_TGV_A_CAP_HEAD_MAIL \b0	
 	#define MU_TGV_A_CAP_HEAD_ARMOR \b0	
@@ -1149,10 +1081,8 @@
 	#define MU_TGV_A_TRACTION_TYPE 28	
 	#define MU_TGV_A_ID_W \w3790	
 	#define MU_TGV_A_ID_B \b*3790	
-	34	D022	
 	#define STR_W_MU_TGV_A \wxD022	
-	#define STR_B_MU_TGV_A 22	
-	
+	#define STR_B_MU_TGV_A 22
 #define MU_TGV_D_INTROYEAR \w1995-1-1	
 	#define MU_TGV_D_V_LIFE \b25	
 	#define MU_TGV_D_M_LIFE \b255	
@@ -1163,9 +1093,9 @@
 	#define MU_TGV_D_CAP_WAG_PAX \b72	
 	#define MU_TGV_D_CAP_WAG_MAIL \b54	
 	#define MU_TGV_D_CAP_WAG_ARMOR \b36	
-	#define MU_TGV_D_CAP_WAG_PAX_STR 72	
-	#define MU_TGV_D_CAP_WAG_MAIL_STR 54	
-	#define MU_TGV_D_CAP_WAG_ARMOR_STR 36	
+	#define MU_TGV_D_CAP_WAG_PAX_STR "72"	
+	#define MU_TGV_D_CAP_WAG_MAIL_STR "54"	
+	#define MU_TGV_D_CAP_WAG_ARMOR_STR "36"	
 	#define MU_TGV_D_CAP_HEAD_PAX \b0	
 	#define MU_TGV_D_CAP_HEAD_MAIL \b0	
 	#define MU_TGV_D_CAP_HEAD_ARMOR \b0	
@@ -1182,10 +1112,8 @@
 	#define MU_TGV_D_TRACTION_TYPE 28	
 	#define MU_TGV_D_ID_W \w3791	
 	#define MU_TGV_D_ID_B \b*3791	
-	35	D023	
 	#define STR_W_MU_TGV_D \wxD023	
-	#define STR_B_MU_TGV_D 23	
-	
+	#define STR_B_MU_TGV_D 23
 #define MU_TGV_T_INTROYEAR \w1995-1-1	
 	#define MU_TGV_T_V_LIFE \b25	
 	#define MU_TGV_T_M_LIFE \b255	
@@ -1196,9 +1124,9 @@
 	#define MU_TGV_T_CAP_WAG_PAX \b47	
 	#define MU_TGV_T_CAP_WAG_MAIL \b35	
 	#define MU_TGV_T_CAP_WAG_ARMOR \b24	
-	#define MU_TGV_T_CAP_WAG_PAX_STR 47	
-	#define MU_TGV_T_CAP_WAG_MAIL_STR 35	
-	#define MU_TGV_T_CAP_WAG_ARMOR_STR 24	
+	#define MU_TGV_T_CAP_WAG_PAX_STR "47"	
+	#define MU_TGV_T_CAP_WAG_MAIL_STR "35"	
+	#define MU_TGV_T_CAP_WAG_ARMOR_STR "24"	
 	#define MU_TGV_T_CAP_HEAD_PAX \b0	
 	#define MU_TGV_T_CAP_HEAD_MAIL \b0	
 	#define MU_TGV_T_CAP_HEAD_ARMOR \b0	
@@ -1215,10 +1143,8 @@
 	#define MU_TGV_T_TRACTION_TYPE 28	
 	#define MU_TGV_T_ID_W \w3792	
 	#define MU_TGV_T_ID_B \b*3792	
-	36	D024	
 	#define STR_W_MU_TGV_T \wxD024	
-	#define STR_B_MU_TGV_T 24	
-	
+	#define STR_B_MU_TGV_T 24
 #define MU_TGV_V150_INTROYEAR \w2007-1-1	
 	#define MU_TGV_V150_V_LIFE \b25	
 	#define MU_TGV_V150_M_LIFE \b255	
@@ -1229,9 +1155,9 @@
 	#define MU_TGV_V150_CAP_WAG_PAX \b225	
 	#define MU_TGV_V150_CAP_WAG_MAIL \b169	
 	#define MU_TGV_V150_CAP_WAG_ARMOR \b113	
-	#define MU_TGV_V150_CAP_WAG_PAX_STR 225	
-	#define MU_TGV_V150_CAP_WAG_MAIL_STR 169	
-	#define MU_TGV_V150_CAP_WAG_ARMOR_STR 113	
+	#define MU_TGV_V150_CAP_WAG_PAX_STR "225"	
+	#define MU_TGV_V150_CAP_WAG_MAIL_STR "169"	
+	#define MU_TGV_V150_CAP_WAG_ARMOR_STR "113"	
 	#define MU_TGV_V150_CAP_HEAD_PAX \b225	
 	#define MU_TGV_V150_CAP_HEAD_MAIL \b169	
 	#define MU_TGV_V150_CAP_HEAD_ARMOR \b113	
@@ -1248,10 +1174,8 @@
 	#define MU_TGV_V150_TRACTION_TYPE 28	
 	#define MU_TGV_V150_ID_W \w3793	
 	#define MU_TGV_V150_ID_B \b*3793	
-	37	D025	
 	#define STR_W_MU_TGV_V150 \wxD025	
-	#define STR_B_MU_TGV_V150 25	
-	
+	#define STR_B_MU_TGV_V150 25
 #define MU_X2000_INTROYEAR \w1990-1-1	
 	#define MU_X2000_V_LIFE \b25	
 	#define MU_X2000_M_LIFE \b255	
@@ -1262,9 +1186,9 @@
 	#define MU_X2000_CAP_WAG_PAX \b42	
 	#define MU_X2000_CAP_WAG_MAIL \b32	
 	#define MU_X2000_CAP_WAG_ARMOR \b21	
-	#define MU_X2000_CAP_WAG_PAX_STR 42	
-	#define MU_X2000_CAP_WAG_MAIL_STR 32	
-	#define MU_X2000_CAP_WAG_ARMOR_STR 21	
+	#define MU_X2000_CAP_WAG_PAX_STR "42"	
+	#define MU_X2000_CAP_WAG_MAIL_STR "32"	
+	#define MU_X2000_CAP_WAG_ARMOR_STR "21"	
 	#define MU_X2000_CAP_HEAD_PAX \b0	
 	#define MU_X2000_CAP_HEAD_MAIL \b0	
 	#define MU_X2000_CAP_HEAD_ARMOR \b0	
@@ -1281,10 +1205,8 @@
 	#define MU_X2000_TRACTION_TYPE 28	
 	#define MU_X2000_ID_W \w3830	
 	#define MU_X2000_ID_B \b*3830	
-	38	D026	
 	#define STR_W_MU_X2000 \wxD026	
-	#define STR_B_MU_X2000 26	
-	
+	#define STR_B_MU_X2000 26
 #define MU_CHIM_INTROYEAR \w2035-1-1	
 	#define MU_CHIM_V_LIFE \b25	
 	#define MU_CHIM_M_LIFE \b255	
@@ -1295,9 +1217,9 @@
 	#define MU_CHIM_CAP_WAG_PAX \b288	
 	#define MU_CHIM_CAP_WAG_MAIL \b216	
 	#define MU_CHIM_CAP_WAG_ARMOR \b144	
-	#define MU_CHIM_CAP_WAG_PAX_STR 288	
-	#define MU_CHIM_CAP_WAG_MAIL_STR 216	
-	#define MU_CHIM_CAP_WAG_ARMOR_STR 144	
+	#define MU_CHIM_CAP_WAG_PAX_STR "288"	
+	#define MU_CHIM_CAP_WAG_MAIL_STR "216"	
+	#define MU_CHIM_CAP_WAG_ARMOR_STR "144"	
 	#define MU_CHIM_CAP_HEAD_PAX \b288	
 	#define MU_CHIM_CAP_HEAD_MAIL \b216	
 	#define MU_CHIM_CAP_HEAD_ARMOR \b144	
@@ -1314,7 +1236,5 @@
 	#define MU_CHIM_TRACTION_TYPE 38	
 	#define MU_CHIM_ID_W \w00	
 	#define MU_CHIM_ID_B \b*00	
-	39	D027	
 	#define STR_W_MU_CHIM \wxD027	
-	#define STR_B_MU_CHIM 27	
-	
+	#define STR_B_MU_CHIM 27
