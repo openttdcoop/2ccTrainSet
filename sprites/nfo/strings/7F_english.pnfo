@@ -6,7 +6,7 @@
 #define LANG_ID  7F
 #define LANG_ID2 FF
 
-// A few words, note: Do not remove any "'s
+// Words for use in the purchase window
 #define WORD_CC         "Carriage Capacity: "
 #define WORD_PAX        " Passengers"
 #define WORD_MAIL       " Mail"
@@ -15,8 +15,9 @@
 #define WORD_FAST       "Fast"
 #define WORD_MEDIUM     "Medium"
 #define WORD_SLOW       "Slow"
-#define WORD_RC_1U      "Running costs per 1 unit"
+#define WORD_RC_1U      "Running costs are per 1 unit"
 
+// Error messages
 #define STR_ER_ONEUNIT      "Can only be one unit long"
 #define STR_ER_SELFONLY     "Can only attach to itself"
 #define STR_ER_SUBSELFONLY  "Single unit subway cars can only connect to their own kind"
@@ -24,8 +25,47 @@
 #define STR_ER_CSLOBONLY    "Use only long boxcars on CargoSprinter"
 #define STR_ER_ONLYMU       "Use Only Multiple Unit Wagons"
 
+// Example of on what the use of theese words are
+// Carriage Capacity: 60 Passengers / 45 Mail / 30 Valuabels
+// Loading speed: Slow
+// NB: Running costs are per 1 unit
 
+// MU Names:
+//-1 * 0  04 00 LANG_ID \b1 MU_nnn_ID_B           "                 nnn"              00
+-1 * 0  04 00 LANG_ID \b1 MU_594_ID_B           "                 594"              00
+-1 * 0  04 00 LANG_ID \b1 MU_680_ID_B           "                 680"              00
+-1 * 0  04 00 LANG_ID \b1 MU_2200_ID_B          "                 2200"              00
+-1 * 0  04 00 LANG_ID \b1 MU_4041_ID_B          "                 4041"              00
+-1 * 0  04 00 LANG_ID \b1 MU_BM65_ID_B           "                 BM65"              00
+-1 * 0  04 00 LANG_ID \b1 MU_BM73_ID_B           "                 BM73"              00
+-1 * 0  04 00 LANG_ID \b1 MU_BM93_ID_B           "                 BM93"              00
+-1 * 0  04 00 LANG_ID \b1 MU_BR168_ID_B           "                 BR168"              00
+-1 * 0  04 00 LANG_ID \b1 MU_CD_ID_B        "                 Chicago Doubler"              00
+-1 * 0  04 00 LANG_ID \b1 MU_ETR500_ID_B        "                 ETR 500"              00
+-1 * 0  04 00 LANG_ID \b1 MU_ET420_ID_B           "                 ET420"              00
+-1 * 0  04 00 LANG_ID \b1 MU_HUNTER_ID_B           "                 Hunter"              00
+-1 * 0  04 00 LANG_ID \b1 MU_HSA_ID_B           "                 HSA"              00
+-1 * 0  04 00 LANG_ID \b1 MU_IC125_ID_B           "                 IC125"              00
+-1 * 0  04 00 LANG_ID \b1 MU_ICE3_ID_B           "                 ICE3"              00
+-1 * 0  04 00 LANG_ID \b1 MU_LINT41_ID_B           "                 LINT41"              00
+-1 * 0  04 00 LANG_ID \b1 MU_LRC_ID_B           "                 LRC"              00
+-1 * 0  04 00 LANG_ID \b1 MU_MAT24_ID_B           "                 MAT'24"              00
+-1 * 0  04 00 LANG_ID \b1 MU_MAT36_ID_B           "                 MAT'36"              00
+-1 * 0  04 00 LANG_ID \b1 MU_MDDM_ID_B           "                 MDDM"              00
+-1 * 0  04 00 LANG_ID \b1 MU_OSCAR_ID_B         "                 OSCar"              00
+-1 * 0  04 00 LANG_ID \b1 MU_PLANY_ID_B         "                 Plan Y  "     00
+-1 * 0  04 00 LANG_ID \b1 MU_RBDE560_ID_B           "                 Rbde560"              00
+-1 * 0  04 00 LANG_ID \b1 MU_RADBE510_ID_B           "                 Radbe510"              00
+-1 * 0  04 00 LANG_ID \b1 MU_VT612_ID_B           "                 VT612 'Regioswinger'"              00
+-1 * 0  04 00 LANG_ID \b1 MU_SM2_ID_B           "                 SM2"              00
+-1 * 0  04 00 LANG_ID \b1 MU_SM4_ID_B           "                 SM4"              00
+-1 * 0  04 00 LANG_ID \b1 MU_TGV_D_ID_B         "                 TGV Duplex"              00
+-1 * 0  04 00 LANG_ID \b1 MU_TGV_T_ID_B         "                 TGV Thalys"              00
+-1 * 0  04 00 LANG_ID \b1 MU_Y2_ID_B           "                 Y2"              00
+-1 * 0  04 00 LANG_ID \b1 MU_X2000_ID_B           "                 X2000"              00
 
+// Maglev names
+-1 * 0  04 00 LANG_ID \b1 MU_CHIM_ID_B           "                 Chimaera"              00
 
 // P-list texts
 // nnn
@@ -84,6 +124,12 @@
                                 WORD_CC 8A MU_CD_CAP_WAG_PAX_STR WORD_PAX " / " MU_CD_CAP_WAG_MAIL_STR WORD_MAIL " / " MU_CD_CAP_WAG_ARMOR_STR WORD_ARMOR  "\n" 
                                 98 WORD_LS 8A WORD_MEDIUM  "\n"
                                 8B "NB: " 98 WORD_RC_1U	00
+
+// CHIM
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_CHIM      "\n\n"
+                                WORD_CC 8A MU_CHIM_CAP_WAG_PAX_STR WORD_PAX " / " MU_CHIM_CAP_WAG_MAIL_STR WORD_MAIL " / " MU_CHIM_CAP_WAG_ARMOR_STR WORD_ARMOR  "\n" 
+                                98 WORD_LS 8A WORD_SLOW  "\n" 00
+
 
 // ETR500
 -1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_ETR500     "\n\n"
@@ -210,51 +256,14 @@
                                 WORD_CC 8A MU_X2000_CAP_WAG_PAX_STR WORD_PAX " / " MU_X2000_CAP_WAG_MAIL_STR WORD_MAIL " / " MU_X2000_CAP_WAG_ARMOR_STR WORD_ARMOR  "\n" 
                                 98 WORD_LS 8A WORD_SLOW  00
 
-
-
 // Wagon Names
 -1 * 0  04 00 LANG_ID \b1 MU                    "                 Multiple Unit Wagon"              00
-
-// MU Names:
-//-1 * 0  04 00 LANG_ID \b1 MU_nnn_ID_B           "                 nnn"              00
--1 * 0  04 00 LANG_ID \b1 MU_594_ID_B           "                 594"              00
--1 * 0  04 00 LANG_ID \b1 MU_680_ID_B           "                 680"              00
--1 * 0  04 00 LANG_ID \b1 MU_2200_ID_B          "                 2200"              00
--1 * 0  04 00 LANG_ID \b1 MU_4041_ID_B          "                 4041"              00
--1 * 0  04 00 LANG_ID \b1 MU_BM65_ID_B           "                 BM65"              00
--1 * 0  04 00 LANG_ID \b1 MU_BM73_ID_B           "                 BM73"              00
--1 * 0  04 00 LANG_ID \b1 MU_BM93_ID_B           "                 BM93"              00
--1 * 0  04 00 LANG_ID \b1 MU_BR168_ID_B           "                 BR168"              00
--1 * 0  04 00 LANG_ID \b1 MU_CD_ID_B        "                 Chicago Doubler"              00
--1 * 0  04 00 LANG_ID \b1 MU_ETR500_ID_B        "                 ETR 500"              00
--1 * 0  04 00 LANG_ID \b1 MU_ET420_ID_B           "                 ET420"              00
--1 * 0  04 00 LANG_ID \b1 MU_HUNTER_ID_B           "                 Hunter"              00
--1 * 0  04 00 LANG_ID \b1 MU_HSA_ID_B           "                 HSA"              00
--1 * 0  04 00 LANG_ID \b1 MU_IC125_ID_B           "                 IC125"              00
--1 * 0  04 00 LANG_ID \b1 MU_ICE3_ID_B           "                 ICE3"              00
--1 * 0  04 00 LANG_ID \b1 MU_LINT41_ID_B           "                 LINT41"              00
--1 * 0  04 00 LANG_ID \b1 MU_LRC_ID_B           "                 LRC"              00
--1 * 0  04 00 LANG_ID \b1 MU_MAT24_ID_B           "                 MAT'24"              00
--1 * 0  04 00 LANG_ID \b1 MU_MAT36_ID_B           "                 MAT'36"              00
--1 * 0  04 00 LANG_ID \b1 MU_MDDM_ID_B           "                 MDDM"              00
--1 * 0  04 00 LANG_ID \b1 MU_OSCAR_ID_B         "                 OSCar"              00
--1 * 0  04 00 LANG_ID \b1 MU_PLANY_ID_B         "                 Plan Y  "     00
--1 * 0  04 00 LANG_ID \b1 MU_RBDE560_ID_B           "                 Rbde560"              00
--1 * 0  04 00 LANG_ID \b1 MU_RADBE510_ID_B           "                 Radbe510"              00
--1 * 0  04 00 LANG_ID \b1 MU_VT612_ID_B           "                 VT612 'Regioswinger'"              00
--1 * 0  04 00 LANG_ID \b1 MU_SM2_ID_B           "                 SM2"              00
--1 * 0  04 00 LANG_ID \b1 MU_SM4_ID_B           "                 SM4"              00
--1 * 0  04 00 LANG_ID \b1 MU_TGV_D_ID_B         "                 TGV Duplex"              00
--1 * 0  04 00 LANG_ID \b1 MU_TGV_T_ID_B         "                 TGV Thalys"              00
--1 * 0  04 00 LANG_ID \b1 MU_Y2_ID_B           "                 Y2"              00
--1 * 0  04 00 LANG_ID \b1 MU_X2000_ID_B           "                 X2000"              00
 
 // --------------------------
 // ----- Error messages -----
 // --------------------------
--1 * 0  04 00 LANG_ID2 \b1 ER_ONEUNIT_W	        STR_ER_ONEUNIT 00
--1 * 0  04 00 LANG_ID2 \b1 ER_SELFONLY_W	STR_ER_SELFONLY 00
--1 * 0  04 00 LANG_ID2 \b1 ER_SUBSELFONLY_W	STR_ER_SUBSELFONLY 00
--1 * 0  04 00 LANG_ID2 \b1 ER_MUONLYONMU_W	STR_ER_MUONLYONMU 00
--1 * 0  04 00 LANG_ID2 \b1 ER_CSLOBONLY_W	STR_ER_CSLOBONLY 00
--1 * 0  04 00 LANG_ID2 \b1 ER_ONLYMU_W	        STR_ER_ONLYMU 00
+-1 * 0  04 00 LANG_ID2 \b1 ER_SELFONLY_W        STR_ER_ONEUNIT      00
+-1 * 0  04 00 LANG_ID2 \b1 ER_SUBSELFONLY_W	STR_ER_SUBSELFONLY  00
+-1 * 0  04 00 LANG_ID2 \b1 ER_MUONLYONMU_W	STR_ER_MUONLYONMU   00
+-1 * 0  04 00 LANG_ID2 \b1 ER_CSLOBONLY_W	STR_ER_CSLOBONLY    00
+-1 * 0  04 00 LANG_ID2 \b1 ER_ONLYMU_W	        STR_ER_ONLYMU       00
