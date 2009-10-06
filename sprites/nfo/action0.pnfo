@@ -1252,7 +1252,7 @@
 #define MU_CHIM_INTROYEAR \w2035-1-1	
 	#define MU_CHIM_V_LIFE \b25	
 	#define MU_CHIM_M_LIFE \b255	
-	#define MU_CHIM_SPEED \w1000	
+	#define MU_CHIM_SPEED \w995	
 	#define MU_CHIM_TE \b0	
 	#define MU_CHIM_HP \w18000	
 	#define MU_CHIM_WAG_HP \w0	
@@ -1271,7 +1271,7 @@
 	#define MU_CHIM_WEIGHT \b180	
 	#define MU_CHIM_WEIGHT_HIGH \b0	
 	#define MU_CHIM_PCOST \b255	
-	#define MU_CHIM_RCOST \b70	
+	#define MU_CHIM_RCOST \b69	
 	#define MU_CHIM_RCOST_WAG \b0	
 	#define MU_CHIM_RCOST_IDLE \b1	
 	#define MU_CHIM_RCBASE \dx4C36	
