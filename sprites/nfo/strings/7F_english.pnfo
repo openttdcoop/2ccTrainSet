@@ -24,11 +24,16 @@
 #define STR_ER_MUONLYONMU   "Multiple Unit Wagons can only be attached to Multiple Unit Trains"
 #define STR_ER_CSLOBONLY    "Use only long boxcars on CargoSprinter"
 #define STR_ER_ONLYMU       "Use Only Multiple Unit Wagons"
+#define STR_ER_NORAILCARS   "Railcars cant be attached to engines"
 
 // Example of on what the use of theese words are
 // Carriage Capacity: 60 Passengers / 45 Mail / 30 Valuabels
 // Loading speed: Slow
 // NB: Running costs are per 1 unit
+
+// Engine Names:
+//-1 * 0  04 00 LANG_ID \b1 ENG_nnn_ID_B           "                 nnn"              00
+-1 * 0  04 00 LANG_ID \b1 ENG_422_ID_B           "                 422"              00
 
 // MU Names:
 //-1 * 0  04 00 LANG_ID \b1 MU_nnn_ID_B           "                 nnn"              00
@@ -73,6 +78,58 @@
 //                                WORD_CC 8A MU_nnn_CAP_WAG_PAX_STR WORD_PAX " / " MU_nnn_CAP_WAG_MAIL_STR WORD_MAIL " / " MU_nnn_CAP_WAG_ARMOR_STR WORD_ARMOR  "\n" 
 //                                98 WORD_LS 8A WORD_changeme  "\n"
 //                                8B "NB: " 98 WORD_RC_1U	00
+
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_2100 " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_422 " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_BOXCAB " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_BR66 " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_BR67 " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_DR12 " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_F3 " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_GENESIS " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_GL8 " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_J16CW " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_M420W " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_SDP40F " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_SHARKNOSE " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_TEP150 " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_V200 " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_WDM2 " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_XXX1 " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_XXX2 " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_1044 " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_26000 " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_27000 " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_AE6_6 " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_CE4_4 " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_DM3 " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_DS3 " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_E04_01 " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_E55200 " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_E646 " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_EF1 " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_EM2 " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_ET41 " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_HLE13 " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_IORE " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_KZ2A " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_LOK2K " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_NS1000 " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_NS1600 " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_SR1 " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_SS6 " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_VL15 " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_WCM1 " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_XXX3 " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_11B " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_140C " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_141TA " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_150B " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_6300 " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_A4 " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_BIGBOY " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_OKZ32 " " 00
+
 
 // 594
 -1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_594      "\n"
