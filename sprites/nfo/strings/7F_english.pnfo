@@ -33,12 +33,58 @@
 
 // Engine Names:
 //-1 * 0  04 00 LANG_ID \b1 ENG_nnn_ID_B           "                 nnn"              00
--1 * 0  04 00 LANG_ID \b1 ENG_422_ID_B           "                 422"              00
--1 * 0  04 00 LANG_ID \b1 ENG_SS6n_ID_B           "                 SS6"              00
--1 * 0  04 00 LANG_ID \b1 ENG_TEP150_ID_B           "                 TEP150"              00
--1 * 0  04 00 LANG_ID \b1 ENG_V200_ID_B           "                 V200"              00
--1 * 0  04 00 LANG_ID \b1 ENG_WCM1_ID_B           "                 WCM1"              00
--1 * 0  04 00 LANG_ID \b1 ENG_WDM2_ID_B           "                 WDM2"              00
+// Diesel
+-1 * 0  04 00 LANG_ID \b1 ENG_2100 "                 2100" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_422 "                 422" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_BOXCAB "                 Boxcab" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_BR66 "                 BR Class 66" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_BR67 "                 BR Class 67" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_DR12 "                 DR12" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_F3 "                 F3" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_GENESIS "                 Genesis" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_GL8 "                 GL8" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_J16CW "                 J16CW" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_M420W "                 M420W" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_SDP40F "                 SDP 40F" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_SHARKNOSE "                 Sharknose" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_TEP150 "                 TEP150" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_V200 "                 V200" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_WDM2 "                 WDM2" 00
+// Electrics
+-1 * 0  04 00 LANG_ID \b1 ENG_1044 "                 1044" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_26000 "                 26000" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_27000 "                 27000" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_AE6_6 "                 AE6-6" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_CE4_4 "                 CE4-4" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_DM3 "                 DM3" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_DS3 "                 DS3" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_E04_01 "                 E04-01" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_E55200 "                 E55200" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_E646 "                 E646" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_EF1 "                 EF1" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_EM2 "                 EM2" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_ET41 "                 ET41" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_HLE13 "                 HLE13" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_IORE "                 IORE" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_KZ2A "                 Kz2A" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_LOK2K "                 Lok2000" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_NS1000 "                 NS1000" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_NS1600 "                 NS1600" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_SR1 "                 SR1" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_SS6 "                 SS6" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_VL15 "                 VL15" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_WCM1 "                 WCM1" 00
+// Steamers
+-1 * 0  04 00 LANG_ID \b1 ENG_11B "                 11B" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_140C "                 140C" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_141TA "                 141TA" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_150B "                 150B" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_6300 "                 6300" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_A4 "                 A4" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_BIGBOY "                 Bigboy" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_OKZ32 "                 Okz32" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_ROYALHUDSON "                 Royal Hudson" 00
+
 
 
 // MU Names:
