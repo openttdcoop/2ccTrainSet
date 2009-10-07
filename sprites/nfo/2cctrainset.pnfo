@@ -19,12 +19,16 @@ sprites/nfo/sounds.pnfo
 
 // Engines
 sprites/nfo/engines/422.pnfo
+
+sprites/nfo/engines/lok2k.pnfo
+
+sprites/nfo/engines/sr1.pnfo
 sprites/nfo/engines/ss6.pnfo
 sprites/nfo/engines/tep150.pnfo
 sprites/nfo/engines/v200.pnfo
 sprites/nfo/engines/wcm1.pnfo
 sprites/nfo/engines/wdm2.pnfo
-sprites/nfo/engines/engines
+
 
 // MUs
 sprites/nfo/mus/594.pnfo
