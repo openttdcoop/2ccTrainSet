@@ -24,7 +24,7 @@ sprites/nfo/engines/tep150.pnfo
 sprites/nfo/engines/v200.pnfo
 sprites/nfo/engines/wcm1.pnfo
 sprites/nfo/engines/wdm2.pnfo
-sprites/nfo/engines
+sprites/nfo/engines/engines
 
 // MUs
 sprites/nfo/mus/594.pnfo

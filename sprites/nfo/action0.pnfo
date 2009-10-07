@@ -1810,7 +1810,8 @@
 	#define ENG_2100_ID_W \w2020	
 	#define ENG_2100_ID_B \b*2020	
 	#define STR_W_ENG_2100 \wxD0FA	
-	#define STR_B_ENG_2100 FA
+	#define STR_B_ENG_2100 FA	
+	
 #define ENG_422_INTROYEAR \w1969-1-1	
 	#define ENG_422_V_LIFE \b40	
 	#define ENG_422_M_LIFE \b20	
@@ -1841,7 +1842,8 @@
 	#define ENG_422_ID_W \w2040	
 	#define ENG_422_ID_B \b*2040	
 	#define STR_W_ENG_422 \wxD0FA	
-	#define STR_B_ENG_422 FA
+	#define STR_B_ENG_422 FA	
+	
 #define ENG_BOXCAB_INTROYEAR \w1931-1-1	
 	#define ENG_BOXCAB_V_LIFE \b40	
 	#define ENG_BOXCAB_M_LIFE \b40	
@@ -1872,7 +1874,8 @@
 	#define ENG_BOXCAB_ID_W \w2110	
 	#define ENG_BOXCAB_ID_B \b*2110	
 	#define STR_W_ENG_BOXCAB \wxD0FA	
-	#define STR_B_ENG_BOXCAB FA
+	#define STR_B_ENG_BOXCAB FA	
+	
 #define ENG_BR66_INTROYEAR \w1998-1-1	
 	#define ENG_BR66_V_LIFE \b40	
 	#define ENG_BR66_M_LIFE \b255	
@@ -1903,7 +1906,8 @@
 	#define ENG_BR66_ID_W \w2111	
 	#define ENG_BR66_ID_B \b*2111	
 	#define STR_W_ENG_BR66 \wxD0FA	
-	#define STR_B_ENG_BR66 FA
+	#define STR_B_ENG_BR66 FA	
+	
 #define ENG_BR67_INTROYEAR \w1961-1-1	
 	#define ENG_BR67_V_LIFE \b40	
 	#define ENG_BR67_M_LIFE \b20	
@@ -1934,7 +1938,8 @@
 	#define ENG_BR67_ID_W \w2112	
 	#define ENG_BR67_ID_B \b*2112	
 	#define STR_W_ENG_BR67 \wxD0FA	
-	#define STR_B_ENG_BR67 FA
+	#define STR_B_ENG_BR67 FA	
+	
 #define ENG_DR12_INTROYEAR \w1959-1-1	
 	#define ENG_DR12_V_LIFE \b40	
 	#define ENG_DR12_M_LIFE \b30	
@@ -1965,7 +1970,8 @@
 	#define ENG_DR12_ID_W \w2130	
 	#define ENG_DR12_ID_B \b*2130	
 	#define STR_W_ENG_DR12 \wxD0FA	
-	#define STR_B_ENG_DR12 FA
+	#define STR_B_ENG_DR12 FA	
+	
 #define ENG_F3_INTROYEAR \w1946-1-1	
 	#define ENG_F3_V_LIFE \b40	
 	#define ENG_F3_M_LIFE \b25	
@@ -1996,7 +2002,8 @@
 	#define ENG_F3_ID_W \w2150	
 	#define ENG_F3_ID_B \b*2150	
 	#define STR_W_ENG_F3 \wxD0FA	
-	#define STR_B_ENG_F3 FA
+	#define STR_B_ENG_F3 FA	
+	
 #define ENG_GENESIS_INTROYEAR \w1992-1-1	
 	#define ENG_GENESIS_V_LIFE \b40	
 	#define ENG_GENESIS_M_LIFE \b255	
@@ -2027,7 +2034,8 @@
 	#define ENG_GENESIS_ID_W \w2160	
 	#define ENG_GENESIS_ID_B \b*2160	
 	#define STR_W_ENG_GENESIS \wxD0FA	
-	#define STR_B_ENG_GENESIS FA
+	#define STR_B_ENG_GENESIS FA	
+	
 #define ENG_GL8_INTROYEAR \w1960-1-1	
 	#define ENG_GL8_V_LIFE \b40	
 	#define ENG_GL8_M_LIFE \b30	
@@ -2058,7 +2066,8 @@
 	#define ENG_GL8_ID_W \w2161	
 	#define ENG_GL8_ID_B \b*2161	
 	#define STR_W_ENG_GL8 \wxD0FA	
-	#define STR_B_ENG_GL8 FA
+	#define STR_B_ENG_GL8 FA	
+	
 #define ENG_J16CW_INTROYEAR \w1965-1-1	
 	#define ENG_J16CW_V_LIFE \b40	
 	#define ENG_J16CW_M_LIFE \b25	
@@ -2089,7 +2098,8 @@
 	#define ENG_J16CW_ID_W \w2190	
 	#define ENG_J16CW_ID_B \b*2190	
 	#define STR_W_ENG_J16CW \wxD0FA	
-	#define STR_B_ENG_J16CW FA
+	#define STR_B_ENG_J16CW FA	
+	
 #define ENG_M420W_INTROYEAR \w1973-1-1	
 	#define ENG_M420W_V_LIFE \b40	
 	#define ENG_M420W_M_LIFE \b30	
@@ -2120,7 +2130,8 @@
 	#define ENG_M420W_ID_W \w2220	
 	#define ENG_M420W_ID_B \b*2220	
 	#define STR_W_ENG_M420W \wxD0FA	
-	#define STR_B_ENG_M420W FA
+	#define STR_B_ENG_M420W FA	
+	
 #define ENG_SDP40F_INTROYEAR \w1973-1-1	
 	#define ENG_SDP40F_V_LIFE \b40	
 	#define ENG_SDP40F_M_LIFE \b25	
@@ -2151,7 +2162,8 @@
 	#define ENG_SDP40F_ID_W \w2280	
 	#define ENG_SDP40F_ID_B \b*2280	
 	#define STR_W_ENG_SDP40F \wxD0FA	
-	#define STR_B_ENG_SDP40F FA
+	#define STR_B_ENG_SDP40F FA	
+	
 #define ENG_SHARKNOSE_INTROYEAR \w1950-1-1	
 	#define ENG_SHARKNOSE_V_LIFE \b40	
 	#define ENG_SHARKNOSE_M_LIFE \b30	
@@ -2182,7 +2194,8 @@
 	#define ENG_SHARKNOSE_ID_W \w2281	
 	#define ENG_SHARKNOSE_ID_B \b*2281	
 	#define STR_W_ENG_SHARKNOSE \wxD0FA	
-	#define STR_B_ENG_SHARKNOSE FA
+	#define STR_B_ENG_SHARKNOSE FA	
+	
 #define ENG_TEP150_INTROYEAR \w2006-1-1	
 	#define ENG_TEP150_V_LIFE \b40	
 	#define ENG_TEP150_M_LIFE \b255	
@@ -2213,7 +2226,8 @@
 	#define ENG_TEP150_ID_W \w2290	
 	#define ENG_TEP150_ID_B \b*2290	
 	#define STR_W_ENG_TEP150 \wxD0FA	
-	#define STR_B_ENG_TEP150 FA
+	#define STR_B_ENG_TEP150 FA	
+	
 #define ENG_V200_INTROYEAR \w1956-1-1	
 	#define ENG_V200_V_LIFE \b40	
 	#define ENG_V200_M_LIFE \b35	
@@ -2244,7 +2258,8 @@
 	#define ENG_V200_ID_W \w2310	
 	#define ENG_V200_ID_B \b*2310	
 	#define STR_W_ENG_V200 \wxD0FA	
-	#define STR_B_ENG_V200 FA
+	#define STR_B_ENG_V200 FA	
+	
 #define ENG_WDM2_INTROYEAR \w1963-1-1	
 	#define ENG_WDM2_V_LIFE \b40	
 	#define ENG_WDM2_M_LIFE \b40	
@@ -2275,69 +2290,8 @@
 	#define ENG_WDM2_ID_W \w2320	
 	#define ENG_WDM2_ID_B \b*2320	
 	#define STR_W_ENG_WDM2 \wxD0FA	
-	#define STR_B_ENG_WDM2 FA
-#define XXX1_INTROYEAR \w1985-1-1	
-	#define XXX1_V_LIFE \b40	
-	#define XXX1_M_LIFE \b255	
-	#define XXX1_SPEED \w180	
-	#define XXX1_TE \b91	
-	#define XXX1_HP \w3500	
-	#define XXX1_WAG_HP \w0	
-	#define XXX1_CAP_WAG_PAX \b0	
-	#define XXX1_CAP_WAG_MAIL \b0	
-	#define XXX1_CAP_WAG_ARMOR \b0	
-	#define XXX1_CAP_WAG_PAX_STR "0"	
-	#define XXX1_CAP_WAG_MAIL_STR "0"	
-	#define XXX1_CAP_WAG_ARMOR_STR "0"	
-	#define XXX1_CAP_HEAD_PAX \b0	
-	#define XXX1_CAP_HEAD_MAIL \b0	
-	#define XXX1_CAP_HEAD_ARMOR \b0	
-	#define XXX1_PAX_LS \b1	
-	#define XXX1_MAIL_LS \b1	
-	#define XXX1_ARMOR_LS \b1	
-	#define XXX1_WEIGHT \b100	
-	#define XXX1_WEIGHT_HIGH \b0	
-	#define XXX1_PCOST \b22	
-	#define XXX1_RCOST \b118	
-	#define XXX1_RCOST_WAG \b0	
-	#define XXX1_RCOST_IDLE \b14	
-	#define XXX1_RCBASE \dx4C30	
-	#define XXX1_TRACTION_TYPE 8	
-	#define XXX1_ID_W \w	
-	#define XXX1_ID_B \b*	
-	#define STR_W_XXX1 \wxD0FA	
-	#define STR_B_XXX1 FA
-#define XXX2_INTROYEAR \w1962-1-1	
-	#define XXX2_V_LIFE \b40	
-	#define XXX2_M_LIFE \b30	
-	#define XXX2_SPEED \w75	
-	#define XXX2_TE \b0	
-	#define XXX2_HP \w650	
-	#define XXX2_WAG_HP \w0	
-	#define XXX2_CAP_WAG_PAX \b0	
-	#define XXX2_CAP_WAG_MAIL \b0	
-	#define XXX2_CAP_WAG_ARMOR \b0	
-	#define XXX2_CAP_WAG_PAX_STR "0"	
-	#define XXX2_CAP_WAG_MAIL_STR "0"	
-	#define XXX2_CAP_WAG_ARMOR_STR "0"	
-	#define XXX2_CAP_HEAD_PAX \b0	
-	#define XXX2_CAP_HEAD_MAIL \b0	
-	#define XXX2_CAP_HEAD_ARMOR \b0	
-	#define XXX2_PAX_LS \b1	
-	#define XXX2_MAIL_LS \b1	
-	#define XXX2_ARMOR_LS \b1	
-	#define XXX2_WEIGHT \b45	
-	#define XXX2_WEIGHT_HIGH \b0	
-	#define XXX2_PCOST \b5	
-	#define XXX2_RCOST \b25	
-	#define XXX2_RCOST_WAG \b0	
-	#define XXX2_RCOST_IDLE \b14	
-	#define XXX2_RCBASE \dx4C30	
-	#define XXX2_TRACTION_TYPE 8	
-	#define XXX2_ID_W \w	
-	#define XXX2_ID_B \b*	
-	#define STR_W_XXX2 \wxD0FA	
-	#define STR_B_XXX2 FA
+	#define STR_B_ENG_WDM2 FA	
+	
 #define ENG_1044_INTROYEAR \w1974-1-1	
 	#define ENG_1044_V_LIFE \b40	
 	#define ENG_1044_M_LIFE \b25	
@@ -2368,7 +2322,8 @@
 	#define ENG_1044_ID_W \w2510	
 	#define ENG_1044_ID_B \b*2510	
 	#define STR_W_ENG_1044 \wxD0FA	
-	#define STR_B_ENG_1044 FA
+	#define STR_B_ENG_1044 FA	
+	
 #define ENG_26000_INTROYEAR \w1989-1-1	
 	#define ENG_26000_V_LIFE \b40	
 	#define ENG_26000_M_LIFE \b255	
@@ -2399,7 +2354,8 @@
 	#define ENG_26000_ID_W \w2520	
 	#define ENG_26000_ID_B \b*2520	
 	#define STR_W_ENG_26000 \wxD0FA	
-	#define STR_B_ENG_26000 FA
+	#define STR_B_ENG_26000 FA	
+	
 #define ENG_27000_INTROYEAR \w1953-1-1	
 	#define ENG_27000_V_LIFE \b40	
 	#define ENG_27000_M_LIFE \b30	
@@ -2430,7 +2386,8 @@
 	#define ENG_27000_ID_W \w2521	
 	#define ENG_27000_ID_B \b*2521	
 	#define STR_W_ENG_27000 \wxD0FA	
-	#define STR_B_ENG_27000 FA
+	#define STR_B_ENG_27000 FA	
+	
 #define ENG_AE6_6_INTROYEAR \w1955-1-1	
 	#define ENG_AE6_6_V_LIFE \b40	
 	#define ENG_AE6_6_M_LIFE \b20	
@@ -2461,7 +2418,8 @@
 	#define ENG_AE6_6_ID_W \w2600	
 	#define ENG_AE6_6_ID_B \b*2600	
 	#define STR_W_ENG_AE6_6 \wxD0FA	
-	#define STR_B_ENG_AE6_6 FA
+	#define STR_B_ENG_AE6_6 FA	
+	
 #define ENG_CE4_4_INTROYEAR \w1954-1-1	
 	#define ENG_CE4_4_V_LIFE \b40	
 	#define ENG_CE4_4_M_LIFE \b25	
@@ -2492,7 +2450,8 @@
 	#define ENG_CE4_4_ID_W \w2620	
 	#define ENG_CE4_4_ID_B \b*2620	
 	#define STR_W_ENG_CE4_4 \wxD0FA	
-	#define STR_B_ENG_CE4_4 FA
+	#define STR_B_ENG_CE4_4 FA	
+	
 #define ENG_DM3_INTROYEAR \w1953-1-1	
 	#define ENG_DM3_V_LIFE \b40	
 	#define ENG_DM3_M_LIFE \b50	
@@ -2523,7 +2482,8 @@
 	#define ENG_DM3_ID_W \w2621	
 	#define ENG_DM3_ID_B \b*2621	
 	#define STR_W_ENG_DM3 \wxD0FA	
-	#define STR_B_ENG_DM3 FA
+	#define STR_B_ENG_DM3 FA	
+	
 #define ENG_DS3_INTROYEAR \w2003-1-1	
 	#define ENG_DS3_V_LIFE \b40	
 	#define ENG_DS3_M_LIFE \b255	
@@ -2554,7 +2514,8 @@
 	#define ENG_DS3_ID_W \w2622	
 	#define ENG_DS3_ID_B \b*2622	
 	#define STR_W_ENG_DS3 \wxD0FA	
-	#define STR_B_ENG_DS3 FA
+	#define STR_B_ENG_DS3 FA	
+	
 #define ENG_E04_01_INTROYEAR \w1933-1-1	
 	#define ENG_E04_01_V_LIFE \b40	
 	#define ENG_E04_01_M_LIFE \b30	
@@ -2585,7 +2546,8 @@
 	#define ENG_E04_01_ID_W \w2630	
 	#define ENG_E04_01_ID_B \b*2630	
 	#define STR_W_ENG_E04_01 \wxD0FA	
-	#define STR_B_ENG_E04_01 FA
+	#define STR_B_ENG_E04_01 FA	
+	
 #define ENG_E55200_INTROYEAR \w1998-1-1	
 	#define ENG_E55200_V_LIFE \b40	
 	#define ENG_E55200_M_LIFE \b255	
@@ -2616,7 +2578,8 @@
 	#define ENG_E55200_ID_W \w2631	
 	#define ENG_E55200_ID_B \b*2631	
 	#define STR_W_ENG_E55200 \wxD0FA	
-	#define STR_B_ENG_E55200 FA
+	#define STR_B_ENG_E55200 FA	
+	
 #define ENG_E646_INTROYEAR \w1961-1-1	
 	#define ENG_E646_V_LIFE \b40	
 	#define ENG_E646_M_LIFE \b25	
@@ -2647,7 +2610,8 @@
 	#define ENG_E646_ID_W \w2632	
 	#define ENG_E646_ID_B \b*2632	
 	#define STR_W_ENG_E646 \wxD0FA	
-	#define STR_B_ENG_E646 FA
+	#define STR_B_ENG_E646 FA	
+	
 #define ENG_EF1_INTROYEAR \w1914-1-1	
 	#define ENG_EF1_V_LIFE \b40	
 	#define ENG_EF1_M_LIFE \b30	
@@ -2679,7 +2643,8 @@
 	#define ENG_EF1_ID_W \w2633	
 	#define ENG_EF1_ID_B \b*2633	
 	#define STR_W_ENG_EF1 \wxD0FA	
-	#define STR_B_ENG_EF1 FA
+	#define STR_B_ENG_EF1 FA	
+	
 #define ENG_EM2_INTROYEAR \w1953-1-1	
 	#define ENG_EM2_V_LIFE \b40	
 	#define ENG_EM2_M_LIFE \b30	
@@ -2710,7 +2675,8 @@
 	#define ENG_EM2_ID_W \w2634	
 	#define ENG_EM2_ID_B \b*2634	
 	#define STR_W_ENG_EM2 \wxD0FA	
-	#define STR_B_ENG_EM2 FA
+	#define STR_B_ENG_EM2 FA	
+	
 #define ENG_ET41_INTROYEAR \w1977-1-1	
 	#define ENG_ET41_V_LIFE \b40	
 	#define ENG_ET41_M_LIFE \b30	
@@ -2741,7 +2707,8 @@
 	#define ENG_ET41_ID_W \w2635	
 	#define ENG_ET41_ID_B \b*2635	
 	#define STR_W_ENG_ET41 \wxD0FA	
-	#define STR_B_ENG_ET41 FA
+	#define STR_B_ENG_ET41 FA	
+	
 #define ENG_HLE13_INTROYEAR \w1997-1-1	
 	#define ENG_HLE13_V_LIFE \b40	
 	#define ENG_HLE13_M_LIFE \b255	
@@ -2772,7 +2739,8 @@
 	#define ENG_HLE13_ID_W \w2670	
 	#define ENG_HLE13_ID_B \b*2670	
 	#define STR_W_ENG_HLE13 \wxD0FA	
-	#define STR_B_ENG_HLE13 FA
+	#define STR_B_ENG_HLE13 FA	
+	
 #define ENG_IORE_INTROYEAR \w2000-1-1	
 	#define ENG_IORE_V_LIFE \b40	
 	#define ENG_IORE_M_LIFE \b255	
@@ -2803,7 +2771,8 @@
 	#define ENG_IORE_ID_W \w2680	
 	#define ENG_IORE_ID_B \b*2680	
 	#define STR_W_ENG_IORE \wxD0FA	
-	#define STR_B_ENG_IORE FA
+	#define STR_B_ENG_IORE FA	
+	
 #define ENG_KZ2A_INTROYEAR \w2004-1-1	
 	#define ENG_KZ2A_V_LIFE \b40	
 	#define ENG_KZ2A_M_LIFE \b255	
@@ -2834,7 +2803,8 @@
 	#define ENG_KZ2A_ID_W \w2700	
 	#define ENG_KZ2A_ID_B \b*2700	
 	#define STR_W_ENG_KZ2A \wxD0FA	
-	#define STR_B_ENG_KZ2A FA
+	#define STR_B_ENG_KZ2A FA	
+	
 #define ENG_LOK2K_INTROYEAR \w1991-1-1	
 	#define ENG_LOK2K_V_LIFE \b40	
 	#define ENG_LOK2K_M_LIFE \b255	
@@ -2865,7 +2835,8 @@
 	#define ENG_LOK2K_ID_W \w2710	
 	#define ENG_LOK2K_ID_B \b*2710	
 	#define STR_W_ENG_LOK2K \wxD0FA	
-	#define STR_B_ENG_LOK2K FA
+	#define STR_B_ENG_LOK2K FA	
+	
 #define ENG_NS1000_INTROYEAR \w1948-1-1	
 	#define ENG_NS1000_V_LIFE \b40	
 	#define ENG_NS1000_M_LIFE \b30	
@@ -2896,7 +2867,8 @@
 	#define ENG_NS1000_ID_W \w2730	
 	#define ENG_NS1000_ID_B \b*2730	
 	#define STR_W_ENG_NS1000 \wxD0FA	
-	#define STR_B_ENG_NS1000 FA
+	#define STR_B_ENG_NS1000 FA	
+	
 #define ENG_NS1600_INTROYEAR \w1980-1-1	
 	#define ENG_NS1600_V_LIFE \b40	
 	#define ENG_NS1600_M_LIFE \b255	
@@ -2927,7 +2899,8 @@
 	#define ENG_NS1600_ID_W \w3731	
 	#define ENG_NS1600_ID_B \b*3731	
 	#define STR_W_ENG_NS1600 \wxD0FA	
-	#define STR_B_ENG_NS1600 FA
+	#define STR_B_ENG_NS1600 FA	
+	
 #define ENG_SR1_INTROYEAR \w1973-1-1	
 	#define ENG_SR1_V_LIFE \b40	
 	#define ENG_SR1_M_LIFE \b25	
@@ -2958,7 +2931,8 @@
 	#define ENG_SR1_ID_W \w2770	
 	#define ENG_SR1_ID_B \b*2770	
 	#define STR_W_ENG_SR1 \wxD0FA	
-	#define STR_B_ENG_SR1 FA
+	#define STR_B_ENG_SR1 FA	
+	
 #define ENG_SS6_INTROYEAR \w1991-1-1	
 	#define ENG_SS6_V_LIFE \b40	
 	#define ENG_SS6_M_LIFE \b255	
@@ -2989,7 +2963,8 @@
 	#define ENG_SS6_ID_W \w2771	
 	#define ENG_SS6_ID_B \b*2771	
 	#define STR_W_ENG_SS6 \wxD0FA	
-	#define STR_B_ENG_SS6 FA
+	#define STR_B_ENG_SS6 FA	
+	
 #define ENG_VL15_INTROYEAR \w1984-1-1	
 	#define ENG_VL15_V_LIFE \b40	
 	#define ENG_VL15_M_LIFE \b40	
@@ -3020,7 +2995,8 @@
 	#define ENG_VL15_ID_W \w2810	
 	#define ENG_VL15_ID_B \b*2810	
 	#define STR_W_ENG_VL15 \wxD0FA	
-	#define STR_B_ENG_VL15 FA
+	#define STR_B_ENG_VL15 FA	
+	
 #define ENG_WCM1_INTROYEAR \w1958-1-1	
 	#define ENG_WCM1_V_LIFE \b40	
 	#define ENG_WCM1_M_LIFE \b40	
@@ -3051,38 +3027,8 @@
 	#define ENG_WCM1_ID_W \w2820	
 	#define ENG_WCM1_ID_B \b*2820	
 	#define STR_W_ENG_WCM1 \wxD0FA	
-	#define STR_B_ENG_WCM1 FA
-#define XXX3_INTROYEAR \w-1-1	
-	#define XXX3_V_LIFE \b40	
-	#define XXX3_M_LIFE \b255	
-	#define XXX3_SPEED \w	
-	#DIV/0!	
-	#define XXX3_HP \w0	
-	#define XXX3_WAG_HP \w0	
-	#define XXX3_CAP_WAG_PAX \b0	
-	#define XXX3_CAP_WAG_MAIL \b0	
-	#define XXX3_CAP_WAG_ARMOR \b0	
-	#define XXX3_CAP_WAG_PAX_STR "0"	
-	#define XXX3_CAP_WAG_MAIL_STR "0"	
-	#define XXX3_CAP_WAG_ARMOR_STR "0"	
-	#define XXX3_CAP_HEAD_PAX \b0	
-	#define XXX3_CAP_HEAD_MAIL \b0	
-	#define XXX3_CAP_HEAD_ARMOR \b0	
-	#define XXX3_PAX_LS \b1	
-	#define XXX3_MAIL_LS \b1	
-	#define XXX3_ARMOR_LS \b1	
-	#define XXX3_WEIGHT \b0	
-	#define XXX3_WEIGHT_HIGH \b0	
-	#define XXX3_PCOST \b0	
-	#define XXX3_RCOST \b0	
-	#define XXX3_RCOST_WAG \b0	
-	#define XXX3_RCOST_IDLE \b14	
-	#define XXX3_RCBASE \dx4C30	
-	#define XXX3_TRACTION_TYPE 28	
-	#define XXX3_ID_W \w	
-	#define XXX3_ID_B \b*	
-	#define STR_W_XXX3 \wxD0FA	
-	#define STR_B_XXX3 FA
+	#define STR_B_ENG_WCM1 FA	
+	
 #define ENG_11B_INTROYEAR \w1920-1-1	
 	#define ENG_11B_V_LIFE \b40	
 	#define ENG_11B_M_LIFE \b30	
@@ -3113,7 +3059,8 @@
 	#define ENG_11B_ID_W \w1510	
 	#define ENG_11B_ID_B \b*1510	
 	#define STR_W_ENG_11B \wxD0FA	
-	#define STR_B_ENG_11B FA
+	#define STR_B_ENG_11B FA	
+	
 #define ENG_140C_INTROYEAR \w1920-1-1	
 	#define ENG_140C_V_LIFE \b40	
 	#define ENG_140C_M_LIFE \b35	
@@ -3144,7 +3091,8 @@
 	#define ENG_140C_ID_W \w1511	
 	#define ENG_140C_ID_B \b*1511	
 	#define STR_W_ENG_140C \wxD0FA	
-	#define STR_B_ENG_140C FA
+	#define STR_B_ENG_140C FA	
+	
 #define ENG_141TA_INTROYEAR \w1922-1-1	
 	#define ENG_141TA_V_LIFE \b40	
 	#define ENG_141TA_M_LIFE \b35	
@@ -3175,7 +3123,8 @@
 	#define ENG_141TA_ID_W \w1512	
 	#define ENG_141TA_ID_B \b*1512	
 	#define STR_W_ENG_141TA \wxD0FA	
-	#define STR_B_ENG_141TA FA
+	#define STR_B_ENG_141TA FA	
+	
 #define ENG_150B_INTROYEAR \w1933-1-1	
 	#define ENG_150B_V_LIFE \b40	
 	#define ENG_150B_M_LIFE \b25	
@@ -3206,7 +3155,8 @@
 	#define ENG_150B_ID_W \w1513	
 	#define ENG_150B_ID_B \b*1513	
 	#define STR_W_ENG_150B \wxD0FA	
-	#define STR_B_ENG_150B FA
+	#define STR_B_ENG_150B FA	
+	
 #define ENG_6300_INTROYEAR \w1930-1-1	
 	#define ENG_6300_V_LIFE \b40	
 	#define ENG_6300_M_LIFE \b30	
@@ -3237,7 +3187,8 @@
 	#define ENG_6300_ID_W \w1560	
 	#define ENG_6300_ID_B \b*1560	
 	#define STR_W_ENG_6300 \wxD0FA	
-	#define STR_B_ENG_6300 FA
+	#define STR_B_ENG_6300 FA	
+	
 #define ENG_A4_INTROYEAR \w1935-1-1	
 	#define ENG_A4_V_LIFE \b40	
 	#define ENG_A4_M_LIFE \b255	
@@ -3268,7 +3219,8 @@
 	#define ENG_A4_ID_W \w1600	
 	#define ENG_A4_ID_B \b*1600	
 	#define STR_W_ENG_A4 \wxD0FA	
-	#define STR_B_ENG_A4 FA
+	#define STR_B_ENG_A4 FA	
+	
 #define ENG_BIGBOY_INTROYEAR \w1941-1-1	
 	#define ENG_BIGBOY_V_LIFE \b40	
 	#define ENG_BIGBOY_M_LIFE \b25	
@@ -3299,7 +3251,8 @@
 	#define ENG_BIGBOY_ID_W \w1610	
 	#define ENG_BIGBOY_ID_B \b*1610	
 	#define STR_W_ENG_BIGBOY \wxD0FA	
-	#define STR_B_ENG_BIGBOY FA
+	#define STR_B_ENG_BIGBOY FA	
+	
 #define ENG_OKZ32_INTROYEAR \w1934-1-1	
 	#define ENG_OKZ32_V_LIFE \b40	
 	#define ENG_OKZ32_M_LIFE \b45	
@@ -3330,7 +3283,8 @@
 	#define ENG_OKZ32_ID_W \w1740	
 	#define ENG_OKZ32_ID_B \b*1740	
 	#define STR_W_ENG_OKZ32 \wxD0FA	
-	#define STR_B_ENG_OKZ32 FA
+	#define STR_B_ENG_OKZ32 FA	
+	
 #define ENG_ROYALHUDSON_INTROYEAR \w1937-1-1	
 	#define ENG_ROYALHUDSON_V_LIFE \b40	
 	#define ENG_ROYALHUDSON_M_LIFE \b255	
@@ -3361,4 +3315,5 @@
 	#define ENG_ROYALHUDSON_ID_W \w1770	
 	#define ENG_ROYALHUDSON_ID_B \b*1770	
 	#define STR_W_ENG_ROYALHUDSON \wxD0FA	
-	#define STR_B_ENG_ROYALHUDSON FA
+	#define STR_B_ENG_ROYALHUDSON FA	
+	
