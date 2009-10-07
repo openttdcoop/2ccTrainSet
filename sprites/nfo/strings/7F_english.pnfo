@@ -68,6 +68,7 @@
 -1 * 0  04 00 LANG_ID \b1 ENG_IORE_ID_B      "                 IORE" 00
 -1 * 0  04 00 LANG_ID \b1 ENG_KZ2A_ID_B      "                 Kz2A" 00
 -1 * 0  04 00 LANG_ID \b1 ENG_LOK2K_ID_B      "                 Lok2000" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_NMBS_7800_ID_B      "                 NMBS 7800" 00
 -1 * 0  04 00 LANG_ID \b1 ENG_NS1000_ID_B      "                 NS1000" 00
 -1 * 0  04 00 LANG_ID \b1 ENG_NS1600_ID_B      "                 NS1600" 00
 -1 * 0  04 00 LANG_ID \b1 ENG_SR1_ID_B      "                 SR1" 00
