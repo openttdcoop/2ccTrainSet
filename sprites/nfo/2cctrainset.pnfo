@@ -19,7 +19,7 @@ sprites/nfo/sounds.pnfo
 
 // Engines
 sprites/nfo/engines/422.pnfo
-
+sprites/nfo/engines/wcm1.pnfo
 sprites/nfo/engines/wdm2.pnfo
 
 // MUs

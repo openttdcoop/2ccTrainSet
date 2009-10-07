@@ -35,6 +35,7 @@
 //-1 * 0  04 00 LANG_ID \b1 ENG_nnn_ID_B           "                 nnn"              00
 -1 * 0  04 00 LANG_ID \b1 ENG_422_ID_B           "                 422"              00
 
+-1 * 0  04 00 LANG_ID \b1 ENG_WCM1_ID_B           "                 WCM1"              00
 -1 * 0  04 00 LANG_ID \b1 ENG_WDM2_ID_B           "                 WDM2"              00
 
 
