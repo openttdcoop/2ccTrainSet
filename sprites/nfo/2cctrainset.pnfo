@@ -18,9 +18,9 @@ sprites/nfo/wagons.pnfo
 sprites/nfo/sounds.pnfo
 
 // Engines
-
 sprites/nfo/engines/422.pnfo
 
+sprites/nfo/engines/wdm2.pnfo
 
 // MUs
 sprites/nfo/mus/594.pnfo
