@@ -28,6 +28,7 @@ Makefile.local
 *.log
 *.rej
 *.diff
+sprites/pcx/engines/engine.pcx
 
 # Files created by Mac image preview and file browser:
 .DS_Store
