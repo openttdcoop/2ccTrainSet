@@ -1,0 +1,122 @@
+// change "27000" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
+
+#define THIS_PCX_FILE	sprites/pcx/engines/27000.pcx  // Graphics file
+
+
+// Action 0
+-1 * 0  00 00 \b30 01 ENG_27000_ID_B
+// Game related props 
+  02 \b01	// Reliability Decay
+  03 ENG_27000_V_LIFE	// Vehicle Life/Years
+  04 ENG_27000_M_LIFE	// Model Life/Years
+  05 00		// Track type; 00 Rail, 01 Mono, 02 Mlev
+  06 07		// Climate availability
+  07 \b10	// Loading Speed - Not needed in most cases
+  08 01		// AI Pax optimized
+   
+// Physical properties
+  00 ENG_27000_INTROYEAR	// Intro year \wyyyy-mm-dd
+  09 ENG_27000_SPEED		// Speed (word)
+  0B ENG_27000_HP		// Power in HP (word)
+  1B ENG_27000_WAG_HP           // Power in HP on attached wagons
+  1F ENG_27000_TE		// Tractive effort
+  16 ENG_27000_WEIGHT           // Weight/Tons
+  24 ENG_27000_WEIGHT_HIGH      // Highbyte on engines weighing >255 tons
+  20 20                         // Air Drag
+
+// Economical properties
+  14 ENG_27000_CAP_HEAD_PAX  // Cargo Capacity
+  15 00		             // Cargo Type
+  1D \dx0                    // Refit bitmask
+  28 \wx0b	             // New cargo classes
+  29 \wx3f0		     // New NOT Cargo classes
+  0D ENG_27000_RCOST         // RUN Cost Factor
+  0E ENG_27000_RCBASE    // RUN cost Base
+  17 ENG_27000_PCOST			     // Cost Factor
+  1C 00			     // Refit cost
+
+// Misc
+  12 FD	// Use new grapics
+  19 ENG_27000_TRACTION_TYPE 
+  13 00	// Dualhead? 00/01 (should "always" be 00)
+  1E FF // Callbacks
+  21 00 // Shorter vehicle
+  27 06 // 01 tilt + 02 2cc + 04 xMU
+
+
+// Dont need to change anything more then this (unless its a "special case" grapihcally)
+
+// Action 1 with 5 views and 8 sprites each view
+-1 * 0  01 00 02 08
+// Front/White lights   xpos    ypos    comp    ysize   xsize   xrel    yrel
+1 THIS_PCX_FILE    	01	01	1	24	08	-3	-12
+2 THIS_PCX_FILE    	10	01	1	20	22	-14	-12
+3 THIS_PCX_FILE    	33	01	1	16	32	-16	-12
+4 THIS_PCX_FILE    	66	01	1	20	22	-6	-12
+5 THIS_PCX_FILE    	89	01	1	24	08	-3	-12
+6 THIS_PCX_FILE    	98	01	1	20	22	-14	-12
+7 THIS_PCX_FILE    	121	01	1	16	32	-16	-12
+8 THIS_PCX_FILE    	154	01	1	20	22	-6	-12
+// End/Red lights
+//1 THIS_PCX_FILE    	01	32	1	24	08	-3	-12
+//2 THIS_PCX_FILE    	10	32	1	18	22	-14	-10
+//3 THIS_PCX_FILE    	33	32	1	14	32	-16	-10
+//4 THIS_PCX_FILE    	66	32	1	18	22	-6	-10
+//5 THIS_PCX_FILE    	89	32	1	24	08	-3	-12
+//6 THIS_PCX_FILE    	98	32	1	18	22	-14	-10
+//7 THIS_PCX_FILE    	121	32	1	14	32	-16	-10
+//8 THIS_PCX_FILE    	154	32	1	18	22	-6	-10
+
+// Purchase list
+1 * 0  0
+2 * 0  0
+3 THIS_PCX_FILE    	01	01  1 01  01  -00 -00
+4 * 0  0
+5 * 0  0
+6 * 0  0
+7 THIS_PCX_FILE    	01	64	1	12	87	-25	-08
+8 * 0  0
+
+-1 * 0  02 00 10 01 01 \w0 \w0 // -->
+-1 * 0  02 00 40 01 01 \w1 \w1 // P-list
+
+// ----- Apply Purchase list text -----
+-1 * 0  02 00 4F 81 0C 00 FF 01   STR_B_ENG_27000 80 23 23   40 00
+
+// --------------------
+// ----- Generic ------
+// --------------------
+
+//Low cost when standing still, for use in the '10' at the RUN cost spot HEAD
+-1 * 0  02 00 EC 82 B4 00 FF 01			// 1 case
+                          ENG_27000_RCOST_IDLE 80 00 00	        // Standing still cost 
+                          ENG_27000_RCOST 80	// RUN cost
+
+// '10' for CB36s HEAD
+-1 * 0  02 00 EE 81 10 00 FF 01
+                             EC 00 0D 0D		// RUN cost
+                             40 00			// Dont matter
+
+// --------------------
+// ------ Engine ------
+// --------------------
+
+// Cannot attach 
+-1 * 0  02 00 A6 85 C6 00 FF FF 03             // 2 cases
+                             ER_MUONLYONMU 80 MU 00 MU 00   // allow attaching MU-wagon
+                             ER_MUONLYONMU 80 \w3000 \w3999 // Not allowing MUs
+                             ER_NORAILCARS 80 \w4000 \w4500 // No railcars
+                             FF 80             // Allow everything else
+-1 * 0  02 00 AF 81 0C 00 FF 02          // 4 callbacks
+                             A6 00 1D 1D// Cannot attach 
+                             EE 00 36 36 // New stuff
+                             10 00       // Attach engine gfx
+
+// ----------------------
+// ----- Action 3's -----
+// ----------------------
+-1 * 0  03 00 01 ENG_27000_ID_B 01	//
+              FF 4F 00		// P-list
+              AF 00		// Normal
+
+#undef THIS_PCX_FILE

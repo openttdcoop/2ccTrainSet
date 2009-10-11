@@ -38,7 +38,7 @@
 -1 * 0  04 00 LANG_ID \b1 ENG_422_ID_B      "                 422" 00
 -1 * 0  04 00 LANG_ID \b1 ENG_BOXCAB_ID_B      "                 Boxcab" 00
 -1 * 0  04 00 LANG_ID \b1 ENG_BR66_ID_B      "                 BR Class 66" 00
--1 * 0  04 00 LANG_ID \b1 ENG_BR67_ID_B      "                 BR Class 67" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_BR67_ID_B      "                 Class 67" 00
 -1 * 0  04 00 LANG_ID \b1 ENG_DR12_ID_B      "                 DR12" 00
 -1 * 0  04 00 LANG_ID \b1 ENG_F3_ID_B      "                 F3" 00
 -1 * 0  04 00 LANG_ID \b1 ENG_GENESIS_ID_B      "                 Genesis" 00

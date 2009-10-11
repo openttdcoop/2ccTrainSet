@@ -19,7 +19,22 @@ sprites/nfo/sounds.pnfo
 
 // Engines
 sprites/nfo/engines/422.pnfo
-
+sprites/nfo/engines/1044.pnfo
+sprites/nfo/engines/2100.pnfo
+sprites/nfo/engines/26000.pnfo
+sprites/nfo/engines/27000.pnfo
+sprites/nfo/engines/ae6-6.pnfo
+sprites/nfo/engines/alco.pnfo
+sprites/nfo/engines/ce4-4.pnfo
+sprites/nfo/engines/class66.pnfo
+sprites/nfo/engines/class67.pnfo
+sprites/nfo/engines/dr12.pnfo
+sprites/nfo/engines/ds3.pnfo
+sprites/nfo/engines/e04-01.pnfo
+sprites/nfo/engines/e55200.pnfo
+sprites/nfo/engines/gl8.pnfo
+sprites/nfo/engines/hle13.pnfo
+sprites/nfo/engines/j16cw.pnfo
 sprites/nfo/engines/lok2k.pnfo
 sprites/nfo/engines/ns1600.pnfo
 sprites/nfo/engines/ns1000.pnfo
