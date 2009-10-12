@@ -1871,8 +1871,8 @@
 	#define ENG_BOXCAB_RCOST_IDLE \b14	
 	#define ENG_BOXCAB_RCBASE \dx4C30	
 	#define ENG_BOXCAB_TRACTION_TYPE 8	
-	#define ENG_BOXCAB_ID_W \w2110	
-	#define ENG_BOXCAB_ID_B \b*2110	
+	#define ENG_BOXCAB_ID_W \w2100	
+	#define ENG_BOXCAB_ID_B \b*2100	
 	#define STR_W_ENG_BOXCAB \wxD0FA	
 	#define STR_B_ENG_BOXCAB FA	
 	
@@ -2644,39 +2644,6 @@
 	#define STR_W_ENG_E646 \wxD0FA	
 	#define STR_B_ENG_E646 FA	
 	
-#define ENG_EF1_INTROYEAR \w1914-1-1	
-	#define ENG_EF1_V_LIFE \b40	
-	#define ENG_EF1_M_LIFE \b30	
-	#define ENG_EF1_SPEED \w40
-25	
-	#define ENG_EF1_TE \b46	
-	#define ENG_EF1_HP \w1100	
-	#define ENG_EF1_WAG_HP \w0	
-	#define ENG_EF1_CAP_WAG_PAX \b0	
-	#define ENG_EF1_CAP_WAG_MAIL \b0	
-	#define ENG_EF1_CAP_WAG_ARMOR \b0	
-	#define ENG_EF1_CAP_WAG_PAX_STR "0"	
-	#define ENG_EF1_CAP_WAG_MAIL_STR "0"	
-	#define ENG_EF1_CAP_WAG_ARMOR_STR "0"	
-	#define ENG_EF1_CAP_HEAD_PAX \b0	
-	#define ENG_EF1_CAP_HEAD_MAIL \b0	
-	#define ENG_EF1_CAP_HEAD_ARMOR \b0	
-	#define ENG_EF1_PAX_LS \b1	
-	#define ENG_EF1_MAIL_LS \b1	
-	#define ENG_EF1_ARMOR_LS \b1	
-	#define ENG_EF1_WEIGHT \b74	
-	#define ENG_EF1_WEIGHT_HIGH \b0	
-	#define ENG_EF1_PCOST \b3	
-	#define ENG_EF1_RCOST \b23	
-	#define ENG_EF1_RCOST_WAG \b0	
-	#define ENG_EF1_RCOST_IDLE \b14	
-	#define ENG_EF1_RCBASE \dx4C30	
-	#define ENG_EF1_TRACTION_TYPE 28	
-	#define ENG_EF1_ID_W \w2633	
-	#define ENG_EF1_ID_B \b*2633	
-	#define STR_W_ENG_EF1 \wxD0FA	
-	#define STR_B_ENG_EF1 FA	
-	
 #define ENG_EM2_INTROYEAR \w1953-1-1	
 	#define ENG_EM2_V_LIFE \b40	
 	#define ENG_EM2_M_LIFE \b30	
@@ -2869,6 +2836,40 @@
 	#define STR_W_ENG_LOK2K \wxD0FA	
 	#define STR_B_ENG_LOK2K FA	
 	
+#define ENG_NER_EF1_INTROYEAR \w1914-1-1	
+	#define ENG_NER_EF1_V_LIFE \b40	
+	#define ENG_NER_EF1_M_LIFE \b30	
+	#define ENG_NER_EF1_SPEED \w40
+25	
+	#define ENG_NER_EF1_TE \b46	
+	#define ENG_NER_EF1_HP \w1100	
+	#define ENG_NER_EF1_WAG_HP \w0	
+	#define ENG_NER_EF1_CAP_WAG_PAX \b0	
+	#define ENG_NER_EF1_CAP_WAG_MAIL \b0	
+	#define ENG_NER_EF1_CAP_WAG_ARMOR \b0	
+	#define ENG_NER_EF1_CAP_WAG_PAX_STR "0"	
+	#define ENG_NER_EF1_CAP_WAG_MAIL_STR "0"	
+	#define ENG_NER_EF1_CAP_WAG_ARMOR_STR "0"	
+	#define ENG_NER_EF1_CAP_HEAD_PAX \b0	
+	#define ENG_NER_EF1_CAP_HEAD_MAIL \b0	
+	#define ENG_NER_EF1_CAP_HEAD_ARMOR \b0	
+	#define ENG_NER_EF1_PAX_LS \b1	
+	#define ENG_NER_EF1_MAIL_LS \b1	
+	#define ENG_NER_EF1_ARMOR_LS \b1	
+	#define ENG_NER_EF1_WEIGHT \b74	
+	#define ENG_NER_EF1_WEIGHT_HIGH \b0	
+	#define ENG_NER_EF1_PCOST \b3	
+	#define ENG_NER_EF1_RCOST \b23	
+	#define ENG_NER_EF1_RCOST_WAG \b0	
+	#define ENG_NER_EF1_RCOST_IDLE \b14	
+	#define ENG_NER_EF1_RCBASE \dx4C30	
+	#define ENG_NER_EF1_TRACTION_TYPE 28	
+	#define ENG_NER_EF1_ID_W \w2730	
+	#define ENG_NER_EF1_ID_B \b*2730	
+	#define STR_W_ENG_NER_EF1 \wxD0FA	
+	#define STR_B_ENG_NER_EF1 FA	
+	
+	250	D0FA	-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_NER_EF1 "\n"
 #define ENG_NS1000_INTROYEAR \w1948-1-1	
 	#define ENG_NS1000_V_LIFE \b40	
 	#define ENG_NS1000_M_LIFE \b30	

@@ -36,7 +36,7 @@
 // Diesels
 -1 * 0  04 00 LANG_ID \b1 ENG_2100_ID_B      "                 2100" 00
 -1 * 0  04 00 LANG_ID \b1 ENG_422_ID_B      "                 422" 00
--1 * 0  04 00 LANG_ID \b1 ENG_BOXCAB_ID_B      "                 Boxcab" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_BOXCAB_ID_B      "                 Alco GE-IR Boxcab" 00
 -1 * 0  04 00 LANG_ID \b1 ENG_BR66_ID_B      "                 BR Class 66" 00
 -1 * 0  04 00 LANG_ID \b1 ENG_BR67_ID_B      "                 Class 67" 00
 -1 * 0  04 00 LANG_ID \b1 ENG_DR12_ID_B      "                 DR12" 00
@@ -61,7 +61,7 @@
 -1 * 0  04 00 LANG_ID \b1 ENG_E04_01_ID_B      "                 E04-01" 00
 -1 * 0  04 00 LANG_ID \b1 ENG_E55200_ID_B      "                 E55200" 00
 -1 * 0  04 00 LANG_ID \b1 ENG_E646_ID_B      "                 E646" 00
--1 * 0  04 00 LANG_ID \b1 ENG_EF1_ID_B      "                 EF1" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_NER_EF1_ID_B      "                 NER EF1" 00
 -1 * 0  04 00 LANG_ID \b1 ENG_EM2_ID_B      "                 EM2" 00
 -1 * 0  04 00 LANG_ID \b1 ENG_ET41_ID_B      "                 ET41" 00
 -1 * 0  04 00 LANG_ID \b1 ENG_HLE13_ID_B      "                 HLE13" 00
@@ -158,7 +158,7 @@
 -1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_E04_01 " " 00
 -1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_E55200 " " 00
 -1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_E646 " " 00
--1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_EF1 " " 00
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_NER_EF1 " " 00
 -1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_EM2 " " 00
 -1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_ET41 " " 00
 -1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_HLE13 " " 00
