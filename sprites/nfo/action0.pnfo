@@ -2671,8 +2671,8 @@
 	#define ENG_EM2_RCOST_IDLE \b14	
 	#define ENG_EM2_RCBASE \dx4C30	
 	#define ENG_EM2_TRACTION_TYPE 28	
-	#define ENG_EM2_ID_W \w2634	
-	#define ENG_EM2_ID_B \b*2634	
+	#define ENG_EM2_ID_W \w2720	
+	#define ENG_EM2_ID_B \b*2720	
 	#define STR_W_ENG_EM2 \wxD0FA	
 	#define STR_B_ENG_EM2 FA	
 	

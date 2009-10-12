@@ -61,8 +61,8 @@
 -1 * 0  04 00 LANG_ID \b1 ENG_E04_01_ID_B      "                 E04-01" 00
 -1 * 0  04 00 LANG_ID \b1 ENG_E55200_ID_B      "                 E55200" 00
 -1 * 0  04 00 LANG_ID \b1 ENG_E646_ID_B      "                 E646" 00
--1 * 0  04 00 LANG_ID \b1 ENG_NER_EF1_ID_B      "                 NER EF1" 00
--1 * 0  04 00 LANG_ID \b1 ENG_EM2_ID_B      "                 EM2" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_NER_EF1_ID_B      "                 Ner EF1" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_EM2_ID_B      "                 Metrovik EM2" 00
 -1 * 0  04 00 LANG_ID \b1 ENG_ET41_ID_B      "                 ET41" 00
 -1 * 0  04 00 LANG_ID \b1 ENG_HLE13_ID_B      "                 HLE13" 00
 -1 * 0  04 00 LANG_ID \b1 ENG_IORE_ID_B      "                 IORE" 00
@@ -71,7 +71,7 @@
 -1 * 0  04 00 LANG_ID \b1 ENG_NMBS_7800_ID_B      "                 NMBS 7800" 00
 -1 * 0  04 00 LANG_ID \b1 ENG_NS1000_ID_B      "                 NS1000" 00
 -1 * 0  04 00 LANG_ID \b1 ENG_NS1600_ID_B      "                 NS1600" 00
--1 * 0  04 00 LANG_ID \b1 ENG_SR1_ID_B      "                 SR1" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_SR1_ID_B      "                 Sr1" 00
 -1 * 0  04 00 LANG_ID \b1 ENG_SS6_ID_B      "                 SS6" 00
 -1 * 0  04 00 LANG_ID \b1 ENG_VL15_ID_B      "                 VL15" 00
 -1 * 0  04 00 LANG_ID \b1 ENG_WCM1_ID_B      "                 WCM1" 00
