@@ -1458,35 +1458,35 @@
 	#define MET_CAIRO1987_TRACTION_TYPE 32	
 	#define MET_CAIRO1987_ID_W \w4630	
 	#define MET_CAIRO1987_ID_B \b*4630
-#define MET_Cii_INTROYEAR \w1929-1-1	
-	#define MET_Cii_V_LIFE \b60	
-	#define MET_Cii_M_LIFE \b40	
-	#define MET_Cii_SPEED \w60	
-	#define MET_Cii_TE \b18	
-	#define MET_Cii_HP \w375	
-	#define MET_Cii_WAG_HP \w0	
-	#define MET_Cii_CAP_WAG_PAX \b157	
-	#define MET_Cii_CAP_WAG_MAIL \b118	
-	#define MET_Cii_CAP_WAG_ARMOR \b79	
-	#define MET_Cii_CAP_WAG_PAX_STR "157"	
-	#define MET_Cii_CAP_WAG_MAIL_STR "118"	
-	#define MET_Cii_CAP_WAG_ARMOR_STR "79"	
-	#define MET_Cii_CAP_HEAD_PAX \b157	
-	#define MET_Cii_CAP_HEAD_MAIL \b118	
-	#define MET_Cii_CAP_HEAD_ARMOR \b79	
-	#define MET_Cii_PAX_LS \b60	
-	#define MET_Cii_MAIL_LS \b45	
-	#define MET_Cii_ARMOR_LS \b30	
-	#define MET_Cii_WEIGHT \b50	
-	#define MET_Cii_WEIGHT_HIGH \b0	
-	#define MET_Cii_PCOST \b4	
-	#define MET_Cii_RCOST \b3	
-	#define MET_Cii_RCOST_WAG \b0	
-	#define MET_Cii_RCOST_IDLE \b14	
-	#define MET_Cii_RCBASE \dx4C30	
-	#define MET_Cii_TRACTION_TYPE 32	
-	#define MET_Cii_ID_W \w4631	
-	#define MET_Cii_ID_B \b*4631
+#define MET_CII_INTROYEAR \w1929-1-1	
+	#define MET_CII_V_LIFE \b60	
+	#define MET_CII_M_LIFE \b40	
+	#define MET_CII_SPEED \w60	
+	#define MET_CII_TE \b18	
+	#define MET_CII_HP \w375	
+	#define MET_CII_WAG_HP \w0	
+	#define MET_CII_CAP_WAG_PAX \b157	
+	#define MET_CII_CAP_WAG_MAIL \b118	
+	#define MET_CII_CAP_WAG_ARMOR \b79	
+	#define MET_CII_CAP_WAG_PAX_STR "157"	
+	#define MET_CII_CAP_WAG_MAIL_STR "118"	
+	#define MET_CII_CAP_WAG_ARMOR_STR "79"	
+	#define MET_CII_CAP_HEAD_PAX \b157	
+	#define MET_CII_CAP_HEAD_MAIL \b118	
+	#define MET_CII_CAP_HEAD_ARMOR \b79	
+	#define MET_CII_PAX_LS \b60	
+	#define MET_CII_MAIL_LS \b45	
+	#define MET_CII_ARMOR_LS \b30	
+	#define MET_CII_WEIGHT \b50	
+	#define MET_CII_WEIGHT_HIGH \b0	
+	#define MET_CII_PCOST \b4	
+	#define MET_CII_RCOST \b3	
+	#define MET_CII_RCOST_WAG \b0	
+	#define MET_CII_RCOST_IDLE \b14	
+	#define MET_CII_RCBASE \dx4C30	
+	#define MET_CII_TRACTION_TYPE 32	
+	#define MET_CII_ID_W \w4631	
+	#define MET_CII_ID_B \b*4631
 #define MET_DLR_INTROYEAR \w1987-1-1	
 	#define MET_DLR_V_LIFE \b60	
 	#define MET_DLR_M_LIFE \b255	
