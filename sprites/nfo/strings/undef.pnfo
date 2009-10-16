@@ -1,0 +1,22 @@
+
+// Undefines
+#undef	WORD_CC
+#undef	WORD_PAX
+#undef	WORD_MAIL
+#undef	WORD_ARMOR
+#undef	WORD_LS
+#undef	WORD_FAST
+#undef	WORD_MEDIUM
+#undef	WORD_SLOW
+#undef	WORD_RC_1U
+#undef	STR_ER_ONEUNIT
+#undef	STR_ER_SELFONLY
+#undef	STR_ER_SUBSELFONLY
+#undef	STR_ER_MUONLYONMU
+#undef	STR_ER_CSLOBONLY
+#undef	STR_ER_ONLYMU
+#undef	STR_ER_NORAILCARS
+#undef  STR_METRO
+#undef  STR_MUWAG
+#undef  LANG_ID
+#undef  LANG_ID2

@@ -9,7 +9,7 @@ sprites/nfo/action0.pnfo
 sprites/nfo/header.pnfo
 
 // Language files
-sprites/nfo/strings/7F_english.pnfo
+sprites/nfo/strings/languages.pnfo
 
 // Wagons
 sprites/nfo/wagons.pnfo
