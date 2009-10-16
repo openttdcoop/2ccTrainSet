@@ -20,7 +20,7 @@
 // Error messages
 #define STR_ER_ONEUNIT      "Can only be one unit long"
 #define STR_ER_SELFONLY     "Can only attach to itself"
-#define STR_ER_SUBSELFONLY  "Single unit subway cars can only connect to their own kind"
+#define STR_ER_SUBSELFONLY  "Subway engines can only connect to their own kind"
 #define STR_ER_MUONLYONMU   "Multiple Unit Wagons can only be attached to Multiple Unit Trains"
 #define STR_ER_CSLOBONLY    "Use only long boxcars on CargoSprinter"
 #define STR_ER_ONLYMU       "Use Only Multiple Unit Wagons"
@@ -30,6 +30,10 @@
 // Carriage Capacity: 60 Passengers / 45 Mail / 30 Valuabels
 // Loading speed: Slow
 // NB: Running costs are per 1 unit
+
+// Wagon Names
+-1 * 0  04 00 LANG_ID \b1 METRO                 "                 Metro Wagon"              00
+
 
 // Engine Names:
 //-1 * 0  04 00 LANG_ID \b1 ENG_nnn_ID_B           "                 nnn"              00
@@ -124,6 +128,27 @@
 
 // Maglev names
 -1 * 0  04 00 LANG_ID \b1 MU_CHIM_ID_B           "                 Chimaera"              00
+
+
+// Metro Names:
+-1 * 0  04 00 LANG_ID \b1 MET_01800_ID_B      "                 Boston 01800" 00
+0 * 0  04 00 LANG_ID \b1 MET_81_729_ID_B      "                 81-729" 00
+1 * 0  04 00 LANG_ID \b1 MET_BROOKLYN_ID_B      "                 Brooklyn union gate car" 00
+2 * 0  04 00 LANG_ID \b1 MET_BUDA1894_ID_B      "                 Budapest 1894" 00
+3 * 0  04 00 LANG_ID \b1 MET_CAF90_ID_B      "                 CAF 90" 00
+4 * 0  04 00 LANG_ID \b1 MET_CAIRO1987_ID_B      "                 Cairo 1987" 00
+5 * 0  04 00 LANG_ID \b1 MET_CII_ID_B      "                 U-Bahn C II" 00
+6 * 0  04 00 LANG_ID \b1 MET_DLR_ID_B      "                 DLR Metro" 00
+7 * 0  04 00 LANG_ID \b1 MET_EV3_200_ID_B      "                 ev3-200" 00
+8 * 0  04 00 LANG_ID \b1 MET_LDN1903_ID_B      "                 London 1903 stock" 00
+9 * 0  04 00 LANG_ID \b1 MET_LDN1938_ID_B      "                 London 1938 stock" 00
+10 * 0  04 00 LANG_ID \b1 MET_M1_ID_B      "                 Type M1" 00
+11 * 0  04 00 LANG_ID \b1 MET_M100_ID_B      "                 M100" 00
+12 * 0  04 00 LANG_ID \b1 MET_M2_840_ID_B      "                 M2 840" 00
+13 * 0  04 00 LANG_ID \b1 MET_MP89_ID_B      "                 MP89" 00
+14 * 0  04 00 LANG_ID \b1 MET_P_DSTOCK_ID_B      "                 Pyongynag D Stock" 00
+15 * 0  04 00 LANG_ID \b1 MET_TOKYO_ID_B      "                 Tokyo" 00
+
 
 // P-list texts
 // nnn
@@ -363,8 +388,21 @@
                                 WORD_CC 8A MU_X2000_CAP_WAG_PAX_STR WORD_PAX " / " MU_X2000_CAP_WAG_MAIL_STR WORD_MAIL " / " MU_X2000_CAP_WAG_ARMOR_STR WORD_ARMOR  "\n" 
                                 98 WORD_LS 8A WORD_SLOW  00
 
-// Wagon Names
--1 * 0  04 00 LANG_ID \b1 MU                    "                 Multiple Unit Wagon"              00
+// Metro Strings:
+// nnn
+//-1 * 0  04 00 LANG_ID2 \b1 STR_W_MET_nnn      "\n"
+//                                WORD_CC 8A MET_nnn_CAP_WAG_PAX_STR WORD_PAX " / " MET_nnn_CAP_WAG_MAIL_STR WORD_MAIL " / " MET_nnn_CAP_WAG_ARMOR_STR WORD_ARMOR  "\n" 
+//                                98 WORD_LS 8A WORD_changeme  "\n"
+//                                8B "NB: " 98 WORD_RC_1U	00
+
+// 81_729
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MET_81_729      "\n"
+                                WORD_CC 8A MET_81_729_CAP_WAG_PAX_STR WORD_PAX " / " MET_81_729_CAP_WAG_MAIL_STR WORD_MAIL " / " MET_81_729_CAP_WAG_ARMOR_STR WORD_ARMOR  "\n" 
+                                98 WORD_LS 8A WORD_FAST  "\n"
+                                8B "NB: " 98 WORD_RC_1U	00
+
+
+
 
 // --------------------------
 // ----- Error messages -----

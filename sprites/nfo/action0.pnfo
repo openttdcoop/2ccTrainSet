@@ -1312,7 +1312,10 @@
 	#define MET_01800_RCBASE \dx4C30	
 	#define MET_01800_TRACTION_TYPE 32	
 	#define MET_01800_ID_W \w4500	
-	#define MET_01800_ID_B \b*4500
+	#define MET_01800_ID_B \b*4500	
+	#define STR_W_MET_01800 \wxD0A0	
+	#define STR_B_MET_01800 A0	
+	
 #define MET_81_729_INTROYEAR \w1981-1-1	
 	#define MET_81_729_V_LIFE \b60	
 	#define MET_81_729_M_LIFE \b50	
@@ -1341,7 +1344,10 @@
 	#define MET_81_729_RCBASE \dx4C30	
 	#define MET_81_729_TRACTION_TYPE 32	
 	#define MET_81_729_ID_W \w4580	
-	#define MET_81_729_ID_B \b*4580
+	#define MET_81_729_ID_B \b*4580	
+	#define STR_W_MET_81_729 \wxD0A1	
+	#define STR_B_MET_81_729 A1	
+	
 #define MET_BROOKLYN_INTROYEAR \w1880-1-1	
 	#define MET_BROOKLYN_V_LIFE \b60	
 	#define MET_BROOKLYN_M_LIFE \b50	
@@ -1370,7 +1376,10 @@
 	#define MET_BROOKLYN_RCBASE \dx4C30	
 	#define MET_BROOKLYN_TRACTION_TYPE 32	
 	#define MET_BROOKLYN_ID_W \w4620	
-	#define MET_BROOKLYN_ID_B \b*4620
+	#define MET_BROOKLYN_ID_B \b*4620	
+	#define STR_W_MET_BROOKLYN \wxD0A2	
+	#define STR_B_MET_BROOKLYN A2	
+	
 #define MET_BUDA1894_INTROYEAR \w1894-1-1	
 	#define MET_BUDA1894_V_LIFE \b60	
 	#define MET_BUDA1894_M_LIFE \b50	
@@ -1399,7 +1408,10 @@
 	#define MET_BUDA1894_RCBASE \dx4C30	
 	#define MET_BUDA1894_TRACTION_TYPE 32	
 	#define MET_BUDA1894_ID_W \w4621	
-	#define MET_BUDA1894_ID_B \b*4621
+	#define MET_BUDA1894_ID_B \b*4621	
+	#define STR_W_MET_BUDA1894 \wxD0A3	
+	#define STR_B_MET_BUDA1894 A3	
+	
 #define MET_CAF90_INTROYEAR \w1997-1-1	
 	#define MET_CAF90_V_LIFE \b60	
 	#define MET_CAF90_M_LIFE \b255	
@@ -1428,7 +1440,10 @@
 	#define MET_CAF90_RCBASE \dx4C30	
 	#define MET_CAF90_TRACTION_TYPE 32	
 	#define MET_CAF90_ID_W \w4630	
-	#define MET_CAF90_ID_B \b*4630
+	#define MET_CAF90_ID_B \b*4630	
+	#define STR_W_MET_CAF90 \wxD0A4	
+	#define STR_B_MET_CAF90 A4	
+	
 #define MET_CAIRO1987_INTROYEAR \w1987-1-1	
 	#define MET_CAIRO1987_V_LIFE \b60	
 	#define MET_CAIRO1987_M_LIFE \b50	
@@ -1457,7 +1472,10 @@
 	#define MET_CAIRO1987_RCBASE \dx4C30	
 	#define MET_CAIRO1987_TRACTION_TYPE 32	
 	#define MET_CAIRO1987_ID_W \w4630	
-	#define MET_CAIRO1987_ID_B \b*4630
+	#define MET_CAIRO1987_ID_B \b*4630	
+	#define STR_W_MET_CAIRO1987 \wxD0A5	
+	#define STR_B_MET_CAIRO1987 A5	
+	
 #define MET_CII_INTROYEAR \w1929-1-1	
 	#define MET_CII_V_LIFE \b60	
 	#define MET_CII_M_LIFE \b40	
@@ -1486,7 +1504,10 @@
 	#define MET_CII_RCBASE \dx4C30	
 	#define MET_CII_TRACTION_TYPE 32	
 	#define MET_CII_ID_W \w4631	
-	#define MET_CII_ID_B \b*4631
+	#define MET_CII_ID_B \b*4631	
+	#define STR_W_MET_CII \wxD0A6	
+	#define STR_B_MET_CII A6	
+	
 #define MET_DLR_INTROYEAR \w1987-1-1	
 	#define MET_DLR_V_LIFE \b60	
 	#define MET_DLR_M_LIFE \b255	
@@ -1515,7 +1536,10 @@
 	#define MET_DLR_RCBASE \dx4C30	
 	#define MET_DLR_TRACTION_TYPE 32	
 	#define MET_DLR_ID_W \w4640	
-	#define MET_DLR_ID_B \b*4640
+	#define MET_DLR_ID_B \b*4640	
+	#define STR_W_MET_DLR \wxD0A7	
+	#define STR_B_MET_DLR A7	
+	
 #define MET_EV3_200_INTROYEAR \w1960-1-1	
 	#define MET_EV3_200_V_LIFE \b60	
 	#define MET_EV3_200_M_LIFE \b50	
@@ -1544,7 +1568,10 @@
 	#define MET_EV3_200_RCBASE \dx4C30	
 	#define MET_EV3_200_TRACTION_TYPE 32	
 	#define MET_EV3_200_ID_W \w4540	
-	#define MET_EV3_200_ID_B \b*4540
+	#define MET_EV3_200_ID_B \b*4540	
+	#define STR_W_MET_EV3_200 \wxD0A8	
+	#define STR_B_MET_EV3_200 A8	
+	
 #define MET_LDN1903_INTROYEAR \w1903-1-1	
 	#define MET_LDN1903_V_LIFE \b60	
 	#define MET_LDN1903_M_LIFE \b39	
@@ -1573,7 +1600,10 @@
 	#define MET_LDN1903_RCBASE \dx4C30	
 	#define MET_LDN1903_TRACTION_TYPE 32	
 	#define MET_LDN1903_ID_W \w4710	
-	#define MET_LDN1903_ID_B \b*4710
+	#define MET_LDN1903_ID_B \b*4710	
+	#define STR_W_MET_LDN1903 \wxD0A9	
+	#define STR_B_MET_LDN1903 A9	
+	
 #define MET_LDN1938_INTROYEAR \w1938-1-1	
 	#define MET_LDN1938_V_LIFE \b60	
 	#define MET_LDN1938_M_LIFE \b50	
@@ -1602,7 +1632,10 @@
 	#define MET_LDN1938_RCBASE \dx4C30	
 	#define MET_LDN1938_TRACTION_TYPE 32	
 	#define MET_LDN1938_ID_W \w4711	
-	#define MET_LDN1938_ID_B \b*4711
+	#define MET_LDN1938_ID_B \b*4711	
+	#define STR_W_MET_LDN1938 \wxD0AA	
+	#define STR_B_MET_LDN1938 AA	
+	
 #define MET_M1_INTROYEAR \w1973-1-1	
 	#define MET_M1_V_LIFE \b60	
 	#define MET_M1_M_LIFE \b50	
@@ -1631,7 +1664,10 @@
 	#define MET_M1_RCBASE \dx4C30	
 	#define MET_M1_TRACTION_TYPE 32	
 	#define MET_M1_ID_W \w4720	
-	#define MET_M1_ID_B \b*4720
+	#define MET_M1_ID_B \b*4720	
+	#define STR_W_MET_M1 \wxD0AB	
+	#define STR_B_MET_M1 AB	
+	
 #define MET_M100_INTROYEAR \w1977-1-1	
 	#define MET_M100_V_LIFE \b60	
 	#define MET_M100_M_LIFE \b50	
@@ -1660,7 +1696,10 @@
 	#define MET_M100_RCBASE \dx4C30	
 	#define MET_M100_TRACTION_TYPE 32	
 	#define MET_M100_ID_W \w4721	
-	#define MET_M100_ID_B \b*4721
+	#define MET_M100_ID_B \b*4721	
+	#define STR_W_MET_M100 \wxD0AC	
+	#define STR_B_MET_M100 AC	
+	
 #define MET_M2_840_INTROYEAR \w1957-1-1	
 	#define MET_M2_840_V_LIFE \b60	
 	#define MET_M2_840_M_LIFE \b42	
@@ -1689,7 +1728,10 @@
 	#define MET_M2_840_RCBASE \dx4C30	
 	#define MET_M2_840_TRACTION_TYPE 32	
 	#define MET_M2_840_ID_W \w4722	
-	#define MET_M2_840_ID_B \b*4722
+	#define MET_M2_840_ID_B \b*4722	
+	#define STR_W_MET_M2_840 \wxD0AD	
+	#define STR_B_MET_M2_840 AD	
+	
 #define MET_MP89_INTROYEAR \w1997-1-1	
 	#define MET_MP89_V_LIFE \b60	
 	#define MET_MP89_M_LIFE \b255	
@@ -1718,7 +1760,10 @@
 	#define MET_MP89_RCBASE \dx4C30	
 	#define MET_MP89_TRACTION_TYPE 32	
 	#define MET_MP89_ID_W \w4723	
-	#define MET_MP89_ID_B \b*4723
+	#define MET_MP89_ID_B \b*4723	
+	#define STR_W_MET_MP89 \wxD0AE	
+	#define STR_B_MET_MP89 AE	
+	
 #define MET_P_DSTOCK_INTROYEAR \w1975-1-1	
 	#define MET_P_DSTOCK_V_LIFE \b60	
 	#define MET_P_DSTOCK_M_LIFE \b50	
@@ -1747,7 +1792,10 @@
 	#define MET_P_DSTOCK_RCBASE \dx4C30	
 	#define MET_P_DSTOCK_TRACTION_TYPE 32	
 	#define MET_P_DSTOCK_ID_W \w4750	
-	#define MET_P_DSTOCK_ID_B \b*4750
+	#define MET_P_DSTOCK_ID_B \b*4750	
+	#define STR_W_MET_P_DSTOCK \wxD0AF	
+	#define STR_B_MET_P_DSTOCK AF	
+	
 #define MET_TOKYO_INTROYEAR \w1985-1-1	
 	#define MET_TOKYO_V_LIFE \b60	
 	#define MET_TOKYO_M_LIFE \b50	
@@ -1776,7 +1824,10 @@
 	#define MET_TOKYO_RCBASE \dx4C30	
 	#define MET_TOKYO_TRACTION_TYPE 32	
 	#define MET_TOKYO_ID_W \w4790	
-	#define MET_TOKYO_ID_B \b*4790
+	#define MET_TOKYO_ID_B \b*4790	
+	#define STR_W_MET_TOKYO \wxD0B0	
+	#define STR_B_MET_TOKYO B0	
+	
 // -----------------
 // ---- ENGINES ----
 // -----------------

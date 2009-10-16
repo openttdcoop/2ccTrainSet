@@ -1,7 +1,7 @@
 
 // Vehicle IDs for wagons
-#define MU                           70// Defines of Wagon IDs
-
+#define MU                           70
+#define METRO			     71 
 
 // Strings
 // Error IDs
