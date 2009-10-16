@@ -1,0 +1,9 @@
+
+// --------------------------
+// ----- Error messages -----
+// --------------------------
+-1 * 0  04 00 LANG_ID2 \b1 ER_SELFONLY_W        STR_ER_ONEUNIT      00
+-1 * 0  04 00 LANG_ID2 \b1 ER_SUBSELFONLY_W	STR_ER_SUBSELFONLY  00
+-1 * 0  04 00 LANG_ID2 \b1 ER_MUONLYONMU_W	STR_ER_MUONLYONMU   00
+-1 * 0  04 00 LANG_ID2 \b1 ER_CSLOBONLY_W	STR_ER_CSLOBONLY    00
+-1 * 0  04 00 LANG_ID2 \b1 ER_ONLYMU_W	        STR_ER_ONLYMU       00
