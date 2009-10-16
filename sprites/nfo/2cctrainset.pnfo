@@ -82,6 +82,10 @@ sprites/nfo/mus/vt612.pnfo
 sprites/nfo/mus/x2000.pnfo
 sprites/nfo/mus/y2.pnfo
 
+// Metros:
+sprites/nfo/metro/81-729.pnfo
+
+
 // Maglevs
 sprites/nfo/maglev.pnfo
 sprites/nfo/mus/chim.pnfo
