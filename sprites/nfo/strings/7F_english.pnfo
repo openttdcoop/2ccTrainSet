@@ -32,31 +32,10 @@
 // NB: Running costs are per 1 unit
 
 // Wagon Names
-#define STR_METRO "                 Metro Wagon"
-#define STR_MUWAG "                 Multiple Unit Wagon"
+#define STR_METRO "Metro Wagon"
+#define STR_MUWAG "Multiple Unit Wagon"
 
-// Inclusions
-#include "mus.txt.pnfo"
-#include "engines.txt.pnfo"
-#include "metros.txt.pnfo"
-#include "wagons.pnfo"
-#include "names.pnfo"
-#include "errors.pnfo"
 
-// Undefines
-#undef	WORD_CC
-#undef	WORD_PAX
-#undef	WORD_MAIL
-#undef	WORD_ARMOR
-#undef	WORD_LS
-#undef	WORD_FAST
-#undef	WORD_MEDIUM
-#undef	WORD_SLOW
-#undef	WORD_RC_1U
-#undef	STR_ER_ONEUNIT
-#undef	STR_ER_SELFONLY
-#undef	STR_ER_SUBSELFONLY
-#undef	STR_ER_MUONLYONMU
-#undef	STR_ER_CSLOBONLY
-#undef	STR_ER_ONLYMU
-#undef	STR_ER_NORAILCARS
+// Dont touch this:
+#include "include.pnfo"
+#include "undef.pnfo"

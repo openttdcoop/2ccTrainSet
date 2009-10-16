@@ -1,0 +1,40 @@
+
+//2CC trainset Translation File
+//Language: Aorwegian
+//Lang-ID: 2F -> AF
+
+#define LANG_ID  2F
+#define LANG_ID2 AF
+
+// Words for use in the purchase window - Note the spaces in front or at the end of 
+#define WORD_CC         "Vogn Kapasitet: "
+#define WORD_PAX        " Passasjerer"
+#define WORD_MAIL       " Post"
+#define WORD_ARMOR      " Verdigjenstander" 
+#define WORD_LS         "Lastehastighet: "
+#define WORD_FAST       "Kjapt"
+#define WORD_MEDIUM     "Medium"
+#define WORD_SLOW       "Treg"
+#define WORD_RC_1U      "Driftskostnader er per 1 enhet"
+
+// Error messages
+#define STR_ER_ONEUNIT      "Kan kun være 1 enhet lang"
+#define STR_ER_SELFONLY     "Kan kun festes til sin egen type"
+#define STR_ER_SUBSELFONLY  "Undergrunnstog kan kun festes til sin egen type"
+#define STR_ER_MUONLYONMU   "Multienhetsvognen kan kun festes til Multienhetstog"
+#define STR_ER_CSLOBONLY    "Use only long boxcars on CargoSprinter"
+#define STR_ER_ONLYMU       "Bruk utelukkende Multienhetsvogn"
+#define STR_ER_NORAILCARS   "Sporvogner kan ikke festes til lokomotiver"
+
+// Example of on what the use of theese words are
+// Carriage Capacity: 60 Passengers / 45 Mail / 30 Valuabels
+// Loading speed: Slow
+// NB: Running costs are per 1 unit
+
+// Wagon Names
+#define STR_METRO "Undergrunnsvogn"
+#define STR_MUWAG "Multienhetsvogn"
+
+// Dont touch this:
+#include "include.pnfo"
+#include "undef.pnfo"
