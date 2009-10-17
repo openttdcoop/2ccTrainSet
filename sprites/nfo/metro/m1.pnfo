@@ -160,8 +160,9 @@
                              20  00       // GFX depending on cargo if not last
 
 // Callbacks
--1 * 0  02 00 5F 81 0C 00 FF 03          // 3 callbacks
-                             E1 00 12 12 // Loading speed
+-1 * 0  02 00 5F 81 0C 00 FF 04          // 3 callbacks
+                             01 80 11 11 // Wagon length reduction
+			     E1 00 12 12 // Loading speed
                              E6 00 15 15 // Cargo Capacity
                              EF 00 36 36 // Change props
                              51 00       // Attach GFX
