@@ -3,11 +3,16 @@
 // nnn
 //-1 * 0  04 00 LANG_ID2 \b1 STR_W_MET_nnn      "\n"
 //                                WORD_CC 8A MET_nnn_CAP_WAG_PAX_STR WORD_PAX " / " MET_nnn_CAP_WAG_MAIL_STR WORD_MAIL " / " MET_nnn_CAP_WAG_ARMOR_STR WORD_ARMOR  "\n" 
-//                                98 WORD_LS 8A WORD_changeme  "\n"
+//                                98 WORD_LS 8A WORD_FAST  "\n"
 //                                8B "NB: " 98 WORD_RC_1U	00
 
 // 81_729
 -1 * 0  04 00 LANG_ID2 \b1 STR_W_MET_81_729      "\n"
                                 WORD_CC 8A MET_81_729_CAP_WAG_PAX_STR WORD_PAX " / " MET_81_729_CAP_WAG_MAIL_STR WORD_MAIL " / " MET_81_729_CAP_WAG_ARMOR_STR WORD_ARMOR  "\n" 
+                                98 WORD_LS 8A WORD_FAST  "\n"
+                                8B "NB: " 98 WORD_RC_1U	00
+// 01800
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MET_01800      "\n"
+                                WORD_CC 8A MET_01800_CAP_WAG_PAX_STR WORD_PAX " / " MET_01800_CAP_WAG_MAIL_STR WORD_MAIL " / " MET_01800_CAP_WAG_ARMOR_STR WORD_ARMOR  "\n" 
                                 98 WORD_LS 8A WORD_FAST  "\n"
                                 8B "NB: " 98 WORD_RC_1U	00
