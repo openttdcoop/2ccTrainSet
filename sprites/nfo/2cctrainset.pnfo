@@ -87,6 +87,9 @@ sprites/nfo/metro/81-729.pnfo
 sprites/nfo/metro/01800.pnfo
 sprites/nfo/metro/caf90.pnfo
 sprites/nfo/metro/ev3-200.pnfo
+sprites/nfo/metro/m1.pnfo
+sprites/nfo/metro/pjang.pnfo
+sprites/nfo/metro/tokyo-s01.pnfo
 
 // Maglevs
 sprites/nfo/maglev.pnfo
