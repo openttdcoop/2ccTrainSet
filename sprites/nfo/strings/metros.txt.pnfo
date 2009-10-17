@@ -21,6 +21,11 @@
                                 WORD_CC 8A MET_CAF90_CAP_WAG_PAX_STR WORD_PAX " / " MET_CAF90_CAP_WAG_MAIL_STR WORD_MAIL " / " MET_CAF90_CAP_WAG_ARMOR_STR WORD_ARMOR  "\n" 
                                 98 WORD_LS 8A WORD_FAST  "\n"
                                 8B "NB: " 98 WORD_RC_1U	00
+// CAIRO1987
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MET_CAIRO1987      "\n"
+                                WORD_CC 8A MET_CAIRO1987_CAP_WAG_PAX_STR WORD_PAX " / " MET_CAIRO1987_CAP_WAG_MAIL_STR WORD_MAIL " / " MET_CAIRO1987_CAP_WAG_ARMOR_STR WORD_ARMOR  "\n" 
+                                98 WORD_LS 8A WORD_FAST  "\n"
+                                8B "NB: " 98 WORD_RC_1U	00
 // EV3_200
 -1 * 0  04 00 LANG_ID2 \b1 STR_W_MET_EV3_200      "\n"
                                 WORD_CC 8A MET_EV3_200_CAP_WAG_PAX_STR WORD_PAX " / " MET_EV3_200_CAP_WAG_MAIL_STR WORD_MAIL " / " MET_EV3_200_CAP_WAG_ARMOR_STR WORD_ARMOR  "\n" 
@@ -29,6 +34,11 @@
 // M1
 -1 * 0  04 00 LANG_ID2 \b1 STR_W_MET_M1      "\n"
                                 WORD_CC 8A MET_M1_CAP_WAG_PAX_STR WORD_PAX " / " MET_M1_CAP_WAG_MAIL_STR WORD_MAIL " / " MET_M1_CAP_WAG_ARMOR_STR WORD_ARMOR  "\n" 
+                                98 WORD_LS 8A WORD_FAST  "\n"
+                                8B "NB: " 98 WORD_RC_1U	00
+// MP89
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MET_MP89      "\n"
+                                WORD_CC 8A MET_MP89_CAP_WAG_PAX_STR WORD_PAX " / " MET_MP89_CAP_WAG_MAIL_STR WORD_MAIL " / " MET_MP89_CAP_WAG_ARMOR_STR WORD_ARMOR  "\n" 
                                 98 WORD_LS 8A WORD_FAST  "\n"
                                 8B "NB: " 98 WORD_RC_1U	00
 // P_DSTOCK
