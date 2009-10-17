@@ -1471,8 +1471,8 @@
 	#define MET_CAIRO1987_RCOST_IDLE \b14	
 	#define MET_CAIRO1987_RCBASE \dx4C30	
 	#define MET_CAIRO1987_TRACTION_TYPE 32	
-	#define MET_CAIRO1987_ID_W \w4630	
-	#define MET_CAIRO1987_ID_B \b*4630	
+	#define MET_CAIRO1987_ID_W \w4631	
+	#define MET_CAIRO1987_ID_B \b*4631	
 	#define STR_W_MET_CAIRO1987 \wxD0A5	
 	#define STR_B_MET_CAIRO1987 A5	
 	
@@ -1503,8 +1503,8 @@
 	#define MET_CII_RCOST_IDLE \b14	
 	#define MET_CII_RCBASE \dx4C30	
 	#define MET_CII_TRACTION_TYPE 32	
-	#define MET_CII_ID_W \w4631	
-	#define MET_CII_ID_B \b*4631	
+	#define MET_CII_ID_W \w4632	
+	#define MET_CII_ID_B \b*4632	
 	#define STR_W_MET_CII \wxD0A6	
 	#define STR_B_MET_CII A6	
 	
