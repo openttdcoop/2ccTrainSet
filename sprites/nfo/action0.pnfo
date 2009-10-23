@@ -2891,7 +2891,6 @@
 	#define ENG_NER_EF1_V_LIFE \b40	
 	#define ENG_NER_EF1_M_LIFE \b30	
 	#define ENG_NER_EF1_SPEED \w40
-25	
 	#define ENG_NER_EF1_TE \b46	
 	#define ENG_NER_EF1_HP \w1100	
 	#define ENG_NER_EF1_WAG_HP \w0	
@@ -2920,7 +2919,6 @@
 	#define STR_W_ENG_NER_EF1 \wxD0FA	
 	#define STR_B_ENG_NER_EF1 FA	
 	
-	250	D0FA	-1 * 0  04 00 LANG_ID2 \b1 STR_W_ENG_NER_EF1 "\n"
 #define ENG_NS1000_INTROYEAR \w1948-1-1	
 	#define ENG_NS1000_V_LIFE \b40	
 	#define ENG_NS1000_M_LIFE \b30	
