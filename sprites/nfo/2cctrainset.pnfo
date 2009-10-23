@@ -1,12 +1,12 @@
 // nfo renum header
 sprites/nfo/nfo_header.pnfo
 
+// Header file(s)
+sprites/nfo/header.pnfo
+
 // definitions
 sprites/nfo/ids.pnfo
 sprites/nfo/action0.pnfo
-
-// Header file(s)
-sprites/nfo/header.pnfo
 
 // Language files
 sprites/nfo/strings/languages.pnfo
