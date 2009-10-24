@@ -1,5 +1,6 @@
 
 // Vehicle IDs for wagons
+#define TENDER			     00
 #define MU                           70
 #define METRO			     71 
 
