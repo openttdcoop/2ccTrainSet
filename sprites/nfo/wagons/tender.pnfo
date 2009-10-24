@@ -1,0 +1,39 @@
+// Action 0
+-1 * 0  00 00 \b30 01 TENDER
+// Game related props 
+  02 \b01	// Reliability Decay
+  03 00	// Vehicle Life/Years
+  04 00	// Model Life/Years
+  05 00		// Track type; 00 Rail, 01 Mono, 02 Mlev
+  06 00		// Climate availability
+  07 \b10	// Loading Speed - Not needed in most cases
+  08 00 	// AI Pax optimized
+   
+// Physical properties
+  00 \w1920-01-01	// Intro year \wyyyy-mm-dd
+  09 \w1000		// Speed (word)
+  0B \w0		// Power in HP (word)
+  1B \w0           // Power in HP on attached wagons
+  1F \b0		// Tractive effort
+  16 \b0           // Weight/Tons
+  24 \b0      // Highbyte on engines weighing >255 tons
+  20 20                         // Air Drag
+
+// Economical properties
+  14 \b0  		     // Cargo Capacity
+  15 00		             // Cargo Type
+  1D \dx0                    // Refit bitmask
+  28 \wx0	             // New cargo classes
+  29 \wx0		     // New NOT Cargo classes
+  0D \b0         // RUN Cost Factor
+  0E ENG_DM3_RCBASE    // RUN cost Base
+  17 00			     // Cost Factor
+  1C 00			     // Refit cost
+
+// Misc
+  12 FD	// Use new grapics
+  19 00 // Traction type 
+  13 00	// Dualhead? 00/01 (should "always" be 00)
+  1E FF // Callbacks
+  21 00 // Shorter vehicle
+  27 06 // 01 tilt + 02 2cc + 04 xMU
