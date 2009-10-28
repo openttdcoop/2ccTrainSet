@@ -1,7 +1,31 @@
 // change "nnn" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
+#ifndef THIS_PCX_FILE
+#error "THIS_PCX_FILE is not defined! in __FILE__:__LINE__"
+#endif
 
-#define THIS_PCX_FILE	sprites/pcx/engines/nnn.pcx  // Graphics file
+#ifndef ENG_nnn_TRACKTYPE
+#define ENG_nnn_TRACKTYPE 00
+#endif
 
+#ifndef ENG_nnn_LOADINGSPEED
+#define ENG_nnn_LOADINGSPEED \b10
+#endif
+
+#if !defined (ENG_nnn_V_LIFE) || !defined (ENG_nnn_M_LIFE) || !defined (ENG_nnn_INTROYEAR) || !defined (ENG_nnn_SPEED)
+#error "One or more game properties not defined"
+#endif
+
+#if !defined (ENG_nnn_SPEED) || !defined (ENG_nnn_HP) || !defined (ENG_nnn_WAG_HP) || !defined (ENG_nnn_TE) || !defined (ENG_nnn_WEIGHT) || !defined(ENG_nnn_WEIGHT_HIGH)
+#error "One or more physical properties not defined"
+#endif
+
+#if !defined (ENG_nnn_CAP_HEAD_PAX) || !defined (ENG_nnn_RCOST) || !defined (ENG_nnn_RCBASE) || !defined (ENG_nnn_PCOST)
+#error "One or more economical properties not defined"
+#endif
+
+#if !defined (ENG_nnn_TRACTION_TYPE)
+#error "One or more misc properties not defined"
+#endif
 
 // Action 0
 -1 * 0  00 00 \b30 01 ENG_nnn_ID_B
@@ -9,9 +33,9 @@
   02 \b01	// Reliability Decay
   03 ENG_nnn_V_LIFE	// Vehicle Life/Years
   04 ENG_nnn_M_LIFE	// Model Life/Years
-  05 00		// Track type; 00 Rail, 01 Mono, 02 Mlev
+  05 ENG_nnn_TRACKTYPE		// Track type; 00 Rail, 01 Mono, 02 Mlev
   06 07		// Climate availability
-  07 \b10	// Loading Speed - Not needed in most cases
+  07 ENG_nnn_LOADINGSPEED	// Loading Speed - Not needed in most cases
   08 01		// AI Pax optimized
    
 // Physical properties
@@ -81,7 +105,7 @@
 -1 * 0  02 00 40 01 01 \w1 \w1 // P-list
 
 // ----- Apply Purchase list text -----
--1 * 0  02 00 4F 81 0C 00 FF 01   STR_B_ENG_nnn 80 23 23   40 00
+-1 * 0  02 00 4F 81 0C 00 FF 01   ENG_nnn_STR_B 80 23 23   40 00
 
 // --------------------
 // ----- Generic ------
@@ -120,3 +144,20 @@
               AF 00		// Normal
 
 #undef THIS_PCX_FILE
+#undef ENG_nnn_V_LIFE
+#undef ENG_nnn_RCOST_IDLE
+#undef ENG_nnn_RCOST
+#undef ENG_nnn_TRACKTYPE
+#undef ENG_nnn_LOADINGSPEED
+#undef ENG_nnn_M_LIFE
+#undef ENG_nnn_INTROYEAR	// Intro year \wyyyy-mm-dd
+#undef ENG_nnn_SPEED		// Speed (word)
+#undef ENG_nnn_HP		// Power in HP (word)
+#undef ENG_nnn_WAG_HP           // Power in HP on attached wagons
+#undef ENG_nnn_TE		// Tractive effort
+#undef ENG_nnn_WEIGHT           // Weight/Tons
+#undef ENG_nnn_WEIGHT_HIGH      // Highbyte on engines weighing >255 tons
+#undef ENG_nnn_CAP_HEAD_PAX  	// Cargo Capacity
+#undef ENG_nnn_RCOST    	// RUN Cost Factor
+#undef ENG_nnn_RCBASE   	// RUN cost Base
+#undef ENG_nnn_PCOST		// Cost Factor

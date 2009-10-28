@@ -21,3 +21,5 @@
 #define ER_CSLOBONLY_W	        \wxD0E4
 #define ER_ONLYMU_W     	\wxD0E5
 #define ER_NORAILCARS_W         \wxD0E6
+
+#define TEMPLATE_ENGINES "../../../templates/template-engine.pnfo"
