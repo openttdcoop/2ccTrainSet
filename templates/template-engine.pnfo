@@ -106,9 +106,9 @@
   1D THIS_ENG_REFITMASK		// Refit bitmask
   28 THIS_ENG_CARGOCLASSES      // New cargo classes
   29 THIS_ENG_NOTCARGOCLASSES   // New NOT Cargo classes
-  0D THIS_ENG_RCOST       // RUN Cost Factor
-  0E THIS_ENG_RCBASE  // RUN cost Base
-  17 THIS_ENG_PCOST      // Cost Factor
+  0D THIS_ENG_RCOST             // RUN Cost Factor
+  0E THIS_ENG_RCBASE            // RUN cost Base
+  17 THIS_ENG_PCOST             // Cost Factor
   1C THIS_ENG_REFITCOST		// Refit cost
 
 // Misc
@@ -164,9 +164,9 @@
 // --------------------
 
 //Low cost when standing still, for use in the '10' at the RUN cost spot HEAD
--1 * 0  02 00 EC 82 B4 00 FF 01			// 1 case
+-1 * 0  02 00 EC 82 B4 00 FF 01			                // 1 case
                           THIS_ENG_RCOST_IDLE 80 00 00	        // Standing still cost 
-                          THIS_ENG_RCOST 80	// RUN cost
+                          THIS_ENG_RCOST 80	                // RUN cost
 
 // '10' for CB36s HEAD
 -1 * 0  02 00 EE 81 10 00 FF 01
@@ -178,20 +178,20 @@
 // --------------------
 
 // Cannot attach 
--1 * 0  02 00 A6 85 C6 00 FF FF 03             // 2 cases
+-1 * 0  02 00 A6 85 C6 00 FF FF 03                          // 2 cases
                              ER_MUONLYONMU 80 MU 00 MU 00   // allow attaching MU-wagon
                              ER_MUONLYONMU 80 \w3000 \w3999 // Not allowing MUs
                              ER_NORAILCARS 80 \w4000 \w4500 // No railcars
-                             FF 80             // Allow everything else
--1 * 0  02 00 AF 81 0C 00 FF 02          // 4 callbacks
-                             A6 00 1D 1D// Cannot attach 
-                             EE 00 36 36 // New stuff
-                             10 00       // Attach engine gfx
+                             FF 80                          // Allow everything else
+-1 * 0  02 00 AF 81 0C 00 FF 02                             // 4 callbacks
+                             A6 00 1D 1D                    // Cannot attach 
+                             EE 00 36 36                    // New stuff
+                             10 00                          // Attach engine gfx
 
 // ----------------------
 // ----- Action 3's -----
 // ----------------------
--1 * 0  03 00 01 THIS_ENG_ID_B 01	//
+-1 * 0  03 00 01 THIS_ENG_ID_B 01
               FF 4F 00		// P-list
               AF 00		// Normal
 
@@ -211,9 +211,9 @@
 #undef THIS_ENG_WEIGHT           // Weight/Tons
 #undef THIS_ENG_WEIGHT_HIGH      // Highbyte on engines weighing >255 tons
 #undef THIS_ENG_CAP_HEAD_PAX  	 // Cargo Capacity
-#undef THIS_ENG_RCOST      // RUN Cost Factor
-#undef THIS_ENG_RCBASE // RUN cost Base
-#undef THIS_ENG_PCOST     // Cost Factor
+#undef THIS_ENG_RCOST            // RUN Cost Factor
+#undef THIS_ENG_RCBASE           // RUN cost Base
+#undef THIS_ENG_PCOST            // Cost Factor
 #undef THIS_ENG_STR_B		
 // Those which are defined here or outside
 #undef THIS_ENG_TRACTION_TYPE	
