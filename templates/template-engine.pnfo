@@ -36,7 +36,7 @@
 #endif
 
 #ifndef THIS_ENG_MISC		// 01 tilt + 02 2cc + 04 xMU
-#define THIS_ENG_MISC 06
+#define THIS_ENG_MISC 02
 #endif
 
 #ifndef THIS_ENG_SHORTERVEHICLE	// Shorter vehicle
