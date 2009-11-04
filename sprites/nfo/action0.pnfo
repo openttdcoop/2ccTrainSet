@@ -2370,7 +2370,6 @@
 	#define ENG_NER_EF1_V_LIFE \b40	
 	#define ENG_NER_EF1_M_LIFE \b30	
 	#define ENG_NER_EF1_SPEED \w40
-25	
 	#define ENG_NER_EF1_TE \b46	
 	#define ENG_NER_EF1_HP \w1100	
 	#define ENG_NER_EF1_WAG_HP \w0	
