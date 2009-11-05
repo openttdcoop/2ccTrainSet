@@ -119,6 +119,7 @@
 -1 * 0  04 00 LANG_ID \b1 MU_PLANY_ID_B	     SPACE "Plan Y  "     00
 -1 * 0  04 00 LANG_ID \b1 MU_RBDE560_ID_B	     SPACE "Rbde560"		  00
 -1 * 0  04 00 LANG_ID \b1 MU_RADBE510_ID_B	     SPACE "Radbe510"		  00
+-1 * 0  04 00 LANG_ID \b1 MU_RAE_TEE2_ID_B	     SPACE "RAe TEE II"		  00
 -1 * 0  04 00 LANG_ID \b1 MU_VT612_ID_B	     SPACE "VT612 'Regioswinger'"		  00
 -1 * 0  04 00 LANG_ID \b1 MU_SM2_ID_B	     SPACE "SM2"		  00
 -1 * 0  04 00 LANG_ID \b1 MU_SM4_ID_B	     SPACE "SM4"		  00
