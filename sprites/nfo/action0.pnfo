@@ -243,9 +243,9 @@
 	#define MU_CD_ARMOR_LS \b10	
 	#define MU_CD_WEIGHT \b38	
 	#define MU_CD_WEIGHT_HIGH \b0	
-	#define MU_CD_PCOST \b15	
-	#define MU_CD_RCOST \b89	
-	#define MU_CD_RCOST_WAG \b89	
+	#define MU_CD_PCOST \b16	
+	#define MU_CD_RCOST \b93	
+	#define MU_CD_RCOST_WAG \b93	
 	#define MU_CD_RCOST_IDLE \b14	
 	#define MU_CD_RCBASE \dx4C30	
 	#define MU_CD_TRACTION_TYPE 8	
@@ -308,7 +308,7 @@
 	#define MU_IC125_WEIGHT \b70	
 	#define MU_IC125_WEIGHT_HIGH \b0	
 	#define MU_IC125_PCOST \b27	
-	#define MU_IC125_RCOST \b151	
+	#define MU_IC125_RCOST \b155	
 	#define MU_IC125_RCOST_WAG \b0	
 	#define MU_IC125_RCOST_IDLE \b1	
 	#define MU_IC125_RCBASE \dx4c3C	
@@ -372,7 +372,7 @@
 	#define MU_LRC_WEIGHT \b65	
 	#define MU_LRC_WEIGHT_HIGH \b0	
 	#define MU_LRC_PCOST \b25	
-	#define MU_LRC_RCOST \b133	
+	#define MU_LRC_RCOST \b136	
 	#define MU_LRC_RCOST_WAG \b0	
 	#define MU_LRC_RCOST_IDLE \b1	
 	#define MU_LRC_RCBASE \dx4c3C	
@@ -1022,6 +1022,38 @@
 	#define STR_W_MU_RBDE560 \wxD01F	
 	#define STR_B_MU_RBDE560 1F	
 	
+#define MU_RAE_TEE2_INTROYEAR \w1961-1-1	
+	#define MU_RAE_TEE2_V_LIFE \b25	
+	#define MU_RAE_TEE2_M_LIFE \b25	
+	#define MU_RAE_TEE2_SPEED \w160	
+	#define MU_RAE_TEE2_TE \b94	
+	#define MU_RAE_TEE2_HP \w425	
+	#define MU_RAE_TEE2_WAG_HP \w425	
+	#define MU_RAE_TEE2_CAP_WAG_PAX \b60	
+	#define MU_RAE_TEE2_CAP_WAG_MAIL \b45	
+	#define MU_RAE_TEE2_CAP_WAG_ARMOR \b30	
+	#define MU_RAE_TEE2_CAP_WAG_PAX_STR "60"	
+	#define MU_RAE_TEE2_CAP_WAG_MAIL_STR "45"	
+	#define MU_RAE_TEE2_CAP_WAG_ARMOR_STR "30"	
+	#define MU_RAE_TEE2_CAP_HEAD_PAX \b60	
+	#define MU_RAE_TEE2_CAP_HEAD_MAIL \b45	
+	#define MU_RAE_TEE2_CAP_HEAD_ARMOR \b30	
+	#define MU_RAE_TEE2_PAX_LS \b1	
+	#define MU_RAE_TEE2_MAIL_LS \b1	
+	#define MU_RAE_TEE2_ARMOR_LS \b1	
+	#define MU_RAE_TEE2_WEIGHT \b52	
+	#define MU_RAE_TEE2_WEIGHT_HIGH \b0	
+	#define MU_RAE_TEE2_PCOST \b19	
+	#define MU_RAE_TEE2_RCOST \b73	
+	#define MU_RAE_TEE2_RCOST_WAG \b73	
+	#define MU_RAE_TEE2_RCOST_IDLE \b14	
+	#define MU_RAE_TEE2_RCBASE \dx4C30	
+	#define MU_RAE_TEE2_TRACTION_TYPE 28	
+	#define MU_RAE_TEE2_ID_W \w3772	
+	#define MU_RAE_TEE2_ID_B \b*3772	
+	#define STR_W_MU_RAE_TEE2 \wxD020	
+	#define STR_B_MU_RAE_TEE2 20	
+	
 #define MU_SM2_INTROYEAR \w1975-1-1	
 	#define MU_SM2_V_LIFE \b25	
 	#define MU_SM2_M_LIFE \b25	
@@ -1051,8 +1083,8 @@
 	#define MU_SM2_TRACTION_TYPE 28	
 	#define MU_SM2_ID_W \w3780	
 	#define MU_SM2_ID_B \b*3780	
-	#define STR_W_MU_SM2 \wxD020	
-	#define STR_B_MU_SM2 20	
+	#define STR_W_MU_SM2 \wxD021	
+	#define STR_B_MU_SM2 21	
 	
 #define MU_SM4_INTROYEAR \w1999-1-1	
 	#define MU_SM4_V_LIFE \b25	
@@ -1083,8 +1115,8 @@
 	#define MU_SM4_TRACTION_TYPE 28	
 	#define MU_SM4_ID_W \w3781	
 	#define MU_SM4_ID_B \b*3781	
-	#define STR_W_MU_SM4 \wxD021	
-	#define STR_B_MU_SM4 21	
+	#define STR_W_MU_SM4 \wxD022	
+	#define STR_B_MU_SM4 22	
 	
 #define MU_TGV_A_INTROYEAR \w1988-1-1	
 	#define MU_TGV_A_V_LIFE \b25	
@@ -1115,8 +1147,8 @@
 	#define MU_TGV_A_TRACTION_TYPE 28	
 	#define MU_TGV_A_ID_W \w3790	
 	#define MU_TGV_A_ID_B \b*3790	
-	#define STR_W_MU_TGV_A \wxD022	
-	#define STR_B_MU_TGV_A 22	
+	#define STR_W_MU_TGV_A \wxD023	
+	#define STR_B_MU_TGV_A 23	
 	
 #define MU_TGV_D_INTROYEAR \w1995-1-1	
 	#define MU_TGV_D_V_LIFE \b25	
@@ -1147,8 +1179,8 @@
 	#define MU_TGV_D_TRACTION_TYPE 28	
 	#define MU_TGV_D_ID_W \w3791	
 	#define MU_TGV_D_ID_B \b*3791	
-	#define STR_W_MU_TGV_D \wxD023	
-	#define STR_B_MU_TGV_D 23	
+	#define STR_W_MU_TGV_D \wxD024	
+	#define STR_B_MU_TGV_D 24	
 	
 #define MU_TGV_T_INTROYEAR \w1995-1-1	
 	#define MU_TGV_T_V_LIFE \b25	
@@ -1179,8 +1211,8 @@
 	#define MU_TGV_T_TRACTION_TYPE 28	
 	#define MU_TGV_T_ID_W \w3792	
 	#define MU_TGV_T_ID_B \b*3792	
-	#define STR_W_MU_TGV_T \wxD024	
-	#define STR_B_MU_TGV_T 24	
+	#define STR_W_MU_TGV_T \wxD025	
+	#define STR_B_MU_TGV_T 25	
 	
 #define MU_TGV_V150_INTROYEAR \w2007-1-1	
 	#define MU_TGV_V150_V_LIFE \b25	
@@ -1211,8 +1243,8 @@
 	#define MU_TGV_V150_TRACTION_TYPE 28	
 	#define MU_TGV_V150_ID_W \w3793	
 	#define MU_TGV_V150_ID_B \b*3793	
-	#define STR_W_MU_TGV_V150 \wxD025	
-	#define STR_B_MU_TGV_V150 25	
+	#define STR_W_MU_TGV_V150 \wxD026	
+	#define STR_B_MU_TGV_V150 26	
 	
 #define MU_X2000_INTROYEAR \w1990-1-1	
 	#define MU_X2000_V_LIFE \b25	
@@ -1243,8 +1275,8 @@
 	#define MU_X2000_TRACTION_TYPE 28	
 	#define MU_X2000_ID_W \w3830	
 	#define MU_X2000_ID_B \b*3830	
-	#define STR_W_MU_X2000 \wxD026	
-	#define STR_B_MU_X2000 26	
+	#define STR_W_MU_X2000 \wxD027	
+	#define STR_B_MU_X2000 27	
 	
 #define MU_CHIM_INTROYEAR \w2035-1-1	
 	#define MU_CHIM_V_LIFE \b25	
@@ -1275,8 +1307,8 @@
 	#define MU_CHIM_TRACTION_TYPE 38	
 	#define MU_CHIM_ID_W \w00	
 	#define MU_CHIM_ID_B \b*00	
-	#define STR_W_MU_CHIM \wxD027	
-	#define STR_B_MU_CHIM 27	
+	#define STR_W_MU_CHIM \wxD028	
+	#define STR_B_MU_CHIM 28	
 	
 #define ENG_422_INTROYEAR \w1969-1-1	
 	#define ENG_422_V_LIFE \b40	
@@ -2078,6 +2110,38 @@
 	#define STR_W_ENG_DS3 \wxD0FA	
 	#define STR_B_ENG_DS3 FA	
 	
+#define ENG_DB_E103_INTROYEAR \w1970-1-1	
+	#define ENG_DB_E103_V_LIFE \b40	
+	#define ENG_DB_E103_M_LIFE \b25	
+	#define ENG_DB_E103_SPEED \w200	
+	#define ENG_DB_E103_TE \b71	
+	#define ENG_DB_E103_HP \w9980	
+	#define ENG_DB_E103_WAG_HP \w0	
+	#define ENG_DB_E103_CAP_WAG_PAX \b0	
+	#define ENG_DB_E103_CAP_WAG_MAIL \b0	
+	#define ENG_DB_E103_CAP_WAG_ARMOR \b0	
+	#define ENG_DB_E103_CAP_WAG_PAX_STR "0"	
+	#define ENG_DB_E103_CAP_WAG_MAIL_STR "0"	
+	#define ENG_DB_E103_CAP_WAG_ARMOR_STR "0"	
+	#define ENG_DB_E103_CAP_HEAD_PAX \b0	
+	#define ENG_DB_E103_CAP_HEAD_MAIL \b0	
+	#define ENG_DB_E103_CAP_HEAD_ARMOR \b0	
+	#define ENG_DB_E103_PAX_LS \b1	
+	#define ENG_DB_E103_MAIL_LS \b1	
+	#define ENG_DB_E103_ARMOR_LS \b1	
+	#define ENG_DB_E103_WEIGHT \b114	
+	#define ENG_DB_E103_WEIGHT_HIGH \b0	
+	#define ENG_DB_E103_PCOST \b0	
+	#define ENG_DB_E103_RCOST \b0	
+	#define ENG_DB_E103_RCOST_WAG \b0	
+	#define ENG_DB_E103_RCOST_IDLE \b14	
+	#define ENG_DB_E103_RCBASE \dx4C30	
+	#define ENG_DB_E103_TRACTION_TYPE 28	
+	#define ENG_DB_E103_ID_W \w2623	
+	#define ENG_DB_E103_ID_B \b*2623	
+	#define STR_W_ENG_DB_E103 \wxD0FA	
+	#define STR_B_ENG_DB_E103 FA	
+	
 #define ENG_E04_01_INTROYEAR \w1933-1-1	
 	#define ENG_E04_01_V_LIFE \b40	
 	#define ENG_E04_01_M_LIFE \b30	
@@ -2525,6 +2589,38 @@
 	#define ENG_SS6_ID_B \b*2771	
 	#define STR_W_ENG_SS6 \wxD0FA	
 	#define STR_B_ENG_SS6 FA	
+	
+#define ENG_SNCF_BB_22000_INTROYEAR \w1976-1-1	
+	#define ENG_SNCF_BB_22000_V_LIFE \b40	
+	#define ENG_SNCF_BB_22000_M_LIFE \b20	
+	#define ENG_SNCF_BB_22000_SPEED \w160	
+	#define ENG_SNCF_BB_22000_TE \b85	
+	#define ENG_SNCF_BB_22000_HP \w5842	
+	#define ENG_SNCF_BB_22000_WAG_HP \w0	
+	#define ENG_SNCF_BB_22000_CAP_WAG_PAX \b0	
+	#define ENG_SNCF_BB_22000_CAP_WAG_MAIL \b0	
+	#define ENG_SNCF_BB_22000_CAP_WAG_ARMOR \b0	
+	#define ENG_SNCF_BB_22000_CAP_WAG_PAX_STR "0"	
+	#define ENG_SNCF_BB_22000_CAP_WAG_MAIL_STR "0"	
+	#define ENG_SNCF_BB_22000_CAP_WAG_ARMOR_STR "0"	
+	#define ENG_SNCF_BB_22000_CAP_HEAD_PAX \b0	
+	#define ENG_SNCF_BB_22000_CAP_HEAD_MAIL \b0	
+	#define ENG_SNCF_BB_22000_CAP_HEAD_ARMOR \b0	
+	#define ENG_SNCF_BB_22000_PAX_LS \b1	
+	#define ENG_SNCF_BB_22000_MAIL_LS \b1	
+	#define ENG_SNCF_BB_22000_ARMOR_LS \b1	
+	#define ENG_SNCF_BB_22000_WEIGHT \b90	
+	#define ENG_SNCF_BB_22000_WEIGHT_HIGH \b0	
+	#define ENG_SNCF_BB_22000_PCOST \b26	
+	#define ENG_SNCF_BB_22000_RCOST \b93	
+	#define ENG_SNCF_BB_22000_RCOST_WAG \b0	
+	#define ENG_SNCF_BB_22000_RCOST_IDLE \b1	
+	#define ENG_SNCF_BB_22000_RCBASE \dx4c3C	
+	#define ENG_SNCF_BB_22000_TRACTION_TYPE 28	
+	#define ENG_SNCF_BB_22000_ID_W \w2772	
+	#define ENG_SNCF_BB_22000_ID_B \b*2772	
+	#define STR_W_ENG_SNCF_BB_22000 \wxD0FA	
+	#define STR_B_ENG_SNCF_BB_22000 FA	
 	
 #define ENG_VL15_INTROYEAR \w1984-1-1	
 	#define ENG_VL15_V_LIFE \b40	

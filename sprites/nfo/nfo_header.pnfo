@@ -14,3 +14,6 @@
 
 // warning about Default ID appears earlier in sprite.
 //@@WARNING DISABLE 100
+
+// warning about bogus 1byte 2byte error
+//@@WARNING DISABLE 209
