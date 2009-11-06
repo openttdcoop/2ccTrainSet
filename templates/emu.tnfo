@@ -260,24 +260,36 @@
 // ------ Wagon -------
 // --------------------
 
+
+
 // GFX depending on what it carries 
 -1 * 0  02 00 50 81 47 10 FF 02
                              20 00 01 01 // PAX gfx
                              20 00 05 05 // Tourist GFX
                              30 00       // Other/mail/armor gfx
 
+// Change length of the different parts
+// Back head:
+-1 * 0  02 00 51 81 0C 00 FF 01
+        THIS_ENG_SHORTERVEHICLE 80 11 11 // Make wagon shorter
+                                11 00
+// Wagons
+-1 * 0  02 00 52 81 0C 00 FF 01
+    THIS_ENG_SHORTERVEHICLE_WAG 80 11 11 // Make wagon shorter
+                                50 00
+
+
 // GFX depending on pos in consist
--1 * 0  02 00 51 81 41 08 FF 01          // 1 case, counted from behind
-                             11 00 00 00 // Back engine if last
-                             50 00       // GFX depending on cargo if not last
+-1 * 0  02 00 5E 81 41 08 FF 01          // 1 case, counted from behind
+                             51 00 00 00 // Back engine if last
+                             52 00       // GFX depending on cargo if not last
 
 // Callbacks
--1 * 0  02 00 5F 81 0C 00 FF 04          // 4 callbacks
-    THIS_ENG_SHORTERVEHICLE_WAG 80 11 11 // Make wagon shorter               
+-1 * 0  02 00 5F 81 0C 00 FF 03          // 4 callbacks               
 			     E1 00 12 12 // Loading speed
                              E6 00 15 15 // Cargo Capacity
                              EF 00 36 36 // Change props
-                             51 00       // Attach GFX
+                             5E 00       // Attach GFX
 
 // ----------------------
 // ----- Action 3's -----
@@ -315,4 +327,6 @@
 #undef		THIS_ENG_RCBASE
 #undef		THIS_ENG_TRACTION_TYPE
 #undef		THIS_ENG_ID_B
-#undef		STR_B_THIS_ENG
+#undef		THIS_ENG_STR_B
+#undef		THIS_ENG_ID_W
+#undef		THIS_ENG_SHORTERVEHICLE_WAG
