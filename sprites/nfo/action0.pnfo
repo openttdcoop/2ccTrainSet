@@ -20,13 +20,13 @@
 	#define MU_594_WEIGHT \b49	
 	#define MU_594_WEIGHT_HIGH \b0	
 	#define MU_594_PCOST \b16	
-	#define MU_594_RCOST \b93	
-	#define MU_594_RCOST_WAG \b93	
+	#define MU_594_RCOST \b47	
+	#define MU_594_RCOST_WAG \b47	
 	#define MU_594_RCOST_IDLE \b14	
 	#define MU_594_RCBASE \dx4C30	
 	#define MU_594_TRACTION_TYPE 8	
-	#define MU_594_ID_W \w3050	
-	#define MU_594_ID_B \b*3050	
+	#define MU_594_ID_W \w3000	
+	#define MU_594_ID_B \b*3000	
 	#define STR_W_MU_594 \wxD000	
 	#define STR_B_MU_594 0	
 	
@@ -52,13 +52,13 @@
 	#define MU_811_WEIGHT \b55	
 	#define MU_811_WEIGHT_HIGH \b0	
 	#define MU_811_PCOST \b10	
-	#define MU_811_RCOST \b56	
-	#define MU_811_RCOST_WAG \b56	
+	#define MU_811_RCOST \b28	
+	#define MU_811_RCOST_WAG \b28	
 	#define MU_811_RCOST_IDLE \b14	
 	#define MU_811_RCBASE \dx4C30	
 	#define MU_811_TRACTION_TYPE 8	
-	#define MU_811_ID_W \w3080	
-	#define MU_811_ID_B \b*3080	
+	#define MU_811_ID_W \w3001	
+	#define MU_811_ID_B \b*3001	
 	#define STR_W_MU_811 \wxD001	
 	#define STR_B_MU_811 1	
 	
@@ -84,13 +84,13 @@
 	#define MU_BM93_WEIGHT \b29	
 	#define MU_BM93_WEIGHT_HIGH \b0	
 	#define MU_BM93_PCOST \b13	
-	#define MU_BM93_RCOST \b73	
-	#define MU_BM93_RCOST_WAG \b73	
+	#define MU_BM93_RCOST \b37	
+	#define MU_BM93_RCOST_WAG \b37	
 	#define MU_BM93_RCOST_IDLE \b14	
 	#define MU_BM93_RCBASE \dx4C30	
 	#define MU_BM93_TRACTION_TYPE 8	
-	#define MU_BM93_ID_W \w3110	
-	#define MU_BM93_ID_B \b*3110	
+	#define MU_BM93_ID_W \w3002	
+	#define MU_BM93_ID_B \b*3002	
 	#define STR_W_MU_BM93 \wxD002	
 	#define STR_B_MU_BM93 2	
 	
@@ -116,13 +116,13 @@
 	#define MU_BR150_WEIGHT \b34	
 	#define MU_BR150_WEIGHT_HIGH \b0	
 	#define MU_BR150_PCOST \b11	
-	#define MU_BR150_RCOST \b61	
-	#define MU_BR150_RCOST_WAG \b61	
+	#define MU_BR150_RCOST \b31	
+	#define MU_BR150_RCOST_WAG \b31	
 	#define MU_BR150_RCOST_IDLE \b14	
 	#define MU_BR150_RCBASE \dx4C30	
 	#define MU_BR150_TRACTION_TYPE 8	
-	#define MU_BR150_ID_W \w3111	
-	#define MU_BR150_ID_B \b*3111	
+	#define MU_BR150_ID_W \w3003	
+	#define MU_BR150_ID_B \b*3003	
 	#define STR_W_MU_BR150 \wxD003	
 	#define STR_B_MU_BR150 3	
 	
@@ -148,13 +148,13 @@
 	#define MU_BR158_WEIGHT \b37	
 	#define MU_BR158_WEIGHT_HIGH \b0	
 	#define MU_BR158_PCOST \b14	
-	#define MU_BR158_RCOST \b83	
-	#define MU_BR158_RCOST_WAG \b83	
+	#define MU_BR158_RCOST \b42	
+	#define MU_BR158_RCOST_WAG \b42	
 	#define MU_BR158_RCOST_IDLE \b14	
 	#define MU_BR158_RCBASE \dx4C30	
 	#define MU_BR158_TRACTION_TYPE 8	
-	#define MU_BR158_ID_W \w3112	
-	#define MU_BR158_ID_B \b*3112	
+	#define MU_BR158_ID_W \w3004	
+	#define MU_BR158_ID_B \b*3004	
 	#define STR_W_MU_BR158 \wxD004	
 	#define STR_B_MU_BR158 4	
 	
@@ -180,13 +180,13 @@
 	#define MU_BR168_WEIGHT \b50	
 	#define MU_BR168_WEIGHT_HIGH \b0	
 	#define MU_BR168_PCOST \b17	
-	#define MU_BR168_RCOST \b95	
-	#define MU_BR168_RCOST_WAG \b95	
+	#define MU_BR168_RCOST \b47	
+	#define MU_BR168_RCOST_WAG \b47	
 	#define MU_BR168_RCOST_IDLE \b14	
 	#define MU_BR168_RCBASE \dx4C30	
 	#define MU_BR168_TRACTION_TYPE 8	
-	#define MU_BR168_ID_W \w3113	
-	#define MU_BR168_ID_B \b*3113	
+	#define MU_BR168_ID_W \w3005	
+	#define MU_BR168_ID_B \b*3005	
 	#define STR_W_MU_BR168 \wxD005	
 	#define STR_B_MU_BR168 5	
 	
@@ -212,13 +212,13 @@
 	#define MU_CC_WEIGHT \b30	
 	#define MU_CC_WEIGHT_HIGH \b0	
 	#define MU_CC_PCOST \b13	
-	#define MU_CC_RCOST \b73	
-	#define MU_CC_RCOST_WAG \b73	
+	#define MU_CC_RCOST \b36	
+	#define MU_CC_RCOST_WAG \b36	
 	#define MU_CC_RCOST_IDLE \b14	
 	#define MU_CC_RCBASE \dx4C30	
 	#define MU_CC_TRACTION_TYPE 8	
-	#define MU_CC_ID_W \w3120	
-	#define MU_CC_ID_B \b*3120	
+	#define MU_CC_ID_W \w3006	
+	#define MU_CC_ID_B \b*3006	
 	#define STR_W_MU_CC \wxD006	
 	#define STR_B_MU_CC 6	
 	
@@ -244,13 +244,13 @@
 	#define MU_CD_WEIGHT \b38	
 	#define MU_CD_WEIGHT_HIGH \b0	
 	#define MU_CD_PCOST \b16	
-	#define MU_CD_RCOST \b93	
-	#define MU_CD_RCOST_WAG \b93	
+	#define MU_CD_RCOST \b46	
+	#define MU_CD_RCOST_WAG \b46	
 	#define MU_CD_RCOST_IDLE \b14	
 	#define MU_CD_RCBASE \dx4C30	
 	#define MU_CD_TRACTION_TYPE 8	
-	#define MU_CD_ID_W \w3121	
-	#define MU_CD_ID_B \b*3121	
+	#define MU_CD_ID_W \w3007	
+	#define MU_CD_ID_B \b*3007	
 	#define STR_W_MU_CD \wxD007	
 	#define STR_B_MU_CD 7	
 	
@@ -276,13 +276,13 @@
 	#define MU_HUNTER_WEIGHT \b30	
 	#define MU_HUNTER_WEIGHT_HIGH \b0	
 	#define MU_HUNTER_PCOST \b16	
-	#define MU_HUNTER_RCOST \b92	
-	#define MU_HUNTER_RCOST_WAG \b92	
+	#define MU_HUNTER_RCOST \b46	
+	#define MU_HUNTER_RCOST_WAG \b46	
 	#define MU_HUNTER_RCOST_IDLE \b14	
 	#define MU_HUNTER_RCBASE \dx4C30	
 	#define MU_HUNTER_TRACTION_TYPE 8	
-	#define MU_HUNTER_ID_W \w3170	
-	#define MU_HUNTER_ID_B \b*3170	
+	#define MU_HUNTER_ID_W \w3008	
+	#define MU_HUNTER_ID_B \b*3008	
 	#define STR_W_MU_HUNTER \wxD008	
 	#define STR_B_MU_HUNTER 8	
 	
@@ -313,8 +313,8 @@
 	#define MU_IC125_RCOST_IDLE \b1	
 	#define MU_IC125_RCBASE \dx4c3C	
 	#define MU_IC125_TRACTION_TYPE 8	
-	#define MU_IC125_ID_W \w3180	
-	#define MU_IC125_ID_B \b*3180	
+	#define MU_IC125_ID_W \w3009	
+	#define MU_IC125_ID_B \b*3009	
 	#define STR_W_MU_IC125 \wxD009	
 	#define STR_B_MU_IC125 9	
 	
@@ -340,13 +340,13 @@
 	#define MU_LINT41_WEIGHT \b31	
 	#define MU_LINT41_WEIGHT_HIGH \b0	
 	#define MU_LINT41_PCOST \b10	
-	#define MU_LINT41_RCOST \b57	
-	#define MU_LINT41_RCOST_WAG \b57	
+	#define MU_LINT41_RCOST \b29	
+	#define MU_LINT41_RCOST_WAG \b29	
 	#define MU_LINT41_RCOST_IDLE \b14	
 	#define MU_LINT41_RCBASE \dx4C30	
 	#define MU_LINT41_TRACTION_TYPE 8	
-	#define MU_LINT41_ID_W \w3210	
-	#define MU_LINT41_ID_B \b*3210	
+	#define MU_LINT41_ID_W \w3010	
+	#define MU_LINT41_ID_B \b*3010	
 	#define STR_W_MU_LINT41 \wxD00A	
 	#define STR_B_MU_LINT41 A	
 	
@@ -377,8 +377,8 @@
 	#define MU_LRC_RCOST_IDLE \b1	
 	#define MU_LRC_RCBASE \dx4c3C	
 	#define MU_LRC_TRACTION_TYPE 8	
-	#define MU_LRC_ID_W \w3211	
-	#define MU_LRC_ID_B \b*3211	
+	#define MU_LRC_ID_W \w3011	
+	#define MU_LRC_ID_B \b*3011	
 	#define STR_W_MU_LRC \wxD00B	
 	#define STR_B_MU_LRC B	
 	
@@ -404,13 +404,13 @@
 	#define MU_VT612_WEIGHT \b58	
 	#define MU_VT612_WEIGHT_HIGH \b0	
 	#define MU_VT612_PCOST \b17	
-	#define MU_VT612_RCOST \b98	
-	#define MU_VT612_RCOST_WAG \b98	
+	#define MU_VT612_RCOST \b49	
+	#define MU_VT612_RCOST_WAG \b49	
 	#define MU_VT612_RCOST_IDLE \b14	
 	#define MU_VT612_RCBASE \dx4C30	
 	#define MU_VT612_TRACTION_TYPE 8	
-	#define MU_VT612_ID_W \w3310	
-	#define MU_VT612_ID_B \b*3310	
+	#define MU_VT612_ID_W \w3012	
+	#define MU_VT612_ID_B \b*3012	
 	#define STR_W_MU_VT612 \wxD00C	
 	#define STR_B_MU_VT612 C	
 	
@@ -436,13 +436,13 @@
 	#define MU_Y2_WEIGHT \b32	
 	#define MU_Y2_WEIGHT_HIGH \b0	
 	#define MU_Y2_PCOST \b19	
-	#define MU_Y2_RCOST \b110	
-	#define MU_Y2_RCOST_WAG \b110	
+	#define MU_Y2_RCOST \b55	
+	#define MU_Y2_RCOST_WAG \b55	
 	#define MU_Y2_RCOST_IDLE \b14	
 	#define MU_Y2_RCBASE \dx4C30	
 	#define MU_Y2_TRACTION_TYPE 8	
-	#define MU_Y2_ID_W \w3340	
-	#define MU_Y2_ID_B \b*3340	
+	#define MU_Y2_ID_W \w3013	
+	#define MU_Y2_ID_B \b*3013	
 	#define STR_W_MU_Y2 \wxD00D	
 	#define STR_B_MU_Y2 D	
 	
@@ -468,13 +468,13 @@
 	#define MU_2200_WEIGHT \b53	
 	#define MU_2200_WEIGHT_HIGH \b0	
 	#define MU_2200_PCOST \b20	
-	#define MU_2200_RCOST \b78	
-	#define MU_2200_RCOST_WAG \b78	
+	#define MU_2200_RCOST \b39	
+	#define MU_2200_RCOST_WAG \b39	
 	#define MU_2200_RCOST_IDLE \b14	
 	#define MU_2200_RCBASE \dx4C30	
 	#define MU_2200_TRACTION_TYPE 28	
-	#define MU_2200_ID_W \w3520	
-	#define MU_2200_ID_B \b*3520	
+	#define MU_2200_ID_W \w3014	
+	#define MU_2200_ID_B \b*3014	
 	#define STR_W_MU_2200 \wxD00E	
 	#define STR_B_MU_2200 E	
 	
@@ -500,13 +500,13 @@
 	#define MU_4041_WEIGHT \b73	
 	#define MU_4041_WEIGHT_HIGH \b0	
 	#define MU_4041_PCOST \b7	
-	#define MU_4041_RCOST \b25	
-	#define MU_4041_RCOST_WAG \b25	
+	#define MU_4041_RCOST \b12	
+	#define MU_4041_RCOST_WAG \b12	
 	#define MU_4041_RCOST_IDLE \b14	
 	#define MU_4041_RCBASE \dx4C30	
 	#define MU_4041_TRACTION_TYPE 28	
-	#define MU_4041_ID_W \w3540	
-	#define MU_4041_ID_B \b*3540	
+	#define MU_4041_ID_W \w3015	
+	#define MU_4041_ID_B \b*3015	
 	#define STR_W_MU_4041 \wxD00F	
 	#define STR_B_MU_4041 F	
 	
@@ -532,13 +532,13 @@
 	#define MU_680_WEIGHT \b55	
 	#define MU_680_WEIGHT_HIGH \b0	
 	#define MU_680_PCOST \b33	
-	#define MU_680_RCOST \b136	
-	#define MU_680_RCOST_WAG \b136	
+	#define MU_680_RCOST \b68	
+	#define MU_680_RCOST_WAG \b68	
 	#define MU_680_RCOST_IDLE \b14	
 	#define MU_680_RCBASE \dx4C30	
 	#define MU_680_TRACTION_TYPE 28	
-	#define MU_680_ID_W \w3560	
-	#define MU_680_ID_B \b*3560	
+	#define MU_680_ID_W \w3016	
+	#define MU_680_ID_B \b*3016	
 	#define STR_W_MU_680 \wxD016	
 	#define STR_B_MU_680 10	
 	
@@ -564,13 +564,13 @@
 	#define MU_BDVMOT_WEIGHT \b66	
 	#define MU_BDVMOT_WEIGHT_HIGH \b0	
 	#define MU_BDVMOT_PCOST \b14	
-	#define MU_BDVMOT_RCOST \b52	
+	#define MU_BDVMOT_RCOST \b175	
 	#define MU_BDVMOT_RCOST_WAG \b0	
-	#define MU_BDVMOT_RCOST_IDLE \b1	
-	#define MU_BDVMOT_RCBASE \dx4c3C	
+	#define MU_BDVMOT_RCOST_IDLE \b14	
+	#define MU_BDVMOT_RCBASE \dx4C30	
 	#define MU_BDVMOT_TRACTION_TYPE 28	
-	#define MU_BDVMOT_ID_W \w3610	
-	#define MU_BDVMOT_ID_B \b*3610	
+	#define MU_BDVMOT_ID_W \w3017	
+	#define MU_BDVMOT_ID_B \b*3017	
 	#define STR_W_MU_BDVMOT \wxD017	
 	#define STR_B_MU_BDVMOT 11	
 	
@@ -596,13 +596,13 @@
 	#define MU_BM65_WEIGHT \b38	
 	#define MU_BM65_WEIGHT_HIGH \b0	
 	#define MU_BM65_PCOST \b6	
-	#define MU_BM65_RCOST \b20	
-	#define MU_BM65_RCOST_WAG \b20	
+	#define MU_BM65_RCOST \b10	
+	#define MU_BM65_RCOST_WAG \b10	
 	#define MU_BM65_RCOST_IDLE \b14	
 	#define MU_BM65_RCBASE \dx4C30	
 	#define MU_BM65_TRACTION_TYPE 28	
-	#define MU_BM65_ID_W \w3611	
-	#define MU_BM65_ID_B \b*3611	
+	#define MU_BM65_ID_W \w3018	
+	#define MU_BM65_ID_B \b*3018	
 	#define STR_W_MU_BM65 \wxD018	
 	#define STR_B_MU_BM65 12	
 	
@@ -628,13 +628,13 @@
 	#define MU_BM73_WEIGHT \b54	
 	#define MU_BM73_WEIGHT_HIGH \b0	
 	#define MU_BM73_PCOST \b31	
-	#define MU_BM73_RCOST \b128	
-	#define MU_BM73_RCOST_WAG \b128	
+	#define MU_BM73_RCOST \b64	
+	#define MU_BM73_RCOST_WAG \b64	
 	#define MU_BM73_RCOST_IDLE \b14	
 	#define MU_BM73_RCBASE \dx4C30	
 	#define MU_BM73_TRACTION_TYPE 28	
-	#define MU_BM73_ID_W \w3612	
-	#define MU_BM73_ID_B \b*3612	
+	#define MU_BM73_ID_W \w3019	
+	#define MU_BM73_ID_B \b*3019	
 	#define STR_W_MU_BM73 \wxD013	
 	#define STR_B_MU_BM73 13	
 	
@@ -660,13 +660,13 @@
 	#define MU_ET420_WEIGHT \b46	
 	#define MU_ET420_WEIGHT_HIGH \b0	
 	#define MU_ET420_PCOST \b13	
-	#define MU_ET420_RCOST \b48	
-	#define MU_ET420_RCOST_WAG \b48	
+	#define MU_ET420_RCOST \b24	
+	#define MU_ET420_RCOST_WAG \b24	
 	#define MU_ET420_RCOST_IDLE \b14	
 	#define MU_ET420_RCBASE \dx4C30	
 	#define MU_ET420_TRACTION_TYPE 28	
-	#define MU_ET420_ID_W \w3640	
-	#define MU_ET420_ID_B \b*3640	
+	#define MU_ET420_ID_W \w3020	
+	#define MU_ET420_ID_B \b*3020	
 	#define STR_W_MU_ET420 \wxD014	
 	#define STR_B_MU_ET420 14	
 	
@@ -697,8 +697,8 @@
 	#define MU_ETR500_RCOST_IDLE \b1	
 	#define MU_ETR500_RCBASE \dx4c3C	
 	#define MU_ETR500_TRACTION_TYPE 28	
-	#define MU_ETR500_ID_W \w3641	
-	#define MU_ETR500_ID_B \b*3641	
+	#define MU_ETR500_ID_W \w3021	
+	#define MU_ETR500_ID_B \b*3021	
 	#define STR_W_MU_ETR500 \wxD015	
 	#define STR_B_MU_ETR500 15	
 	
@@ -724,13 +724,13 @@
 	#define MU_HSA_WEIGHT \b30	
 	#define MU_HSA_WEIGHT_HIGH \b0	
 	#define MU_HSA_PCOST \b50	
-	#define MU_HSA_RCOST \b215	
-	#define MU_HSA_RCOST_WAG \b215	
+	#define MU_HSA_RCOST \b108	
+	#define MU_HSA_RCOST_WAG \b108	
 	#define MU_HSA_RCOST_IDLE \b14	
 	#define MU_HSA_RCBASE \dx4C30	
 	#define MU_HSA_TRACTION_TYPE 28	
-	#define MU_HSA_ID_W \w3670	
-	#define MU_HSA_ID_B \b*3670	
+	#define MU_HSA_ID_W \w3022	
+	#define MU_HSA_ID_B \b*3022	
 	#define STR_W_MU_HSA \wxD016	
 	#define STR_B_MU_HSA 16	
 	
@@ -756,13 +756,13 @@
 	#define MU_ICE3_WEIGHT \b51	
 	#define MU_ICE3_WEIGHT_HIGH \b0	
 	#define MU_ICE3_PCOST \b57	
-	#define MU_ICE3_RCOST \b255	
-	#define MU_ICE3_RCOST_WAG \b255	
+	#define MU_ICE3_RCOST \b127	
+	#define MU_ICE3_RCOST_WAG \b127	
 	#define MU_ICE3_RCOST_IDLE \b14	
 	#define MU_ICE3_RCBASE \dx4C30	
 	#define MU_ICE3_TRACTION_TYPE 28	
-	#define MU_ICE3_ID_W \w3680	
-	#define MU_ICE3_ID_B \b*3680	
+	#define MU_ICE3_ID_W \w3023	
+	#define MU_ICE3_ID_B \b*3023	
 	#define STR_W_MU_ICE3 \wxD017	
 	#define STR_B_MU_ICE3 17	
 	
@@ -788,13 +788,13 @@
 	#define MU_ICM_WEIGHT \b49	
 	#define MU_ICM_WEIGHT_HIGH \b0	
 	#define MU_ICM_PCOST \b19	
-	#define MU_ICM_RCOST \b74	
-	#define MU_ICM_RCOST_WAG \b74	
+	#define MU_ICM_RCOST \b37	
+	#define MU_ICM_RCOST_WAG \b37	
 	#define MU_ICM_RCOST_IDLE \b14	
 	#define MU_ICM_RCBASE \dx4C30	
 	#define MU_ICM_TRACTION_TYPE 28	
-	#define MU_ICM_ID_W \w3681	
-	#define MU_ICM_ID_B \b*3681	
+	#define MU_ICM_ID_W \w3024	
+	#define MU_ICM_ID_B \b*3024	
 	#define STR_W_MU_ICM \wxD018	
 	#define STR_B_MU_ICM 18	
 	
@@ -820,13 +820,13 @@
 	#define MU_MAT24_WEIGHT \b30	
 	#define MU_MAT24_WEIGHT_HIGH \b0	
 	#define MU_MAT24_PCOST \b10	
-	#define MU_MAT24_RCOST \b33	
-	#define MU_MAT24_RCOST_WAG \b33	
+	#define MU_MAT24_RCOST \b17	
+	#define MU_MAT24_RCOST_WAG \b17	
 	#define MU_MAT24_RCOST_IDLE \b14	
 	#define MU_MAT24_RCBASE \dx4C30	
 	#define MU_MAT24_TRACTION_TYPE 28	
-	#define MU_MAT24_ID_W \w3720	
-	#define MU_MAT24_ID_B \b*3720	
+	#define MU_MAT24_ID_W \w3025	
+	#define MU_MAT24_ID_B \b*3025	
 	#define STR_W_MU_MAT24 \wxD019	
 	#define STR_B_MU_MAT24 19	
 	
@@ -852,13 +852,13 @@
 	#define MU_MAT36_WEIGHT \b45	
 	#define MU_MAT36_WEIGHT_HIGH \b0	
 	#define MU_MAT36_PCOST \b13	
-	#define MU_MAT36_RCOST \b48	
-	#define MU_MAT36_RCOST_WAG \b48	
+	#define MU_MAT36_RCOST \b24	
+	#define MU_MAT36_RCOST_WAG \b24	
 	#define MU_MAT36_RCOST_IDLE \b14	
 	#define MU_MAT36_RCBASE \dx4C30	
 	#define MU_MAT36_TRACTION_TYPE 28	
-	#define MU_MAT36_ID_W \w3721	
-	#define MU_MAT36_ID_B \b*3721	
+	#define MU_MAT36_ID_W \w3026	
+	#define MU_MAT36_ID_B \b*3026	
 	#define STR_W_MU_MAT36 \wxD01A	
 	#define STR_B_MU_MAT36 1A	
 	
@@ -889,8 +889,8 @@
 	#define MU_MDDM_RCOST_IDLE \b1	
 	#define MU_MDDM_RCBASE \dx4c3C	
 	#define MU_MDDM_TRACTION_TYPE 28	
-	#define MU_MDDM_ID_W \w3722	
-	#define MU_MDDM_ID_B \b*3722	
+	#define MU_MDDM_ID_W \w3027	
+	#define MU_MDDM_ID_B \b*3027	
 	#define STR_W_MU_MDDM \wxD01B	
 	#define STR_B_MU_MDDM 1B	
 	
@@ -916,13 +916,13 @@
 	#define MU_OSCAR_WEIGHT \b47	
 	#define MU_OSCAR_WEIGHT_HIGH \b0	
 	#define MU_OSCAR_PCOST \b14	
-	#define MU_OSCAR_RCOST \b56	
-	#define MU_OSCAR_RCOST_WAG \b56	
+	#define MU_OSCAR_RCOST \b28	
+	#define MU_OSCAR_RCOST_WAG \b28	
 	#define MU_OSCAR_RCOST_IDLE \b14	
 	#define MU_OSCAR_RCBASE \dx4C30	
 	#define MU_OSCAR_TRACTION_TYPE 28	
-	#define MU_OSCAR_ID_W \w3740	
-	#define MU_OSCAR_ID_B \b*3740	
+	#define MU_OSCAR_ID_W \w3028	
+	#define MU_OSCAR_ID_B \b*3028	
 	#define STR_W_MU_OSCAR \wxD01C	
 	#define STR_B_MU_OSCAR 1C	
 	
@@ -948,13 +948,13 @@
 	#define MU_PLANY_WEIGHT \b53	
 	#define MU_PLANY_WEIGHT_HIGH \b0	
 	#define MU_PLANY_PCOST \b13	
-	#define MU_PLANY_RCOST \b49	
-	#define MU_PLANY_RCOST_WAG \b49	
+	#define MU_PLANY_RCOST \b25	
+	#define MU_PLANY_RCOST_WAG \b25	
 	#define MU_PLANY_RCOST_IDLE \b14	
 	#define MU_PLANY_RCBASE \dx4C30	
 	#define MU_PLANY_TRACTION_TYPE 28	
-	#define MU_PLANY_ID_W \w3750	
-	#define MU_PLANY_ID_B \b*3750	
+	#define MU_PLANY_ID_W \w3029	
+	#define MU_PLANY_ID_B \b*3029	
 	#define STR_W_MU_PLANY \wxD01D	
 	#define STR_B_MU_PLANY 1D	
 	
@@ -980,13 +980,13 @@
 	#define MU_RADBE510_WEIGHT \b56	
 	#define MU_RADBE510_WEIGHT_HIGH \b0	
 	#define MU_RADBE510_PCOST \b14	
-	#define MU_RADBE510_RCOST \b51	
-	#define MU_RADBE510_RCOST_WAG \b51	
+	#define MU_RADBE510_RCOST \b26	
+	#define MU_RADBE510_RCOST_WAG \b26	
 	#define MU_RADBE510_RCOST_IDLE \b14	
 	#define MU_RADBE510_RCBASE \dx4C30	
 	#define MU_RADBE510_TRACTION_TYPE 28	
-	#define MU_RADBE510_ID_W \w3770	
-	#define MU_RADBE510_ID_B \b*3770	
+	#define MU_RADBE510_ID_W \w3030	
+	#define MU_RADBE510_ID_B \b*3030	
 	#define STR_W_MU_RADBE510 \wxD01E	
 	#define STR_B_MU_RADBE510 1E	
 	
@@ -1012,13 +1012,13 @@
 	#define MU_RBDE560_WEIGHT \b35	
 	#define MU_RBDE560_WEIGHT_HIGH \b0	
 	#define MU_RBDE560_PCOST \b16	
-	#define MU_RBDE560_RCOST \b60	
-	#define MU_RBDE560_RCOST_WAG \b60	
+	#define MU_RBDE560_RCOST \b30	
+	#define MU_RBDE560_RCOST_WAG \b30	
 	#define MU_RBDE560_RCOST_IDLE \b14	
 	#define MU_RBDE560_RCBASE \dx4C30	
 	#define MU_RBDE560_TRACTION_TYPE 28	
-	#define MU_RBDE560_ID_W \w3771	
-	#define MU_RBDE560_ID_B \b*3771	
+	#define MU_RBDE560_ID_W \w3031	
+	#define MU_RBDE560_ID_B \b*3031	
 	#define STR_W_MU_RBDE560 \wxD01F	
 	#define STR_B_MU_RBDE560 1F	
 	
@@ -1038,19 +1038,19 @@
 	#define MU_RAE_TEE2_CAP_HEAD_PAX \b60	
 	#define MU_RAE_TEE2_CAP_HEAD_MAIL \b45	
 	#define MU_RAE_TEE2_CAP_HEAD_ARMOR \b30	
-	#define MU_RAE_TEE2_PAX_LS \b1	
-	#define MU_RAE_TEE2_MAIL_LS \b1	
-	#define MU_RAE_TEE2_ARMOR_LS \b1	
+	#define MU_RAE_TEE2_PAX_LS \b8	
+	#define MU_RAE_TEE2_MAIL_LS \b6	
+	#define MU_RAE_TEE2_ARMOR_LS \b4	
 	#define MU_RAE_TEE2_WEIGHT \b52	
 	#define MU_RAE_TEE2_WEIGHT_HIGH \b0	
 	#define MU_RAE_TEE2_PCOST \b19	
-	#define MU_RAE_TEE2_RCOST \b73	
-	#define MU_RAE_TEE2_RCOST_WAG \b73	
+	#define MU_RAE_TEE2_RCOST \b36	
+	#define MU_RAE_TEE2_RCOST_WAG \b36	
 	#define MU_RAE_TEE2_RCOST_IDLE \b14	
 	#define MU_RAE_TEE2_RCBASE \dx4C30	
 	#define MU_RAE_TEE2_TRACTION_TYPE 28	
-	#define MU_RAE_TEE2_ID_W \w3772	
-	#define MU_RAE_TEE2_ID_B \b*3772	
+	#define MU_RAE_TEE2_ID_W \w3032	
+	#define MU_RAE_TEE2_ID_B \b*3032	
 	#define STR_W_MU_RAE_TEE2 \wxD020	
 	#define STR_B_MU_RAE_TEE2 20	
 	
@@ -1076,13 +1076,13 @@
 	#define MU_SM2_WEIGHT \b38	
 	#define MU_SM2_WEIGHT_HIGH \b0	
 	#define MU_SM2_PCOST \b12	
-	#define MU_SM2_RCOST \b45	
-	#define MU_SM2_RCOST_WAG \b45	
+	#define MU_SM2_RCOST \b23	
+	#define MU_SM2_RCOST_WAG \b23	
 	#define MU_SM2_RCOST_IDLE \b14	
 	#define MU_SM2_RCBASE \dx4C30	
 	#define MU_SM2_TRACTION_TYPE 28	
-	#define MU_SM2_ID_W \w3780	
-	#define MU_SM2_ID_B \b*3780	
+	#define MU_SM2_ID_W \w3033	
+	#define MU_SM2_ID_B \b*3033	
 	#define STR_W_MU_SM2 \wxD021	
 	#define STR_B_MU_SM2 21	
 	
@@ -1108,13 +1108,13 @@
 	#define MU_SM4_WEIGHT \b57	
 	#define MU_SM4_WEIGHT_HIGH \b0	
 	#define MU_SM4_PCOST \b19	
-	#define MU_SM4_RCOST \b76	
-	#define MU_SM4_RCOST_WAG \b76	
+	#define MU_SM4_RCOST \b38	
+	#define MU_SM4_RCOST_WAG \b38	
 	#define MU_SM4_RCOST_IDLE \b14	
 	#define MU_SM4_RCBASE \dx4C30	
 	#define MU_SM4_TRACTION_TYPE 28	
-	#define MU_SM4_ID_W \w3781	
-	#define MU_SM4_ID_B \b*3781	
+	#define MU_SM4_ID_W \w3034	
+	#define MU_SM4_ID_B \b*3034	
 	#define STR_W_MU_SM4 \wxD022	
 	#define STR_B_MU_SM4 22	
 	
@@ -1145,8 +1145,8 @@
 	#define MU_TGV_A_RCOST_IDLE \b1	
 	#define MU_TGV_A_RCBASE \dx4C36	
 	#define MU_TGV_A_TRACTION_TYPE 28	
-	#define MU_TGV_A_ID_W \w3790	
-	#define MU_TGV_A_ID_B \b*3790	
+	#define MU_TGV_A_ID_W \w3035	
+	#define MU_TGV_A_ID_B \b*3035	
 	#define STR_W_MU_TGV_A \wxD023	
 	#define STR_B_MU_TGV_A 23	
 	
@@ -1177,8 +1177,8 @@
 	#define MU_TGV_D_RCOST_IDLE \b1	
 	#define MU_TGV_D_RCBASE \dx4C36	
 	#define MU_TGV_D_TRACTION_TYPE 28	
-	#define MU_TGV_D_ID_W \w3791	
-	#define MU_TGV_D_ID_B \b*3791	
+	#define MU_TGV_D_ID_W \w3036	
+	#define MU_TGV_D_ID_B \b*3036	
 	#define STR_W_MU_TGV_D \wxD024	
 	#define STR_B_MU_TGV_D 24	
 	
@@ -1209,8 +1209,8 @@
 	#define MU_TGV_T_RCOST_IDLE \b1	
 	#define MU_TGV_T_RCBASE \dx4C36	
 	#define MU_TGV_T_TRACTION_TYPE 28	
-	#define MU_TGV_T_ID_W \w3792	
-	#define MU_TGV_T_ID_B \b*3792	
+	#define MU_TGV_T_ID_W \w3037	
+	#define MU_TGV_T_ID_B \b*3037	
 	#define STR_W_MU_TGV_T \wxD025	
 	#define STR_B_MU_TGV_T 25	
 	
@@ -1241,8 +1241,8 @@
 	#define MU_TGV_V150_RCOST_IDLE \b1	
 	#define MU_TGV_V150_RCBASE \dx4C36	
 	#define MU_TGV_V150_TRACTION_TYPE 28	
-	#define MU_TGV_V150_ID_W \w3793	
-	#define MU_TGV_V150_ID_B \b*3793	
+	#define MU_TGV_V150_ID_W \w3038	
+	#define MU_TGV_V150_ID_B \b*3038	
 	#define STR_W_MU_TGV_V150 \wxD026	
 	#define STR_B_MU_TGV_V150 26	
 	
@@ -1273,8 +1273,8 @@
 	#define MU_X2000_RCOST_IDLE \b1	
 	#define MU_X2000_RCBASE \dx4c3C	
 	#define MU_X2000_TRACTION_TYPE 28	
-	#define MU_X2000_ID_W \w3830	
-	#define MU_X2000_ID_B \b*3830	
+	#define MU_X2000_ID_W \w3039	
+	#define MU_X2000_ID_B \b*3039	
 	#define STR_W_MU_X2000 \wxD027	
 	#define STR_B_MU_X2000 27	
 	
@@ -1310,6 +1310,390 @@
 	#define STR_W_MU_CHIM \wxD028	
 	#define STR_B_MU_CHIM 28	
 	
+#define NIG_ETR200_INTROYEAR \w1937-1-1	
+	#define NIG_ETR200_V_LIFE \b25	
+	#define NIG_ETR200_M_LIFE \b255	
+	#define NIG_ETR200_SPEED \w160	
+	#define NIG_ETR200_TE \b72	
+	#define NIG_ETR200_HP \w500	
+	#define NIG_ETR200_WAG_HP \w0	
+	#define NIG_ETR200_CAP_WAG_PAX \b45	
+	#define NIG_ETR200_CAP_WAG_MAIL \b34	
+	#define NIG_ETR200_CAP_WAG_ARMOR \b23	
+	#define NIG_ETR200_CAP_WAG_PAX_STR "45"	
+	#define NIG_ETR200_CAP_WAG_MAIL_STR "34"	
+	#define NIG_ETR200_CAP_WAG_ARMOR_STR "23"	
+	#define NIG_ETR200_CAP_HEAD_PAX \b45	
+	#define NIG_ETR200_CAP_HEAD_MAIL \b34	
+	#define NIG_ETR200_CAP_HEAD_ARMOR \b23	
+	#define NIG_ETR200_PAX_LS \b8	
+	#define NIG_ETR200_MAIL_LS \b6	
+	#define NIG_ETR200_ARMOR_LS \b4	
+	#define NIG_ETR200_WEIGHT \b40	
+	#define NIG_ETR200_WEIGHT_HIGH \b0	
+	#define NIG_ETR200_PCOST \b19	
+	#define NIG_ETR200_RCOST \b241	
+	#define NIG_ETR200_RCOST_WAG \b0	
+	#define NIG_ETR200_RCOST_IDLE \b14	
+	#define NIG_ETR200_RCBASE \dx4C30	
+	#define NIG_ETR200_TRACTION_TYPE 28	
+	#define NIG_ETR200_ID_W \w5	
+	#define NIG_ETR200_ID_B \b*5	
+		
+		
+	
+#define NIG_AVE_S102_INTROYEAR \w2007-1-1	
+	#define NIG_AVE_S102_V_LIFE \b25	
+	#define NIG_AVE_S102_M_LIFE \b255	
+	#define NIG_AVE_S102_SPEED \w300	
+	#define NIG_AVE_S102_TE \b566	
+	#define NIG_AVE_S102_HP \w10720	
+	#define NIG_AVE_S102_WAG_HP \w0	
+	#define NIG_AVE_S102_CAP_WAG_PAX \b53	
+	#define NIG_AVE_S102_CAP_WAG_MAIL \b40	
+	#define NIG_AVE_S102_CAP_WAG_ARMOR \b27	
+	#define NIG_AVE_S102_CAP_WAG_PAX_STR "53"	
+	#define NIG_AVE_S102_CAP_WAG_MAIL_STR "40"	
+	#define NIG_AVE_S102_CAP_WAG_ARMOR_STR "27"	
+	#define NIG_AVE_S102_CAP_HEAD_PAX \b53	
+	#define NIG_AVE_S102_CAP_HEAD_MAIL \b40	
+	#define NIG_AVE_S102_CAP_HEAD_ARMOR \b27	
+	#define NIG_AVE_S102_PAX_LS \b8	
+	#define NIG_AVE_S102_MAIL_LS \b6	
+	#define NIG_AVE_S102_ARMOR_LS \b4	
+	#define NIG_AVE_S102_WEIGHT \b23	
+	#define NIG_AVE_S102_WEIGHT_HIGH \b0	
+	#define NIG_AVE_S102_PCOST \b66	
+	#define NIG_AVE_S102_RCOST \b15	
+	#define NIG_AVE_S102_RCOST_WAG \b0	
+	#define NIG_AVE_S102_RCOST_IDLE \b1	
+	#define NIG_AVE_S102_RCBASE \dx4C36	
+	#define NIG_AVE_S102_TRACTION_TYPE 28	
+	#define NIG_AVE_S102_ID_W \w6	
+	#define NIG_AVE_S102_ID_B \b*6	
+		
+		
+	
+#define NIG_IC4_INTROYEAR \w2005-1-1	
+	#define NIG_IC4_V_LIFE \b25	
+	#define NIG_IC4_M_LIFE \b255	
+	#define NIG_IC4_SPEED \w240	
+	#define NIG_IC4_TE \b45	
+	#define NIG_IC4_HP \w900	
+	#define NIG_IC4_WAG_HP \w0	
+	#define NIG_IC4_CAP_WAG_PAX \b52	
+	#define NIG_IC4_CAP_WAG_MAIL \b39	
+	#define NIG_IC4_CAP_WAG_ARMOR \b26	
+	#define NIG_IC4_CAP_WAG_PAX_STR "52"	
+	#define NIG_IC4_CAP_WAG_MAIL_STR "39"	
+	#define NIG_IC4_CAP_WAG_ARMOR_STR "26"	
+	#define NIG_IC4_CAP_HEAD_PAX \b52	
+	#define NIG_IC4_CAP_HEAD_MAIL \b39	
+	#define NIG_IC4_CAP_HEAD_ARMOR \b26	
+	#define NIG_IC4_PAX_LS \b8	
+	#define NIG_IC4_MAIL_LS \b6	
+	#define NIG_IC4_ARMOR_LS \b4	
+	#define NIG_IC4_WEIGHT \b40	
+	#define NIG_IC4_WEIGHT_HIGH \b0	
+	#define NIG_IC4_PCOST \b29	
+	#define NIG_IC4_RCOST \b181	
+	#define NIG_IC4_RCOST_WAG \b0	
+	#define NIG_IC4_RCOST_IDLE \b1	
+	#define NIG_IC4_RCBASE \dx4c3C	
+	#define NIG_IC4_TRACTION_TYPE 8	
+	#define NIG_IC4_ID_W \w7	
+	#define NIG_IC4_ID_B \b*7	
+		
+		
+	
+#define RB_809_INTROYEAR \w1996-1-1	
+	#define RB_809_V_LIFE \b15	
+	#define RB_809_M_LIFE \b255	
+	#define RB_809_SPEED \w80	
+	#define RB_809_TE \b38	
+	#define RB_809_HP \w210	
+	#define RB_809_WAG_HP \w0	
+	#define RB_809_CAP_WAG_PAX \b55	
+	#define RB_809_CAP_WAG_MAIL \b41	
+	#define RB_809_CAP_WAG_ARMOR \b28	
+	#define RB_809_CAP_WAG_PAX_STR "55"	
+	#define RB_809_CAP_WAG_MAIL_STR "41"	
+	#define RB_809_CAP_WAG_ARMOR_STR "28"	
+	#define RB_809_CAP_HEAD_PAX \b55	
+	#define RB_809_CAP_HEAD_MAIL \b41	
+	#define RB_809_CAP_HEAD_ARMOR \b28	
+	#define RB_809_PAX_LS \b20	
+	#define RB_809_MAIL_LS \b15	
+	#define RB_809_ARMOR_LS \b10	
+	#define RB_809_WEIGHT \b20	
+	#define RB_809_WEIGHT_HIGH \b0	
+	#define RB_809_PCOST \b5	
+	#define RB_809_RCOST \b93	
+	#define RB_809_RCOST_WAG \b0	
+	#define RB_809_RCOST_IDLE \b14	
+	#define RB_809_RCBASE \dx4C30	
+	#define RB_809_TRACTION_TYPE 8	
+	#define RB_809_ID_W \w3500	
+	#define RB_809_ID_B \b*3500	
+		
+		
+	
+#define RB_AR2_INTROYEAR \w1997-1-1	
+	#define RB_AR2_V_LIFE \b15	
+	#define RB_AR2_M_LIFE \b255	
+	#define RB_AR2_SPEED \w120	
+	#define RB_AR2_TE \b32	
+	#define RB_AR2_HP \w400	
+	#define RB_AR2_WAG_HP \w0	
+	#define RB_AR2_CAP_WAG_PAX \b73	
+	#define RB_AR2_CAP_WAG_MAIL \b55	
+	#define RB_AR2_CAP_WAG_ARMOR \b37	
+	#define RB_AR2_CAP_WAG_PAX_STR "73"	
+	#define RB_AR2_CAP_WAG_MAIL_STR "55"	
+	#define RB_AR2_CAP_WAG_ARMOR_STR "37"	
+	#define RB_AR2_CAP_HEAD_PAX \b73	
+	#define RB_AR2_CAP_HEAD_MAIL \b55	
+	#define RB_AR2_CAP_HEAD_ARMOR \b37	
+	#define RB_AR2_PAX_LS \b20	
+	#define RB_AR2_MAIL_LS \b15	
+	#define RB_AR2_ARMOR_LS \b10	
+	#define RB_AR2_WEIGHT \b32	
+	#define RB_AR2_WEIGHT_HIGH \b0	
+	#define RB_AR2_PCOST \b10	
+	#define RB_AR2_RCOST \b188	
+	#define RB_AR2_RCOST_WAG \b0	
+	#define RB_AR2_RCOST_IDLE \b14	
+	#define RB_AR2_RCBASE \dx4C30	
+	#define RB_AR2_TRACTION_TYPE 8	
+	#define RB_AR2_ID_W \w3501	
+	#define RB_AR2_ID_B \b*3501	
+		
+		
+	
+#define RB_KINKI_INTROYEAR \w1950-1-1	
+	#define RB_KINKI_V_LIFE \b15	
+	#define RB_KINKI_M_LIFE \b35	
+	#define RB_KINKI_SPEED \w80	
+	#define RB_KINKI_TE \b65	
+	#define RB_KINKI_HP \w200	
+	#define RB_KINKI_WAG_HP \w0	
+	#define RB_KINKI_CAP_WAG_PAX \b60	
+	#define RB_KINKI_CAP_WAG_MAIL \b45	
+	#define RB_KINKI_CAP_WAG_ARMOR \b30	
+	#define RB_KINKI_CAP_WAG_PAX_STR "60"	
+	#define RB_KINKI_CAP_WAG_MAIL_STR "45"	
+	#define RB_KINKI_CAP_WAG_ARMOR_STR "30"	
+	#define RB_KINKI_CAP_HEAD_PAX \b60	
+	#define RB_KINKI_CAP_HEAD_MAIL \b45	
+	#define RB_KINKI_CAP_HEAD_ARMOR \b30	
+	#define RB_KINKI_PAX_LS \b20	
+	#define RB_KINKI_MAIL_LS \b15	
+	#define RB_KINKI_ARMOR_LS \b10	
+	#define RB_KINKI_WEIGHT \b20	
+	#define RB_KINKI_WEIGHT_HIGH \b0	
+	#define RB_KINKI_PCOST \b5	
+	#define RB_KINKI_RCOST \b94	
+	#define RB_KINKI_RCOST_WAG \b0	
+	#define RB_KINKI_RCOST_IDLE \b14	
+	#define RB_KINKI_RCBASE \dx4C30	
+	#define RB_KINKI_TRACTION_TYPE 8	
+	#define RB_KINKI_ID_W \w3502	
+	#define RB_KINKI_ID_B \b*3502	
+		
+		
+	
+#define RB_DM7_INTROYEAR \w1955-1-1	
+	#define RB_DM7_V_LIFE \b15	
+	#define RB_DM7_M_LIFE \b35	
+	#define RB_DM7_SPEED \w95	
+	#define RB_DM7_TE \b87	
+	#define RB_DM7_HP \w180	
+	#define RB_DM7_WAG_HP \w0	
+	#define RB_DM7_CAP_WAG_PAX \b64	
+	#define RB_DM7_CAP_WAG_MAIL \b48	
+	#define RB_DM7_CAP_WAG_ARMOR \b32	
+	#define RB_DM7_CAP_WAG_PAX_STR "64"	
+	#define RB_DM7_CAP_WAG_MAIL_STR "48"	
+	#define RB_DM7_CAP_WAG_ARMOR_STR "32"	
+	#define RB_DM7_CAP_HEAD_PAX \b64	
+	#define RB_DM7_CAP_HEAD_MAIL \b48	
+	#define RB_DM7_CAP_HEAD_ARMOR \b32	
+	#define RB_DM7_PAX_LS \b20	
+	#define RB_DM7_MAIL_LS \b15	
+	#define RB_DM7_ARMOR_LS \b10	
+	#define RB_DM7_WEIGHT \b18	
+	#define RB_DM7_WEIGHT_HIGH \b0	
+	#define RB_DM7_PCOST \b7	
+	#define RB_DM7_RCOST \b123	
+	#define RB_DM7_RCOST_WAG \b0	
+	#define RB_DM7_RCOST_IDLE \b14	
+	#define RB_DM7_RCBASE \dx4C30	
+	#define RB_DM7_TRACTION_TYPE 8	
+	#define RB_DM7_ID_W \w3503	
+	#define RB_DM7_ID_B \b*3503	
+		
+		
+	
+#define NIG_121_INTROYEAR \w1960-1-1	
+	#define NIG_121_V_LIFE \b15	
+	#define NIG_121_M_LIFE \b35	
+	#define NIG_121_SPEED \w113	
+	#define NIG_121_TE \b26	
+	#define NIG_121_HP \w1	
+	#define NIG_121_WAG_HP \w0	
+	#define NIG_121_CAP_WAG_PAX \b1	
+	#define NIG_121_CAP_WAG_MAIL \b1	
+	#define NIG_121_CAP_WAG_ARMOR \b1	
+	#define NIG_121_CAP_WAG_PAX_STR "1"	
+	#define NIG_121_CAP_WAG_MAIL_STR "1"	
+	#define NIG_121_CAP_WAG_ARMOR_STR "1"	
+	#define NIG_121_CAP_HEAD_PAX \b1	
+	#define NIG_121_CAP_HEAD_MAIL \b1	
+	#define NIG_121_CAP_HEAD_ARMOR \b1	
+	#define NIG_121_PAX_LS \b20	
+	#define NIG_121_MAIL_LS \b15	
+	#define NIG_121_ARMOR_LS \b10	
+	#define NIG_121_WEIGHT \b1	
+	#define NIG_121_WEIGHT_HIGH \b0	
+	#define NIG_121_PCOST \b9	
+	#define NIG_121_RCOST \b149	
+	#define NIG_121_RCOST_WAG \b0	
+	#define NIG_121_RCOST_IDLE \b14	
+	#define NIG_121_RCBASE \dx4C30	
+	#define NIG_121_TRACTION_TYPE 8	
+	#define NIG_121_ID_W \w3504	
+	#define NIG_121_ID_B \b*3504	
+		
+		
+	
+#define RB_479_INTROYEAR \w1930-1-1	
+	#define RB_479_V_LIFE \b15	
+	#define RB_479_M_LIFE \b35	
+	#define RB_479_SPEED \w50	
+	#define RB_479_TE \b34	
+	#define RB_479_HP \w175	
+	#define RB_479_WAG_HP \w0	
+	#define RB_479_CAP_WAG_PAX \b35	
+	#define RB_479_CAP_WAG_MAIL \b26	
+	#define RB_479_CAP_WAG_ARMOR \b18	
+	#define RB_479_CAP_WAG_PAX_STR "35"	
+	#define RB_479_CAP_WAG_MAIL_STR "26"	
+	#define RB_479_CAP_WAG_ARMOR_STR "18"	
+	#define RB_479_CAP_HEAD_PAX \b35	
+	#define RB_479_CAP_HEAD_MAIL \b26	
+	#define RB_479_CAP_HEAD_ARMOR \b18	
+	#define RB_479_PAX_LS \b20	
+	#define RB_479_MAIL_LS \b15	
+	#define RB_479_ARMOR_LS \b10	
+	#define RB_479_WEIGHT \b23	
+	#define RB_479_WEIGHT_HIGH \b0	
+	#define RB_479_PCOST \b3	
+	#define RB_479_RCOST \b43	
+	#define RB_479_RCOST_WAG \b0	
+	#define RB_479_RCOST_IDLE \b14	
+	#define RB_479_RCBASE \dx4C30	
+	#define RB_479_TRACTION_TYPE 8	
+	#define RB_479_ID_W \w3505	
+	#define RB_479_ID_B \b*3505	
+		
+		
+	
+#define RB_LAYLAND_INTROYEAR \w1980-1-1	
+	#define RB_LAYLAND_V_LIFE \b15	
+	#define RB_LAYLAND_M_LIFE \b35	
+	#define RB_LAYLAND_SPEED \w100	
+	#define RB_LAYLAND_TE \b33	
+	#define RB_LAYLAND_HP \w75	
+	#define RB_LAYLAND_WAG_HP \w0	
+	#define RB_LAYLAND_CAP_WAG_PAX \b70	
+	#define RB_LAYLAND_CAP_WAG_MAIL \b53	
+	#define RB_LAYLAND_CAP_WAG_ARMOR \b35	
+	#define RB_LAYLAND_CAP_WAG_PAX_STR "70"	
+	#define RB_LAYLAND_CAP_WAG_MAIL_STR "53"	
+	#define RB_LAYLAND_CAP_WAG_ARMOR_STR "35"	
+	#define RB_LAYLAND_CAP_HEAD_PAX \b70	
+	#define RB_LAYLAND_CAP_HEAD_MAIL \b53	
+	#define RB_LAYLAND_CAP_HEAD_ARMOR \b35	
+	#define RB_LAYLAND_PAX_LS \b20	
+	#define RB_LAYLAND_MAIL_LS \b15	
+	#define RB_LAYLAND_ARMOR_LS \b10	
+	#define RB_LAYLAND_WEIGHT \b20	
+	#define RB_LAYLAND_WEIGHT_HIGH \b0	
+	#define RB_LAYLAND_PCOST \b7	
+	#define RB_LAYLAND_RCOST \b134	
+	#define RB_LAYLAND_RCOST_WAG \b0	
+	#define RB_LAYLAND_RCOST_IDLE \b14	
+	#define RB_LAYLAND_RCBASE \dx4C30	
+	#define RB_LAYLAND_TRACTION_TYPE 8	
+	#define RB_LAYLAND_ID_W \w3506	
+	#define RB_LAYLAND_ID_B \b*3506	
+		
+		
+	
+#define RB_VT133_INTROYEAR \w1932-1-1	
+	#define RB_VT133_V_LIFE \b15	
+	#define RB_VT133_M_LIFE \b35	
+	#define RB_VT133_SPEED \w56	
+	#define RB_VT133_TE \b130	
+	#define RB_VT133_HP \w38	
+	#define RB_VT133_WAG_HP \w0	
+	#define RB_VT133_CAP_WAG_PAX \b24	
+	#define RB_VT133_CAP_WAG_MAIL \b18	
+	#define RB_VT133_CAP_WAG_ARMOR \b12	
+	#define RB_VT133_CAP_WAG_PAX_STR "24"	
+	#define RB_VT133_CAP_WAG_MAIL_STR "18"	
+	#define RB_VT133_CAP_WAG_ARMOR_STR "12"	
+	#define RB_VT133_CAP_HEAD_PAX \b24	
+	#define RB_VT133_CAP_HEAD_MAIL \b18	
+	#define RB_VT133_CAP_HEAD_ARMOR \b12	
+	#define RB_VT133_PAX_LS \b20	
+	#define RB_VT133_MAIL_LS \b15	
+	#define RB_VT133_ARMOR_LS \b10	
+	#define RB_VT133_WEIGHT \b6	
+	#define RB_VT133_WEIGHT_HIGH \b0	
+	#define RB_VT133_PCOST \b3	
+	#define RB_VT133_RCOST \b46	
+	#define RB_VT133_RCOST_WAG \b0	
+	#define RB_VT133_RCOST_IDLE \b14	
+	#define RB_VT133_RCBASE \dx4C30	
+	#define RB_VT133_TRACTION_TYPE 8	
+	#define RB_VT133_ID_W \w3507	
+	#define RB_VT133_ID_B \b*3507	
+		
+		
+	
+#define RB_153_111_INTROYEAR \w1991-1-1	
+	#define RB_153_111_V_LIFE \b15	
+	#define RB_153_111_M_LIFE \b255	
+	#define RB_153_111_SPEED \w100	
+	#define RB_153_111_TE \b26	
+	#define RB_153_111_HP \w285	
+	#define RB_153_111_WAG_HP \w0	
+	#define RB_153_111_CAP_WAG_PAX \b75	
+	#define RB_153_111_CAP_WAG_MAIL \b56	
+	#define RB_153_111_CAP_WAG_ARMOR \b38	
+	#define RB_153_111_CAP_WAG_PAX_STR "75"	
+	#define RB_153_111_CAP_WAG_MAIL_STR "56"	
+	#define RB_153_111_CAP_WAG_ARMOR_STR "38"	
+	#define RB_153_111_CAP_HEAD_PAX \b75	
+	#define RB_153_111_CAP_HEAD_MAIL \b56	
+	#define RB_153_111_CAP_HEAD_ARMOR \b38	
+	#define RB_153_111_PAX_LS \b20	
+	#define RB_153_111_MAIL_LS \b15	
+	#define RB_153_111_ARMOR_LS \b10	
+	#define RB_153_111_WEIGHT \b42	
+	#define RB_153_111_WEIGHT_HIGH \b0	
+	#define RB_153_111_PCOST \b8	
+	#define RB_153_111_RCOST \b141	
+	#define RB_153_111_RCOST_WAG \b0	
+	#define RB_153_111_RCOST_IDLE \b14	
+	#define RB_153_111_RCBASE \dx4C30	
+	#define RB_153_111_TRACTION_TYPE 8	
+	#define RB_153_111_ID_W \w3508	
+	#define RB_153_111_ID_B \b*3508	
+		
+		
+	
 #define ENG_422_INTROYEAR \w1969-1-1	
 	#define ENG_422_V_LIFE \b40	
 	#define ENG_422_M_LIFE \b20	
@@ -1332,13 +1716,13 @@
 	#define ENG_422_WEIGHT \b110	
 	#define ENG_422_WEIGHT_HIGH \b0	
 	#define ENG_422_PCOST \b13	
-	#define ENG_422_RCOST \b67	
+	#define ENG_422_RCOST \b227	
 	#define ENG_422_RCOST_WAG \b0	
-	#define ENG_422_RCOST_IDLE \b1	
-	#define ENG_422_RCBASE \dx4c3C	
+	#define ENG_422_RCOST_IDLE \b14	
+	#define ENG_422_RCBASE \dx4C30	
 	#define ENG_422_TRACTION_TYPE 8	
-	#define ENG_422_ID_W \w2040	
-	#define ENG_422_ID_B \b*2040	
+	#define ENG_422_ID_W \w2000	
+	#define ENG_422_ID_B \b*2000	
 	#define STR_W_ENG_422 \wxD0FA	
 	#define STR_B_ENG_422 FA	
 	
@@ -1364,13 +1748,13 @@
 	#define ENG_2100_WEIGHT \b98	
 	#define ENG_2100_WEIGHT_HIGH \b0	
 	#define ENG_2100_PCOST \b7	
-	#define ENG_2100_RCOST \b241	
+	#define ENG_2100_RCOST \b121	
 	#define ENG_2100_RCOST_WAG \b0	
 	#define ENG_2100_RCOST_IDLE \b14	
 	#define ENG_2100_RCBASE \dx4C30	
 	#define ENG_2100_TRACTION_TYPE 8	
-	#define ENG_2100_ID_W \w2020	
-	#define ENG_2100_ID_B \b*2020	
+	#define ENG_2100_ID_W \w2001	
+	#define ENG_2100_ID_B \b*2001	
 	#define STR_W_ENG_2100 \wxD0FA	
 	#define STR_B_ENG_2100 FA	
 	
@@ -1396,13 +1780,13 @@
 	#define ENG_BOXCAB_WEIGHT \b61	
 	#define ENG_BOXCAB_WEIGHT_HIGH \b0	
 	#define ENG_BOXCAB_PCOST \b8	
-	#define ENG_BOXCAB_RCOST \b39	
+	#define ENG_BOXCAB_RCOST \b133	
 	#define ENG_BOXCAB_RCOST_WAG \b0	
-	#define ENG_BOXCAB_RCOST_IDLE \b1	
-	#define ENG_BOXCAB_RCBASE \dx4c3C	
+	#define ENG_BOXCAB_RCOST_IDLE \b14	
+	#define ENG_BOXCAB_RCBASE \dx4C30	
 	#define ENG_BOXCAB_TRACTION_TYPE 8	
-	#define ENG_BOXCAB_ID_W \w2100	
-	#define ENG_BOXCAB_ID_B \b*2100	
+	#define ENG_BOXCAB_ID_W \w2002	
+	#define ENG_BOXCAB_ID_B \b*2002	
 	#define STR_W_ENG_BOXCAB \wxD0FA	
 	#define STR_B_ENG_BOXCAB FA	
 	
@@ -1428,13 +1812,13 @@
 	#define ENG_BR66_WEIGHT \b126	
 	#define ENG_BR66_WEIGHT_HIGH \b0	
 	#define ENG_BR66_PCOST \b13	
-	#define ENG_BR66_RCOST \b70	
+	#define ENG_BR66_RCOST \b237	
 	#define ENG_BR66_RCOST_WAG \b0	
-	#define ENG_BR66_RCOST_IDLE \b1	
-	#define ENG_BR66_RCBASE \dx4c3C	
+	#define ENG_BR66_RCOST_IDLE \b14	
+	#define ENG_BR66_RCBASE \dx4C30	
 	#define ENG_BR66_TRACTION_TYPE 8	
-	#define ENG_BR66_ID_W \w2111	
-	#define ENG_BR66_ID_B \b*2111	
+	#define ENG_BR66_ID_W \w2003	
+	#define ENG_BR66_ID_B \b*2003	
 	#define STR_W_ENG_BR66 \wxD0FA	
 	#define STR_B_ENG_BR66 FA	
 	
@@ -1460,13 +1844,13 @@
 	#define ENG_BR67_WEIGHT \b80	
 	#define ENG_BR67_WEIGHT_HIGH \b0	
 	#define ENG_BR67_PCOST \b11	
-	#define ENG_BR67_RCOST \b59	
+	#define ENG_BR67_RCOST \b200	
 	#define ENG_BR67_RCOST_WAG \b0	
-	#define ENG_BR67_RCOST_IDLE \b1	
-	#define ENG_BR67_RCBASE \dx4c3C	
+	#define ENG_BR67_RCOST_IDLE \b14	
+	#define ENG_BR67_RCBASE \dx4C30	
 	#define ENG_BR67_TRACTION_TYPE 8	
-	#define ENG_BR67_ID_W \w2112	
-	#define ENG_BR67_ID_B \b*2112	
+	#define ENG_BR67_ID_W \w2004	
+	#define ENG_BR67_ID_B \b*2004	
 	#define STR_W_ENG_BR67 \wxD0FA	
 	#define STR_B_ENG_BR67 FA	
 	
@@ -1492,13 +1876,13 @@
 	#define ENG_DR12_WEIGHT \b122	
 	#define ENG_DR12_WEIGHT_HIGH \b0	
 	#define ENG_DR12_PCOST \b12	
-	#define ENG_DR12_RCOST \b63	
+	#define ENG_DR12_RCOST \b214	
 	#define ENG_DR12_RCOST_WAG \b0	
-	#define ENG_DR12_RCOST_IDLE \b1	
-	#define ENG_DR12_RCBASE \dx4c3C	
+	#define ENG_DR12_RCOST_IDLE \b14	
+	#define ENG_DR12_RCBASE \dx4C30	
 	#define ENG_DR12_TRACTION_TYPE 8	
-	#define ENG_DR12_ID_W \w2130	
-	#define ENG_DR12_ID_B \b*2130	
+	#define ENG_DR12_ID_W \w2005	
+	#define ENG_DR12_ID_B \b*2005	
 	#define STR_W_ENG_DR12 \wxD0FA	
 	#define STR_B_ENG_DR12 FA	
 	
@@ -1524,13 +1908,13 @@
 	#define ENG_GL8_WEIGHT \b64	
 	#define ENG_GL8_WEIGHT_HIGH \b0	
 	#define ENG_GL8_PCOST \b11	
-	#define ENG_GL8_RCOST \b59	
+	#define ENG_GL8_RCOST \b199	
 	#define ENG_GL8_RCOST_WAG \b0	
-	#define ENG_GL8_RCOST_IDLE \b1	
-	#define ENG_GL8_RCBASE \dx4c3C	
+	#define ENG_GL8_RCOST_IDLE \b14	
+	#define ENG_GL8_RCBASE \dx4C30	
 	#define ENG_GL8_TRACTION_TYPE 8	
-	#define ENG_GL8_ID_W \w2161	
-	#define ENG_GL8_ID_B \b*2161	
+	#define ENG_GL8_ID_W \w2006	
+	#define ENG_GL8_ID_B \b*2006	
 	#define STR_W_ENG_GL8 \wxD0FA	
 	#define STR_B_ENG_GL8 FA	
 	
@@ -1556,13 +1940,13 @@
 	#define ENG_F3_WEIGHT \b139	
 	#define ENG_F3_WEIGHT_HIGH \b0	
 	#define ENG_F3_PCOST \b10	
-	#define ENG_F3_RCOST \b51	
+	#define ENG_F3_RCOST \b173	
 	#define ENG_F3_RCOST_WAG \b0	
-	#define ENG_F3_RCOST_IDLE \b1	
-	#define ENG_F3_RCBASE \dx4c3C	
+	#define ENG_F3_RCOST_IDLE \b14	
+	#define ENG_F3_RCBASE \dx4C30	
 	#define ENG_F3_TRACTION_TYPE 8	
-	#define ENG_F3_ID_W \w2150	
-	#define ENG_F3_ID_B \b*2150	
+	#define ENG_F3_ID_W \w2007	
+	#define ENG_F3_ID_B \b*2007	
 	#define STR_W_ENG_F3 \wxD0FA	
 	#define STR_B_ENG_F3 FA	
 	
@@ -1593,8 +1977,8 @@
 	#define ENG_GENESIS_RCOST_IDLE \b1	
 	#define ENG_GENESIS_RCBASE \dx4c3C	
 	#define ENG_GENESIS_TRACTION_TYPE 8	
-	#define ENG_GENESIS_ID_W \w2160	
-	#define ENG_GENESIS_ID_B \b*2160	
+	#define ENG_GENESIS_ID_W \w2008	
+	#define ENG_GENESIS_ID_B \b*2008	
 	#define STR_W_ENG_GENESIS \wxD0FA	
 	#define STR_B_ENG_GENESIS FA	
 	
@@ -1620,13 +2004,13 @@
 	#define ENG_J16CW_WEIGHT \b80	
 	#define ENG_J16CW_WEIGHT_HIGH \b0	
 	#define ENG_J16CW_PCOST \b8	
-	#define ENG_J16CW_RCOST \b41	
+	#define ENG_J16CW_RCOST \b139	
 	#define ENG_J16CW_RCOST_WAG \b0	
-	#define ENG_J16CW_RCOST_IDLE \b1	
-	#define ENG_J16CW_RCBASE \dx4c3C	
+	#define ENG_J16CW_RCOST_IDLE \b14	
+	#define ENG_J16CW_RCBASE \dx4C30	
 	#define ENG_J16CW_TRACTION_TYPE 8	
-	#define ENG_J16CW_ID_W \w2190	
-	#define ENG_J16CW_ID_B \b*2190	
+	#define ENG_J16CW_ID_W \w2009	
+	#define ENG_J16CW_ID_B \b*2009	
 	#define STR_W_ENG_J16CW \wxD0FA	
 	#define STR_B_ENG_J16CW FA	
 	
@@ -1652,13 +2036,13 @@
 	#define ENG_MAK_WEIGHT \b45	
 	#define ENG_MAK_WEIGHT_HIGH \b0	
 	#define ENG_MAK_PCOST \b5	
-	#define ENG_MAK_RCOST \b172	
+	#define ENG_MAK_RCOST \b86	
 	#define ENG_MAK_RCOST_WAG \b0	
 	#define ENG_MAK_RCOST_IDLE \b14	
 	#define ENG_MAK_RCBASE \dx4C30	
 	#define ENG_MAK_TRACTION_TYPE 8	
-	#define ENG_MAK_ID_W \w2220	
-	#define ENG_MAK_ID_B \b*2220	
+	#define ENG_MAK_ID_W \w2010	
+	#define ENG_MAK_ID_B \b*2010	
 	#define STR_W_ENG_MAK \wxD0FA	
 	#define STR_B_ENG_MAK FA	
 	
@@ -1684,13 +2068,13 @@
 	#define ENG_M420W_WEIGHT \b125	
 	#define ENG_M420W_WEIGHT_HIGH \b0	
 	#define ENG_M420W_PCOST \b11	
-	#define ENG_M420W_RCOST \b57	
+	#define ENG_M420W_RCOST \b192	
 	#define ENG_M420W_RCOST_WAG \b0	
-	#define ENG_M420W_RCOST_IDLE \b1	
-	#define ENG_M420W_RCBASE \dx4c3C	
+	#define ENG_M420W_RCOST_IDLE \b14	
+	#define ENG_M420W_RCBASE \dx4C30	
 	#define ENG_M420W_TRACTION_TYPE 8	
-	#define ENG_M420W_ID_W \w2221	
-	#define ENG_M420W_ID_B \b*2221	
+	#define ENG_M420W_ID_W \w2011	
+	#define ENG_M420W_ID_B \b*2011	
 	#define STR_W_ENG_M420W \wxD0FA	
 	#define STR_B_ENG_M420W FA	
 	
@@ -1716,13 +2100,13 @@
 	#define ENG_NMBS_7800_WEIGHT \b83	
 	#define ENG_NMBS_7800_WEIGHT_HIGH \b0	
 	#define ENG_NMBS_7800_PCOST \b7	
-	#define ENG_NMBS_7800_RCOST \b224	
+	#define ENG_NMBS_7800_RCOST \b112	
 	#define ENG_NMBS_7800_RCOST_WAG \b0	
 	#define ENG_NMBS_7800_RCOST_IDLE \b14	
 	#define ENG_NMBS_7800_RCBASE \dx4C30	
 	#define ENG_NMBS_7800_TRACTION_TYPE 8	
-	#define ENG_NMBS_7800_ID_W \w2230	
-	#define ENG_NMBS_7800_ID_B \b*2230	
+	#define ENG_NMBS_7800_ID_W \w2012	
+	#define ENG_NMBS_7800_ID_B \b*2012	
 	#define STR_W_ENG_NMBS_7800 \wxD0FA	
 	#define STR_B_ENG_NMBS_7800 FA	
 	
@@ -1753,8 +2137,8 @@
 	#define ENG_SDP40F_RCOST_IDLE \b1	
 	#define ENG_SDP40F_RCBASE \dx4c3C	
 	#define ENG_SDP40F_TRACTION_TYPE 8	
-	#define ENG_SDP40F_ID_W \w2280	
-	#define ENG_SDP40F_ID_B \b*2280	
+	#define ENG_SDP40F_ID_W \w2013	
+	#define ENG_SDP40F_ID_B \b*2013	
 	#define STR_W_ENG_SDP40F \wxD0FA	
 	#define STR_B_ENG_SDP40F FA	
 	
@@ -1785,8 +2169,8 @@
 	#define ENG_SHARKNOSE_RCOST_IDLE \b1	
 	#define ENG_SHARKNOSE_RCBASE \dx4c3C	
 	#define ENG_SHARKNOSE_TRACTION_TYPE 8	
-	#define ENG_SHARKNOSE_ID_W \w2281	
-	#define ENG_SHARKNOSE_ID_B \b*2281	
+	#define ENG_SHARKNOSE_ID_W \w2014	
+	#define ENG_SHARKNOSE_ID_B \b*2014	
 	#define STR_W_ENG_SHARKNOSE \wxD0FA	
 	#define STR_B_ENG_SHARKNOSE FA	
 	
@@ -1817,8 +2201,8 @@
 	#define ENG_TEP150_RCOST_IDLE \b1	
 	#define ENG_TEP150_RCBASE \dx4c3C	
 	#define ENG_TEP150_TRACTION_TYPE 8	
-	#define ENG_TEP150_ID_W \w2290	
-	#define ENG_TEP150_ID_B \b*2290	
+	#define ENG_TEP150_ID_W \w2015	
+	#define ENG_TEP150_ID_B \b*2015	
 	#define STR_W_ENG_TEP150 \wxD0FA	
 	#define STR_B_ENG_TEP150 FA	
 	
@@ -1849,8 +2233,8 @@
 	#define ENG_V200_RCOST_IDLE \b1	
 	#define ENG_V200_RCBASE \dx4c3C	
 	#define ENG_V200_TRACTION_TYPE 8	
-	#define ENG_V200_ID_W \w2310	
-	#define ENG_V200_ID_B \b*2310	
+	#define ENG_V200_ID_W \w2016	
+	#define ENG_V200_ID_B \b*2016	
 	#define STR_W_ENG_V200 \wxD0FA	
 	#define STR_B_ENG_V200 FA	
 	
@@ -1876,13 +2260,13 @@
 	#define ENG_WDM2_WEIGHT \b113	
 	#define ENG_WDM2_WEIGHT_HIGH \b0	
 	#define ENG_WDM2_PCOST \b12	
-	#define ENG_WDM2_RCOST \b65	
+	#define ENG_WDM2_RCOST \b221	
 	#define ENG_WDM2_RCOST_WAG \b0	
-	#define ENG_WDM2_RCOST_IDLE \b1	
-	#define ENG_WDM2_RCBASE \dx4c3C	
+	#define ENG_WDM2_RCOST_IDLE \b14	
+	#define ENG_WDM2_RCBASE \dx4C30	
 	#define ENG_WDM2_TRACTION_TYPE 8	
-	#define ENG_WDM2_ID_W \w2320	
-	#define ENG_WDM2_ID_B \b*2320	
+	#define ENG_WDM2_ID_W \w2017	
+	#define ENG_WDM2_ID_B \b*2017	
 	#define STR_W_ENG_WDM2 \wxD0FA	
 	#define STR_B_ENG_WDM2 FA	
 	
@@ -1913,8 +2297,8 @@
 	#define ENG_1044_RCOST_IDLE \b1	
 	#define ENG_1044_RCBASE \dx4c3C	
 	#define ENG_1044_TRACTION_TYPE 28	
-	#define ENG_1044_ID_W \w2510	
-	#define ENG_1044_ID_B \b*2510	
+	#define ENG_1044_ID_W \w2018	
+	#define ENG_1044_ID_B \b*2018	
 	#define STR_W_ENG_1044 \wxD0FA	
 	#define STR_B_ENG_1044 FA	
 	
@@ -1945,8 +2329,8 @@
 	#define ENG_26000_RCOST_IDLE \b1	
 	#define ENG_26000_RCBASE \dx4c3C	
 	#define ENG_26000_TRACTION_TYPE 28	
-	#define ENG_26000_ID_W \w2520	
-	#define ENG_26000_ID_B \b*2520	
+	#define ENG_26000_ID_W \w2019	
+	#define ENG_26000_ID_B \b*2019	
 	#define STR_W_ENG_26000 \wxD0FA	
 	#define STR_B_ENG_26000 FA	
 	
@@ -1972,13 +2356,13 @@
 	#define ENG_27000_WEIGHT \b102	
 	#define ENG_27000_WEIGHT_HIGH \b0	
 	#define ENG_27000_PCOST \b20	
-	#define ENG_27000_RCOST \b71	
+	#define ENG_27000_RCOST \b239	
 	#define ENG_27000_RCOST_WAG \b0	
-	#define ENG_27000_RCOST_IDLE \b1	
-	#define ENG_27000_RCBASE \dx4c3C	
+	#define ENG_27000_RCOST_IDLE \b14	
+	#define ENG_27000_RCBASE \dx4C30	
 	#define ENG_27000_TRACTION_TYPE 28	
-	#define ENG_27000_ID_W \w2521	
-	#define ENG_27000_ID_B \b*2521	
+	#define ENG_27000_ID_W \w2020	
+	#define ENG_27000_ID_B \b*2020	
 	#define STR_W_ENG_27000 \wxD0FA	
 	#define STR_B_ENG_27000 FA	
 	
@@ -2004,13 +2388,13 @@
 	#define ENG_AE6_6_WEIGHT \b120	
 	#define ENG_AE6_6_WEIGHT_HIGH \b0	
 	#define ENG_AE6_6_PCOST \b20	
-	#define ENG_AE6_6_RCOST \b69	
+	#define ENG_AE6_6_RCOST \b233	
 	#define ENG_AE6_6_RCOST_WAG \b0	
-	#define ENG_AE6_6_RCOST_IDLE \b1	
-	#define ENG_AE6_6_RCBASE \dx4c3C	
+	#define ENG_AE6_6_RCOST_IDLE \b14	
+	#define ENG_AE6_6_RCBASE \dx4C30	
 	#define ENG_AE6_6_TRACTION_TYPE 28	
-	#define ENG_AE6_6_ID_W \w2600	
-	#define ENG_AE6_6_ID_B \b*2600	
+	#define ENG_AE6_6_ID_W \w2021	
+	#define ENG_AE6_6_ID_B \b*2021	
 	#define STR_W_ENG_AE6_6 \wxD0FA	
 	#define STR_B_ENG_AE6_6 FA	
 	
@@ -2036,13 +2420,13 @@
 	#define ENG_CE4_4_WEIGHT \b65	
 	#define ENG_CE4_4_WEIGHT_HIGH \b0	
 	#define ENG_CE4_4_PCOST \b6	
-	#define ENG_CE4_4_RCOST \b122	
+	#define ENG_CE4_4_RCOST \b61	
 	#define ENG_CE4_4_RCOST_WAG \b0	
 	#define ENG_CE4_4_RCOST_IDLE \b14	
 	#define ENG_CE4_4_RCBASE \dx4C30	
 	#define ENG_CE4_4_TRACTION_TYPE 28	
-	#define ENG_CE4_4_ID_W \w2620	
-	#define ENG_CE4_4_ID_B \b*2620	
+	#define ENG_CE4_4_ID_W \w2022	
+	#define ENG_CE4_4_ID_B \b*2022	
 	#define STR_W_ENG_CE4_4 \wxD0FA	
 	#define STR_B_ENG_CE4_4 FA	
 	
@@ -2068,13 +2452,13 @@
 	#define ENG_DM3_WEIGHT \b18	
 	#define ENG_DM3_WEIGHT_HIGH \b1	
 	#define ENG_DM3_PCOST \b18	
-	#define ENG_DM3_RCOST \b61	
+	#define ENG_DM3_RCOST \b205	
 	#define ENG_DM3_RCOST_WAG \b0	
-	#define ENG_DM3_RCOST_IDLE \b1	
-	#define ENG_DM3_RCBASE \dx4c3C	
+	#define ENG_DM3_RCOST_IDLE \b14	
+	#define ENG_DM3_RCBASE \dx4C30	
 	#define ENG_DM3_TRACTION_TYPE 28	
-	#define ENG_DM3_ID_W \w2621	
-	#define ENG_DM3_ID_B \b*2621	
+	#define ENG_DM3_ID_W \w2023	
+	#define ENG_DM3_ID_B \b*2023	
 	#define STR_W_ENG_DM3 \wxD0FA	
 	#define STR_B_ENG_DM3 FA	
 	
@@ -2105,8 +2489,8 @@
 	#define ENG_DS3_RCOST_IDLE \b1	
 	#define ENG_DS3_RCBASE \dx4c3C	
 	#define ENG_DS3_TRACTION_TYPE 28	
-	#define ENG_DS3_ID_W \w2622	
-	#define ENG_DS3_ID_B \b*2622	
+	#define ENG_DS3_ID_W \w2024	
+	#define ENG_DS3_ID_B \b*2024	
 	#define STR_W_ENG_DS3 \wxD0FA	
 	#define STR_B_ENG_DS3 FA	
 	
@@ -2137,8 +2521,8 @@
 	#define ENG_DB_E103_RCOST_IDLE \b14	
 	#define ENG_DB_E103_RCBASE \dx4C30	
 	#define ENG_DB_E103_TRACTION_TYPE 28	
-	#define ENG_DB_E103_ID_W \w2623	
-	#define ENG_DB_E103_ID_B \b*2623	
+	#define ENG_DB_E103_ID_W \w2025	
+	#define ENG_DB_E103_ID_B \b*2025	
 	#define STR_W_ENG_DB_E103 \wxD0FA	
 	#define STR_B_ENG_DB_E103 FA	
 	
@@ -2164,13 +2548,13 @@
 	#define ENG_E04_01_WEIGHT \b92	
 	#define ENG_E04_01_WEIGHT_HIGH \b0	
 	#define ENG_E04_01_PCOST \b14	
-	#define ENG_E04_01_RCOST \b47	
+	#define ENG_E04_01_RCOST \b160	
 	#define ENG_E04_01_RCOST_WAG \b0	
-	#define ENG_E04_01_RCOST_IDLE \b1	
-	#define ENG_E04_01_RCBASE \dx4c3C	
+	#define ENG_E04_01_RCOST_IDLE \b14	
+	#define ENG_E04_01_RCBASE \dx4C30	
 	#define ENG_E04_01_TRACTION_TYPE 28	
-	#define ENG_E04_01_ID_W \w2630	
-	#define ENG_E04_01_ID_B \b*2630	
+	#define ENG_E04_01_ID_W \w2026	
+	#define ENG_E04_01_ID_B \b*2026	
 	#define STR_W_ENG_E04_01 \wxD0FA	
 	#define STR_B_ENG_E04_01 FA	
 	
@@ -2196,13 +2580,13 @@
 	#define ENG_E55200_WEIGHT \b82	
 	#define ENG_E55200_WEIGHT_HIGH \b0	
 	#define ENG_E55200_PCOST \b19	
-	#define ENG_E55200_RCOST \b62	
+	#define ENG_E55200_RCOST \b208	
 	#define ENG_E55200_RCOST_WAG \b0	
-	#define ENG_E55200_RCOST_IDLE \b1	
-	#define ENG_E55200_RCBASE \dx4c3C	
+	#define ENG_E55200_RCOST_IDLE \b14	
+	#define ENG_E55200_RCBASE \dx4C30	
 	#define ENG_E55200_TRACTION_TYPE 28	
-	#define ENG_E55200_ID_W \w2631	
-	#define ENG_E55200_ID_B \b*2631	
+	#define ENG_E55200_ID_W \w2027	
+	#define ENG_E55200_ID_B \b*2027	
 	#define STR_W_ENG_E55200 \wxD0FA	
 	#define STR_B_ENG_E55200 FA	
 	
@@ -2233,8 +2617,8 @@
 	#define ENG_E646_RCOST_IDLE \b1	
 	#define ENG_E646_RCBASE \dx4c3C	
 	#define ENG_E646_TRACTION_TYPE 28	
-	#define ENG_E646_ID_W \w2632	
-	#define ENG_E646_ID_B \b*2632	
+	#define ENG_E646_ID_W \w2028	
+	#define ENG_E646_ID_B \b*2028	
 	#define STR_W_ENG_E646 \wxD0FA	
 	#define STR_B_ENG_E646 FA	
 	
@@ -2260,13 +2644,13 @@
 	#define ENG_ET41_WEIGHT \b84	
 	#define ENG_ET41_WEIGHT_HIGH \b0	
 	#define ENG_ET41_PCOST \b16	
-	#define ENG_ET41_RCOST \b55	
+	#define ENG_ET41_RCOST \b187	
 	#define ENG_ET41_RCOST_WAG \b0	
-	#define ENG_ET41_RCOST_IDLE \b1	
-	#define ENG_ET41_RCBASE \dx4c3C	
+	#define ENG_ET41_RCOST_IDLE \b14	
+	#define ENG_ET41_RCBASE \dx4C30	
 	#define ENG_ET41_TRACTION_TYPE 28	
-	#define ENG_ET41_ID_W \w2635	
-	#define ENG_ET41_ID_B \b*2635	
+	#define ENG_ET41_ID_W \w2029	
+	#define ENG_ET41_ID_B \b*2029	
 	#define STR_W_ENG_ET41 \wxD0FA	
 	#define STR_B_ENG_ET41 FA	
 	
@@ -2297,8 +2681,8 @@
 	#define ENG_HLE13_RCOST_IDLE \b1	
 	#define ENG_HLE13_RCBASE \dx4c3C	
 	#define ENG_HLE13_TRACTION_TYPE 28	
-	#define ENG_HLE13_ID_W \w2670	
-	#define ENG_HLE13_ID_B \b*2670	
+	#define ENG_HLE13_ID_W \w2030	
+	#define ENG_HLE13_ID_B \b*2030	
 	#define STR_W_ENG_HLE13 \wxD0FA	
 	#define STR_B_ENG_HLE13 FA	
 	
@@ -2329,8 +2713,8 @@
 	#define ENG_IORE_RCOST_IDLE \b1	
 	#define ENG_IORE_RCBASE \dx4c3C	
 	#define ENG_IORE_TRACTION_TYPE 28	
-	#define ENG_IORE_ID_W \w2680	
-	#define ENG_IORE_ID_B \b*2680	
+	#define ENG_IORE_ID_W \w2031	
+	#define ENG_IORE_ID_B \b*2031	
 	#define STR_W_ENG_IORE \wxD0FA	
 	#define STR_B_ENG_IORE FA	
 	
@@ -2361,8 +2745,8 @@
 	#define ENG_KZ2A_RCOST_IDLE \b1	
 	#define ENG_KZ2A_RCBASE \dx4c3C	
 	#define ENG_KZ2A_TRACTION_TYPE 28	
-	#define ENG_KZ2A_ID_W \w2700	
-	#define ENG_KZ2A_ID_B \b*2700	
+	#define ENG_KZ2A_ID_W \w2032	
+	#define ENG_KZ2A_ID_B \b*2032	
 	#define STR_W_ENG_KZ2A \wxD0FA	
 	#define STR_B_ENG_KZ2A FA	
 	
@@ -2393,8 +2777,8 @@
 	#define ENG_LOK2K_RCOST_IDLE \b1	
 	#define ENG_LOK2K_RCBASE \dx4c3C	
 	#define ENG_LOK2K_TRACTION_TYPE 28	
-	#define ENG_LOK2K_ID_W \w2710	
-	#define ENG_LOK2K_ID_B \b*2710	
+	#define ENG_LOK2K_ID_W \w2033	
+	#define ENG_LOK2K_ID_B \b*2033	
 	#define STR_W_ENG_LOK2K \wxD0FA	
 	#define STR_B_ENG_LOK2K FA	
 	
@@ -2420,13 +2804,13 @@
 	#define ENG_EM2_WEIGHT \b102	
 	#define ENG_EM2_WEIGHT_HIGH \b0	
 	#define ENG_EM2_PCOST \b19	
-	#define ENG_EM2_RCOST \b69	
+	#define ENG_EM2_RCOST \b232	
 	#define ENG_EM2_RCOST_WAG \b0	
-	#define ENG_EM2_RCOST_IDLE \b1	
-	#define ENG_EM2_RCBASE \dx4c3C	
+	#define ENG_EM2_RCOST_IDLE \b14	
+	#define ENG_EM2_RCBASE \dx4C30	
 	#define ENG_EM2_TRACTION_TYPE 28	
-	#define ENG_EM2_ID_W \w2720	
-	#define ENG_EM2_ID_B \b*2720	
+	#define ENG_EM2_ID_W \w2034	
+	#define ENG_EM2_ID_B \b*2034	
 	#define STR_W_ENG_EM2 \wxD0FA	
 	#define STR_B_ENG_EM2 FA	
 	
@@ -2452,13 +2836,13 @@
 	#define ENG_NER_EF1_WEIGHT \b74	
 	#define ENG_NER_EF1_WEIGHT_HIGH \b0	
 	#define ENG_NER_EF1_PCOST \b3	
-	#define ENG_NER_EF1_RCOST \b71	
+	#define ENG_NER_EF1_RCOST \b35	
 	#define ENG_NER_EF1_RCOST_WAG \b0	
 	#define ENG_NER_EF1_RCOST_IDLE \b14	
 	#define ENG_NER_EF1_RCBASE \dx4C30	
 	#define ENG_NER_EF1_TRACTION_TYPE 28	
-	#define ENG_NER_EF1_ID_W \w2730	
-	#define ENG_NER_EF1_ID_B \b*2730	
+	#define ENG_NER_EF1_ID_W \w2035	
+	#define ENG_NER_EF1_ID_B \b*2035	
 	#define STR_W_ENG_NER_EF1 \wxD0FA	
 	#define STR_B_ENG_NER_EF1 FA	
 	
@@ -2484,13 +2868,13 @@
 	#define ENG_NS1000_WEIGHT \b100	
 	#define ENG_NS1000_WEIGHT_HIGH \b0	
 	#define ENG_NS1000_PCOST \b19	
-	#define ENG_NS1000_RCOST \b67	
+	#define ENG_NS1000_RCOST \b225	
 	#define ENG_NS1000_RCOST_WAG \b0	
-	#define ENG_NS1000_RCOST_IDLE \b1	
-	#define ENG_NS1000_RCBASE \dx4c3C	
+	#define ENG_NS1000_RCOST_IDLE \b14	
+	#define ENG_NS1000_RCBASE \dx4C30	
 	#define ENG_NS1000_TRACTION_TYPE 28	
-	#define ENG_NS1000_ID_W \w2731	
-	#define ENG_NS1000_ID_B \b*2731	
+	#define ENG_NS1000_ID_W \w2036	
+	#define ENG_NS1000_ID_B \b*2036	
 	#define STR_W_ENG_NS1000 \wxD0FA	
 	#define STR_B_ENG_NS1000 FA	
 	
@@ -2521,8 +2905,8 @@
 	#define ENG_NS1600_RCOST_IDLE \b1	
 	#define ENG_NS1600_RCBASE \dx4c3C	
 	#define ENG_NS1600_TRACTION_TYPE 28	
-	#define ENG_NS1600_ID_W \w2732	
-	#define ENG_NS1600_ID_B \b*2732	
+	#define ENG_NS1600_ID_W \w2037	
+	#define ENG_NS1600_ID_B \b*2037	
 	#define STR_W_ENG_NS1600 \wxD0FA	
 	#define STR_B_ENG_NS1600 FA	
 	
@@ -2548,13 +2932,13 @@
 	#define ENG_SR1_WEIGHT \b84	
 	#define ENG_SR1_WEIGHT_HIGH \b0	
 	#define ENG_SR1_PCOST \b21	
-	#define ENG_SR1_RCOST \b72	
+	#define ENG_SR1_RCOST \b244	
 	#define ENG_SR1_RCOST_WAG \b0	
-	#define ENG_SR1_RCOST_IDLE \b1	
-	#define ENG_SR1_RCBASE \dx4c3C	
+	#define ENG_SR1_RCOST_IDLE \b14	
+	#define ENG_SR1_RCBASE \dx4C30	
 	#define ENG_SR1_TRACTION_TYPE 28	
-	#define ENG_SR1_ID_W \w2770	
-	#define ENG_SR1_ID_B \b*2770	
+	#define ENG_SR1_ID_W \w2038	
+	#define ENG_SR1_ID_B \b*2038	
 	#define STR_W_ENG_SR1 \wxD0FA	
 	#define STR_B_ENG_SR1 FA	
 	
@@ -2580,13 +2964,13 @@
 	#define ENG_SS6_WEIGHT \b138	
 	#define ENG_SS6_WEIGHT_HIGH \b0	
 	#define ENG_SS6_PCOST \b17	
-	#define ENG_SS6_RCOST \b57	
+	#define ENG_SS6_RCOST \b191	
 	#define ENG_SS6_RCOST_WAG \b0	
-	#define ENG_SS6_RCOST_IDLE \b1	
-	#define ENG_SS6_RCBASE \dx4c3C	
+	#define ENG_SS6_RCOST_IDLE \b14	
+	#define ENG_SS6_RCBASE \dx4C30	
 	#define ENG_SS6_TRACTION_TYPE 28	
-	#define ENG_SS6_ID_W \w2771	
-	#define ENG_SS6_ID_B \b*2771	
+	#define ENG_SS6_ID_W \w2039	
+	#define ENG_SS6_ID_B \b*2039	
 	#define STR_W_ENG_SS6 \wxD0FA	
 	#define STR_B_ENG_SS6 FA	
 	
@@ -2617,8 +3001,8 @@
 	#define ENG_SNCF_BB_22000_RCOST_IDLE \b1	
 	#define ENG_SNCF_BB_22000_RCBASE \dx4c3C	
 	#define ENG_SNCF_BB_22000_TRACTION_TYPE 28	
-	#define ENG_SNCF_BB_22000_ID_W \w2772	
-	#define ENG_SNCF_BB_22000_ID_B \b*2772	
+	#define ENG_SNCF_BB_22000_ID_W \w2040	
+	#define ENG_SNCF_BB_22000_ID_B \b*2040	
 	#define STR_W_ENG_SNCF_BB_22000 \wxD0FA	
 	#define STR_B_ENG_SNCF_BB_22000 FA	
 	
@@ -2644,13 +3028,13 @@
 	#define ENG_VL15_WEIGHT \b150	
 	#define ENG_VL15_WEIGHT_HIGH \b0	
 	#define ENG_VL15_PCOST \b17	
-	#define ENG_VL15_RCOST \b56	
+	#define ENG_VL15_RCOST \b189	
 	#define ENG_VL15_RCOST_WAG \b0	
-	#define ENG_VL15_RCOST_IDLE \b1	
-	#define ENG_VL15_RCBASE \dx4c3C	
+	#define ENG_VL15_RCOST_IDLE \b14	
+	#define ENG_VL15_RCBASE \dx4C30	
 	#define ENG_VL15_TRACTION_TYPE 28	
-	#define ENG_VL15_ID_W \w2810	
-	#define ENG_VL15_ID_B \b*2810	
+	#define ENG_VL15_ID_W \w2041	
+	#define ENG_VL15_ID_B \b*2041	
 	#define STR_W_ENG_VL15 \wxD0FA	
 	#define STR_B_ENG_VL15 FA	
 	
@@ -2676,13 +3060,13 @@
 	#define ENG_WCM1_WEIGHT \b124	
 	#define ENG_WCM1_WEIGHT_HIGH \b0	
 	#define ENG_WCM1_PCOST \b14	
-	#define ENG_WCM1_RCOST \b48	
+	#define ENG_WCM1_RCOST \b162	
 	#define ENG_WCM1_RCOST_WAG \b0	
-	#define ENG_WCM1_RCOST_IDLE \b1	
-	#define ENG_WCM1_RCBASE \dx4c3C	
+	#define ENG_WCM1_RCOST_IDLE \b14	
+	#define ENG_WCM1_RCBASE \dx4C30	
 	#define ENG_WCM1_TRACTION_TYPE 28	
-	#define ENG_WCM1_ID_W \w2820	
-	#define ENG_WCM1_ID_B \b*2820	
+	#define ENG_WCM1_ID_W \w2042	
+	#define ENG_WCM1_ID_B \b*2042	
 	#define STR_W_ENG_WCM1 \wxD0FA	
 	#define STR_B_ENG_WCM1 FA	
 	
@@ -2708,13 +3092,13 @@
 	#define ENG_11B_WEIGHT \b97	
 	#define ENG_11B_WEIGHT_HIGH \b0	
 	#define ENG_11B_PCOST \b4	
-	#define ENG_11B_RCOST \b187	
+	#define ENG_11B_RCOST \b94	
 	#define ENG_11B_RCOST_WAG \b0	
 	#define ENG_11B_RCOST_IDLE \b14	
 	#define ENG_11B_RCBASE \dx4C30	
 	#define ENG_11B_TRACTION_TYPE 0	
-	#define ENG_11B_ID_W \w1510	
-	#define ENG_11B_ID_B \b*1510	
+	#define ENG_11B_ID_W \w2043	
+	#define ENG_11B_ID_B \b*2043	
 	#define STR_W_ENG_11B \wxD0FA	
 	#define STR_B_ENG_11B FA	
 	
@@ -2740,13 +3124,13 @@
 	#define ENG_140C_WEIGHT \b126	
 	#define ENG_140C_WEIGHT_HIGH \b0	
 	#define ENG_140C_PCOST \b5	
-	#define ENG_140C_RCOST \b42	
+	#define ENG_140C_RCOST \b142	
 	#define ENG_140C_RCOST_WAG \b0	
-	#define ENG_140C_RCOST_IDLE \b1	
-	#define ENG_140C_RCBASE \dx4c3C	
+	#define ENG_140C_RCOST_IDLE \b14	
+	#define ENG_140C_RCBASE \dx4C30	
 	#define ENG_140C_TRACTION_TYPE 0	
-	#define ENG_140C_ID_W \w1511	
-	#define ENG_140C_ID_B \b*1511	
+	#define ENG_140C_ID_W \w2044	
+	#define ENG_140C_ID_B \b*2044	
 	#define STR_W_ENG_140C \wxD0FA	
 	#define STR_B_ENG_140C FA	
 	
@@ -2772,13 +3156,13 @@
 	#define ENG_141TA_WEIGHT \b94	
 	#define ENG_141TA_WEIGHT_HIGH \b0	
 	#define ENG_141TA_PCOST \b4	
-	#define ENG_141TA_RCOST \b224	
+	#define ENG_141TA_RCOST \b112	
 	#define ENG_141TA_RCOST_WAG \b0	
 	#define ENG_141TA_RCOST_IDLE \b14	
 	#define ENG_141TA_RCBASE \dx4C30	
 	#define ENG_141TA_TRACTION_TYPE 0	
-	#define ENG_141TA_ID_W \w1512	
-	#define ENG_141TA_ID_B \b*1512	
+	#define ENG_141TA_ID_W \w2045	
+	#define ENG_141TA_ID_B \b*2045	
 	#define STR_W_ENG_141TA \wxD0FA	
 	#define STR_B_ENG_141TA FA	
 	
@@ -2804,13 +3188,13 @@
 	#define ENG_150B_WEIGHT \b174	
 	#define ENG_150B_WEIGHT_HIGH \b0	
 	#define ENG_150B_PCOST \b8	
-	#define ENG_150B_RCOST \b68	
+	#define ENG_150B_RCOST \b229	
 	#define ENG_150B_RCOST_WAG \b0	
-	#define ENG_150B_RCOST_IDLE \b1	
-	#define ENG_150B_RCBASE \dx4c3C	
+	#define ENG_150B_RCOST_IDLE \b14	
+	#define ENG_150B_RCBASE \dx4C30	
 	#define ENG_150B_TRACTION_TYPE 0	
-	#define ENG_150B_ID_W \w1513	
-	#define ENG_150B_ID_B \b*1513	
+	#define ENG_150B_ID_W \w2046	
+	#define ENG_150B_ID_B \b*2046	
 	#define STR_W_ENG_150B \wxD0FA	
 	#define STR_B_ENG_150B FA	
 	
@@ -2836,13 +3220,13 @@
 	#define ENG_6300_WEIGHT \b127	
 	#define ENG_6300_WEIGHT_HIGH \b0	
 	#define ENG_6300_PCOST \b6	
-	#define ENG_6300_RCOST \b50	
+	#define ENG_6300_RCOST \b168	
 	#define ENG_6300_RCOST_WAG \b0	
-	#define ENG_6300_RCOST_IDLE \b1	
-	#define ENG_6300_RCBASE \dx4c3C	
+	#define ENG_6300_RCOST_IDLE \b14	
+	#define ENG_6300_RCBASE \dx4C30	
 	#define ENG_6300_TRACTION_TYPE 0	
-	#define ENG_6300_ID_W \w1560	
-	#define ENG_6300_ID_B \b*1560	
+	#define ENG_6300_ID_W \w2047	
+	#define ENG_6300_ID_B \b*2047	
 	#define STR_W_ENG_6300 \wxD0FA	
 	#define STR_B_ENG_6300 FA	
 	
@@ -2873,8 +3257,8 @@
 	#define ENG_A4_RCOST_IDLE \b1	
 	#define ENG_A4_RCBASE \dx4c3C	
 	#define ENG_A4_TRACTION_TYPE 0	
-	#define ENG_A4_ID_W \w1600	
-	#define ENG_A4_ID_B \b*1600	
+	#define ENG_A4_ID_W \w2048	
+	#define ENG_A4_ID_B \b*2048	
 	#define STR_W_ENG_A4 \wxD0FA	
 	#define STR_B_ENG_A4 FA	
 	
@@ -2905,8 +3289,8 @@
 	#define ENG_BIGBOY_RCOST_IDLE \b1	
 	#define ENG_BIGBOY_RCBASE \dx4c3C	
 	#define ENG_BIGBOY_TRACTION_TYPE 0	
-	#define ENG_BIGBOY_ID_W \w1610	
-	#define ENG_BIGBOY_ID_B \b*1610	
+	#define ENG_BIGBOY_ID_W \w2049	
+	#define ENG_BIGBOY_ID_B \b*2049	
 	#define STR_W_ENG_BIGBOY \wxD0FA	
 	#define STR_B_ENG_BIGBOY FA	
 	
@@ -2932,13 +3316,13 @@
 	#define ENG_OKZ32_WEIGHT \b118	
 	#define ENG_OKZ32_WEIGHT_HIGH \b0	
 	#define ENG_OKZ32_PCOST \b5	
-	#define ENG_OKZ32_RCOST \b40	
+	#define ENG_OKZ32_RCOST \b135	
 	#define ENG_OKZ32_RCOST_WAG \b0	
-	#define ENG_OKZ32_RCOST_IDLE \b1	
-	#define ENG_OKZ32_RCBASE \dx4c3C	
+	#define ENG_OKZ32_RCOST_IDLE \b14	
+	#define ENG_OKZ32_RCBASE \dx4C30	
 	#define ENG_OKZ32_TRACTION_TYPE 0	
-	#define ENG_OKZ32_ID_W \w1740	
-	#define ENG_OKZ32_ID_B \b*1740	
+	#define ENG_OKZ32_ID_W \w2050	
+	#define ENG_OKZ32_ID_B \b*2050	
 	#define STR_W_ENG_OKZ32 \wxD0FA	
 	#define STR_B_ENG_OKZ32 FA	
 	
@@ -2969,10 +3353,330 @@
 	#define ENG_ROYALHUDSON_RCOST_IDLE \b1	
 	#define ENG_ROYALHUDSON_RCBASE \dx4c3C	
 	#define ENG_ROYALHUDSON_TRACTION_TYPE 0	
-	#define ENG_ROYALHUDSON_ID_W \w1770	
-	#define ENG_ROYALHUDSON_ID_B \b*1770	
+	#define ENG_ROYALHUDSON_ID_W \w2051	
+	#define ENG_ROYALHUDSON_ID_B \b*2051	
 	#define STR_W_ENG_ROYALHUDSON \wxD0FA	
 	#define STR_B_ENG_ROYALHUDSON FA	
+	
+#define NIG_C571_INTROYEAR \w1-1-1	
+	#define NIG_C571_V_LIFE \b40	
+	#define NIG_C571_M_LIFE \b255	
+	#define NIG_C571_SPEED \w1	
+	#define NIG_C571_TE \b26	
+	#define NIG_C571_HP \w1	
+	#define NIG_C571_WAG_HP \w0	
+	#define NIG_C571_CAP_WAG_PAX \b0	
+	#define NIG_C571_CAP_WAG_MAIL \b0	
+	#define NIG_C571_CAP_WAG_ARMOR \b0	
+	#define NIG_C571_CAP_WAG_PAX_STR "0"	
+	#define NIG_C571_CAP_WAG_MAIL_STR "0"	
+	#define NIG_C571_CAP_WAG_ARMOR_STR "0"	
+	#define NIG_C571_CAP_HEAD_PAX \b0	
+	#define NIG_C571_CAP_HEAD_MAIL \b0	
+	#define NIG_C571_CAP_HEAD_ARMOR \b0	
+	#define NIG_C571_PAX_LS \b1	
+	#define NIG_C571_MAIL_LS \b1	
+	#define NIG_C571_ARMOR_LS \b1	
+	#define NIG_C571_WEIGHT \b1	
+	#define NIG_C571_WEIGHT_HIGH \b0	
+	#define NIG_C571_PCOST \b0	
+	#define NIG_C571_RCOST \b0	
+	#define NIG_C571_RCOST_WAG \b0	
+	#define NIG_C571_RCOST_IDLE \b14	
+	#define NIG_C571_RCBASE \dx4C30	
+	#define NIG_C571_TRACTION_TYPE 0	
+	#define NIG_C571_ID_W \w2052	
+	#define NIG_C571_ID_B \b*2052	
+	#define STR_W_NIG_C571 \wxD0FA	
+	#define STR_B_NIG_C571 FA	
+	
+#define NIG_QJ_INTROYEAR \w1-1-1	
+	#define NIG_QJ_V_LIFE \b40	
+	#define NIG_QJ_M_LIFE \b255	
+	#define NIG_QJ_SPEED \w1	
+	#define NIG_QJ_TE \b26	
+	#define NIG_QJ_HP \w1	
+	#define NIG_QJ_WAG_HP \w0	
+	#define NIG_QJ_CAP_WAG_PAX \b0	
+	#define NIG_QJ_CAP_WAG_MAIL \b0	
+	#define NIG_QJ_CAP_WAG_ARMOR \b0	
+	#define NIG_QJ_CAP_WAG_PAX_STR "0"	
+	#define NIG_QJ_CAP_WAG_MAIL_STR "0"	
+	#define NIG_QJ_CAP_WAG_ARMOR_STR "0"	
+	#define NIG_QJ_CAP_HEAD_PAX \b0	
+	#define NIG_QJ_CAP_HEAD_MAIL \b0	
+	#define NIG_QJ_CAP_HEAD_ARMOR \b0	
+	#define NIG_QJ_PAX_LS \b1	
+	#define NIG_QJ_MAIL_LS \b1	
+	#define NIG_QJ_ARMOR_LS \b1	
+	#define NIG_QJ_WEIGHT \b1	
+	#define NIG_QJ_WEIGHT_HIGH \b0	
+	#define NIG_QJ_PCOST \b0	
+	#define NIG_QJ_RCOST \b0	
+	#define NIG_QJ_RCOST_WAG \b0	
+	#define NIG_QJ_RCOST_IDLE \b14	
+	#define NIG_QJ_RCBASE \dx4C30	
+	#define NIG_QJ_TRACTION_TYPE 0	
+	#define NIG_QJ_ID_W \w2053	
+	#define NIG_QJ_ID_B \b*2053	
+	#define STR_W_NIG_QJ \wxD0FA	
+	#define STR_B_NIG_QJ FA	
+	
+#define NIG_P36_INTROYEAR \w1-1-1	
+	#define NIG_P36_V_LIFE \b40	
+	#define NIG_P36_M_LIFE \b255	
+	#define NIG_P36_SPEED \w1	
+	#define NIG_P36_TE \b26	
+	#define NIG_P36_HP \w1	
+	#define NIG_P36_WAG_HP \w0	
+	#define NIG_P36_CAP_WAG_PAX \b0	
+	#define NIG_P36_CAP_WAG_MAIL \b0	
+	#define NIG_P36_CAP_WAG_ARMOR \b0	
+	#define NIG_P36_CAP_WAG_PAX_STR "0"	
+	#define NIG_P36_CAP_WAG_MAIL_STR "0"	
+	#define NIG_P36_CAP_WAG_ARMOR_STR "0"	
+	#define NIG_P36_CAP_HEAD_PAX \b0	
+	#define NIG_P36_CAP_HEAD_MAIL \b0	
+	#define NIG_P36_CAP_HEAD_ARMOR \b0	
+	#define NIG_P36_PAX_LS \b1	
+	#define NIG_P36_MAIL_LS \b1	
+	#define NIG_P36_ARMOR_LS \b1	
+	#define NIG_P36_WEIGHT \b1	
+	#define NIG_P36_WEIGHT_HIGH \b0	
+	#define NIG_P36_PCOST \b0	
+	#define NIG_P36_RCOST \b0	
+	#define NIG_P36_RCOST_WAG \b0	
+	#define NIG_P36_RCOST_IDLE \b14	
+	#define NIG_P36_RCBASE \dx4C30	
+	#define NIG_P36_TRACTION_TYPE 0	
+	#define NIG_P36_ID_W \w2054	
+	#define NIG_P36_ID_B \b*2054	
+		
+		
+	
+#define NIG_SU250_INTROYEAR \w1-1-1	
+	#define NIG_SU250_V_LIFE \b40	
+	#define NIG_SU250_M_LIFE \b255	
+	#define NIG_SU250_SPEED \w1	
+	#define NIG_SU250_TE \b26	
+	#define NIG_SU250_HP \w1	
+	#define NIG_SU250_WAG_HP \w0	
+	#define NIG_SU250_CAP_WAG_PAX \b0	
+	#define NIG_SU250_CAP_WAG_MAIL \b0	
+	#define NIG_SU250_CAP_WAG_ARMOR \b0	
+	#define NIG_SU250_CAP_WAG_PAX_STR "0"	
+	#define NIG_SU250_CAP_WAG_MAIL_STR "0"	
+	#define NIG_SU250_CAP_WAG_ARMOR_STR "0"	
+	#define NIG_SU250_CAP_HEAD_PAX \b0	
+	#define NIG_SU250_CAP_HEAD_MAIL \b0	
+	#define NIG_SU250_CAP_HEAD_ARMOR \b0	
+	#define NIG_SU250_PAX_LS \b1	
+	#define NIG_SU250_MAIL_LS \b1	
+	#define NIG_SU250_ARMOR_LS \b1	
+	#define NIG_SU250_WEIGHT \b1	
+	#define NIG_SU250_WEIGHT_HIGH \b0	
+	#define NIG_SU250_PCOST \b0	
+	#define NIG_SU250_RCOST \b0	
+	#define NIG_SU250_RCOST_WAG \b0	
+	#define NIG_SU250_RCOST_IDLE \b14	
+	#define NIG_SU250_RCBASE \dx4C30	
+	#define NIG_SU250_TRACTION_TYPE 0	
+	#define NIG_SU250_ID_W \w2055	
+	#define NIG_SU250_ID_B \b*2055	
+		
+		
+	
+#define NIG_DAYLIGHT_INTROYEAR \w1940-1-1	
+	#define NIG_DAYLIGHT_V_LIFE \b40	
+	#define NIG_DAYLIGHT_M_LIFE \b255	
+	#define NIG_DAYLIGHT_SPEED \w140	
+	#define NIG_DAYLIGHT_TE \b52	
+	#define NIG_DAYLIGHT_HP \w3500	
+	#define NIG_DAYLIGHT_WAG_HP \w0	
+	#define NIG_DAYLIGHT_CAP_WAG_PAX \b0	
+	#define NIG_DAYLIGHT_CAP_WAG_MAIL \b0	
+	#define NIG_DAYLIGHT_CAP_WAG_ARMOR \b0	
+	#define NIG_DAYLIGHT_CAP_WAG_PAX_STR "0"	
+	#define NIG_DAYLIGHT_CAP_WAG_MAIL_STR "0"	
+	#define NIG_DAYLIGHT_CAP_WAG_ARMOR_STR "0"	
+	#define NIG_DAYLIGHT_CAP_HEAD_PAX \b0	
+	#define NIG_DAYLIGHT_CAP_HEAD_MAIL \b0	
+	#define NIG_DAYLIGHT_CAP_HEAD_ARMOR \b0	
+	#define NIG_DAYLIGHT_PAX_LS \b1	
+	#define NIG_DAYLIGHT_MAIL_LS \b1	
+	#define NIG_DAYLIGHT_ARMOR_LS \b1	
+	#define NIG_DAYLIGHT_WEIGHT \b175	
+	#define NIG_DAYLIGHT_WEIGHT_HIGH \b0	
+	#define NIG_DAYLIGHT_PCOST \b13	
+	#define NIG_DAYLIGHT_RCOST \b108	
+	#define NIG_DAYLIGHT_RCOST_WAG \b0	
+	#define NIG_DAYLIGHT_RCOST_IDLE \b1	
+	#define NIG_DAYLIGHT_RCBASE \dx4c3C	
+	#define NIG_DAYLIGHT_TRACTION_TYPE 0	
+	#define NIG_DAYLIGHT_ID_W \w2056	
+	#define NIG_DAYLIGHT_ID_B \b*2056	
+		
+		
+	
+#define NIG_895_INTROYEAR \w1921-1-1	
+	#define NIG_895_V_LIFE \b40	
+	#define NIG_895_M_LIFE \b255	
+	#define NIG_895_SPEED \w40	
+	#define NIG_895_TE \b55	
+	#define NIG_895_HP \w610	
+	#define NIG_895_WAG_HP \w0	
+	#define NIG_895_CAP_WAG_PAX \b0	
+	#define NIG_895_CAP_WAG_MAIL \b0	
+	#define NIG_895_CAP_WAG_ARMOR \b0	
+	#define NIG_895_CAP_WAG_PAX_STR "0"	
+	#define NIG_895_CAP_WAG_MAIL_STR "0"	
+	#define NIG_895_CAP_WAG_ARMOR_STR "0"	
+	#define NIG_895_CAP_HEAD_PAX \b0	
+	#define NIG_895_CAP_HEAD_MAIL \b0	
+	#define NIG_895_CAP_HEAD_ARMOR \b0	
+	#define NIG_895_PAX_LS \b1	
+	#define NIG_895_MAIL_LS \b1	
+	#define NIG_895_ARMOR_LS \b1	
+	#define NIG_895_WEIGHT \b59	
+	#define NIG_895_WEIGHT_HIGH \b0	
+	#define NIG_895_PCOST \b2	
+	#define NIG_895_RCOST \b44	
+	#define NIG_895_RCOST_WAG \b0	
+	#define NIG_895_RCOST_IDLE \b14	
+	#define NIG_895_RCBASE \dx4C30	
+	#define NIG_895_TRACTION_TYPE 0	
+	#define NIG_895_ID_W \w2057	
+	#define NIG_895_ID_B \b*2057	
+		
+		
+	
+#define NIG_GARRAFETA_INTROYEAR \w1-1-1	
+	#define NIG_GARRAFETA_V_LIFE \b40	
+	#define NIG_GARRAFETA_M_LIFE \b255	
+	#define NIG_GARRAFETA_SPEED \w1	
+	#define NIG_GARRAFETA_TE \b26	
+	#define NIG_GARRAFETA_HP \w1	
+	#define NIG_GARRAFETA_WAG_HP \w0	
+	#define NIG_GARRAFETA_CAP_WAG_PAX \b0	
+	#define NIG_GARRAFETA_CAP_WAG_MAIL \b0	
+	#define NIG_GARRAFETA_CAP_WAG_ARMOR \b0	
+	#define NIG_GARRAFETA_CAP_WAG_PAX_STR "0"	
+	#define NIG_GARRAFETA_CAP_WAG_MAIL_STR "0"	
+	#define NIG_GARRAFETA_CAP_WAG_ARMOR_STR "0"	
+	#define NIG_GARRAFETA_CAP_HEAD_PAX \b0	
+	#define NIG_GARRAFETA_CAP_HEAD_MAIL \b0	
+	#define NIG_GARRAFETA_CAP_HEAD_ARMOR \b0	
+	#define NIG_GARRAFETA_PAX_LS \b1	
+	#define NIG_GARRAFETA_MAIL_LS \b1	
+	#define NIG_GARRAFETA_ARMOR_LS \b1	
+	#define NIG_GARRAFETA_WEIGHT \b1	
+	#define NIG_GARRAFETA_WEIGHT_HIGH \b0	
+	#define NIG_GARRAFETA_PCOST \b0	
+	#define NIG_GARRAFETA_RCOST \b0	
+	#define NIG_GARRAFETA_RCOST_WAG \b0	
+	#define NIG_GARRAFETA_RCOST_IDLE \b14	
+	#define NIG_GARRAFETA_RCBASE \dx4C30	
+	#define NIG_GARRAFETA_TRACTION_TYPE 0	
+	#define NIG_GARRAFETA_ID_W \w2058	
+	#define NIG_GARRAFETA_ID_B \b*2058	
+		
+		
+	
+#define NIG_BR23_INTROYEAR \w1-1-1	
+	#define NIG_BR23_V_LIFE \b40	
+	#define NIG_BR23_M_LIFE \b255	
+	#define NIG_BR23_SPEED \w1	
+	#define NIG_BR23_TE \b26	
+	#define NIG_BR23_HP \w1	
+	#define NIG_BR23_WAG_HP \w0	
+	#define NIG_BR23_CAP_WAG_PAX \b0	
+	#define NIG_BR23_CAP_WAG_MAIL \b0	
+	#define NIG_BR23_CAP_WAG_ARMOR \b0	
+	#define NIG_BR23_CAP_WAG_PAX_STR "0"	
+	#define NIG_BR23_CAP_WAG_MAIL_STR "0"	
+	#define NIG_BR23_CAP_WAG_ARMOR_STR "0"	
+	#define NIG_BR23_CAP_HEAD_PAX \b0	
+	#define NIG_BR23_CAP_HEAD_MAIL \b0	
+	#define NIG_BR23_CAP_HEAD_ARMOR \b0	
+	#define NIG_BR23_PAX_LS \b1	
+	#define NIG_BR23_MAIL_LS \b1	
+	#define NIG_BR23_ARMOR_LS \b1	
+	#define NIG_BR23_WEIGHT \b1	
+	#define NIG_BR23_WEIGHT_HIGH \b0	
+	#define NIG_BR23_PCOST \b0	
+	#define NIG_BR23_RCOST \b0	
+	#define NIG_BR23_RCOST_WAG \b0	
+	#define NIG_BR23_RCOST_IDLE \b14	
+	#define NIG_BR23_RCBASE \dx4C30	
+	#define NIG_BR23_TRACTION_TYPE 0	
+	#define NIG_BR23_ID_W \w2059	
+	#define NIG_BR23_ID_B \b*2059	
+		
+		
+	
+#define NIG_C5_6_INTROYEAR \w1921-1-1	
+	#define NIG_C5_6_V_LIFE \b40	
+	#define NIG_C5_6_M_LIFE \b255	
+	#define NIG_C5_6_SPEED \w65	
+	#define NIG_C5_6_TE \b45	
+	#define NIG_C5_6_HP \w1620	
+	#define NIG_C5_6_WAG_HP \w0	
+	#define NIG_C5_6_CAP_WAG_PAX \b0	
+	#define NIG_C5_6_CAP_WAG_MAIL \b0	
+	#define NIG_C5_6_CAP_WAG_ARMOR \b0	
+	#define NIG_C5_6_CAP_WAG_PAX_STR "0"	
+	#define NIG_C5_6_CAP_WAG_MAIL_STR "0"	
+	#define NIG_C5_6_CAP_WAG_ARMOR_STR "0"	
+	#define NIG_C5_6_CAP_HEAD_PAX \b0	
+	#define NIG_C5_6_CAP_HEAD_MAIL \b0	
+	#define NIG_C5_6_CAP_HEAD_ARMOR \b0	
+	#define NIG_C5_6_PAX_LS \b1	
+	#define NIG_C5_6_MAIL_LS \b1	
+	#define NIG_C5_6_ARMOR_LS \b1	
+	#define NIG_C5_6_WEIGHT \b128	
+	#define NIG_C5_6_WEIGHT_HIGH \b0	
+	#define NIG_C5_6_PCOST \b4	
+	#define NIG_C5_6_RCOST \b112	
+	#define NIG_C5_6_RCOST_WAG \b0	
+	#define NIG_C5_6_RCOST_IDLE \b14	
+	#define NIG_C5_6_RCBASE \dx4C30	
+	#define NIG_C5_6_TRACTION_TYPE 0	
+	#define NIG_C5_6_ID_W \w2060	
+	#define NIG_C5_6_ID_B \b*2060	
+		
+		
+	
+#define NIG_LITERA_E_INTROYEAR \w1937-1-1	
+	#define NIG_LITERA_E_V_LIFE \b40	
+	#define NIG_LITERA_E_M_LIFE \b255	
+	#define NIG_LITERA_E_SPEED \w110	
+	#define NIG_LITERA_E_TE \b16	
+	#define NIG_LITERA_E_HP \w1000	
+	#define NIG_LITERA_E_WAG_HP \w0	
+	#define NIG_LITERA_E_CAP_WAG_PAX \b0	
+	#define NIG_LITERA_E_CAP_WAG_MAIL \b0	
+	#define NIG_LITERA_E_CAP_WAG_ARMOR \b0	
+	#define NIG_LITERA_E_CAP_WAG_PAX_STR "0"	
+	#define NIG_LITERA_E_CAP_WAG_MAIL_STR "0"	
+	#define NIG_LITERA_E_CAP_WAG_ARMOR_STR "0"	
+	#define NIG_LITERA_E_CAP_HEAD_PAX \b0	
+	#define NIG_LITERA_E_CAP_HEAD_MAIL \b0	
+	#define NIG_LITERA_E_CAP_HEAD_ARMOR \b0	
+	#define NIG_LITERA_E_PAX_LS \b1	
+	#define NIG_LITERA_E_MAIL_LS \b1	
+	#define NIG_LITERA_E_ARMOR_LS \b1	
+	#define NIG_LITERA_E_WEIGHT \b137	
+	#define NIG_LITERA_E_WEIGHT_HIGH \b0	
+	#define NIG_LITERA_E_PCOST \b8	
+	#define NIG_LITERA_E_RCOST \b213	
+	#define NIG_LITERA_E_RCOST_WAG \b0	
+	#define NIG_LITERA_E_RCOST_IDLE \b14	
+	#define NIG_LITERA_E_RCBASE \dx4C30	
+	#define NIG_LITERA_E_TRACTION_TYPE 0	
+	#define NIG_LITERA_E_ID_W \w2061	
+	#define NIG_LITERA_E_ID_B \b*2061	
+		
+		
 	
 #define MET_01800_INTROYEAR \w1993-1-1	
 	#define MET_01800_V_LIFE \b60	
@@ -2996,7 +3700,7 @@
 	#define MET_01800_WEIGHT \b31	
 	#define MET_01800_WEIGHT_HIGH \b0	
 	#define MET_01800_PCOST \b7	
-	#define MET_01800_RCOST \b25	
+	#define MET_01800_RCOST \b92	
 	#define MET_01800_RCOST_WAG \b0	
 	#define MET_01800_RCOST_IDLE \b14	
 	#define MET_01800_RCBASE \dx4C30	
@@ -3028,13 +3732,13 @@
 	#define MET_81_729_WEIGHT \b34	
 	#define MET_81_729_WEIGHT_HIGH \b0	
 	#define MET_81_729_PCOST \b9	
-	#define MET_81_729_RCOST \b27	
+	#define MET_81_729_RCOST \b124	
 	#define MET_81_729_RCOST_WAG \b0	
 	#define MET_81_729_RCOST_IDLE \b14	
 	#define MET_81_729_RCBASE \dx4C30	
 	#define MET_81_729_TRACTION_TYPE 32	
-	#define MET_81_729_ID_W \w4580	
-	#define MET_81_729_ID_B \b*4580	
+	#define MET_81_729_ID_W \w4501	
+	#define MET_81_729_ID_B \b*4501	
 	#define STR_W_MET_81_729 \wxD0A1	
 	#define STR_B_MET_81_729 A1	
 	
@@ -3060,13 +3764,13 @@
 	#define MET_BROOKLYN_WEIGHT \b20	
 	#define MET_BROOKLYN_WEIGHT_HIGH \b0	
 	#define MET_BROOKLYN_PCOST \b4	
-	#define MET_BROOKLYN_RCOST \b2	
+	#define MET_BROOKLYN_RCOST \b8	
 	#define MET_BROOKLYN_RCOST_WAG \b0	
 	#define MET_BROOKLYN_RCOST_IDLE \b14	
 	#define MET_BROOKLYN_RCBASE \dx4C30	
 	#define MET_BROOKLYN_TRACTION_TYPE 32	
-	#define MET_BROOKLYN_ID_W \w4620	
-	#define MET_BROOKLYN_ID_B \b*4620	
+	#define MET_BROOKLYN_ID_W \w4502	
+	#define MET_BROOKLYN_ID_B \b*4502	
 	#define STR_W_MET_BROOKLYN \wxD0A2	
 	#define STR_B_MET_BROOKLYN A2	
 	
@@ -3092,13 +3796,13 @@
 	#define MET_BUDA1894_WEIGHT \b25	
 	#define MET_BUDA1894_WEIGHT_HIGH \b0	
 	#define MET_BUDA1894_PCOST \b4	
-	#define MET_BUDA1894_RCOST \b2	
+	#define MET_BUDA1894_RCOST \b9	
 	#define MET_BUDA1894_RCOST_WAG \b0	
 	#define MET_BUDA1894_RCOST_IDLE \b14	
 	#define MET_BUDA1894_RCBASE \dx4C30	
 	#define MET_BUDA1894_TRACTION_TYPE 32	
-	#define MET_BUDA1894_ID_W \w4621	
-	#define MET_BUDA1894_ID_B \b*4621	
+	#define MET_BUDA1894_ID_W \w4503	
+	#define MET_BUDA1894_ID_B \b*4503	
 	#define STR_W_MET_BUDA1894 \wxD0A3	
 	#define STR_B_MET_BUDA1894 A3	
 	
@@ -3124,13 +3828,13 @@
 	#define MET_CAF90_WEIGHT \b47	
 	#define MET_CAF90_WEIGHT_HIGH \b0	
 	#define MET_CAF90_PCOST \b6	
-	#define MET_CAF90_RCOST \b26	
+	#define MET_CAF90_RCOST \b90	
 	#define MET_CAF90_RCOST_WAG \b0	
 	#define MET_CAF90_RCOST_IDLE \b14	
 	#define MET_CAF90_RCBASE \dx4C30	
 	#define MET_CAF90_TRACTION_TYPE 32	
-	#define MET_CAF90_ID_W \w4630	
-	#define MET_CAF90_ID_B \b*4630	
+	#define MET_CAF90_ID_W \w4504	
+	#define MET_CAF90_ID_B \b*4504	
 	#define STR_W_MET_CAF90 \wxD0A4	
 	#define STR_B_MET_CAF90 A4	
 	
@@ -3156,13 +3860,13 @@
 	#define MET_CAIRO1987_WEIGHT \b40	
 	#define MET_CAIRO1987_WEIGHT_HIGH \b0	
 	#define MET_CAIRO1987_PCOST \b7	
-	#define MET_CAIRO1987_RCOST \b23	
+	#define MET_CAIRO1987_RCOST \b96	
 	#define MET_CAIRO1987_RCOST_WAG \b0	
 	#define MET_CAIRO1987_RCOST_IDLE \b14	
 	#define MET_CAIRO1987_RCBASE \dx4C30	
 	#define MET_CAIRO1987_TRACTION_TYPE 32	
-	#define MET_CAIRO1987_ID_W \w4631	
-	#define MET_CAIRO1987_ID_B \b*4631	
+	#define MET_CAIRO1987_ID_W \w4505	
+	#define MET_CAIRO1987_ID_B \b*4505	
 	#define STR_W_MET_CAIRO1987 \wxD0A5	
 	#define STR_B_MET_CAIRO1987 A5	
 	
@@ -3188,13 +3892,13 @@
 	#define MET_CII_WEIGHT \b50	
 	#define MET_CII_WEIGHT_HIGH \b0	
 	#define MET_CII_PCOST \b4	
-	#define MET_CII_RCOST \b3	
+	#define MET_CII_RCOST \b11	
 	#define MET_CII_RCOST_WAG \b0	
 	#define MET_CII_RCOST_IDLE \b14	
 	#define MET_CII_RCBASE \dx4C30	
 	#define MET_CII_TRACTION_TYPE 32	
-	#define MET_CII_ID_W \w4632	
-	#define MET_CII_ID_B \b*4632	
+	#define MET_CII_ID_W \w4506	
+	#define MET_CII_ID_B \b*4506	
 	#define STR_W_MET_CII \wxD0A6	
 	#define STR_B_MET_CII A6	
 	
@@ -3220,13 +3924,13 @@
 	#define MET_DLR_WEIGHT \b18	
 	#define MET_DLR_WEIGHT_HIGH \b0	
 	#define MET_DLR_PCOST \b7	
-	#define MET_DLR_RCOST \b21	
+	#define MET_DLR_RCOST \b89	
 	#define MET_DLR_RCOST_WAG \b0	
 	#define MET_DLR_RCOST_IDLE \b14	
 	#define MET_DLR_RCBASE \dx4C30	
 	#define MET_DLR_TRACTION_TYPE 32	
-	#define MET_DLR_ID_W \w4640	
-	#define MET_DLR_ID_B \b*4640	
+	#define MET_DLR_ID_W \w4507	
+	#define MET_DLR_ID_B \b*4507	
 	#define STR_W_MET_DLR \wxD0A7	
 	#define STR_B_MET_DLR A7	
 	
@@ -3252,13 +3956,13 @@
 	#define MET_EV3_200_WEIGHT \b45	
 	#define MET_EV3_200_WEIGHT_HIGH \b0	
 	#define MET_EV3_200_PCOST \b9	
-	#define MET_EV3_200_RCOST \b27	
+	#define MET_EV3_200_RCOST \b124	
 	#define MET_EV3_200_RCOST_WAG \b0	
 	#define MET_EV3_200_RCOST_IDLE \b14	
 	#define MET_EV3_200_RCBASE \dx4C30	
 	#define MET_EV3_200_TRACTION_TYPE 32	
-	#define MET_EV3_200_ID_W \w4540	
-	#define MET_EV3_200_ID_B \b*4540	
+	#define MET_EV3_200_ID_W \w4508	
+	#define MET_EV3_200_ID_B \b*4508	
 	#define STR_W_MET_EV3_200 \wxD0A8	
 	#define STR_B_MET_EV3_200 A8	
 	
@@ -3284,13 +3988,13 @@
 	#define MET_LDN1903_WEIGHT \b45	
 	#define MET_LDN1903_WEIGHT_HIGH \b0	
 	#define MET_LDN1903_PCOST \b5	
-	#define MET_LDN1903_RCOST \b19	
+	#define MET_LDN1903_RCOST \b72	
 	#define MET_LDN1903_RCOST_WAG \b0	
 	#define MET_LDN1903_RCOST_IDLE \b14	
 	#define MET_LDN1903_RCBASE \dx4C30	
 	#define MET_LDN1903_TRACTION_TYPE 32	
-	#define MET_LDN1903_ID_W \w4710	
-	#define MET_LDN1903_ID_B \b*4710	
+	#define MET_LDN1903_ID_W \w4509	
+	#define MET_LDN1903_ID_B \b*4509	
 	#define STR_W_MET_LDN1903 \wxD0A9	
 	#define STR_B_MET_LDN1903 A9	
 	
@@ -3316,13 +4020,13 @@
 	#define MET_LDN1938_WEIGHT \b26	
 	#define MET_LDN1938_WEIGHT_HIGH \b0	
 	#define MET_LDN1938_PCOST \b6	
-	#define MET_LDN1938_RCOST \b21	
+	#define MET_LDN1938_RCOST \b72	
 	#define MET_LDN1938_RCOST_WAG \b0	
 	#define MET_LDN1938_RCOST_IDLE \b14	
 	#define MET_LDN1938_RCBASE \dx4C30	
 	#define MET_LDN1938_TRACTION_TYPE 32	
-	#define MET_LDN1938_ID_W \w4711	
-	#define MET_LDN1938_ID_B \b*4711	
+	#define MET_LDN1938_ID_W \w4510	
+	#define MET_LDN1938_ID_B \b*4510	
 	#define STR_W_MET_LDN1938 \wxD0AA	
 	#define STR_B_MET_LDN1938 AA	
 	
@@ -3348,13 +4052,13 @@
 	#define MET_M1_WEIGHT \b31	
 	#define MET_M1_WEIGHT_HIGH \b0	
 	#define MET_M1_PCOST \b8	
-	#define MET_M1_RCOST \b24	
+	#define MET_M1_RCOST \b109	
 	#define MET_M1_RCOST_WAG \b0	
 	#define MET_M1_RCOST_IDLE \b14	
 	#define MET_M1_RCBASE \dx4C30	
 	#define MET_M1_TRACTION_TYPE 32	
-	#define MET_M1_ID_W \w4720	
-	#define MET_M1_ID_B \b*4720	
+	#define MET_M1_ID_W \w4511	
+	#define MET_M1_ID_B \b*4511	
 	#define STR_W_MET_M1 \wxD0AB	
 	#define STR_B_MET_M1 AB	
 	
@@ -3380,13 +4084,13 @@
 	#define MET_M100_WEIGHT \b31	
 	#define MET_M100_WEIGHT_HIGH \b0	
 	#define MET_M100_PCOST \b8	
-	#define MET_M100_RCOST \b26	
+	#define MET_M100_RCOST \b109	
 	#define MET_M100_RCOST_WAG \b0	
 	#define MET_M100_RCOST_IDLE \b14	
 	#define MET_M100_RCBASE \dx4C30	
 	#define MET_M100_TRACTION_TYPE 32	
-	#define MET_M100_ID_W \w4721	
-	#define MET_M100_ID_B \b*4721	
+	#define MET_M100_ID_W \w4512	
+	#define MET_M100_ID_B \b*4512	
 	#define STR_W_MET_M100 \wxD0AC	
 	#define STR_B_MET_M100 AC	
 	
@@ -3412,13 +4116,13 @@
 	#define MET_M2_840_WEIGHT \b37	
 	#define MET_M2_840_WEIGHT_HIGH \b0	
 	#define MET_M2_840_PCOST \b7	
-	#define MET_M2_840_RCOST \b22	
+	#define MET_M2_840_RCOST \b88	
 	#define MET_M2_840_RCOST_WAG \b0	
 	#define MET_M2_840_RCOST_IDLE \b14	
 	#define MET_M2_840_RCBASE \dx4C30	
 	#define MET_M2_840_TRACTION_TYPE 32	
-	#define MET_M2_840_ID_W \w4722	
-	#define MET_M2_840_ID_B \b*4722	
+	#define MET_M2_840_ID_W \w4513	
+	#define MET_M2_840_ID_B \b*4513	
 	#define STR_W_MET_M2_840 \wxD0AD	
 	#define STR_B_MET_M2_840 AD	
 	
@@ -3444,13 +4148,13 @@
 	#define MET_MP89_WEIGHT \b28	
 	#define MET_MP89_WEIGHT_HIGH \b0	
 	#define MET_MP89_PCOST \b9	
-	#define MET_MP89_RCOST \b27	
+	#define MET_MP89_RCOST \b120	
 	#define MET_MP89_RCOST_WAG \b0	
 	#define MET_MP89_RCOST_IDLE \b14	
 	#define MET_MP89_RCBASE \dx4C30	
 	#define MET_MP89_TRACTION_TYPE 32	
-	#define MET_MP89_ID_W \w4723	
-	#define MET_MP89_ID_B \b*4723	
+	#define MET_MP89_ID_W \w4514	
+	#define MET_MP89_ID_B \b*4514	
 	#define STR_W_MET_MP89 \wxD0AE	
 	#define STR_B_MET_MP89 AE	
 	
@@ -3476,13 +4180,13 @@
 	#define MET_P_DSTOCK_WEIGHT \b40	
 	#define MET_P_DSTOCK_WEIGHT_HIGH \b0	
 	#define MET_P_DSTOCK_PCOST \b9	
-	#define MET_P_DSTOCK_RCOST \b24	
+	#define MET_P_DSTOCK_RCOST \b125	
 	#define MET_P_DSTOCK_RCOST_WAG \b0	
 	#define MET_P_DSTOCK_RCOST_IDLE \b14	
 	#define MET_P_DSTOCK_RCBASE \dx4C30	
 	#define MET_P_DSTOCK_TRACTION_TYPE 32	
-	#define MET_P_DSTOCK_ID_W \w4750	
-	#define MET_P_DSTOCK_ID_B \b*4750	
+	#define MET_P_DSTOCK_ID_W \w4515	
+	#define MET_P_DSTOCK_ID_B \b*4515	
 	#define STR_W_MET_P_DSTOCK \wxD0AF	
 	#define STR_B_MET_P_DSTOCK AF	
 	
@@ -3508,13 +4212,45 @@
 	#define MET_TOKYO_WEIGHT \b35	
 	#define MET_TOKYO_WEIGHT_HIGH \b0	
 	#define MET_TOKYO_PCOST \b12	
-	#define MET_TOKYO_RCOST \b32	
+	#define MET_TOKYO_RCOST \b160	
 	#define MET_TOKYO_RCOST_WAG \b0	
 	#define MET_TOKYO_RCOST_IDLE \b14	
 	#define MET_TOKYO_RCBASE \dx4C30	
 	#define MET_TOKYO_TRACTION_TYPE 32	
-	#define MET_TOKYO_ID_W \w4790	
-	#define MET_TOKYO_ID_B \b*4790	
+	#define MET_TOKYO_ID_W \w4516	
+	#define MET_TOKYO_ID_B \b*4516	
 	#define STR_W_MET_TOKYO \wxD0B0	
 	#define STR_B_MET_TOKYO B0	
+	
+#define NIG_MGV_B_C_INTROYEAR \w2000-1-1	
+	#define NIG_MGV_B_C_V_LIFE \b60	
+	#define NIG_MGV_B_C_M_LIFE \b255	
+	#define NIG_MGV_B_C_SPEED \w80	
+	#define NIG_MGV_B_C_TE \b244	
+	#define NIG_MGV_B_C_HP \w536	
+	#define NIG_MGV_B_C_WAG_HP \w536	
+	#define NIG_MGV_B_C_CAP_WAG_PAX \b153	
+	#define NIG_MGV_B_C_CAP_WAG_MAIL \b115	
+	#define NIG_MGV_B_C_CAP_WAG_ARMOR \b77	
+	#define NIG_MGV_B_C_CAP_WAG_PAX_STR "153"	
+	#define NIG_MGV_B_C_CAP_WAG_MAIL_STR "115"	
+	#define NIG_MGV_B_C_CAP_WAG_ARMOR_STR "77"	
+	#define NIG_MGV_B_C_CAP_HEAD_PAX \b153	
+	#define NIG_MGV_B_C_CAP_HEAD_MAIL \b115	
+	#define NIG_MGV_B_C_CAP_HEAD_ARMOR \b77	
+	#define NIG_MGV_B_C_PAX_LS \b60	
+	#define NIG_MGV_B_C_MAIL_LS \b45	
+	#define NIG_MGV_B_C_ARMOR_LS \b30	
+	#define NIG_MGV_B_C_WEIGHT \b27	
+	#define NIG_MGV_B_C_WEIGHT_HIGH \b0	
+	#define NIG_MGV_B_C_PCOST \b7	
+	#define NIG_MGV_B_C_RCOST \b90	
+	#define NIG_MGV_B_C_RCOST_WAG \b0	
+	#define NIG_MGV_B_C_RCOST_IDLE \b14	
+	#define NIG_MGV_B_C_RCBASE \dx4C30	
+	#define NIG_MGV_B_C_TRACTION_TYPE 32	
+	#define NIG_MGV_B_C_ID_W \w4517	
+	#define NIG_MGV_B_C_ID_B \b*4517	
+	#define STR_W_NIG_MGV_B_C \wxD0B1	
+	#define STR_B_NIG_MGV_B_C B1	
 	
