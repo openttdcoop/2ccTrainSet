@@ -24,3 +24,4 @@
 
 #define TEMPLATE_ENGINES "../../../templates/template-engine.pnfo"
 #define TEMPLATE_EMU "../../../templates/emu.tnfo"
+#define TEMPLATE_DMU "../../../templates/dmu.tnfo"
