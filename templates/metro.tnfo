@@ -86,10 +86,6 @@
 
 
 
-// change "nnn" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
-
-// #define THIS_PCX_FILE	sprites/pcx/mus/nnn.pcx  // Graphics file
-
 
 // Action 0
 -1 * 0  00 00 \b30 01 THIS_ENG_ID_B
@@ -135,7 +131,7 @@
 // Dont need to change anything more then this (unless its a "special case" grapihcally)
 
 // Action 1 with 5 views and 8 sprites each view
--1 * 0  01 00 05 08
+-1 * 0  01 00 04 08
 // Front/White lights   xpos    ypos    comp    ysize   xsize   xrel    yrel
 1 THIS_PCX_FILE    	01	01	1	24	08	-3	-12
 2 THIS_PCX_FILE    	10	01	1	18	22	-14	-10
@@ -163,16 +159,6 @@
 6 THIS_PCX_FILE    	98	64	1	18	22	-14	-10
 7 THIS_PCX_FILE    	121	64	1	14	32	-16	-10
 8 THIS_PCX_FILE    	154	64	1	18	22	-6	-10
-// Mail
-1 THIS_PCX_FILE    	01	96	1	24	08	-3	-12
-2 THIS_PCX_FILE    	10	96	1	18	22	-14	-10
-3 THIS_PCX_FILE    	33	96	1	14	32	-16	-10
-4 THIS_PCX_FILE    	66	96	1	18	22	-6	-10
-5 THIS_PCX_FILE    	89	96	1	24	08	-3	-12
-6 THIS_PCX_FILE    	98	96	1	18	22	-14	-10
-7 THIS_PCX_FILE    	121	96	1	14	32	-16	-10
-8 THIS_PCX_FILE    	154     96	1	18	22	-6	-10
-
 // Purchase list
 1 * 0  0
 2 * 0  0
@@ -180,14 +166,13 @@
 4 * 0  0
 5 * 0  0
 6 * 0  0
-7 THIS_PCX_FILE    	01	128	1	12	87	-25	-08
+7 THIS_PCX_FILE    	01	96	1	12	87	-25	-08
 8 * 0  0
 
 -1 * 0  02 00 10 01 01 \w0 \w0 // -->
 -1 * 0  02 00 11 01 01 \w1 \w1 // <--
 -1 * 0  02 00 20 01 01 \w2 \w2 // pax
--1 * 0  02 00 30 01 01 \w3 \w3 // mail
--1 * 0  02 00 40 01 01 \w4 \w4 // P-list
+-1 * 0  02 00 40 01 01 \w3 \w3 // P-list
 
 // ----- Apply Purchase list text -----
 -1 * 0  02 00 4F 81 0C 00 FF 01   THIS_ENG_STR_B 80 23 23   40 00
@@ -262,13 +247,6 @@
 // --------------------
 
 
-
-// GFX depending on what it carries 
--1 * 0  02 00 50 81 47 10 FF 02
-                             20 00 01 01 // PAX gfx
-                             20 00 05 05 // Tourist GFX
-                             30 00       // Other/mail/armor gfx
-
 // Change length of the different parts
 // Back head:
 -1 * 0  02 00 51 81 0C 00 FF 01
@@ -277,13 +255,13 @@
 // Wagons
 -1 * 0  02 00 52 81 0C 00 FF 01
     THIS_ENG_SHORTERVEHICLE_WAG 80 11 11 // Make wagon shorter
-                                50 00
+                                20 00
 
 
 // GFX depending on pos in consist
 -1 * 0  02 00 5E 81 41 08 FF 01          // 1 case, counted from behind
                              51 00 00 00 // Back engine if last
-                             52 00       // GFX depending on cargo if not last
+                             52 00       // Wagon if not
 
 // Callbacks
 -1 * 0  02 00 5F 81 0C 00 FF 03          // 4 callbacks               
