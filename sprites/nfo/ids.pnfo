@@ -25,3 +25,4 @@
 #define TEMPLATE_ENGINES "../../../templates/engine.tnfo"
 #define TEMPLATE_EMU     "../../../templates/emu.tnfo"
 #define TEMPLATE_DMU     "../../../templates/dmu.tnfo"
+#define TEMPLATE_METRO   "../../../templates/metro.tnfo"
