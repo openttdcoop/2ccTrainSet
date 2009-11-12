@@ -22,6 +22,6 @@
 #define ER_ONLYMU_W     	\wxD0E5
 #define ER_NORAILCARS_W         \wxD0E6
 
-#define TEMPLATE_ENGINES "../../../templates/template-engine.pnfo"
-#define TEMPLATE_EMU "../../../templates/emu.tnfo"
-#define TEMPLATE_DMU "../../../templates/dmu.tnfo"
+#define TEMPLATE_ENGINES "../../../templates/engine.tnfo"
+#define TEMPLATE_EMU     "../../../templates/emu.tnfo"
+#define TEMPLATE_DMU     "../../../templates/dmu.tnfo"
