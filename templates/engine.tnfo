@@ -80,7 +80,7 @@
 #endif
 
 // Action 0
--1 * 0  00 00 \b30 01 THIS_ENG_ID_B
+-1 * 0  00 00 \b31 01 THIS_ENG_ID_B
 // Game related props 
   02 \b01			// Reliability Decay
   03 THIS_ENG_V_LIFE		// Vehicle Life/Years
@@ -91,7 +91,8 @@
   08 THIS_ENG_AI_PAXOPTIMIZED	// AI Pax optimized
    
 // Physical properties
-  00 THIS_ENG_INTROYEAR         // Intro year \wyyyy-mm-dd
+  00 \w1920-01-01               // Intro year \wyyyy-mm-dd
+  2A THIS_ENG_INTROYEAR		// Introyear in days after year 0, with leapyears, except every 400 yrs (year*365,24)
   09 THIS_ENG_SPEED		// Speed (word)
   0B THIS_ENG_HP		// Power in HP (word)
   1B THIS_ENG_WAG_HP            // Power in HP on attached wagons

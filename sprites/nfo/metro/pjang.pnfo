@@ -1,177 +1,33 @@
 // change "P_DSTOCK" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
 
 #define THIS_PCX_FILE	sprites/pcx/metro/pjang.pcx  // Graphics file
+#define		THIS_ENG_INTROYEAR		MET_P_DSTOCK_INTROYEAR
+#define		THIS_ENG_V_LIFE			MET_P_DSTOCK_V_LIFE
+#define		THIS_ENG_M_LIFE			MET_P_DSTOCK_M_LIFE
+#define		THIS_ENG_SPEED			MET_P_DSTOCK_SPEED
+#define		THIS_ENG_TE			MET_P_DSTOCK_TE
+#define		THIS_ENG_HP			MET_P_DSTOCK_HP
+#define		THIS_ENG_WAG_HP			MET_P_DSTOCK_WAG_HP
+#define		THIS_ENG_CAP_WAG_PAX		MET_P_DSTOCK_CAP_WAG_PAX
+#define		THIS_ENG_CAP_WAG_MAIL		MET_P_DSTOCK_CAP_WAG_MAIL
+#define		THIS_ENG_CAP_WAG_ARMOR		MET_P_DSTOCK_CAP_WAG_ARMOR
+#define		THIS_ENG_CAP_HEAD_PAX		MET_P_DSTOCK_CAP_HEAD_PAX
+#define		THIS_ENG_CAP_HEAD_MAIL		MET_P_DSTOCK_CAP_HEAD_MAIL
+#define		THIS_ENG_CAP_HEAD_ARMOR		MET_P_DSTOCK_CAP_HEAD_ARMOR
+#define		THIS_ENG_PAX_LS			MET_P_DSTOCK_PAX_LS
+#define		THIS_ENG_MAIL_LS		MET_P_DSTOCK_MAIL_LS
+#define		THIS_ENG_ARMOR_LS		MET_P_DSTOCK_ARMOR_LS
+#define		THIS_ENG_WEIGHT			MET_P_DSTOCK_WEIGHT
+#define		THIS_ENG_WEIGHT_HIGH		MET_P_DSTOCK_WEIGHT_HIGH
+#define		THIS_ENG_PCOST			MET_P_DSTOCK_PCOST
+#define		THIS_ENG_RCOST			MET_P_DSTOCK_RCOST
+#define		THIS_ENG_RCOST_WAG		MET_P_DSTOCK_RCOST_WAG
+#define		THIS_ENG_RCOST_IDLE		MET_P_DSTOCK_RCOST_IDLE
+#define		THIS_ENG_RCBASE			MET_P_DSTOCK_RCBASE
+#define		THIS_ENG_TRACTION_TYPE		MET_P_DSTOCK_TRACTION_TYPE
+#define		THIS_ENG_ID_B			MET_P_DSTOCK_ID_B
+#define		THIS_ENG_ID_W			MET_P_DSTOCK_ID_W
+#define		THIS_ENG_STR_B			STR_B_MET_P_DSTOCK
+#define 	THIS_ENG_TRACKTYPE		01
 
-
-// Action 0
--1 * 0  00 00 \b30 01 MET_P_DSTOCK_ID_B
-// Game related props 
-  02 \b01	// Reliability Decay
-  03 MET_P_DSTOCK_V_LIFE	// Vehicle Life/Years
-  04 MET_P_DSTOCK_M_LIFE	// Model Life/Years
-  05 01		// Track type; 00 Rail, 01 Mono, 02 Mlev
-  06 07		// Climate availability
-  07 \b10	// Loading Speed - Not needed in most cases
-  08 01		// AI Pax optimized
-   
-// Physical properties
-  00 MET_P_DSTOCK_INTROYEAR	// Intro year \wyyyy-mm-dd
-  09 MET_P_DSTOCK_SPEED		// Speed (word)
-  0B MET_P_DSTOCK_HP		// Power in HP (word)
-  1B MET_P_DSTOCK_WAG_HP           // Power in HP on attached wagons
-  1F MET_P_DSTOCK_TE		// Tractive effort
-  16 MET_P_DSTOCK_WEIGHT           // Weight/Tons
-  24 MET_P_DSTOCK_WEIGHT_HIGH      // Highbyte on engines weighing >255 tons
-  20 20                         // Air Drag
-
-// Economical properties
-  14 MET_P_DSTOCK_CAP_HEAD_PAX  // Cargo Capacity
-  15 00		             // Cargo Type
-  1D \dx0                    // Refit bitmask
-  28 \wx0b	             // New cargo classes
-  29 \wx3f0		     // New NOT Cargo classes
-  0D MET_P_DSTOCK_RCOST         // RUN Cost Factor
-  0E MET_P_DSTOCK_RCBASE    // RUN cost Base
-  17 MET_P_DSTOCK_PCOST			     // Cost Factor
-  1C 00			     // Refit cost
-
-// Misc
-  12 FD	// Use new grapics
-  19 MET_P_DSTOCK_TRACTION_TYPE 
-  13 00	// Dualhead? 00/01 (should "always" be 00)
-  1E FF // Callbacks
-  21 00 // Shorter vehicle
-  27 06 // 01 tilt + 02 2cc + 04 xMETRO
-
-
-// Dont need to change anything more then this (unless its a "special case" grapihcally)
-
-// Action 1 with 5 views and 8 sprites each view
--1 * 0  01 00 04 08
-// Front/White lights   xpos    ypos    comp    ysize   xsize   xrel    yrel
-1 THIS_PCX_FILE    	01	01	1	24	08	-3	-12
-2 THIS_PCX_FILE    	10	01	1	18	22	-14	-10
-3 THIS_PCX_FILE    	33	01	1	14	32	-16	-10
-4 THIS_PCX_FILE    	66	01	1	18	22	-6	-10
-5 THIS_PCX_FILE    	89	01	1	24	08	-3	-12
-6 THIS_PCX_FILE    	98	01	1	18	22	-14	-10
-7 THIS_PCX_FILE    	121	01	1	14	32	-16	-10
-8 THIS_PCX_FILE    	154	01	1	18	22	-6	-10
-// End/Red lights
-5 THIS_PCX_FILE    	89	32	1	24	08	-3	-12
-6 THIS_PCX_FILE    	98	32	1	18	22	-14	-10
-7 THIS_PCX_FILE    	121	32	1	14	32	-16	-10
-8 THIS_PCX_FILE    	154	32	1	18	22	-6	-10
-1 THIS_PCX_FILE    	01	32	1	24	08	-3	-12
-2 THIS_PCX_FILE    	10	32	1	18	22	-14	-10
-3 THIS_PCX_FILE    	33	32	1	14	32	-16	-10
-4 THIS_PCX_FILE    	66	32	1	18	22	-6	-10
-// Pax
-1 THIS_PCX_FILE    	01	64	1	24	08	-3	-12
-2 THIS_PCX_FILE    	10	64	1	18	22	-14	-10
-3 THIS_PCX_FILE    	33	64	1	14	32	-16	-10
-4 THIS_PCX_FILE    	66	64	1	18	22	-6	-10
-5 THIS_PCX_FILE    	89	64	1	24	08	-3	-12
-6 THIS_PCX_FILE    	98	64	1	18	22	-14	-10
-7 THIS_PCX_FILE    	121	64	1	14	32	-16	-10
-8 THIS_PCX_FILE    	154	64	1	18	22	-6	-10
-// Purchase list
-1 * 0  0
-2 * 0  0
-3 THIS_PCX_FILE    	01	01  1 01  01  -00 -00
-4 * 0  0
-5 * 0  0
-6 * 0  0
-7 THIS_PCX_FILE    	01	96	1	12	87	-25	-08
-8 * 0  0
-
--1 * 0  02 00 10 01 01 \w0 \w0 // -->
--1 * 0  02 00 11 01 01 \w1 \w1 // <--
--1 * 0  02 00 20 01 01 \w2 \w2 // pax
--1 * 0  02 00 40 01 01 \w3 \w3 // P-list
-
-// ----- Apply Purchase list text -----
--1 * 0  02 00 4F 81 0C 00 FF 01   STR_B_MET_P_DSTOCK 80 23 23   40 00
-
-// --------------------
-// ----- Generic ------
-// --------------------
-
-// Loading speed of the various cargos
--1 * 0  02 00 E1 81 47 10 FF 04
-                             MET_P_DSTOCK_MAIL_LS 80 02 02  // Mail 
-                             MET_P_DSTOCK_ARMOR_LS 80 08 08 // Armored 
-                             MET_P_DSTOCK_PAX_LS 80 01 01   // PAX
-                             MET_P_DSTOCK_PAX_LS 80 05 05   // Tourists
-                             00 80                            // others 
-             
-//Capacty for use in CB15/36 - Head
--1 * 0  02 00 E5 81 47 10 FF 03
-                             MET_P_DSTOCK_CAP_HEAD_MAIL 80 02 02		// Mail Capacity
-                             MET_P_DSTOCK_CAP_HEAD_ARMOR 80 08 08        // Armored capacity
-                             MET_P_DSTOCK_CAP_HEAD_PAX 80 05 05		// Tourist capacity
-                             00 80				// Everything else
- //Capacty for use in CB15/36 - Wagon
--1 * 0  02 00 E6 81 47 10 FF 03
-                             MET_P_DSTOCK_CAP_WAG_MAIL 80 02 02		// Mail Capacity
-                             MET_P_DSTOCK_CAP_WAG_ARMOR 80 08 08        // Armored capacity
-                             MET_P_DSTOCK_CAP_WAG_PAX 80 05 05		// Tourist capacity
-                             00 80				// Everything else
-
-
-// '10' for CB36s HEAD
--1 * 0  02 00 EE 81 10 00 FF 02
-                             MET_P_DSTOCK_CAP_HEAD_PAX 80 14 14		// Capacity
-                             MET_P_DSTOCK_WEIGHT 80 16 16	// weight
-                             40 00			// Dont matter
-
-// '10' for CB36s Wagon
--1 * 0  02 00 EF 81 10 00 FF 03
-			     MET_P_DSTOCK_RCOST_WAG 80 1D 1D
-                             MET_P_DSTOCK_CAP_WAG_PAX 80 14 14		// Capacity
-                             MET_P_DSTOCK_WEIGHT 80 16 16	// weight
-                             40 00			// Dont matter
-
-
-// --------------------
-// ------ Engine ------
-// --------------------
-
-// Cannot attach 
--1 * 0  02 00 A6 85 C6 00 FF FF 02             // 2 cases
-                             FF 80 METRO 00 METRO 00 // allow attaching METRO-wagon
-                             FF 80 MET_P_DSTOCK_ID_W  MET_P_DSTOCK_ID_W  // Allow attaching self
-                             ER_SUBSELFONLY 80             // Dissalow everything else
--1 * 0  02 00 AF 81 0C 00 FF 04          // 4 callbacks
-                             E1 00 12 12 // Loading speed
-                             E5 00 15 15 // Cargo Capacity
-                             A6 00 1D 1D // Cannot attach 
-                             EE 00 36 36 // New stuff
-                             10 00       // Attach engine gfx
-
-// --------------------
-// ------ Wagon -------
-// --------------------
-
-
-// GFX depending on pos in consist
--1 * 0  02 00 51 81 41 08 FF 01          // 1 case, counted from behind
-                             11 00 00 00 // Back engine if last
-                             20  00       // GFX depending on cargo if not last
-
-// Callbacks
--1 * 0  02 00 5F 81 0C 00 FF 03          // 3 callbacks
-                             E1 00 12 12 // Loading speed
-                             E6 00 15 15 // Cargo Capacity
-                             EF 00 36 36 // Change props
-                             51 00       // Attach GFX
-
-// ----------------------
-// ----- Action 3's -----
-// ----------------------
--1 * 0  03 00 01 MET_P_DSTOCK_ID_B 01	//
-              FF 4F 00		// P-list
-              AF 00		// Normal
--1 * 0  03 00 81 METRO 00 5F 00	// Livery Override 
-
-#undef THIS_PCX_FILE
+#include TEMPLATE_METRO

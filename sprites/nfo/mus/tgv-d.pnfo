@@ -2,7 +2,7 @@
 #define THIS_PCX_FILE	sprites/pcx/mus/tgv-thalplex.pcx  // Graphics file
 
 // Action 0
--1 * 0  00 00 \b30 01 MU_TGV_D_ID_B
+-1 * 0  00 00 \b31 01 MU_TGV_D_ID_B
 // Game related props 
   02 \b01	// Reliability Decay
   03 MU_TGV_D_V_LIFE	// Vehicle Life/Years
@@ -13,7 +13,8 @@
   08 01		// AI Pax optimized
    
 // Physical properties
-  00 MU_TGV_D_INTROYEAR	// Intro year \wyyyy-mm-dd
+  00 \w1920-01-01
+  2A MU_TGV_D_INTROYEAR	// Intro year \wyyyy-mm-dd
   09 MU_TGV_D_SPEED		// Speed (word)
   0B MU_TGV_D_HP		// Power in HP (word)
   1B MU_TGV_D_WAG_HP           // Power in HP on attached wagons
