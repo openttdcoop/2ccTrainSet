@@ -237,9 +237,9 @@
 
 // Cannot attach 
 -1 * 0  02 00 A6 85 C6 00 FF FF 02             // 2 cases
-                             FF 80 MU 00 MU 00 // allow attaching MU-wagon
+                             FF 80 METRO 00 METRO 00 // allow attaching MU-wagon
                              FF 80 THIS_ENG_ID_W  THIS_ENG_ID_W  // Allow attaching self
-                             ER_ONLYMU 80             // Dissalow everything else
+                             ER_SUBSELFONLY 80             // Dissalow everything else
 -1 * 0  02 00 AF 81 0C 00 FF 04          // 4 callbacks
                              E1 00 12 12 // Loading speed
                              E5 00 15 15 // Cargo Capacity
@@ -281,7 +281,7 @@
 -1 * 0  03 00 01 THIS_ENG_ID_B 01	//
               FF 4F 00		// P-list
               AF 00		// Normal
--1 * 0  03 00 81 MU 00 5F 00	// Livery Override 
+-1 * 0  03 00 81 METRO 00 5F 00	// Livery Override 
 
 #undef THIS_PCX_FILE
 
