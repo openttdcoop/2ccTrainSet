@@ -41,7 +41,7 @@
   13 00	// Dualhead? 00/01 (should "always" be 00)
   1E FF // Callbacks
   21 00 // Shorter vehicle
-  27 06 // 01 tilt + 02 2cc + 04 xMU
+  27 02 // 01 tilt + 02 2cc + 04 xMU
 
 
 // Dont need to change anything more then this (unless its a "special case" grapihcally)
