@@ -17,8 +17,22 @@
 
 // Strings
 // Wagon text ID
-#define WAG_STR_B	F0
-#define WAG_STR_W	\wxD0F0	
+// 50kmh
+#define WAG_STR_50_B	F0
+#define WAG_STR_50_W	\wxD0F0	
+// 80kmh
+#define WAG_STR_80_B	F1
+#define WAG_STR_80_W	\wxD0F1	
+// 120kmh
+#define WAG_STR_120_B	F2
+#define WAG_STR_120_W	\wxD0F2	
+// 160kmh
+#define WAG_STR_160_B	F3
+#define WAG_STR_160_W	\wxD0F4	
+// 200kmh
+#define WAG_STR_200_B	F5
+#define WAG_STR_200_W	\wxD0F05	
+
 
 // Error IDs
 #define ER_ONEUNIT      E0

@@ -16,6 +16,10 @@
 #define WORD_MEDIUM     "Medium"
 #define WORD_SLOW       "Slow"
 #define WORD_RC_1U      "Running costs are per 1 unit"
+#define WORD_SPEED	"Design Speed: "
+#define WORD_KMH	"km/h"
+#define WORD_FASTHIGHRC	"If traveling above design speed, running cost will be pentalized"
+
 
 // Error messages
 #define STR_ER_ONEUNIT      "Can only be one unit long"

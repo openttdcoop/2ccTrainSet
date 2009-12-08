@@ -1,4 +1,4 @@
 #define SPACE "                 "
-#include "2F_norwegian.pnfo"
 #include "7F_english.pnfo"
+#include "2F_norwegian.pnfo"
 #undef SPACE
