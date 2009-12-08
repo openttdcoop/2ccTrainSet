@@ -94,7 +94,7 @@
 
 
 // Action 0
--1 * 0  00 00 \b24 01 THIS_WAG_ID_B
+-1 * 0  00 00 \b26 01 THIS_WAG_ID_B
 // Game related props 
   02 \b01			// Reliability Decay
   03 THIS_WAG_V_LIFE		// Vehicle Life/Years
@@ -106,6 +106,8 @@
    
 // Physical properties
   00 \w1920-01-01               // Intro year \wyyyy-mm-dd
+  09 \w230			// Wagon speed limit
+  0B \w0			// Power in HP
   2A THIS_WAG_INTROYEAR		// Introyear in days after year 0, with leapyears, except every 400 yrs (year*365,24)
   16 THIS_WAG_WEIGHT            // Weight/Tons
 
