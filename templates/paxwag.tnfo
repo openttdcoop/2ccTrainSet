@@ -247,5 +247,26 @@
 #undef		THIS_WAG_ID_B
 #undef		THIS_WAG_STR_B
 #undef		THIS_WAG_ID_W
-#undef		THIS_WAG_SHORTERVEHICLE_WAG
+#undef		THIS_WAG_SHORTERVEHICLE
 #undef		THIS_WAG_TRACKTYPE
+
+#undef		THIS_WAG_RC_00
+#undef		THIS_WAG_RC_50
+#undef		THIS_WAG_RC_60
+#undef		THIS_WAG_RC_70
+#undef		THIS_WAG_RC_80
+#undef		THIS_WAG_RC_90
+#undef		THIS_WAG_RC_100
+#undef		THIS_WAG_RC_110
+#undef		THIS_WAG_RC_120
+#undef		THIS_WAG_RC_130
+#undef		THIS_WAG_RC_140
+#undef		THIS_WAG_RC_150
+#undef		THIS_WAG_RC_160
+#undef		THIS_WAG_RC_170
+#undef		THIS_WAG_RC_180
+#undef		THIS_WAG_RC_190
+#undef		THIS_WAG_RC_200
+#undef		THIS_WAG_RC_210
+#undef		THIS_WAG_RC_220
+#undef		THIS_WAG_RC_230

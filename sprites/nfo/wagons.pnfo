@@ -2,3 +2,7 @@
 #include "wagons/muwag.pnfo"
 #include "wagons/tender.pnfo"
 #include "wagons/ic1gen.pnfo"
+#include "wagons/ic2gen.pnfo"
+#include "wagons/ic3gen.pnfo"
+#include "wagons/ic4gen.pnfo"
+#include "wagons/ic5gen.pnfo"
