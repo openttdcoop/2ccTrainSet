@@ -7,6 +7,7 @@ sprites/nfo/header.pnfo
 // definitions
 sprites/nfo/ids.pnfo
 sprites/nfo/action0.pnfo
+sprites/nfo/action0wag.pnfo
 
 // Language files
 sprites/nfo/strings/languages.pnfo

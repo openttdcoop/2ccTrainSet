@@ -4,7 +4,22 @@
 #define MU                           01
 #define METRO			     02 
 
+// High and low IDs
+#define WAGON_LOW 	\w128
+#define WAGON_HIGH	\w256
+#define ENGINE_LOW	\w2000
+#define ENGINE_HIGH	\w2999
+#define MU_LOW		\w3000
+#define MU_HIGH		\w3999
+#define RB_LOW		\w4000
+#define RB_HIGH		\w4999
+
+
 // Strings
+// Wagon text ID
+#define WAG_STR_B	F0
+#define WAG_STR_W	\wxD0F0	
+
 // Error IDs
 #define ER_ONEUNIT      E0
 #define ER_SELFONLY     E1
@@ -26,3 +41,4 @@
 #define TEMPLATE_EMU     "../../../templates/emu.tnfo"
 #define TEMPLATE_DMU     "../../../templates/dmu.tnfo"
 #define TEMPLATE_METRO   "../../../templates/metro.tnfo"
+#define TEMPLATE_PAXWAG  "../../../templates/paxwag.tnfo"

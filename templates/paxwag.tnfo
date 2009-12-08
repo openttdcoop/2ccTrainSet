@@ -1,0 +1,249 @@
+// Template for "usual" WAGines
+// 
+// First define a few seldomly changed properties and set them to their default value
+// unless they're defined in the WAGine file
+
+
+
+#ifndef THIS_WAG_TRACKTYPE
+#define THIS_WAG_TRACKTYPE 00
+#endif
+
+#ifndef THIS_WAG_TRACTION_TYPE
+#define THIS_WAG_TRACTION_TYPE 00
+#endif
+
+#ifndef THIS_WAG_LOADINGSPEED
+#define THIS_WAG_LOADINGSPEED \b10
+#endif
+
+#ifndef THIS_WAG_AI_PAXOPTIMIZED
+#define THIS_WAG_AI_PAXOPTIMIZED 01
+#endif
+
+#ifndef THIS_WAG_CARGOTYPE
+#define THIS_WAG_CARGOTYPE 00
+#endif
+
+#ifndef THIS_WAG_REFITMASK
+#define THIS_WAG_REFITMASK \dx0
+#endif
+
+#ifndef THIS_WAG_CARGOCLASSES
+#define THIS_WAG_CARGOCLASSES \wx05
+#endif
+
+#ifndef THIS_WAG_NOTCARGOCLASSES
+#define THIS_WAG_NOTCARGOCLASSES \wxFFFA
+#endif
+
+#ifndef THIS_WAG_REFITCOST
+#define THIS_WAG_REFITCOST 00
+#endif
+
+#ifndef THIS_WAG_MISC		// 01 tilt + 02 2cc + 04 xMU
+#define THIS_WAG_MISC 02
+#endif
+
+#ifndef THIS_WAG_SHORTERVEHICLE	// Shorter vehicle
+#define THIS_WAG_SHORTERVEHICLE 00
+#endif
+
+
+#ifndef THIS_WAG_CALLBACKS	// Callbacks
+#define THIS_WAG_CALLBACKS FF
+#endif
+
+#ifndef THIS_WAG_DUALHEAD	// Dualhead? 00/01 (should "always" be 00)
+#define THIS_WAG_DUALHEAD 00
+#endif
+
+// Make a few sanity checks that all necessary properties are now defined. 
+// There's not much point to continue and no hope to get something working,
+// if we've got a failure here.
+
+#ifndef THIS_PCX_FILE
+#error "THIS_PCX_FILE is not defined!"
+#endif
+
+#if !defined THIS_WAG_ID_B
+#error "The WAGine ID is not defined!"
+#endif
+
+#if !defined (THIS_WAG_V_LIFE) || !defined (THIS_WAG_M_LIFE) || !defined (THIS_WAG_INTROYEAR) || !defined (THIS_WAG_SPEED)
+#error "One or more game properties not defined"
+#endif
+
+#if !defined (THIS_WAG_SPEED) || !defined (THIS_WAG_HP) || !defined (THIS_WAG_WAG_HP) || !defined (THIS_WAG_TE) || !defined (THIS_WAG_WEIGHT) || !defined(THIS_WAG_WEIGHT_HIGH)
+#error "One or more physical properties not defined"
+#endif
+
+#if !defined (THIS_WAG_CAP_HEAD_PAX) || !defined (THIS_WAG_RCOST) || !defined (THIS_WAG_RCOST_IDLE) || !defined (THIS_WAG_RCBASE) || !defined (THIS_WAG_PCOST)
+#error "One or more economical properties not defined"
+#endif
+
+#if !defined (THIS_WAG_TRACTION_TYPE) || !defined (THIS_WAG_STR_B) 
+#error "One or more misc properties not defined"
+#endif
+
+
+
+// change "nnn" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
+
+// #define THIS_PCX_FILE	sprites/pcx/mus/nnn.pcx  // Graphics file
+
+
+// Action 0
+-1 * 0  00 00 \b24 01 THIS_WAG_ID_B
+// Game related props 
+  02 \b01			// Reliability Decay
+  03 THIS_WAG_V_LIFE		// Vehicle Life/Years
+  04 THIS_WAG_M_LIFE		// Model Life/Years
+  05 THIS_WAG_TRACKTYPE		// Track type; 00 Rail, 01 Mono, 02 Mlev
+  06 07				// Climate availability
+  07 THIS_WAG_LS		// Loading Speed
+  08 THIS_WAG_AI_PAXOPTIMIZED	// AI Pax optimized
+   
+// Physical properties
+  00 \w1920-01-01               // Intro year \wyyyy-mm-dd
+  2A THIS_WAG_INTROYEAR		// Introyear in days after year 0, with leapyears, except every 400 yrs (year*365,24)
+  16 THIS_WAG_WEIGHT            // Weight/Tons
+
+// Economical properties
+  14 THIS_WAG_CAP               // Cargo Capacity
+  15 THIS_WAG_CARGOTYPE		// Cargo Type
+  1D THIS_WAG_REFITMASK		// Refit bitmask
+  28 THIS_WAG_CARGOCLASSES      // New cargo classes
+  29 THIS_WAG_NOTCARGOCLASSES   // New NOT Cargo classes
+  0D THIS_WAG_RCOST             // RUN Cost Factor
+  0E THIS_WAG_RCBASE            // RUN cost Base
+  17 THIS_WAG_PCOST             // Cost Factor
+  1C THIS_WAG_REFITCOST		// Refit cost
+
+// Misc
+  12 FD	// Use new grapics
+  19 THIS_WAG_TRACTION_TYPE     // Traction type (maglev, rail, monorail)
+  1E THIS_WAG_CALLBACKS         // Callbacks
+  21 THIS_WAG_SHORTERVEHICLE    // Shorter vehicle
+  27 THIS_WAG_MISC              // 01 tilt + 02 2cc + 04 xMU
+
+
+// Dont need to change anything more then this (unless its a "special case" grapihcally)
+
+// Action 1 with 5 views and 8 sprites each view
+-1 * 0  01 00 02 08
+// Front/White lights   xpos    ypos    comp    ysize   xsize   xrel    yrel
+1 THIS_PCX_FILE    	01	01	1	24	08	-3	-12
+2 THIS_PCX_FILE    	10	01	1	18	22	-14	-10
+3 THIS_PCX_FILE    	33	01	1	14	32	-16	-10
+4 THIS_PCX_FILE    	66	01	1	18	22	-6	-10
+5 THIS_PCX_FILE    	89	01	1	24	08	-3	-12
+6 THIS_PCX_FILE    	98	01	1	18	22	-14	-10
+7 THIS_PCX_FILE    	121	01	1	14	32	-16	-10
+8 THIS_PCX_FILE    	154	01	1	18	22	-6	-10
+// End/Red lights
+// Purchase list
+1 * 0  0
+2 * 0  0
+3 THIS_PCX_FILE    	01	01  1 01  01  -00 -00
+4 * 0  0
+5 * 0  0
+6 * 0  0
+7 THIS_PCX_FILE    	177	01	1	12	87	-25	-08
+8 * 0  0
+
+-1 * 0  02 00 10 01 01 \w0 \w0 // -->
+-1 * 0  02 00 40 01 01 \w1 \w1 // P-list
+
+// ----- Apply Purchase list text -----
+-1 * 0  02 00 4F 81 0C 00 FF 01   WAG_STR_B 80 23 23   40 00
+
+// --------------------
+// ----- Generic ------
+// --------------------
+             
+ //Capacty for use in CB15/36 - Wagon
+-1 * 0  02 00 E6 81 47 10 FF 02
+                             THIS_WAG_CAP 80 01 01		// PAX capacity
+                             THIS_WAG_CAP 80 05 05		// Tourist capacity
+                             00 80				// Everything else
+
+//Running cost depending on speed
+-1 * 0  02 00 ED 82 B4 00 FF \b20			// 20 cases
+                          THIS_WAG_RC_00 80 \b00 \b00	        // Standing still cost 
+                          THIS_WAG_RC_50 80 \b50 \b59
+                          THIS_WAG_RC_60 80 \b60 \b69
+                          THIS_WAG_RC_70 80 \b70 \b79
+                          THIS_WAG_RC_80 80 \b80 \b89
+                          THIS_WAG_RC_90 80 \b90 \b99
+                          THIS_WAG_RC_100 80 \b100 \b109
+                          THIS_WAG_RC_110 80 \b110 \b119
+                          THIS_WAG_RC_120 80 \b120 \b129
+                          THIS_WAG_RC_130 80 \b130 \b139
+                          THIS_WAG_RC_140 80 \b140 \b149
+                          THIS_WAG_RC_150 80 \b150 \b159
+                          THIS_WAG_RC_160 80 \b160 \b169
+                          THIS_WAG_RC_170 80 \b170 \b179
+                          THIS_WAG_RC_180 80 \b180 \b189
+                          THIS_WAG_RC_190 80 \b190 \b199
+                          THIS_WAG_RC_200 80 \b200 \b209
+                          THIS_WAG_RC_210 80 \b210 \b219
+                          THIS_WAG_RC_220 80 \b220 \b229
+                          THIS_WAG_RC_230 80 \b230 \b255
+			  THIS_WAG_RCOST 80	// RUN cost
+
+
+// '10' for CB36s Wagon
+-1 * 0  02 00 EF 81 10 00 FF 01
+                             ED 00 0D 0D		// RUN cost
+                             40 00			// Dont matter
+
+// --------------------
+// ------ Wagon -------
+// --------------------
+
+// Callbacks
+-1 * 0  02 00 5F 81 0C 00 FF 02          // 2 callbacks               
+                             E6 00 15 15 // Cargo Capacity
+                             EF 00 36 36 // Change props
+                             10 00       // Attach GFX
+
+// ----------------------
+// ----- Action 3's -----
+// ----------------------
+-1 * 0  03 00 01 THIS_WAG_ID_B 01	//
+              FF 4F 00		// P-list
+              5F 00		// Normal
+
+
+
+#undef THIS_PCX_FILE
+#undef		THIS_WAG_INTROYEAR
+#undef		THIS_WAG_V_LIFE
+#undef		THIS_WAG_M_LIFE
+#undef		THIS_WAG_SPEED
+#undef		THIS_WAG_TE
+#undef		THIS_WAG_HP
+#undef		THIS_WAG_WAG_HP
+#undef		THIS_WAG_CAP_WAG_PAX
+#undef		THIS_WAG_CAP_WAG_MAIL
+#undef		THIS_WAG_CAP_WAG_ARMOR
+#undef		THIS_WAG_CAP_HEAD_PAX
+#undef		THIS_WAG_CAP_HEAD_MAIL
+#undef		THIS_WAG_CAP_HEAD_ARMOR
+#undef		THIS_WAG_PAX_LS
+#undef		THIS_WAG_MAIL_LS
+#undef		THIS_WAG_ARMOR_LS
+#undef		THIS_WAG_WEIGHT
+#undef		THIS_WAG_WEIGHT_HIGH
+#undef		THIS_WAG_PCOST
+#undef		THIS_WAG_RCOST
+#undef		THIS_WAG_RCOST_WAG
+#undef		THIS_WAG_RCOST_IDLE
+#undef		THIS_WAG_RCBASE
+#undef		THIS_WAG_TRACTION_TYPE
+#undef		THIS_WAG_ID_B
+#undef		THIS_WAG_STR_B
+#undef		THIS_WAG_ID_W
+#undef		THIS_WAG_SHORTERVEHICLE_WAG
+#undef		THIS_WAG_TRACKTYPE
