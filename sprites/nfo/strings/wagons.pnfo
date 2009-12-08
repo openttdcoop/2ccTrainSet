@@ -6,4 +6,6 @@
 -1 * 0	04 00 LANG_ID \b1  WAG_PAX_IC_1GEN_ID_B SPACE "1st gen IC coach" 00
 
 // Wagon strings
--1 * 0  04 00 LANG_ID2 \b1  WAG_STR_W "test" 00
+// 50kmh
+-1 * 0  04 00 LANG_ID2 \b1  WAG_STR_50_W WORD_SPEED 8A "50" WORD_KMH "\n"
+                                      98 WORD_FASTHIGHRC 00
