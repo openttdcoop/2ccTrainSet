@@ -1,3 +1,4 @@
 #include "wagons/metrowag.pnfo"
 #include "wagons/muwag.pnfo"
 #include "wagons/tender.pnfo"
+#include "wagons/ic1gen.pnfo"
