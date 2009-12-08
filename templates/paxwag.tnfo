@@ -30,11 +30,11 @@
 #endif
 
 #ifndef THIS_WAG_CARGOCLASSES
-#define THIS_WAG_CARGOCLASSES \wx05
+#define THIS_WAG_CARGOCLASSES \wx01
 #endif
 
 #ifndef THIS_WAG_NOTCARGOCLASSES
-#define THIS_WAG_NOTCARGOCLASSES \wxFFFA
+#define THIS_WAG_NOTCARGOCLASSES \wxFFFB
 #endif
 
 #ifndef THIS_WAG_REFITCOST
@@ -70,15 +70,15 @@
 #error "The WAGine ID is not defined!"
 #endif
 
-#if !defined (THIS_WAG_V_LIFE) || !defined (THIS_WAG_M_LIFE) || !defined (THIS_WAG_INTROYEAR) || !defined (THIS_WAG_SPEED)
+#if !defined (THIS_WAG_V_LIFE) || !defined (THIS_WAG_M_LIFE) || !defined (THIS_WAG_INTROYEAR)
 #error "One or more game properties not defined"
 #endif
 
-#if !defined (THIS_WAG_SPEED) || !defined (THIS_WAG_HP) || !defined (THIS_WAG_WAG_HP) || !defined (THIS_WAG_TE) || !defined (THIS_WAG_WEIGHT) || !defined(THIS_WAG_WEIGHT_HIGH)
+#if !defined (THIS_WAG_WEIGHT)
 #error "One or more physical properties not defined"
 #endif
 
-#if !defined (THIS_WAG_CAP_HEAD_PAX) || !defined (THIS_WAG_RCOST) || !defined (THIS_WAG_RCOST_IDLE) || !defined (THIS_WAG_RCBASE) || !defined (THIS_WAG_PCOST)
+#if !defined (THIS_WAG_RCOST) || !defined (THIS_WAG_RCBASE) || !defined (THIS_WAG_PCOST)
 #error "One or more economical properties not defined"
 #endif
 
@@ -227,15 +227,8 @@
 #undef		THIS_WAG_TE
 #undef		THIS_WAG_HP
 #undef		THIS_WAG_WAG_HP
-#undef		THIS_WAG_CAP_WAG_PAX
-#undef		THIS_WAG_CAP_WAG_MAIL
-#undef		THIS_WAG_CAP_WAG_ARMOR
-#undef		THIS_WAG_CAP_HEAD_PAX
-#undef		THIS_WAG_CAP_HEAD_MAIL
-#undef		THIS_WAG_CAP_HEAD_ARMOR
-#undef		THIS_WAG_PAX_LS
-#undef		THIS_WAG_MAIL_LS
-#undef		THIS_WAG_ARMOR_LS
+#undef		THIS_WAG_CAP
+#undef		THIS_WAG_LS
 #undef		THIS_WAG_WEIGHT
 #undef		THIS_WAG_WEIGHT_HIGH
 #undef		THIS_WAG_PCOST
