@@ -43,6 +43,11 @@
 #define STR_PAX_IC_3GEN  "3rd gen IC coach"
 #define STR_PAX_IC_4GEN  "4th gen IC coach"
 #define STR_PAX_IC_5GEN  "5th gen IC coach"
+#define STR_PAX_REG_3GEN "3rd gen regional coach"
+#define STR_PAX_REG_4GEN "4th gen regional coach"
+#define STR_PAX_REG_5GEN "5th gen regional coach"
+#define STR_PAX_DD_4GEN  "4th gen doubledecker coach"
+#define STR_PAX_DD_5GEN	 "5th gen doubledecker coach"
 
 // Engine Names:
 //-1 * 0  04 00 LANG_ID \b1 ENG_nnn_ID_B	     SPACE "nnn"		  00
