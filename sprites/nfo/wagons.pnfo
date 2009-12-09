@@ -6,3 +6,6 @@
 #include "wagons/ic3gen.pnfo"
 #include "wagons/ic4gen.pnfo"
 #include "wagons/ic5gen.pnfo"
+#include "wagons/reg3gen.pnfo"
+#include "wagons/reg4gen.pnfo"
+#include "wagons/reg5gen.pnfo"
