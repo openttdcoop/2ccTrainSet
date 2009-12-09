@@ -9,3 +9,5 @@
 #include "wagons/reg3gen.pnfo"
 #include "wagons/reg4gen.pnfo"
 #include "wagons/reg5gen.pnfo"
+#include "wagons/dd4gen.pnfo"
+#include "wagons/dd5gen.pnfo"
