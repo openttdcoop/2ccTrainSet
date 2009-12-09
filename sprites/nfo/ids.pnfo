@@ -28,10 +28,10 @@
 #define WAG_STR_120_W	\wxD0F2	
 // 160kmh
 #define WAG_STR_160_B	F3
-#define WAG_STR_160_W	\wxD0F4	
+#define WAG_STR_160_W	\wxD0F3	
 // 200kmh
-#define WAG_STR_200_B	F5
-#define WAG_STR_200_W	\wxD0F5	
+#define WAG_STR_200_B	F4
+#define WAG_STR_200_W	\wxD0F4	
 
 
 // Error IDs
