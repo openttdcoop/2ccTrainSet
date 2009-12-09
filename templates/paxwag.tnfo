@@ -132,8 +132,8 @@
 
 #if THIS_WAG_TYPE == NORMAL
 
-// Action 1 with 5 views and 8 sprites each view
--1 * 0  01 00 01 08
+// Action 1 with 2 views and 8 sprites each view
+-1 * 0  01 00 02 08
 // Front/White lights   xpos    ypos    comp    ysize   xsize   xrel    yrel
 1 THIS_PCX_FILE    	01	01	1	24	08	-3	-12
 2 THIS_PCX_FILE    	10	01	1	18	22	-14	-10
