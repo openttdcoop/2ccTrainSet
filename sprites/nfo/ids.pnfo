@@ -56,3 +56,9 @@
 #define TEMPLATE_DMU     "../../../templates/dmu.tnfo"
 #define TEMPLATE_METRO   "../../../templates/metro.tnfo"
 #define TEMPLATE_PAXWAG  "../../../templates/paxwag.tnfo"
+
+
+// Stuff for selecting what VarAction2 template to choose
+// Wagons
+#define NORMAL	01
+#define DD	02
