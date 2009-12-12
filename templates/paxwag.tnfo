@@ -161,7 +161,7 @@
 
 
 
-#ifndef THIS_WAG_TYPE
+#if THIS_WAG_TYPE == DD
 
 // Action 1 with 2 views and 8 sprites each view
 -1 * 0  01 00 06 08
