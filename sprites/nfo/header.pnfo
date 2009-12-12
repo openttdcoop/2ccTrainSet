@@ -5,8 +5,19 @@
 				8E "Check the readme for parameters" 0D
 				"However, Parameter1 (Prices: 0 = default, 9 = Double, 8 = Half, 7 = 1/4th, 6 = 1/8th, etc" 00
 
--1 * 0 07 A1 04 \7= FF FF FF FF 01
--1 * 0 07 A1 04 \7> \w16374 00 07 01
+// Check for required (OpenTTD) version, disable otherwise
+// Terminate, if TTDP:
+-1 * 0    07 9D 04 \7= \d01 01
+-1 * 0    0B 03 7F 02 "OpenTTD 0.7.0 (or better)" 00
+// Check for OpenTTD versions:
+-1 * 0    07 A1 04 \7= FF FF FF FF 02
+-1 * 0    07 A1 04 \7> \w16374 00 07 01
+-1 * 0    0B 03 7F 06 "0.7.0 (r16374)" 00
+
+// Notify user by means of an error, if engine pool is disabled
+-1 * 0    07 85 01 \71 78 01
+-1 * 0    0B 02 7F 02 "adv. setting '" 94 "vehicle->Enable multiple NewGRF engine sets'" 89 " = " 8E "ON" 89 00
+
 
 // Cargo translation table
 // -1 * 0  00 08 01 29 00 09
