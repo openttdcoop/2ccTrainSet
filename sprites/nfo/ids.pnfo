@@ -56,11 +56,17 @@
 #define TEMPLATE_DMU     	"../../../templates/dmu.tnfo"
 #define TEMPLATE_METRO   	"../../../templates/metro.tnfo"
 #define TEMPLATE_PAXWAG  	"../../../templates/wagon_pax_main.tnfo"
-#define WAGON_PAX_NORMAL	"../../../templates/wagon_pax_normal.tnfo"
-#define WAGON_PAX_DD		"../../../templates/wagon_pax_dd.tnfo"
+#define WAGON_PAX_NORMAL	"wagon_pax_normal.tnfo"
+#define WAGON_PAX_DOUBLEDECKER	"wagon_pax_dd.tnfo"
 
 
 // Stuff for selecting what VarAction2 template to choose
 // Wagons
 #define NORMAL	01
 #define DD	02
+
+// MU's
+#define NORMAL_EMU	01	// Totally normal DMU's with pax in both heads
+#define NORMAL_DMU	02	// Totally normal EMU's with pax in both heads
+#define DUALHEAD_EMU	03	// Dualheaded DMU's without pax in the heads
+#define DUALHEAD_DMU	04	// Dualheaded EMU's without pax in the heads
