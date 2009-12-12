@@ -51,11 +51,13 @@
 #define ER_ONLYMU_W     	\wxD0E5
 #define ER_NORAILCARS_W         \wxD0E6
 
-#define TEMPLATE_ENGINES "../../../templates/engine.tnfo"
-#define TEMPLATE_EMU     "../../../templates/emu.tnfo"
-#define TEMPLATE_DMU     "../../../templates/dmu.tnfo"
-#define TEMPLATE_METRO   "../../../templates/metro.tnfo"
-#define TEMPLATE_PAXWAG  "../../../templates/paxwag.tnfo"
+#define TEMPLATE_ENGINES 	"../../../templates/engine.tnfo"
+#define TEMPLATE_EMU     	"../../../templates/emu.tnfo"
+#define TEMPLATE_DMU     	"../../../templates/dmu.tnfo"
+#define TEMPLATE_METRO   	"../../../templates/metro.tnfo"
+#define TEMPLATE_PAXWAG  	"../../../templates/wagon_pax_main.tnfo"
+#define WAGON_PAX_NORMAL	"../../../templates/wagon_pax_normal.tnfo"
+#define WAGON_PAX_DD		"../../../templates/wagon_pax_dd.tnfo"
 
 
 // Stuff for selecting what VarAction2 template to choose
