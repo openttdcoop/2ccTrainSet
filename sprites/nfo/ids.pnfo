@@ -64,6 +64,9 @@
 #define TEMPLATE_EMU_NORMAL	"emu_normal.tnfo"
 #define TEMPLATE_EMU_FIRSTWAGON	"emu_firstwagon.tnfo"
 #define TEMPLATE_EMU_DUALHEAD	"emu_dualhead.tnfo"
+#define TEMPLATE_EMU_TGV_TA	"emu_tgv_ta.tnfo"
+#define TEMPLATE_EMU_TGV_D	"emu_tgv_d.tnfo"
+#define TEMPLATE_EMU_ICE3	"emu_ice3.tnfo"
 
 // Stuff for selecting what VarAction2 template to choose
 // Wagons
@@ -71,8 +74,11 @@
 #define DD	02
 
 // MU's
-#define NORMAL_EMU	01	// Totally normal DMU's with pax in both heads
-#define NORMAL_DMU	02	// Totally normal EMU's with pax in both heads
-#define DUALHEAD_EMU	03	// Dualheaded DMU's without pax in the heads
-#define DUALHEAD_DMU	04	// Dualheaded EMU's without pax in the heads
-#define FIRSTWAGON_EMU	05	// EMU's where the first wagon have some kind of special gfx (usually the panto)
+#define NORMAL_EMU	1	// Totally normal DMU's with pax in both heads
+#define NORMAL_DMU	2	// Totally normal EMU's with pax in both heads
+#define DUALHEAD_EMU	3	// Dualheaded DMU's without pax in the heads
+#define DUALHEAD_DMU	4	// Dualheaded EMU's without pax in the heads
+#define FIRSTWAGON_EMU	5	// EMU's where the first wagon have some kind of special gfx (usually the panto)
+#define TGV_TA_EMU	6	// For the TGV-A and TGV-T and possibly others
+#define TGV_D_EMU	7	// For the TGV Duplex
+#define ICE3_EMU	8	// For the ICE3

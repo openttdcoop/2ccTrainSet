@@ -155,6 +155,19 @@
 #include TEMPLATE_EMU_FIRSTWAGON
 #endif
 
+#if THIS_ENG_TYPE == TGV_TA_EMU
+#include TEMPLATE_EMU_TGV_TA
+#endif
+
+#if THIS_ENG_TYPE == TGV_D_EMU
+#include TEMPLATE_EMU_TGV_D
+#endif
+
+#if THIS_ENG_TYPE == ICE3_EMU	
+#include TEMPLATE_EMU_ICE3
+#endif
+
+
 // ----------------------
 // ----- Action 3's -----
 // ----------------------
