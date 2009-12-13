@@ -30,5 +30,7 @@
 #define		THIS_ENG_ID_B			MU_SM4_ID_B
 #define		THIS_ENG_ID_W			MU_SM4_ID_W
 #define		THIS_ENG_STR_B			STR_B_MU_SM4
+#define		THIS_ENG_TYPE			NORMAL_EMU
 
-#include TEMPLATE_EMU
+#include TEMPLATE_MU
+
