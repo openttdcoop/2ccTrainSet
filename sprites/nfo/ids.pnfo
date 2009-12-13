@@ -57,8 +57,13 @@
 #define TEMPLATE_PAXWAG  	"../../../templates/wagon_pax_main.tnfo"
 #define WAGON_PAX_NORMAL	"wagon_pax_normal.tnfo"
 #define WAGON_PAX_DOUBLEDECKER	"wagon_pax_dd.tnfo"
+
 #define TEMPLATE_DMU_NORMAL	"dmu_normal.tnfo"
+#define TEMPLATE_DMU_DUALHEAD	"dmu_dualhead.tnfo"
+
 #define TEMPLATE_EMU_NORMAL	"emu_normal.tnfo"
+#define TEMPLATE_EMU_FIRSTWAGON	"emu_firstwagon.tnfo"
+#define TEMPLATE_EMU_DUALHEAD	"emu_dualhead.tnfo"
 
 // Stuff for selecting what VarAction2 template to choose
 // Wagons
@@ -70,3 +75,4 @@
 #define NORMAL_DMU	02	// Totally normal EMU's with pax in both heads
 #define DUALHEAD_EMU	03	// Dualheaded DMU's without pax in the heads
 #define DUALHEAD_DMU	04	// Dualheaded EMU's without pax in the heads
+#define FIRSTWAGON_EMU	05	// EMU's where the first wagon have some kind of special gfx (usually the panto)
