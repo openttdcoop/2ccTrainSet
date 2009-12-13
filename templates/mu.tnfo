@@ -1,0 +1,194 @@
+// Template for "usual" engines
+// 
+// First define a few seldomly changed properties and set them to their default value
+// unless they're defined in the engine file
+
+#ifndef THIS_ENG_TRACKTYPE
+#define THIS_ENG_TRACKTYPE 00
+#endif
+
+#ifndef THIS_ENG_LOADINGSPEED
+#define THIS_ENG_LOADINGSPEED \b10
+#endif
+
+#ifndef THIS_ENG_AI_PAXOPTIMIZED
+#define THIS_ENG_AI_PAXOPTIMIZED 01
+#endif
+
+#ifndef THIS_ENG_CARGOTYPE
+#define THIS_ENG_CARGOTYPE 00
+#endif
+
+#ifndef THIS_ENG_REFITMASK
+#define THIS_ENG_REFITMASK \dx0
+#endif
+
+#ifndef THIS_ENG_CARGOCLASSES
+#define THIS_ENG_CARGOCLASSES \wx0b
+#endif
+
+#ifndef THIS_ENG_NOTCARGOCLASSES
+#define THIS_ENG_NOTCARGOCLASSES \wx3f0
+#endif
+
+#ifndef THIS_ENG_REFITCOST
+#define THIS_ENG_REFITCOST 00
+#endif
+
+#ifndef THIS_ENG_MISC		// 01 tilt + 02 2cc + 04 xMU
+#define THIS_ENG_MISC 06
+#endif
+
+#ifndef THIS_ENG_SHORTERVEHICLE	// Shorter vehicle
+#define THIS_ENG_SHORTERVEHICLE 00
+#endif
+
+#ifndef THIS_ENG_SHORTERVEHICLE_WAG	// Shorter wagon
+#define THIS_ENG_SHORTERVEHICLE_WAG 00
+#endif
+
+
+#ifndef THIS_ENG_CALLBACKS	// Callbacks
+#define THIS_ENG_CALLBACKS FF
+#endif
+
+#ifndef THIS_ENG_DUALHEAD	// Dualhead? 00/01 (should "always" be 00)
+#define THIS_ENG_DUALHEAD 00
+#endif
+
+// Make a few sanity checks that all necessary properties are now defined. 
+// There's not much point to continue and no hope to get something working,
+// if we've got a failure here.
+
+#ifndef THIS_PCX_FILE
+#error "THIS_PCX_FILE is not defined!"
+#endif
+
+#if !defined THIS_ENG_ID_B
+#error "The engine ID is not defined!"
+#endif
+
+#if !defined (THIS_ENG_V_LIFE) || !defined (THIS_ENG_M_LIFE) || !defined (THIS_ENG_INTROYEAR) || !defined (THIS_ENG_SPEED)
+#error "One or more game properties not defined"
+#endif
+
+#if !defined (THIS_ENG_SPEED) || !defined (THIS_ENG_HP) || !defined (THIS_ENG_WAG_HP) || !defined (THIS_ENG_TE) || !defined (THIS_ENG_WEIGHT) || !defined(THIS_ENG_WEIGHT_HIGH)
+#error "One or more physical properties not defined"
+#endif
+
+#if !defined (THIS_ENG_CAP_HEAD_PAX) || !defined (THIS_ENG_RCOST) || !defined (THIS_ENG_RCOST_IDLE) || !defined (THIS_ENG_RCBASE) || !defined (THIS_ENG_PCOST)
+#error "One or more economical properties not defined"
+#endif
+
+#if !defined (THIS_ENG_TRACTION_TYPE) || !defined (THIS_ENG_STR_B) 
+#error "One or more misc properties not defined"
+#endif
+
+
+
+// change "nnn" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
+
+// #define THIS_PCX_FILE	sprites/pcx/mus/nnn.pcx  // Graphics file
+
+
+// Action 0
+-1 * 0  00 00 \b31 01 THIS_ENG_ID_B
+// Game related props 
+  02 \b01			// Reliability Decay
+  03 THIS_ENG_V_LIFE		// Vehicle Life/Years
+  04 THIS_ENG_M_LIFE		// Model Life/Years
+  05 THIS_ENG_TRACKTYPE		// Track type; 00 Rail, 01 Mono, 02 Mlev
+  06 07				// Climate availability
+  07 THIS_ENG_LOADINGSPEED	// Loading Speed - Not needed in most cases
+  08 THIS_ENG_AI_PAXOPTIMIZED	// AI Pax optimized
+   
+// Physical properties
+  00 \w1920-01-01               // Intro year \wyyyy-mm-dd
+  2A THIS_ENG_INTROYEAR		// Introyear in days after year 0, with leapyears, except every 400 yrs (year*365,24)
+  09 THIS_ENG_SPEED		// Speed (word)
+  0B THIS_ENG_HP		// Power in HP (word)
+  1B THIS_ENG_WAG_HP            // Power in HP on attached wagons
+  1F THIS_ENG_TE		// Tractive effort
+  16 THIS_ENG_WEIGHT            // Weight/Tons
+  24 THIS_ENG_WEIGHT_HIGH       // Highbyte on engines weighing >255 tons
+  20 20                         // Air Drag
+
+// Economical properties
+  14 THIS_ENG_CAP_HEAD_PAX      // Cargo Capacity
+  15 THIS_ENG_CARGOTYPE		// Cargo Type
+  1D THIS_ENG_REFITMASK		// Refit bitmask
+  28 THIS_ENG_CARGOCLASSES      // New cargo classes
+  29 THIS_ENG_NOTCARGOCLASSES   // New NOT Cargo classes
+  0D THIS_ENG_RCOST             // RUN Cost Factor
+  0E THIS_ENG_RCBASE            // RUN cost Base
+  17 THIS_ENG_PCOST             // Cost Factor
+  1C THIS_ENG_REFITCOST		// Refit cost
+
+// Misc
+  12 FD	// Use new grapics
+  19 THIS_ENG_TRACTION_TYPE     // Traction type (maglev, rail, monorail)
+  13 THIS_ENG_DUALHEAD          // Dualhead? 00/01 (should "always" be 00)
+  1E THIS_ENG_CALLBACKS         // Callbacks
+  21 THIS_ENG_SHORTERVEHICLE    // Shorter vehicle
+  27 THIS_ENG_MISC              // 01 tilt + 02 2cc + 04 xMU
+
+
+// Dont need to change anything more then this (unless its a "special case" grapihcally)
+
+#if THIS_ENG_TYPE == EMU_NORMAL
+#include TEMPLATE_EMU_NORMAL
+#endif
+
+#if THIS_ENG_TYPE == DMU_NORMAL
+#include TEMPLATE_DMU_NORMAL
+#endif
+
+#if THIS_ENG_TYPE == EMU_DUALHEAD
+#include TEMPLATE_EMU_DUALHEAD
+#endif
+
+#if THIS_ENG_TYPE == DMU_DUALHEAD
+#include TEMPLATE_DMU_DUALHEAD
+#endif
+
+// ----------------------
+// ----- Action 3's -----
+// ----------------------
+-1 * 0  03 00 01 THIS_ENG_ID_B 01	//
+              FF 4F 00		// P-list
+              AF 00		// Normal
+-1 * 0  03 00 81 MU 00 5F 00	// Livery Override 
+
+#undef THIS_PCX_FILE
+
+
+#undef		THIS_ENG_INTROYEAR
+#undef		THIS_ENG_V_LIFE
+#undef		THIS_ENG_M_LIFE
+#undef		THIS_ENG_SPEED
+#undef		THIS_ENG_TE
+#undef		THIS_ENG_HP
+#undef		THIS_ENG_WAG_HP
+#undef		THIS_ENG_CAP_WAG_PAX
+#undef		THIS_ENG_CAP_WAG_MAIL
+#undef		THIS_ENG_CAP_WAG_ARMOR
+#undef		THIS_ENG_CAP_HEAD_PAX
+#undef		THIS_ENG_CAP_HEAD_MAIL
+#undef		THIS_ENG_CAP_HEAD_ARMOR
+#undef		THIS_ENG_PAX_LS
+#undef		THIS_ENG_MAIL_LS
+#undef		THIS_ENG_ARMOR_LS
+#undef		THIS_ENG_WEIGHT
+#undef		THIS_ENG_WEIGHT_HIGH
+#undef		THIS_ENG_PCOST
+#undef		THIS_ENG_RCOST
+#undef		THIS_ENG_RCOST_WAG
+#undef		THIS_ENG_RCOST_IDLE
+#undef		THIS_ENG_RCBASE
+#undef		THIS_ENG_TRACTION_TYPE
+#undef		THIS_ENG_ID_B
+#undef		THIS_ENG_STR_B
+#undef		THIS_ENG_ID_W
+#undef		THIS_ENG_SHORTERVEHICLE_WAG
+#undef		THIS_ENG_TRACKTYPE
+#undef		THIS_ENG_TYPE
