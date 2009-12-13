@@ -135,20 +135,24 @@
 
 // Dont need to change anything more then this (unless its a "special case" grapihcally)
 
-#if THIS_ENG_TYPE == EMU_NORMAL
+#if THIS_ENG_TYPE == NORMAL_EMU
 #include TEMPLATE_EMU_NORMAL
 #endif
 
-#if THIS_ENG_TYPE == DMU_NORMAL
+#if THIS_ENG_TYPE == NORMAL_DMU
 #include TEMPLATE_DMU_NORMAL
 #endif
 
-#if THIS_ENG_TYPE == EMU_DUALHEAD
+#if THIS_ENG_TYPE == DUALHEAD_EMU
 #include TEMPLATE_EMU_DUALHEAD
 #endif
 
-#if THIS_ENG_TYPE == DMU_DUALHEAD
+#if THIS_ENG_TYPE == DUALHEAD_DMU
 #include TEMPLATE_DMU_DUALHEAD
+#endif
+
+#if THIS_ENG_TYPE == FIRSTWAGON_EMU
+#include TEMPLATE_EMU_FIRSTWAGON
 #endif
 
 // ----------------------
@@ -192,3 +196,4 @@
 #undef		THIS_ENG_SHORTERVEHICLE_WAG
 #undef		THIS_ENG_TRACKTYPE
 #undef		THIS_ENG_TYPE
+#undef		THIS_ENG_DUALHEAD
