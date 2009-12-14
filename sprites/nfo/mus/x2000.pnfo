@@ -3,201 +3,33 @@
 #define THIS_PCX_FILE	sprites/pcx/mus/x2000.pcx  // Graphics file
 
 
-// Action 0
--1 * 0  00 00 \b31 01 MU_X2000_ID_B
-// Game related props 
-  02 \b01	// Reliability Decay
-  03 MU_X2000_V_LIFE	// Vehicle Life/Years
-  04 MU_X2000_M_LIFE	// Model Life/Years
-  05 00		// Track type; 00 Rail, 01 Mono, 02 Mlev
-  06 07		// Climate availability
-  07 \b10	// Loading Speed - Not needed in most cases
-  08 01		// AI Pax optimized
-   
-// Physical properties
-  00 \w1920-01-01
-  2A MU_X2000_INTROYEAR	// Intro year \wyyyy-mm-dd
-  09 MU_X2000_SPEED		// Speed (word)
-  0B MU_X2000_HP		// Power in HP (word)
-  1B MU_X2000_WAG_HP           // Power in HP on attached wagons
-  1F MU_X2000_TE		// Tractive effort
-  16 MU_X2000_WEIGHT           // Weight/Tons
-  24 MU_X2000_WEIGHT_HIGH      // Highbyte on engines weighing >255 tons
-  20 20                         // Air Drag
+#define		THIS_ENG_INTROYEAR		MU_X2000_INTROYEAR
+#define		THIS_ENG_V_LIFE			MU_X2000_V_LIFE
+#define		THIS_ENG_M_LIFE			MU_X2000_M_LIFE
+#define		THIS_ENG_SPEED			MU_X2000_SPEED
+#define		THIS_ENG_TE			MU_X2000_TE
+#define		THIS_ENG_HP			MU_X2000_HP
+#define		THIS_ENG_WAG_HP			MU_X2000_WAG_HP
+#define		THIS_ENG_CAP_WAG_PAX		MU_X2000_CAP_WAG_PAX
+#define		THIS_ENG_CAP_WAG_MAIL		MU_X2000_CAP_WAG_MAIL
+#define		THIS_ENG_CAP_WAG_ARMOR		MU_X2000_CAP_WAG_ARMOR
+#define		THIS_ENG_CAP_HEAD_PAX		MU_X2000_CAP_HEAD_PAX
+#define		THIS_ENG_CAP_HEAD_MAIL		MU_X2000_CAP_HEAD_MAIL
+#define		THIS_ENG_CAP_HEAD_ARMOR		MU_X2000_CAP_HEAD_ARMOR
+#define		THIS_ENG_PAX_LS			MU_X2000_PAX_LS
+#define		THIS_ENG_MAIL_LS		MU_X2000_MAIL_LS
+#define		THIS_ENG_ARMOR_LS		MU_X2000_ARMOR_LS
+#define		THIS_ENG_WEIGHT			MU_X2000_WEIGHT
+#define		THIS_ENG_WEIGHT_HIGH		MU_X2000_WEIGHT_HIGH
+#define		THIS_ENG_PCOST			MU_X2000_PCOST
+#define		THIS_ENG_RCOST			MU_X2000_RCOST
+#define		THIS_ENG_RCOST_WAG		MU_X2000_RCOST_WAG
+#define		THIS_ENG_RCOST_IDLE		MU_X2000_RCOST_IDLE
+#define		THIS_ENG_RCBASE			MU_X2000_RCBASE
+#define		THIS_ENG_TRACTION_TYPE		MU_X2000_TRACTION_TYPE
+#define		THIS_ENG_ID_B			MU_X2000_ID_B
+#define		THIS_ENG_ID_W			MU_X2000_ID_W
+#define		THIS_ENG_STR_B			STR_B_MU_X2000
+#define		THIS_ENG_TYPE			ENGINESTYLE_EMU
 
-// Economical properties
-  14 MU_X2000_CAP_HEAD_PAX  // Cargo Capacity
-  15 00		             // Cargo Type
-  1D \dx0                    // Refit bitmask
-  28 \wx0b	             // New cargo classes
-  29 \wx3f0		     // New NOT Cargo classes
-  0D MU_X2000_RCOST         // RUN Cost Factor
-  0E MU_X2000_RCBASE    // RUN cost Base
-  17 MU_X2000_PCOST			     // Cost Factor
-  1C 00			     // Refit cost
-
-// Misc
-  12 FD	// Use new grapics
-  19 MU_X2000_TRACTION_TYPE 
-  13 00	// Dualhead? 00/01 (should "always" be 00)
-  1E FF // Callbacks
-  21 00 // Shorter vehicle
-  27 06 // 01 tilt + 02 2cc + 04 xMU
-
-
-// Dont need to change anything more then this (unless its a "special case" grapihcally)
-
-// Action 1 with 5 views and 8 sprites each view
--1 * 0  01 00 05 08
-// Front/White lights   xpos    ypos    comp    ysize   xsize   xrel    yrel
-1 THIS_PCX_FILE    	01	01	1	24	08	-3	-12
-2 THIS_PCX_FILE    	10	01	1	20	22	-14	-12
-3 THIS_PCX_FILE    	33	01	1	16	32	-16	-12
-4 THIS_PCX_FILE    	66	01	1	20	22	-6	-12
-5 THIS_PCX_FILE    	89	01	1	24	08	-3	-12
-6 THIS_PCX_FILE    	98	01	1	20	22	-14	-12
-7 THIS_PCX_FILE    	121	01	1	16	32	-16	-12
-8 THIS_PCX_FILE    	154	01	1	20	22	-6	-12
-// End/Red lights
-5 THIS_PCX_FILE    	89	32	1	24	08	-3	-12
-6 THIS_PCX_FILE    	98	32	1	20	22	-14	-12
-7 THIS_PCX_FILE    	121	32	1	16	32	-16	-12
-8 THIS_PCX_FILE    	154	32	1	20	22	-6	-12
-1 THIS_PCX_FILE    	01	32	1	24	08	-3	-12
-2 THIS_PCX_FILE    	10	32	1	20	22	-14	-12
-3 THIS_PCX_FILE    	33	32	1	16	32	-16	-12
-4 THIS_PCX_FILE    	66	32	1	20	22	-6	-12
-// Pax
-1 THIS_PCX_FILE    	01	64	1	24	08	-3	-12
-2 THIS_PCX_FILE    	10	64	1	20	22	-14	-10
-3 THIS_PCX_FILE    	33	64	1	16	32	-16	-12
-4 THIS_PCX_FILE    	66	64	1	20	22	-6	-12
-5 THIS_PCX_FILE    	89	64	1	24	08	-3	-12
-6 THIS_PCX_FILE    	98	64	1	20	22	-14	-12
-7 THIS_PCX_FILE    	121	64	1	16	32	-16	-12
-8 THIS_PCX_FILE    	154	64	1	20	22	-6	-12
-// Mail
-1 THIS_PCX_FILE    	01	96	1	24	08	-3	-12
-2 THIS_PCX_FILE    	10	96	1	20	22	-14	-12
-3 THIS_PCX_FILE    	33	96	1	16	32	-16	-12
-4 THIS_PCX_FILE    	66	96	1	20	22	-6	-12
-5 THIS_PCX_FILE    	89	96	1	24	08	-3	-12
-6 THIS_PCX_FILE    	98	96	1	20	22	-14	-12
-7 THIS_PCX_FILE    	121	96	1	16	32	-16	-12
-8 THIS_PCX_FILE    	154     96	1	20	22	-6	-12
-// Purchase list
-1 * 0  0
-2 * 0  0
-3 THIS_PCX_FILE    	01	01  1 01  01  -00 -00
-4 * 0  0
-5 * 0  0
-6 * 0  0
-7 THIS_PCX_FILE    	01	128	1	12	87	-25	-08
-8 * 0  0
-
--1 * 0  02 00 10 01 01 \w0 \w0 // -->
--1 * 0  02 00 11 01 01 \w1 \w1 // <--
--1 * 0  02 00 20 01 01 \w2 \w2 // pax
--1 * 0  02 00 30 01 01 \w3 \w3 // mail
--1 * 0  02 00 40 01 01 \w4 \w4 // P-list
-
-// ----- Apply Purchase list text -----
--1 * 0  02 00 4F 81 0C 00 FF 01   STR_B_MU_X2000 80 23 23   40 00
-
-// --------------------
-// ----- Generic ------
-// --------------------
-
-// Loading speed of the various cargos
--1 * 0  02 00 E1 81 47 10 FF 04
-                             MU_X2000_MAIL_LS 80 02 02  // Mail 
-                             MU_X2000_ARMOR_LS 80 08 08 // Armored 
-                             MU_X2000_PAX_LS 80 01 01   // PAX
-                             MU_X2000_PAX_LS 80 05 05   // Tourists
-                             00 80                            // others 
-             
-//Capacty for use in CB15/36 - Head
--1 * 0  02 00 E5 81 47 10 FF 03
-                             MU_X2000_CAP_HEAD_MAIL 80 02 02		// Mail Capacity
-                             MU_X2000_CAP_HEAD_ARMOR 80 08 08        // Armored capacity
-                             MU_X2000_CAP_HEAD_PAX 80 05 05		// Tourist capacity
-                             00 80				// Everything else
- //Capacty for use in CB15/36 - Wagon
--1 * 0  02 00 E6 81 47 10 FF 03
-                             MU_X2000_CAP_WAG_MAIL 80 02 02		// Mail Capacity
-                             MU_X2000_CAP_WAG_ARMOR 80 08 08        // Armored capacity
-                             MU_X2000_CAP_WAG_PAX 80 05 05		// Tourist capacity
-                             00 80				// Everything else
-                          
-//Low cost when standing still, for use in the '10' at the RUN cost spot HEAD
--1 * 0  02 00 EC 82 B4 00 FF 01			// 1 case
-                          MU_X2000_RCOST_IDLE 80 00 00	        // Standing still cost 
-                          MU_X2000_RCOST 80	// RUN cost
-
-//Low cost when standing still, for use in the '10' at the RUN cost spot WAGON
--1 * 0  02 00 ED 82 B4 00 FF 01			// 1 case
-                          MU_X2000_RCOST_IDLE 80 00 00	        // Standing still cost 
-                          MU_X2000_RCOST_WAG 80	// RUN cost
-
-// '10' for CB36s HEAD
--1 * 0  02 00 EE 81 10 00 FF 03
-                             MU_X2000_CAP_HEAD_PAX 80 14 14		// Capacity
-                             MU_X2000_WEIGHT 80 16 16	// weight
-                             EC 00 0D 0D		// RUN cost
-                             40 00			// Dont matter
-
-// '10' for CB36s Wagon
--1 * 0  02 00 EF 81 10 00 FF 03
-                             MU_X2000_CAP_WAG_PAX 80 14 14		// Capacity
-                             MU_X2000_WEIGHT 80 16 16	// weight
-                             ED 00 0D 0D		// RUN cost
-                             40 00			// Dont matter
-
-
-// --------------------
-// ------ Engine ------
-// --------------------
-
-// Cannot attach 
--1 * 0  02 00 A6 85 C6 00 FF FF 02             // 2 cases
-                             FF 80 MU 00 MU 00 // allow attaching MU-wagon
-                             FF 80 MU_X2000_ID_W  MU_X2000_ID_W  // Allow attaching self
-                             ER_ONLYMU 80             // Dissalow everything else
--1 * 0  02 00 AF 81 0C 00 FF 04          // 4 callbacks
-                             E1 00 12 12 // Loading speed
-                             E5 00 15 15 // Cargo Capacity
-                             A6 00 1D 1D// Cannot attach 
-                             EE 00 36 36 // New stuff
-                             10 00       // Attach engine gfx
-
-// --------------------
-// ------ Wagon -------
-// --------------------
-
-// GFX depending on what it carries 
--1 * 0  02 00 50 81 47 10 FF 02
-                             20 00 01 01 // PAX gfx
-                             20 00 05 05 // Tourist GFX
-                             30 00       // Other/mail/armor gfx
-
-// GFX depending on pos in consist
--1 * 0  02 00 51 81 41 08 FF 01          // 1 case, counted from behind
-                             11 00 00 00 // Back engine if last
-                             50 00       // GFX depending on cargo if not last
-
-// Callbacks
--1 * 0  02 00 5F 81 0C 00 FF 03          // 3 callbacks
-                             E1 00 12 12 // Loading speed
-                             E6 00 15 15 // Cargo Capacity
-                             EF 00 36 36 // Change props
-                             51 00       // Attach GFX
-
-// ----------------------
-// ----- Action 3's -----
-// ----------------------
--1 * 0  03 00 01 MU_X2000_ID_B 01	//
-              FF 4F 00		// P-list
-              AF 00		// Normal
--1 * 0  03 00 81 MU 00 5F 00	// Livery Override 
-
-#undef THIS_PCX_FILE
+#include TEMPLATE_MU
