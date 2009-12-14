@@ -67,6 +67,7 @@
 #define TEMPLATE_EMU_TGV_TA	"emu_tgv_ta.tnfo"
 #define TEMPLATE_EMU_TGV_D	"emu_tgv_d.tnfo"
 #define TEMPLATE_EMU_ICE3	"emu_ice3.tnfo"
+#define	TEMPLATE_EMU_ENGINESTYLE "emu_enginestyle.tnfo"
 
 // Stuff for selecting what VarAction2 template to choose
 // Wagons
@@ -79,6 +80,7 @@
 #define DUALHEAD_EMU	3	// Dualheaded DMU's without pax in the heads
 #define DUALHEAD_DMU	4	// Dualheaded EMU's without pax in the heads
 #define FIRSTWAGON_EMU	5	// EMU's where the first wagon have some kind of special gfx (usually the panto)
-#define TGV_TA_EMU	6	// For the TGV-A and TGV-T and possibly others
-#define TGV_D_EMU	7	// For the TGV Duplex
-#define ICE3_EMU	8	// For the ICE3
+#define ENGINESTYLE_EMU	6	// Where the first and last sprite is not the same (disregard lights or panto)
+#define TGV_TA_EMU	7	// For the TGV-A and TGV-T and possibly others
+#define TGV_D_EMU	8	// For the TGV Duplex
+#define ICE3_EMU	9	// For the ICE3
