@@ -142,6 +142,15 @@
 -1 * 0  04 00 LANG_ID \b1 MU_Y2_ID_B	             SPACE "Y2"		  00
 -1 * 0  04 00 LANG_ID \b1 MU_X2000_ID_B	     SPACE "X2000"		  00
 
+// Railbus names:
+-1 * 0  04 00 LANG_ID \b1 RB_479_ID_B		SPACE	"Railbus 479" 00
+-1 * 0  04 00 LANG_ID \b1 RB_809_ID_B		SPACE	"Railbus 809" 00
+-1 * 0  04 00 LANG_ID \b1 RB_153_111_ID_B	SPACE	"Railbus 153111" 00
+-1 * 0  04 00 LANG_ID \b1 RB_AR2_ID_B		SPACE	"Railbus AR2" 00
+-1 * 0  04 00 LANG_ID \b1 RB_DM7_ID_B		SPACE	"Railbus Dm7" 00
+-1 * 0  04 00 LANG_ID \b1 RB_VT133_ID_B		SPACE	"Railbus Vt133" 00
+
+
 // Metro Names:
 -1 * 0  04 00 LANG_ID \b1 MET_01800_ID_B	SPACE "Boston 01800" 00
 0 * 0  04 00 LANG_ID \b1 MET_81_729_ID_B	SPACE "81-729" 00
