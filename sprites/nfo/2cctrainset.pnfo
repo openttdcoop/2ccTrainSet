@@ -109,6 +109,10 @@ sprites/nfo/metro/mp89.pnfo
 sprites/nfo/metro/pjang.pnfo
 sprites/nfo/metro/tokyo-s01.pnfo
 
+sprites/nfo/metro/ut2.pnfo
+sprites/nfo/metro/uniongate.pnfo
+sprites/nfo/metro/budapest.pnfo
+
 // Maglevs
 sprites/nfo/mus/chim.pnfo
 
