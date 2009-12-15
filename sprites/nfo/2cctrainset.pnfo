@@ -88,6 +88,14 @@ sprites/nfo/mus/vt612.pnfo
 sprites/nfo/mus/x2000.pnfo
 sprites/nfo/mus/y2.pnfo
 
+//Railbus
+sprites/nfo/railbus/479.pnfo
+sprites/nfo/railbus/809.pnfo
+sprites/nfo/railbus/153111.pnfo
+sprites/nfo/railbus/ar2.pnfo
+sprites/nfo/railbus/dm7.pnfo
+sprites/nfo/railbus/vt133.pnfo
+
 // Metros:
 sprites/nfo/metro/81-729.pnfo
 sprites/nfo/metro/01800.pnfo

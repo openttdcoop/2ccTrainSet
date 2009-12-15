@@ -51,16 +51,22 @@
 #define ER_ONLYMU_W     	\wxD0E5
 #define ER_NORAILCARS_W         \wxD0E6
 
+// Templates:
+// Main ones
 #define TEMPLATE_ENGINES 	"../../../templates/engine.tnfo"
 #define TEMPLATE_MU     	"../../../templates/mu.tnfo"
 #define TEMPLATE_METRO   	"../../../templates/metro.tnfo"
 #define TEMPLATE_PAXWAG  	"../../../templates/wagon_pax_main.tnfo"
+#define TEMPLATE_RAILBUS	"../../../templates/railbus.tnfo"
+// Wagons 
 #define WAGON_PAX_NORMAL	"wagon_pax_normal.tnfo"
 #define WAGON_PAX_DOUBLEDECKER	"wagon_pax_dd.tnfo"
 
+// DMU's
 #define TEMPLATE_DMU_NORMAL	"dmu_normal.tnfo"
 #define TEMPLATE_DMU_DUALHEAD	"dmu_dualhead.tnfo"
 
+// EMU's
 #define TEMPLATE_EMU_NORMAL	"emu_normal.tnfo"
 #define TEMPLATE_EMU_FIRSTWAGON	"emu_firstwagon.tnfo"
 #define TEMPLATE_EMU_DUALHEAD	"emu_dualhead.tnfo"
