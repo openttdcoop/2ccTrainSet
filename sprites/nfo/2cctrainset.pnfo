@@ -113,6 +113,11 @@ sprites/nfo/metro/ut2.pnfo
 sprites/nfo/metro/uniongate.pnfo
 sprites/nfo/metro/budapest.pnfo
 
+sprites/nfo/metro/m100.pnfo
+sprites/nfo/metro/1938.pnfo
+sprites/nfo/metro/dlr.pnfo
+sprites/nfo/metro/m2-840.pnfo
+
 // Maglevs
 sprites/nfo/mus/chim.pnfo
 
