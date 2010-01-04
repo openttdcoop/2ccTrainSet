@@ -1,5 +1,5 @@
 
-#define THIS_PCX_FILE	          sprites/pcx/wagons/dd4gen.pcx  // Graphics file
+#define THIS_PCX_FILE	          sprites/pcx/wagons/pax/dd4gen.pcx  // Graphics file
 //#define		THIS_WAG_SHORTERVEHICLE		01
 
 #define		THIS_WAG_INTROYEAR		WAG_PAX_DD_4GEN_INTROYEAR
