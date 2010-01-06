@@ -1,51 +1,59 @@
 
 #define THIS_WAG_PCX_PLIST	sprites/pcx/wagons/flatbed/plist.pcx
-#define THIS_WAG_NUM_CARGOS	04 // Number of cargospec cargos
-//#define THIS_WAG_NUM_CLASSES	0
+#define THIS_WAG_NUM_CARGOS	04 // Number of cargospec gfx
+#define THIS_WAG_NUM_CLASSES	00 // Number of class gfx
 
 // Look in cargotable.pnfo for the cargo<x>_type
-// Cargo1 is ALWAYS the default one
+// Cargo1 is ALWAYS the default one (gfx-wise)
 #define THIS_WAG_CARGO1_NUMSTAGES 	3
 #define THIS_WAG_CARGO1_TYPE		COTTON
+//#define THIS_WAG_CARGO1_CLASS		<class>
 #define CARGO1_PCX_FILE		sprites/pcx/wagons/flatbed/containers.pcx
 
 // Cargo2
 #define THIS_WAG_CARGO2_NUMSTAGES 	4
 #define THIS_WAG_CARGO2_TYPE		STEEL
+//#define THIS_WAG_CARGO2_CLASS		<class>
 #define CARGO2_PCX_FILE		sprites/pcx/wagons/flatbed/steel.pcx
 
 // Cargo3
 #define THIS_WAG_CARGO3_NUMSTAGES 	4
 #define THIS_WAG_CARGO3_TYPE		PAPER
+//#define THIS_WAG_CARGO3_CLASS		<class>
 #define CARGO3_PCX_FILE		sprites/pcx/wagons/flatbed/paper.pcx
 
 // Cargo4
 #define THIS_WAG_CARGO4_NUMSTAGES 	4
 #define THIS_WAG_CARGO4_TYPE		WOOD
+//#define THIS_WAG_CARGO4_CLASS		<class>
 #define CARGO4_PCX_FILE		sprites/pcx/wagons/flatbed/wood.pcx
 
 // Cargo5
 #define THIS_WAG_CARGO5_NUMSTAGES 	4
 #define THIS_WAG_CARGO5_TYPE		TROPICAL_WOOD
+//#define THIS_WAG_CARGO5_CLASS		<class>
 #define CARGO5_PCX_FILE		sprites/pcx/wagons/flatbed/wood.pcx
 
 // Cargo6
 //#define THIS_WAG_CARGO6_NUMSTAGES 	<1,2,3,4,RANDOM_4>
 //#define THIS_WAG_CARGO6_TYPE		<PAX,MAIL,COAL,ETC>
+//#define THIS_WAG_CARGO5_CLASS		<class>
 //#define CARGO6_PCX_FILE		sprites/pcx/wagons/flatbed/containers.pcx
 
 // Cargo7
 //#define THIS_WAG_CARGO7_NUMSTAGES 	<1,2,3,4,RANDOM_4>
 //#define THIS_WAG_CARGO7_TYPE		<PAX,MAIL,COAL,ETC>
+//#define THIS_WAG_CARGO7_CLASS		<class>
 //#define CARGO7_PCX_FILE		sprites/pcx/wagons/flatbed/containers.pcx
 
 // Cargo8
 //#define THIS_WAG_CARGO8_NUMSTAGES 	<1,2,3,4,RANDOM_4>
 //#define THIS_WAG_CARGO8_TYPE		<PAX,MAIL,COAL,ETC>
+//#define THIS_WAG_CARGO8_CLASS		<class>
 //#define CARGO8_PCX_FILE		sprites/pcx/wagons/flatbed/containers.pcx
 
 #define THIS_WAG_REFITMASK 		\dx02
-#define THIS_WAG_CARGOCLASSES      	\wx20
+#define THIS_WAG_CARGOCLASSES      	\wx420
 #define THIS_WAG_NOTCARGOCLASSES   	\wx8F
 #define THIS_WAG_CARGOTYPE		DEFAULT_STEEL
 // ^--- This is the default cargotype, always use DEFAULT_<cargo>

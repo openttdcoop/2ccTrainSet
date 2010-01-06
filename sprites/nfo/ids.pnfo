@@ -25,7 +25,7 @@
 #define WAG_STR_60_W	\wxD0F1	
 // 70kmh
 #define WAG_STR_70_B	F3
-#define WAG_STR_70_W	\wxD03	
+#define WAG_STR_70_W	\wxD0F3	
 // 80kmh
 #define WAG_STR_80_B	F4
 #define WAG_STR_80_W	\wxD0F4	
@@ -34,7 +34,7 @@
 #define WAG_STR_90_W	\wxD0F5	
 // 100kmh
 #define WAG_STR_100_B	F6
-#define WAG_STR_100_W	\wxD06	
+#define WAG_STR_100_W	\wxD0F6	
 // 110kmh
 #define WAG_STR_110_B	F7
 #define WAG_STR_110_W	\wxD0F7	
