@@ -20,18 +20,33 @@
 // 50kmh
 #define WAG_STR_50_B	F0
 #define WAG_STR_50_W	\wxD0F0	
+// 60kmh
+#define WAG_STR_60_B	F1
+#define WAG_STR_60_W	\wxD0F1	
+// 70kmh
+#define WAG_STR_70_B	F3
+#define WAG_STR_70_W	\wxD03	
 // 80kmh
-#define WAG_STR_80_B	F1
-#define WAG_STR_80_W	\wxD0F1	
+#define WAG_STR_80_B	F4
+#define WAG_STR_80_W	\wxD0F4	
+// 90kmh
+#define WAG_STR_90_B	F5
+#define WAG_STR_90_W	\wxD0F5	
+// 100kmh
+#define WAG_STR_100_B	F6
+#define WAG_STR_100_W	\wxD06	
+// 110kmh
+#define WAG_STR_110_B	F7
+#define WAG_STR_110_W	\wxD0F7	
 // 120kmh
-#define WAG_STR_120_B	F2
-#define WAG_STR_120_W	\wxD0F2	
+#define WAG_STR_120_B	F8
+#define WAG_STR_120_W	\wxD0F8	
 // 160kmh
-#define WAG_STR_160_B	F3
-#define WAG_STR_160_W	\wxD0F3	
+#define WAG_STR_160_B	F9
+#define WAG_STR_160_W	\wxD0F9	
 // 200kmh
-#define WAG_STR_200_B	F4
-#define WAG_STR_200_W	\wxD0F4	
+#define WAG_STR_200_B	FA
+#define WAG_STR_200_W	\wxD0FA	
 
 
 // Error IDs
