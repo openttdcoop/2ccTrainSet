@@ -19,23 +19,6 @@
 -1 * 0    0B 02 7F 02 "adv. setting '" 94 "vehicle->Enable multiple NewGRF engine sets'" 89 " = " 8E "ON" 89 00
 
 
-// Cargo translation table
-// -1 * 0  00 08 01 29 00 09
-// "COAL" "WATR" "RUBB" "MAIL" "OIL_" // 0-4
-// "LVST" "GOOD" "CERE" "GRAN" "WHET" // 5-9
-// "MAIZ" "WOOD" "TWOD" "IORE" "CORE" // 10-14
-// "STEL" "PLAS" "VALU" "GOLD" "DIAM" // 15-19
-// "PAPR" "FOOD" "FRUT" "FISH" "WOOL" // 20-24
-// "POTA" "SAND" "GLAS" "WDPR" "DYES" // 25-29
-// "FERT" "PASS" "RFPR" "VEHI" "PETR" // 30-34
-// "BRCK" "SULP" "CMNT" "FICR" "LIME" // 35-39
-// "MILK" "TOUR" "OLSD" 	            // 40-42
-
-// Cargo translation table
-    -1 * 178	 00 08 01 2B 00 09 "COAL" "WATR" "RUBB" "MAIL" "OIL_" "LVST" "GOOD" "CERE" "GRAN" "WHET" "MAIZ" "WOOD" "TWOD" "IORE" "CORE" "STEL"
-     "PLAS" "VALU" "GOLD" "DIAM" "PAPR" "FOOD" "FRUT" "FISH" "WOOL" "POTA" "SAND" "GLAS" "WDPR" "DYES" "FERT" "PASS" "RFPR" "VEHI" "PETR" "BRCK"
-      "SULP" "CMNT" "FICR" "LIME" "MILK" "TOUR" "OLSD"
-
 // Cost-Factors and other misc stuff
 // last read entry will be used. If the parameter is found
 // we skip all other remaining definitions

@@ -1,0 +1,22 @@
+
+// Action 3 with 2 views and 8 sprites each view
+-1 * 0  01 00 02 08
+// Front/White lights   xpos    ypos    comp    ysize   xsize   xrel    yrel
+1 THIS_PCX_FILE    	01	01	1	24	08	-3	-12
+2 THIS_PCX_FILE    	10	01	1	18	22	-14	-10
+3 THIS_PCX_FILE    	33	01	1	14	32	-16	-10
+4 THIS_PCX_FILE    	66	01	1	18	22	-6	-10
+5 THIS_PCX_FILE    	89	01	1	24	08	-3	-12
+6 THIS_PCX_FILE    	98	01	1	18	22	-14	-10
+7 THIS_PCX_FILE    	121	01	1	14	32	-16	-10
+8 THIS_PCX_FILE    	154	01	1	18	22	-6	-10
+// Front/White lights   xpos    ypos    comp    ysize   xsize   xrel    yrel
+1 THIS_PCX_FILE    	01	32	1	24	08	-3	-12
+2 THIS_PCX_FILE    	10	32	1	18	22	-14	-10
+3 THIS_PCX_FILE    	33	32	1	14	32	-16	-10
+4 THIS_PCX_FILE    	66	32	1	18	22	-6	-10
+5 THIS_PCX_FILE    	89	32	1	24	08	-3	-12
+6 THIS_PCX_FILE    	98	32	1	18	22	-14	-10
+7 THIS_PCX_FILE    	121	32	1	14	32	-16	-10
+8 THIS_PCX_FILE    	154	32	1	18	22	-6	-10
+
