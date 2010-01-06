@@ -21,8 +21,23 @@
 // 50kmh
 -1 * 0  04 00 LANG_ID2 \b1  WAG_STR_50_W WORD_SPEED 8A "50" WORD_KMH "\n"
                                       98 WORD_FASTHIGHRC 00
+// 60kmh
+-1 * 0  04 00 LANG_ID2 \b1  WAG_STR_50_W WORD_SPEED 8A "60" WORD_KMH "\n"
+                                      98 WORD_FASTHIGHRC 00
+// 70kmh
+-1 * 0  04 00 LANG_ID2 \b1  WAG_STR_50_W WORD_SPEED 8A "70" WORD_KMH "\n"
+                                      98 WORD_FASTHIGHRC 00
 // 80kmh
 -1 * 0  04 00 LANG_ID2 \b1  WAG_STR_80_W WORD_SPEED 8A "80" WORD_KMH "\n"
+                                      98 WORD_FASTHIGHRC 00
+// 90kmh
+-1 * 0  04 00 LANG_ID2 \b1  WAG_STR_50_W WORD_SPEED 8A "90" WORD_KMH "\n"
+                                      98 WORD_FASTHIGHRC 00
+// 100kmh
+-1 * 0  04 00 LANG_ID2 \b1  WAG_STR_50_W WORD_SPEED 8A "100" WORD_KMH "\n"
+                                      98 WORD_FASTHIGHRC 00
+// 110kmh
+-1 * 0  04 00 LANG_ID2 \b1  WAG_STR_50_W WORD_SPEED 8A "110" WORD_KMH "\n"
                                       98 WORD_FASTHIGHRC 00
 // 120kmh
 -1 * 0  04 00 LANG_ID2 \b1  WAG_STR_120_W WORD_SPEED 8A "120" WORD_KMH "\n"
