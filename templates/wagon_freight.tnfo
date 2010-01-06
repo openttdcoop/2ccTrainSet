@@ -160,7 +160,6 @@
 		03 00
 	#endif
 #undef THIS_PCX_FILE
-#define THIS_WAG_NUM_CARGOS 00
 #endif
 
 #ifdef THIS_WAG_CARGO2_TYPE
@@ -200,7 +199,6 @@
 		03 00
 	#endif
 #undef THIS_PCX_FILE
-#define THIS_WAG_NUM_CARGOS 01
 #endif
 
 #ifdef THIS_WAG_CARGO3_TYPE
@@ -240,7 +238,6 @@
 		03 00
 	#endif
 #undef THIS_PCX_FILE
-#define THIS_WAG_NUM_CARGOS 02
 #endif
 
 #ifdef THIS_WAG_CARGO4_TYPE
@@ -280,7 +277,6 @@
 		03 00
 	#endif
 #undef THIS_PCX_FILE
-#define THIS_WAG_NUM_CARGOS 03
 #endif
 
 #ifdef THIS_WAG_CARGO5_TYPE
@@ -320,7 +316,6 @@
 		03 00
 	#endif
 #undef THIS_PCX_FILE
-#define THIS_WAG_NUM_CARGOS 04
 #endif
 
 #ifdef THIS_WAG_CARGO6_TYPE
@@ -360,7 +355,6 @@
 		03 00
 	#endif
 #undef THIS_PCX_FILE
-#define THIS_WAG_NUM_CARGOS 05
 #endif
 
 #ifdef THIS_WAG_CARGO7_TYPE
@@ -400,7 +394,6 @@
 		03 00
 	#endif
 #undef THIS_PCX_FILE
-#define THIS_WAG_NUM_CARGOS 06
 #endif
 
 #ifdef THIS_WAG_CARGO8_TYPE
@@ -440,7 +433,7 @@
 		03 00
 	#endif
 #undef THIS_PCX_FILE
-#define THIS_WAG_NUM_CARGOS 07
+
 #endif
 
 
@@ -485,6 +478,37 @@
 			18 00 THIS_WAG_CARGO8_TYPE THIS_WAG_CARGO8_TYPE
 			#endif
 			11 00
+
+// Change GFX depending on what cargo CLASS gfx to use
+-1 * 0	02 00 10 81 41 08 FF THIS_WAG_NUM_CLASSES
+			#ifdef THIS_WAG_CARGO2_CLASS
+			12 00 THIS_WAG_CARGO2_CLASS THIS_WAG_CARGO2_CLASS
+			#endif
+			
+			#ifdef THIS_WAG_CARGO3_CLASS
+			13 00 THIS_WAG_CARGO3_CLASS THIS_WAG_CARGO3_CLASS
+			#endif
+			
+			#ifdef THIS_WAG_CARGO4_CLASS
+			14 00 THIS_WAG_CARGO4_CLASS THIS_WAG_CARGO4_CLASS
+			#endif
+			
+			#ifdef THIS_WAG_CARGO5_CLASS
+			15 00 THIS_WAG_CARGO5_CLASS THIS_WAG_CARGO5_CLASS
+			#endif
+			
+			#ifdef THIS_WAG_CARGO6_CLASS
+			16 00 THIS_WAG_CARGO6_CLASS THIS_WAG_CARGO6_CLASS
+			#endif
+			
+			#ifdef THIS_WAG_CARGO7_CLASS
+			17 00 THIS_WAG_CARGO7_CLASS THIS_WAG_CARGO7_CLASS
+			#endif
+			
+			#ifdef THIS_WAG_CARGO8_CLASS
+			18 00 THIS_WAG_CARGO8_CLASS THIS_WAG_CARGO8_CLASS
+			#endif
+			10 00
 
 
 //Capacty for use in CB15/36 - Wagon
