@@ -1,0 +1,45 @@
+-1 * 0	00 08 01 \b12 00 09
+"COAL" // 00	
+"LVST" // 01	
+"GRAI" // 02
+"WOOD" // 03
+"IORE" // 04
+"STEL" // 05
+"PAPR" // 06	
+"WHEA" // 07
+"MAIZ" // 08
+"CORE" // 09
+"CTTN" // 0A
+"TWOD" // 0B
+
+
+#define COAL 00
+#define LIVESTOCK 01
+#define GRAIN 02
+#define WOOD 03
+#define IRONORE 04
+#define STEEL 05
+#define PAPER 06
+#define WHEAT 07
+#define MAIZ 08
+#define COPPERORE 09
+#define COTTON 0A
+#define TROPICAL_WOOD 0B
+ 	
+#define	DEFAULT_PAX	00
+#define	DEFAULT_COAL	01
+#define	DEFAULT_MAIL	02
+#define	DEFAULT_OIL	03
+#define	DEFAULT_LIVESTOCK	04
+#define	DEFAULT_GOODS	05
+#define	DEFAULT_GRAIN	06
+#define	DEFAULT_WOOD	07
+#define	DEFAULT_IRONORE	08
+#define	DEFAULT_STEEL	09
+#define	DEFAULT_VALU	0A
+#define	DEFAULT_PAPER	0B
+#define	DEFAULT_FOOD	0C
+#define	DEFAULT_FRIT	0D
+#define	DEFAULT_COPPERORE	0E
+#define	DEFAULT_WATER	0F
+#define	DEFAULT_RUBBER	10

@@ -3,6 +3,7 @@ sprites/nfo/nfo_header.pnfo
 
 // Header file(s)
 sprites/nfo/header.pnfo
+sprites/nfo/cargotable.pnfo
 
 // definitions
 sprites/nfo/ids.pnfo

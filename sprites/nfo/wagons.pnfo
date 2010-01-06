@@ -11,3 +11,6 @@
 #include "wagons/reg5gen.pnfo"
 #include "wagons/dd4gen.pnfo"
 #include "wagons/dd5gen.pnfo"
+
+// Cargo
+#include "wagons/flatbed.pnfo"

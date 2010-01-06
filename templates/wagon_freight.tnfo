@@ -1,0 +1,608 @@
+// Template for "usual" engines
+// 
+// First define a few seldomly changed properties and set them to their default value
+// unless they're defined in the WAGine file
+
+
+
+#ifndef THIS_WAG_TRACKTYPE
+#define THIS_WAG_TRACKTYPE 00
+#endif
+
+#ifndef THIS_WAG_TRACTION_TYPE
+#define THIS_WAG_TRACTION_TYPE 00
+#endif
+
+#ifndef THIS_WAG_LOADINGSPEED
+#define THIS_WAG_LOADINGSPEED \b10
+#endif
+
+#ifndef THIS_WAG_AI_PAXOPTIMIZED
+#define THIS_WAG_AI_PAXOPTIMIZED 01
+#endif
+
+#ifndef THIS_WAG_CARGOTYPE
+#define THIS_WAG_CARGOTYPE 00
+#endif
+
+#ifndef THIS_WAG_REFITMASK
+#define THIS_WAG_REFITMASK \dx0
+#endif
+
+#ifndef THIS_WAG_CARGOCLASSES
+#define THIS_WAG_CARGOCLASSES \wx01
+#endif
+
+#ifndef THIS_WAG_NOTCARGOCLASSES
+#define THIS_WAG_NOTCARGOCLASSES \wxFFFB
+#endif
+
+#ifndef THIS_WAG_REFITCOST
+#define THIS_WAG_REFITCOST 00
+#endif
+
+#ifndef THIS_WAG_MISC		// 01 tilt + 02 2cc + 04 xMU
+#define THIS_WAG_MISC 02
+#endif
+
+#ifndef THIS_WAG_SHORTERVEHICLE	// Shorter vehicle
+#define THIS_WAG_SHORTERVEHICLE 00
+#endif
+
+
+#ifndef THIS_WAG_CALLBACKS	// Callbacks
+#define THIS_WAG_CALLBACKS FF
+#endif
+
+#ifndef THIS_WAG_DUALHEAD	// Dualhead? 00/01 (should "always" be 00)
+#define THIS_WAG_DUALHEAD 00
+#endif
+
+// Make a few sanity checks that all necessary properties are now defined. 
+// There's not much point to continue and no hope to get something working,
+// if we've got a failure here.
+
+
+#if !defined THIS_WAG_ID_B
+#error "The WAGine ID is not defined!"
+#endif
+
+#if !defined (THIS_WAG_V_LIFE) || !defined (THIS_WAG_M_LIFE) || !defined (THIS_WAG_INTROYEAR)
+#error "One or more game properties not defined"
+#endif
+
+#if !defined (THIS_WAG_WEIGHT)
+#error "One or more physical properties not defined"
+#endif
+
+#if !defined (THIS_WAG_RCOST) || !defined (THIS_WAG_RCBASE) || !defined (THIS_WAG_PCOST)
+#error "One or more economical properties not defined"
+#endif
+
+#if !defined (THIS_WAG_TRACTION_TYPE) || !defined (THIS_WAG_STR_B) 
+#error "One or more misc properties not defined"
+#endif
+
+
+
+// Action 0
+-1 * 0  00 00 \b26 01 THIS_WAG_ID_B
+// Game related props 
+  02 \b01			// Reliability Decay
+  03 THIS_WAG_V_LIFE		// Vehicle Life/Years
+  04 THIS_WAG_M_LIFE		// Model Life/Years
+  05 THIS_WAG_TRACKTYPE		// Track type; 00 Rail, 01 Mono, 02 Mlev
+  06 07				// Climate availability
+  07 THIS_WAG_LS		// Loading Speed
+  08 THIS_WAG_AI_PAXOPTIMIZED	// AI Pax optimized
+   
+// Physical properties
+  00 \w1920-01-01               // Intro year \wyyyy-mm-dd
+  09 \w230			// Wagon speed limit
+  0B \w0			// Power in HP
+  2A THIS_WAG_INTROYEAR		// Introyear in days after year 0, with leapyears, except every 400 yrs (year*365,24)
+  16 THIS_WAG_WEIGHT            // Weight/Tons
+
+// Economical properties
+  14 THIS_WAG_CAP               // Cargo Capacity
+  15 THIS_WAG_CARGOTYPE		// Cargo Type
+  1D THIS_WAG_REFITMASK		// Refit bitmask
+  28 THIS_WAG_CARGOCLASSES      // New cargo classes
+  29 THIS_WAG_NOTCARGOCLASSES   // New NOT Cargo classes
+  0D THIS_WAG_RCOST             // RUN Cost Factor
+  0E THIS_WAG_RCBASE            // RUN cost Base
+  17 THIS_WAG_PCOST             // Cost Factor
+  1C THIS_WAG_REFITCOST		// Refit cost
+
+// Misc
+  12 FD	// Use new grapics
+  19 THIS_WAG_TRACTION_TYPE     // Traction type (maglev, rail, monorail)
+  1E THIS_WAG_CALLBACKS         // Callbacks
+  21 THIS_WAG_SHORTERVEHICLE    // Shorter vehicle
+  27 THIS_WAG_MISC              // 01 tilt + 02 2cc + 04 xMU
+
+
+
+#ifdef THIS_WAG_CARGO1_TYPE
+#undef THIS_WAG_NUM_CARGOS
+#define THIS_PCX_FILE CARGO1_PCX_FILE
+	
+	#if THIS_WAG_CARGO1_NUMSTAGES == 1
+		#include WAGON_1STAGE
+		-1 * 0  02 00 11 01 01 \w0 \w0
+	#endif
+
+	#if THIS_WAG_CARGO1_NUMSTAGES == 2
+		#include WAGON_2STAGE
+		-1 * 0  02 00 11 02 02 \w0 \w1   \w0 \w1
+	#endif
+
+	#if THIS_WAG_CARGO1_NUMSTAGES == 3
+		#include WAGON_3STAGE
+		-1 * 0  02 00 11 03 03 \w0 \w1 \w2  \w0 \w1 \w2
+	#endif
+
+	#if THIS_WAG_CARGO1_NUMSTAGES == 4
+		#include WAGON_4STAGE
+		-1 * 0  02 00 11 04 04 \w0 \w1 \w2 \w3   \w0 \w1 \w2 \w3
+	#endif
+
+	#if THIS_WAG_CARGO1_NUMSTAGES == RANDOM_4
+		#include WAGON_4STAGE
+		-1 * 0  02 00 00 01 01 \w0 \w0
+		-1 * 0  02 00 01 01 01 \w1 \w1
+		-1 * 0  02 00 02 01 01 \w2 \w2
+		-1 * 0  02 00 03 01 01 \w3 \w3
+		-1 * 0  02 00 11 80 02 00 04 // 4 random sets
+                00 00
+		01 00
+		02 00
+		03 00
+	#endif
+#undef THIS_PCX_FILE
+#define THIS_WAG_NUM_CARGOS 00
+#endif
+
+#ifdef THIS_WAG_CARGO2_TYPE
+#undef THIS_WAG_NUM_CARGOS
+#define THIS_PCX_FILE CARGO2_PCX_FILE
+	
+	#if THIS_WAG_CARGO2_NUMSTAGES == 1
+		#include WAGON_1STAGE
+		-1 * 0  02 00 12 01 01 \w0 \w0
+	#endif
+
+	#if THIS_WAG_CARGO2_NUMSTAGES == 2
+		#include WAGON_2STAGE
+		-1 * 0  02 00 12 02 02 \w0 \w1   \w0 \w1
+	#endif
+
+	#if THIS_WAG_CARGO2_NUMSTAGES == 3
+		#include WAGON_3STAGE
+		-1 * 0  02 00 12 03 03 \w0 \w1 \w2  \w0 \w1 \w2
+	#endif
+
+	#if THIS_WAG_CARGO2_NUMSTAGES == 4
+		#include WAGON_4STAGE
+		-1 * 0  02 00 12 04 04 \w0 \w1 \w2 \w3   \w0 \w1 \w2 \w3
+	#endif
+
+	#if THIS_WAG_CARGO2_NUMSTAGES == RANDOM_4
+		#include WAGON_4STAGE
+		-1 * 0  02 00 00 01 01 \w0 \w0
+		-1 * 0  02 00 01 01 01 \w1 \w1
+		-1 * 0  02 00 02 01 01 \w2 \w2
+		-1 * 0  02 00 03 01 01 \w3 \w3
+		-1 * 0  02 00 12 80 02 00 04 // 4 random sets
+                00 00
+		01 00
+		02 00
+		03 00
+	#endif
+#undef THIS_PCX_FILE
+#define THIS_WAG_NUM_CARGOS 01
+#endif
+
+#ifdef THIS_WAG_CARGO3_TYPE
+#undef THIS_WAG_NUM_CARGOS
+#define THIS_PCX_FILE CARGO3_PCX_FILE
+	
+	#if THIS_WAG_CARGO3_NUMSTAGES == 1
+		#include WAGON_1STAGE
+		-1 * 0  02 00 13 01 01 \w0 \w0
+	#endif
+
+	#if THIS_WAG_CARGO3_NUMSTAGES == 2
+		#include WAGON_2STAGE
+		-1 * 0  02 00 13 02 02 \w0 \w1   \w0 \w1
+	#endif
+
+	#if THIS_WAG_CARGO3_NUMSTAGES == 3
+		#include WAGON_3STAGE
+		-1 * 0  02 00 13 03 03 \w0 \w1 \w2  \w0 \w1 \w2
+	#endif
+
+	#if THIS_WAG_CARGO3_NUMSTAGES == 4
+		#include WAGON_4STAGE
+		-1 * 0  02 00 13 04 04 \w0 \w1 \w2 \w3   \w0 \w1 \w2 \w3
+	#endif
+
+	#if THIS_WAG_CARGO3_NUMSTAGES == RANDOM_4
+		#include WAGON_4STAGE
+		-1 * 0  02 00 00 01 01 \w0 \w0
+		-1 * 0  02 00 01 01 01 \w1 \w1
+		-1 * 0  02 00 02 01 01 \w2 \w2
+		-1 * 0  02 00 03 01 01 \w3 \w3
+		-1 * 0  02 00 13 80 02 00 04 // 4 random sets
+                00 00
+		01 00
+		02 00
+		03 00
+	#endif
+#undef THIS_PCX_FILE
+#define THIS_WAG_NUM_CARGOS 02
+#endif
+
+#ifdef THIS_WAG_CARGO4_TYPE
+#undef THIS_WAG_NUM_CARGOS
+#define THIS_PCX_FILE CARGO4_PCX_FILE
+	
+	#if THIS_WAG_CARGO4_NUMSTAGES == 1
+		#include WAGON_1STAGE
+		-1 * 0  02 00 14 01 01 \w0 \w0
+	#endif
+
+	#if THIS_WAG_CARGO4_NUMSTAGES == 2
+		#include WAGON_2STAGE
+		-1 * 0  02 00 14 02 02 \w0 \w1   \w0 \w1
+	#endif
+
+	#if THIS_WAG_CARGO4_NUMSTAGES == 3
+		#include WAGON_3STAGE
+		-1 * 0  02 00 14 03 03 \w0 \w1 \w2  \w0 \w1 \w2
+	#endif
+
+	#if THIS_WAG_CARGO4_NUMSTAGES == 4
+		#include WAGON_4STAGE
+		-1 * 0  02 00 14 04 04 \w0 \w1 \w2 \w3   \w0 \w1 \w2 \w3
+	#endif
+
+	#if THIS_WAG_CARGO4_NUMSTAGES == RANDOM_4
+		#include WAGON_4STAGE
+		-1 * 0  02 00 00 01 01 \w0 \w0
+		-1 * 0  02 00 01 01 01 \w1 \w1
+		-1 * 0  02 00 02 01 01 \w2 \w2
+		-1 * 0  02 00 03 01 01 \w3 \w3
+		-1 * 0  02 00 14 80 02 00 04 // 4 random sets
+                00 00
+		01 00
+		02 00
+		03 00
+	#endif
+#undef THIS_PCX_FILE
+#define THIS_WAG_NUM_CARGOS 03
+#endif
+
+#ifdef THIS_WAG_CARGO5_TYPE
+#undef THIS_WAG_NUM_CARGOS
+#define THIS_PCX_FILE CARGO5_PCX_FILE
+	
+	#if THIS_WAG_CARGO5_NUMSTAGES == 1
+		#include WAGON_1STAGE
+		-1 * 0  02 00 15 01 01 \w0 \w0
+	#endif
+
+	#if THIS_WAG_CARGO5_NUMSTAGES == 2
+		#include WAGON_2STAGE
+		-1 * 0  02 00 15 02 02 \w0 \w1   \w0 \w1
+	#endif
+
+	#if THIS_WAG_CARGO5_NUMSTAGES == 3
+		#include WAGON_3STAGE
+		-1 * 0  02 00 15 03 03 \w0 \w1 \w2  \w0 \w1 \w2
+	#endif
+
+	#if THIS_WAG_CARGO5_NUMSTAGES == 4
+		#include WAGON_4STAGE
+		-1 * 0  02 00 15 04 04 \w0 \w1 \w2 \w3   \w0 \w1 \w2 \w3
+	#endif
+
+	#if THIS_WAG_CARGO5_NUMSTAGES == RANDOM_4
+		#include WAGON_4STAGE
+		-1 * 0  02 00 00 01 01 \w0 \w0
+		-1 * 0  02 00 01 01 01 \w1 \w1
+		-1 * 0  02 00 02 01 01 \w2 \w2
+		-1 * 0  02 00 03 01 01 \w3 \w3
+		-1 * 0  02 00 15 80 02 00 04 // 4 random sets
+                00 00
+		01 00
+		02 00
+		03 00
+	#endif
+#undef THIS_PCX_FILE
+#define THIS_WAG_NUM_CARGOS 04
+#endif
+
+#ifdef THIS_WAG_CARGO6_TYPE
+#undef THIS_WAG_NUM_CARGOS
+#define THIS_PCX_FILE CARGO6_PCX_FILE
+	
+	#if THIS_WAG_CARGO6_NUMSTAGES == 1
+		#include WAGON_1STAGE
+		-1 * 0  02 00 16 01 01 \w0 \w0
+	#endif
+
+	#if THIS_WAG_CARGO6_NUMSTAGES == 2
+		#include WAGON_2STAGE
+		-1 * 0  02 00 16 02 02 \w0 \w1   \w0 \w1
+	#endif
+
+	#if THIS_WAG_CARGO6_NUMSTAGES == 3
+		#include WAGON_3STAGE
+		-1 * 0  02 00 16 03 03 \w0 \w1 \w2  \w0 \w1 \w2
+	#endif
+
+	#if THIS_WAG_CARGO6_NUMSTAGES == 4
+		#include WAGON_4STAGE
+		-1 * 0  02 00 16 04 04 \w0 \w1 \w2 \w3   \w0 \w1 \w2 \w3
+	#endif
+
+	#if THIS_WAG_CARGO6_NUMSTAGES == RANDOM_4
+		#include WAGON_4STAGE
+		-1 * 0  02 00 00 01 01 \w0 \w0
+		-1 * 0  02 00 01 01 01 \w1 \w1
+		-1 * 0  02 00 02 01 01 \w2 \w2
+		-1 * 0  02 00 03 01 01 \w3 \w3
+		-1 * 0  02 00 16 80 02 00 04 // 4 random sets
+                00 00
+		01 00
+		02 00
+		03 00
+	#endif
+#undef THIS_PCX_FILE
+#define THIS_WAG_NUM_CARGOS 05
+#endif
+
+#ifdef THIS_WAG_CARGO7_TYPE
+#undef THIS_WAG_NUM_CARGOS
+#define THIS_PCX_FILE CARGO7_PCX_FILE
+	
+	#if THIS_WAG_CARGO7_NUMSTAGES == 1
+		#include WAGON_1STAGE
+		-1 * 0  02 00 17 01 01 \w0 \w0
+	#endif
+
+	#if THIS_WAG_CARGO7_NUMSTAGES == 2
+		#include WAGON_2STAGE
+		-1 * 0  02 00 17 02 02 \w0 \w1   \w0 \w1
+	#endif
+
+	#if THIS_WAG_CARGO7_NUMSTAGES == 3
+		#include WAGON_3STAGE
+		-1 * 0  02 00 17 03 03 \w0 \w1 \w2  \w0 \w1 \w2
+	#endif
+
+	#if THIS_WAG_CARGO7_NUMSTAGES == 4
+		#include WAGON_4STAGE
+		-1 * 0  02 00 17 04 04 \w0 \w1 \w2 \w3   \w0 \w1 \w2 \w3
+	#endif
+
+	#if THIS_WAG_CARGO7_NUMSTAGES == RANDOM_4
+		#include WAGON_4STAGE
+		-1 * 0  02 00 00 01 01 \w0 \w0
+		-1 * 0  02 00 01 01 01 \w1 \w1
+		-1 * 0  02 00 02 01 01 \w2 \w2
+		-1 * 0  02 00 03 01 01 \w3 \w3
+		-1 * 0  02 00 17 80 02 00 04 // 4 random sets
+                00 00
+		01 00
+		02 00
+		03 00
+	#endif
+#undef THIS_PCX_FILE
+#define THIS_WAG_NUM_CARGOS 06
+#endif
+
+#ifdef THIS_WAG_CARGO8_TYPE
+#undef THIS_WAG_NUM_CARGOS
+#define THIS_PCX_FILE CARGO8_PCX_FILE
+	
+	#if THIS_WAG_CARGO8_NUMSTAGES == 1
+		#include WAGON_1STAGE
+		-1 * 0  02 00 18 01 01 \w0 \w0
+	#endif
+
+	#if THIS_WAG_CARGO8_NUMSTAGES == 2
+		#include WAGON_2STAGE
+		-1 * 0  02 00 18 02 02 \w0 \w1   \w0 \w1
+	#endif
+
+	#if THIS_WAG_CARGO8_NUMSTAGES == 3
+		#include WAGON_3STAGE
+		-1 * 0  02 00 18 03 03 \w0 \w1 \w2  \w0 \w1 \w2
+	#endif
+
+	#if THIS_WAG_CARGO8_NUMSTAGES == 4
+		#include WAGON_4STAGE
+		-1 * 0  02 00 18 04 04 \w0 \w1 \w2 \w3   \w0 \w1 \w2 \w3
+	#endif
+
+	#if THIS_WAG_CARGO8_NUMSTAGES == RANDOM_4
+		#include WAGON_4STAGE
+		-1 * 0  02 00 00 01 01 \w0 \w0
+		-1 * 0  02 00 01 01 01 \w1 \w1
+		-1 * 0  02 00 02 01 01 \w2 \w2
+		-1 * 0  02 00 03 01 01 \w3 \w3
+		-1 * 0  02 00 18 80 02 00 04 // 4 random sets
+                00 00
+		01 00
+		02 00
+		03 00
+	#endif
+#undef THIS_PCX_FILE
+#define THIS_WAG_NUM_CARGOS 07
+#endif
+
+
+// ----- Apply Purchase list text -----
+-1 * 0  01 00 01 01
+-1 THIS_WAG_PCX_PLIST  	1 	1 	01 	12	60	-25 -8
+-1 * 0  02 00 40 01 01 \w0 \w0
+-1 * 0  02 00 4F 81 0C 00 FF 01   THIS_WAG_STR_B 80 23 23   40 00
+
+// --------------------
+// ----- Generic ------
+// --------------------
+             
+
+// Change GFX depening on what cargo GFX to use
+-1 * 0  02 00 10 81 47 00 FF THIS_WAG_NUM_CARGOS
+			#ifdef THIS_WAG_CARGO2_TYPE
+			12 00 THIS_WAG_CARGO2_TYPE THIS_WAG_CARGO2_TYPE
+			#endif
+			
+			#ifdef THIS_WAG_CARGO3_TYPE
+			13 00 THIS_WAG_CARGO3_TYPE THIS_WAG_CARGO3_TYPE
+			#endif
+			
+			#ifdef THIS_WAG_CARGO4_TYPE
+			14 00 THIS_WAG_CARGO4_TYPE THIS_WAG_CARGO4_TYPE
+			#endif
+			
+			#ifdef THIS_WAG_CARGO5_TYPE
+			15 00 THIS_WAG_CARGO5_TYPE THIS_WAG_CARGO5_TYPE
+			#endif
+			
+			#ifdef THIS_WAG_CARGO6_TYPE
+			16 00 THIS_WAG_CARGO6_TYPE THIS_WAG_CARGO6_TYPE
+			#endif
+			
+			#ifdef THIS_WAG_CARGO7_TYPE
+			17 00 THIS_WAG_CARGO7_TYPE THIS_WAG_CARGO7_TYPE
+			#endif
+			
+			#ifdef THIS_WAG_CARGO8_TYPE
+			18 00 THIS_WAG_CARGO8_TYPE THIS_WAG_CARGO8_TYPE
+			#endif
+			11 00
+
+
+//Capacty for use in CB15/36 - Wagon
+//-1 * 0  02 00 E6 81 47 10 FF 02
+//                             THIS_WAG_CAP 80 01 01		// PAX capacity
+//                             THIS_WAG_CAP 80 05 05		// Tourist capacity
+//                             00 80				// Everything else
+
+//Running cost depending on speed
+-1 * 0  02 00 ED 82 B4 00 FF \b20			// 20 cases
+                          THIS_WAG_RC_00 80 \b00 \b00	        // Standing still cost 
+                          THIS_WAG_RC_50 80 \b50 \b59
+                          THIS_WAG_RC_60 80 \b60 \b69
+                          THIS_WAG_RC_70 80 \b70 \b79
+                          THIS_WAG_RC_80 80 \b80 \b89
+                          THIS_WAG_RC_90 80 \b90 \b99
+                          THIS_WAG_RC_100 80 \b100 \b109
+                          THIS_WAG_RC_110 80 \b110 \b119
+                          THIS_WAG_RC_120 80 \b120 \b129
+                          THIS_WAG_RC_130 80 \b130 \b139
+                          THIS_WAG_RC_140 80 \b140 \b149
+                          THIS_WAG_RC_150 80 \b150 \b159
+                          THIS_WAG_RC_160 80 \b160 \b169
+                          THIS_WAG_RC_170 80 \b170 \b179
+                          THIS_WAG_RC_180 80 \b180 \b189
+                          THIS_WAG_RC_190 80 \b190 \b199
+                          THIS_WAG_RC_200 80 \b200 \b209
+                          THIS_WAG_RC_210 80 \b210 \b219
+                          THIS_WAG_RC_220 80 \b220 \b229
+                          THIS_WAG_RC_230 80 \b230 \b255
+			  THIS_WAG_RCOST 80	// RUN cost
+
+
+// '10' for CB36s Wagon
+-1 * 0  02 00 EF 81 10 00 FF 01
+                             ED 00 0D 0D		// RUN cost
+                             40 00			// Dont matter
+
+// --------------------
+// ------ Wagon -------
+// --------------------
+
+// Callbacks
+-1 * 0  02 00 5F 81 0C 00 FF 01          // 2 callbacks               
+//                             E6 00 15 15 // Cargo Capacity
+                             EF 00 36 36 // Change props
+                             10 00       // Attach GFX
+
+// ----------------------
+// ----- Action 3's -----
+// ----------------------
+-1 * 0  03 00 01 THIS_WAG_ID_B 01	//
+              FF 4F 00		// P-list
+              5F 00		// Normal
+
+
+
+#undef	THIS_PCX_FILE
+#undef	THIS_WAG_PCX_PLIST
+#undef	THIS_WAG_INTROYEAR
+#undef	THIS_WAG_V_LIFE
+#undef	THIS_WAG_M_LIFE
+#undef	THIS_WAG_SPEED
+#undef	THIS_WAG_TE
+#undef	THIS_WAG_HP
+#undef	THIS_WAG_WAG_HP
+#undef	THIS_WAG_CAP
+#undef	THIS_WAG_LS
+#undef	THIS_WAG_WEIGHT
+#undef	THIS_WAG_WEIGHT_HIGH
+#undef	THIS_WAG_PCOST
+#undef	THIS_WAG_RCOST
+#undef	THIS_WAG_RCOST_WAG
+#undef	THIS_WAG_RCOST_IDLE
+#undef	THIS_WAG_RCBASE
+#undef	THIS_WAG_TRACTION_TYPE
+#undef	THIS_WAG_ID_B
+#undef	THIS_WAG_STR_B
+#undef	THIS_WAG_ID_W
+#undef	THIS_WAG_SHORTERVEHICLE
+#undef	THIS_WAG_TRACKTYPE
+#undef	THIS_WAG_REFITMASK
+
+#undef	THIS_WAG_RC_00
+#undef	THIS_WAG_RC_50
+#undef	THIS_WAG_RC_60
+#undef	THIS_WAG_RC_70
+#undef	THIS_WAG_RC_80
+#undef	THIS_WAG_RC_90
+#undef	THIS_WAG_RC_100
+#undef	THIS_WAG_RC_110
+#undef	THIS_WAG_RC_120
+#undef	THIS_WAG_RC_130
+#undef	THIS_WAG_RC_140
+#undef	THIS_WAG_RC_150
+#undef	THIS_WAG_RC_160
+#undef	THIS_WAG_RC_170
+#undef	THIS_WAG_RC_180
+#undef	THIS_WAG_RC_190
+#undef	THIS_WAG_RC_200
+#undef	THIS_WAG_RC_210
+#undef	THIS_WAG_RC_220
+#undef	THIS_WAG_RC_230
+#undef	THIS_WAG_TYPE
+
+#undef	THIS_WAG_CARGO1_TYPE
+#undef	THIS_WAG_CARGO2_TYPE
+#undef	THIS_WAG_CARGO3_TYPE
+#undef	THIS_WAG_CARGO4_TYPE
+#undef	THIS_WAG_CARGO5_TYPE
+#undef	THIS_WAG_CARGO6_TYPE
+#undef	THIS_WAG_CARGO7_TYPE
+#undef	THIS_WAG_CARGO8_TYPE
+#undef	CARGO1_PCX_FILE
+#undef	CARGO2_PCX_FILE
+#undef	CARGO3_PCX_FILE
+#undef	CARGO4_PCX_FILE
+#undef	CARGO5_PCX_FILE
+#undef	CARGO6_PCX_FILE
+#undef	CARGO7_PCX_FILE
+#undef	CARGO8_PCX_FILE

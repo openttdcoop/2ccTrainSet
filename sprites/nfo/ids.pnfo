@@ -57,10 +57,16 @@
 #define TEMPLATE_MU     	"../../../templates/mu.tnfo"
 #define TEMPLATE_METRO   	"../../../templates/metro.tnfo"
 #define TEMPLATE_PAXWAG  	"../../../templates/wagon_pax_main.tnfo"
+#define TEMPLATE_FREIGHTWAG	"../../../templates/wagon_freight.tnfo"
 #define TEMPLATE_RAILBUS	"../../../templates/railbus.tnfo"
+#define TEMPLATE_FREIGHT	"../../../templates/wagon_freight.tnfo"
 // Wagons 
 #define WAGON_PAX_NORMAL	"wagon_pax_normal.tnfo"
 #define WAGON_PAX_DOUBLEDECKER	"wagon_pax_dd.tnfo"
+#define WAGON_1STAGE		"wagon_freight_1stage.tnfo"
+#define WAGON_2STAGE		"wagon_freight_2stage.tnfo"
+#define WAGON_3STAGE		"wagon_freight_3stage.tnfo"
+#define WAGON_4STAGE		"wagon_freight_4stage.tnfo"
 
 // DMU's
 #define TEMPLATE_DMU_NORMAL	"dmu_normal.tnfo"
