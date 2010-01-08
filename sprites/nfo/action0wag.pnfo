@@ -300,7 +300,7 @@
 	#define WAG_PAX_DD_5GEN_STR WAG_STR_200_B	
 																																																											
 																																																											
-#define WAG_FLATBED_LONG_INTROYEAR \d1960-1-1	
+#define WAG_FLATBED_LONG_INTROYEAR \d1800-1-1	
 	#define WAG_FLATBED_LONG_V_LIFE \b40	
 	#define WAG_FLATBED_LONG_M_LIFE \b255	
 	#define WAG_FLATBED_LONG_RC_0 \b0	
@@ -330,7 +330,7 @@
 	#define WAG_FLATBED_LONG_PCOST \b50	
 	#define WAG_FLATBED_LONG_ID_B \b*150	
 	#define WAG_FLATBED_LONG_STR WAG_STR_90_B	
-#define WAG_BOXCAR_LONG_INTROYEAR \d1960-1-1	
+#define WAG_BOXCAR_LONG_INTROYEAR \d1800-1-1	
 	#define WAG_BOXCAR_LONG_V_LIFE \b40	
 	#define WAG_BOXCAR_LONG_M_LIFE \b255	
 	#define WAG_BOXCAR_LONG_RC_0 \b0	
@@ -360,3 +360,33 @@
 	#define WAG_BOXCAR_LONG_PCOST \b50	
 	#define WAG_BOXCAR_LONG_ID_B \b*151	
 	#define WAG_BOXCAR_LONG_STR WAG_STR_120_B	
+#define WAG_HOPPER_LONG_INTROYEAR \d1800-1-1	
+	#define WAG_HOPPER_LONG_V_LIFE \b40	
+	#define WAG_HOPPER_LONG_M_LIFE \b255	
+	#define WAG_HOPPER_LONG_RC_0 \b0	
+	#define WAG_HOPPER_LONG_RC_50 \b8	
+	#define WAG_HOPPER_LONG_RC_60 \b8	
+	#define WAG_HOPPER_LONG_RC_70 \b8	
+	#define WAG_HOPPER_LONG_RC_80 \b8	
+	#define WAG_HOPPER_LONG_RC_90 \b9	
+	#define WAG_HOPPER_LONG_RC_100 \b10	
+	#define WAG_HOPPER_LONG_RC_110 \b11	
+	#define WAG_HOPPER_LONG_RC_120 \b13	
+	#define WAG_HOPPER_LONG_RC_130 \b16	
+	#define WAG_HOPPER_LONG_RC_140 \b18	
+	#define WAG_HOPPER_LONG_RC_150 \b21	
+	#define WAG_HOPPER_LONG_RC_160 \b25	
+	#define WAG_HOPPER_LONG_RC_170 \b28	
+	#define WAG_HOPPER_LONG_RC_180 \b32	
+	#define WAG_HOPPER_LONG_RC_190 \b36	
+	#define WAG_HOPPER_LONG_RC_200 \b41	
+	#define WAG_HOPPER_LONG_RC_210 \b46	
+	#define WAG_HOPPER_LONG_RC_220 \b51	
+	#define WAG_HOPPER_LONG_RC_230 \b56	
+	#define WAG_HOPPER_LONG_WEIGHT \b35	
+	#define WAG_HOPPER_LONG_CAPACITY \b60	
+	#define WAG_HOPPER_LONG_RCOST \b8	
+	#define WAG_HOPPER_LONG_LS \b8	
+	#define WAG_HOPPER_LONG_PCOST \b50	
+	#define WAG_HOPPER_LONG_ID_B \b*152	
+	#define WAG_HOPPER_LONG_STR WAG_STR_80_B	
