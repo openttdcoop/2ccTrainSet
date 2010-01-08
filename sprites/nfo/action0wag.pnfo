@@ -27,7 +27,7 @@
 	#define WAG_PAX_IC_1GEN_LS \b8	
 	#define WAG_PAX_IC_1GEN_PCOST \b5	
 	#define WAG_PAX_IC_1GEN_ID_B \b*128	
-	#define WAG_PAX_IC_1GEN_STR WAG_STR_50_B
+	#define WAG_PAX_IC_1GEN_STR WAG_STR_50_B	
 #define WAG_PAX_IC_2GEN_INTROYEAR \d1900-1-1	
 	#define WAG_PAX_IC_2GEN_V_LIFE \b40	
 	#define WAG_PAX_IC_2GEN_M_LIFE \b40	
@@ -57,7 +57,7 @@
 	#define WAG_PAX_IC_2GEN_LS \b8	
 	#define WAG_PAX_IC_2GEN_PCOST \b10	
 	#define WAG_PAX_IC_2GEN_ID_B \b*129	
-	#define WAG_PAX_IC_2GEN_STR WAG_STR_80_B
+	#define WAG_PAX_IC_2GEN_STR WAG_STR_80_B	
 #define WAG_PAX_IC_3GEN_INTROYEAR \d1935-1-1	
 	#define WAG_PAX_IC_3GEN_V_LIFE \b40	
 	#define WAG_PAX_IC_3GEN_M_LIFE \b40	
@@ -87,7 +87,7 @@
 	#define WAG_PAX_IC_3GEN_LS \b8	
 	#define WAG_PAX_IC_3GEN_PCOST \b15	
 	#define WAG_PAX_IC_3GEN_ID_B \b*130	
-	#define WAG_PAX_IC_3GEN_STR WAG_STR_120_B
+	#define WAG_PAX_IC_3GEN_STR WAG_STR_120_B	
 #define WAG_PAX_IC_4GEN_INTROYEAR \d1960-1-1	
 	#define WAG_PAX_IC_4GEN_V_LIFE \b40	
 	#define WAG_PAX_IC_4GEN_M_LIFE \b45	
@@ -117,7 +117,7 @@
 	#define WAG_PAX_IC_4GEN_LS \b8	
 	#define WAG_PAX_IC_4GEN_PCOST \b20	
 	#define WAG_PAX_IC_4GEN_ID_B \b*131	
-	#define WAG_PAX_IC_4GEN_STR WAG_STR_160_B
+	#define WAG_PAX_IC_4GEN_STR WAG_STR_160_B	
 #define WAG_PAX_IC_5GEN_INTROYEAR \d2000-1-1	
 	#define WAG_PAX_IC_5GEN_V_LIFE \b40	
 	#define WAG_PAX_IC_5GEN_M_LIFE \b255	
@@ -147,7 +147,7 @@
 	#define WAG_PAX_IC_5GEN_LS \b8	
 	#define WAG_PAX_IC_5GEN_PCOST \b25	
 	#define WAG_PAX_IC_5GEN_ID_B \b*132	
-	#define WAG_PAX_IC_5GEN_STR WAG_STR_200_B
+	#define WAG_PAX_IC_5GEN_STR WAG_STR_200_B	
 #define WAG_PAX_REG_3GEN_INTROYEAR \d1935-1-1	
 	#define WAG_PAX_REG_3GEN_V_LIFE \b40	
 	#define WAG_PAX_REG_3GEN_M_LIFE \b40	
@@ -177,7 +177,7 @@
 	#define WAG_PAX_REG_3GEN_LS \b20	
 	#define WAG_PAX_REG_3GEN_PCOST \b30	
 	#define WAG_PAX_REG_3GEN_ID_B \b*133	
-	#define WAG_PAX_REG_3GEN_STR WAG_STR_80_B
+	#define WAG_PAX_REG_3GEN_STR WAG_STR_80_B	
 #define WAG_PAX_REG_4GEN_INTROYEAR \d1960-1-1	
 	#define WAG_PAX_REG_4GEN_V_LIFE \b40	
 	#define WAG_PAX_REG_4GEN_M_LIFE \b45	
@@ -207,7 +207,7 @@
 	#define WAG_PAX_REG_4GEN_LS \b20	
 	#define WAG_PAX_REG_4GEN_PCOST \b35	
 	#define WAG_PAX_REG_4GEN_ID_B \b*134	
-	#define WAG_PAX_REG_4GEN_STR WAG_STR_120_B
+	#define WAG_PAX_REG_4GEN_STR WAG_STR_120_B	
 #define WAG_PAX_REG_5GEN_INTROYEAR \d2000-1-1	
 	#define WAG_PAX_REG_5GEN_V_LIFE \b40	
 	#define WAG_PAX_REG_5GEN_M_LIFE \b255	
@@ -237,7 +237,7 @@
 	#define WAG_PAX_REG_5GEN_LS \b20	
 	#define WAG_PAX_REG_5GEN_PCOST \b40	
 	#define WAG_PAX_REG_5GEN_ID_B \b*135	
-	#define WAG_PAX_REG_5GEN_STR WAG_STR_160_B
+	#define WAG_PAX_REG_5GEN_STR WAG_STR_160_B	
 #define WAG_PAX_DD_4GEN_INTROYEAR \d1965-1-1	
 	#define WAG_PAX_DD_4GEN_V_LIFE \b40	
 	#define WAG_PAX_DD_4GEN_M_LIFE \b45	
@@ -267,7 +267,7 @@
 	#define WAG_PAX_DD_4GEN_LS \b8	
 	#define WAG_PAX_DD_4GEN_PCOST \b45	
 	#define WAG_PAX_DD_4GEN_ID_B \b*136	
-	#define WAG_PAX_DD_4GEN_STR WAG_STR_160_B
+	#define WAG_PAX_DD_4GEN_STR WAG_STR_160_B	
 #define WAG_PAX_DD_5GEN_INTROYEAR \d2005-1-1	
 	#define WAG_PAX_DD_5GEN_V_LIFE \b40	
 	#define WAG_PAX_DD_5GEN_M_LIFE \b255	
@@ -297,7 +297,9 @@
 	#define WAG_PAX_DD_5GEN_LS \b8	
 	#define WAG_PAX_DD_5GEN_PCOST \b50	
 	#define WAG_PAX_DD_5GEN_ID_B \b*137	
-	#define WAG_PAX_DD_5GEN_STR WAG_STR_200_B
+	#define WAG_PAX_DD_5GEN_STR WAG_STR_200_B	
+																																																											
+																																																											
 #define WAG_FLATBED_LONG_INTROYEAR \d1960-1-1	
 	#define WAG_FLATBED_LONG_V_LIFE \b40	
 	#define WAG_FLATBED_LONG_M_LIFE \b255	
@@ -327,7 +329,7 @@
 	#define WAG_FLATBED_LONG_LS \b20	
 	#define WAG_FLATBED_LONG_PCOST \b50	
 	#define WAG_FLATBED_LONG_ID_B \b*150	
-	#define WAG_FLATBED_LONG_STR WAG_STR_90_B
+	#define WAG_FLATBED_LONG_STR WAG_STR_90_B	
 #define WAG_BOXCAR_LONG_INTROYEAR \d1960-1-1	
 	#define WAG_BOXCAR_LONG_V_LIFE \b40	
 	#define WAG_BOXCAR_LONG_M_LIFE \b255	
@@ -357,4 +359,4 @@
 	#define WAG_BOXCAR_LONG_LS \b8	
 	#define WAG_BOXCAR_LONG_PCOST \b50	
 	#define WAG_BOXCAR_LONG_ID_B \b*151	
-	#define WAG_BOXCAR_LONG_STR WAG_STR_120_B
+	#define WAG_BOXCAR_LONG_STR WAG_STR_120_B	
