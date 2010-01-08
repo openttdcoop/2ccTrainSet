@@ -17,3 +17,4 @@
 #include "wagons/boxcar.pnfo"
 #include "wagons/hopperlong.pnfo"
 #include "wagons/silolong.pnfo"
+#include "wagons/tanklong.pnfo"
