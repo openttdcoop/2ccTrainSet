@@ -19,7 +19,24 @@
 #define WORD_SPEED	"Design Speed: "
 #define WORD_KMH	"km/h"
 #define WORD_FASTHIGHRC	"If traveling above design speed, running cost will be pentalized"
+#define WORD_SHORT	"(Short)"
+#define WORD_LONG	"(Long)"
 
+#define WORD_FIRST	"1st "
+#define WORD_SECOND	"2nd "
+#define WORD_THIRD	"3rd "
+#define WORD_FOURTH	"4th "
+#define WORD_FIFTH	"5th "
+#define WORD_GEN	"Generation "
+#define WORD_IC		"Intercity "
+#define WORD_REG	"Regional "
+#define WORD_DD		"Doubledecker "
+#define WORD_COACH	"Coach "
+#define WORD_BOXCAR	"Boxcar "
+#define WORD_FLATBED	"Flatbed "
+#define WORD_HOPPER	"Hopper "
+#define WORD_TANKER	"Tanker "
+#define WORD_SILO	"Silo "
 
 // Error messages
 #define STR_ER_ONEUNIT      "Can only be one unit long"
@@ -36,18 +53,8 @@
 // NB: Running costs are per 1 unit
 
 // Wagon Names
-#define STR_METRO "Metro Wagon"
-#define STR_MUWAG "Multiple Unit Wagon"
-#define STR_PAX_IC_1GEN  "1st gen IC coach"
-#define STR_PAX_IC_2GEN  "2nd gen IC coach"
-#define STR_PAX_IC_3GEN  "3rd gen IC coach"
-#define STR_PAX_IC_4GEN  "4th gen IC coach"
-#define STR_PAX_IC_5GEN  "5th gen IC coach"
-#define STR_PAX_REG_3GEN "3rd gen regional coach"
-#define STR_PAX_REG_4GEN "4th gen regional coach"
-#define STR_PAX_REG_5GEN "5th gen regional coach"
-#define STR_PAX_DD_4GEN  "4th gen doubledecker coach"
-#define STR_PAX_DD_5GEN	 "5th gen doubledecker coach"
+#define STR_METRO 	"Metro Wagon"
+#define STR_MUWAG 	"Multiple Unit Wagon"
 
 // Engine Names:
 //-1 * 0  04 00 LANG_ID \b1 ENG_nnn_ID_B	     SPACE "nnn"		  00
