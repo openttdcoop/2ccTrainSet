@@ -7,7 +7,6 @@
 // Cargo1 is ALWAYS the default one
 #define THIS_WAG_CARGO1_NUMSTAGES 	3
 //#define THIS_WAG_CARGO1_TYPE		
-//#define THIS_WAG_CARGO1_CLASS		<class>
 #define CARGO1_PCX_FILE		sprites/pcx/wagons/flatbed/containers.pcx
 
 // Cargo2

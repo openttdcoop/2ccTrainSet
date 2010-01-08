@@ -1,12 +1,11 @@
 
 #define THIS_WAG_PCX_PLIST	sprites/pcx/wagons/hopper-l/plist.pcx
 #define THIS_WAG_NUM_CARGOS	03
-#define THIS_WAG_NUM_CLASSES	01
+#define THIS_WAG_NUM_CLASSES	00
 
 // Look in cargotable.pnfo for the cargo<x>_type
 // Cargo1 is ALWAYS the default one
 #define THIS_WAG_CARGO1_NUMSTAGES 	4
-#define THIS_WAG_CARGO1_TYPE		COTTON
 //#define THIS_WAG_CARGO1_CLASS		<class>
 #define CARGO1_PCX_FILE		sprites/pcx/wagons/hopper-l/default.pcx
 
@@ -29,10 +28,10 @@
 #define CARGO4_PCX_FILE		sprites/pcx/wagons/hopper-l/grain.pcx
 
 // Cargo5
-#define THIS_WAG_CARGO5_NUMSTAGES 	4
+//#define THIS_WAG_CARGO5_NUMSTAGES 	4
 //#define THIS_WAG_CARGO5_TYPE		TROPICAL_WOOD
-#define THIS_WAG_CARGO5_CLASS		\wx20
-#define CARGO5_PCX_FILE		sprites/pcx/wagons/hopper-l/woodchips.pcx
+//#define THIS_WAG_CARGO5_CLASS		\wx20
+//#define CARGO5_PCX_FILE		sprites/pcx/wagons/hopper-l/woodchips.pcx
 
 // Cargo6
 //#define THIS_WAG_CARGO6_NUMSTAGES 	<1,2,3,4,RANDOM_4>
