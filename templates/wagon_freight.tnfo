@@ -1,3 +1,4 @@
+
 // Template for "usual" engines
 // 
 // First define a few seldomly changed properties and set them to their default value
@@ -51,7 +52,7 @@
 
 
 #ifndef THIS_WAG_CALLBACKS	// Callbacks
-#define THIS_WAG_CALLBACKS FF
+#define THIS_WAG_CALLBACKS 2F
 #endif
 
 #ifndef THIS_WAG_DUALHEAD	// Dualhead? 00/01 (should "always" be 00)
@@ -161,6 +162,11 @@
 #undef THIS_PCX_FILE
 #endif
 
+
+
+
+
+
 #ifdef THIS_WAG_CARGO2_NUMSTAGES
 #define THIS_PCX_FILE CARGO2_PCX_FILE
 	
@@ -198,6 +204,11 @@
 	#endif
 #undef THIS_PCX_FILE
 #endif
+
+
+
+
+
 
 #ifdef THIS_WAG_CARGO3_NUMSTAGES
 #define THIS_PCX_FILE CARGO3_PCX_FILE
@@ -237,6 +248,11 @@
 #undef THIS_PCX_FILE
 #endif
 
+
+
+
+
+
 #ifdef THIS_WAG_CARGO4_NUMSTAGES
 #define THIS_PCX_FILE CARGO4_PCX_FILE
 	
@@ -274,6 +290,11 @@
 	#endif
 #undef THIS_PCX_FILE
 #endif
+
+
+
+
+
 
 #ifdef THIS_WAG_CARGO5_NUMSTAGES
 #define THIS_PCX_FILE CARGO5_PCX_FILE
@@ -313,6 +334,11 @@
 #undef THIS_PCX_FILE
 #endif
 
+
+
+
+
+
 #ifdef THIS_WAG_CARGO6_NUMSTAGES
 #define THIS_PCX_FILE CARGO6_PCX_FILE
 	
@@ -351,6 +377,11 @@
 #undef THIS_PCX_FILE
 #endif
 
+
+
+
+
+
 #ifdef THIS_WAG_CARGO7_NUMSTAGES
 #define THIS_PCX_FILE CARGO7_PCX_FILE
 	
@@ -388,6 +419,11 @@
 	#endif
 #undef THIS_PCX_FILE
 #endif
+
+
+
+
+
 
 #ifdef THIS_WAG_CARGO8_NUMSTAGES
 #define THIS_PCX_FILE CARGO8_PCX_FILE
@@ -616,6 +652,16 @@
 #undef	THIS_WAG_CARGO6_TYPE
 #undef	THIS_WAG_CARGO7_TYPE
 #undef	THIS_WAG_CARGO8_TYPE
+
+#undef	THIS_WAG_CARGO1_CLASS
+#undef	THIS_WAG_CARGO2_CLASS
+#undef	THIS_WAG_CARGO3_CLASS
+#undef	THIS_WAG_CARGO4_CLASS
+#undef	THIS_WAG_CARGO5_CLASS
+#undef	THIS_WAG_CARGO6_CLASS
+#undef	THIS_WAG_CARGO7_CLASS
+#undef	THIS_WAG_CARGO8_CLASS
+
 #undef	CARGO1_PCX_FILE
 #undef	CARGO2_PCX_FILE
 #undef	CARGO3_PCX_FILE

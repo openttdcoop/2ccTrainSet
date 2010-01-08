@@ -390,3 +390,33 @@
 	#define WAG_HOPPER_LONG_PCOST \b50	
 	#define WAG_HOPPER_LONG_ID_B \b*152	
 	#define WAG_HOPPER_LONG_STR WAG_STR_80_B	
+#define WAG_SILO_LONG_INTROYEAR \d1800-1-1	
+	#define WAG_SILO_LONG_V_LIFE \b40	
+	#define WAG_SILO_LONG_M_LIFE \b255	
+	#define WAG_SILO_LONG_RC_0 \b0	
+	#define WAG_SILO_LONG_RC_50 \b9	
+	#define WAG_SILO_LONG_RC_60 \b9	
+	#define WAG_SILO_LONG_RC_70 \b9	
+	#define WAG_SILO_LONG_RC_80 \b9	
+	#define WAG_SILO_LONG_RC_90 \b9	
+	#define WAG_SILO_LONG_RC_100 \b9	
+	#define WAG_SILO_LONG_RC_110 \b9	
+	#define WAG_SILO_LONG_RC_120 \b9	
+	#define WAG_SILO_LONG_RC_130 \b9	
+	#define WAG_SILO_LONG_RC_140 \b10	
+	#define WAG_SILO_LONG_RC_150 \b12	
+	#define WAG_SILO_LONG_RC_160 \b14	
+	#define WAG_SILO_LONG_RC_170 \b16	
+	#define WAG_SILO_LONG_RC_180 \b19	
+	#define WAG_SILO_LONG_RC_190 \b22	
+	#define WAG_SILO_LONG_RC_200 \b25	
+	#define WAG_SILO_LONG_RC_210 \b29	
+	#define WAG_SILO_LONG_RC_220 \b33	
+	#define WAG_SILO_LONG_RC_230 \b37	
+	#define WAG_SILO_LONG_WEIGHT \b32	
+	#define WAG_SILO_LONG_CAPACITY \b48	
+	#define WAG_SILO_LONG_RCOST \b9	
+	#define WAG_SILO_LONG_LS \b20	
+	#define WAG_SILO_LONG_PCOST \b50	
+	#define WAG_SILO_LONG_ID_B \b*153	
+	#define WAG_SILO_LONG_STR WAG_STR_120_B
