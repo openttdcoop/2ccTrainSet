@@ -477,38 +477,42 @@
              
 
 // Change GFX depening on what cargo GFX to use
--1 * 0  02 00 09 81 47 00 FF THIS_WAG_NUM_CARGOS
+#if THIS_WAG_NUM_CARGOS > 0
+-1 * 0  02 00 11 81 47 00 FF THIS_WAG_NUM_CARGOS
 			#ifdef THIS_WAG_CARGO2_TYPE
 			12 00 THIS_WAG_CARGO2_TYPE THIS_WAG_CARGO2_TYPE
 			#endif
-			
+
 			#ifdef THIS_WAG_CARGO3_TYPE
 			13 00 THIS_WAG_CARGO3_TYPE THIS_WAG_CARGO3_TYPE
 			#endif
-			
+
 			#ifdef THIS_WAG_CARGO4_TYPE
 			14 00 THIS_WAG_CARGO4_TYPE THIS_WAG_CARGO4_TYPE
 			#endif
-			
+
 			#ifdef THIS_WAG_CARGO5_TYPE
 			15 00 THIS_WAG_CARGO5_TYPE THIS_WAG_CARGO5_TYPE
 			#endif
-			
+
 			#ifdef THIS_WAG_CARGO6_NUMSTAGES
 			16 00 THIS_WAG_CARGO6_TYPE THIS_WAG_CARGO6_TYPE
 			#endif
-			
+
 			#ifdef THIS_WAG_CARGO7_NUMSTAGES
 			17 00 THIS_WAG_CARGO7_TYPE THIS_WAG_CARGO7_TYPE
 			#endif
-			
+
 			#ifdef THIS_WAG_CARGO8_TYPE
 			18 00 THIS_WAG_CARGO8_TYPE THIS_WAG_CARGO8_TYPE
 			#endif
 			11 00
+#endif
 
 // Change GFX depending on what cargo CLASS gfx to use
--1 * 0	02 00 10 85 47 10 FF FF THIS_WAG_NUM_CLASSES
+
+#if THIS_WAG_NUM_CLASSES > 0
+-1 * 0	02 00 11 85 47 10 FF FF THIS_WAG_NUM_CLASSES
 			#ifdef THIS_WAG_CARGO2_CLASS
 			12 00 THIS_WAG_CARGO2_CLASS THIS_WAG_CARGO2_CLASS
 			#endif
@@ -536,8 +540,8 @@
 			#ifdef THIS_WAG_CARGO8_CLASS
 			18 00 THIS_WAG_CARGO8_CLASS THIS_WAG_CARGO8_CLASS
 			#endif
-			09 00
-
+			11 00
+#endif
 
 //Capacty for use in CB15/36 - Wagon
 //-1 * 0  02 00 E6 81 47 10 FF 02
@@ -583,7 +587,7 @@
 -1 * 0  02 00 5F 81 0C 00 FF 01          // 2 callbacks               
 //                             E6 00 15 15 // Cargo Capacity
                              EF 00 36 36 // Change props
-                             10 00       // Attach GFX
+                             11 00       // Attach GFX
 
 // ----------------------
 // ----- Action 3's -----
@@ -683,3 +687,6 @@
 #undef THIS_WAG_NUM_CLASSES
 #undef THIS_WAG_NUM_CARGOS
 #undef THIS_WAG_CARGOTYPE
+
+
+
