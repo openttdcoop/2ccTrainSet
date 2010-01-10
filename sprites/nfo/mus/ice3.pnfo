@@ -30,6 +30,6 @@
 #define		THIS_ENG_ID_W			MU_ICE3_ID_W
 #define		THIS_ENG_STR_B			STR_B_MU_ICE3
 #define		THIS_ENG_TYPE			ICE3_EMU
-#define		THIS_ENG_DUALHEAD		01
+//#define		THIS_ENG_DUALHEAD		01
 
 #include TEMPLATE_MU
