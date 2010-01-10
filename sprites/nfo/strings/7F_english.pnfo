@@ -118,6 +118,7 @@
 //-1 * 0  04 00 LANG_ID \b1 MU_nnn_ID_B	     SPACE "nnn"		  00
 -1 * 0  04 00 LANG_ID \b1 MU_594_ID_B	     SPACE "594"		  00
 -1 * 0  04 00 LANG_ID \b1 MU_680_ID_B	     SPACE "680"		  00
+-1 * 0  04 00 LANG_ID \b1 MU_811_ID_B	     SPACE "811"		  00
 -1 * 0  04 00 LANG_ID \b1 MU_2200_ID_B	     SPACE "2200"		  00
 -1 * 0  04 00 LANG_ID \b1 MU_4041_ID_B	     SPACE "4041"		  00
 -1 * 0  04 00 LANG_ID \b1 MU_BM65_ID_B	     SPACE "BM65"		  00
