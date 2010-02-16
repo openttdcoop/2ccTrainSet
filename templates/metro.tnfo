@@ -4,7 +4,7 @@
 // unless they're defined in the engine file
 
 #ifndef THIS_ENG_TRACKTYPE
-#define THIS_ENG_TRACKTYPE 01
+#define THIS_ENG_TRACKTYPE 09
 #endif
 
 #ifndef THIS_ENG_LOADINGSPEED
@@ -128,9 +128,8 @@
   21 THIS_ENG_SHORTERVEHICLE    // Shorter vehicle
   27 THIS_ENG_MISC              // 01 tilt + 02 2cc + 04 xMU
 
-
-
-
+-1 * 0  07 88 04 0A "DJT" 01 01
+-1 * 0  00 00 \b01 01 THIS_ENG_ID_B 05 08		// Track type; 
 
 
 // Dont need to change anything more then this (unless its a "special case" grapihcally)
