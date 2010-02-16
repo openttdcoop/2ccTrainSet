@@ -43,3 +43,10 @@
 #define	DEFAULT_COPPERORE	0E
 #define	DEFAULT_WATER	0F
 #define	DEFAULT_RUBBER	10
+
+
+
+
+
+// Railtable
+-1 * 0  00 08 01 \b11 00 12  "RAIL" "ELRL" "_160" "E160" "_230" "E230" "HSTR" "3RDC" "3RDR" "MONO" "MGLV"
