@@ -105,7 +105,10 @@
 // Target of the skip for chosing running costs
 -1 * 2	 10 F0
 
+
 // Cost for tracks is independent of grf parameters:
+// Skip this part if nutracks is loaded
+-1 * 0  07 88 04 0A "DJT" 01 01
 -1 * 9	 0D 8F 00 FF 00 08 5F 10 00 // Much Higher elrails (5F) (aprox 11x) and mono/mag (10) (aprox 2x)
 
 // global sprite offsets
