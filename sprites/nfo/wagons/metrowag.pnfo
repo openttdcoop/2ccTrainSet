@@ -2,6 +2,9 @@
 //MU Wagon - PAX
 -1 * 0  00 00 \b22 01 METRO 00 \w1920-01-01 04 \b255 05 01 06 07 07 08 09 \wx0 0B \w0 12 FD 14 \b1 15 00 16 \b50 17 \b192 1C 00 21 00 27 02 28 \wxb 29 \wx3f0 1A 00  1E FF 2A \d0 0E \dx4c30 0D \b1
 
+-1 * 0  07 88 04 0A "DJT" 01 01
+-1 * 0  00 00 \b01 01 METRO 05 08		// Track type; 
+
 // PAX
 //Action1: MU Wagon
 -1 * 0  01 00 01 01
