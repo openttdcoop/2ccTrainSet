@@ -72,6 +72,7 @@
 #define TEMPLATE_ENGINES_2PARTER 	"../../../templates/engine-twopart-artic.tnfo"                                                          
 #define TEMPLATE_MU     	"../../../templates/mu.tnfo"
 #define TEMPLATE_METRO   	"../../../templates/metro.tnfo"
+#define TEMPLATE_METRO_SINGLE   	"../../../templates/metro_single.tnfo"
 #define TEMPLATE_PAXWAG  	"../../../templates/wagon_pax_main.tnfo"
 #define TEMPLATE_FREIGHTWAG	"../../../templates/wagon_freight.tnfo"
 #define TEMPLATE_RAILBUS	"../../../templates/railbus.tnfo"
