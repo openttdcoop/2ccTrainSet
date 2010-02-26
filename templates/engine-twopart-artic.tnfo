@@ -174,18 +174,7 @@
                              EC 00 0D 0D		// RUN cost
                              40 00			// Dont matter
 
-// '10' for CB36s Purchase list
--1 * 0  02 00 41 81 10 00 FF 02
-                    THIS_ENG_PCOST 17 17    // Purchase cost
-                    THIS_ENG_RCOST 0D 0D		// RUN cost
-                                   40 00			// Dont matter
-
-// ----- Apply Purchase list text  and price -----
--1 * 0  02 00 4F 81 0C 00 FF 02
-                          THIS_ENG_STR_B 80 23 23
-                          41 00 36 36
-                          40 00
-
+#include TEMPLATE_COSTS_PLIST
 
 // ----------------------
 // -- Tender callbacks --
