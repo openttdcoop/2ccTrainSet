@@ -34,7 +34,7 @@ sprites/nfo/engines/bb22000.pnfo
 sprites/nfo/engines/ce4-4.pnfo
 sprites/nfo/engines/class66.pnfo
 sprites/nfo/engines/class67.pnfo
-sprites/nfo/engines/dm3.pnfo
+//sprites/nfo/engines/dm3.pnfo
 sprites/nfo/engines/dr12.pnfo
 sprites/nfo/engines/ds3.pnfo
 sprites/nfo/engines/db-e103.pnfo
@@ -46,7 +46,7 @@ sprites/nfo/engines/hudson.pnfo
 sprites/nfo/engines/iore.pnfo
 sprites/nfo/engines/j16cw.pnfo
 sprites/nfo/engines/lok2k.pnfo
-sprites/nfo/engines/ner.pnfo
+//sprites/nfo/engines/ner.pnfo
 sprites/nfo/engines/ns1600.pnfo
 sprites/nfo/engines/ns1000.pnfo
 sprites/nfo/engines/nmbs.pnfo
@@ -74,7 +74,7 @@ sprites/nfo/mus/cd.pnfo
 sprites/nfo/mus/etr500.pnfo
 sprites/nfo/mus/et420.pnfo
 sprites/nfo/mus/hunter.pnfo
-sprites/nfo/mus/hsa.pnfo
+//sprites/nfo/mus/hsa.pnfo
 sprites/nfo/mus/ic125.pnfo
 sprites/nfo/mus/ice3.pnfo
 sprites/nfo/mus/icm.pnfo
@@ -116,9 +116,9 @@ sprites/nfo/metro/mp89.pnfo
 sprites/nfo/metro/pjang.pnfo
 sprites/nfo/metro/tokyo-s01.pnfo
 
-sprites/nfo/metro/ut2.pnfo
-sprites/nfo/metro/uniongate.pnfo
-sprites/nfo/metro/budapest.pnfo
+//sprites/nfo/metro/ut2.pnfo
+//sprites/nfo/metro/uniongate.pnfo
+//sprites/nfo/metro/budapest.pnfo
 
 sprites/nfo/metro/m100.pnfo
 sprites/nfo/metro/1938.pnfo
@@ -126,7 +126,7 @@ sprites/nfo/metro/dlr.pnfo
 sprites/nfo/metro/m2-840.pnfo
 
 // Maglevs
-sprites/nfo/mus/chim.pnfo
+//sprites/nfo/mus/chim.pnfo
 
 // footer file
 sprites/nfo/regsel.pnfo

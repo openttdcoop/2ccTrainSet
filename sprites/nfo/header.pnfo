@@ -95,11 +95,11 @@
 -1 * 6	 09 00 01 \7= 09 F0  // (skip to F0)
 
 // Default costs
--1 * 7	 00 08 01 01 0F 08 0A // Engine purchase price
+-1 * 7	 00 08 01 01 0F 08 04 // Engine purchase price
 -1 * 7	 00 08 01 01 10 08 0A // Waggon purchase price
--1 * 7	 00 08 01 01 2A 08 0A // Steam running
--1 * 7	 00 08 01 01 2C 08 0C // Electro Running
--1 * 7   00 08 01 01 2B 08 10 // Diesel running cost
+-1 * 7	 00 08 01 01 2A 08 08 // Steam running
+-1 * 7	 00 08 01 01 2C 08 08 // Electro Running
+-1 * 7   00 08 01 01 2B 08 08 // Diesel running cost
 
 
 // Target of the skip for chosing running costs

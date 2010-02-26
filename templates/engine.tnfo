@@ -107,9 +107,9 @@
   1D THIS_ENG_REFITMASK		// Refit bitmask
   28 THIS_ENG_CARGOCLASSES      // New cargo classes
   29 THIS_ENG_NOTCARGOCLASSES   // New NOT Cargo classes
-  0D THIS_ENG_RCOST             // RUN Cost Factor
-  0E THIS_ENG_RCBASE            // RUN cost Base
-  17 THIS_ENG_PCOST             // Cost Factor
+  0D \b0             // RUN Cost Factor
+  0E \dx4C30            // RUN cost Base
+  17 \b0             // Cost Factor
   1C THIS_ENG_REFITCOST		// Refit cost
 
 // Misc
@@ -157,22 +157,34 @@
 -1 * 0  02 00 10 01 01 \w0 \w0 // -->
 -1 * 0  02 00 40 01 01 \w1 \w1 // P-list
 
-// ----- Apply Purchase list text -----
--1 * 0  02 00 4F 81 0C 00 FF 01   THIS_ENG_STR_B 80 23 23   40 00
 
 // --------------------
 // ----- Generic ------
 // --------------------
 
 //Low cost when standing still, for use in the '10' at the RUN cost spot HEAD
--1 * 0  02 00 EC 82 B4 00 FF 01			                // 1 case
-                          THIS_ENG_RCOST_IDLE 80 00 00	        // Standing still cost 
-                          THIS_ENG_RCOST 80	                // RUN cost
+-1 * 0  02 00 EC 82 B4 00 FF 01			            // 1 case
+                          \b20 80 00 00	        // Standing still cost 
+                          THIS_ENG_RCOST        // RUN cost
 
 // '10' for CB36s HEAD
--1 * 0  02 00 EE 81 10 00 FF 01
+-1 * 0  02 00 EE 81 10 00 FF 02
+                    THIS_ENG_PCOST 17 17    // Purchase cost
                              EC 00 0D 0D		// RUN cost
                              40 00			// Dont matter
+
+// '10' for CB36s Purchase list
+-1 * 0  02 00 41 81 10 00 FF 02
+                    THIS_ENG_PCOST 17 17    // Purchase cost
+                    THIS_ENG_RCOST 0D 0D		// RUN cost
+                                   40 00			// Dont matter
+
+// ----- Apply Purchase list text  and price -----
+-1 * 0  02 00 4F 81 0C 00 FF 02
+                          THIS_ENG_STR_B 80 23 23
+                          41 00 36 36
+                          40 00
+
 
 // --------------------
 // ------ Engine ------

@@ -119,9 +119,9 @@
   1D THIS_ENG_REFITMASK		// Refit bitmask
   28 THIS_ENG_CARGOCLASSES      // New cargo classes
   29 THIS_ENG_NOTCARGOCLASSES   // New NOT Cargo classes
-  0D THIS_ENG_RCOST             // RUN Cost Factor
-  0E THIS_ENG_RCBASE            // RUN cost Base
-  17 THIS_ENG_PCOST             // Cost Factor
+  0D \b0             // RUN Cost Factor
+  0E \dx4C30            // RUN cost Base
+  17 \b0             // Cost Factor
   1C THIS_ENG_REFITCOST		// Refit cost
 
 // Misc
