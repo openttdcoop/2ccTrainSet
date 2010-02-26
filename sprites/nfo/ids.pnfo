@@ -113,3 +113,7 @@
 #define TGV_TA_EMU	7	// For the TGV-A and TGV-T and possibly others
 #define TGV_D_EMU	8	// For the TGV Duplex
 #define ICE3_EMU	9	// For the ICE3
+
+
+// SUB-TEMPLATES
+#define TEMPLATE_COSTS_PLIST 	"../../../templates/var2common/costs_plist.tnfo"
