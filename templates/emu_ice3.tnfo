@@ -158,8 +158,6 @@
 -1 * 0  02 00 35 01 01 \w13 \w13 // MAIL panto inactive reverse
 -1 * 0  02 00 11 01 01 \w14 \w14 // <--
 
-// ----- Apply Purchase list text -----
--1 * 0  02 00 4F 81 0C 00 FF 01   THIS_ENG_STR_B 80 23 23   40 00
 
 // --------------------
 // ----- Generic ------
@@ -188,13 +186,13 @@
                           
 //Low cost when standing still, for use in the '10' at the RUN cost spot HEAD
 -1 * 0  02 00 EC 82 B4 00 FF 01                 // 1 case
-                          THIS_ENG_RCOST_IDLE 80 00 00           // Standing still cost 
-                          THIS_ENG_RCOST 80      // RUN cost
+                          \b20 80 00 00           // Standing still cost 
+                          THIS_ENG_RCOST      // RUN cost
 
 //Low cost when standing still, for use in the '10' at the RUN cost spot WAGON
 -1 * 0  02 00 ED 82 B4 00 FF 01                 // 1 case
-                          THIS_ENG_RCOST_IDLE 80 00 00           // Standing still cost 
-                          THIS_ENG_RCOST_WAG 80  // RUN cost
+                          \b20 80 00 00           // Standing still cost 
+                          THIS_ENG_RCOST_WAG  // RUN cost
 
 // '10' for CB36s HEAD
 -1 * 0  02 00 EE 81 10 00 FF 03
@@ -209,6 +207,19 @@
                              THIS_ENG_WEIGHT 80 16 16    // weight
                              ED 00 0D 0D                // RUN cost
                              40 00                      // Dont matter
+
+// '10' for CB36s Purchase list
+-1 * 0  02 00 41 81 10 00 FF 02
+                    THIS_ENG_PCOST 17 17    // Purchase cost
+                    THIS_ENG_RCOST 0D 0D		// RUN cost
+                                   40 00			// Dont matter
+
+// ----- Apply Purchase list text  and price -----
+-1 * 0  02 00 4F 81 0C 00 FF 02
+                          THIS_ENG_STR_B 80 23 23
+                          41 00 36 36
+                          40 00
+
 
 
 // --------------------
