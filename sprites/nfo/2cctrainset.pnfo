@@ -1,132 +1,133 @@
-// nfo renum header
-sprites/nfo/nfo_header.pnfo
+#include "sprites/nfo/nfo_header.pnfo"
+// nfo renum header ^
+// No line, not even a comment, may be inserted prior to that header inclusion line ^
 
 // Header file(s)
-sprites/nfo/header.pnfo
-sprites/nfo/cargotable.pnfo
+#include "sprites/nfo/header.pnfo"
+#include "sprites/nfo/cargotable.pnfo"
 
 // definitions
-sprites/nfo/ids.pnfo
-sprites/nfo/action0.pnfo
-sprites/nfo/action0wag.pnfo
+#include "sprites/nfo/ids.pnfo"
+#include "sprites/nfo/action0.pnfo"
+#include "sprites/nfo/action0wag.pnfo"
 
 // Language files
-sprites/nfo/strings/languages.pnfo
+#include "sprites/nfo/strings/languages.pnfo"
 
 // Wagons
-sprites/nfo/wagons.pnfo
+#include "sprites/nfo/wagons.pnfo"
 
 // Sounds
-sprites/nfo/sounds.pnfo
+#include "sprites/nfo/sounds.pnfo"
 
 // Engines
-sprites/nfo/engines/140c.pnfo
-sprites/nfo/engines/141ta.pnfo
-sprites/nfo/engines/422.pnfo
-sprites/nfo/engines/1044.pnfo
-sprites/nfo/engines/2100.pnfo
-sprites/nfo/engines/6300.pnfo
-sprites/nfo/engines/26000.pnfo
-sprites/nfo/engines/27000.pnfo
-sprites/nfo/engines/ae6-6.pnfo
-sprites/nfo/engines/alco.pnfo
-sprites/nfo/engines/bb22000.pnfo
-sprites/nfo/engines/ce4-4.pnfo
-sprites/nfo/engines/class66.pnfo
-sprites/nfo/engines/class67.pnfo
-//sprites/nfo/engines/dm3.pnfo
-sprites/nfo/engines/dr12.pnfo
-sprites/nfo/engines/ds3.pnfo
-sprites/nfo/engines/db-e103.pnfo
-sprites/nfo/engines/e04-01.pnfo
-sprites/nfo/engines/e55200.pnfo
-sprites/nfo/engines/gl8.pnfo
-sprites/nfo/engines/hle13.pnfo
-sprites/nfo/engines/hudson.pnfo
-sprites/nfo/engines/iore.pnfo
-sprites/nfo/engines/j16cw.pnfo
-sprites/nfo/engines/lok2k.pnfo
-//sprites/nfo/engines/ner.pnfo
-sprites/nfo/engines/ns1600.pnfo
-sprites/nfo/engines/ns1000.pnfo
-sprites/nfo/engines/nmbs.pnfo
-sprites/nfo/engines/mak.pnfo
-sprites/nfo/engines/metrovik.pnfo
-sprites/nfo/engines/sr1.pnfo
-sprites/nfo/engines/ss6.pnfo
-sprites/nfo/engines/tep150.pnfo
-sprites/nfo/engines/v200.pnfo
-sprites/nfo/engines/wcm1.pnfo
-sprites/nfo/engines/wdm2.pnfo
+#include "sprites/nfo/engines/140c.pnfo"
+#include "sprites/nfo/engines/141ta.pnfo"
+#include "sprites/nfo/engines/422.pnfo"
+#include "sprites/nfo/engines/1044.pnfo"
+#include "sprites/nfo/engines/2100.pnfo"
+#include "sprites/nfo/engines/6300.pnfo"
+#include "sprites/nfo/engines/26000.pnfo"
+#include "sprites/nfo/engines/27000.pnfo"
+#include "sprites/nfo/engines/ae6-6.pnfo"
+#include "sprites/nfo/engines/alco.pnfo"
+#include "sprites/nfo/engines/bb22000.pnfo"
+#include "sprites/nfo/engines/ce4-4.pnfo"
+#include "sprites/nfo/engines/class66.pnfo"
+#include "sprites/nfo/engines/class67.pnfo"
+//#include "sprites/nfo/engines/dm3.pnfo"
+#include "sprites/nfo/engines/dr12.pnfo"
+#include "sprites/nfo/engines/ds3.pnfo"
+#include "sprites/nfo/engines/db-e103.pnfo"
+#include "sprites/nfo/engines/e04-01.pnfo"
+#include "sprites/nfo/engines/e55200.pnfo"
+#include "sprites/nfo/engines/gl8.pnfo"
+#include "sprites/nfo/engines/hle13.pnfo"
+#include "sprites/nfo/engines/hudson.pnfo"
+#include "sprites/nfo/engines/iore.pnfo"
+#include "sprites/nfo/engines/j16cw.pnfo"
+#include "sprites/nfo/engines/lok2k.pnfo"
+//#include "sprites/nfo/engines/ner.pnfo"
+#include "sprites/nfo/engines/ns1600.pnfo"
+#include "sprites/nfo/engines/ns1000.pnfo"
+#include "sprites/nfo/engines/nmbs.pnfo"
+#include "sprites/nfo/engines/mak.pnfo"
+#include "sprites/nfo/engines/metrovik.pnfo"
+#include "sprites/nfo/engines/sr1.pnfo"
+#include "sprites/nfo/engines/ss6.pnfo"
+#include "sprites/nfo/engines/tep150.pnfo"
+#include "sprites/nfo/engines/v200.pnfo"
+#include "sprites/nfo/engines/wcm1.pnfo"
+#include "sprites/nfo/engines/wdm2.pnfo"
 
 
 // MUs
-sprites/nfo/mus/594.pnfo
-sprites/nfo/mus/680.pnfo
-sprites/nfo/mus/811.pnfo
-sprites/nfo/mus/2200.pnfo
-sprites/nfo/mus/4041.pnfo
-sprites/nfo/mus/bm65.pnfo
-sprites/nfo/mus/bm73.pnfo
-sprites/nfo/mus/bm93.pnfo
-sprites/nfo/mus/br168.pnfo
-sprites/nfo/mus/cd.pnfo
-sprites/nfo/mus/etr500.pnfo
-sprites/nfo/mus/et420.pnfo
-sprites/nfo/mus/hunter.pnfo
-//sprites/nfo/mus/hsa.pnfo
-sprites/nfo/mus/ic125.pnfo
-sprites/nfo/mus/ice3.pnfo
-sprites/nfo/mus/icm.pnfo
-sprites/nfo/mus/lint41.pnfo
-sprites/nfo/mus/lrc.pnfo
-sprites/nfo/mus/mat24.pnfo
-sprites/nfo/mus/mat36.pnfo
-sprites/nfo/mus/mddm.pnfo
-sprites/nfo/mus/oscar.pnfo
-sprites/nfo/mus/plany.pnfo
-sprites/nfo/mus/rbde560.pnfo
-sprites/nfo/mus/radbe510.pnfo
-sprites/nfo/mus/raetee2.pnfo
-sprites/nfo/mus/sm2.pnfo
-sprites/nfo/mus/sm4.pnfo
-sprites/nfo/mus/tgv-d.pnfo
-sprites/nfo/mus/tgv-t.pnfo
-sprites/nfo/mus/vt612.pnfo
-sprites/nfo/mus/x2000.pnfo
-sprites/nfo/mus/y2.pnfo
+#include "sprites/nfo/mus/594.pnfo"
+#include "sprites/nfo/mus/680.pnfo"
+#include "sprites/nfo/mus/811.pnfo"
+#include "sprites/nfo/mus/2200.pnfo"
+#include "sprites/nfo/mus/4041.pnfo"
+#include "sprites/nfo/mus/bm65.pnfo"
+#include "sprites/nfo/mus/bm73.pnfo"
+#include "sprites/nfo/mus/bm93.pnfo"
+#include "sprites/nfo/mus/br168.pnfo"
+#include "sprites/nfo/mus/cd.pnfo"
+#include "sprites/nfo/mus/etr500.pnfo"
+#include "sprites/nfo/mus/et420.pnfo"
+#include "sprites/nfo/mus/hunter.pnfo"
+//#include "sprites/nfo/mus/hsa.pnfo"
+#include "sprites/nfo/mus/ic125.pnfo"
+#include "sprites/nfo/mus/ice3.pnfo"
+#include "sprites/nfo/mus/icm.pnfo"
+#include "sprites/nfo/mus/lint41.pnfo"
+#include "sprites/nfo/mus/lrc.pnfo"
+#include "sprites/nfo/mus/mat24.pnfo"
+#include "sprites/nfo/mus/mat36.pnfo"
+#include "sprites/nfo/mus/mddm.pnfo"
+#include "sprites/nfo/mus/oscar.pnfo"
+#include "sprites/nfo/mus/plany.pnfo"
+#include "sprites/nfo/mus/rbde560.pnfo"
+#include "sprites/nfo/mus/radbe510.pnfo"
+#include "sprites/nfo/mus/raetee2.pnfo"
+#include "sprites/nfo/mus/sm2.pnfo"
+#include "sprites/nfo/mus/sm4.pnfo"
+#include "sprites/nfo/mus/tgv-d.pnfo"
+#include "sprites/nfo/mus/tgv-t.pnfo"
+#include "sprites/nfo/mus/vt612.pnfo"
+#include "sprites/nfo/mus/x2000.pnfo"
+#include "sprites/nfo/mus/y2.pnfo"
 
 //Railbus
-sprites/nfo/railbus/479.pnfo
-sprites/nfo/railbus/809.pnfo
-sprites/nfo/railbus/153111.pnfo
-sprites/nfo/railbus/ar2.pnfo
-sprites/nfo/railbus/dm7.pnfo
-sprites/nfo/railbus/vt133.pnfo
+#include "sprites/nfo/railbus/479.pnfo"
+#include "sprites/nfo/railbus/809.pnfo"
+#include "sprites/nfo/railbus/153111.pnfo"
+#include "sprites/nfo/railbus/ar2.pnfo"
+#include "sprites/nfo/railbus/dm7.pnfo"
+#include "sprites/nfo/railbus/vt133.pnfo"
 
 // Metros:
-sprites/nfo/metro/81-729.pnfo
-sprites/nfo/metro/01800.pnfo
-sprites/nfo/metro/caf90.pnfo
-sprites/nfo/metro/cairo1987.pnfo
-sprites/nfo/metro/ev3-200.pnfo
-sprites/nfo/metro/london1903.pnfo
-sprites/nfo/metro/m1.pnfo
-sprites/nfo/metro/mp89.pnfo
-sprites/nfo/metro/pjang.pnfo
-sprites/nfo/metro/tokyo-s01.pnfo
+#include "sprites/nfo/metro/81-729.pnfo"
+#include "sprites/nfo/metro/01800.pnfo"
+#include "sprites/nfo/metro/caf90.pnfo"
+#include "sprites/nfo/metro/cairo1987.pnfo"
+#include "sprites/nfo/metro/ev3-200.pnfo"
+#include "sprites/nfo/metro/london1903.pnfo"
+#include "sprites/nfo/metro/m1.pnfo"
+#include "sprites/nfo/metro/mp89.pnfo"
+#include "sprites/nfo/metro/pjang.pnfo"
+#include "sprites/nfo/metro/tokyo-s01.pnfo"
 
-//sprites/nfo/metro/ut2.pnfo
-//sprites/nfo/metro/uniongate.pnfo
-//sprites/nfo/metro/budapest.pnfo
+//#include "sprites/nfo/metro/ut2.pnfo"
+//#include "sprites/nfo/metro/uniongate.pnfo"
+//#include "sprites/nfo/metro/budapest.pnfo"
 
-sprites/nfo/metro/m100.pnfo
-sprites/nfo/metro/1938.pnfo
-sprites/nfo/metro/dlr.pnfo
-sprites/nfo/metro/m2-840.pnfo
+#include "sprites/nfo/metro/m100.pnfo"
+#include "sprites/nfo/metro/1938.pnfo"
+#include "sprites/nfo/metro/dlr.pnfo"
+#include "sprites/nfo/metro/m2-840.pnfo"
 
 // Maglevs
-//sprites/nfo/mus/chim.pnfo
+//#include "sprites/nfo/mus/chim.pnfo"
 
 // footer file
-sprites/nfo/regsel.pnfo
+#include "sprites/nfo/regsel.pnfo"
