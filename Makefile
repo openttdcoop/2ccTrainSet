@@ -44,10 +44,10 @@ include ${MAKEFILECONFIG}
 
 REPO_DIRS    := $(dir $(BUNDLE_FILES))
 # read the main source file and get a list of all (p)nfo files which comprise the newgrf. We depend on them.
-PNFO_FILES := $(shell cat $(PNFO_FILENAME) | grep -o '[A-Za-z0-9_/-]\+.pnfo')
-# PNFO_FILES := $(shell for i in $(PNFO_FILES1); do cat $$i | grep -o '[A-Za-z0-9_/-]\+.pnfo'; done | sort | uniq) 
+# PNFO_FILES := $(shell cat $(PNFO_FILENAME) | grep -o '[A-Za-z0-9_/-]\+.pnfo')
+PNFO_FILES := $(shell for i in $(PNFO_FILES1); do cat $$i | grep -o '[A-Za-z0-9_/-]\+\.pnfo'; done | sort | uniq) 
 # PCX_FILES  = $(shell cat $(PNFO_FILENAME) | sed "s/^[ \t]*//" | grep '$(PCX_SUFFIX)')
-PCX_FILES  := $(shell for i in $(PNFO_FILES); do cat $$i | grep -o '[A-Za-z0-9_/-]\+.pcx'; done | sort | uniq)
+PCX_FILES  := $(shell for i in $(PNFO_FILES); do cat $$i | grep -o '[A-Za-z0-9_/-]\+\.pcx'; done | sort | uniq)
 
 # Targets:
 # all, test, bundle, install, dev, remake
