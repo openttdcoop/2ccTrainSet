@@ -185,7 +185,7 @@
 // ----- Action 3's -----
 // ----------------------
 -1 * 0  03 00 01 THIS_ENG_ID_B 01
-              FF 40 00		// P-list
+              FF 4F 00		// P-list
               AF 00		// Normal
 
 #undef THIS_PCX_FILE
