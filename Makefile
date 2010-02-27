@@ -44,9 +44,10 @@ include ${MAKEFILECONFIG}
 
 REPO_DIRS    := $(dir $(BUNDLE_FILES))
 # read the main source file and get a list of all (p)nfo files which comprise the newgrf. We depend on them.
-PNFO_FILES := $(shell cat $(PNFO_FILENAME) | sed "s/^[ \t]*//" | grep '$(PNFO_SUFFIX)')
+PNFO_FILES := $(shell cat $(PNFO_FILENAME) | grep -o '[A-Za-z0-9_/-]\+.pnfo')
+# PNFO_FILES := $(shell for i in $(PNFO_FILES1); do cat $$i | grep -o '[A-Za-z0-9_/-]\+.pnfo'; done | sort | uniq) 
 # PCX_FILES  = $(shell cat $(PNFO_FILENAME) | sed "s/^[ \t]*//" | grep '$(PCX_SUFFIX)')
-PCX_FILES  := $(shell cat $(PNFO_FILES) | grep '$(PCX_SUFFIX)' | awk '{ print $$2 }' | grep '$(PCX_SUFFIX)' | sort | uniq)
+PCX_FILES  := $(shell for i in $(PNFO_FILES); do cat $$i | grep -o '[A-Za-z0-9_/-]\+.pcx'; done | sort | uniq)
 
 # Targets:
 # all, test, bundle, install, dev, remake
@@ -96,11 +97,8 @@ grf : $(GRF_FILENAME)
 .PRECIOUS: %.$(NFO_SUFFIX)
 %.$(NFO_SUFFIX): $(PCX_FILES) $(PNFO_FILES) $(REV_FILENAME)
 # replace the place holders for version and name by the respective variables:
-	$(_E) "[Generating] $(@:.$(NFO_SUFFIX)=.$(CPNFO_SUFFIX))"
-	$(_V) if [ -f $(@:.$(NFO_SUFFIX)=.$(CPNFO_SUFFIX)) ]; then rm $(@:.$(NFO_SUFFIX)=.$(CPNFO_SUFFIX)) ; fi
-	$(_V) for i in $(PNFO_FILES); do echo "#include \"$$i\"" >> $(@:.$(NFO_SUFFIX)=.$(CPNFO_SUFFIX)); done
 	$(_E) "[Generating] $@"
-	$(_V) $(CC) $(CC_FLAGS) $(@:.$(NFO_SUFFIX)=.$(CPNFO_SUFFIX)) | sed -e "s/$(GRF_ID_DUMMY)/$(GRF_ID)/" -e "s/$(GRF_TITLE_DUMMY)/$(GRF_TITLE)/" | grep -v '#' > $@ 
+	$(_V) $(CC) $(CC_FLAGS) $(basename $(NFODIR)/$(notdir $@)).pnfo | sed -e "s/$(GRF_ID_DUMMY)/$(GRF_ID)/" -e "s/$(GRF_TITLE_DUMMY)/$(GRF_TITLE)/" | grep -v '#' > $@ 
 	$(_E) 
 	$(_E) "[NFORENUM] $@"
 	$(_V)-$(NFORENUM) ${NFORENUM_FLAGS} $@ 
