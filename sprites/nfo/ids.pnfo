@@ -116,4 +116,4 @@
 
 
 // SUB-TEMPLATES
-#define TEMPLATE_COSTS_PLIST 	"../../../templates/var2common/costs_plist.tnfo"
+#define TEMPLATE_COSTS_PLIST 	"var2common/costs_plist.tnfo"
