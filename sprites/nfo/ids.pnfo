@@ -69,7 +69,8 @@
 // Templates:
 // Main ones
 #define TEMPLATE_ENGINES 	"../../../templates/engine.tnfo"
-#define TEMPLATE_ENGINES_2PARTER 	"../../../templates/engine-twopart-artic.tnfo"                                                          
+#define TEMPLATE_ENGINES_2PARTER 	"../../../templates/engine-twopart-artic.tnfo"
+#define TEMPLATE_ENGINES_3PARTER 	"../../../templates/engine-threepart-artic.tnfo"                                                          
 #define TEMPLATE_MU     	"../../../templates/mu.tnfo"
 #define TEMPLATE_METRO   	"../../../templates/metro.tnfo"
 #define TEMPLATE_METRO_SINGLE   	"../../../templates/metro_single.tnfo"
