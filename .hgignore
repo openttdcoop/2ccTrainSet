@@ -9,10 +9,10 @@ Makefile.local
 2cctrainset.grf
 
 # Ignore intermediate files created by the Makefile:
-*.cpnfo
 *.nfo
 # Dependency files:
-*.d
+Makefile.dep
+REV
 
 # Ignore directories from bundle creation / install:
 # Has to be adjusted to the newgrf-name
