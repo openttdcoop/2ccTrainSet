@@ -212,7 +212,7 @@
                              ER_NORAILCARS 80 \w4000 \w4500 // No railcars
                              FF 80                          // Allow everything else
 -1 * 0  02 00 16 81 10 00 FF 01                             // Articulation '10
-                         TENDER 80 01 01                    // Use tender vehicle ID at 2nd part
+                         TENDER 80 01 02                    // Use tender vehicle ID at 2nd part
                              FF FF
  
 -1 * 0  02 00 AF 81 0C 00 FF 03                             // 3 callbacks
