@@ -35,7 +35,7 @@
 #include "sprites/nfo/engines/ce4-4.pnfo"
 #include "sprites/nfo/engines/class66.pnfo"
 #include "sprites/nfo/engines/class67.pnfo"
-//#include "sprites/nfo/engines/dm3.pnfo"
+#include "sprites/nfo/engines/dm3.pnfo"
 #include "sprites/nfo/engines/dr12.pnfo"
 #include "sprites/nfo/engines/ds3.pnfo"
 #include "sprites/nfo/engines/db-e103.pnfo"
