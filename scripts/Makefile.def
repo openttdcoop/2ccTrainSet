@@ -102,5 +102,5 @@ FILE_SRC_RE        := $(shell echo $(FILE_SRC_EXTENSIONS) | tr -s "[:space:]" "|
 FILE_INC_RE        := $(shell echo $(FILE_INC_EXTENSIONS) | tr -s "[:space:]" "|")
 
 # Remove the @ when you want a more verbose output.
-_V := @
-_E := @echo
+_V ?= @
+_E ?= @echo
