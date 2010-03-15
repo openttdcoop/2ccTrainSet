@@ -53,6 +53,8 @@
 #include "sprites/nfo/engines/nmbs.pnfo"
 #include "sprites/nfo/engines/mak.pnfo"
 #include "sprites/nfo/engines/metrovik.pnfo"
+#include "sprites/nfo/engines/spd-40f.pnfo"
+#include "sprites/nfo/engines/sharknose.pnfo"
 #include "sprites/nfo/engines/sr1.pnfo"
 #include "sprites/nfo/engines/ss6.pnfo"
 #include "sprites/nfo/engines/tep150.pnfo"
