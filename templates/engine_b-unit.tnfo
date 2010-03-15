@@ -1,0 +1,250 @@
+// Template for "usual" engines
+// 
+// First define a few seldomly changed properties and set them to their default value
+// unless they're defined in the engine file
+
+#ifndef THIS_ENG_TRACKTYPE
+#define THIS_ENG_TRACKTYPE 00
+#endif
+
+#ifndef THIS_ENG_LOADINGSPEED
+#define THIS_ENG_LOADINGSPEED \b10
+#endif
+
+#ifndef THIS_ENG_AI_PAXOPTIMIZED
+#define THIS_ENG_AI_PAXOPTIMIZED 01
+#endif
+
+#ifndef THIS_ENG_CARGOTYPE
+#define THIS_ENG_CARGOTYPE 00
+#endif
+
+#ifndef THIS_ENG_REFITMASK
+#define THIS_ENG_REFITMASK \dx0
+#endif
+
+#ifndef THIS_ENG_CARGOCLASSES
+#define THIS_ENG_CARGOCLASSES \wx0b
+#endif
+
+#ifndef THIS_ENG_NOTCARGOCLASSES
+#define THIS_ENG_NOTCARGOCLASSES \wx3f0
+#endif
+
+#ifndef THIS_ENG_REFITCOST
+#define THIS_ENG_REFITCOST 00
+#endif
+
+#ifndef THIS_ENG_MISC		// 01 tilt + 02 2cc + 04 xMU
+#define THIS_ENG_MISC 02
+#endif
+
+#ifndef THIS_ENG_SHORTERVEHICLE	// Shorter vehicle
+#define THIS_ENG_SHORTERVEHICLE 00
+#endif
+
+#ifndef THIS_ENG_CALLBACKS	// Callbacks
+#define THIS_ENG_CALLBACKS FF
+#endif
+
+#ifndef THIS_ENG_DUALHEAD	// Dualhead? 00/01 (should "always" be 00)
+#define THIS_ENG_DUALHEAD 00
+#endif
+
+// Make a few sanity checks that all necessary properties are now defined. 
+// There's not much point to continue and no hope to get something working,
+// if we've got a failure here.
+
+#ifndef THIS_PCX_FILE
+#error "THIS_PCX_FILE is not defined!"
+#endif
+
+#if !defined THIS_ENG_ID_B
+#error "The engine ID is not defined!"
+#endif
+
+#if !defined (THIS_ENG_V_LIFE) || !defined (THIS_ENG_M_LIFE) || !defined (THIS_ENG_INTROYEAR) || !defined (THIS_ENG_SPEED)
+#error "One or more game properties not defined"
+#endif
+
+#if !defined (THIS_ENG_SPEED) || !defined (THIS_ENG_HP) || !defined (THIS_ENG_WAG_HP) || !defined (THIS_ENG_TE) || !defined (THIS_ENG_WEIGHT) || !defined(THIS_ENG_WEIGHT_HIGH)
+#error "One or more physical properties not defined"
+#endif
+
+#if !defined (THIS_ENG_CAP_HEAD_PAX) || !defined (THIS_ENG_RCOST) || !defined (THIS_ENG_RCOST_IDLE) || !defined (THIS_ENG_RCBASE) || !defined (THIS_ENG_PCOST)
+#error "One or more economical properties not defined"
+#endif
+
+#if !defined (THIS_ENG_TRACTION_TYPE) || !defined (THIS_ENG_STR_B)
+#error "One or more misc properties not defined"
+#endif
+
+// Action 0
+-1 * 0  00 00 \b31 01 THIS_ENG_ID_B
+// Game related props 
+  02 \b01			// Reliability Decay
+  03 THIS_ENG_V_LIFE		// Vehicle Life/Years
+  04 THIS_ENG_M_LIFE		// Model Life/Years
+  05 THIS_ENG_TRACKTYPE		// Track type; 00 Rail, 01 Mono, 02 Mlev
+  06 07				// Climate availability
+  07 THIS_ENG_LOADINGSPEED	// Loading Speed - Not needed in most cases
+  08 THIS_ENG_AI_PAXOPTIMIZED	// AI Pax optimized
+   
+// Physical properties
+  00 \w1920-01-01               // Intro year \wyyyy-mm-dd
+  2A THIS_ENG_INTROYEAR		// Introyear in days after year 0, with leapyears, except every 400 yrs (year*365,24)
+  09 THIS_ENG_SPEED		// Speed (word)
+  0B THIS_ENG_HP		// Power in HP (word)
+  1B THIS_ENG_WAG_HP            // Power in HP on attached wagons
+  1F THIS_ENG_TE		// Tractive effort
+  16 THIS_ENG_WEIGHT            // Weight/Tons
+  24 THIS_ENG_WEIGHT_HIGH       // Highbyte on engines weighing >255 tons
+  20 20                         // Air Drag
+
+// Economical properties
+  14 THIS_ENG_CAP_HEAD_PAX      // Cargo Capacity
+  15 THIS_ENG_CARGOTYPE		// Cargo Type
+  1D THIS_ENG_REFITMASK		// Refit bitmask
+  28 THIS_ENG_CARGOCLASSES      // New cargo classes
+  29 THIS_ENG_NOTCARGOCLASSES   // New NOT Cargo classes
+  0D \b0             // RUN Cost Factor
+  0E \dx4C30            // RUN cost Base
+  17 \b0             // Cost Factor
+  1C THIS_ENG_REFITCOST		// Refit cost
+
+// Misc
+  12 FD	// Use new grapics
+  19 THIS_ENG_TRACTION_TYPE     // Traction type (maglev, rail, monorail)
+  13 THIS_ENG_DUALHEAD          // Dualhead? 00/01 (should "always" be 00)
+  1E THIS_ENG_CALLBACKS         // Callbacks
+  21 THIS_ENG_SHORTERVEHICLE    // Shorter vehicle
+  27 THIS_ENG_MISC              // 01 tilt + 02 2cc + 04 xMU
+
+
+// Dont need to change anything more then this (unless its a "special case" grapihcally)
+
+// Action 1 with 4 views and 8 sprites each view
+-1 * 0  01 00 04 08
+// Front/White lights   xpos    ypos    comp    ysize   xsize   xrel    yrel
+1 THIS_PCX_FILE    	01	01	1	24	08	-3	-12
+2 THIS_PCX_FILE    	10	01	1	20	22	-14	-12
+3 THIS_PCX_FILE    	33	01	1	16	32	-16	-12
+4 THIS_PCX_FILE    	66	01	1	20	22	-6	-12
+5 THIS_PCX_FILE    	89	01	1	24	08	-3	-12
+6 THIS_PCX_FILE    	98	01	1	20	22	-14	-12
+7 THIS_PCX_FILE    	121	01	1	16	32	-16	-12
+8 THIS_PCX_FILE    	154	01	1	20	22	-6	-12
+// Middle units
+1 THIS_PCX_FILE    	01	32	1	24	08	-3	-12
+2 THIS_PCX_FILE    	10	32	1	18	22	-14	-10
+3 THIS_PCX_FILE    	33	32	1	14	32	-16	-10
+4 THIS_PCX_FILE    	66	32	1	18	22	-6	-10
+5 THIS_PCX_FILE    	89	32	1	24	08	-3	-12
+6 THIS_PCX_FILE    	98	32	1	18	22	-14	-10
+7 THIS_PCX_FILE    	121	32	1	14	32	-16	-10
+8 THIS_PCX_FILE    	154	32	1	18	22	-6	-10
+// End/Red lights
+1 THIS_PCX_FILE    	01	64	1	24	08	-3	-12
+2 THIS_PCX_FILE    	10	64	1	20	22	-14	-12
+3 THIS_PCX_FILE    	33	64	1	16	32	-16	-12
+4 THIS_PCX_FILE    	66	64	1	20	22	-6	-12
+5 THIS_PCX_FILE    	89	64	1	24	08	-3	-12
+6 THIS_PCX_FILE    	98	64	1	20	22	-14	-12
+7 THIS_PCX_FILE    	121	64	1	16	32	-16	-12
+8 THIS_PCX_FILE    	154	64	1	20	22	-6	-12
+// Purchase list
+1 * 0  0
+2 * 0  0
+3 THIS_PCX_FILE    	01	01  1 01  01  -00 -00
+4 * 0  0
+5 * 0  0
+6 * 0  0
+7 THIS_PCX_FILE    	01	64	1	12	87	-25	-08
+8 * 0  0
+
+-1 * 0  02 00 10 01 01 \w0 \w0 // First
+-1 * 0  02 00 11 01 01 \w1 \w1 // Middle
+-1 * 0  02 00 12 01 01 \w2 \w2 // Last
+-1 * 0  02 00 40 01 01 \w3 \w3 // P-list
+
+
+// --------------------
+// ----- Generic ------
+// --------------------
+
+//Low cost when standing still, for use in the '10' at the RUN cost spot HEAD
+-1 * 0  02 00 EC 82 B4 00 FF 01			            // 1 case
+                          \b20 80 00 00	        // Standing still cost 
+                          THIS_ENG_RCOST        // RUN cost
+
+// '10' for CB36s HEAD
+-1 * 0  02 00 EE 81 10 00 FF 02
+                    THIS_ENG_PCOST 17 17    // Purchase cost
+                             EC 00 0D 0D		// RUN cost
+                             40 00			// Dont matter
+
+#include TEMPLATE_COSTS_PLIST
+
+// --------------------
+// ------ Engine ------
+// --------------------
+
+// Engine GFX
+-1 * 0  02 00 13 81 40 08 FF 01
+                             12 00 00 00
+                             11 00
+-1 * 0  02 00 10 81 40 00 FF 01
+                             10 00 00 00
+                             13 00
+
+// Cannot attach 
+-1 * 0  02 00 A6 85 C6 00 FF FF 03                          // 2 cases
+                             ER_MUONLYONMU 80 MU 00 MU 00   // allow attaching MU-wagon
+                             ER_MUONLYONMU 80 \w3000 \w3999 // Not allowing MUs
+                             ER_NORAILCARS 80 \w4000 \w4500 // No railcars
+                             FF 80                          // Allow everything else
+-1 * 0  02 00 AF 81 0C 00 FF 02                             // 4 callbacks
+                             A6 00 1D 1D                    // Cannot attach 
+                             EE 00 36 36                    // New stuff
+                             10 00                          // Attach engine gfx
+
+// ----------------------
+// ----- Action 3's -----
+// ----------------------
+-1 * 0  03 00 01 THIS_ENG_ID_B 01
+              FF 4F 00		// P-list
+              AF 00		// Normal
+
+#undef THIS_PCX_FILE
+#undef THIS_ENG_ID_B
+
+#undef THIS_ENG_V_LIFE
+#undef THIS_ENG_RCOST_IDLE
+#undef THIS_ENG_TRACKTYPE
+#undef THIS_ENG_LOADINGSPEED
+#undef THIS_ENG_M_LIFE
+#undef THIS_ENG_INTROYEAR        // Intro year \wyyyy-mm-dd
+#undef THIS_ENG_SPEED	         // Speed (word)
+#undef THIS_ENG_HP	         // Power in HP (word)
+#undef THIS_ENG_WAG_HP           // Power in HP on attached wagons
+#undef THIS_ENG_TE	         // Tractive effort
+#undef THIS_ENG_WEIGHT           // Weight/Tons
+#undef THIS_ENG_WEIGHT_HIGH      // Highbyte on engines weighing >255 tons
+#undef THIS_ENG_CAP_HEAD_PAX  	 // Cargo Capacity
+#undef THIS_ENG_RCOST            // RUN Cost Factor
+#undef THIS_ENG_RCBASE           // RUN cost Base
+#undef THIS_ENG_PCOST            // Cost Factor
+#undef THIS_ENG_STR_B		
+// Those which are defined here or outside
+#undef THIS_ENG_TRACTION_TYPE	
+#undef THIS_ENG_AI_PAXOPTIMIZED
+#undef THIS_ENG_CARGOTYPE
+#undef THIS_ENG_REFITMASK
+#undef THIS_ENG_CARGOCLASSES
+#undef THIS_ENG_NOTCARGOCLASSES
+#undef THIS_ENG_REFITCOST
+#undef THIS_ENG_MISC	         // 01 tilt + 02 2cc + 04 xMU
+#undef THIS_ENG_SHORTERVEHICLE   // Shorter vehicle
+#undef THIS_ENG_CALLBACKS        // Callbacks
+#undef THIS_ENG_DUALHEAD         // Dualhead? 00/01 (should "always" be 00)
+
