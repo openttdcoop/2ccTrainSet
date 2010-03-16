@@ -29,6 +29,5 @@
 #define		THIS_ENG_ID_B			MET_01800_ID_B
 #define		THIS_ENG_ID_W			MET_01800_ID_W
 #define		THIS_ENG_STR_B			STR_B_MET_01800
-// #define 	THIS_ENG_TRACKTYPE		01
 
 #include TEMPLATE_METRO
