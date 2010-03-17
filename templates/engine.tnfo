@@ -120,7 +120,6 @@
   21 THIS_ENG_SHORTERVEHICLE    // Shorter vehicle
   27 THIS_ENG_MISC              // 01 tilt + 02 2cc + 04 xMU
 
-
 // Dont need to change anything more then this (unless its a "special case" grapihcally)
 
 // Action 1 with 5 views and 8 sprites each view

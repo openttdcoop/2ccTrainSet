@@ -131,5 +131,8 @@
 // Maglevs
 //#include "sprites/nfo/mus/chim.pnfo"
 
+// Railtype support for MUS/Engines
+#include "sprites/nfo/nutracksupport.pnfo"
+
 // footer file
 #include "sprites/nfo/regsel.pnfo"

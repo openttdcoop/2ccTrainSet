@@ -119,3 +119,4 @@
 
 // SUB-TEMPLATES
 #define TEMPLATE_COSTS_PLIST 	"var2common/costs_plist.tnfo"
+#define TEMPLATE_TRACKTYPE 	"../../templates/var2common/tracktype.tnfo"
