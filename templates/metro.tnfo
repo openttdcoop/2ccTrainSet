@@ -227,12 +227,8 @@
                              ED 00 0D 0D		// RUN cost
                              40 00			// Dont matter
 
-// ----- Apply Purchase list text  and price -----
--1 * 0  02 00 4F 81 0C 00 FF 02
-                          THIS_ENG_STR_B 80 23 23
-                          EE 00 36 36
-                          40 00
 
+#include TEMPLATE_COSTS_PLIST
 
 // --------------------
 // ------ Engine ------
