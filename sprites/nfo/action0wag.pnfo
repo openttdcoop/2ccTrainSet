@@ -2,451 +2,933 @@
 	#define WAG_PAX_IC_1GEN_V_LIFE \b50	
 	#define WAG_PAX_IC_1GEN_M_LIFE \b105	
 	#define WAG_PAX_IC_1GEN_RC_0 \b0	
-	#define WAG_PAX_IC_1GEN_RC_50 \b3	
-	#define WAG_PAX_IC_1GEN_RC_60 \b4	
-	#define WAG_PAX_IC_1GEN_RC_70 \b5	
-	#define WAG_PAX_IC_1GEN_RC_80 \b7	
-	#define WAG_PAX_IC_1GEN_RC_90 \b9	
-	#define WAG_PAX_IC_1GEN_RC_100 \b11	
-	#define WAG_PAX_IC_1GEN_RC_110 \b14	
-	#define WAG_PAX_IC_1GEN_RC_120 \b17	
-	#define WAG_PAX_IC_1GEN_RC_130 \b20	
-	#define WAG_PAX_IC_1GEN_RC_140 \b24	
-	#define WAG_PAX_IC_1GEN_RC_150 \b27	
-	#define WAG_PAX_IC_1GEN_RC_160 \b32	
-	#define WAG_PAX_IC_1GEN_RC_170 \b36	
-	#define WAG_PAX_IC_1GEN_RC_180 \b41	
-	#define WAG_PAX_IC_1GEN_RC_190 \b46	
-	#define WAG_PAX_IC_1GEN_RC_200 \b51	
-	#define WAG_PAX_IC_1GEN_RC_210 \b57	
-	#define WAG_PAX_IC_1GEN_RC_220 \b62	
-	#define WAG_PAX_IC_1GEN_RC_230 \b68	
+	#define WAG_PAX_IC_1GEN_RC_50 \b14	
+	#define WAG_PAX_IC_1GEN_RC_60 \b16	
+	#define WAG_PAX_IC_1GEN_RC_70 \b20	
+	#define WAG_PAX_IC_1GEN_RC_80 \b26	
+	#define WAG_PAX_IC_1GEN_RC_90 \b34	
+	#define WAG_PAX_IC_1GEN_RC_100 \b44	
+	#define WAG_PAX_IC_1GEN_RC_110 \b54	
+	#define WAG_PAX_IC_1GEN_RC_120 \b66	
+	#define WAG_PAX_IC_1GEN_RC_130 \b80	
+	#define WAG_PAX_IC_1GEN_RC_140 \b94	
+	#define WAG_PAX_IC_1GEN_RC_150 \b110	
+	#define WAG_PAX_IC_1GEN_RC_160 \b126	
+	#define WAG_PAX_IC_1GEN_RC_170 \b144	
+	#define WAG_PAX_IC_1GEN_RC_180 \b163	
+	#define WAG_PAX_IC_1GEN_RC_190 \b183	
+	#define WAG_PAX_IC_1GEN_RC_200 \b204	
+	#define WAG_PAX_IC_1GEN_RC_210 \b226	
+	#define WAG_PAX_IC_1GEN_RC_220 \b249	
+	#define WAG_PAX_IC_1GEN_RC_230 \b273	
 	#define WAG_PAX_IC_1GEN_WEIGHT \b20	
 	#define WAG_PAX_IC_1GEN_CAPACITY \b20	
-	#define WAG_PAX_IC_1GEN_RCOST \b3	
+	#define WAG_PAX_IC_1GEN_RCOST \b14	
 	#define WAG_PAX_IC_1GEN_LS \b8	
 	#define WAG_PAX_IC_1GEN_PCOST \b5	
 	#define WAG_PAX_IC_1GEN_ID_B \b*128	
 	#define WAG_PAX_IC_1GEN_STR WAG_STR_50_B	
+
 #define WAG_PAX_IC_2GEN_INTROYEAR \d1900-1-1	
 	#define WAG_PAX_IC_2GEN_V_LIFE \b40	
 	#define WAG_PAX_IC_2GEN_M_LIFE \b40	
 	#define WAG_PAX_IC_2GEN_RC_0 \b0	
-	#define WAG_PAX_IC_2GEN_RC_50 \b5	
-	#define WAG_PAX_IC_2GEN_RC_60 \b5	
-	#define WAG_PAX_IC_2GEN_RC_70 \b5	
-	#define WAG_PAX_IC_2GEN_RC_80 \b5	
-	#define WAG_PAX_IC_2GEN_RC_90 \b5	
-	#define WAG_PAX_IC_2GEN_RC_100 \b6	
-	#define WAG_PAX_IC_2GEN_RC_110 \b8	
-	#define WAG_PAX_IC_2GEN_RC_120 \b10	
-	#define WAG_PAX_IC_2GEN_RC_130 \b12	
-	#define WAG_PAX_IC_2GEN_RC_140 \b15	
-	#define WAG_PAX_IC_2GEN_RC_150 \b18	
-	#define WAG_PAX_IC_2GEN_RC_160 \b21	
-	#define WAG_PAX_IC_2GEN_RC_170 \b25	
-	#define WAG_PAX_IC_2GEN_RC_180 \b29	
-	#define WAG_PAX_IC_2GEN_RC_190 \b33	
-	#define WAG_PAX_IC_2GEN_RC_200 \b38	
-	#define WAG_PAX_IC_2GEN_RC_210 \b42	
-	#define WAG_PAX_IC_2GEN_RC_220 \b47	
-	#define WAG_PAX_IC_2GEN_RC_230 \b52	
+	#define WAG_PAX_IC_2GEN_RC_50 \b20	
+	#define WAG_PAX_IC_2GEN_RC_60 \b20	
+	#define WAG_PAX_IC_2GEN_RC_70 \b20	
+	#define WAG_PAX_IC_2GEN_RC_80 \b20	
+	#define WAG_PAX_IC_2GEN_RC_90 \b22	
+	#define WAG_PAX_IC_2GEN_RC_100 \b26	
+	#define WAG_PAX_IC_2GEN_RC_110 \b32	
+	#define WAG_PAX_IC_2GEN_RC_120 \b40	
+	#define WAG_PAX_IC_2GEN_RC_130 \b49	
+	#define WAG_PAX_IC_2GEN_RC_140 \b60	
+	#define WAG_PAX_IC_2GEN_RC_150 \b72	
+	#define WAG_PAX_IC_2GEN_RC_160 \b85	
+	#define WAG_PAX_IC_2GEN_RC_170 \b100	
+	#define WAG_PAX_IC_2GEN_RC_180 \b115	
+	#define WAG_PAX_IC_2GEN_RC_190 \b132	
+	#define WAG_PAX_IC_2GEN_RC_200 \b150	
+	#define WAG_PAX_IC_2GEN_RC_210 \b169	
+	#define WAG_PAX_IC_2GEN_RC_220 \b189	
+	#define WAG_PAX_IC_2GEN_RC_230 \b210	
 	#define WAG_PAX_IC_2GEN_WEIGHT \b24	
 	#define WAG_PAX_IC_2GEN_CAPACITY \b25	
-	#define WAG_PAX_IC_2GEN_RCOST \b5	
+	#define WAG_PAX_IC_2GEN_RCOST \b20	
 	#define WAG_PAX_IC_2GEN_LS \b8	
 	#define WAG_PAX_IC_2GEN_PCOST \b10	
 	#define WAG_PAX_IC_2GEN_ID_B \b*129	
 	#define WAG_PAX_IC_2GEN_STR WAG_STR_80_B	
+
 #define WAG_PAX_IC_3GEN_INTROYEAR \d1935-1-1	
 	#define WAG_PAX_IC_3GEN_V_LIFE \b40	
 	#define WAG_PAX_IC_3GEN_M_LIFE \b40	
 	#define WAG_PAX_IC_3GEN_RC_0 \b0	
-	#define WAG_PAX_IC_3GEN_RC_50 \b7	
-	#define WAG_PAX_IC_3GEN_RC_60 \b7	
-	#define WAG_PAX_IC_3GEN_RC_70 \b7	
-	#define WAG_PAX_IC_3GEN_RC_80 \b7	
-	#define WAG_PAX_IC_3GEN_RC_90 \b7	
-	#define WAG_PAX_IC_3GEN_RC_100 \b7	
-	#define WAG_PAX_IC_3GEN_RC_110 \b7	
-	#define WAG_PAX_IC_3GEN_RC_120 \b7	
-	#define WAG_PAX_IC_3GEN_RC_130 \b8	
-	#define WAG_PAX_IC_3GEN_RC_140 \b9	
-	#define WAG_PAX_IC_3GEN_RC_150 \b10	
-	#define WAG_PAX_IC_3GEN_RC_160 \b12	
-	#define WAG_PAX_IC_3GEN_RC_170 \b14	
-	#define WAG_PAX_IC_3GEN_RC_180 \b17	
-	#define WAG_PAX_IC_3GEN_RC_190 \b20	
-	#define WAG_PAX_IC_3GEN_RC_200 \b23	
-	#define WAG_PAX_IC_3GEN_RC_210 \b27	
-	#define WAG_PAX_IC_3GEN_RC_220 \b31	
-	#define WAG_PAX_IC_3GEN_RC_230 \b35	
+	#define WAG_PAX_IC_3GEN_RC_50 \b28	
+	#define WAG_PAX_IC_3GEN_RC_60 \b28	
+	#define WAG_PAX_IC_3GEN_RC_70 \b28	
+	#define WAG_PAX_IC_3GEN_RC_80 \b28	
+	#define WAG_PAX_IC_3GEN_RC_90 \b28	
+	#define WAG_PAX_IC_3GEN_RC_100 \b28	
+	#define WAG_PAX_IC_3GEN_RC_110 \b28	
+	#define WAG_PAX_IC_3GEN_RC_120 \b28	
+	#define WAG_PAX_IC_3GEN_RC_130 \b30	
+	#define WAG_PAX_IC_3GEN_RC_140 \b35	
+	#define WAG_PAX_IC_3GEN_RC_150 \b41	
+	#define WAG_PAX_IC_3GEN_RC_160 \b49	
+	#define WAG_PAX_IC_3GEN_RC_170 \b58	
+	#define WAG_PAX_IC_3GEN_RC_180 \b69	
+	#define WAG_PAX_IC_3GEN_RC_190 \b81	
+	#define WAG_PAX_IC_3GEN_RC_200 \b94	
+	#define WAG_PAX_IC_3GEN_RC_210 \b108	
+	#define WAG_PAX_IC_3GEN_RC_220 \b124	
+	#define WAG_PAX_IC_3GEN_RC_230 \b141	
 	#define WAG_PAX_IC_3GEN_WEIGHT \b30	
 	#define WAG_PAX_IC_3GEN_CAPACITY \b32	
-	#define WAG_PAX_IC_3GEN_RCOST \b7	
+	#define WAG_PAX_IC_3GEN_RCOST \b28	
 	#define WAG_PAX_IC_3GEN_LS \b8	
 	#define WAG_PAX_IC_3GEN_PCOST \b15	
 	#define WAG_PAX_IC_3GEN_ID_B \b*130	
 	#define WAG_PAX_IC_3GEN_STR WAG_STR_120_B	
+
 #define WAG_PAX_IC_4GEN_INTROYEAR \d1960-1-1	
 	#define WAG_PAX_IC_4GEN_V_LIFE \b40	
 	#define WAG_PAX_IC_4GEN_M_LIFE \b45	
 	#define WAG_PAX_IC_4GEN_RC_0 \b0	
-	#define WAG_PAX_IC_4GEN_RC_50 \b9	
-	#define WAG_PAX_IC_4GEN_RC_60 \b9	
-	#define WAG_PAX_IC_4GEN_RC_70 \b9	
-	#define WAG_PAX_IC_4GEN_RC_80 \b9	
-	#define WAG_PAX_IC_4GEN_RC_90 \b9	
-	#define WAG_PAX_IC_4GEN_RC_100 \b9	
-	#define WAG_PAX_IC_4GEN_RC_110 \b9	
-	#define WAG_PAX_IC_4GEN_RC_120 \b9	
-	#define WAG_PAX_IC_4GEN_RC_130 \b9	
-	#define WAG_PAX_IC_4GEN_RC_140 \b9	
-	#define WAG_PAX_IC_4GEN_RC_150 \b9	
-	#define WAG_PAX_IC_4GEN_RC_160 \b9	
-	#define WAG_PAX_IC_4GEN_RC_170 \b10	
-	#define WAG_PAX_IC_4GEN_RC_180 \b11	
-	#define WAG_PAX_IC_4GEN_RC_190 \b13	
-	#define WAG_PAX_IC_4GEN_RC_200 \b15	
-	#define WAG_PAX_IC_4GEN_RC_210 \b17	
-	#define WAG_PAX_IC_4GEN_RC_220 \b20	
-	#define WAG_PAX_IC_4GEN_RC_230 \b23	
+	#define WAG_PAX_IC_4GEN_RC_50 \b38	
+	#define WAG_PAX_IC_4GEN_RC_60 \b38	
+	#define WAG_PAX_IC_4GEN_RC_70 \b38	
+	#define WAG_PAX_IC_4GEN_RC_80 \b38	
+	#define WAG_PAX_IC_4GEN_RC_90 \b38	
+	#define WAG_PAX_IC_4GEN_RC_100 \b38	
+	#define WAG_PAX_IC_4GEN_RC_110 \b38	
+	#define WAG_PAX_IC_4GEN_RC_120 \b38	
+	#define WAG_PAX_IC_4GEN_RC_130 \b38	
+	#define WAG_PAX_IC_4GEN_RC_140 \b38	
+	#define WAG_PAX_IC_4GEN_RC_150 \b38	
+	#define WAG_PAX_IC_4GEN_RC_160 \b38	
+	#define WAG_PAX_IC_4GEN_RC_170 \b40	
+	#define WAG_PAX_IC_4GEN_RC_180 \b44	
+	#define WAG_PAX_IC_4GEN_RC_190 \b50	
+	#define WAG_PAX_IC_4GEN_RC_200 \b58	
+	#define WAG_PAX_IC_4GEN_RC_210 \b68	
+	#define WAG_PAX_IC_4GEN_RC_220 \b78	
+	#define WAG_PAX_IC_4GEN_RC_230 \b90	
 	#define WAG_PAX_IC_4GEN_WEIGHT \b37	
 	#define WAG_PAX_IC_4GEN_CAPACITY \b40	
-	#define WAG_PAX_IC_4GEN_RCOST \b9	
+	#define WAG_PAX_IC_4GEN_RCOST \b38	
 	#define WAG_PAX_IC_4GEN_LS \b8	
 	#define WAG_PAX_IC_4GEN_PCOST \b20	
 	#define WAG_PAX_IC_4GEN_ID_B \b*131	
 	#define WAG_PAX_IC_4GEN_STR WAG_STR_160_B	
+
 #define WAG_PAX_IC_5GEN_INTROYEAR \d2000-1-1	
 	#define WAG_PAX_IC_5GEN_V_LIFE \b40	
 	#define WAG_PAX_IC_5GEN_M_LIFE \b255	
 	#define WAG_PAX_IC_5GEN_RC_0 \b0	
-	#define WAG_PAX_IC_5GEN_RC_50 \b9	
-	#define WAG_PAX_IC_5GEN_RC_60 \b9	
-	#define WAG_PAX_IC_5GEN_RC_70 \b9	
-	#define WAG_PAX_IC_5GEN_RC_80 \b9	
-	#define WAG_PAX_IC_5GEN_RC_90 \b9	
-	#define WAG_PAX_IC_5GEN_RC_100 \b9	
-	#define WAG_PAX_IC_5GEN_RC_110 \b9	
-	#define WAG_PAX_IC_5GEN_RC_120 \b9	
-	#define WAG_PAX_IC_5GEN_RC_130 \b9	
-	#define WAG_PAX_IC_5GEN_RC_140 \b9	
-	#define WAG_PAX_IC_5GEN_RC_150 \b9	
-	#define WAG_PAX_IC_5GEN_RC_160 \b9	
-	#define WAG_PAX_IC_5GEN_RC_170 \b9	
-	#define WAG_PAX_IC_5GEN_RC_180 \b9	
-	#define WAG_PAX_IC_5GEN_RC_190 \b9	
-	#define WAG_PAX_IC_5GEN_RC_200 \b9	
-	#define WAG_PAX_IC_5GEN_RC_210 \b10	
-	#define WAG_PAX_IC_5GEN_RC_220 \b11	
-	#define WAG_PAX_IC_5GEN_RC_230 \b12	
+	#define WAG_PAX_IC_5GEN_RC_50 \b37	
+	#define WAG_PAX_IC_5GEN_RC_60 \b37	
+	#define WAG_PAX_IC_5GEN_RC_70 \b37	
+	#define WAG_PAX_IC_5GEN_RC_80 \b37	
+	#define WAG_PAX_IC_5GEN_RC_90 \b37	
+	#define WAG_PAX_IC_5GEN_RC_100 \b37	
+	#define WAG_PAX_IC_5GEN_RC_110 \b37	
+	#define WAG_PAX_IC_5GEN_RC_120 \b37	
+	#define WAG_PAX_IC_5GEN_RC_130 \b37	
+	#define WAG_PAX_IC_5GEN_RC_140 \b37	
+	#define WAG_PAX_IC_5GEN_RC_150 \b37	
+	#define WAG_PAX_IC_5GEN_RC_160 \b37	
+	#define WAG_PAX_IC_5GEN_RC_170 \b37	
+	#define WAG_PAX_IC_5GEN_RC_180 \b37	
+	#define WAG_PAX_IC_5GEN_RC_190 \b37	
+	#define WAG_PAX_IC_5GEN_RC_200 \b37	
+	#define WAG_PAX_IC_5GEN_RC_210 \b39	
+	#define WAG_PAX_IC_5GEN_RC_220 \b44	
+	#define WAG_PAX_IC_5GEN_RC_230 \b50	
 	#define WAG_PAX_IC_5GEN_WEIGHT \b30	
 	#define WAG_PAX_IC_5GEN_CAPACITY \b47	
-	#define WAG_PAX_IC_5GEN_RCOST \b9	
+	#define WAG_PAX_IC_5GEN_RCOST \b37	
 	#define WAG_PAX_IC_5GEN_LS \b8	
 	#define WAG_PAX_IC_5GEN_PCOST \b25	
 	#define WAG_PAX_IC_5GEN_ID_B \b*132	
 	#define WAG_PAX_IC_5GEN_STR WAG_STR_200_B	
+
 #define WAG_PAX_REG_3GEN_INTROYEAR \d1935-1-1	
 	#define WAG_PAX_REG_3GEN_V_LIFE \b40	
 	#define WAG_PAX_REG_3GEN_M_LIFE \b40	
 	#define WAG_PAX_REG_3GEN_RC_0 \b0	
-	#define WAG_PAX_REG_3GEN_RC_50 \b6	
-	#define WAG_PAX_REG_3GEN_RC_60 \b6	
-	#define WAG_PAX_REG_3GEN_RC_70 \b6	
-	#define WAG_PAX_REG_3GEN_RC_80 \b6	
-	#define WAG_PAX_REG_3GEN_RC_90 \b6	
-	#define WAG_PAX_REG_3GEN_RC_100 \b7	
-	#define WAG_PAX_REG_3GEN_RC_110 \b9	
-	#define WAG_PAX_REG_3GEN_RC_120 \b11	
-	#define WAG_PAX_REG_3GEN_RC_130 \b13	
-	#define WAG_PAX_REG_3GEN_RC_140 \b16	
-	#define WAG_PAX_REG_3GEN_RC_150 \b19	
-	#define WAG_PAX_REG_3GEN_RC_160 \b22	
-	#define WAG_PAX_REG_3GEN_RC_170 \b26	
-	#define WAG_PAX_REG_3GEN_RC_180 \b30	
-	#define WAG_PAX_REG_3GEN_RC_190 \b34	
-	#define WAG_PAX_REG_3GEN_RC_200 \b38	
-	#define WAG_PAX_REG_3GEN_RC_210 \b43	
-	#define WAG_PAX_REG_3GEN_RC_220 \b48	
-	#define WAG_PAX_REG_3GEN_RC_230 \b53	
+	#define WAG_PAX_REG_3GEN_RC_50 \b22	
+	#define WAG_PAX_REG_3GEN_RC_60 \b22	
+	#define WAG_PAX_REG_3GEN_RC_70 \b22	
+	#define WAG_PAX_REG_3GEN_RC_80 \b22	
+	#define WAG_PAX_REG_3GEN_RC_90 \b24	
+	#define WAG_PAX_REG_3GEN_RC_100 \b29	
+	#define WAG_PAX_REG_3GEN_RC_110 \b35	
+	#define WAG_PAX_REG_3GEN_RC_120 \b43	
+	#define WAG_PAX_REG_3GEN_RC_130 \b52	
+	#define WAG_PAX_REG_3GEN_RC_140 \b63	
+	#define WAG_PAX_REG_3GEN_RC_150 \b75	
+	#define WAG_PAX_REG_3GEN_RC_160 \b88	
+	#define WAG_PAX_REG_3GEN_RC_170 \b103	
+	#define WAG_PAX_REG_3GEN_RC_180 \b118	
+	#define WAG_PAX_REG_3GEN_RC_190 \b135	
+	#define WAG_PAX_REG_3GEN_RC_200 \b153	
+	#define WAG_PAX_REG_3GEN_RC_210 \b172	
+	#define WAG_PAX_REG_3GEN_RC_220 \b192	
+	#define WAG_PAX_REG_3GEN_RC_230 \b213	
 	#define WAG_PAX_REG_3GEN_WEIGHT \b32	
 	#define WAG_PAX_REG_3GEN_CAPACITY \b40	
-	#define WAG_PAX_REG_3GEN_RCOST \b6	
+	#define WAG_PAX_REG_3GEN_RCOST \b22	
 	#define WAG_PAX_REG_3GEN_LS \b20	
 	#define WAG_PAX_REG_3GEN_PCOST \b30	
 	#define WAG_PAX_REG_3GEN_ID_B \b*133	
 	#define WAG_PAX_REG_3GEN_STR WAG_STR_80_B	
+
 #define WAG_PAX_REG_4GEN_INTROYEAR \d1960-1-1	
 	#define WAG_PAX_REG_4GEN_V_LIFE \b40	
 	#define WAG_PAX_REG_4GEN_M_LIFE \b45	
 	#define WAG_PAX_REG_4GEN_RC_0 \b0	
-	#define WAG_PAX_REG_4GEN_RC_50 \b8	
-	#define WAG_PAX_REG_4GEN_RC_60 \b8	
-	#define WAG_PAX_REG_4GEN_RC_70 \b8	
-	#define WAG_PAX_REG_4GEN_RC_80 \b8	
-	#define WAG_PAX_REG_4GEN_RC_90 \b8	
-	#define WAG_PAX_REG_4GEN_RC_100 \b8	
-	#define WAG_PAX_REG_4GEN_RC_110 \b8	
-	#define WAG_PAX_REG_4GEN_RC_120 \b8	
-	#define WAG_PAX_REG_4GEN_RC_130 \b9	
-	#define WAG_PAX_REG_4GEN_RC_140 \b10	
-	#define WAG_PAX_REG_4GEN_RC_150 \b11	
-	#define WAG_PAX_REG_4GEN_RC_160 \b13	
-	#define WAG_PAX_REG_4GEN_RC_170 \b15	
-	#define WAG_PAX_REG_4GEN_RC_180 \b18	
-	#define WAG_PAX_REG_4GEN_RC_190 \b21	
-	#define WAG_PAX_REG_4GEN_RC_200 \b25	
-	#define WAG_PAX_REG_4GEN_RC_210 \b28	
-	#define WAG_PAX_REG_4GEN_RC_220 \b32	
-	#define WAG_PAX_REG_4GEN_RC_230 \b36	
+	#define WAG_PAX_REG_4GEN_RC_50 \b32	
+	#define WAG_PAX_REG_4GEN_RC_60 \b32	
+	#define WAG_PAX_REG_4GEN_RC_70 \b32	
+	#define WAG_PAX_REG_4GEN_RC_80 \b32	
+	#define WAG_PAX_REG_4GEN_RC_90 \b32	
+	#define WAG_PAX_REG_4GEN_RC_100 \b32	
+	#define WAG_PAX_REG_4GEN_RC_110 \b32	
+	#define WAG_PAX_REG_4GEN_RC_120 \b32	
+	#define WAG_PAX_REG_4GEN_RC_130 \b34	
+	#define WAG_PAX_REG_4GEN_RC_140 \b39	
+	#define WAG_PAX_REG_4GEN_RC_150 \b45	
+	#define WAG_PAX_REG_4GEN_RC_160 \b53	
+	#define WAG_PAX_REG_4GEN_RC_170 \b62	
+	#define WAG_PAX_REG_4GEN_RC_180 \b73	
+	#define WAG_PAX_REG_4GEN_RC_190 \b85	
+	#define WAG_PAX_REG_4GEN_RC_200 \b98	
+	#define WAG_PAX_REG_4GEN_RC_210 \b113	
+	#define WAG_PAX_REG_4GEN_RC_220 \b128	
+	#define WAG_PAX_REG_4GEN_RC_230 \b145	
 	#define WAG_PAX_REG_4GEN_WEIGHT \b40	
 	#define WAG_PAX_REG_4GEN_CAPACITY \b50	
-	#define WAG_PAX_REG_4GEN_RCOST \b8	
+	#define WAG_PAX_REG_4GEN_RCOST \b32	
 	#define WAG_PAX_REG_4GEN_LS \b20	
 	#define WAG_PAX_REG_4GEN_PCOST \b35	
 	#define WAG_PAX_REG_4GEN_ID_B \b*134	
 	#define WAG_PAX_REG_4GEN_STR WAG_STR_120_B	
+
 #define WAG_PAX_REG_5GEN_INTROYEAR \d2000-1-1	
 	#define WAG_PAX_REG_5GEN_V_LIFE \b40	
 	#define WAG_PAX_REG_5GEN_M_LIFE \b255	
 	#define WAG_PAX_REG_5GEN_RC_0 \b0	
-	#define WAG_PAX_REG_5GEN_RC_50 \b8	
-	#define WAG_PAX_REG_5GEN_RC_60 \b8	
-	#define WAG_PAX_REG_5GEN_RC_70 \b8	
-	#define WAG_PAX_REG_5GEN_RC_80 \b8	
-	#define WAG_PAX_REG_5GEN_RC_90 \b8	
-	#define WAG_PAX_REG_5GEN_RC_100 \b8	
-	#define WAG_PAX_REG_5GEN_RC_110 \b8	
-	#define WAG_PAX_REG_5GEN_RC_120 \b8	
-	#define WAG_PAX_REG_5GEN_RC_130 \b8	
-	#define WAG_PAX_REG_5GEN_RC_140 \b8	
-	#define WAG_PAX_REG_5GEN_RC_150 \b8	
-	#define WAG_PAX_REG_5GEN_RC_160 \b8	
-	#define WAG_PAX_REG_5GEN_RC_170 \b8	
-	#define WAG_PAX_REG_5GEN_RC_180 \b9	
-	#define WAG_PAX_REG_5GEN_RC_190 \b11	
-	#define WAG_PAX_REG_5GEN_RC_200 \b13	
-	#define WAG_PAX_REG_5GEN_RC_210 \b15	
-	#define WAG_PAX_REG_5GEN_RC_220 \b18	
-	#define WAG_PAX_REG_5GEN_RC_230 \b21	
+	#define WAG_PAX_REG_5GEN_RC_50 \b31	
+	#define WAG_PAX_REG_5GEN_RC_60 \b31	
+	#define WAG_PAX_REG_5GEN_RC_70 \b31	
+	#define WAG_PAX_REG_5GEN_RC_80 \b31	
+	#define WAG_PAX_REG_5GEN_RC_90 \b31	
+	#define WAG_PAX_REG_5GEN_RC_100 \b31	
+	#define WAG_PAX_REG_5GEN_RC_110 \b31	
+	#define WAG_PAX_REG_5GEN_RC_120 \b31	
+	#define WAG_PAX_REG_5GEN_RC_130 \b31	
+	#define WAG_PAX_REG_5GEN_RC_140 \b31	
+	#define WAG_PAX_REG_5GEN_RC_150 \b31	
+	#define WAG_PAX_REG_5GEN_RC_160 \b31	
+	#define WAG_PAX_REG_5GEN_RC_170 \b33	
+	#define WAG_PAX_REG_5GEN_RC_180 \b38	
+	#define WAG_PAX_REG_5GEN_RC_190 \b44	
+	#define WAG_PAX_REG_5GEN_RC_200 \b52	
+	#define WAG_PAX_REG_5GEN_RC_210 \b61	
+	#define WAG_PAX_REG_5GEN_RC_220 \b72	
+	#define WAG_PAX_REG_5GEN_RC_230 \b84	
 	#define WAG_PAX_REG_5GEN_WEIGHT \b32	
 	#define WAG_PAX_REG_5GEN_CAPACITY \b60	
-	#define WAG_PAX_REG_5GEN_RCOST \b8	
+	#define WAG_PAX_REG_5GEN_RCOST \b31	
 	#define WAG_PAX_REG_5GEN_LS \b20	
 	#define WAG_PAX_REG_5GEN_PCOST \b40	
 	#define WAG_PAX_REG_5GEN_ID_B \b*135	
 	#define WAG_PAX_REG_5GEN_STR WAG_STR_160_B	
+
 #define WAG_PAX_DD_4GEN_INTROYEAR \d1965-1-1	
 	#define WAG_PAX_DD_4GEN_V_LIFE \b40	
 	#define WAG_PAX_DD_4GEN_M_LIFE \b45	
 	#define WAG_PAX_DD_4GEN_RC_0 \b0	
-	#define WAG_PAX_DD_4GEN_RC_50 \b11	
-	#define WAG_PAX_DD_4GEN_RC_60 \b11	
-	#define WAG_PAX_DD_4GEN_RC_70 \b11	
-	#define WAG_PAX_DD_4GEN_RC_80 \b11	
-	#define WAG_PAX_DD_4GEN_RC_90 \b11	
-	#define WAG_PAX_DD_4GEN_RC_100 \b11	
-	#define WAG_PAX_DD_4GEN_RC_110 \b11	
-	#define WAG_PAX_DD_4GEN_RC_120 \b11	
-	#define WAG_PAX_DD_4GEN_RC_130 \b11	
-	#define WAG_PAX_DD_4GEN_RC_140 \b11	
-	#define WAG_PAX_DD_4GEN_RC_150 \b11	
-	#define WAG_PAX_DD_4GEN_RC_160 \b11	
-	#define WAG_PAX_DD_4GEN_RC_170 \b12	
-	#define WAG_PAX_DD_4GEN_RC_180 \b13	
-	#define WAG_PAX_DD_4GEN_RC_190 \b14	
-	#define WAG_PAX_DD_4GEN_RC_200 \b16	
-	#define WAG_PAX_DD_4GEN_RC_210 \b18	
-	#define WAG_PAX_DD_4GEN_RC_220 \b21	
-	#define WAG_PAX_DD_4GEN_RC_230 \b24	
+	#define WAG_PAX_DD_4GEN_RC_50 \b44	
+	#define WAG_PAX_DD_4GEN_RC_60 \b44	
+	#define WAG_PAX_DD_4GEN_RC_70 \b44	
+	#define WAG_PAX_DD_4GEN_RC_80 \b44	
+	#define WAG_PAX_DD_4GEN_RC_90 \b44	
+	#define WAG_PAX_DD_4GEN_RC_100 \b44	
+	#define WAG_PAX_DD_4GEN_RC_110 \b44	
+	#define WAG_PAX_DD_4GEN_RC_120 \b44	
+	#define WAG_PAX_DD_4GEN_RC_130 \b44	
+	#define WAG_PAX_DD_4GEN_RC_140 \b44	
+	#define WAG_PAX_DD_4GEN_RC_150 \b44	
+	#define WAG_PAX_DD_4GEN_RC_160 \b44	
+	#define WAG_PAX_DD_4GEN_RC_170 \b46	
+	#define WAG_PAX_DD_4GEN_RC_180 \b50	
+	#define WAG_PAX_DD_4GEN_RC_190 \b57	
+	#define WAG_PAX_DD_4GEN_RC_200 \b65	
+	#define WAG_PAX_DD_4GEN_RC_210 \b74	
+	#define WAG_PAX_DD_4GEN_RC_220 \b85	
+	#define WAG_PAX_DD_4GEN_RC_230 \b97	
 	#define WAG_PAX_DD_4GEN_WEIGHT \b50	
 	#define WAG_PAX_DD_4GEN_CAPACITY \b60	
-	#define WAG_PAX_DD_4GEN_RCOST \b11	
+	#define WAG_PAX_DD_4GEN_RCOST \b44	
 	#define WAG_PAX_DD_4GEN_LS \b8	
 	#define WAG_PAX_DD_4GEN_PCOST \b45	
 	#define WAG_PAX_DD_4GEN_ID_B \b*136	
 	#define WAG_PAX_DD_4GEN_STR WAG_STR_160_B	
+
 #define WAG_PAX_DD_5GEN_INTROYEAR \d2005-1-1	
 	#define WAG_PAX_DD_5GEN_V_LIFE \b40	
 	#define WAG_PAX_DD_5GEN_M_LIFE \b255	
 	#define WAG_PAX_DD_5GEN_RC_0 \b0	
-	#define WAG_PAX_DD_5GEN_RC_50 \b11	
-	#define WAG_PAX_DD_5GEN_RC_60 \b11	
-	#define WAG_PAX_DD_5GEN_RC_70 \b11	
-	#define WAG_PAX_DD_5GEN_RC_80 \b11	
-	#define WAG_PAX_DD_5GEN_RC_90 \b11	
-	#define WAG_PAX_DD_5GEN_RC_100 \b11	
-	#define WAG_PAX_DD_5GEN_RC_110 \b11	
-	#define WAG_PAX_DD_5GEN_RC_120 \b11	
-	#define WAG_PAX_DD_5GEN_RC_130 \b11	
-	#define WAG_PAX_DD_5GEN_RC_140 \b11	
-	#define WAG_PAX_DD_5GEN_RC_150 \b11	
-	#define WAG_PAX_DD_5GEN_RC_160 \b11	
-	#define WAG_PAX_DD_5GEN_RC_170 \b11	
-	#define WAG_PAX_DD_5GEN_RC_180 \b11	
-	#define WAG_PAX_DD_5GEN_RC_190 \b11	
-	#define WAG_PAX_DD_5GEN_RC_200 \b11	
-	#define WAG_PAX_DD_5GEN_RC_210 \b11	
-	#define WAG_PAX_DD_5GEN_RC_220 \b12	
-	#define WAG_PAX_DD_5GEN_RC_230 \b14	
+	#define WAG_PAX_DD_5GEN_RC_50 \b43	
+	#define WAG_PAX_DD_5GEN_RC_60 \b43	
+	#define WAG_PAX_DD_5GEN_RC_70 \b43	
+	#define WAG_PAX_DD_5GEN_RC_80 \b43	
+	#define WAG_PAX_DD_5GEN_RC_90 \b43	
+	#define WAG_PAX_DD_5GEN_RC_100 \b43	
+	#define WAG_PAX_DD_5GEN_RC_110 \b43	
+	#define WAG_PAX_DD_5GEN_RC_120 \b43	
+	#define WAG_PAX_DD_5GEN_RC_130 \b43	
+	#define WAG_PAX_DD_5GEN_RC_140 \b43	
+	#define WAG_PAX_DD_5GEN_RC_150 \b43	
+	#define WAG_PAX_DD_5GEN_RC_160 \b43	
+	#define WAG_PAX_DD_5GEN_RC_170 \b43	
+	#define WAG_PAX_DD_5GEN_RC_180 \b43	
+	#define WAG_PAX_DD_5GEN_RC_190 \b43	
+	#define WAG_PAX_DD_5GEN_RC_200 \b43	
+	#define WAG_PAX_DD_5GEN_RC_210 \b45	
+	#define WAG_PAX_DD_5GEN_RC_220 \b49	
+	#define WAG_PAX_DD_5GEN_RC_230 \b55	
 	#define WAG_PAX_DD_5GEN_WEIGHT \b42	
 	#define WAG_PAX_DD_5GEN_CAPACITY \b70	
-	#define WAG_PAX_DD_5GEN_RCOST \b11	
+	#define WAG_PAX_DD_5GEN_RCOST \b43	
 	#define WAG_PAX_DD_5GEN_LS \b8	
 	#define WAG_PAX_DD_5GEN_PCOST \b50	
 	#define WAG_PAX_DD_5GEN_ID_B \b*137	
 	#define WAG_PAX_DD_5GEN_STR WAG_STR_200_B	
+
 																																																											
+#define WAG_FLATBED_LONG_2_INTROYEAR \d2000-1-1	
+	#define WAG_FLATBED_LONG_2_V_LIFE \b50	
+	#define WAG_FLATBED_LONG_2_M_LIFE \b255	
+	#define WAG_FLATBED_LONG_2_RC_0 \b0	
+	#define WAG_FLATBED_LONG_2_RC_50 \b26	
+	#define WAG_FLATBED_LONG_2_RC_60 \b26	
+	#define WAG_FLATBED_LONG_2_RC_70 \b26	
+	#define WAG_FLATBED_LONG_2_RC_80 \b26	
+	#define WAG_FLATBED_LONG_2_RC_90 \b26	
+	#define WAG_FLATBED_LONG_2_RC_100 \b26	
+	#define WAG_FLATBED_LONG_2_RC_110 \b26	
+	#define WAG_FLATBED_LONG_2_RC_120 \b26	
+	#define WAG_FLATBED_LONG_2_RC_130 \b28	
+	#define WAG_FLATBED_LONG_2_RC_140 \b33	
+	#define WAG_FLATBED_LONG_2_RC_150 \b39	
+	#define WAG_FLATBED_LONG_2_RC_160 \b47	
+	#define WAG_FLATBED_LONG_2_RC_170 \b56	
+	#define WAG_FLATBED_LONG_2_RC_180 \b67	
+	#define WAG_FLATBED_LONG_2_RC_190 \b79	
+	#define WAG_FLATBED_LONG_2_RC_200 \b92	
+	#define WAG_FLATBED_LONG_2_RC_210 \b107	
+	#define WAG_FLATBED_LONG_2_RC_220 \b122	
+	#define WAG_FLATBED_LONG_2_RC_230 \b139	
+	#define WAG_FLATBED_LONG_2_WEIGHT \b0	
+	#define WAG_FLATBED_LONG_2_CAPACITY \b52	
+	#define WAG_FLATBED_LONG_2_RCOST \b26	
+	#define WAG_FLATBED_LONG_2_LS \b20	
+	#define WAG_FLATBED_LONG_2_PCOST \b50	
+	#define WAG_FLATBED_LONG_2_ID_B \b*180	
+	#define WAG_FLATBED_LONG_2_STR WAG_STR_120_B	
+
+#define WAG_BOXCAR_LONG_2_INTROYEAR \d2000-1-1	
+	#define WAG_BOXCAR_LONG_2_V_LIFE \b50	
+	#define WAG_BOXCAR_LONG_2_M_LIFE \b255	
+	#define WAG_BOXCAR_LONG_2_RC_0 \b0	
+	#define WAG_BOXCAR_LONG_2_RC_50 \b35	
+	#define WAG_BOXCAR_LONG_2_RC_60 \b35	
+	#define WAG_BOXCAR_LONG_2_RC_70 \b35	
+	#define WAG_BOXCAR_LONG_2_RC_80 \b35	
+	#define WAG_BOXCAR_LONG_2_RC_90 \b35	
+	#define WAG_BOXCAR_LONG_2_RC_100 \b35	
+	#define WAG_BOXCAR_LONG_2_RC_110 \b35	
+	#define WAG_BOXCAR_LONG_2_RC_120 \b35	
+	#define WAG_BOXCAR_LONG_2_RC_130 \b35	
+	#define WAG_BOXCAR_LONG_2_RC_140 \b35	
+	#define WAG_BOXCAR_LONG_2_RC_150 \b35	
+	#define WAG_BOXCAR_LONG_2_RC_160 \b35	
+	#define WAG_BOXCAR_LONG_2_RC_170 \b37	
+	#define WAG_BOXCAR_LONG_2_RC_180 \b41	
+	#define WAG_BOXCAR_LONG_2_RC_190 \b47	
+	#define WAG_BOXCAR_LONG_2_RC_200 \b55	
+	#define WAG_BOXCAR_LONG_2_RC_210 \b64	
+	#define WAG_BOXCAR_LONG_2_RC_220 \b75	
+	#define WAG_BOXCAR_LONG_2_RC_230 \b87	
+	#define WAG_BOXCAR_LONG_2_WEIGHT \b0	
+	#define WAG_BOXCAR_LONG_2_CAPACITY \b60	
+	#define WAG_BOXCAR_LONG_2_RCOST \b35	
+	#define WAG_BOXCAR_LONG_2_LS \b8	
+	#define WAG_BOXCAR_LONG_2_PCOST \b50	
+	#define WAG_BOXCAR_LONG_2_ID_B \b*181	
+	#define WAG_BOXCAR_LONG_2_STR WAG_STR_160_B	
+
+#define WAG_HOPPER_LONG_2_INTROYEAR \d2000-1-1	
+	#define WAG_HOPPER_LONG_2_V_LIFE \b50	
+	#define WAG_HOPPER_LONG_2_M_LIFE \b255	
+	#define WAG_HOPPER_LONG_2_RC_0 \b0	
+	#define WAG_HOPPER_LONG_2_RC_50 \b26	
+	#define WAG_HOPPER_LONG_2_RC_60 \b26	
+	#define WAG_HOPPER_LONG_2_RC_70 \b26	
+	#define WAG_HOPPER_LONG_2_RC_80 \b26	
+	#define WAG_HOPPER_LONG_2_RC_90 \b26	
+	#define WAG_HOPPER_LONG_2_RC_100 \b26	
+	#define WAG_HOPPER_LONG_2_RC_110 \b28	
+	#define WAG_HOPPER_LONG_2_RC_120 \b32	
+	#define WAG_HOPPER_LONG_2_RC_130 \b38	
+	#define WAG_HOPPER_LONG_2_RC_140 \b46	
+	#define WAG_HOPPER_LONG_2_RC_150 \b56	
+	#define WAG_HOPPER_LONG_2_RC_160 \b66	
+	#define WAG_HOPPER_LONG_2_RC_170 \b78	
+	#define WAG_HOPPER_LONG_2_RC_180 \b92	
+	#define WAG_HOPPER_LONG_2_RC_190 \b106	
+	#define WAG_HOPPER_LONG_2_RC_200 \b122	
+	#define WAG_HOPPER_LONG_2_RC_210 \b139	
+	#define WAG_HOPPER_LONG_2_RC_220 \b156	
+	#define WAG_HOPPER_LONG_2_RC_230 \b175	
+	#define WAG_HOPPER_LONG_2_WEIGHT \b0	
+	#define WAG_HOPPER_LONG_2_CAPACITY \b60	
+	#define WAG_HOPPER_LONG_2_RCOST \b26	
+	#define WAG_HOPPER_LONG_2_LS \b8	
+	#define WAG_HOPPER_LONG_2_PCOST \b50	
+	#define WAG_HOPPER_LONG_2_ID_B \b*182	
+	#define WAG_HOPPER_LONG_2_STR WAG_STR_100_B	
+
+#define WAG_SILO_LONG_2_INTROYEAR \d2000-1-1	
+	#define WAG_SILO_LONG_2_V_LIFE \b50	
+	#define WAG_SILO_LONG_2_M_LIFE \b255	
+	#define WAG_SILO_LONG_2_RC_0 \b0	
+	#define WAG_SILO_LONG_2_RC_50 \b25	
+	#define WAG_SILO_LONG_2_RC_60 \b25	
+	#define WAG_SILO_LONG_2_RC_70 \b25	
+	#define WAG_SILO_LONG_2_RC_80 \b25	
+	#define WAG_SILO_LONG_2_RC_90 \b25	
+	#define WAG_SILO_LONG_2_RC_100 \b25	
+	#define WAG_SILO_LONG_2_RC_110 \b25	
+	#define WAG_SILO_LONG_2_RC_120 \b25	
+	#define WAG_SILO_LONG_2_RC_130 \b27	
+	#define WAG_SILO_LONG_2_RC_140 \b32	
+	#define WAG_SILO_LONG_2_RC_150 \b38	
+	#define WAG_SILO_LONG_2_RC_160 \b46	
+	#define WAG_SILO_LONG_2_RC_170 \b55	
+	#define WAG_SILO_LONG_2_RC_180 \b66	
+	#define WAG_SILO_LONG_2_RC_190 \b78	
+	#define WAG_SILO_LONG_2_RC_200 \b91	
+	#define WAG_SILO_LONG_2_RC_210 \b106	
+	#define WAG_SILO_LONG_2_RC_220 \b121	
+	#define WAG_SILO_LONG_2_RC_230 \b138	
+	#define WAG_SILO_LONG_2_WEIGHT \b0	
+	#define WAG_SILO_LONG_2_CAPACITY \b48	
+	#define WAG_SILO_LONG_2_RCOST \b25	
+	#define WAG_SILO_LONG_2_LS \b20	
+	#define WAG_SILO_LONG_2_PCOST \b50	
+	#define WAG_SILO_LONG_2_ID_B \b*183	
+	#define WAG_SILO_LONG_2_STR WAG_STR_120_B	
+
+#define WAG_TANK_LONG_2_INTROYEAR \d2000-1-1	
+	#define WAG_TANK_LONG_2_V_LIFE \b50	
+	#define WAG_TANK_LONG_2_M_LIFE \b255	
+	#define WAG_TANK_LONG_2_RC_0 \b0	
+	#define WAG_TANK_LONG_2_RC_50 \b33	
+	#define WAG_TANK_LONG_2_RC_60 \b33	
+	#define WAG_TANK_LONG_2_RC_70 \b33	
+	#define WAG_TANK_LONG_2_RC_80 \b33	
+	#define WAG_TANK_LONG_2_RC_90 \b33	
+	#define WAG_TANK_LONG_2_RC_100 \b33	
+	#define WAG_TANK_LONG_2_RC_110 \b33	
+	#define WAG_TANK_LONG_2_RC_120 \b33	
+	#define WAG_TANK_LONG_2_RC_130 \b33	
+	#define WAG_TANK_LONG_2_RC_140 \b33	
+	#define WAG_TANK_LONG_2_RC_150 \b33	
+	#define WAG_TANK_LONG_2_RC_160 \b33	
+	#define WAG_TANK_LONG_2_RC_170 \b35	
+	#define WAG_TANK_LONG_2_RC_180 \b40	
+	#define WAG_TANK_LONG_2_RC_190 \b46	
+	#define WAG_TANK_LONG_2_RC_200 \b54	
+	#define WAG_TANK_LONG_2_RC_210 \b63	
+	#define WAG_TANK_LONG_2_RC_220 \b74	
+	#define WAG_TANK_LONG_2_RC_230 \b86	
+	#define WAG_TANK_LONG_2_WEIGHT \b0	
+	#define WAG_TANK_LONG_2_CAPACITY \b56	
+	#define WAG_TANK_LONG_2_RCOST \b33	
+	#define WAG_TANK_LONG_2_LS \b8	
+	#define WAG_TANK_LONG_2_PCOST \b50	
+	#define WAG_TANK_LONG_2_ID_B \b*184	
+	#define WAG_TANK_LONG_2_STR WAG_STR_160_B	
+
 																																																											
-#define WAG_FLATBED_LONG_INTROYEAR \d1800-1-1	
+#define WAG_FLATBED_LONG_INTROYEAR \d1960-1-1	
 	#define WAG_FLATBED_LONG_V_LIFE \b40	
-	#define WAG_FLATBED_LONG_M_LIFE \b255	
+	#define WAG_FLATBED_LONG_M_LIFE \b45	
 	#define WAG_FLATBED_LONG_RC_0 \b0	
-	#define WAG_FLATBED_LONG_RC_50 \b7	
-	#define WAG_FLATBED_LONG_RC_60 \b7	
-	#define WAG_FLATBED_LONG_RC_70 \b7	
-	#define WAG_FLATBED_LONG_RC_80 \b7	
-	#define WAG_FLATBED_LONG_RC_90 \b7	
-	#define WAG_FLATBED_LONG_RC_100 \b8	
-	#define WAG_FLATBED_LONG_RC_110 \b9	
-	#define WAG_FLATBED_LONG_RC_120 \b10	
-	#define WAG_FLATBED_LONG_RC_130 \b12	
-	#define WAG_FLATBED_LONG_RC_140 \b15	
-	#define WAG_FLATBED_LONG_RC_150 \b17	
-	#define WAG_FLATBED_LONG_RC_160 \b20	
-	#define WAG_FLATBED_LONG_RC_170 \b24	
-	#define WAG_FLATBED_LONG_RC_180 \b27	
-	#define WAG_FLATBED_LONG_RC_190 \b31	
-	#define WAG_FLATBED_LONG_RC_200 \b35	
-	#define WAG_FLATBED_LONG_RC_210 \b40	
-	#define WAG_FLATBED_LONG_RC_220 \b45	
-	#define WAG_FLATBED_LONG_RC_230 \b50	
+	#define WAG_FLATBED_LONG_RC_50 \b27	
+	#define WAG_FLATBED_LONG_RC_60 \b27	
+	#define WAG_FLATBED_LONG_RC_70 \b27	
+	#define WAG_FLATBED_LONG_RC_80 \b27	
+	#define WAG_FLATBED_LONG_RC_90 \b27	
+	#define WAG_FLATBED_LONG_RC_100 \b27	
+	#define WAG_FLATBED_LONG_RC_110 \b29	
+	#define WAG_FLATBED_LONG_RC_120 \b34	
+	#define WAG_FLATBED_LONG_RC_130 \b40	
+	#define WAG_FLATBED_LONG_RC_140 \b48	
+	#define WAG_FLATBED_LONG_RC_150 \b57	
+	#define WAG_FLATBED_LONG_RC_160 \b68	
+	#define WAG_FLATBED_LONG_RC_170 \b80	
+	#define WAG_FLATBED_LONG_RC_180 \b93	
+	#define WAG_FLATBED_LONG_RC_190 \b108	
+	#define WAG_FLATBED_LONG_RC_200 \b123	
+	#define WAG_FLATBED_LONG_RC_210 \b140	
+	#define WAG_FLATBED_LONG_RC_220 \b158	
+	#define WAG_FLATBED_LONG_RC_230 \b177	
 	#define WAG_FLATBED_LONG_WEIGHT \b23	
-	#define WAG_FLATBED_LONG_CAPACITY \b52	
-	#define WAG_FLATBED_LONG_RCOST \b7	
+	#define WAG_FLATBED_LONG_CAPACITY \b43	
+	#define WAG_FLATBED_LONG_RCOST \b27	
 	#define WAG_FLATBED_LONG_LS \b20	
 	#define WAG_FLATBED_LONG_PCOST \b50	
-	#define WAG_FLATBED_LONG_ID_B \b*150	
-	#define WAG_FLATBED_LONG_STR WAG_STR_90_B	
-#define WAG_BOXCAR_LONG_INTROYEAR \d1800-1-1	
+	#define WAG_FLATBED_LONG_ID_B \b*170	
+	#define WAG_FLATBED_LONG_STR WAG_STR_100_B	
+
+#define WAG_BOXCAR_LONG_INTROYEAR \d1960-1-1	
 	#define WAG_BOXCAR_LONG_V_LIFE \b40	
-	#define WAG_BOXCAR_LONG_M_LIFE \b255	
+	#define WAG_BOXCAR_LONG_M_LIFE \b45	
 	#define WAG_BOXCAR_LONG_RC_0 \b0	
-	#define WAG_BOXCAR_LONG_RC_50 \b10	
-	#define WAG_BOXCAR_LONG_RC_60 \b10	
-	#define WAG_BOXCAR_LONG_RC_70 \b10	
-	#define WAG_BOXCAR_LONG_RC_80 \b10	
-	#define WAG_BOXCAR_LONG_RC_90 \b10	
-	#define WAG_BOXCAR_LONG_RC_100 \b10	
-	#define WAG_BOXCAR_LONG_RC_110 \b10	
-	#define WAG_BOXCAR_LONG_RC_120 \b10	
-	#define WAG_BOXCAR_LONG_RC_130 \b10	
-	#define WAG_BOXCAR_LONG_RC_140 \b11	
-	#define WAG_BOXCAR_LONG_RC_150 \b13	
-	#define WAG_BOXCAR_LONG_RC_160 \b15	
-	#define WAG_BOXCAR_LONG_RC_170 \b17	
-	#define WAG_BOXCAR_LONG_RC_180 \b20	
-	#define WAG_BOXCAR_LONG_RC_190 \b23	
-	#define WAG_BOXCAR_LONG_RC_200 \b26	
-	#define WAG_BOXCAR_LONG_RC_210 \b30	
-	#define WAG_BOXCAR_LONG_RC_220 \b34	
-	#define WAG_BOXCAR_LONG_RC_230 \b38	
+	#define WAG_BOXCAR_LONG_RC_50 \b36	
+	#define WAG_BOXCAR_LONG_RC_60 \b36	
+	#define WAG_BOXCAR_LONG_RC_70 \b36	
+	#define WAG_BOXCAR_LONG_RC_80 \b36	
+	#define WAG_BOXCAR_LONG_RC_90 \b36	
+	#define WAG_BOXCAR_LONG_RC_100 \b36	
+	#define WAG_BOXCAR_LONG_RC_110 \b36	
+	#define WAG_BOXCAR_LONG_RC_120 \b36	
+	#define WAG_BOXCAR_LONG_RC_130 \b38	
+	#define WAG_BOXCAR_LONG_RC_140 \b42	
+	#define WAG_BOXCAR_LONG_RC_150 \b48	
+	#define WAG_BOXCAR_LONG_RC_160 \b56	
+	#define WAG_BOXCAR_LONG_RC_170 \b66	
+	#define WAG_BOXCAR_LONG_RC_180 \b76	
+	#define WAG_BOXCAR_LONG_RC_190 \b88	
+	#define WAG_BOXCAR_LONG_RC_200 \b102	
+	#define WAG_BOXCAR_LONG_RC_210 \b116	
+	#define WAG_BOXCAR_LONG_RC_220 \b132	
+	#define WAG_BOXCAR_LONG_RC_230 \b149	
 	#define WAG_BOXCAR_LONG_WEIGHT \b35	
-	#define WAG_BOXCAR_LONG_CAPACITY \b60	
-	#define WAG_BOXCAR_LONG_RCOST \b10	
+	#define WAG_BOXCAR_LONG_CAPACITY \b49	
+	#define WAG_BOXCAR_LONG_RCOST \b36	
 	#define WAG_BOXCAR_LONG_LS \b8	
 	#define WAG_BOXCAR_LONG_PCOST \b50	
-	#define WAG_BOXCAR_LONG_ID_B \b*151	
+	#define WAG_BOXCAR_LONG_ID_B \b*171	
 	#define WAG_BOXCAR_LONG_STR WAG_STR_120_B	
-#define WAG_HOPPER_LONG_INTROYEAR \d1800-1-1	
+
+#define WAG_HOPPER_LONG_INTROYEAR \d1960-1-1	
 	#define WAG_HOPPER_LONG_V_LIFE \b40	
-	#define WAG_HOPPER_LONG_M_LIFE \b255	
+	#define WAG_HOPPER_LONG_M_LIFE \b45	
 	#define WAG_HOPPER_LONG_RC_0 \b0	
-	#define WAG_HOPPER_LONG_RC_50 \b8	
-	#define WAG_HOPPER_LONG_RC_60 \b8	
-	#define WAG_HOPPER_LONG_RC_70 \b8	
-	#define WAG_HOPPER_LONG_RC_80 \b8	
-	#define WAG_HOPPER_LONG_RC_90 \b9	
-	#define WAG_HOPPER_LONG_RC_100 \b10	
-	#define WAG_HOPPER_LONG_RC_110 \b11	
-	#define WAG_HOPPER_LONG_RC_120 \b13	
-	#define WAG_HOPPER_LONG_RC_130 \b16	
-	#define WAG_HOPPER_LONG_RC_140 \b18	
-	#define WAG_HOPPER_LONG_RC_150 \b21	
-	#define WAG_HOPPER_LONG_RC_160 \b25	
-	#define WAG_HOPPER_LONG_RC_170 \b28	
-	#define WAG_HOPPER_LONG_RC_180 \b32	
-	#define WAG_HOPPER_LONG_RC_190 \b36	
-	#define WAG_HOPPER_LONG_RC_200 \b41	
-	#define WAG_HOPPER_LONG_RC_210 \b46	
-	#define WAG_HOPPER_LONG_RC_220 \b51	
-	#define WAG_HOPPER_LONG_RC_230 \b56	
+	#define WAG_HOPPER_LONG_RC_50 \b30	
+	#define WAG_HOPPER_LONG_RC_60 \b30	
+	#define WAG_HOPPER_LONG_RC_70 \b30	
+	#define WAG_HOPPER_LONG_RC_80 \b30	
+	#define WAG_HOPPER_LONG_RC_90 \b32	
+	#define WAG_HOPPER_LONG_RC_100 \b36	
+	#define WAG_HOPPER_LONG_RC_110 \b42	
+	#define WAG_HOPPER_LONG_RC_120 \b50	
+	#define WAG_HOPPER_LONG_RC_130 \b60	
+	#define WAG_HOPPER_LONG_RC_140 \b70	
+	#define WAG_HOPPER_LONG_RC_150 \b82	
+	#define WAG_HOPPER_LONG_RC_160 \b96	
+	#define WAG_HOPPER_LONG_RC_170 \b110	
+	#define WAG_HOPPER_LONG_RC_180 \b126	
+	#define WAG_HOPPER_LONG_RC_190 \b143	
+	#define WAG_HOPPER_LONG_RC_200 \b161	
+	#define WAG_HOPPER_LONG_RC_210 \b179	
+	#define WAG_HOPPER_LONG_RC_220 \b199	
+	#define WAG_HOPPER_LONG_RC_230 \b220	
 	#define WAG_HOPPER_LONG_WEIGHT \b35	
-	#define WAG_HOPPER_LONG_CAPACITY \b60	
-	#define WAG_HOPPER_LONG_RCOST \b8	
+	#define WAG_HOPPER_LONG_CAPACITY \b49	
+	#define WAG_HOPPER_LONG_RCOST \b30	
 	#define WAG_HOPPER_LONG_LS \b8	
 	#define WAG_HOPPER_LONG_PCOST \b50	
-	#define WAG_HOPPER_LONG_ID_B \b*152	
+	#define WAG_HOPPER_LONG_ID_B \b*172	
 	#define WAG_HOPPER_LONG_STR WAG_STR_80_B	
-#define WAG_SILO_LONG_INTROYEAR \d1800-1-1	
+
+#define WAG_SILO_LONG_INTROYEAR \d1960-1-1	
 	#define WAG_SILO_LONG_V_LIFE \b40	
-	#define WAG_SILO_LONG_M_LIFE \b255	
-	#define WAG_SILO_LONG_RC_0 \b0		
-	#define WAG_SILO_LONG_RC_50 \b9	
-	#define WAG_SILO_LONG_RC_60 \b9	
-	#define WAG_SILO_LONG_RC_70 \b9	
-	#define WAG_SILO_LONG_RC_80 \b9	
-	#define WAG_SILO_LONG_RC_90 \b9	
-	#define WAG_SILO_LONG_RC_100 \b9	
-	#define WAG_SILO_LONG_RC_110 \b9	
-	#define WAG_SILO_LONG_RC_120 \b9	
-	#define WAG_SILO_LONG_RC_130 \b9	
-	#define WAG_SILO_LONG_RC_140 \b10	
-	#define WAG_SILO_LONG_RC_150 \b12	
-	#define WAG_SILO_LONG_RC_160 \b14	
-	#define WAG_SILO_LONG_RC_170 \b16	
-	#define WAG_SILO_LONG_RC_180 \b19	
-	#define WAG_SILO_LONG_RC_190 \b22	
-	#define WAG_SILO_LONG_RC_200 \b25	
-	#define WAG_SILO_LONG_RC_210 \b29	
-	#define WAG_SILO_LONG_RC_220 \b33	
-	#define WAG_SILO_LONG_RC_230 \b37	
+	#define WAG_SILO_LONG_M_LIFE \b45	
+	#define WAG_SILO_LONG_RC_0 \b0	
+	#define WAG_SILO_LONG_RC_50 \b29	
+	#define WAG_SILO_LONG_RC_60 \b29	
+	#define WAG_SILO_LONG_RC_70 \b29	
+	#define WAG_SILO_LONG_RC_80 \b29	
+	#define WAG_SILO_LONG_RC_90 \b29	
+	#define WAG_SILO_LONG_RC_100 \b29	
+	#define WAG_SILO_LONG_RC_110 \b31	
+	#define WAG_SILO_LONG_RC_120 \b35	
+	#define WAG_SILO_LONG_RC_130 \b42	
+	#define WAG_SILO_LONG_RC_140 \b50	
+	#define WAG_SILO_LONG_RC_150 \b59	
+	#define WAG_SILO_LONG_RC_160 \b70	
+	#define WAG_SILO_LONG_RC_170 \b82	
+	#define WAG_SILO_LONG_RC_180 \b95	
+	#define WAG_SILO_LONG_RC_190 \b109	
+	#define WAG_SILO_LONG_RC_200 \b125	
+	#define WAG_SILO_LONG_RC_210 \b142	
+	#define WAG_SILO_LONG_RC_220 \b160	
+	#define WAG_SILO_LONG_RC_230 \b179	
 	#define WAG_SILO_LONG_WEIGHT \b32	
-	#define WAG_SILO_LONG_CAPACITY \b48	
-	#define WAG_SILO_LONG_RCOST \b9	
+	#define WAG_SILO_LONG_CAPACITY \b39	
+	#define WAG_SILO_LONG_RCOST \b29	
 	#define WAG_SILO_LONG_LS \b20	
 	#define WAG_SILO_LONG_PCOST \b50	
-	#define WAG_SILO_LONG_ID_B \b*153	
-	#define WAG_SILO_LONG_STR WAG_STR_120_B
-#define WAG_TANK_LONG_INTROYEAR \d1800-1-1	
+	#define WAG_SILO_LONG_ID_B \b*173	
+	#define WAG_SILO_LONG_STR WAG_STR_100_B	
+
+#define WAG_TANK_LONG_INTROYEAR \d1960-1-1	
 	#define WAG_TANK_LONG_V_LIFE \b40	
-	#define WAG_TANK_LONG_M_LIFE \b255	
-	#define WAG_TANK_LONG_RC_0 \b0		
-	#define WAG_TANK_LONG_RC_50 \b9	
-	#define WAG_TANK_LONG_RC_60 \b9	
-	#define WAG_TANK_LONG_RC_70 \b9	
-	#define WAG_TANK_LONG_RC_80 \b9	
-	#define WAG_TANK_LONG_RC_90 \b9	
-	#define WAG_TANK_LONG_RC_100 \b9	
-	#define WAG_TANK_LONG_RC_110 \b9	
-	#define WAG_TANK_LONG_RC_120 \b9	
-	#define WAG_TANK_LONG_RC_130 \b10	
-	#define WAG_TANK_LONG_RC_140 \b11	
-	#define WAG_TANK_LONG_RC_150 \b12	
-	#define WAG_TANK_LONG_RC_160 \b14	
-	#define WAG_TANK_LONG_RC_170 \b17	
-	#define WAG_TANK_LONG_RC_180 \b19	
-	#define WAG_TANK_LONG_RC_190 \b22	
-	#define WAG_TANK_LONG_RC_200 \b26	
-	#define WAG_TANK_LONG_RC_210 \b29	
-	#define WAG_TANK_LONG_RC_220 \b33	
-	#define WAG_TANK_LONG_RC_230 \b37	
+	#define WAG_TANK_LONG_M_LIFE \b45	
+	#define WAG_TANK_LONG_RC_0 \b0	
+	#define WAG_TANK_LONG_RC_50 \b33	
+	#define WAG_TANK_LONG_RC_60 \b33	
+	#define WAG_TANK_LONG_RC_70 \b33	
+	#define WAG_TANK_LONG_RC_80 \b33	
+	#define WAG_TANK_LONG_RC_90 \b33	
+	#define WAG_TANK_LONG_RC_100 \b33	
+	#define WAG_TANK_LONG_RC_110 \b33	
+	#define WAG_TANK_LONG_RC_120 \b33	
+	#define WAG_TANK_LONG_RC_130 \b35	
+	#define WAG_TANK_LONG_RC_140 \b40	
+	#define WAG_TANK_LONG_RC_150 \b46	
+	#define WAG_TANK_LONG_RC_160 \b54	
+	#define WAG_TANK_LONG_RC_170 \b63	
+	#define WAG_TANK_LONG_RC_180 \b74	
+	#define WAG_TANK_LONG_RC_190 \b86	
+	#define WAG_TANK_LONG_RC_200 \b99	
+	#define WAG_TANK_LONG_RC_210 \b114	
+	#define WAG_TANK_LONG_RC_220 \b129	
+	#define WAG_TANK_LONG_RC_230 \b146	
 	#define WAG_TANK_LONG_WEIGHT \b30	
-	#define WAG_TANK_LONG_CAPACITY \b56	
-	#define WAG_TANK_LONG_RCOST \b9	
+	#define WAG_TANK_LONG_CAPACITY \b46	
+	#define WAG_TANK_LONG_RCOST \b33	
 	#define WAG_TANK_LONG_LS \b8	
 	#define WAG_TANK_LONG_PCOST \b50	
-	#define WAG_TANK_LONG_ID_B \b*154	
-	#define WAG_TANK_LONG_STR WAG_STR_120_B
+	#define WAG_TANK_LONG_ID_B \b*174	
+	#define WAG_TANK_LONG_STR WAG_STR_120_B	
+
+																																																											
+#define WAG_FLATBED_SHORT_2_INTROYEAR \d1920-1-1	
+	#define WAG_FLATBED_SHORT_2_V_LIFE \b32	
+	#define WAG_FLATBED_SHORT_2_M_LIFE \b45	
+	#define WAG_FLATBED_SHORT_2_RC_0 \b0	
+	#define WAG_FLATBED_SHORT_2_RC_50 \b18	
+	#define WAG_FLATBED_SHORT_2_RC_60 \b18	
+	#define WAG_FLATBED_SHORT_2_RC_70 \b18	
+	#define WAG_FLATBED_SHORT_2_RC_80 \b18	
+	#define WAG_FLATBED_SHORT_2_RC_90 \b18	
+	#define WAG_FLATBED_SHORT_2_RC_100 \b20	
+	#define WAG_FLATBED_SHORT_2_RC_110 \b25	
+	#define WAG_FLATBED_SHORT_2_RC_120 \b31	
+	#define WAG_FLATBED_SHORT_2_RC_130 \b39	
+	#define WAG_FLATBED_SHORT_2_RC_140 \b48	
+	#define WAG_FLATBED_SHORT_2_RC_150 \b59	
+	#define WAG_FLATBED_SHORT_2_RC_160 \b71	
+	#define WAG_FLATBED_SHORT_2_RC_170 \b84	
+	#define WAG_FLATBED_SHORT_2_RC_180 \b99	
+	#define WAG_FLATBED_SHORT_2_RC_190 \b114	
+	#define WAG_FLATBED_SHORT_2_RC_200 \b131	
+	#define WAG_FLATBED_SHORT_2_RC_210 \b149	
+	#define WAG_FLATBED_SHORT_2_RC_220 \b168	
+	#define WAG_FLATBED_SHORT_2_RC_230 \b188	
+	#define WAG_FLATBED_SHORT_2_WEIGHT \b0	
+	#define WAG_FLATBED_SHORT_2_CAPACITY \b38	
+	#define WAG_FLATBED_SHORT_2_RCOST \b18	
+	#define WAG_FLATBED_SHORT_2_LS \b20	
+	#define WAG_FLATBED_SHORT_2_PCOST \b50	
+	#define WAG_FLATBED_SHORT_2_ID_B \b*160	
+	#define WAG_FLATBED_SHORT_2_STR WAG_STR_90_B	
+
+#define WAG_BOXCAR_SHORT_2_INTROYEAR \d1920-1-1	
+	#define WAG_BOXCAR_SHORT_2_V_LIFE \b32	
+	#define WAG_BOXCAR_SHORT_2_M_LIFE \b45	
+	#define WAG_BOXCAR_SHORT_2_RC_0 \b0	
+	#define WAG_BOXCAR_SHORT_2_RC_50 \b23	
+	#define WAG_BOXCAR_SHORT_2_RC_60 \b23	
+	#define WAG_BOXCAR_SHORT_2_RC_70 \b23	
+	#define WAG_BOXCAR_SHORT_2_RC_80 \b23	
+	#define WAG_BOXCAR_SHORT_2_RC_90 \b23	
+	#define WAG_BOXCAR_SHORT_2_RC_100 \b23	
+	#define WAG_BOXCAR_SHORT_2_RC_110 \b23	
+	#define WAG_BOXCAR_SHORT_2_RC_120 \b25	
+	#define WAG_BOXCAR_SHORT_2_RC_130 \b29	
+	#define WAG_BOXCAR_SHORT_2_RC_140 \b35	
+	#define WAG_BOXCAR_SHORT_2_RC_150 \b43	
+	#define WAG_BOXCAR_SHORT_2_RC_160 \b52	
+	#define WAG_BOXCAR_SHORT_2_RC_170 \b63	
+	#define WAG_BOXCAR_SHORT_2_RC_180 \b75	
+	#define WAG_BOXCAR_SHORT_2_RC_190 \b88	
+	#define WAG_BOXCAR_SHORT_2_RC_200 \b103	
+	#define WAG_BOXCAR_SHORT_2_RC_210 \b119	
+	#define WAG_BOXCAR_SHORT_2_RC_220 \b135	
+	#define WAG_BOXCAR_SHORT_2_RC_230 \b153	
+	#define WAG_BOXCAR_SHORT_2_WEIGHT \b0	
+	#define WAG_BOXCAR_SHORT_2_CAPACITY \b43	
+	#define WAG_BOXCAR_SHORT_2_RCOST \b23	
+	#define WAG_BOXCAR_SHORT_2_LS \b8	
+	#define WAG_BOXCAR_SHORT_2_PCOST \b50	
+	#define WAG_BOXCAR_SHORT_2_ID_B \b*161	
+	#define WAG_BOXCAR_SHORT_2_STR WAG_STR_110_B	
+
+#define WAG_HOPPER_SHORT_2_INTROYEAR \d1920-1-1	
+	#define WAG_HOPPER_SHORT_2_V_LIFE \b32	
+	#define WAG_HOPPER_SHORT_2_M_LIFE \b45	
+	#define WAG_HOPPER_SHORT_2_RC_0 \b0	
+	#define WAG_HOPPER_SHORT_2_RC_50 \b16	
+	#define WAG_HOPPER_SHORT_2_RC_60 \b16	
+	#define WAG_HOPPER_SHORT_2_RC_70 \b18	
+	#define WAG_HOPPER_SHORT_2_RC_80 \b22	
+	#define WAG_HOPPER_SHORT_2_RC_90 \b28	
+	#define WAG_HOPPER_SHORT_2_RC_100 \b36	
+	#define WAG_HOPPER_SHORT_2_RC_110 \b46	
+	#define WAG_HOPPER_SHORT_2_RC_120 \b56	
+	#define WAG_HOPPER_SHORT_2_RC_130 \b68	
+	#define WAG_HOPPER_SHORT_2_RC_140 \b82	
+	#define WAG_HOPPER_SHORT_2_RC_150 \b96	
+	#define WAG_HOPPER_SHORT_2_RC_160 \b112	
+	#define WAG_HOPPER_SHORT_2_RC_170 \b129	
+	#define WAG_HOPPER_SHORT_2_RC_180 \b146	
+	#define WAG_HOPPER_SHORT_2_RC_190 \b165	
+	#define WAG_HOPPER_SHORT_2_RC_200 \b185	
+	#define WAG_HOPPER_SHORT_2_RC_210 \b206	
+	#define WAG_HOPPER_SHORT_2_RC_220 \b228	
+	#define WAG_HOPPER_SHORT_2_RC_230 \b251	
+	#define WAG_HOPPER_SHORT_2_WEIGHT \b0	
+	#define WAG_HOPPER_SHORT_2_CAPACITY \b43	
+	#define WAG_HOPPER_SHORT_2_RCOST \b16	
+	#define WAG_HOPPER_SHORT_2_LS \b8	
+	#define WAG_HOPPER_SHORT_2_PCOST \b50	
+	#define WAG_HOPPER_SHORT_2_ID_B \b*162	
+	#define WAG_HOPPER_SHORT_2_STR WAG_STR_60_B	
+
+#define WAG_SILO_SHORT_2_INTROYEAR \d1920-1-1	
+	#define WAG_SILO_SHORT_2_V_LIFE \b32	
+	#define WAG_SILO_SHORT_2_M_LIFE \b45	
+	#define WAG_SILO_SHORT_2_RC_0 \b0	
+	#define WAG_SILO_SHORT_2_RC_50 \b18	
+	#define WAG_SILO_SHORT_2_RC_60 \b18	
+	#define WAG_SILO_SHORT_2_RC_70 \b18	
+	#define WAG_SILO_SHORT_2_RC_80 \b18	
+	#define WAG_SILO_SHORT_2_RC_90 \b18	
+	#define WAG_SILO_SHORT_2_RC_100 \b20	
+	#define WAG_SILO_SHORT_2_RC_110 \b24	
+	#define WAG_SILO_SHORT_2_RC_120 \b30	
+	#define WAG_SILO_SHORT_2_RC_130 \b38	
+	#define WAG_SILO_SHORT_2_RC_140 \b47	
+	#define WAG_SILO_SHORT_2_RC_150 \b58	
+	#define WAG_SILO_SHORT_2_RC_160 \b70	
+	#define WAG_SILO_SHORT_2_RC_170 \b83	
+	#define WAG_SILO_SHORT_2_RC_180 \b98	
+	#define WAG_SILO_SHORT_2_RC_190 \b114	
+	#define WAG_SILO_SHORT_2_RC_200 \b130	
+	#define WAG_SILO_SHORT_2_RC_210 \b148	
+	#define WAG_SILO_SHORT_2_RC_220 \b167	
+	#define WAG_SILO_SHORT_2_RC_230 \b187	
+	#define WAG_SILO_SHORT_2_WEIGHT \b0	
+	#define WAG_SILO_SHORT_2_CAPACITY \b35	
+	#define WAG_SILO_SHORT_2_RCOST \b18	
+	#define WAG_SILO_SHORT_2_LS \b20	
+	#define WAG_SILO_SHORT_2_PCOST \b50	
+	#define WAG_SILO_SHORT_2_ID_B \b*163	
+	#define WAG_SILO_SHORT_2_STR WAG_STR_90_B	
+
+#define WAG_TANK_SHORT_2_INTROYEAR \d1920-1-1	
+	#define WAG_TANK_SHORT_2_V_LIFE \b32	
+	#define WAG_TANK_SHORT_2_M_LIFE \b45	
+	#define WAG_TANK_SHORT_2_RC_0 \b0	
+	#define WAG_TANK_SHORT_2_RC_50 \b22	
+	#define WAG_TANK_SHORT_2_RC_60 \b22	
+	#define WAG_TANK_SHORT_2_RC_70 \b22	
+	#define WAG_TANK_SHORT_2_RC_80 \b22	
+	#define WAG_TANK_SHORT_2_RC_90 \b22	
+	#define WAG_TANK_SHORT_2_RC_100 \b22	
+	#define WAG_TANK_SHORT_2_RC_110 \b22	
+	#define WAG_TANK_SHORT_2_RC_120 \b24	
+	#define WAG_TANK_SHORT_2_RC_130 \b28	
+	#define WAG_TANK_SHORT_2_RC_140 \b34	
+	#define WAG_TANK_SHORT_2_RC_150 \b42	
+	#define WAG_TANK_SHORT_2_RC_160 \b52	
+	#define WAG_TANK_SHORT_2_RC_170 \b62	
+	#define WAG_TANK_SHORT_2_RC_180 \b74	
+	#define WAG_TANK_SHORT_2_RC_190 \b88	
+	#define WAG_TANK_SHORT_2_RC_200 \b102	
+	#define WAG_TANK_SHORT_2_RC_210 \b118	
+	#define WAG_TANK_SHORT_2_RC_220 \b135	
+	#define WAG_TANK_SHORT_2_RC_230 \b152	
+	#define WAG_TANK_SHORT_2_WEIGHT \b0	
+	#define WAG_TANK_SHORT_2_CAPACITY \b40	
+	#define WAG_TANK_SHORT_2_RCOST \b22	
+	#define WAG_TANK_SHORT_2_LS \b8	
+	#define WAG_TANK_SHORT_2_PCOST \b50	
+	#define WAG_TANK_SHORT_2_ID_B \b*164	
+	#define WAG_TANK_SHORT_2_STR WAG_STR_110_B	
+
+																																																											
+#define WAG_FLATBED_SHORT_INTROYEAR \d1800-1-1	
+	#define WAG_FLATBED_SHORT_V_LIFE \b25	
+	#define WAG_FLATBED_SHORT_M_LIFE \b125	
+	#define WAG_FLATBED_SHORT_RC_0 \b0	
+	#define WAG_FLATBED_SHORT_RC_50 \b15	
+	#define WAG_FLATBED_SHORT_RC_60 \b15	
+	#define WAG_FLATBED_SHORT_RC_70 \b15	
+	#define WAG_FLATBED_SHORT_RC_80 \b17	
+	#define WAG_FLATBED_SHORT_RC_90 \b21	
+	#define WAG_FLATBED_SHORT_RC_100 \b27	
+	#define WAG_FLATBED_SHORT_RC_110 \b35	
+	#define WAG_FLATBED_SHORT_RC_120 \b44	
+	#define WAG_FLATBED_SHORT_RC_130 \b55	
+	#define WAG_FLATBED_SHORT_RC_140 \b67	
+	#define WAG_FLATBED_SHORT_RC_150 \b81	
+	#define WAG_FLATBED_SHORT_RC_160 \b95	
+	#define WAG_FLATBED_SHORT_RC_170 \b111	
+	#define WAG_FLATBED_SHORT_RC_180 \b127	
+	#define WAG_FLATBED_SHORT_RC_190 \b145	
+	#define WAG_FLATBED_SHORT_RC_200 \b164	
+	#define WAG_FLATBED_SHORT_RC_210 \b184	
+	#define WAG_FLATBED_SHORT_RC_220 \b205	
+	#define WAG_FLATBED_SHORT_RC_230 \b227	
+	#define WAG_FLATBED_SHORT_WEIGHT \b0	
+	#define WAG_FLATBED_SHORT_CAPACITY \b34	
+	#define WAG_FLATBED_SHORT_RCOST \b15	
+	#define WAG_FLATBED_SHORT_LS \b20	
+	#define WAG_FLATBED_SHORT_PCOST \b50	
+	#define WAG_FLATBED_SHORT_ID_B \b*150	
+	#define WAG_FLATBED_SHORT_STR WAG_STR_70_B	
+
+#define WAG_BOXCAR_SHORT_INTROYEAR \d1800-1-1	
+	#define WAG_BOXCAR_SHORT_V_LIFE \b25	
+	#define WAG_BOXCAR_SHORT_M_LIFE \b125	
+	#define WAG_BOXCAR_SHORT_RC_0 \b0	
+	#define WAG_BOXCAR_SHORT_RC_50 \b19	
+	#define WAG_BOXCAR_SHORT_RC_60 \b19	
+	#define WAG_BOXCAR_SHORT_RC_70 \b19	
+	#define WAG_BOXCAR_SHORT_RC_80 \b19	
+	#define WAG_BOXCAR_SHORT_RC_90 \b19	
+	#define WAG_BOXCAR_SHORT_RC_100 \b21	
+	#define WAG_BOXCAR_SHORT_RC_110 \b25	
+	#define WAG_BOXCAR_SHORT_RC_120 \b31	
+	#define WAG_BOXCAR_SHORT_RC_130 \b39	
+	#define WAG_BOXCAR_SHORT_RC_140 \b48	
+	#define WAG_BOXCAR_SHORT_RC_150 \b59	
+	#define WAG_BOXCAR_SHORT_RC_160 \b71	
+	#define WAG_BOXCAR_SHORT_RC_170 \b85	
+	#define WAG_BOXCAR_SHORT_RC_180 \b99	
+	#define WAG_BOXCAR_SHORT_RC_190 \b115	
+	#define WAG_BOXCAR_SHORT_RC_200 \b131	
+	#define WAG_BOXCAR_SHORT_RC_210 \b149	
+	#define WAG_BOXCAR_SHORT_RC_220 \b168	
+	#define WAG_BOXCAR_SHORT_RC_230 \b188	
+	#define WAG_BOXCAR_SHORT_WEIGHT \b0	
+	#define WAG_BOXCAR_SHORT_CAPACITY \b39	
+	#define WAG_BOXCAR_SHORT_RCOST \b19	
+	#define WAG_BOXCAR_SHORT_LS \b8	
+	#define WAG_BOXCAR_SHORT_PCOST \b50	
+	#define WAG_BOXCAR_SHORT_ID_B \b*151	
+	#define WAG_BOXCAR_SHORT_STR WAG_STR_90_B	
+
+#define WAG_HOPPER_SHORT_INTROYEAR \d1800-1-1	
+	#define WAG_HOPPER_SHORT_V_LIFE \b25	
+	#define WAG_HOPPER_SHORT_M_LIFE \b125	
+	#define WAG_HOPPER_SHORT_RC_0 \b0	
+	#define WAG_HOPPER_SHORT_RC_50 \b14	
+	#define WAG_HOPPER_SHORT_RC_60 \b15	
+	#define WAG_HOPPER_SHORT_RC_70 \b20	
+	#define WAG_HOPPER_SHORT_RC_80 \b26	
+	#define WAG_HOPPER_SHORT_RC_90 \b34	
+	#define WAG_HOPPER_SHORT_RC_100 \b43	
+	#define WAG_HOPPER_SHORT_RC_110 \b54	
+	#define WAG_HOPPER_SHORT_RC_120 \b66	
+	#define WAG_HOPPER_SHORT_RC_130 \b79	
+	#define WAG_HOPPER_SHORT_RC_140 \b94	
+	#define WAG_HOPPER_SHORT_RC_150 \b109	
+	#define WAG_HOPPER_SHORT_RC_160 \b126	
+	#define WAG_HOPPER_SHORT_RC_170 \b144	
+	#define WAG_HOPPER_SHORT_RC_180 \b163	
+	#define WAG_HOPPER_SHORT_RC_190 \b183	
+	#define WAG_HOPPER_SHORT_RC_200 \b204	
+	#define WAG_HOPPER_SHORT_RC_210 \b226	
+	#define WAG_HOPPER_SHORT_RC_220 \b249	
+	#define WAG_HOPPER_SHORT_RC_230 \b273	
+	#define WAG_HOPPER_SHORT_WEIGHT \b0	
+	#define WAG_HOPPER_SHORT_CAPACITY \b39	
+	#define WAG_HOPPER_SHORT_RCOST \b14	
+	#define WAG_HOPPER_SHORT_LS \b8	
+	#define WAG_HOPPER_SHORT_PCOST \b50	
+	#define WAG_HOPPER_SHORT_ID_B \b*152	
+	#define WAG_HOPPER_SHORT_STR WAG_STR_50_B	
+
+#define WAG_SILO_SHORT_INTROYEAR \d1800-1-1	
+	#define WAG_SILO_SHORT_V_LIFE \b25	
+	#define WAG_SILO_SHORT_M_LIFE \b125	
+	#define WAG_SILO_SHORT_RC_0 \b0	
+	#define WAG_SILO_SHORT_RC_50 \b14	
+	#define WAG_SILO_SHORT_RC_60 \b14	
+	#define WAG_SILO_SHORT_RC_70 \b14	
+	#define WAG_SILO_SHORT_RC_80 \b16	
+	#define WAG_SILO_SHORT_RC_90 \b20	
+	#define WAG_SILO_SHORT_RC_100 \b27	
+	#define WAG_SILO_SHORT_RC_110 \b34	
+	#define WAG_SILO_SHORT_RC_120 \b44	
+	#define WAG_SILO_SHORT_RC_130 \b55	
+	#define WAG_SILO_SHORT_RC_140 \b67	
+	#define WAG_SILO_SHORT_RC_150 \b80	
+	#define WAG_SILO_SHORT_RC_160 \b94	
+	#define WAG_SILO_SHORT_RC_170 \b110	
+	#define WAG_SILO_SHORT_RC_180 \b127	
+	#define WAG_SILO_SHORT_RC_190 \b145	
+	#define WAG_SILO_SHORT_RC_200 \b164	
+	#define WAG_SILO_SHORT_RC_210 \b184	
+	#define WAG_SILO_SHORT_RC_220 \b204	
+	#define WAG_SILO_SHORT_RC_230 \b226	
+	#define WAG_SILO_SHORT_WEIGHT \b0	
+	#define WAG_SILO_SHORT_CAPACITY \b31	
+	#define WAG_SILO_SHORT_RCOST \b14	
+	#define WAG_SILO_SHORT_LS \b20	
+	#define WAG_SILO_SHORT_PCOST \b50	
+	#define WAG_SILO_SHORT_ID_B \b*153	
+	#define WAG_SILO_SHORT_STR WAG_STR_70_B	
+
+#define WAG_TANK_SHORT_INTROYEAR \d1800-1-1	
+	#define WAG_TANK_SHORT_V_LIFE \b25	
+	#define WAG_TANK_SHORT_M_LIFE \b125	
+	#define WAG_TANK_SHORT_RC_0 \b0	
+	#define WAG_TANK_SHORT_RC_50 \b18	
+	#define WAG_TANK_SHORT_RC_60 \b18	
+	#define WAG_TANK_SHORT_RC_70 \b18	
+	#define WAG_TANK_SHORT_RC_80 \b18	
+	#define WAG_TANK_SHORT_RC_90 \b18	
+	#define WAG_TANK_SHORT_RC_100 \b20	
+	#define WAG_TANK_SHORT_RC_110 \b24	
+	#define WAG_TANK_SHORT_RC_120 \b31	
+	#define WAG_TANK_SHORT_RC_130 \b38	
+	#define WAG_TANK_SHORT_RC_140 \b48	
+	#define WAG_TANK_SHORT_RC_150 \b58	
+	#define WAG_TANK_SHORT_RC_160 \b71	
+	#define WAG_TANK_SHORT_RC_170 \b84	
+	#define WAG_TANK_SHORT_RC_180 \b98	
+	#define WAG_TANK_SHORT_RC_190 \b114	
+	#define WAG_TANK_SHORT_RC_200 \b131	
+	#define WAG_TANK_SHORT_RC_210 \b149	
+	#define WAG_TANK_SHORT_RC_220 \b168	
+	#define WAG_TANK_SHORT_RC_230 \b187	
+	#define WAG_TANK_SHORT_WEIGHT \b0	
+	#define WAG_TANK_SHORT_CAPACITY \b36	
+	#define WAG_TANK_SHORT_RCOST \b18	
+	#define WAG_TANK_SHORT_LS \b8	
+	#define WAG_TANK_SHORT_PCOST \b50	
+	#define WAG_TANK_SHORT_ID_B \b*154	
+	#define WAG_TANK_SHORT_STR WAG_STR_90_B	
+
