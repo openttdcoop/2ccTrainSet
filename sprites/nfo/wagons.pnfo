@@ -1,3 +1,4 @@
+// PAX
 #include "wagons/metrowag.pnfo"
 #include "wagons/muwag.pnfo"
 #include "wagons/tender.pnfo"
@@ -13,8 +14,30 @@
 #include "wagons/dd5gen.pnfo"
 
 // Cargo
-#include "wagons/flatbed.pnfo"
-#include "wagons/boxcar.pnfo"
-#include "wagons/hopperlong.pnfo"
-#include "wagons/silolong.pnfo"
-#include "wagons/tanklong.pnfo"
+// 2st generation long
+#include "wagons/long2_flatbed.pnfo"
+#include "wagons/long2_boxcar.pnfo"
+#include "wagons/long2_hopper.pnfo"
+#include "wagons/long2_silo.pnfo"
+#include "wagons/long2_tank.pnfo"
+
+// 1st generation long
+#include "wagons/long1_flatbed.pnfo"
+#include "wagons/long1_boxcar.pnfo"
+#include "wagons/long1_hopper.pnfo"
+#include "wagons/long1_silo.pnfo"
+#include "wagons/long1_tank.pnfo"
+
+// 2st generation short
+#include "wagons/short2_flatbed.pnfo"
+#include "wagons/short2_boxcar.pnfo"
+#include "wagons/short2_hopper.pnfo"
+#include "wagons/short2_silo.pnfo"
+#include "wagons/short2_tank.pnfo"
+
+// 1st generation short
+#include "wagons/short1_flatbed.pnfo"
+#include "wagons/short1_boxcar.pnfo"
+#include "wagons/short1_hopper.pnfo"
+#include "wagons/short1_silo.pnfo"
+#include "wagons/short1_tank.pnfo"
