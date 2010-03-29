@@ -1,0 +1,94 @@
+
+#define THIS_WAG_PCX_PLIST	sprites/pcx/wagons/tank-l/plist.pcx
+#define THIS_WAG_NUM_CARGOS	00
+#define THIS_WAG_NUM_CLASSES	00
+
+// Look in cargotable.pnfo for the cargo<x>_type
+// Cargo1 is ALWAYS the default one
+#define THIS_WAG_CARGO1_NUMSTAGES 	1
+//#define THIS_WAG_CARGO1_CLASS		<class>
+#define CARGO1_PCX_FILE		sprites/pcx/wagons/tank-l/default.pcx
+
+// Cargo2
+//#define THIS_WAG_CARGO2_NUMSTAGES 	3
+//#define THIS_WAG_CARGO2_TYPE		LIVESTOCK
+//#define THIS_WAG_CARGO2_CLASS		<class>
+//#define CARGO2_PCX_FILE		sprites/pcx/wagons/tank-l/livestock.pcx
+
+// Cargo3
+//#define THIS_WAG_CARGO3_NUMSTAGES 	1
+//#define THIS_WAG_CARGO3_TYPE		FOOD
+//#define THIS_WAG_CARGO3_CLASS		\wx84
+//#define CARGO3_PCX_FILE		sprites/pcx/wagons/tank-l/refridged.pcx
+
+// Cargo4
+//#define THIS_WAG_CARGO4_NUMSTAGES 	4
+//#define THIS_WAG_CARGO4_TYPE		WOOD
+//#define THIS_WAG_CARGO4_CLASS		<class>
+//#define CARGO4_PCX_FILE		sprites/pcx/wagons/tank-l/wood.pcx
+
+// Cargo5
+//#define THIS_WAG_CARGO5_NUMSTAGES 	4
+//#define THIS_WAG_CARGO5_TYPE		TROPICAL_WOOD
+//#define THIS_WAG_CARGO5_CLASS		<class>
+//#define CARGO5_PCX_FILE		sprites/pcx/wagons/tank-l/wood.pcx
+
+// Cargo6
+//#define THIS_WAG_CARGO6_NUMSTAGES 	<1,2,3,4,RANDOM_4>
+//#define THIS_WAG_CARGO6_TYPE		<PAX,MAIL,COAL,ETC>
+//#define THIS_WAG_CARGO6_CLASS		<class>
+//#define CARGO6_PCX_FILE		sprites/pcx/wagons/tank-l/containers.pcx
+
+// Cargo7
+//#define THIS_WAG_CARGO7_NUMSTAGES 	<1,2,3,4,RANDOM_4>
+//#define THIS_WAG_CARGO7_TYPE		<PAX,MAIL,COAL,ETC>
+//#define THIS_WAG_CARGO7_CLASS		<class>
+//#define CARGO7_PCX_FILE		sprites/pcx/wagons/tank-l/containers.pcx
+
+// Cargo8
+//#define THIS_WAG_CARGO8_NUMSTAGES 	<1,2,3,4,RANDOM_4>
+//#define THIS_WAG_CARGO8_TYPE		<PAX,MAIL,COAL,ETC>
+//#define THIS_WAG_CARGO8_CLASS		<class>
+//#define CARGO8_PCX_FILE		sprites/pcx/wagons/tank-l/containers.pcx
+
+//#define THIS_WAG_REFITMASK 		\dx02 // adds livestock
+#define THIS_WAG_CARGOCLASSES      	\wx40
+#define THIS_WAG_NOTCARGOCLASSES   	\wx7BF
+#define THIS_WAG_CARGOTYPE		DEFAULT_WATER
+// ^--- This is the default cargotype, always use DEFAULT_<cargo>
+
+#define		THIS_WAG_INTROYEAR		WAG_TANK_SHORT_2_INTROYEAR
+#define		THIS_WAG_V_LIFE			WAG_TANK_SHORT_2_V_LIFE
+#define		THIS_WAG_M_LIFE			WAG_TANK_SHORT_2_M_LIFE
+#define		THIS_WAG_CAP			WAG_TANK_SHORT_2_CAPACITY
+#define		THIS_WAG_WEIGHT			WAG_TANK_SHORT_2_WEIGHT
+#define		THIS_WAG_PCOST			WAG_TANK_SHORT_2_PCOST
+#define		THIS_WAG_RCOST			WAG_TANK_SHORT_2_RCOST
+#define		THIS_WAG_ID_B			WAG_TANK_SHORT_2_ID_B
+#define		THIS_WAG_LS			WAG_TANK_SHORT_2_LS
+#define		THIS_WAG_STR_B			WAG_TANK_SHORT_2_STR
+#define 	THIS_WAG_RCBASE			\dx4C30
+//#define		THIS_WAG_SHORTERVEHICLE	01
+
+#define		THIS_WAG_RC_00		WAG_TANK_SHORT_2_RC_0
+#define		THIS_WAG_RC_50		WAG_TANK_SHORT_2_RC_50
+#define		THIS_WAG_RC_60		WAG_TANK_SHORT_2_RC_60
+#define		THIS_WAG_RC_70		WAG_TANK_SHORT_2_RC_70
+#define		THIS_WAG_RC_80		WAG_TANK_SHORT_2_RC_80
+#define		THIS_WAG_RC_90		WAG_TANK_SHORT_2_RC_90
+#define		THIS_WAG_RC_100		WAG_TANK_SHORT_2_RC_100
+#define		THIS_WAG_RC_110		WAG_TANK_SHORT_2_RC_110
+#define		THIS_WAG_RC_120		WAG_TANK_SHORT_2_RC_120
+#define		THIS_WAG_RC_130		WAG_TANK_SHORT_2_RC_130
+#define		THIS_WAG_RC_140		WAG_TANK_SHORT_2_RC_140
+#define		THIS_WAG_RC_150		WAG_TANK_SHORT_2_RC_150
+#define		THIS_WAG_RC_160		WAG_TANK_SHORT_2_RC_160
+#define		THIS_WAG_RC_170		WAG_TANK_SHORT_2_RC_170
+#define		THIS_WAG_RC_180		WAG_TANK_SHORT_2_RC_180
+#define		THIS_WAG_RC_190		WAG_TANK_SHORT_2_RC_190
+#define		THIS_WAG_RC_200		WAG_TANK_SHORT_2_RC_200
+#define		THIS_WAG_RC_210		WAG_TANK_SHORT_2_RC_210
+#define		THIS_WAG_RC_220		WAG_TANK_SHORT_2_RC_220
+#define		THIS_WAG_RC_230		WAG_TANK_SHORT_2_RC_230
+
+#include TEMPLATE_FREIGHT
