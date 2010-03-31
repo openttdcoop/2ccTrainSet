@@ -1,5 +1,5 @@
 
-#define THIS_WAG_PCX_PLIST	sprites/pcx/wagons/boxcar-l/plist.pcx
+#define THIS_WAG_PCX_PLIST	sprites/pcx/wagons/boxcar-s/plist.pcx
 #define THIS_WAG_NUM_CARGOS	01
 #define THIS_WAG_NUM_CLASSES	01
 
@@ -8,19 +8,19 @@
 #define THIS_WAG_CARGO1_NUMSTAGES 	RANDOM_4
 #define THIS_WAG_CARGO1_TYPE		COTTON
 //#define THIS_WAG_CARGO1_CLASS		<class>
-#define CARGO1_PCX_FILE		sprites/pcx/wagons/boxcar-l/default.pcx
+#define CARGO1_PCX_FILE		sprites/pcx/wagons/boxcar-s/default.pcx
 
 // Cargo2
 #define THIS_WAG_CARGO2_NUMSTAGES 	3
 #define THIS_WAG_CARGO2_TYPE		LIVESTOCK
 //#define THIS_WAG_CARGO2_CLASS		<class>
-#define CARGO2_PCX_FILE		sprites/pcx/wagons/boxcar-l/livestock.pcx
+#define CARGO2_PCX_FILE		sprites/pcx/wagons/boxcar-s/livestock.pcx
 
 // Cargo3
 #define THIS_WAG_CARGO3_NUMSTAGES 	1
 //#define THIS_WAG_CARGO3_TYPE		FOOD
 #define THIS_WAG_CARGO3_CLASS		\wx84
-#define CARGO3_PCX_FILE		sprites/pcx/wagons/boxcar-l/refridged.pcx
+#define CARGO3_PCX_FILE		sprites/pcx/wagons/boxcar-s/refridged.pcx
 
 // Cargo4
 //#define THIS_WAG_CARGO4_NUMSTAGES 	4
@@ -69,7 +69,7 @@
 #define		THIS_WAG_LS			WAG_BOXCAR_SHORT_2_LS
 #define		THIS_WAG_STR_B			WAG_BOXCAR_SHORT_2_STR
 #define 	THIS_WAG_RCBASE			\dx4C30
-//#define		THIS_WAG_SHORTERVEHICLE	01
+#define		THIS_WAG_SHORTERVEHICLE	03
 
 #define		THIS_WAG_RC_00		WAG_BOXCAR_SHORT_2_RC_0
 #define		THIS_WAG_RC_50		WAG_BOXCAR_SHORT_2_RC_50
