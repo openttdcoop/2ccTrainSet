@@ -79,7 +79,8 @@
 #define TEMPLATE_FREIGHTWAG	"../../../templates/wagon_freight.tnfo"
 #define TEMPLATE_RAILBUS	"../../../templates/railbus.tnfo"
 #define TEMPLATE_FREIGHT	"../../../templates/wagon_freight.tnfo"
-// Wagons 
+
+// Wagons - Freight 
 #define WAGON_PAX_NORMAL	"wagon_pax_normal.tnfo"
 #define WAGON_PAX_DOUBLEDECKER	"wagon_pax_dd.tnfo"
 #define WAGON_1STAGE		"wagon_freight_1stage.tnfo"
