@@ -53,7 +53,7 @@
 
 //#define THIS_WAG_REFITMASK 		\dx02 // adds livestock
 #define THIS_WAG_CARGOCLASSES      	\wx40
-#define THIS_WAG_NOTCARGOCLASSES   	\wx40F
+#define THIS_WAG_NOTCARGOCLASSES   	\wxB
 #define THIS_WAG_CARGOTYPE		DEFAULT_WATER
 // ^--- This is the default cargotype, always use DEFAULT_<cargo>
 
