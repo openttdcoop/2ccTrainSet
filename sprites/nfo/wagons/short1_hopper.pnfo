@@ -1,5 +1,5 @@
 
-#define THIS_WAG_PCX_PLIST	sprites/pcx/wagons/hopper-l/plist.pcx
+#define THIS_WAG_PCX_PLIST	sprites/pcx/wagons/hopper-s/plist.pcx
 #define THIS_WAG_NUM_CARGOS	03
 #define THIS_WAG_NUM_CLASSES	00
 
@@ -7,31 +7,31 @@
 // Cargo1 is ALWAYS the default one
 #define THIS_WAG_CARGO1_NUMSTAGES 	4
 //#define THIS_WAG_CARGO1_CLASS		<class>
-#define CARGO1_PCX_FILE		sprites/pcx/wagons/hopper-l/default.pcx
+#define CARGO1_PCX_FILE		sprites/pcx/wagons/hopper-s/default.pcx
 
 // Cargo2
 #define THIS_WAG_CARGO2_NUMSTAGES 	4
 #define THIS_WAG_CARGO2_TYPE		COAL
 //#define THIS_WAG_CARGO2_CLASS		<class>
-#define CARGO2_PCX_FILE		sprites/pcx/wagons/hopper-l/coal.pcx
+#define CARGO2_PCX_FILE		sprites/pcx/wagons/hopper-s/coal.pcx
 
 // Cargo3
 #define THIS_WAG_CARGO3_NUMSTAGES 	4
 #define THIS_WAG_CARGO3_TYPE		COPPERORE
 //#define THIS_WAG_CARGO3_CLASS		\wx84
-#define CARGO3_PCX_FILE		sprites/pcx/wagons/hopper-l/copperore.pcx
+#define CARGO3_PCX_FILE		sprites/pcx/wagons/hopper-s/copperore.pcx
 
 // Cargo4
 #define THIS_WAG_CARGO4_NUMSTAGES 	4
 #define THIS_WAG_CARGO4_TYPE		GRAIN
 //#define THIS_WAG_CARGO4_CLASS		<class>
-#define CARGO4_PCX_FILE		sprites/pcx/wagons/hopper-l/grain.pcx
+#define CARGO4_PCX_FILE		sprites/pcx/wagons/hopper-s/grain.pcx
 
 // Cargo5
 //#define THIS_WAG_CARGO5_NUMSTAGES 	4
 //#define THIS_WAG_CARGO5_TYPE		TROPICAL_WOOD
 //#define THIS_WAG_CARGO5_CLASS		\wx20
-//#define CARGO5_PCX_FILE		sprites/pcx/wagons/hopper-l/woodchips.pcx
+//#define CARGO5_PCX_FILE		sprites/pcx/wagons/hopper-s/woodchips.pcx
 
 // Cargo6
 //#define THIS_WAG_CARGO6_NUMSTAGES 	<1,2,3,4,RANDOM_4>
@@ -68,7 +68,7 @@
 #define		THIS_WAG_LS			WAG_HOPPER_SHORT_LS
 #define		THIS_WAG_STR_B			WAG_HOPPER_SHORT_STR
 #define 	THIS_WAG_RCBASE			\dx4C30
-//#define		THIS_WAG_SHORTERVEHICLE	01
+#define		THIS_WAG_SHORTERVEHICLE	02
 
 #define		THIS_WAG_RC_00		WAG_HOPPER_SHORT_RC_0
 #define		THIS_WAG_RC_50		WAG_HOPPER_SHORT_RC_50
