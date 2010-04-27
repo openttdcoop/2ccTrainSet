@@ -94,6 +94,7 @@
 #include "sprites/nfo/mus/sm2.pnfo"
 #include "sprites/nfo/mus/sm4.pnfo"
 #include "sprites/nfo/mus/tgv-d.pnfo"
+#include "sprites/nfo/mus/tgv-a.pnfo"
 #include "sprites/nfo/mus/tgv-t.pnfo"
 #include "sprites/nfo/mus/vt612.pnfo"
 #include "sprites/nfo/mus/x2000.pnfo"
