@@ -6,7 +6,7 @@
 
 // Look in cargotable.pnfo for the cargo<x>_type
 // Cargo1 is ALWAYS the default one
-#define THIS_WAG_CARGO1_NUMSTAGES 	4
+#define THIS_WAG_CARGO1_NUMSTAGES 	1
 //#define THIS_WAG_CARGO1_CLASS		<class>
 #define CARGO1_PCX_FILE		sprites/pcx/wagons/hopper-s/default.pcx
 
