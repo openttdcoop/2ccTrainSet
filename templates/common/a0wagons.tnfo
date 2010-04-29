@@ -1,0 +1,35 @@
+// Action 0
+-1 * 0  00 00 \b26 01 THIS_WAG_ID_B
+// Game related props 
+  02 \b01			// Reliability Decay
+  03 THIS_WAG_V_LIFE		// Vehicle Life/Years
+  04 THIS_WAG_M_LIFE		// Model Life/Years
+  05 THIS_WAG_TRACKTYPE		// Track type; 00 Rail, 01 Mono, 02 Mlev
+  06 07				// Climate availability
+  07 THIS_WAG_LS		// Loading Speed
+  08 THIS_WAG_AI_PAXOPTIMIZED	// AI Pax optimized
+   
+// Physical properties
+  00 \w1920-01-01               // Intro year \wyyyy-mm-dd
+  09 \w230			// Wagon speed limit
+  0B \w0			// Power in HP
+  2A THIS_WAG_INTROYEAR		// Introyear in days after year 0, with leapyears, except every 400 yrs (year*365,24)
+  16 THIS_WAG_WEIGHT            // Weight/Tons
+
+// Economical properties
+  14 THIS_WAG_CAP               // Cargo Capacity
+  15 THIS_WAG_CARGOTYPE		// Cargo Type
+  1D THIS_WAG_REFITMASK		// Refit bitmask
+  28 THIS_WAG_CARGOCLASSES      // New cargo classes
+  29 THIS_WAG_NOTCARGOCLASSES   // New NOT Cargo classes
+  0D \b0             // RUN Cost Factor
+  0E THIS_WAG_RCBASE            // RUN cost Base
+  17 THIS_WAG_PCOST             // Cost Factor
+  1C THIS_WAG_REFITCOST		// Refit cost
+
+// Misc
+  12 FD	// Use new grapics
+  19 THIS_WAG_TRACTION_TYPE     // Traction type (maglev, rail, monorail)
+  1E THIS_WAG_CALLBACKS         // Callbacks
+  21 THIS_WAG_SHORTERVEHICLE    // Shorter vehicle
+  27 THIS_WAG_MISC              // 01 tilt + 02 2cc + 04 xMU
