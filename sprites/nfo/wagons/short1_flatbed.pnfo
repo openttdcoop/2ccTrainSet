@@ -1,4 +1,4 @@
-
+//Flatbed-short1
 #define THIS_WAG_PCX_PLIST	sprites/pcx/wagons/flatbed/plist.pcx
 #define THIS_WAG_NUM_CARGOS	04
 #define THIS_WAG_NUM_CLASSES	00
@@ -93,3 +93,4 @@
 #define		THIS_WAG_TYPE		NORMAL
 
 #include TEMPLATE_FREIGHT
+
