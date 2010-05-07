@@ -107,9 +107,9 @@
   1D THIS_ENG_REFITMASK		// Refit bitmask
   28 THIS_ENG_CARGOCLASSES      // New cargo classes
   29 THIS_ENG_NOTCARGOCLASSES   // New NOT Cargo classes
-  0D THIS_ENG_RCOST             // RUN Cost Factor
-  0E THIS_ENG_RCBASE            // RUN cost Base
-  17 THIS_ENG_PCOST             // Cost Factor
+  0D 00             // RUN Cost Factor
+  0E \dx4C30            // RUN cost Base
+  17 00             // Cost Factor
   1C THIS_ENG_REFITCOST		// Refit cost
 
 // Misc
@@ -150,7 +150,7 @@
 
 -1 * 0  02 00 10 01 01 \w0 \w0 // -->
 -1 * 0  02 00 40 01 01 \w1 \w1 // P-list
-
+#include TEMPLATE_COSTS_PLIST
 
 // --------------------
 // ----- Generic ------
@@ -158,8 +158,8 @@
 
 //Low cost when standing still, for use in the '10' at the RUN cost spot HEAD
 -1 * 0  02 00 EC 82 B4 00 FF 01			                // 1 case
-                          THIS_ENG_RCOST_IDLE 80 00 00	        // Standing still cost 
-                          THIS_ENG_RCOST 80	                // RUN cost
+                          00 80 00 00	        // Standing still cost 
+                          THIS_ENG_RCOST	                // RUN cost
 
 // '10' for CB36s HEAD
 -1 * 0  02 00 EE 81 10 00 FF 01
@@ -184,7 +184,7 @@
 // ----- Action 3's -----
 // ----------------------
 -1 * 0  03 00 01 THIS_ENG_ID_B 01
-              FF 40 00		// P-list
+              FF 4F 00		// P-list
               AF 00		// Normal
 
 #undef THIS_PCX_FILE
