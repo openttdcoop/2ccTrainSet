@@ -153,6 +153,161 @@
 	#define WAG_PAX_IC_5GEN_ID_B \b*132	
 	#define WAG_PAX_IC_5GEN_STR WAG_STR_200_B	
 
+#define WAG_MAIL_1GEN_INTROYEAR \d1800-1-1	
+	#define WAG_MAIL_1GEN_V_LIFE \b50	
+	#define WAG_MAIL_1GEN_M_LIFE \b105	
+	#define WAG_MAIL_1GEN_RC_0 \w32768	
+	#define WAG_MAIL_1GEN_RC_50 \w32779	
+	#define WAG_MAIL_1GEN_RC_60 \w32781	
+	#define WAG_MAIL_1GEN_RC_70 \w32786	
+	#define WAG_MAIL_1GEN_RC_80 \w32792	
+	#define WAG_MAIL_1GEN_RC_90 \w32800	
+	#define WAG_MAIL_1GEN_RC_100 \w32809	
+	#define WAG_MAIL_1GEN_RC_110 \w32820	
+	#define WAG_MAIL_1GEN_RC_120 \w32832	
+	#define WAG_MAIL_1GEN_RC_130 \w32845	
+	#define WAG_MAIL_1GEN_RC_140 \w32860	
+	#define WAG_MAIL_1GEN_RC_150 \w32875	
+	#define WAG_MAIL_1GEN_RC_160 \w32892	
+	#define WAG_MAIL_1GEN_RC_170 \w32910	
+	#define WAG_MAIL_1GEN_RC_180 \w32929	
+	#define WAG_MAIL_1GEN_RC_190 \w32949	
+	#define WAG_MAIL_1GEN_RC_200 \w32970	
+	#define WAG_MAIL_1GEN_RC_210 \w32992	
+	#define WAG_MAIL_1GEN_RC_220 \w33014	
+	#define WAG_MAIL_1GEN_RC_230 \w33038	
+	#define WAG_MAIL_1GEN_WEIGHT \b16	
+	#define WAG_MAIL_1GEN_CAPACITY \b16	
+	#define WAG_MAIL_1GEN_RCOST \w32779	
+	#define WAG_MAIL_1GEN_LS \b8	
+	#define WAG_MAIL_1GEN_PCOST \b5	
+	#define WAG_MAIL_1GEN_ID_B \b*140	
+	#define WAG_MAIL_1GEN_STR WAG_STR_50_B	
+
+#define WAG_MAIL_2GEN_INTROYEAR \d1900-1-1	
+	#define WAG_MAIL_2GEN_V_LIFE \b40	
+	#define WAG_MAIL_2GEN_M_LIFE \b40	
+	#define WAG_MAIL_2GEN_RC_0 \w32768	
+	#define WAG_MAIL_2GEN_RC_50 \w32785	
+	#define WAG_MAIL_2GEN_RC_60 \w32785	
+	#define WAG_MAIL_2GEN_RC_70 \w32785	
+	#define WAG_MAIL_2GEN_RC_80 \w32785	
+	#define WAG_MAIL_2GEN_RC_90 \w32787	
+	#define WAG_MAIL_2GEN_RC_100 \w32791	
+	#define WAG_MAIL_2GEN_RC_110 \w32797	
+	#define WAG_MAIL_2GEN_RC_120 \w32805	
+	#define WAG_MAIL_2GEN_RC_130 \w32815	
+	#define WAG_MAIL_2GEN_RC_140 \w32825	
+	#define WAG_MAIL_2GEN_RC_150 \w32837	
+	#define WAG_MAIL_2GEN_RC_160 \w32851	
+	#define WAG_MAIL_2GEN_RC_170 \w32865	
+	#define WAG_MAIL_2GEN_RC_180 \w32881	
+	#define WAG_MAIL_2GEN_RC_190 \w32898	
+	#define WAG_MAIL_2GEN_RC_200 \w32915	
+	#define WAG_MAIL_2GEN_RC_210 \w32934	
+	#define WAG_MAIL_2GEN_RC_220 \w32954	
+	#define WAG_MAIL_2GEN_RC_230 \w32975	
+	#define WAG_MAIL_2GEN_WEIGHT \b20	
+	#define WAG_MAIL_2GEN_CAPACITY \b20	
+	#define WAG_MAIL_2GEN_RCOST \w32785	
+	#define WAG_MAIL_2GEN_LS \b8	
+	#define WAG_MAIL_2GEN_PCOST \b10	
+	#define WAG_MAIL_2GEN_ID_B \b*141	
+	#define WAG_MAIL_2GEN_STR WAG_STR_80_B	
+
+#define WAG_MAIL_3GEN_INTROYEAR \d1935-1-1	
+	#define WAG_MAIL_3GEN_V_LIFE \b40	
+	#define WAG_MAIL_3GEN_M_LIFE \b40	
+	#define WAG_MAIL_3GEN_RC_0 \w32768	
+	#define WAG_MAIL_3GEN_RC_50 \w32793	
+	#define WAG_MAIL_3GEN_RC_60 \w32793	
+	#define WAG_MAIL_3GEN_RC_70 \w32793	
+	#define WAG_MAIL_3GEN_RC_80 \w32793	
+	#define WAG_MAIL_3GEN_RC_90 \w32793	
+	#define WAG_MAIL_3GEN_RC_100 \w32793	
+	#define WAG_MAIL_3GEN_RC_110 \w32793	
+	#define WAG_MAIL_3GEN_RC_120 \w32793	
+	#define WAG_MAIL_3GEN_RC_130 \w32794	
+	#define WAG_MAIL_3GEN_RC_140 \w32799	
+	#define WAG_MAIL_3GEN_RC_150 \w32805	
+	#define WAG_MAIL_3GEN_RC_160 \w32813	
+	#define WAG_MAIL_3GEN_RC_170 \w32822	
+	#define WAG_MAIL_3GEN_RC_180 \w32833	
+	#define WAG_MAIL_3GEN_RC_190 \w32845	
+	#define WAG_MAIL_3GEN_RC_200 \w32858	
+	#define WAG_MAIL_3GEN_RC_210 \w32873	
+	#define WAG_MAIL_3GEN_RC_220 \w32888	
+	#define WAG_MAIL_3GEN_RC_230 \w32905	
+	#define WAG_MAIL_3GEN_WEIGHT \b25	
+	#define WAG_MAIL_3GEN_CAPACITY \b25	
+	#define WAG_MAIL_3GEN_RCOST \w32793	
+	#define WAG_MAIL_3GEN_LS \b8	
+	#define WAG_MAIL_3GEN_PCOST \b15	
+	#define WAG_MAIL_3GEN_ID_B \b*142	
+	#define WAG_MAIL_3GEN_STR WAG_STR_120_B	
+
+#define WAG_MAIL_4GEN_INTROYEAR \d1960-1-1	
+	#define WAG_MAIL_4GEN_V_LIFE \b40	
+	#define WAG_MAIL_4GEN_M_LIFE \b45	
+	#define WAG_MAIL_4GEN_RC_0 \w32768	
+	#define WAG_MAIL_4GEN_RC_50 \w32801	
+	#define WAG_MAIL_4GEN_RC_60 \w32801	
+	#define WAG_MAIL_4GEN_RC_70 \w32801	
+	#define WAG_MAIL_4GEN_RC_80 \w32801	
+	#define WAG_MAIL_4GEN_RC_90 \w32801	
+	#define WAG_MAIL_4GEN_RC_100 \w32801	
+	#define WAG_MAIL_4GEN_RC_110 \w32801	
+	#define WAG_MAIL_4GEN_RC_120 \w32801	
+	#define WAG_MAIL_4GEN_RC_130 \w32801	
+	#define WAG_MAIL_4GEN_RC_140 \w32801	
+	#define WAG_MAIL_4GEN_RC_150 \w32801	
+	#define WAG_MAIL_4GEN_RC_160 \w32801	
+	#define WAG_MAIL_4GEN_RC_170 \w32803	
+	#define WAG_MAIL_4GEN_RC_180 \w32807	
+	#define WAG_MAIL_4GEN_RC_190 \w32813	
+	#define WAG_MAIL_4GEN_RC_200 \w32821	
+	#define WAG_MAIL_4GEN_RC_210 \w32830	
+	#define WAG_MAIL_4GEN_RC_220 \w32841	
+	#define WAG_MAIL_4GEN_RC_230 \w32853	
+	#define WAG_MAIL_4GEN_WEIGHT \b30	
+	#define WAG_MAIL_4GEN_CAPACITY \b30	
+	#define WAG_MAIL_4GEN_RCOST \w32801	
+	#define WAG_MAIL_4GEN_LS \b8	
+	#define WAG_MAIL_4GEN_PCOST \b20	
+	#define WAG_MAIL_4GEN_ID_B \b*143	
+	#define WAG_MAIL_4GEN_STR WAG_STR_160_B	
+
+#define WAG_MAIL_5GEN_INTROYEAR \d2000-1-1	
+	#define WAG_MAIL_5GEN_V_LIFE \b40	
+	#define WAG_MAIL_5GEN_M_LIFE \b255	
+	#define WAG_MAIL_5GEN_RC_0 \w32768	
+	#define WAG_MAIL_5GEN_RC_50 \w32801	
+	#define WAG_MAIL_5GEN_RC_60 \w32801	
+	#define WAG_MAIL_5GEN_RC_70 \w32801	
+	#define WAG_MAIL_5GEN_RC_80 \w32801	
+	#define WAG_MAIL_5GEN_RC_90 \w32801	
+	#define WAG_MAIL_5GEN_RC_100 \w32801	
+	#define WAG_MAIL_5GEN_RC_110 \w32801	
+	#define WAG_MAIL_5GEN_RC_120 \w32801	
+	#define WAG_MAIL_5GEN_RC_130 \w32801	
+	#define WAG_MAIL_5GEN_RC_140 \w32801	
+	#define WAG_MAIL_5GEN_RC_150 \w32801	
+	#define WAG_MAIL_5GEN_RC_160 \w32801	
+	#define WAG_MAIL_5GEN_RC_170 \w32801	
+	#define WAG_MAIL_5GEN_RC_180 \w32801	
+	#define WAG_MAIL_5GEN_RC_190 \w32801	
+	#define WAG_MAIL_5GEN_RC_200 \w32801	
+	#define WAG_MAIL_5GEN_RC_210 \w32803	
+	#define WAG_MAIL_5GEN_RC_220 \w32807	
+	#define WAG_MAIL_5GEN_RC_230 \w32813	
+	#define WAG_MAIL_5GEN_WEIGHT \b25	
+	#define WAG_MAIL_5GEN_CAPACITY \b40	
+	#define WAG_MAIL_5GEN_RCOST \w32801	
+	#define WAG_MAIL_5GEN_LS \b8	
+	#define WAG_MAIL_5GEN_PCOST \b25	
+	#define WAG_MAIL_5GEN_ID_B \b*144	
+	#define WAG_MAIL_5GEN_STR WAG_STR_200_B	
+
 #define WAG_PAX_REG_3GEN_INTROYEAR \d1935-1-1	
 	#define WAG_PAX_REG_3GEN_V_LIFE \b40	
 	#define WAG_PAX_REG_3GEN_M_LIFE \b40	
@@ -931,4 +1086,35 @@
 	#define WAG_TANK_SHORT_PCOST \b50	
 	#define WAG_TANK_SHORT_ID_B \b*154	
 	#define WAG_TANK_SHORT_STR WAG_STR_90_B	
+
+#define _INTROYEAR \d-1-1	
+	#define _V_LIFE \b	
+	#define _M_LIFE \b	
+	#define _RC_0 \w0	
+	#define _RC_50 \w30	
+	#define _RC_60 \w40	
+	#define _RC_70 \w53	
+	#define _RC_80 \w66	
+	#define _RC_90 \w80	
+	#define _RC_100 \w96	
+	#define _RC_110 \w113	
+	#define _RC_120 \w131	
+	#define _RC_130 \w149	
+	#define _RC_140 \w169	
+	#define _RC_150 \w190	
+	#define _RC_160 \w212	
+	#define _RC_170 \w235	
+	#define _RC_180 \w259	
+	#define _RC_190 \w284	
+	#define _RC_200 \w310	
+	#define _RC_210 \w336	
+	#define _RC_220 \w364	
+	#define _RC_230 \w392	
+	#define _WEIGHT \b0	
+	#define _CAPACITY \b0	
+	#define _RCOST \w0	
+	#define _LS \b20	
+	#define _PCOST \b50	
+	#define _ID_B \b*0	
+	#define _STR WAG_STR_0_B	
 

@@ -12,6 +12,12 @@
 #include "wagons/reg5gen.pnfo"
 #include "wagons/dd4gen.pnfo"
 #include "wagons/dd5gen.pnfo"
+#include "wagons/mail1gen.pnfo"
+#include "wagons/mail2gen.pnfo"
+#include "wagons/mail3gen.pnfo"
+#include "wagons/mail4gen.pnfo"
+#include "wagons/mail5gen.pnfo"
+
 
 // Cargo
 // 2st generation long
