@@ -61,6 +61,15 @@
 #include "sprites/nfo/engines/v200.pnfo"
 #include "sprites/nfo/engines/wcm1.pnfo"
 #include "sprites/nfo/engines/wdm2.pnfo"
+//placeheld
+#include "sprites/nfo/engines/f3.pnfo"
+#include "sprites/nfo/engines/genesis.pnfo"                                       
+#include "sprites/nfo/engines/m420w.pnfo"
+#include "sprites/nfo/engines/e646.pnfo"
+#include "sprites/nfo/engines/e41.pnfo"
+//#include "sprites/nfo/engines/.pnfo"
+//#include "sprites/nfo/engines/.pnfo"
+//#include "sprites/nfo/engiens/kz2a.pnfo" <-- dont work somehow
 
 
 // MUs
