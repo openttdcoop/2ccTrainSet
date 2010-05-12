@@ -99,6 +99,7 @@
 #define TEMPLATE_EMU_TGV_TA	"emu_tgv_ta.tnfo"
 #define TEMPLATE_EMU_TGV_D	"emu_tgv_d.tnfo"
 #define TEMPLATE_EMU_ICE3	"emu_ice3.tnfo"
+#define TEMPLATE_EMU_HSA	"emu_hsa.tnfo"                                         
 #define	TEMPLATE_EMU_ENGINESTYLE "emu_enginestyle.tnfo"
 
 // Stuff for selecting what VarAction2 template to choose
@@ -116,6 +117,7 @@
 #define TGV_TA_EMU	7	// For the TGV-A and TGV-T and possibly others
 #define TGV_D_EMU	8	// For the TGV Duplex
 #define ICE3_EMU	9	// For the ICE3
+#define HSA_EMU   10 // For HSA
 
 
 // SUB-TEMPLATES

@@ -87,7 +87,7 @@
 #include "sprites/nfo/mus/etr500.pnfo"
 #include "sprites/nfo/mus/et420.pnfo"
 #include "sprites/nfo/mus/hunter.pnfo"
-//#include "sprites/nfo/mus/hsa.pnfo"
+#include "sprites/nfo/mus/hsa.pnfo"
 #include "sprites/nfo/mus/ic125.pnfo"
 #include "sprites/nfo/mus/ice3.pnfo"
 #include "sprites/nfo/mus/icm.pnfo"
