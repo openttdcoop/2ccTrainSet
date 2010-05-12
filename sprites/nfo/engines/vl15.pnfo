@@ -1,0 +1,26 @@
+// change "VL15" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
+
+#define THIS_PCX_FILE	          sprites/pcx/placeholder/engines/8.pcx  // Graphics file
+#define THIS_ENG_ID_B             ENG_VL15_ID_B
+
+#define THIS_ENG_V_LIFE           ENG_VL15_V_LIFE
+#define THIS_ENG_RCOST_IDLE       ENG_VL15_RCOST_IDLE
+#define THIS_ENG_RCOST            ENG_VL15_RCOST
+#define THIS_ENG_M_LIFE           ENG_VL15_M_LIFE
+#define THIS_ENG_INTROYEAR        ENG_VL15_INTROYEAR     // Intro year \wyyyy-mm-dd
+#define THIS_ENG_SPEED	          ENG_VL15_SPEED         // Speed (word)
+#define THIS_ENG_HP	              ENG_VL15_HP            // Power in HP (word)
+#define THIS_ENG_WAG_HP           ENG_VL15_WAG_HP        // Power in HP on attached wagons
+#define THIS_ENG_TE	              ENG_VL15_TE            // Tractive effort
+#define THIS_ENG_WEIGHT           ENG_VL15_WEIGHT        // Weight/Tons
+#define THIS_ENG_WEIGHT_HIGH      ENG_VL15_WEIGHT_HIGH   // Highbyte on engines weighing >255 tons
+#define THIS_ENG_CAP_HEAD_PAX  	  ENG_VL15_CAP_HEAD_PAX  // Cargo Capacity
+#define THIS_ENG_RCOST            ENG_VL15_RCOST         // RUN Cost Factor
+#define THIS_ENG_RCBASE           ENG_VL15_RCBASE        // RUN cost Base
+#define THIS_ENG_PCOST            ENG_VL15_PCOST         // Cost Factor
+#define THIS_ENG_STR_B		        STR_B_ENG_VL15
+#define THIS_ENG_TRACTION_TYPE    ENG_VL15_TRACTION_TYPE
+//#define THIS_ENG_SHORTERVEHICLE   03
+#define TENDER_LENGTH             00
+
+#include TEMPLATE_ENGINES_2PARTER

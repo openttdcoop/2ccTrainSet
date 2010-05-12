@@ -67,7 +67,8 @@
 #include "sprites/nfo/engines/m420w.pnfo"
 #include "sprites/nfo/engines/e646.pnfo"
 #include "sprites/nfo/engines/e41.pnfo"
-//#include "sprites/nfo/engines/.pnfo"
+#include "sprites/nfo/engines/vl15.pnfo"
+#include "sprites/nfo/engines/11b.pnfo"
 //#include "sprites/nfo/engines/.pnfo"
 //#include "sprites/nfo/engiens/kz2a.pnfo" <-- dont work somehow
 
@@ -108,6 +109,9 @@
 #include "sprites/nfo/mus/vt612.pnfo"
 #include "sprites/nfo/mus/x2000.pnfo"
 #include "sprites/nfo/mus/y2.pnfo"
+//placeheld
+#include "sprites/nfo/mus/bdvmot.pnfo"
+
 
 //Railbus
 #include "sprites/nfo/railbus/479.pnfo"
