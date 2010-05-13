@@ -47,6 +47,7 @@
 #include "sprites/nfo/engines/iore.pnfo"
 #include "sprites/nfo/engines/j16cw.pnfo"
 #include "sprites/nfo/engines/lok2k.pnfo"
+#include "sprites/nfo/engines/litera-e.pnfo"
 //#include "sprites/nfo/engines/ner.pnfo"
 #include "sprites/nfo/engines/ns1600.pnfo"
 #include "sprites/nfo/engines/ns1000.pnfo"
