@@ -1,0 +1,151 @@
+// change "DM3" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
+
+#define THIS_PCX_FILE	sprites/pcx/engines/mtabdm3.pcx  // Graphics file
+
+
+// Action 0
+-1 * 0  00 00 \b31 01 ENG_DM3_ID_B
+// Game related props 
+  02 \b01	// Reliability Decay
+  03 ENG_DM3_V_LIFE	// Vehicle Life/Years
+  04 ENG_DM3_M_LIFE	// Model Life/Years
+  05 00		// Track type; 00 Rail, 01 Mono, 02 Mlev
+  06 07		// Climate availability
+  07 \b10	// Loading Speed - Not needed in most cases
+  08 01		// AI Pax optimized
+   
+// Physical properties
+  00 \w1920-01-01		// Intro year \wyyyy-mm-dd
+  2A ENG_DM3_INTROYEAR		// Introyear long format
+  09 ENG_DM3_SPEED		// Speed (word)
+  0B ENG_DM3_HP		// Power in HP (word)
+  1B ENG_DM3_WAG_HP           // Power in HP on attached wagons
+  1F ENG_DM3_TE		// Tractive effort
+  16 ENG_DM3_WEIGHT           // Weight/Tons
+  24 ENG_DM3_WEIGHT_HIGH      // Highbyte on engines weighing >255 tons
+  20 20                         // Air Drag
+
+// Economical properties
+  14 ENG_DM3_CAP_HEAD_PAX  // Cargo Capacity
+  15 00		             // Cargo Type
+  1D \dx0                    // Refit bitmask
+  28 \wx0b	             // New cargo classes
+  29 \wx3f0		     // New NOT Cargo classes
+  0D ENG_DM3_RCOST         // RUN Cost Factor
+  0E ENG_DM3_RCBASE    // RUN cost Base
+  17 ENG_DM3_PCOST			     // Cost Factor
+  1C 00			     // Refit cost
+
+// Misc
+  12 FD	// Use new grapics
+  19 ENG_DM3_TRACTION_TYPE 
+  13 00	// Dualhead? 00/01 (should "always" be 00)
+  1E FF // Callbacks
+  21 00 // Shorter vehicle
+  27 02 // 01 tilt + 02 2cc + 04 xMU
+
+
+// Dont need to change anything more then this (unless its a "special case" grapihcally)
+
+// Action 1 with 5 views and 8 sprites each view
+-1 * 0  01 00 04 08
+// Engine
+// Format: spritenum pcxfile xpos ypos 							
+-1 THIS_PCX_FILE 	1	1	1	22	8	-3	-11
+-1 THIS_PCX_FILE 	10	1	1	17	20	-12	-11
+-1 THIS_PCX_FILE 	33	1	1	14	28	-12	-10
+-1 THIS_PCX_FILE 	66	1	1	17	20	-4	-10
+-1 THIS_PCX_FILE 	89	1	1	22	8	-3	-11
+-1 THIS_PCX_FILE 	98	1	1	17	20	-14	-10
+-1 THIS_PCX_FILE 	121	1	1	14	28	-16	-10
+-1 THIS_PCX_FILE 	154	1	1	17	20	-5	-11
+// 2nd part
+// Format: spritenum pcxfile  xpos 							
+-1 THIS_PCX_FILE 	1	32	1	19	8	-3	-11
+-1 THIS_PCX_FILE 	10	32	1	14	18	-8	-8
+-1 THIS_PCX_FILE 	33	32	1	14	24	-8	-10
+-1 THIS_PCX_FILE 	66	32	1	14	18	-8	-9
+-1 THIS_PCX_FILE 	89	32	1	19	8	-3	-9
+-1 THIS_PCX_FILE 	98	32	1	14	18	-10	-8
+-1 THIS_PCX_FILE 	121	32	1	14	24	-16	-10
+-1 THIS_PCX_FILE 	154	32	1	14	18	-10	-9
+// 3nd part
+// Format: spritenum pcxfile  xpos 							
+-1 THIS_PCX_FILE 	1	64	1	22	8	-3	-11
+-1 THIS_PCX_FILE 	10	64	1	17	20	-12	-11
+-1 THIS_PCX_FILE 	33	64	1	14	28	-12	-10
+-1 THIS_PCX_FILE 	66	64	1	17	20	-3	-10
+-1 THIS_PCX_FILE 	89	64	1	22	8	-3	-11
+-1 THIS_PCX_FILE 	98	64	1	17	20	-14	-10
+-1 THIS_PCX_FILE 	121	64	1	14	28	-16	-10
+-1 THIS_PCX_FILE 	154	64	1	17	20	-7	-11
+// Purchase list
+1 * 0  0
+2 * 0  0
+3 THIS_PCX_FILE    	01	01  1 01  01  -00 -00
+4 * 0  0
+5 * 0  0
+6 * 0  0
+7 THIS_PCX_FILE    	01	96	1	12	87	-25	-08
+8 * 0  0
+
+-1 * 0  02 00 10 01 01 \w0 \w0 // <--
+-1 * 0  02 00 11 01 01 \w1 \w1 // ---
+-1 * 0  02 00 12 01 01 \w2 \w2 // -->
+-1 * 0  02 00 40 01 01 \w3 \w3 // P-list
+
+// Make stuff shorter
+-1 * 0  02 00 10 81 0C 00 FF 01   01 80 11 11   10 00
+-1 * 0  02 00 11 81 0C 00 FF 01   02 80 11 11   11 00
+-1 * 0  02 00 12 81 0C 00 FF 01   01 80 11 11   12 00 
+
+// ----- Apply Purchase list text -----
+-1 * 0  02 00 4F 81 0C 00 FF 01   STR_B_ENG_DM3 80 23 23   40 00
+
+// --------------------
+// ----- Generic ------
+// --------------------
+
+//Low cost when standing still, for use in the '10' at the RUN cost spot HEAD
+-1 * 0  02 00 EC 82 B4 00 FF 01			// 1 case
+                          ENG_DM3_RCOST_IDLE 80 00 00	        // Standing still cost 
+                          ENG_DM3_RCOST 80	// RUN cost
+
+// '10' for CB36s HEAD
+-1 * 0  02 00 EE 81 10 00 FF 01
+                             EC 00 0D 0D		// RUN cost
+                             40 00			// Dont matter
+
+// --------------------
+// ------ Engine ------
+// --------------------
+
+// Articulation:
+-1 * 0  02 00 A9 81 10 00 FF 01
+			  TENDER 80 01 02
+			  FF FF
+// Cannot attach 
+-1 * 0  02 00 A6 85 C6 00 FF FF 03             // 3 cases
+                             ER_MUONLYONMU 80 MU 00 MU 00   // Not attaching MU-wagon
+                             ER_MUONLYONMU 80 \w3000 \w3999 // Not allowing MUs
+                             ER_NORAILCARS 80 \w4000 \w4500 // No railcars
+                             FF 80             // Allow everything else
+-1 * 0  02 00 AF 81 0C 00 FF 03          // 3 callbacks
+                             A9 00 16 16 // Articulation 
+			     A6 00 1D 1D // Cannot attach 
+                             EE 00 36 36 // New stuff
+                             10 00       // Attach engine gfx
+// GFX
+-1 * 0  02 00 B0 81 41 00 03 01		// what, where, every 2nd piece
+                          11 00 00 00	// middle part
+			  12 00  	// last part
+
+// ----------------------
+// ----- Action 3's -----
+// ----------------------
+-1 * 0  03 00 01 ENG_DM3_ID_B 01	//
+              FF 4F 00		// P-list
+              AF 00		// Normal
+-1 * 0  03 00 81 TENDER 00 B0 00
+
+#undef THIS_PCX_FILE
