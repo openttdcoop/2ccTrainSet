@@ -7,7 +7,7 @@
 #define LANG_ID2 AF
 
 // Words for use in the purchase window - Note the spaces in front or at the end of 
-#define WORD_CC         "Vogn Kapasitet: "
+#define WORD_CC         "Kupe Kapasitet: "
 #define WORD_PAX        " Passasjerer"
 #define WORD_MAIL       " Post"
 #define WORD_ARMOR      " Verdigjenstander" 
@@ -16,6 +16,28 @@
 #define WORD_MEDIUM     "Medium"
 #define WORD_SLOW       "Treg"
 #define WORD_RC_1U      "Driftskostnader er per 1 enhet"
+#define WORD_SPEED	    "Normal Maxfart: "
+#define WORD_KMH	"km/t"
+#define WORD_FASTHIGHRC	"Ved bruk over normal maxfart vil driftskostnader vil bli høyere"
+#define WORD_SHORT	"(Kort)"
+#define WORD_LONG	"(Lang)"
+
+#define WORD_FIRST	"1. "
+#define WORD_SECOND	"2. "
+#define WORD_THIRD	"3. "
+#define WORD_FOURTH	"4. "
+#define WORD_FIFTH	"5. "
+#define WORD_GEN	"Generation "
+#define WORD_IC		"Intercity "
+#define WORD_REG	"Regional "
+#define WORD_DD		"Dobbeldekker "
+#define WORD_COACH	"Kupe "
+#define WORD_BOXCAR	"Godsvogn "
+#define WORD_FLATBED	"Flat vogn "
+#define WORD_HOPPER	"Malmvogn "
+#define WORD_TANKER	"Tankvogn "
+#define WORD_SILO	"Silovogn "
+
 
 // Error messages
 #define STR_ER_ONEUNIT      "Kan kun være 1 enhet lang"
