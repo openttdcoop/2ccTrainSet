@@ -3760,7 +3760,7 @@
 		
 	
 
-#define NIG_LITERA_E_INTROYEAR \d1937-1-1	
+#define ENG_LITERA_E_INTROYEAR \d1937-1-1	
 	#define ENG_LITERA_E_V_LIFE \b40	
 	#define ENG_LITERA_E_M_LIFE \b255	
 	#define ENG_LITERA_E_SPEED \w110	
