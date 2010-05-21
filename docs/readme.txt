@@ -38,33 +38,14 @@ Repository version: {{GRF_REVISION}}
 -------------
 
 Param	Value		Function
-1st	0 (default) 	Normal costs 	The nice and high running costs :D
-	1	 	Lowered costs 	1/256th Price on running/purchase cost
-	2	 	Lowered costs 	1/128th Price on running/purchase cost
-	3 		Lowered costs 	1/64th Price on running/purchase cost
-	4 		Lowered costs 	1/32th Price on running/purchase cost
-	5 		Lowered costs 	1/16th Price on running/purchase cost
-	6 		Lowered costs 	1/8thth Price on running/purchase cost
-	7 		Lowered costs 	1/4th Price on running/purchase cost
-	8 		Lowered costs 	Half Price on running/purchase cost
-	9 		Heightened 	Double Price on running/purchase cost
+1             1/4th costs
+2             half costs
+3/clear       default costs
+4             double costs
+5             quadruple costs
 
-Other parameters set regional engine availability. with
-		0: enabled (default)
-		1: disabled
 
-2	African engines
-3	Asian engines
-4	East Euroean engines
-5	North American engines
-6	South American engines
-7	Oceanic engines
-8	Scandinavian engines
-9	South European engines
-10	West European engines
 
-Example: add "7 0 0 0 0 0 0 0 0 1" in the "set parameters"-box, and you will get
-lowered costs, and everyting but western european engines 
 
 
 
@@ -72,8 +53,9 @@ lowered costs, and everyting but western european engines
 -------------------
 GRF Name 	Dependancy 		Where to get it 	Readme?
 Metro Tracks 	HIGHLY Recommended 	Our download page 	Yes :)
+or
+NuTracks      HIGHLY Recomended   Bananas
 
-Note: FooBar's Transrapid Tracks are planned to be a recommended dependancy too. 
 
 
 
@@ -91,25 +73,7 @@ Metro Trains 		None	 	60 on them all! +-150 		Below 60mph/100kmh
 
 
 
-5. Introduction years of track types in the regions
----------------------------------------------------
-
-Region 			Unelectrified rail 	Electrified rail 	Metro rail
-North-America		1941: Big Boy 		N/A			1993: Boston 01800
-South-America		N/A		 	N/A		 	N/A
-Scandinavia		1955: DM7		1942: BM65		1977: M100
-Eastern Europe		1974: 811 DMU 		1977: ET41 		1894: Budapest Subway 1986 Stock
-Southern Europe		1921: 895 		1961: E646 		N/A
-Western Europe		1921: c5/6 		1924: Mat24 		1903: London Underground 1903
-Asia			N/A 			1991: SS6 		1987: Tokyo 01 Series
-Australia 		1969: 422 		2007: OSCars 		N/A
-Africa		 	N/A		 	N/A 			1987: Cairo Metro
-
-Note: This overview is based upon known stats, it is possible the actual GRF got additional vehicles based upon guesstimates. Since the GRF is in development, it's even possible it includes less trains! 
-
-
-
-6. License
+5. License
 ----------
 
 This file is part of the 2cc train set newgrf project.
@@ -146,13 +110,13 @@ Purno
 Snail (steamers)
 Wile E. Coyote (wagons)
 DanMacK (steamers)
+Possibly others
 
 Coders:
 DJ Nekkid - Main Coder
 planetmaker
 Ammler
-Death (ex-coder)
-Wile E. Coyote (ex-coder)
+
 
 Stats Researcher:
 Ameecher
@@ -160,16 +124,11 @@ DJ Nekkid
 trainboy2004
 
 Translators:
-Pizen (Danish)
-glx (French)
-Hirundo (Dutch)
-micomico (Portuguese)
-planetmaker (German)
 
 Host:
 orudge (Project's main page)
 #openttdcoop association (DevZone) 
-ThorRune (ex-host)
+
 
 
 You will find most authors at tt-forums.net
