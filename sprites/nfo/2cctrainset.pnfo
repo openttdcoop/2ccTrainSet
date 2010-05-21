@@ -144,7 +144,7 @@
 #include "sprites/nfo/metro/m2-840.pnfo"
 
 // Maglevs
-//#include "sprites/nfo/mus/chim.pnfo"
+#include "sprites/nfo/mus/chim.pnfo"
 
 // Railtype support for MUS/Engines
 #include "sprites/nfo/nutracksupport.pnfo"
