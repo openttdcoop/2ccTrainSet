@@ -104,13 +104,14 @@
 -1 * 0  04 00 LANG_ID \b1 ENG_VL15_ID_B		SPACE "VL15" 00
 -1 * 0  04 00 LANG_ID \b1 ENG_WCM1_ID_B		SPACE "WCM1" 00
 // Steamers
--1 * 0  04 00 LANG_ID \b1 ENG_11B_ID_B		SPACE "11B" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_11B_ID_B		SPACE "Class 11B 0-8-2" 00
 -1 * 0  04 00 LANG_ID \b1 ENG_140C_ID_B		SPACE "140C" 00
 -1 * 0  04 00 LANG_ID \b1 ENG_141TA_ID_B	SPACE "141TA" 00
 -1 * 0  04 00 LANG_ID \b1 ENG_150B_ID_B		SPACE "150B" 00
 -1 * 0  04 00 LANG_ID \b1 ENG_6300_ID_B		SPACE "6300" 00
 -1 * 0  04 00 LANG_ID \b1 ENG_A4_ID_B		SPACE "A4" 00
 -1 * 0  04 00 LANG_ID \b1 ENG_BIGBOY_ID_B	SPACE "Bigboy" 00
+-1 * 0  04 00 LANG_ID \b1 ENG_LITERA_E_ID_B		SPACE "Littera E" 00                                                         
 -1 * 0  04 00 LANG_ID \b1 ENG_OKZ32_ID_B	SPACE "Okz32" 00
 -1 * 0  04 00 LANG_ID \b1 ENG_ROYALHUDSON_ID_B	SPACE "Royal Hudson" 00
 
@@ -121,6 +122,7 @@
 -1 * 0  04 00 LANG_ID \b1 MU_811_ID_B		SPACE "811"		  00
 -1 * 0  04 00 LANG_ID \b1 MU_2200_ID_B		SPACE "2200"		  00
 -1 * 0  04 00 LANG_ID \b1 MU_4041_ID_B		SPACE "4041"		  00
+-1 * 0  04 00 LANG_ID \b1 MU_BDVMOT_ID_B		SPACE "BDVmot"		  00
 -1 * 0  04 00 LANG_ID \b1 MU_BM65_ID_B		SPACE "BM65"		  00
 -1 * 0  04 00 LANG_ID \b1 MU_BM73_ID_B		SPACE "BM73"		  00
 -1 * 0  04 00 LANG_ID \b1 MU_BM93_ID_B		SPACE "BM93"		  00
@@ -146,6 +148,7 @@
 -1 * 0  04 00 LANG_ID \b1 MU_VT612_ID_B		SPACE "VT612 'Regioswinger'"		  00
 -1 * 0  04 00 LANG_ID \b1 MU_SM2_ID_B		SPACE "SM2"		  00
 -1 * 0  04 00 LANG_ID \b1 MU_SM4_ID_B		SPACE "SM4"		  00
+-1 * 0  04 00 LANG_ID \b1 MU_TGV_A_ID_B		SPACE "TGV Atlantique"		  00                                                                    
 -1 * 0  04 00 LANG_ID \b1 MU_TGV_D_ID_B		SPACE "TGV Duplex"		  00
 -1 * 0  04 00 LANG_ID \b1 MU_TGV_T_ID_B		SPACE "TGV Thalys"		  00
 -1 * 0  04 00 LANG_ID \b1 MU_Y2_ID_B		SPACE "Y2"		  00
