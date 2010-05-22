@@ -433,7 +433,7 @@
 
 // ----- Apply Purchase list text -----
 -1 * 0  01 00 01 01
--1 THIS_WAG_PCX_PLIST  	1 	1 	01 	12	60	-25 -8
+-1 THIS_WAG_PCX_PLIST  	1 	1 	01 	12	63	-25 -8
 -1 * 0  02 00 40 01 01 \w0 \w0
 #include TEMPLATE_COSTS_PLIST_WAG
 
