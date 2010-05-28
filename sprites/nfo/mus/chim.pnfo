@@ -10,7 +10,7 @@
   02 \b01	// Reliability Decay
   03 MU_CHIM_V_LIFE	// Vehicle Life/Years
   04 MU_CHIM_M_LIFE	// Model Life/Years
-  05 \b02		// Track type; 00 Rail, 01 Mono, 02 Mlev
+  05 \b12		// Track type; 00 Rail, 01 Mono, 02 Mlev
   06 07		// Climate availability
   07 \b10	// Loading Speed - Not needed in most cases
   08 01		// AI Pax optimized
