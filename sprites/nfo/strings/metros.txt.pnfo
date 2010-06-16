@@ -38,6 +38,11 @@
                                 98 WORD_LS 8A WORD_FAST  "\n"
                                 8B "NB: " 98 WORD_RC_1U	00
 
+// LDN1938
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MET_LDN1938      "\n"
+                                WORD_CC 8A MET_LDN1938_CAP_WAG_PAX_STR WORD_PAX " / " MET_LDN1938_CAP_WAG_MAIL_STR WORD_MAIL " / " MET_LDN1938_CAP_WAG_ARMOR_STR WORD_ARMOR  "\n" 
+                                98 WORD_LS 8A WORD_FAST  "\n"
+                                8B "NB: " 98 WORD_RC_1U	00
 // M1
 -1 * 0  04 00 LANG_ID2 \b1 STR_W_MET_M1      "\n"
                                 WORD_CC 8A MET_M1_CAP_WAG_PAX_STR WORD_PAX " / " MET_M1_CAP_WAG_MAIL_STR WORD_MAIL " / " MET_M1_CAP_WAG_ARMOR_STR WORD_ARMOR  "\n" 
@@ -58,3 +63,35 @@
                                 WORD_CC 8A MET_TOKYO_CAP_WAG_PAX_STR WORD_PAX " / " MET_TOKYO_CAP_WAG_MAIL_STR WORD_MAIL " / " MET_TOKYO_CAP_WAG_ARMOR_STR WORD_ARMOR  "\n" 
                                 98 WORD_LS 8A WORD_FAST  "\n"
                                 8B "NB: " 98 WORD_RC_1U	00
+// M2_840
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MET_M2_840      "\n"
+                                WORD_CC 8A MET_M2_840_CAP_WAG_PAX_STR WORD_PAX " / " MET_M2_840_CAP_WAG_MAIL_STR WORD_MAIL " / " MET_M2_840_CAP_WAG_ARMOR_STR WORD_ARMOR  "\n" 
+                                98 WORD_LS 8A WORD_FAST  "\n"
+                                8B "NB: " 98 WORD_RC_1U	00
+// M100
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MET_M100      "\n"
+                                WORD_CC 8A MET_M100_CAP_WAG_PAX_STR WORD_PAX " / " MET_M100_CAP_WAG_MAIL_STR WORD_MAIL " / " MET_M100_CAP_WAG_ARMOR_STR WORD_ARMOR  "\n" 
+                                98 WORD_LS 8A WORD_FAST  "\n"
+                                8B "NB: " 98 WORD_RC_1U	00
+// DLR
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MET_DLR      "\n"
+                                WORD_CC 8A MET_DLR_CAP_WAG_PAX_STR WORD_PAX " / " MET_DLR_CAP_WAG_MAIL_STR WORD_MAIL " / " MET_DLR_CAP_WAG_ARMOR_STR WORD_ARMOR  "\n" 
+                                98 WORD_LS 8A WORD_FAST  "\n"
+                                8B "NB: " 98 WORD_RC_1U	00
+// CII
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MET_CII      "\n"
+                                WORD_CC 8A MET_CII_CAP_WAG_PAX_STR WORD_PAX " / " MET_CII_CAP_WAG_MAIL_STR WORD_MAIL " / " MET_CII_CAP_WAG_ARMOR_STR WORD_ARMOR  "\n" 
+                                98 WORD_LS 8A WORD_FAST  "\n"
+                                8B "NB: " 98 WORD_RC_1U	00
+// BROOKLYN
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MET_BROOKLYN      "\n"
+                                WORD_CC 8A MET_BROOKLYN_CAP_WAG_PAX_STR WORD_PAX " / " MET_BROOKLYN_CAP_WAG_MAIL_STR WORD_MAIL " / " MET_BROOKLYN_CAP_WAG_ARMOR_STR WORD_ARMOR  "\n" 
+                                98 WORD_LS 8A WORD_FAST  "\n"
+                                8B "NB: " 98 WORD_RC_1U	00
+// BUDA1894
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MET_BUDA1894      "\n"
+                                WORD_CC 8A MET_BUDA1894_CAP_WAG_PAX_STR WORD_PAX " / " MET_BUDA1894_CAP_WAG_MAIL_STR WORD_MAIL " / " MET_BUDA1894_CAP_WAG_ARMOR_STR WORD_ARMOR  "\n" 
+                                98 WORD_LS 8A WORD_FAST  "\n"
+                                8B "NB: " 98 WORD_RC_1U	00
+
+                                
