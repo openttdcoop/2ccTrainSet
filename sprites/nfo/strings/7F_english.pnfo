@@ -10,7 +10,7 @@
 #define WORD_CC         "Carriage Capacity: "
 #define WORD_PAX        " Passengers"
 #define WORD_MAIL       " Mail"
-#define WORD_ARMOR      " Valuabels" 
+#define WORD_ARMOR      " Valuables" 
 #define WORD_LS         "Loading Speed: "
 #define WORD_FAST       "Fast"
 #define WORD_MEDIUM     "Medium"
