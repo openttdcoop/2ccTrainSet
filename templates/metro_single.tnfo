@@ -171,9 +171,8 @@
 // --------------------
 
 // Cannot attach 
--1 * 0  02 00 A6 85 C6 00 FF FF 02                          // 2 cases
-                             ER_MUONLYONMU 80 MU 00 MU 00   // disallow attaching MU-wagon
-			     ER_ONEUNIT	   80 WAGON_LOW RB_HIGH // disallow everything, basicly 
+-1 * 0  02 00 A6 85 C6 00 FF FF 01                          // 1 case
+			                       ER_ONEUNIT	   80 \wx0 \wxFFFF  // disallow everything, basicly 
                              FF 80                          // Allow everything else
 -1 * 0  02 00 AF 81 0C 00 FF 02                             // 4 callbacks
                              A6 00 1D 1D                    // Cannot attach 
