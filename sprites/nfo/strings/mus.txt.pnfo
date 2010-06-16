@@ -27,7 +27,7 @@
 // 2200
 -1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_2200      "\n"
                                 WORD_CC 8A MU_2200_CAP_WAG_PAX_STR WORD_PAX " / " MU_2200_CAP_WAG_MAIL_STR WORD_MAIL " / " MU_2200_CAP_WAG_ARMOR_STR WORD_ARMOR  "\n" 
-                                98 WORD_LS 8A "WORD_MEDIUM" "\n"
+                                98 WORD_LS 8A WORD_MEDIUM "\n"
                                 8B "NB: " 98 WORD_RC_1U	00
 // 4041
 -1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_4041      "\n"
