@@ -30,7 +30,7 @@ GRF Name: {{GRF_TITLE}}
 GRF ID:   {{GRF_ID}}
 GRF MD5:  {{GRF_MD5}}
 
-Repository version: {{GRF_REVISION}}
+Repository version: {{REPO_REVISION}}
 
 
 
