@@ -69,6 +69,7 @@
 #include "sprites/nfo/engines/e41.pnfo"
 #include "sprites/nfo/engines/vl15.pnfo"
 #include "sprites/nfo/engines/11b.pnfo"
+#include "sprites/nfo/engines/a4.pnfo"
 
 //#include "sprites/nfo/engines/.pnfo"
 #include "sprites/nfo/engines/kz2a.pnfo"
