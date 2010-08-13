@@ -2015,7 +2015,7 @@
 	#define ENG_GL8_V_LIFE \b40	
 	#define ENG_GL8_M_LIFE \b30	
 	#define ENG_GL8_SPEED \w124	
-	#define ENG_GL8_TE \b0	
+	#define ENG_GL8_TE \b33	
 	#define ENG_GL8_HP \w875	
 	#define ENG_GL8_WAG_HP \w0	
 	#define ENG_GL8_CAP_WAG_PAX \b0	
