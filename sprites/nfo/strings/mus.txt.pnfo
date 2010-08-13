@@ -201,3 +201,14 @@
                                 WORD_CC 8A MU_X2000_CAP_WAG_PAX_STR WORD_PAX " / " MU_X2000_CAP_WAG_MAIL_STR WORD_MAIL " / " MU_X2000_CAP_WAG_ARMOR_STR WORD_ARMOR  "\n" 
                                 98 WORD_LS 8A WORD_SLOW  00
 
+// SHINKANSEN0
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_SHINKANSEN0      "\n\n"
+                                WORD_CC 8A MU_SHINKANSEN0_CAP_WAG_PAX_STR WORD_PAX " / " MU_SHINKANSEN0_CAP_WAG_MAIL_STR WORD_MAIL " / " MU_SHINKANSEN0_CAP_WAG_ARMOR_STR WORD_ARMOR  "\n" 
+                                98 WORD_LS 8A WORD_SLOW  "\n"
+                                8B "NB: " 98 WORD_RC_1U	00
+
+// SHINKANSEN700
+-1 * 0  04 00 LANG_ID2 \b1 STR_W_MU_SHINKANSEN700      "\n\n"
+                                WORD_CC 8A MU_SHINKANSEN700_CAP_WAG_PAX_STR WORD_PAX " / " MU_SHINKANSEN700_CAP_WAG_MAIL_STR WORD_MAIL " / " MU_SHINKANSEN700_CAP_WAG_ARMOR_STR WORD_ARMOR  "\n" 
+                                98 WORD_LS 8A WORD_SLOW  "\n"
+                                8B "NB: " 98 WORD_RC_1U	00

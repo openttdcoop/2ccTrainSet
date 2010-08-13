@@ -179,7 +179,7 @@
 -1 * 0  02 00 AF 81 0C 00 FF 04          // 4 callbacks
                              E1 00 12 12 // Loading speed
                              E5 00 15 15 // Cargo Capacity
-                             A6 00 1D 1D// Cannot attach 
+                             A6 00 1D 1D // Cannot attach 
                              EE 00 36 36 // New stuff
                              A0 00       // Attach engine gfx
 
@@ -226,8 +226,8 @@
                              55 00
 
 // Callbacks
--1 * 0  02 00 5F 81 0C 00 FF 04          // 3 callbacks
-                             02 80 11 11 // Wagon length
+-1 * 0  02 00 5F 81 0C 00 FF 04          // 5 callbacks
+    THIS_ENG_SHORTERVEHICLE_WAG 80 11 11 // Wagon length
                              E1 00 12 12 // Loading speed
                              E6 00 15 15 // Cargo Capacity
                              EF 00 36 36 // Change props
