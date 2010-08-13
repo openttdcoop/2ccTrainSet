@@ -1,0 +1,24 @@
+// change "M62" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
+
+#define THIS_PCX_FILE	          sprites/pcx/engines/m62.pcx  // Graphics file
+#define THIS_ENG_ID_B             ENG_M62_ID_B
+
+#define THIS_ENG_V_LIFE           ENG_M62_V_LIFE
+#define THIS_ENG_RCOST_IDLE       ENG_M62_RCOST_IDLE
+#define THIS_ENG_RCOST            ENG_M62_RCOST
+#define THIS_ENG_M_LIFE           ENG_M62_M_LIFE
+#define THIS_ENG_INTROYEAR        ENG_M62_INTROYEAR     // Intro year \wyyyy-mm-dd
+#define THIS_ENG_SPEED	          ENG_M62_SPEED         // Speed (word)
+#define THIS_ENG_HP	          ENG_M62_HP            // Power in HP (word)
+#define THIS_ENG_WAG_HP           ENG_M62_WAG_HP        // Power in HP on attached wagons
+#define THIS_ENG_TE	          ENG_M62_TE            // Tractive effort
+#define THIS_ENG_WEIGHT           ENG_M62_WEIGHT        // Weight/Tons
+#define THIS_ENG_WEIGHT_HIGH      ENG_M62_WEIGHT_HIGH   // Highbyte on engines weighing >255 tons
+#define THIS_ENG_CAP_HEAD_PAX  	  ENG_M62_CAP_HEAD_PAX  // Cargo Capacity
+#define THIS_ENG_RCOST            ENG_M62_RCOST         // RUN Cost Factor
+#define THIS_ENG_RCBASE           ENG_M62_RCBASE        // RUN cost Base
+#define THIS_ENG_PCOST            ENG_M62_PCOST         // Cost Factor
+#define THIS_ENG_STR_B		  STR_B_ENG_M62
+#define THIS_ENG_TRACTION_TYPE    ENG_M62_TRACTION_TYPE
+
+#include TEMPLATE_ENGINES
