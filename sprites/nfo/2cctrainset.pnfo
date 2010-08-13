@@ -70,6 +70,11 @@
 #include "sprites/nfo/engines/vl15.pnfo"
 #include "sprites/nfo/engines/11b.pnfo"
 #include "sprites/nfo/engines/a4.pnfo"
+#include "sprites/nfo/engines/chme3.pnfo"
+#include "sprites/nfo/engines/p36.pnfo"
+#include "sprites/nfo/engines/m62.pnfo"
+#include "sprites/nfo/engines/vl22m.pnfo"
+#include "sprites/nfo/engines/vl85.pnfo"
 
 //#include "sprites/nfo/engines/.pnfo"
 #include "sprites/nfo/engines/kz2a.pnfo"
@@ -111,6 +116,8 @@
 #include "sprites/nfo/mus/vt612.pnfo"
 #include "sprites/nfo/mus/x2000.pnfo"
 #include "sprites/nfo/mus/y2.pnfo"
+#include "sprites/nfo/mus/shinkansen0.pnfo"
+#include "sprites/nfo/mus/shinkansen700.pnfo"
 //placeheld
 #include "sprites/nfo/mus/bdvmot.pnfo"
 

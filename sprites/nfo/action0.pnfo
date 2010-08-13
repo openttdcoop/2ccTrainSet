@@ -1342,13 +1342,79 @@
 	#define MU_CHIM_PCOST \w49453	
 	#define MU_CHIM_RCOST \w47416	
 	#define MU_CHIM_RCOST_WAG \w32788	
-	#define MU_CHIM_NUTRACKS_TRACKTYPE \b12	
+	#define MU_CHIM_NUTRACKS_TRACKTYPE 7	
 		
 	#define MU_CHIM_TRACTION_TYPE 38	
 	#define MU_CHIM_ID_W \w00	
 	#define MU_CHIM_ID_B \b*00	
 	#define STR_W_MU_CHIM \wxD028	
 	#define STR_B_MU_CHIM 28	
+	
+
+#define MU_SHINKANSEN0_INTROYEAR \d1964-1-1	
+	#define MU_SHINKANSEN0_V_LIFE \b44	
+	#define MU_SHINKANSEN0_M_LIFE \b47	
+	#define MU_SHINKANSEN0_SPEED \w210	
+	#define MU_SHINKANSEN0_TE \b77	
+	#define MU_SHINKANSEN0_HP \w1000	
+	#define MU_SHINKANSEN0_WAG_HP \w1000	
+	#define MU_SHINKANSEN0_CAP_WAG_PAX \b50	
+	#define MU_SHINKANSEN0_CAP_WAG_MAIL \b38	
+	#define MU_SHINKANSEN0_CAP_WAG_ARMOR \b25	
+	#define MU_SHINKANSEN0_CAP_WAG_PAX_STR "50"	
+	#define MU_SHINKANSEN0_CAP_WAG_MAIL_STR "38"	
+	#define MU_SHINKANSEN0_CAP_WAG_ARMOR_STR "25"	
+	#define MU_SHINKANSEN0_CAP_HEAD_PAX \b50	
+	#define MU_SHINKANSEN0_CAP_HEAD_MAIL \b38	
+	#define MU_SHINKANSEN0_CAP_HEAD_ARMOR \b25	
+	#define MU_SHINKANSEN0_PAX_LS \b8	
+	#define MU_SHINKANSEN0_MAIL_LS \b6	
+	#define MU_SHINKANSEN0_ARMOR_LS \b4	
+	#define MU_SHINKANSEN0_WEIGHT \b54	
+	#define MU_SHINKANSEN0_WEIGHT_HIGH \b0	
+	#define MU_SHINKANSEN0_PCOST \w34444	
+	#define MU_SHINKANSEN0_RCOST \w32986	
+	#define MU_SHINKANSEN0_RCOST_WAG \w32986	
+	#define MU_SHINKANSEN0_NUTRACKS_TRACKTYPE 7	
+		
+	#define MU_SHINKANSEN0_TRACTION_TYPE 28	
+	#define MU_SHINKANSEN0_ID_W \w3040	
+	#define MU_SHINKANSEN0_ID_B \b*3040	
+	#define STR_W_MU_SHINKANSEN0 \wxD029	
+	#define STR_B_MU_SHINKANSEN0 29	
+	
+
+#define MU_SHINKANSEN700_INTROYEAR \d1997-1-1	
+	#define MU_SHINKANSEN700_V_LIFE \b25	
+	#define MU_SHINKANSEN700_M_LIFE \b255	
+	#define MU_SHINKANSEN700_SPEED \w270	
+	#define MU_SHINKANSEN700_TE \b145	
+	#define MU_SHINKANSEN700_HP \w1441	
+	#define MU_SHINKANSEN700_WAG_HP \w1441	
+	#define MU_SHINKANSEN700_CAP_WAG_PAX \b83	
+	#define MU_SHINKANSEN700_CAP_WAG_MAIL \b62	
+	#define MU_SHINKANSEN700_CAP_WAG_ARMOR \b42	
+	#define MU_SHINKANSEN700_CAP_WAG_PAX_STR "83"	
+	#define MU_SHINKANSEN700_CAP_WAG_MAIL_STR "62"	
+	#define MU_SHINKANSEN700_CAP_WAG_ARMOR_STR "42"	
+	#define MU_SHINKANSEN700_CAP_HEAD_PAX \b83	
+	#define MU_SHINKANSEN700_CAP_HEAD_MAIL \b62	
+	#define MU_SHINKANSEN700_CAP_HEAD_ARMOR \b42	
+	#define MU_SHINKANSEN700_PAX_LS \b8	
+	#define MU_SHINKANSEN700_MAIL_LS \b6	
+	#define MU_SHINKANSEN700_ARMOR_LS \b4	
+	#define MU_SHINKANSEN700_WEIGHT \b45	
+	#define MU_SHINKANSEN700_WEIGHT_HIGH \b0	
+	#define MU_SHINKANSEN700_PCOST \w35242	
+	#define MU_SHINKANSEN700_RCOST \w33101	
+	#define MU_SHINKANSEN700_RCOST_WAG \w33101	
+	#define MU_SHINKANSEN700_NUTRACKS_TRACKTYPE 8	
+		
+	#define MU_SHINKANSEN700_TRACTION_TYPE 28	
+	#define MU_SHINKANSEN700_ID_W \w3041	
+	#define MU_SHINKANSEN700_ID_B \b*3041	
+	#define STR_W_MU_SHINKANSEN700 \wxD02A	
+	#define STR_B_MU_SHINKANSEN700 2A	
 	
 
 #define NIG_ETR200_INTROYEAR \d1937-1-1	
@@ -1375,7 +1441,7 @@
 	#define NIG_ETR200_PCOST \w33853	
 	#define NIG_ETR200_RCOST \w32901	
 	#define NIG_ETR200_RCOST_WAG \w32901	
-	#define NIG_ETR200_NUTRACKS_TRACKTYPE 5	
+	#define NIG_ETR200_NUTRACKS_TRACKTYPE  \b12	
 		
 	#define NIG_ETR200_TRACTION_TYPE 28	
 	#define NIG_ETR200_ID_W \w5	
@@ -1636,12 +1702,12 @@
 	#define RB_479_ARMOR_LS \b10	
 	#define RB_479_WEIGHT \b23	
 	#define RB_479_WEIGHT_HIGH \b0	
-	#define RB_479_PCOST \w32922	
-	#define RB_479_RCOST \w32922	
+	#define RB_479_PCOST \w32952	
+	#define RB_479_RCOST \w32891	
 	#define RB_479_RCOST_WAG \w32788	
-	#define RB_479_NUTRACKS_TRACKTYPE 0	
+	#define RB_479_NUTRACKS_TRACKTYPE 1	
 		
-	#define RB_479_TRACTION_TYPE 8	
+	#define RB_479_TRACTION_TYPE 28	
 	#define RB_479_ID_W \w3505	
 	#define RB_479_ID_B \b*3505	
 	#define STR_W_RB_479 \wxD0D0	
@@ -3558,8 +3624,8 @@
 	#define NIG_P36_TRACTION_TYPE 0	
 	#define NIG_P36_ID_W \w2054	
 	#define NIG_P36_ID_B \b*2054	
-		
-		
+	#define STR_W_NIG_P36 \wxD0D0	
+	#define STR_B_NIG_P36 D0	
 	
 
 #define NIG_SU250_INTROYEAR \d1-1-1	
@@ -3591,8 +3657,8 @@
 	#define NIG_SU250_TRACTION_TYPE 0	
 	#define NIG_SU250_ID_W \w2055	
 	#define NIG_SU250_ID_B \b*2055	
-		
-		
+	#define STR_W_NIG_SU250 \wxD0D0	
+	#define STR_B_NIG_SU250 D0	
 	
 
 #define NIG_DAYLIGHT_INTROYEAR \d1940-1-1	
@@ -3624,8 +3690,8 @@
 	#define NIG_DAYLIGHT_TRACTION_TYPE 0	
 	#define NIG_DAYLIGHT_ID_W \w2056	
 	#define NIG_DAYLIGHT_ID_B \b*2056	
-		
-		
+	#define STR_W_NIG_DAYLIGHT \wxD0D0	
+	#define STR_B_NIG_DAYLIGHT D0	
 	
 
 #define NIG_895_INTROYEAR \d1921-1-1	
@@ -3657,8 +3723,8 @@
 	#define NIG_895_TRACTION_TYPE 0	
 	#define NIG_895_ID_W \w2057	
 	#define NIG_895_ID_B \b*2057	
-		
-		
+	#define STR_W_NIG_895 \wxD0D0	
+	#define STR_B_NIG_895 D0	
 	
 
 #define NIG_GARRAFETA_INTROYEAR \d1-1-1	
@@ -3690,8 +3756,8 @@
 	#define NIG_GARRAFETA_TRACTION_TYPE 0	
 	#define NIG_GARRAFETA_ID_W \w2058	
 	#define NIG_GARRAFETA_ID_B \b*2058	
-		
-		
+	#define STR_W_NIG_GARRAFETA \wxD0D0	
+	#define STR_B_NIG_GARRAFETA D0	
 	
 
 #define NIG_BR23_INTROYEAR \d1-1-1	
@@ -3723,8 +3789,8 @@
 	#define NIG_BR23_TRACTION_TYPE 0	
 	#define NIG_BR23_ID_W \w2059	
 	#define NIG_BR23_ID_B \b*2059	
-		
-		
+	#define STR_W_NIG_BR23 \wxD0D0	
+	#define STR_B_NIG_BR23 D0	
 	
 
 #define NIG_C5_6_INTROYEAR \d1921-1-1	
@@ -3756,8 +3822,8 @@
 	#define NIG_C5_6_TRACTION_TYPE 0	
 	#define NIG_C5_6_ID_W \w2060	
 	#define NIG_C5_6_ID_B \b*2060	
-		
-		
+	#define STR_W_NIG_C5_6 \wxD0D0	
+	#define STR_B_NIG_C5_6 D0	
 	
 
 #define ENG_LITERA_E_INTROYEAR \d1937-1-1	
@@ -3789,8 +3855,173 @@
 	#define ENG_LITERA_E_TRACTION_TYPE 0	
 	#define ENG_LITERA_E_ID_W \w2061	
 	#define ENG_LITERA_E_ID_B \b*2061	
+	#define STR_W_ENG_LITERA_E \wxD0D0	
+	#define STR_B_ENG_LITERA_E D0	
+	
+
+#define ENG_VL22M_INTROYEAR \d1945-1-1	
+	#define ENG_VL22M_V_LIFE \b40	
+	#define ENG_VL22M_M_LIFE \b35	
+	#define ENG_VL22M_SPEED \w100	
+	#define ENG_VL22M_TE \b100	
+	#define ENG_VL22M_HP \w3220	
+	#define ENG_VL22M_WAG_HP \w0	
+	#define ENG_VL22M_CAP_WAG_PAX \b0	
+	#define ENG_VL22M_CAP_WAG_MAIL \b0	
+	#define ENG_VL22M_CAP_WAG_ARMOR \b0	
+	#define ENG_VL22M_CAP_WAG_PAX_STR "0"	
+	#define ENG_VL22M_CAP_WAG_MAIL_STR "0"	
+	#define ENG_VL22M_CAP_WAG_ARMOR_STR "0"	
+	#define ENG_VL22M_CAP_HEAD_PAX \b0	
+	#define ENG_VL22M_CAP_HEAD_MAIL \b0	
+	#define ENG_VL22M_CAP_HEAD_ARMOR \b0	
+	#define ENG_VL22M_PAX_LS \b1	
+	#define ENG_VL22M_MAIL_LS \b1	
+	#define ENG_VL22M_ARMOR_LS \b1	
+	#define ENG_VL22M_WEIGHT \b98	
+	#define ENG_VL22M_WEIGHT_HIGH \b0	
+	#define ENG_VL22M_PCOST \w33516	
+	#define ENG_VL22M_RCOST \w33309	
+	#define ENG_VL22M_RCOST_WAG \w32788	
+	#define ENG_VL22M_NUTRACKS_TRACKTYPE 3	
 		
+	#define ENG_VL22M_TRACTION_TYPE 28	
+	#define ENG_VL22M_ID_W \w2062	
+	#define ENG_VL22M_ID_B \b*2062	
+	#define STR_W_ENG_VL22M \wxD0D0	
+	#define STR_B_ENG_VL22M D0	
+	
+
+#define ENG_VL85_INTROYEAR \d1993-1-1	
+	#define ENG_VL85_V_LIFE \b40	
+	#define ENG_VL85_M_LIFE \b255	
+	#define ENG_VL85_SPEED \w110	
+	#define ENG_VL85_TE \b66	
+	#define ENG_VL85_HP \w12500	
+	#define ENG_VL85_WAG_HP \w0	
+	#define ENG_VL85_CAP_WAG_PAX \b0	
+	#define ENG_VL85_CAP_WAG_MAIL \b0	
+	#define ENG_VL85_CAP_WAG_ARMOR \b0	
+	#define ENG_VL85_CAP_WAG_PAX_STR "0"	
+	#define ENG_VL85_CAP_WAG_MAIL_STR "0"	
+	#define ENG_VL85_CAP_WAG_ARMOR_STR "0"	
+	#define ENG_VL85_CAP_HEAD_PAX \b0	
+	#define ENG_VL85_CAP_HEAD_MAIL \b0	
+	#define ENG_VL85_CAP_HEAD_ARMOR \b0	
+	#define ENG_VL85_PAX_LS \b1	
+	#define ENG_VL85_MAIL_LS \b1	
+	#define ENG_VL85_ARMOR_LS \b1	
+	#define ENG_VL85_WEIGHT \b33	
+	#define ENG_VL85_WEIGHT_HIGH \b1	
+	#define ENG_VL85_PCOST \w34373	
+	#define ENG_VL85_RCOST \w33927	
+	#define ENG_VL85_RCOST_WAG \w32788	
+	#define ENG_VL85_NUTRACKS_TRACKTYPE 3	
 		
+	#define ENG_VL85_TRACTION_TYPE 28	
+	#define ENG_VL85_ID_W \w2063	
+	#define ENG_VL85_ID_B \b*2063	
+	#define STR_W_ENG_VL85 \wxD0D0	
+	#define STR_B_ENG_VL85 D0	
+	
+
+#define ENG_CHME3_INTROYEAR \d1964-1-1	
+	#define ENG_CHME3_V_LIFE \b40	
+	#define ENG_CHME3_M_LIFE \b30	
+	#define ENG_CHME3_SPEED \w95	
+	#define ENG_CHME3_TE \b75	
+	#define ENG_CHME3_HP \w1250	
+	#define ENG_CHME3_WAG_HP \w0	
+	#define ENG_CHME3_CAP_WAG_PAX \b0	
+	#define ENG_CHME3_CAP_WAG_MAIL \b0	
+	#define ENG_CHME3_CAP_WAG_ARMOR \b0	
+	#define ENG_CHME3_CAP_WAG_PAX_STR "0"	
+	#define ENG_CHME3_CAP_WAG_MAIL_STR "0"	
+	#define ENG_CHME3_CAP_WAG_ARMOR_STR "0"	
+	#define ENG_CHME3_CAP_HEAD_PAX \b0	
+	#define ENG_CHME3_CAP_HEAD_MAIL \b0	
+	#define ENG_CHME3_CAP_HEAD_ARMOR \b0	
+	#define ENG_CHME3_PAX_LS \b1	
+	#define ENG_CHME3_MAIL_LS \b1	
+	#define ENG_CHME3_ARMOR_LS \b1	
+	#define ENG_CHME3_WEIGHT \b123	
+	#define ENG_CHME3_WEIGHT_HIGH \b0	
+	#define ENG_CHME3_PCOST \w33239	
+	#define ENG_CHME3_RCOST \w33308	
+	#define ENG_CHME3_RCOST_WAG \w32788	
+	#define ENG_CHME3_NUTRACKS_TRACKTYPE 2	
+		
+	#define ENG_CHME3_TRACTION_TYPE 8	
+	#define ENG_CHME3_ID_W \w2064	
+	#define ENG_CHME3_ID_B \b*2064	
+	#define STR_W_ENG_CHME3 \wxD0D0	
+	#define STR_B_ENG_CHME3 D0	
+	
+
+#define ENG_P36_INTROYEAR \d1953-1-1	
+	#define ENG_P36_V_LIFE \b40	
+	#define ENG_P36_M_LIFE \b30	
+	#define ENG_P36_SPEED \w125	
+	#define ENG_P36_TE \b15	
+	#define ENG_P36_HP \w3125	
+	#define ENG_P36_WAG_HP \w0	
+	#define ENG_P36_CAP_WAG_PAX \b0	
+	#define ENG_P36_CAP_WAG_MAIL \b0	
+	#define ENG_P36_CAP_WAG_ARMOR \b0	
+	#define ENG_P36_CAP_WAG_PAX_STR "0"	
+	#define ENG_P36_CAP_WAG_MAIL_STR "0"	
+	#define ENG_P36_CAP_WAG_ARMOR_STR "0"	
+	#define ENG_P36_CAP_HEAD_PAX \b0	
+	#define ENG_P36_CAP_HEAD_MAIL \b0	
+	#define ENG_P36_CAP_HEAD_ARMOR \b0	
+	#define ENG_P36_PAX_LS \b1	
+	#define ENG_P36_MAIL_LS \b1	
+	#define ENG_P36_ARMOR_LS \b1	
+	#define ENG_P36_WEIGHT \b245	
+	#define ENG_P36_WEIGHT_HIGH \b0	
+	#define ENG_P36_PCOST \w33418	
+	#define ENG_P36_RCOST \w33956	
+	#define ENG_P36_RCOST_WAG \w32788	
+	#define ENG_P36_NUTRACKS_TRACKTYPE 4	
+		
+	#define ENG_P36_TRACTION_TYPE 0	
+	#define ENG_P36_ID_W \w2065	
+	#define ENG_P36_ID_B \b*2065	
+	#define STR_W_ENG_P36 \wxD0D0	
+	#define STR_B_ENG_P36 D0	
+	
+
+#define ENG_M62_INTROYEAR \d1965-1-1	
+	#define ENG_M62_V_LIFE \b40	
+	#define ENG_M62_M_LIFE \b30	
+	#define ENG_M62_SPEED \w100	
+	#define ENG_M62_TE \b79	
+	#define ENG_M62_HP \w1970	
+	#define ENG_M62_WAG_HP \w0	
+	#define ENG_M62_CAP_WAG_PAX \b0	
+	#define ENG_M62_CAP_WAG_MAIL \b0	
+	#define ENG_M62_CAP_WAG_ARMOR \b0	
+	#define ENG_M62_CAP_WAG_PAX_STR "0"	
+	#define ENG_M62_CAP_WAG_MAIL_STR "0"	
+	#define ENG_M62_CAP_WAG_ARMOR_STR "0"	
+	#define ENG_M62_CAP_HEAD_PAX \b0	
+	#define ENG_M62_CAP_HEAD_MAIL \b0	
+	#define ENG_M62_CAP_HEAD_ARMOR \b0	
+	#define ENG_M62_PAX_LS \b1	
+	#define ENG_M62_MAIL_LS \b1	
+	#define ENG_M62_ARMOR_LS \b1	
+	#define ENG_M62_WEIGHT \b116	
+	#define ENG_M62_WEIGHT_HIGH \b0	
+	#define ENG_M62_PCOST \w33315	
+	#define ENG_M62_RCOST \w33384	
+	#define ENG_M62_RCOST_WAG \w32788	
+	#define ENG_M62_NUTRACKS_TRACKTYPE 2	
+		
+	#define ENG_M62_TRACTION_TYPE 8	
+	#define ENG_M62_ID_W \w2066	
+	#define ENG_M62_ID_B \b*2066	
+	#define STR_W_ENG_M62 \wxD0D0	
+	#define STR_B_ENG_M62 D0	
 	
 
 #define MET_01800_INTROYEAR \d1993-1-1	
