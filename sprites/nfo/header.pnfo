@@ -11,8 +11,8 @@
 -1 * 0    0B 03 7F 02 "OpenTTD 0.7.0 (or better)" 00
 // Check for OpenTTD versions:
 -1 * 0    07 A1 04 \7= FF FF FF FF 02
--1 * 0    07 A1 04 \7> \w16374 00 07 01
--1 * 0    0B 03 7F 06 "0.7.0 (r16374)" 00
+-1 * 0    07 A1 04 \7> \w20004 00 07 01
+-1 * 0    0B 03 7F 06 "Nightly (r20004)" 00
 
 // Notify user by means of an error, if engine pool is disabled
 -1 * 0    07 85 01 \71 78 01

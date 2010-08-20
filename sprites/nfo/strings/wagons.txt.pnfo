@@ -49,33 +49,38 @@
 
 
 // Wagon strings
+//                                                  8A                 // Gold Color
+//                                                     9A              // Extended format code in next byte ("Textstack")
+//                                                        03           // WORD Push WORD onto the textref stack
+//                                                           \w<speed> // speed in kmh to show (will autoadjust to MPH)
+//                                                                84   // Show 
 // 50kmh
--1 * 0  04 00 LANG_ID2 \b1  WAG_STR_50_W WORD_SPEED 8A "50" WORD_KMH "\n"
+-1 * 0  04 00 LANG_ID2 \b1  WAG_STR_50_W WORD_SPEED 8A 9A 03 \w50 84 "\n"
                                       98 WORD_FASTHIGHRC 00
 // 60kmh
--1 * 0  04 00 LANG_ID2 \b1  WAG_STR_60_W WORD_SPEED 8A "60" WORD_KMH "\n"
+-1 * 0  04 00 LANG_ID2 \b1  WAG_STR_60_W WORD_SPEED 8A 9A 03 \w60 84 "\n"
                                       98 WORD_FASTHIGHRC 00
 // 70kmh
--1 * 0  04 00 LANG_ID2 \b1  WAG_STR_70_W WORD_SPEED 8A "70" WORD_KMH "\n"
+-1 * 0  04 00 LANG_ID2 \b1  WAG_STR_70_W WORD_SPEED 8A 9A 03 \w70 84 "\n"
                                       98 WORD_FASTHIGHRC 00
 // 80kmh
--1 * 0  04 00 LANG_ID2 \b1  WAG_STR_80_W WORD_SPEED 8A "80" WORD_KMH "\n"
+-1 * 0  04 00 LANG_ID2 \b1  WAG_STR_80_W WORD_SPEED 8A 9A 03 \w80 84 "\n"
                                       98 WORD_FASTHIGHRC 00
 // 90kmh
--1 * 0  04 00 LANG_ID2 \b1  WAG_STR_90_W WORD_SPEED 8A "90" WORD_KMH "\n"
+-1 * 0  04 00 LANG_ID2 \b1  WAG_STR_90_W WORD_SPEED 8A 9A 03 \w90 84 "\n"
                                       98 WORD_FASTHIGHRC 00
 // 100kmh
--1 * 0  04 00 LANG_ID2 \b1  WAG_STR_100_W WORD_SPEED 8A "100" WORD_KMH "\n"
+-1 * 0  04 00 LANG_ID2 \b1  WAG_STR_100_W WORD_SPEED 8A 9A 03 \w100 84 "\n"
                                       98 WORD_FASTHIGHRC 00
 // 110kmh
--1 * 0  04 00 LANG_ID2 \b1  WAG_STR_110_W WORD_SPEED 8A "110" WORD_KMH "\n"
+-1 * 0  04 00 LANG_ID2 \b1  WAG_STR_110_W WORD_SPEED 8A 9A 03 \w110 84 "\n"
                                       98 WORD_FASTHIGHRC 00
 // 120kmh
--1 * 0  04 00 LANG_ID2 \b1  WAG_STR_120_W WORD_SPEED 8A "120" WORD_KMH "\n"
+-1 * 0  04 00 LANG_ID2 \b1  WAG_STR_120_W WORD_SPEED 8A 9A 03 \w120 84 "\n"
                                       98 WORD_FASTHIGHRC 00
 // 160kmh
--1 * 0  04 00 LANG_ID2 \b1  WAG_STR_160_W WORD_SPEED 8A "160" WORD_KMH "\n"
+-1 * 0  04 00 LANG_ID2 \b1  WAG_STR_160_W WORD_SPEED 8A 9A 03 \w160 84 "\n"
                                       98 WORD_FASTHIGHRC 00
 // 200kmh
--1 * 0  04 00 LANG_ID2 \b1  WAG_STR_200_W WORD_SPEED 8A "200" WORD_KMH "\n"
+-1 * 0  04 00 LANG_ID2 \b1  WAG_STR_200_W WORD_SPEED 8A 9A 03 \w200 84 "\n"
                                       98 WORD_FASTHIGHRC 00
