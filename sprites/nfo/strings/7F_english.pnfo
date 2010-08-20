@@ -160,6 +160,7 @@
 -1 * 0  04 00 LANG_ID \b1 MU_X2000_ID_B		SPACE "X2000"		  00
 -1 * 0  04 00 LANG_ID \b1 MU_SHINKANSEN0_ID_B		SPACE "Shinkansen Series 0"		  00
 -1 * 0  04 00 LANG_ID \b1 MU_SHINKANSEN700_ID_B		SPACE "Shinkansen Series 700"		  00
+-1 * 0  04 00 LANG_ID \b1 MU_KONCAR_ID_B    SPACE "Koncar KDMV" 00
 
 
 // Railbus names:
