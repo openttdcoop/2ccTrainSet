@@ -98,6 +98,7 @@
 #include "sprites/nfo/mus/ic125.pnfo"
 #include "sprites/nfo/mus/ice3.pnfo"
 #include "sprites/nfo/mus/icm.pnfo"
+#include "sprites/nfo/mus/koncar.pnfo"
 #include "sprites/nfo/mus/lint41.pnfo"
 #include "sprites/nfo/mus/lrc.pnfo"
 #include "sprites/nfo/mus/mat24.pnfo"
