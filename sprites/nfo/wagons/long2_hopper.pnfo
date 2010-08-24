@@ -1,6 +1,6 @@
 
 #define THIS_WAG_PCX_PLIST	sprites/pcx/wagons/hopper-l/plist.pcx
-#define THIS_WAG_NUM_CARGOS	03
+#define THIS_WAG_NUM_CARGOS	06
 #define THIS_WAG_NUM_CLASSES	00
 
 // Look in cargotable.pnfo for the cargo<x>_type
@@ -28,22 +28,22 @@
 #define CARGO4_PCX_FILE		sprites/pcx/wagons/hopper-l/grain.pcx
 
 // Cargo5
-//#define THIS_WAG_CARGO5_NUMSTAGES 	4
-//#define THIS_WAG_CARGO5_TYPE		TROPICAL_WOOD
+#define THIS_WAG_CARGO5_NUMSTAGES 	4
+#define THIS_WAG_CARGO5_TYPE		TROPICAL_WOOD
 //#define THIS_WAG_CARGO5_CLASS		\wx20
-//#define CARGO5_PCX_FILE		sprites/pcx/wagons/hopper-l/woodchips.pcx
+#define CARGO5_PCX_FILE		sprites/pcx/wagons/hopper-l/woodchips.pcx
 
 // Cargo6
-//#define THIS_WAG_CARGO6_NUMSTAGES 	<1,2,3,4,RANDOM_4>
-//#define THIS_WAG_CARGO6_TYPE		<PAX,MAIL,COAL,ETC>
+#define THIS_WAG_CARGO6_NUMSTAGES 4
+#define THIS_WAG_CARGO6_TYPE		MAIZ
 //#define THIS_WAG_CARGO6_CLASS		<class>
-//#define CARGO6_PCX_FILE		sprites/pcx/wagons/hopper-LONG_2/.pcx
+#define CARGO6_PCX_FILE		sprites/pcx/wagons/hopper-l/grain.pcx
 
 // Cargo7
-//#define THIS_WAG_CARGO7_NUMSTAGES 	<1,2,3,4,RANDOM_4>
-//#define THIS_WAG_CARGO7_TYPE		<PAX,MAIL,COAL,ETC>
+#define THIS_WAG_CARGO7_NUMSTAGES 	4
+#define THIS_WAG_CARGO7_TYPE		WHEAT
 //#define THIS_WAG_CARGO7_CLASS		<class>
-//#define CARGO7_PCX_FILE		sprites/pcx/wagons/hopper-LONG_2/containers.pcx
+#define CARGO7_PCX_FILE		sprites/pcx/wagons/hopper-l/grain.pcx
 
 // Cargo8
 //#define THIS_WAG_CARGO8_NUMSTAGES 	<1,2,3,4,RANDOM_4>
