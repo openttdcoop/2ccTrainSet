@@ -3925,7 +3925,7 @@
 	#define STR_B_ENG_VL22M D0	
 	
 
-#define ENG_VL85_INTROYEAR \d1993-1-1	
+#define ENG_VL85_INTROYEAR \d1983-1-1	
 	#define ENG_VL85_V_LIFE \b40	
 	#define ENG_VL85_M_LIFE \b255	
 	#define ENG_VL85_SPEED \w110	
