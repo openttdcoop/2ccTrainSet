@@ -1,4 +1,0 @@
-#define SPACE 01 21
-#include "7F_english.pnfo"
-#include "2F_norwegian.pnfo"
-#undef SPACE
