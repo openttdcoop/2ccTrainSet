@@ -12,7 +12,7 @@
 #include "sprites/nfo/action0wag.pnfo"
 
 // Language files
-#include "sprites/nfo/strings/languages.pnfo"
+#include "sprites/nfo/action4/languages.pnfo"
 
 // Wagons
 #include "sprites/nfo/wagons.pnfo"
