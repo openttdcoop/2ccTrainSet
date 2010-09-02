@@ -1,6 +1,4 @@
-		//	Engine	Names:					_ID_B			STR_	
-		//-1	*	00	04	00	LANG_ID	\b1	ENG_nnn_ID_B		SPACE		
-#ifdef 		//	Diesels										
+										
 #ifdef ENG_2100_ID_B													
 		-01	*	00	04	00	LANG_ID	\b1	ENG_2100_ID_B		SPACE	STR_ENG_2100	00
 #endif													
