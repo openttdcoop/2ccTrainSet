@@ -11,7 +11,7 @@
 #include "sprites/nfo/action0.pnfo"
 #include "sprites/nfo/action0wag.pnfo"
 
-// Language files
+// Action4s
 #include "sprites/nfo/action4/languages.pnfo"
 
 // Wagons
