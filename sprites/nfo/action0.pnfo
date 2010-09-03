@@ -3927,7 +3927,7 @@
 
 #define ENG_VL85_INTROYEAR \d1983-1-1	
 	#define ENG_VL85_V_LIFE \b40	
-	#define ENG_VL85_M_LIFE \b255	
+	#define ENG_VL85_M_LIFE \b35	
 	#define ENG_VL85_SPEED \w110	
 	#define ENG_VL85_TE \b66	
 	#define ENG_VL85_HP \w12500	
@@ -4055,6 +4055,105 @@
 	#define ENG_M62_ID_B \b*2066	
 	#define STR_W_ENG_M62 \wxD0D0	
 	#define STR_B_ENG_M62 D0	
+	
+
+#define ENG_DB52_INTROYEAR \d1942-1-1	
+	#define ENG_DB52_V_LIFE \b40	
+	#define ENG_DB52_M_LIFE \b25	
+	#define ENG_DB52_SPEED \w80	
+	#define ENG_DB52_TE \b42	
+	#define ENG_DB52_HP \w1600	
+	#define ENG_DB52_WAG_HP \w0	
+	#define ENG_DB52_CAP_WAG_PAX \b0	
+	#define ENG_DB52_CAP_WAG_MAIL \b0	
+	#define ENG_DB52_CAP_WAG_ARMOR \b0	
+	#define ENG_DB52_CAP_WAG_PAX_STR "0"	
+	#define ENG_DB52_CAP_WAG_MAIL_STR "0"	
+	#define ENG_DB52_CAP_WAG_ARMOR_STR "0"	
+	#define ENG_DB52_CAP_HEAD_PAX \b0	
+	#define ENG_DB52_CAP_HEAD_MAIL \b0	
+	#define ENG_DB52_CAP_HEAD_ARMOR \b0	
+	#define ENG_DB52_PAX_LS \b1	
+	#define ENG_DB52_MAIL_LS \b1	
+	#define ENG_DB52_ARMOR_LS \b1	
+	#define ENG_DB52_WEIGHT \b103	
+	#define ENG_DB52_WEIGHT_HIGH \b0	
+	#define ENG_DB52_PCOST \w33085	
+	#define ENG_DB52_RCOST \w33289	
+	#define ENG_DB52_RCOST_WAG \w32788	
+	#define ENG_DB52_NUTRACKS_TRACKTYPE 0	
+		
+	#define ENG_DB52_TRACTION_TYPE 0	
+	#define ENG_DB52_ID_W \w2067	
+	#define ENG_DB52_ID_B \b*2067	
+	#define STR_W_ENG_DB52 \wxD0D0	
+	#define STR_B_ENG_DB52 D0	
+	
+
+#define ENG_HZ1141_INTROYEAR \d1967-1-1	
+	#define ENG_HZ1141_V_LIFE \b40	
+	#define ENG_HZ1141_M_LIFE \b25	
+	#define ENG_HZ1141_SPEED \w120	
+	#define ENG_HZ1141_TE \b66	
+	#define ENG_HZ1141_HP \w5170	
+	#define ENG_HZ1141_WAG_HP \w0	
+	#define ENG_HZ1141_CAP_WAG_PAX \b0	
+	#define ENG_HZ1141_CAP_WAG_MAIL \b0	
+	#define ENG_HZ1141_CAP_WAG_ARMOR \b0	
+	#define ENG_HZ1141_CAP_WAG_PAX_STR "0"	
+	#define ENG_HZ1141_CAP_WAG_MAIL_STR "0"	
+	#define ENG_HZ1141_CAP_WAG_ARMOR_STR "0"	
+	#define ENG_HZ1141_CAP_HEAD_PAX \b0	
+	#define ENG_HZ1141_CAP_HEAD_MAIL \b0	
+	#define ENG_HZ1141_CAP_HEAD_ARMOR \b0	
+	#define ENG_HZ1141_PAX_LS \b1	
+	#define ENG_HZ1141_MAIL_LS \b1	
+	#define ENG_HZ1141_ARMOR_LS \b1	
+	#define ENG_HZ1141_WEIGHT \b108	
+	#define ENG_HZ1141_WEIGHT_HIGH \b0	
+	#define ENG_HZ1141_PCOST \w33844	
+	#define ENG_HZ1141_RCOST \w33553	
+	#define ENG_HZ1141_RCOST_WAG \w32788	
+	#define ENG_HZ1141_NUTRACKS_TRACKTYPE 3	
+		
+	#define ENG_HZ1141_TRACTION_TYPE 28	
+	#define ENG_HZ1141_ID_W \w2068	
+	#define ENG_HZ1141_ID_B \b*2068	
+	#define STR_W_ENG_HZ1141 \wxD0D0	
+	#define STR_B_ENG_HZ1141 D0	
+	
+
+#define ENG_TAURUS1_INTROYEAR \d2000-1-1	
+	#define ENG_TAURUS1_V_LIFE \b40	
+	#define ENG_TAURUS1_M_LIFE \b255	
+	#define ENG_TAURUS1_SPEED \w230	
+	#define ENG_TAURUS1_TE \b91	
+	#define ENG_TAURUS1_HP \w11266	
+	#define ENG_TAURUS1_WAG_HP \w0	
+	#define ENG_TAURUS1_CAP_WAG_PAX \b0	
+	#define ENG_TAURUS1_CAP_WAG_MAIL \b0	
+	#define ENG_TAURUS1_CAP_WAG_ARMOR \b0	
+	#define ENG_TAURUS1_CAP_WAG_PAX_STR "0"	
+	#define ENG_TAURUS1_CAP_WAG_MAIL_STR "0"	
+	#define ENG_TAURUS1_CAP_WAG_ARMOR_STR "0"	
+	#define ENG_TAURUS1_CAP_HEAD_PAX \b0	
+	#define ENG_TAURUS1_CAP_HEAD_MAIL \b0	
+	#define ENG_TAURUS1_CAP_HEAD_ARMOR \b0	
+	#define ENG_TAURUS1_PAX_LS \b1	
+	#define ENG_TAURUS1_MAIL_LS \b1	
+	#define ENG_TAURUS1_ARMOR_LS \b1	
+	#define ENG_TAURUS1_WEIGHT \b86	
+	#define ENG_TAURUS1_WEIGHT_HIGH \b0	
+	#define ENG_TAURUS1_PCOST \w35618	
+	#define ENG_TAURUS1_RCOST \w35018	
+	#define ENG_TAURUS1_RCOST_WAG \w32788	
+	#define ENG_TAURUS1_NUTRACKS_TRACKTYPE 7	
+		
+	#define ENG_TAURUS1_TRACTION_TYPE 28	
+	#define ENG_TAURUS1_ID_W \w2069	
+	#define ENG_TAURUS1_ID_B \b*2069	
+	#define STR_W_ENG_TAURUS1 \wxD0D0	
+	#define STR_B_ENG_TAURUS1 D0	
 	
 
 #define MET_01800_INTROYEAR \d1993-1-1	
@@ -4616,38 +4715,5 @@
 	#define MET_TOKYO_ID_B \b*4516	
 	#define STR_W_MET_TOKYO \wxD0B0	
 	#define STR_B_MET_TOKYO B0	
-	
-
-#define NIG_MGV_B_C_INTROYEAR \d2000-1-1	
-	#define NIG_MGV_B_C_V_LIFE \b60	
-	#define NIG_MGV_B_C_M_LIFE \b255	
-	#define NIG_MGV_B_C_SPEED \w80	
-	#define NIG_MGV_B_C_TE \b244	
-	#define NIG_MGV_B_C_HP \w536	
-	#define NIG_MGV_B_C_WAG_HP \w536	
-	#define NIG_MGV_B_C_CAP_WAG_PAX \b153	
-	#define NIG_MGV_B_C_CAP_WAG_MAIL \b115	
-	#define NIG_MGV_B_C_CAP_WAG_ARMOR \b77	
-	#define NIG_MGV_B_C_CAP_WAG_PAX_STR "153"	
-	#define NIG_MGV_B_C_CAP_WAG_MAIL_STR "115"	
-	#define NIG_MGV_B_C_CAP_WAG_ARMOR_STR "77"	
-	#define NIG_MGV_B_C_CAP_HEAD_PAX \b153	
-	#define NIG_MGV_B_C_CAP_HEAD_MAIL \b115	
-	#define NIG_MGV_B_C_CAP_HEAD_ARMOR \b77	
-	#define NIG_MGV_B_C_PAX_LS \b60	
-	#define NIG_MGV_B_C_MAIL_LS \b45	
-	#define NIG_MGV_B_C_ARMOR_LS \b30	
-	#define NIG_MGV_B_C_WEIGHT \b27	
-	#define NIG_MGV_B_C_WEIGHT_HIGH \b0	
-	#define NIG_MGV_B_C_PCOST \w33163	
-	#define NIG_MGV_B_C_RCOST \w32905	
-	#define NIG_MGV_B_C_RCOST_WAG \w32905	
-		
-		
-	#define NIG_MGV_B_C_TRACTION_TYPE 32	
-	#define NIG_MGV_B_C_ID_W \w4517	
-	#define NIG_MGV_B_C_ID_B \b*4517	
-	#define STR_W_NIG_MGV_B_C \wxD0B1	
-	#define STR_B_NIG_MGV_B_C B1	
 	
 
