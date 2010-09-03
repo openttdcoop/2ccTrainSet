@@ -19,58 +19,69 @@
 -1 * 0    0B 02 7F 02 "adv. setting '" 94 "vehicle->Enable multiple NewGRF engine sets'" 89 " = " 8E "ON" 89 00
 
 
-// Cost-Factors and other misc stuff
-// last read entry will be used. If the parameter is found
-// we skip all other remaining definitions
-// quarter costs, Parameter1 = 1
--1 * 7	 00 08 01 01 0F 08 01 // Engine purchase price
--1 * 7	 00 08 01 01 10 08 08 // Waggon purchase price
--1 * 7	 00 08 01 01 2A 08 05 // Steam running
--1 * 7	 00 08 01 01 2C 08 05 // Electro Running
--1 * 7   00 08 01 01 2B 08 05 // Diesel running cost
--1 * 6	 09 00 01 \7= 01 F0  // (skip to F0)
+// =================================
+// ===== Cost/price parameters =====
+// =================================
 
-// half costs, Parameter1 = 2
--1 * 7	 00 08 01 01 0F 08 03 // Engine purchase price
--1 * 7	 00 08 01 01 10 08 08 // Waggon purchase price
--1 * 7	 00 08 01 01 2A 08 06 // Steam running
--1 * 7	 00 08 01 01 2C 08 06 // Electro Running
--1 * 7   00 08 01 01 2B 08 06 // Diesel running cost
--1 * 6	 09 00 01 \7= 02 F0  // (skip to F0)
+// Purchase price - Quarter
+-1 * 0  07 \b0 01 \7! \b0 02 // Unless Parameter 0 (\b0) is \b<x>, it skips 2 sprites	
+-1 * 7	00 08 01 01 0F 08 01 // Engine purchase price	
+-1 * 7	00 08 01 01 10 08 08 // Waggon purchase price
 
-// default costs, Parameter1 = 3
--1 * 7	 00 08 01 01 0F 08 04 // Engine purchase price
--1 * 7	 00 08 01 01 10 08 0A // Waggon purchase price
--1 * 7	 00 08 01 01 2A 08 08 // Steam running
--1 * 7	 00 08 01 01 2C 08 08 // Electro Running
--1 * 7   00 08 01 01 2B 08 08 // Diesel running cost
--1 * 6	 09 00 01 \7= 03 F0  // (skip to F0)
+// Purchase price - Half
+-1 * 0  07 \b0 01 \7! \b1 02 // Unless Parameter 0 (\b0) is \b<x>, it skips 2 sprites	
+-1 * 7	00 08 01 01 0F 08 02 // Engine purchase price	
+-1 * 7	00 08 01 01 10 08 09 // Waggon purchase price
 
-// Double costs, Parameter1 = 4
--1 * 7	 00 08 01 01 0F 08 05 // Engine purchase price
--1 * 7	 00 08 01 01 10 08 0B // Waggon purchase price
--1 * 7	 00 08 01 01 2A 08 09 // Steam running
--1 * 7	 00 08 01 01 2C 08 09 // Electro Running
--1 * 7   00 08 01 01 2B 08 09 // Diesel running cost
--1 * 6	 09 00 01 \7= 04 F0  // (skip to F0)
+// Purchase price - DefaUlt
+-1 * 0  07 \b0 01 \7! \b2 02 // Unless Parameter 0 (\b0) is \b<x>, it skips 2 sprites	
+-1 * 7	00 08 01 01 0F 08 03 // Engine purchase price	
+-1 * 7	00 08 01 01 10 08 0A // Waggon purchase price
 
-// 4X costs, Parameter1 = 5
--1 * 7	 00 08 01 01 0F 08 06// Engine purchase price
--1 * 7	 00 08 01 01 10 08 0D // Waggon purchase price
--1 * 7	 00 08 01 01 2A 08 0A // Steam running
--1 * 7	 00 08 01 01 2C 08 0A // Electro Running
--1 * 7   00 08 01 01 2B 08 0A // Diesel running cost
--1 * 6	 09 00 01 \7= 05 F0  // (skip to F0)
+// Purchase price - Double
+-1 * 0  07 \b0 01 \7! \b3 02 // Unless Parameter 0 (\b0) is \b<x>, it skips 2 sprites	
+-1 * 7	00 08 01 01 0F 08 04 // Engine purchase price	
+-1 * 7	00 08 01 01 10 08 0B // Waggon purchase price
 
-// Default costs
--1 * 7	 00 08 01 01 0F 08 04 // Engine purchase price
--1 * 7	 00 08 01 01 10 08 0A // Waggon purchase price
--1 * 7	 00 08 01 01 2A 08 08 // Steam running
--1 * 7	 00 08 01 01 2C 08 08 // Electro Running
--1 * 7   00 08 01 01 2B 08 08 // Diesel running cost
+// Purchase price - Quadruple
+-1 * 0  07 \b0 01 \7! \b4 02 // Unless Parameter 0 (\b0) is \b<x>, it skips 2 sprites	
+-1 * 7	00 08 01 01 0F 08 05 // Engine purchase price	
+-1 * 7	00 08 01 01 10 08 0C // Waggon purchase price
 
-// Target of the skip for chosing running costs
--1 * 2	 10 F0
+
+
+// Running Cost - Quarter
+-1 * 0  07 \b1 01 \7! \b0 03 // Unless Parameter 1 (\b1) is \b<x>, it skips 3 sprites
+-1 * 7	00 08 01 01 2A 08 05 // Steam running
+-1 * 7	00 08 01 01 2C 08 05 // Electro Running
+-1 * 7  00 08 01 01 2B 08 05 // Diesel running cost
+
+// Running Cost - Half
+-1 * 0  07 \b1 01 \7! \b1 03 // Unless Parameter 1 (\b1) is \b<x>, it skips 3 sprites
+-1 * 7	00 08 01 01 2A 08 06 // Steam running
+-1 * 7	00 08 01 01 2C 08 06 // Electro Running
+-1 * 7  00 08 01 01 2B 08 06 // Diesel running cost
+
+// Running Cost - Default
+-1 * 0  07 \b1 01 \7! \b2 03 // Unless Parameter 1 (\b1) is \b<x>, it skips 3 sprites
+-1 * 7	00 08 01 01 2A 08 07 // Steam running
+-1 * 7	00 08 01 01 2C 08 07 // Electro Running
+-1 * 7  00 08 01 01 2B 08 07 // Diesel running cost
+
+// Running Cost - Double
+-1 * 0  07 \b1 01 \7! \b3 03 // Unless Parameter 1 (\b1) is \b<x>, it skips 3 sprites
+-1 * 7	00 08 01 01 2A 08 08 // Steam running
+-1 * 7	00 08 01 01 2C 08 08 // Electro Running
+-1 * 7  00 08 01 01 2B 08 08 // Diesel running cost
+
+// Running Cost - Quadruple
+-1 * 0  07 \b1 01 \7! \b4 03 // Unless Parameter 1 (\b1) is \b<x>, it skips 3 sprites
+-1 * 7	00 08 01 01 2A 08 09 // Steam running
+-1 * 7	00 08 01 01 2C 08 09 // Electro Running
+-1 * 7  00 08 01 01 2B 08 09 // Diesel running cost
+
+
+
 
 // Cost for tracks is independent of grf parameters:
 // Skip this part if nutracks is loaded
