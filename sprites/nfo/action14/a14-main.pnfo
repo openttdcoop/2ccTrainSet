@@ -1,0 +1,7 @@
+// Action 14 stuff
+-1 * 0 14   "C" "INFO"
+                "B" "NPAR" \w1 \b02                 // Number of parameters
+                "B" "PALS" \w1 "W"                  // Windows palette
+                "B" "VRSN" \w4 \d{{REPO_REVISION}}  // GRF version
+                00
+            00

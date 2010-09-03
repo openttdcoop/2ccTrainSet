@@ -1,3 +1,4 @@
+#include "vehiclenames.pnfo"
 #include "mus.txt.pnfo"
 #include "engines.txt.pnfo"
 #include "metros.txt.pnfo"

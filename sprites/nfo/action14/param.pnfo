@@ -1,0 +1,69 @@
+// Economy settings
+-1 * -1   14 "C" "INFO"
+                  "C" "PARA"
+                      "C" \d0
+                          "B" "TYPE" \w1 0
+                          "B" "LIMI" \w8 \d0 \d4
+                          "B" "DFLT" \w4 \d2
+                          #ifdef A14_PARAM0_NAME
+                          "T" "NAME" LANG_ID A14_PARAM0_NAME 00
+                          #endif
+                          #ifdef A14_PARAM0_DISC
+                          "T" "DESC" LANG_ID A14_PARAM0_DISC 00
+                          #endif
+                          "C" "VALU" 
+                              #ifdef A14_PARAM0_VALU0
+                              "T" \d0 LANG_ID A14_PARAM0_VALU0 00
+                              #endif
+                              #ifdef A14_PARAM0_VALU1
+                              "T" \d1 LANG_ID A14_PARAM0_VALU1 00
+                              #endif
+                              #ifdef A14_PARAM0_VALU2
+                              "T" \d2 LANG_ID A14_PARAM0_VALU2 00
+                              #endif
+                              #ifdef A14_PARAM0_VALU3
+                              "T" \d3 LANG_ID A14_PARAM0_VALU3 00
+                              #endif
+                              #ifdef A14_PARAM0_VALU4
+                              "T" \d4 LANG_ID A14_PARAM0_VALU4 00
+                              #endif
+                              00
+                          00
+                      00
+                  00
+              00
+
+              // Economy settings
+-1 * -1   14 "C" "INFO"
+                  "C" "PARA"
+                      "C" \d1
+                          "B" "TYPE" \w1 0
+                          "B" "LIMI" \w8 \d0 \d4
+                          "B" "DFLT" \w4 \d2
+                          #ifdef A14_PARAM1_NAME
+                          "T" "NAME" LANG_ID A14_PARAM1_NAME 00
+                          #endif
+                          #ifdef A14_PARAM1_DISC
+                          "T" "DESC" LANG_ID A14_PARAM1_DISC 00
+                          #endif
+                          "C" "VALU" 
+                              #ifdef A14_PARAM1_VALU0
+                              "T" \d0 LANG_ID A14_PARAM1_VALU0 00
+                              #endif
+                              #ifdef A14_PARAM1_VALU1
+                              "T" \d1 LANG_ID A14_PARAM1_VALU1 00
+                              #endif
+                              #ifdef A14_PARAM1_VALU2
+                              "T" \d2 LANG_ID A14_PARAM1_VALU2 00
+                              #endif
+                              #ifdef A14_PARAM1_VALU3
+                              "T" \d3 LANG_ID A14_PARAM1_VALU3 00
+                              #endif
+                              #ifdef A14_PARAM1_VALU4
+                              "T" \d4 LANG_ID A14_PARAM1_VALU4 00
+                              #endif
+                              00
+                          00
+                      00
+                  00
+              00

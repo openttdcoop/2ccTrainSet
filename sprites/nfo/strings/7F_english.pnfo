@@ -47,10 +47,26 @@
 #define STR_ER_ONLYMU       "Use Only Multiple Unit Wagons"
 #define STR_ER_NORAILCARS   "Railcars cant be attached to engines"
 
-// Example of on what the use of theese words are
-// Carriage Capacity: 60 Passengers / 45 Mail / 30 Valuabels
-// Loading speed: Slow
-// NB: Running costs are per 1 unit
+// =================================
+// ===== Parameters - Action14 =====
+// =================================
+
+#define A14_PARAM0_NAME  "Purchase prices"
+#define A14_PARAM0_DISC  "How high or low should purchase prices be"
+#define A14_PARAM0_VALU0 "Quarter (1/4x)" 
+#define A14_PARAM0_VALU1 "Half (1/2x)" 
+#define A14_PARAM0_VALU2 "Normal (default)"
+#define A14_PARAM0_VALU3 "Double (2x)"
+#define A14_PARAM0_VALU4 "Quadruple (4x)"
+
+#define A14_PARAM1_NAME  "Running costs"
+#define A14_PARAM1_DISC  "How high or low should running costs be"
+#define A14_PARAM1_VALU0 "Quarter (1/4x)" 
+#define A14_PARAM1_VALU1 "Half (1/2x)" 
+#define A14_PARAM1_VALU2 "Normal (default)"
+#define A14_PARAM1_VALU3 "Double (2x)"
+#define A14_PARAM1_VALU4 "Quadruple (4x)"
+
 
 // Wagon Names
 #define STR_METRO 	"Metro Wagon"
@@ -196,6 +212,4 @@
 
 
 
-// D O   N O T   T O U C H   T H I S!!!
-#include "include.pnfo"
-#include "undef.pnfo"
+
