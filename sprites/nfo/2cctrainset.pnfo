@@ -80,6 +80,9 @@
 #include "sprites/nfo/engines/m62.pnfo"
 #include "sprites/nfo/engines/vl22m.pnfo"
 #include "sprites/nfo/engines/vl85.pnfo"
+#include "sprites/nfo/engines/hz1141.pnfo"
+#include "sprites/nfo/engines/db52.pnfo"
+#include "sprites/nfo/engines/taurus1.pnfo"
 
 //#include "sprites/nfo/engines/.pnfo"
 #include "sprites/nfo/engines/kz2a.pnfo"
