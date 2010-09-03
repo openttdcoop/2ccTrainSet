@@ -1,3 +1,6 @@
 
+#define SPACE 01 21
 #include "../strings/7F_english.pnfo"
+#include "include.pnfo"
+#include "undef.pnfo"
 

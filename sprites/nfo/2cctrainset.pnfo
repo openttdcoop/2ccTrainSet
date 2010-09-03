@@ -2,6 +2,11 @@
 // nfo renum header ^
 // No line, not even a comment, may be inserted prior to that header inclusion line ^
 
+// Action14 stuff
+#include "sprites/nfo/action14/a14-main.pnfo"
+#include "sprites/nfo/action14/lang.pnfo"
+
+
 // Header file(s)
 #include "sprites/nfo/header.pnfo"
 #include "sprites/nfo/cargotable.pnfo"
