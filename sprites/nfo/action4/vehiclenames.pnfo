@@ -361,12 +361,12 @@
 #ifdef STR_MU_CHIM													
 		-01	*	00	04	00	LANG_ID	\b1	MU_CHIM_ID_B		SPACE	STR_MU_CHIM	00
 #endif																										
-#ifdef STR_ENG_HZ141													
-		-01	*	00	04	00	LANG_ID	\b1	ENG_2100_ID_B		SPACE	STR_ENG_HZ141	00
+#ifdef STR_ENG_HZ1141													
+		-01	*	00	04	00	LANG_ID	\b1	ENG_HZ1141_ID_B		SPACE	STR_ENG_HZ1141	00
 #endif													
 #ifdef STR_ENG_TAURUS1													
-		00	*	00	05	01	LANG_ID	\b2	ENG_2100_ID_B		SPACE	STR_ENG_TAURUS1	00
+		00	*	00	04	00	LANG_ID	\b1	ENG_TAURUS1_ID_B		SPACE	STR_ENG_TAURUS1	00
 #endif													
 #ifdef STR_ENG_DB52													
-		01	*	00	06	02	LANG_ID	\b3	ENG_2100_ID_B		SPACE	STR_ENG_DB52	00
+		01	*	00	04	00	LANG_ID	\b1	ENG_DB52_ID_B		SPACE	STR_ENG_DB52	00
 #endif													
