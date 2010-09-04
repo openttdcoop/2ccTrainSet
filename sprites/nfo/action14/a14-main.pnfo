@@ -5,3 +5,26 @@
                 "B" "VRSN" \w4 \d{{REPO_REVISION}}  // GRF version
                 00
             00
+
+// Economy settings
+-1 * -1   14 "C" "INFO"
+                  "C" "PARA"
+                      "C" \d0
+                          "B" "TYPE" \w1 0
+                          "B" "LIMI" \w8 \d0 \d4
+                          "B" "DFLT" \w4 \d2
+                          00
+                      00
+                  00
+              00
+
+-1 * -1   14 "C" "INFO"
+                  "C" "PARA"
+                      "C" \d1
+                          "B" "TYPE" \w1 0
+                          "B" "LIMI" \w8 \d0 \d4
+                          "B" "DFLT" \w4 \d2
+                          00
+                      00
+                  00
+              00
