@@ -179,7 +179,7 @@
 #define	STR_MU_X2000	"X2000"
 #define	STR_MU_SHINKANSEN0	"Shinkansen Series 0"
 #define	STR_MU_SHINKANSEN700	"Shinkansen Series 700"
-#define	STR_MU_KONCAR	"Koncar KDMV"
+#define	STR_MU_KONCAR	"Koncar DMV"
 				
 //	Railbus	names:		
 #define	STR_RB_479	"Railbus 479"
