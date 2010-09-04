@@ -124,7 +124,7 @@
 #define	STR_ENG_VL85	"VL85"
 #define	STR_ENG_WCM1	"WCM1"
 #define	STR_ENG_HZ1141 "HZ Class 1141"
-#define	STR_ENG_TAURUS1 "Siemens ES64U Taurus"
+#define	STR_ENG_TAURUS1 "ES64U Taurus"
 
 //	Steamers		
 #define	STR_ENG_11B	"Class 11B 0-8-2"
@@ -138,7 +138,7 @@
 #define	STR_ENG_OKZ32	"Okz32"
 #define	STR_ENG_ROYALHUDSON	"Royal Hudson"
 #define	STR_ENG_P36	"P36"
-#define STR_ENG_DB52  "Deutsche Reichsbahn's Class 52"
+#define STR_ENG_DB52  "DRB Class 52"
 		
 //	MU	Names:		
 #define	STR_MU_594	"594"
