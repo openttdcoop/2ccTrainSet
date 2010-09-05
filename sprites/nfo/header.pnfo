@@ -25,60 +25,60 @@
 
 // Purchase price - Quarter
 -1 * 0  07 \b0 01 \7! \b0 02 // Unless Parameter 0 (\b0) is \b<x>, it skips 2 sprites	
--1 * 7	00 08 01 01 0F 08 01 // Engine purchase price	
+-1 * 7	00 08 01 01 0F 08 02 // Engine purchase price	
 -1 * 7	00 08 01 01 10 08 08 // Waggon purchase price
 
 // Purchase price - Half
 -1 * 0  07 \b0 01 \7! \b1 02 // Unless Parameter 0 (\b0) is \b<x>, it skips 2 sprites	
--1 * 7	00 08 01 01 0F 08 02 // Engine purchase price	
+-1 * 7	00 08 01 01 0F 08 03 // Engine purchase price	
 -1 * 7	00 08 01 01 10 08 09 // Waggon purchase price
 
 // Purchase price - DefaUlt
 -1 * 0  07 \b0 01 \7! \b2 02 // Unless Parameter 0 (\b0) is \b<x>, it skips 2 sprites	
--1 * 7	00 08 01 01 0F 08 03 // Engine purchase price	
+-1 * 7	00 08 01 01 0F 08 04 // Engine purchase price	
 -1 * 7	00 08 01 01 10 08 0A // Waggon purchase price
 
 // Purchase price - Double
 -1 * 0  07 \b0 01 \7! \b3 02 // Unless Parameter 0 (\b0) is \b<x>, it skips 2 sprites	
--1 * 7	00 08 01 01 0F 08 04 // Engine purchase price	
+-1 * 7	00 08 01 01 0F 08 05 // Engine purchase price	
 -1 * 7	00 08 01 01 10 08 0B // Waggon purchase price
 
 // Purchase price - Quadruple
 -1 * 0  07 \b0 01 \7! \b4 02 // Unless Parameter 0 (\b0) is \b<x>, it skips 2 sprites	
--1 * 7	00 08 01 01 0F 08 05 // Engine purchase price	
+-1 * 7	00 08 01 01 0F 08 06 // Engine purchase price	
 -1 * 7	00 08 01 01 10 08 0C // Waggon purchase price
 
 
 
 // Running Cost - Quarter
 -1 * 0  07 \b1 01 \7! \b0 03 // Unless Parameter 1 (\b1) is \b<x>, it skips 3 sprites
--1 * 7	00 08 01 01 2A 08 05 // Steam running
--1 * 7	00 08 01 01 2C 08 05 // Electro Running
--1 * 7  00 08 01 01 2B 08 05 // Diesel running cost
-
-// Running Cost - Half
--1 * 0  07 \b1 01 \7! \b1 03 // Unless Parameter 1 (\b1) is \b<x>, it skips 3 sprites
 -1 * 7	00 08 01 01 2A 08 06 // Steam running
 -1 * 7	00 08 01 01 2C 08 06 // Electro Running
 -1 * 7  00 08 01 01 2B 08 06 // Diesel running cost
 
-// Running Cost - Default
--1 * 0  07 \b1 01 \7! \b2 03 // Unless Parameter 1 (\b1) is \b<x>, it skips 3 sprites
+// Running Cost - Half
+-1 * 0  07 \b1 01 \7! \b1 03 // Unless Parameter 1 (\b1) is \b<x>, it skips 3 sprites
 -1 * 7	00 08 01 01 2A 08 07 // Steam running
 -1 * 7	00 08 01 01 2C 08 07 // Electro Running
 -1 * 7  00 08 01 01 2B 08 07 // Diesel running cost
 
-// Running Cost - Double
--1 * 0  07 \b1 01 \7! \b3 03 // Unless Parameter 1 (\b1) is \b<x>, it skips 3 sprites
+// Running Cost - Default
+-1 * 0  07 \b1 01 \7! \b2 03 // Unless Parameter 1 (\b1) is \b<x>, it skips 3 sprites
 -1 * 7	00 08 01 01 2A 08 08 // Steam running
 -1 * 7	00 08 01 01 2C 08 08 // Electro Running
 -1 * 7  00 08 01 01 2B 08 08 // Diesel running cost
 
-// Running Cost - Quadruple
--1 * 0  07 \b1 01 \7! \b4 03 // Unless Parameter 1 (\b1) is \b<x>, it skips 3 sprites
+// Running Cost - Double
+-1 * 0  07 \b1 01 \7! \b3 03 // Unless Parameter 1 (\b1) is \b<x>, it skips 3 sprites
 -1 * 7	00 08 01 01 2A 08 09 // Steam running
 -1 * 7	00 08 01 01 2C 08 09 // Electro Running
 -1 * 7  00 08 01 01 2B 08 09 // Diesel running cost
+
+// Running Cost - Quadruple
+-1 * 0  07 \b1 01 \7! \b4 03 // Unless Parameter 1 (\b1) is \b<x>, it skips 3 sprites
+-1 * 7	00 08 01 01 2A 08 0a // Steam running
+-1 * 7	00 08 01 01 2C 08 0a // Electro Running
+-1 * 7  00 08 01 01 2B 08 0a // Diesel running cost
 
 
 
