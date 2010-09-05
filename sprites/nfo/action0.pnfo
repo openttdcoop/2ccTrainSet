@@ -4156,6 +4156,39 @@
 	#define STR_B_ENG_TAURUS1 D0	
 	
 
+#define ENG_MAV44_INTROYEAR \d1954-1-1	
+	#define ENG_MAV44_V_LIFE \b40	
+	#define ENG_MAV44_M_LIFE \b25	
+	#define ENG_MAV44_SPEED \w80	
+	#define ENG_MAV44_TE \b79	
+	#define ENG_MAV44_HP \w590	
+	#define ENG_MAV44_WAG_HP \w0	
+	#define ENG_MAV44_CAP_WAG_PAX \b0	
+	#define ENG_MAV44_CAP_WAG_MAIL \b0	
+	#define ENG_MAV44_CAP_WAG_ARMOR \b0	
+	#define ENG_MAV44_CAP_WAG_PAX_STR "0"	
+	#define ENG_MAV44_CAP_WAG_MAIL_STR "0"	
+	#define ENG_MAV44_CAP_WAG_ARMOR_STR "0"	
+	#define ENG_MAV44_CAP_HEAD_PAX \b0	
+	#define ENG_MAV44_CAP_HEAD_MAIL \b0	
+	#define ENG_MAV44_CAP_HEAD_ARMOR \b0	
+	#define ENG_MAV44_PAX_LS \b1	
+	#define ENG_MAV44_MAIL_LS \b1	
+	#define ENG_MAV44_ARMOR_LS \b1	
+	#define ENG_MAV44_WEIGHT \b55	
+	#define ENG_MAV44_WEIGHT_HIGH \b0	
+	#define ENG_MAV44_PCOST \w33102	
+	#define ENG_MAV44_RCOST \w33125	
+	#define ENG_MAV44_RCOST_WAG \w32788	
+	#define ENG_MAV44_NUTRACKS_TRACKTYPE 0	
+		
+	#define ENG_MAV44_TRACTION_TYPE 8	
+	#define ENG_MAV44_ID_W \w2070	
+	#define ENG_MAV44_ID_B \b*2070	
+	#define STR_W_ENG_MAV44 \wxD0D0	
+	#define STR_B_ENG_MAV44 D0	
+	
+
 #define MET_01800_INTROYEAR \d1993-1-1	
 	#define MET_01800_V_LIFE \b60	
 	#define MET_01800_M_LIFE \b255	
@@ -4715,38 +4748,5 @@
 	#define MET_TOKYO_ID_B \b*4516	
 	#define STR_W_MET_TOKYO \wxD0B0	
 	#define STR_B_MET_TOKYO B0	
-	
-
-#define NIG_MGV_B_C_INTROYEAR \d2000-1-1	
-	#define NIG_MGV_B_C_V_LIFE \b60	
-	#define NIG_MGV_B_C_M_LIFE \b255	
-	#define NIG_MGV_B_C_SPEED \w80	
-	#define NIG_MGV_B_C_TE \b244	
-	#define NIG_MGV_B_C_HP \w536	
-	#define NIG_MGV_B_C_WAG_HP \w536	
-	#define NIG_MGV_B_C_CAP_WAG_PAX \b153	
-	#define NIG_MGV_B_C_CAP_WAG_MAIL \b115	
-	#define NIG_MGV_B_C_CAP_WAG_ARMOR \b77	
-	#define NIG_MGV_B_C_CAP_WAG_PAX_STR "153"	
-	#define NIG_MGV_B_C_CAP_WAG_MAIL_STR "115"	
-	#define NIG_MGV_B_C_CAP_WAG_ARMOR_STR "77"	
-	#define NIG_MGV_B_C_CAP_HEAD_PAX \b153	
-	#define NIG_MGV_B_C_CAP_HEAD_MAIL \b115	
-	#define NIG_MGV_B_C_CAP_HEAD_ARMOR \b77	
-	#define NIG_MGV_B_C_PAX_LS \b60	
-	#define NIG_MGV_B_C_MAIL_LS \b45	
-	#define NIG_MGV_B_C_ARMOR_LS \b30	
-	#define NIG_MGV_B_C_WEIGHT \b27	
-	#define NIG_MGV_B_C_WEIGHT_HIGH \b0	
-	#define NIG_MGV_B_C_PCOST \w33163	
-	#define NIG_MGV_B_C_RCOST \w32905	
-	#define NIG_MGV_B_C_RCOST_WAG \w32905	
-		
-		
-	#define NIG_MGV_B_C_TRACTION_TYPE 32	
-	#define NIG_MGV_B_C_ID_W \w4517	
-	#define NIG_MGV_B_C_ID_B \b*4517	
-	#define STR_W_NIG_MGV_B_C \wxD0B1	
-	#define STR_B_NIG_MGV_B_C B1	
 	
 
