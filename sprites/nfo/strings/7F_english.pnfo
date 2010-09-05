@@ -94,6 +94,8 @@
 #define	STR_ENG_WDM2	"WDM2"
 #define	STR_ENG_CHME3	"ChME3"
 #define	STR_ENG_M62	"M62"
+#define	STR_ENG_MAV44	"MAV Class M44"
+
 //	Electrics		
 #define	STR_ENG_1044	"1044"
 #define	STR_ENG_26000	"26000"
