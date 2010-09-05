@@ -172,7 +172,7 @@
 #define	STR_MU_VT612	"VT612 'Regioswinger'"
 #define	STR_MU_SM2	"SM2"
 #define	STR_MU_SM4	"SM4"
-#define	STR_MU_TGV_A	"TGV Atlantique"
+#define	STR_MU_TGV_A	"TGV Sud-Est"
 #define	STR_MU_TGV_D	"TGV Duplex"
 #define	STR_MU_TGV_T	"TGV Thalys"
 #define	STR_MU_Y2	"Y2"
