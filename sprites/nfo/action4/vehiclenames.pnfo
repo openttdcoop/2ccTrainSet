@@ -372,4 +372,13 @@
 #endif													
 #ifdef STR_ENG_MAV44													
 		01	*	00	04	00	LANG_ID	\b1	ENG_MAV44_ID_B		SPACE	STR_ENG_MAV44	00
+#endif													 													
+#ifdef STR_ENG_AMERICAN													
+		-01	*	00	04	00	LANG_ID	\b1	ENG_AMERICAN_ID_B		SPACE	STR_ENG_AMERICAN	00
+#endif													
+#ifdef STR_ENG_10WHEELER													
+		00	*	00	04	01	LANG_ID	\b1	ENG_10WHEELER_ID_B		SPACE	STR_ENG_10WHEELER	00
+#endif													
+#ifdef STR_ENG_KKSTB229													
+		01	*	00	04	02	LANG_ID	\b1	ENG_KKSTB229_ID_B		SPACE	STR_ENG_KKSTB229	00
 #endif													

@@ -141,6 +141,9 @@
 #define	STR_ENG_ROYALHUDSON	"Royal Hudson"
 #define	STR_ENG_P36	"P36"
 #define STR_ENG_DB52  "DRB Class 52"
+#define	STR_ENG_AMERICAN	"4-4-0 American"
+#define	STR_ENG_10WHEELER	"4-6-0 Ten Wheeler"
+#define	STR_ENG_KKSTB229	"KkStB Class 229"
 		
 //	MU	Names:		
 #define	STR_MU_594	"594"

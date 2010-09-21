@@ -86,7 +86,9 @@
 #include "sprites/nfo/engines/mav44.pnfo"
 //#include "sprites/nfo/engines/.pnfo"
 #include "sprites/nfo/engines/kz2a.pnfo"
-
+#include "sprites/nfo/engines/10wheeler.pnfo"
+#include "sprites/nfo/engines/american.pnfo"
+#include "sprites/nfo/engines/kkstb229.pnfo"
 
 // MUs
 #include "sprites/nfo/mus/594.pnfo"
