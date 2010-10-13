@@ -382,3 +382,6 @@
 #ifdef STR_ENG_KKSTB229													
 		01	*	00	04	00	LANG_ID	\b1	ENG_KKSTB229_ID_B		SPACE	STR_ENG_KKSTB229	00
 #endif													
+#ifdef STR_ENG_GWR_4900													
+		-01	*	00	04	00	LANG_ID	\b1	ENG_GWR_4900_ID_B		SPACE	STR_ENG_GWR_4900	00
+#endif													

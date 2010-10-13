@@ -144,6 +144,7 @@
 #define	STR_ENG_AMERICAN	"4-4-0 American"
 #define	STR_ENG_10WHEELER	"4-6-0 Ten Wheeler"
 #define	STR_ENG_KKSTB229	"KkStB Class 229"
+#define STR_ENG_GWR_4900  "GWR Class 4900 ('Hall' class)"
 		
 //	MU	Names:		
 #define	STR_MU_594	"594"
