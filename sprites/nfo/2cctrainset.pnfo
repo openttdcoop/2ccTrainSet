@@ -92,6 +92,8 @@
 #include "sprites/nfo/engines/gwr_4900.pnfo"
 #include "sprites/nfo/engines/ef500.pnfo"
 #include "sprites/nfo/engines/ef55.pnfo"
+#include "sprites/nfo/engines/el10.pnfo"
+
 
 // MUs
 #include "sprites/nfo/mus/594.pnfo"
