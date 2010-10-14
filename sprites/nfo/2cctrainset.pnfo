@@ -98,7 +98,7 @@
 #include "sprites/nfo/engines/class1020.pnfo"
 #include "sprites/nfo/engines/cr439.pnfo"
 #include "sprites/nfo/engines/nrz_x_class.pnfo"
-
+#include "sprites/nfo/engines/consolidation.pnfo"
 
 
 
