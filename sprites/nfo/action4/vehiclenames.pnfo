@@ -385,3 +385,42 @@
 #ifdef STR_ENG_GWR_4900													
 		-01	*	00	04	00	LANG_ID	\b1	ENG_GWR_4900_ID_B		SPACE	STR_ENG_GWR_4900	00
 #endif													
+#ifdef STR_MU_EUROSTAR													
+		-01	*	00	04	00	LANG_ID	\b1	MU_EUROSTAR_ID_B		SPACE	STR_MU_EUROSTAR	00
+#endif													
+#ifdef STR_RB_CFE33													
+		-01	*	00	04	00	LANG_ID	\b1	RB_CFE33_ID_B		SPACE	STR_RB_CFE33	00
+#endif													
+#ifdef STR_RB_VT42													
+		-01	*	00	04	00	LANG_ID	\b1	RB_VT42_ID_B		SPACE	STR_RB_VT42	00
+#endif													
+#ifdef STR_RB_VT98													
+		-01	*	00	04	00	LANG_ID	\b1	RB_VT98_ID_B		SPACE	STR_RB_VT98	00
+#endif																										
+#ifdef STR_ENG_EF500													
+		-01	*	00	04	00	LANG_ID	\b1	ENG_EF500_ID_B		SPACE	STR_ENG_EF500	00
+#endif													
+#ifdef STR_ENG_EF55													
+		-01	*	00	04	00	LANG_ID	\b1	ENG_EF55_ID_B		SPACE	STR_ENG_EF55	00
+#endif													
+#ifdef STR_ENG_EL10													
+		-01	*	00	04	00	LANG_ID	\b1	ENG_EL10_ID_B		SPACE	STR_ENG_EL10	00
+#endif													
+#ifdef STR_ENG_EF64													
+		-01	*	00	04	00	LANG_ID	\b1	ENG_EF64_ID_B		SPACE	STR_ENG_EF64	00
+#endif													
+#ifdef STR_ENG_EL7													
+		-01	*	00	04	00	LANG_ID	\b1	ENG_EL7_ID_B		SPACE	STR_ENG_EL7	00
+#endif													
+#ifdef STR_ENG_CLASS1020CROCK													
+		-01	*	00	04	00	LANG_ID	\b1	ENG_CLASS1020CROCK_ID_B		SPACE	STR_ENG_CLASS1020CROCK	00
+#endif													
+#ifdef STR_ENG_CR_CLASS439													
+		-01	*	00	04	00	LANG_ID	\b1	ENG_CR_CLASS439_ID_B		SPACE	STR_ENG_CR_CLASS439	00
+#endif													
+#ifdef STR_ENG_NZR_X													
+		-01	*	00	04	00	LANG_ID	\b1	ENG_NZR_X_ID_B		SPACE	STR_ENG_NZR_X	00
+#endif													
+#ifdef STR_ENG_CONSOLIDATION													
+		-01	*	00	04	00	LANG_ID	\b1	ENG_CONSOLIDATION_ID_B		SPACE	STR_ENG_CONSOLIDATION	00
+#endif													

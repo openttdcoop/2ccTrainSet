@@ -90,7 +90,7 @@
 #include "sprites/nfo/engines/american.pnfo"
 #include "sprites/nfo/engines/kkstb229.pnfo"
 #include "sprites/nfo/engines/gwr_4900.pnfo"
-
+#include "sprites/nfo/engines/ef500.pnfo"
 
 // MUs
 #include "sprites/nfo/mus/594.pnfo"
