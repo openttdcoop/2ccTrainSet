@@ -96,6 +96,8 @@
 #include "sprites/nfo/engines/ef64.pnfo"
 #include "sprites/nfo/engines/el7.pnfo"
 #include "sprites/nfo/engines/class1020.pnfo"
+#include "sprites/nfo/engines/cr439.pnfo"
+
 
 
 
