@@ -74,7 +74,6 @@
 
 
 //	Engine	Names:
-//	Diesels
 #define	STR_ENG_2100	"2100"
 #define	STR_ENG_422	"422"
 #define	STR_ENG_BOXCAB	"Alco GE-IR Boxcab"
@@ -94,9 +93,7 @@
 #define	STR_ENG_WDM2	"WDM2"
 #define	STR_ENG_CHME3	"ChME3"
 #define	STR_ENG_M62	"M62"
-#define	STR_ENG_MAV44	"MAV Class M44"
-
-//	Electrics		
+#define	STR_ENG_MAV44	"MAV Class M44"	
 #define	STR_ENG_1044	"1044"
 #define	STR_ENG_26000	"26000"
 #define	STR_ENG_27000	"27000"
@@ -126,9 +123,7 @@
 #define	STR_ENG_VL85	"VL85"
 #define	STR_ENG_WCM1	"WCM1"
 #define	STR_ENG_HZ1141 "HZ Class 1141"
-#define	STR_ENG_TAURUS1 "ES64U Taurus"
-
-//	Steamers		
+#define	STR_ENG_TAURUS1 "ES64U Taurus"		
 #define	STR_ENG_11B	"Class 11B 0-8-2"
 #define	STR_ENG_140C	"140C"
 #define	STR_ENG_141TA	"141TA"
@@ -145,6 +140,16 @@
 #define	STR_ENG_10WHEELER	"4-6-0 Ten Wheeler"
 #define	STR_ENG_KKSTB229	"KkStB Class 229"
 #define STR_ENG_GWR_4900  "GWR Class 4900 ('Hall' class)"
+#define	STR_ENG_EF500	"EF500"
+#define	STR_ENG_EF55	"EF55"
+#define	STR_ENG_EL10	"NSB El10"
+#define	STR_ENG_EF64	"EF64"
+#define	STR_ENG_EL7	"NSB El7"
+#define	STR_ENG_CLASS1020CROCK	"Class 1020 'Crocodile'"
+#define	STR_ENG_CR_CLASS439	"CR Class 439"
+#define	STR_ENG_NZR_X	"NZR X Class"
+#define	STR_ENG_CONSOLIDATION	"2-8-0 Consolidation"
+
 		
 //	MU	Names:		
 #define	STR_MU_594	"594"
@@ -186,6 +191,7 @@
 #define	STR_MU_SHINKANSEN0	"Shinkansen Series 0"
 #define	STR_MU_SHINKANSEN700	"Shinkansen Series 700"
 #define	STR_MU_KONCAR	"Koncar DMV"
+#define	STR_MU_EUROSTAR	"TGV Eurostar"
 				
 //	Railbus	names:		
 #define	STR_RB_479	"Railbus 479"
@@ -194,6 +200,10 @@
 #define	STR_RB_AR2	"Railbus AR2"
 #define	STR_RB_DM7	"Railbus Dm7"
 #define	STR_RB_VT133	"Railbus Vt133"
+#define	STR_RB_CFE33	"Railbus Cfe3/3"
+#define	STR_RB_VT42	"Railbus VT42"
+#define	STR_RB_VT98	"Railbus VT98"
+
 
 //	Metro	Names:		
 #define	STR_MET_01800	"Boston 01800"
