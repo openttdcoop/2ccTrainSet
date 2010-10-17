@@ -155,6 +155,8 @@
 #include "sprites/nfo/railbus/dm7.pnfo"
 #include "sprites/nfo/railbus/vt133.pnfo"
 #include "sprites/nfo/railbus/vt98.pnfo"
+#include "sprites/nfo/railbus/vt42.pnfo"
+
 
 // Metros:
 #include "sprites/nfo/metro/81-729.pnfo"
