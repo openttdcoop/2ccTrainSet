@@ -79,6 +79,10 @@
 #error "One or more misc properties not defined"
 #endif
 
+#ifdef THIS_ENG_NAME
+  -01	*	00	04	00	7F	\b1	THIS_ENG_ID_B		SPACE	THIS_ENG_NAME	00 
+#endif
+
 // Action 0
 -1 * 0  00 00 \b31 01 THIS_ENG_ID_B
 // Game related props 

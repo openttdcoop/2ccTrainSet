@@ -29,6 +29,7 @@
 	#define MU_594_ID_B \b*3000	
 	#define STR_W_MU_594 \wxD000	
 	#define STR_B_MU_594 0	
+	#define NAME_MU_594 "594 TRD"	
 	
 
 #define MU_811_INTROYEAR \d1974-1-1	
@@ -62,6 +63,7 @@
 	#define MU_811_ID_B \b*3001	
 	#define STR_W_MU_811 \wxD001	
 	#define STR_B_MU_811 1	
+	#define NAME_MU_811 "811"	
 	
 
 #define MU_BM93_INTROYEAR \d2001-1-1	
@@ -95,6 +97,7 @@
 	#define MU_BM93_ID_B \b*3002	
 	#define STR_W_MU_BM93 \wxD002	
 	#define STR_B_MU_BM93 2	
+	#define NAME_MU_BM93 "BM93"	
 	
 
 #define MU_BR150_INTROYEAR \d1986-1-1	
@@ -128,6 +131,7 @@
 	#define MU_BR150_ID_B \b*3003	
 	#define STR_W_MU_BR150 \wxD003	
 	#define STR_B_MU_BR150 3	
+	#define NAME_MU_BR150 "BR 150"	
 	
 
 #define MU_BR158_INTROYEAR \d1991-1-1	
@@ -161,6 +165,7 @@
 	#define MU_BR158_ID_B \b*3004	
 	#define STR_W_MU_BR158 \wxD004	
 	#define STR_B_MU_BR158 4	
+	#define NAME_MU_BR158 "BR 158"	
 	
 
 #define MU_BR168_INTROYEAR \d1997-1-1	
@@ -194,6 +199,7 @@
 	#define MU_BR168_ID_B \b*3005	
 	#define STR_W_MU_BR168 \wxD005	
 	#define STR_B_MU_BR168 5	
+	#define NAME_MU_BR168 "BR Class 168"	
 	
 
 #define MU_CC_INTROYEAR \d1996-1-1	
@@ -227,6 +233,7 @@
 	#define MU_CC_ID_B \b*3006	
 	#define STR_W_MU_CC \wxD006	
 	#define STR_B_MU_CC 6	
+	#define NAME_MU_CC "Cargo Sprinter"	
 	
 
 #define MU_CD_INTROYEAR \d2015-1-1	
@@ -260,6 +267,7 @@
 	#define MU_CD_ID_B \b*3007	
 	#define STR_W_MU_CD \wxD007	
 	#define STR_B_MU_CD 7	
+	#define NAME_MU_CD "Chicago Doubler"	
 	
 
 #define MU_HUNTER_INTROYEAR \d2006-1-1	
@@ -293,6 +301,7 @@
 	#define MU_HUNTER_ID_B \b*3008	
 	#define STR_W_MU_HUNTER \wxD008	
 	#define STR_B_MU_HUNTER 8	
+	#define NAME_MU_HUNTER "Hunter Railcar"	
 	
 
 #define MU_IC125_INTROYEAR \d1976-1-1	
@@ -326,6 +335,7 @@
 	#define MU_IC125_ID_B \b*3009	
 	#define STR_W_MU_IC125 \wxD009	
 	#define STR_B_MU_IC125 9	
+	#define NAME_MU_IC125 "IC125"	
 	
 
 #define MU_LINT41_INTROYEAR \d2001-1-1	
@@ -359,6 +369,7 @@
 	#define MU_LINT41_ID_B \b*3010	
 	#define STR_W_MU_LINT41 \wxD00A	
 	#define STR_B_MU_LINT41 A	
+	#define NAME_MU_LINT41 "Lint 41"	
 	
 
 #define MU_LRC_INTROYEAR \d1980-1-1	
@@ -392,6 +403,7 @@
 	#define MU_LRC_ID_B \b*3011	
 	#define STR_W_MU_LRC \wxD00B	
 	#define STR_B_MU_LRC B	
+	#define NAME_MU_LRC "LRC"	
 	
 
 #define MU_VT612_INTROYEAR \d1998-1-1	
@@ -425,6 +437,7 @@
 	#define MU_VT612_ID_B \b*3012	
 	#define STR_W_MU_VT612 \wxD00C	
 	#define STR_B_MU_VT612 C	
+	#define NAME_MU_VT612 "VT 612 " RegioSwinger""	
 	
 
 #define MU_Y2_INTROYEAR \d1990-1-1	
@@ -458,6 +471,7 @@
 	#define MU_Y2_ID_B \b*3013	
 	#define STR_W_MU_Y2 \wxD00D	
 	#define STR_B_MU_Y2 D	
+	#define NAME_MU_Y2 "Y2"	
 	
 
 #define MU_2200_INTROYEAR \d1999-1-1	
@@ -491,6 +505,7 @@
 	#define MU_2200_ID_B \b*3014	
 	#define STR_W_MU_2200 \wxD00E	
 	#define STR_B_MU_2200 E	
+	#define NAME_MU_2200 "2200"	
 	
 
 #define MU_4041_INTROYEAR \d1929-1-1	
@@ -524,6 +539,7 @@
 	#define MU_4041_ID_B \b*3015	
 	#define STR_W_MU_4041 \wxD00F	
 	#define STR_B_MU_4041 F	
+	#define NAME_MU_4041 "4041"	
 	
 
 #define MU_680_INTROYEAR \d1999-1-1	
@@ -557,6 +573,7 @@
 	#define MU_680_ID_B \b*3016	
 	#define STR_W_MU_680 \wxD016	
 	#define STR_B_MU_680 10	
+	#define NAME_MU_680 "680 Pendolino"	
 	
 
 #define MU_BDVMOT_INTROYEAR \d1988-1-1	
@@ -590,6 +607,7 @@
 	#define MU_BDVMOT_ID_B \b*3017	
 	#define STR_W_MU_BDVMOT \wxD017	
 	#define STR_B_MU_BDVMOT 11	
+	#define NAME_MU_BDVMOT "BDVmot"	
 	
 
 #define MU_BM65_INTROYEAR \d1942-1-1	
@@ -623,6 +641,7 @@
 	#define MU_BM65_ID_B \b*3018	
 	#define STR_W_MU_BM65 \wxD018	
 	#define STR_B_MU_BM65 12	
+	#define NAME_MU_BM65 "BM65"	
 	
 
 #define MU_BM73_INTROYEAR \d1998-1-1	
@@ -656,6 +675,7 @@
 	#define MU_BM73_ID_B \b*3019	
 	#define STR_W_MU_BM73 \wxD013	
 	#define STR_B_MU_BM73 13	
+	#define NAME_MU_BM73 "BM73"	
 	
 
 #define MU_ET420_INTROYEAR \d1969-1-1	
@@ -689,6 +709,7 @@
 	#define MU_ET420_ID_B \b*3020	
 	#define STR_W_MU_ET420 \wxD014	
 	#define STR_B_MU_ET420 14	
+	#define NAME_MU_ET420 "ET 420"	
 	
 
 #define MU_ETR500_INTROYEAR \d1993-1-1	
@@ -722,6 +743,7 @@
 	#define MU_ETR500_ID_B \b*3021	
 	#define STR_W_MU_ETR500 \wxD015	
 	#define STR_B_MU_ETR500 15	
+	#define NAME_MU_ETR500 "ETR500"	
 	
 
 #define MU_HSA_INTROYEAR \d2012-1-1	
@@ -755,6 +777,7 @@
 	#define MU_HSA_ID_B \b*3022	
 	#define STR_W_MU_HSA \wxD016	
 	#define STR_B_MU_HSA 16	
+	#define NAME_MU_HSA "HSA"	
 	
 
 #define MU_ICE3_INTROYEAR \d2000-1-1	
@@ -788,6 +811,7 @@
 	#define MU_ICE3_ID_B \b*3023	
 	#define STR_W_MU_ICE3 \wxD017	
 	#define STR_B_MU_ICE3 17	
+	#define NAME_MU_ICE3 "ICE-3"	
 	
 
 #define MU_ICM_INTROYEAR \d1979-1-1	
@@ -821,6 +845,7 @@
 	#define MU_ICM_ID_B \b*3024	
 	#define STR_W_MU_ICM \wxD018	
 	#define STR_B_MU_ICM 18	
+	#define NAME_MU_ICM "ICM"	
 	
 
 #define MU_MAT24_INTROYEAR \d1924-1-1	
@@ -854,6 +879,7 @@
 	#define MU_MAT24_ID_B \b*3025	
 	#define STR_W_MU_MAT24 \wxD019	
 	#define STR_B_MU_MAT24 19	
+	#define NAME_MU_MAT24 "Mat24"	
 	
 
 #define MU_MAT36_INTROYEAR \d1936-1-1	
@@ -887,6 +913,7 @@
 	#define MU_MAT36_ID_B \b*3026	
 	#define STR_W_MU_MAT36 \wxD01A	
 	#define STR_B_MU_MAT36 1A	
+	#define NAME_MU_MAT36 "Mat36"	
 	
 
 #define MU_MDDM_INTROYEAR \d1997-1-1	
@@ -920,6 +947,7 @@
 	#define MU_MDDM_ID_B \b*3027	
 	#define STR_W_MU_MDDM \wxD01B	
 	#define STR_B_MU_MDDM 1B	
+	#define NAME_MU_MDDM "DDAR"	
 	
 
 #define MU_OSCAR_INTROYEAR \d2007-1-1	
@@ -953,6 +981,7 @@
 	#define MU_OSCAR_ID_B \b*3028	
 	#define STR_W_MU_OSCAR \wxD01C	
 	#define STR_B_MU_OSCAR 1C	
+	#define NAME_MU_OSCAR "OSCars"	
 	
 
 #define MU_PLANY_INTROYEAR \d1975-1-1	
@@ -986,6 +1015,7 @@
 	#define MU_PLANY_ID_B \b*3029	
 	#define STR_W_MU_PLANY \wxD01D	
 	#define STR_B_MU_PLANY 1D	
+	#define NAME_MU_PLANY "Plan Y"	
 	
 
 #define MU_RADBE510_INTROYEAR \d1965-1-1	
@@ -1019,6 +1049,7 @@
 	#define MU_RADBE510_ID_B \b*3030	
 	#define STR_W_MU_RADBE510 \wxD01E	
 	#define STR_B_MU_RADBE510 1E	
+	#define NAME_MU_RADBE510 "radbe510"	
 	
 
 #define MU_RBDE560_INTROYEAR \d1984-1-1	
@@ -1052,6 +1083,7 @@
 	#define MU_RBDE560_ID_B \b*3031	
 	#define STR_W_MU_RBDE560 \wxD01F	
 	#define STR_B_MU_RBDE560 1F	
+	#define NAME_MU_RBDE560 "rbde560"	
 	
 
 #define MU_RAE_TEE2_INTROYEAR \d1961-1-1	
@@ -1085,6 +1117,7 @@
 	#define MU_RAE_TEE2_ID_B \b*3032	
 	#define STR_W_MU_RAE_TEE2 \wxD020	
 	#define STR_B_MU_RAE_TEE2 20	
+	#define NAME_MU_RAE_TEE2 "Rae TEE II"	
 	
 
 #define MU_SM2_INTROYEAR \d1975-1-1	
@@ -1118,6 +1151,7 @@
 	#define MU_SM2_ID_B \b*3033	
 	#define STR_W_MU_SM2 \wxD021	
 	#define STR_B_MU_SM2 21	
+	#define NAME_MU_SM2 "Sm2"	
 	
 
 #define MU_SM4_INTROYEAR \d1999-1-1	
@@ -1151,6 +1185,7 @@
 	#define MU_SM4_ID_B \b*3034	
 	#define STR_W_MU_SM4 \wxD022	
 	#define STR_B_MU_SM4 22	
+	#define NAME_MU_SM4 "Sm4"	
 	
 
 #define MU_TGV_A_INTROYEAR \d1981-1-1	
@@ -1184,6 +1219,7 @@
 	#define MU_TGV_A_ID_B \b*3035	
 	#define STR_W_MU_TGV_A \wxD023	
 	#define STR_B_MU_TGV_A 23	
+	#define NAME_MU_TGV_A "TGV Sud-Est"	
 	
 
 #define MU_TGV_D_INTROYEAR \d1995-1-1	
@@ -1217,6 +1253,7 @@
 	#define MU_TGV_D_ID_B \b*3036	
 	#define STR_W_MU_TGV_D \wxD024	
 	#define STR_B_MU_TGV_D 24	
+	#define NAME_MU_TGV_D "TGV Duplex"	
 	
 
 #define MU_TGV_T_INTROYEAR \d1995-1-1	
@@ -1250,6 +1287,7 @@
 	#define MU_TGV_T_ID_B \b*3037	
 	#define STR_W_MU_TGV_T \wxD025	
 	#define STR_B_MU_TGV_T 25	
+	#define NAME_MU_TGV_T "TGV Thalys"	
 	
 
 #define MU_TGV_V150_INTROYEAR \d2007-1-1	
@@ -1283,6 +1321,7 @@
 	#define MU_TGV_V150_ID_B \b*3038	
 	#define STR_W_MU_TGV_V150 \wxD026	
 	#define STR_B_MU_TGV_V150 26	
+	#define NAME_MU_TGV_V150 "TVG POS V150"	
 	
 
 #define MU_X2000_INTROYEAR \d1990-1-1	
@@ -1316,6 +1355,7 @@
 	#define MU_X2000_ID_B \b*3039	
 	#define STR_W_MU_X2000 \wxD027	
 	#define STR_B_MU_X2000 27	
+	#define NAME_MU_X2000 "X2000"	
 	
 
 #define MU_CHIM_INTROYEAR \d2035-1-1	
@@ -1342,13 +1382,14 @@
 	#define MU_CHIM_PCOST \w49453	
 	#define MU_CHIM_RCOST \w49509	
 	#define MU_CHIM_RCOST_WAG \w32788	
-	#define MU_CHIM_NUTRACKS_TRACKTYPE  \b12	
+	#define MU_CHIM_NUTRACKS_TRACKTYPE 7	
 		
 	#define MU_CHIM_TRACTION_TYPE 38	
 	#define MU_CHIM_ID_W \w00	
 	#define MU_CHIM_ID_B \b*00	
 	#define STR_W_MU_CHIM \wxD028	
 	#define STR_B_MU_CHIM 28	
+	#define NAME_MU_CHIM "Chimaera"	
 	
 
 #define MU_SHINKANSEN0_INTROYEAR \d1964-1-1	
@@ -1382,6 +1423,7 @@
 	#define MU_SHINKANSEN0_ID_B \b*3040	
 	#define STR_W_MU_SHINKANSEN0 \wxD029	
 	#define STR_B_MU_SHINKANSEN0 29	
+	#define NAME_MU_SHINKANSEN0 "Shinkansen Series 0"	
 	
 
 #define MU_SHINKANSEN700_INTROYEAR \d1997-1-1	
@@ -1415,6 +1457,7 @@
 	#define MU_SHINKANSEN700_ID_B \b*3041	
 	#define STR_W_MU_SHINKANSEN700 \wxD02A	
 	#define STR_B_MU_SHINKANSEN700 2A	
+	#define NAME_MU_SHINKANSEN700 "Shinkansen Series 700"	
 	
 
 #define MU_KONCAR_INTROYEAR \d2011-1-1	
@@ -1446,8 +1489,9 @@
 	#define MU_KONCAR_TRACTION_TYPE 8	
 	#define MU_KONCAR_ID_W \w3042	
 	#define MU_KONCAR_ID_B \b*3042	
-	#define STR_W_MU_KONCAR \wxD00C	
-	#define STR_B_MU_KONCAR C	
+	#define STR_W_MU_KONCAR \wxD02B	
+	#define STR_B_MU_KONCAR 2B	
+	#define NAME_MU_KONCAR "Koncar KDMV"	
 	
 
 #define MU_EUROSTAR_INTROYEAR \d1992-1-1	
@@ -1479,8 +1523,9 @@
 	#define MU_EUROSTAR_TRACTION_TYPE 28	
 	#define MU_EUROSTAR_ID_W \w3043	
 	#define MU_EUROSTAR_ID_B \b*3043	
-	#define STR_W_MU_EUROSTAR \wxD00C	
-	#define STR_B_MU_EUROSTAR C	
+	#define STR_W_MU_EUROSTAR \wxD02C	
+	#define STR_B_MU_EUROSTAR 2C	
+	#define NAME_MU_EUROSTAR "TGV Eurostar"	
 	
 
 #define MU_DESIRO_DMU_INTROYEAR \d2000-1-1	
@@ -1512,8 +1557,9 @@
 	#define MU_DESIRO_DMU_TRACTION_TYPE 8	
 	#define MU_DESIRO_DMU_ID_W \w3044	
 	#define MU_DESIRO_DMU_ID_B \b*3044	
-	#define STR_W_MU_DESIRO_DMU \wxD00C	
-	#define STR_B_MU_DESIRO_DMU C	
+	#define STR_W_MU_DESIRO_DMU \wxD02D	
+	#define STR_B_MU_DESIRO_DMU 2D	
+	#define NAME_MU_DESIRO_DMU "Desiro DMU"	
 	
 
 #define MU_DESIRO_EMU_INTROYEAR \d2000-1-1	
@@ -1545,8 +1591,9 @@
 	#define MU_DESIRO_EMU_TRACTION_TYPE 28	
 	#define MU_DESIRO_EMU_ID_W \w3045	
 	#define MU_DESIRO_EMU_ID_B \b*3045	
-	#define STR_W_MU_DESIRO_EMU \wxD00C	
-	#define STR_B_MU_DESIRO_EMU C	
+	#define STR_W_MU_DESIRO_EMU \wxD02E	
+	#define STR_B_MU_DESIRO_EMU 2E	
+	#define NAME_MU_DESIRO_EMU "Desiro EMU"	
 	
 
 #define MU_ALN668_INTROYEAR \d1956-1-1	
@@ -1573,13 +1620,14 @@
 	#define MU_ALN668_PCOST \w33275	
 	#define MU_ALN668_RCOST \w32867	
 	#define MU_ALN668_RCOST_WAG \w32867	
-	#define MU_ALN668_NUTRACKS_TRACKTYPE 8	
+	#define MU_ALN668_NUTRACKS_TRACKTYPE 2	
 		
 	#define MU_ALN668_TRACTION_TYPE 8	
 	#define MU_ALN668_ID_W \w3046	
 	#define MU_ALN668_ID_B \b*3046	
-		
-		
+	#define STR_W_MU_ALN668 \wxD02F	
+	#define STR_B_MU_ALN668 2F	
+	#define NAME_MU_ALN668 "Aln668"	
 	
 
 #define MU_CLASS400_INTROYEAR \d1955-1-1	
@@ -1606,13 +1654,14 @@
 	#define MU_CLASS400_PCOST \w33140	
 	#define MU_CLASS400_RCOST \w32839	
 	#define MU_CLASS400_RCOST_WAG \w32839	
-	#define MU_CLASS400_NUTRACKS_TRACKTYPE  \b12	
+	#define MU_CLASS400_NUTRACKS_TRACKTYPE 2	
 		
 	#define MU_CLASS400_TRACTION_TYPE 8	
 	#define MU_CLASS400_ID_W \w3047	
 	#define MU_CLASS400_ID_B \b*3047	
-		
-		
+	#define STR_W_MU_CLASS400 \wxD030	
+	#define STR_B_MU_CLASS400 30	
+	#define NAME_MU_CLASS400 "Queens Rail Class 400"	
 	
 
 #define MU_M131_INTROYEAR \d1948-1-1	
@@ -1639,112 +1688,48 @@
 	#define MU_M131_PCOST \w32969	
 	#define MU_M131_RCOST \w32806	
 	#define MU_M131_RCOST_WAG \w32806	
-	#define MU_M131_NUTRACKS_TRACKTYPE _NUTRACKS_TRACKTYPE 	
+	#define MU_M131_NUTRACKS_TRACKTYPE 0	
 		
 	#define MU_M131_TRACTION_TYPE 8	
 	#define MU_M131_ID_W \w3048	
 	#define MU_M131_ID_B \b*3048	
-		
-		
+	#define STR_W_MU_M131 \wxD031	
+	#define STR_B_MU_M131 31	
+	#define NAME_MU_M131 "M141"	
 	
 
-#define NIG_ETR200_INTROYEAR \d1937-1-1	
-	#define NIG_ETR200_V_LIFE \b25	
-	#define NIG_ETR200_M_LIFE \b255	
-	#define NIG_ETR200_SPEED \w160	
-	#define NIG_ETR200_TE \b72	
-	#define NIG_ETR200_HP \w500	
-	#define NIG_ETR200_WAG_HP \w500	
-	#define NIG_ETR200_CAP_WAG_PAX \b45	
-	#define NIG_ETR200_CAP_WAG_MAIL \b34	
-	#define NIG_ETR200_CAP_WAG_ARMOR \b23	
-	#define NIG_ETR200_CAP_WAG_PAX_STR "45"	
-	#define NIG_ETR200_CAP_WAG_MAIL_STR "34"	
-	#define NIG_ETR200_CAP_WAG_ARMOR_STR "23"	
-	#define NIG_ETR200_CAP_HEAD_PAX \b45	
-	#define NIG_ETR200_CAP_HEAD_MAIL \b34	
-	#define NIG_ETR200_CAP_HEAD_ARMOR \b23	
-	#define NIG_ETR200_PAX_LS \b8	
-	#define NIG_ETR200_MAIL_LS \b6	
-	#define NIG_ETR200_ARMOR_LS \b4	
-	#define NIG_ETR200_WEIGHT \b40	
-	#define NIG_ETR200_WEIGHT_HIGH \b0	
-	#define NIG_ETR200_PCOST \w33853	
-	#define NIG_ETR200_RCOST \w32920	
-	#define NIG_ETR200_RCOST_WAG \w32920	
-	#define NIG_ETR200_NUTRACKS_TRACKTYPE  \b12	
+#define MU_DB_608_INTROYEAR \d1952-1-1	
+	#define MU_DB_608_V_LIFE \b25	
+	#define MU_DB_608_M_LIFE \b25	
+	#define MU_DB_608_SPEED \w140	
+	#define MU_DB_608_TE \b186	
+	#define MU_DB_608_HP \w490	
+	#define MU_DB_608_WAG_HP \w490	
+	#define MU_DB_608_CAP_WAG_PAX \b45	
+	#define MU_DB_608_CAP_WAG_MAIL \b34	
+	#define MU_DB_608_CAP_WAG_ARMOR \b23	
+	#define MU_DB_608_CAP_WAG_PAX_STR "45"	
+	#define MU_DB_608_CAP_WAG_MAIL_STR "34"	
+	#define MU_DB_608_CAP_WAG_ARMOR_STR "23"	
+	#define MU_DB_608_CAP_HEAD_PAX \b45	
+	#define MU_DB_608_CAP_HEAD_MAIL \b34	
+	#define MU_DB_608_CAP_HEAD_ARMOR \b23	
+	#define MU_DB_608_PAX_LS \b8	
+	#define MU_DB_608_MAIL_LS \b6	
+	#define MU_DB_608_ARMOR_LS \b4	
+	#define MU_DB_608_WEIGHT \b42	
+	#define MU_DB_608_WEIGHT_HIGH \b0	
+	#define MU_DB_608_PCOST \w33509	
+	#define MU_DB_608_RCOST \w32920	
+	#define MU_DB_608_RCOST_WAG \w32920	
+	#define MU_DB_608_NUTRACKS_TRACKTYPE 4	
 		
-	#define NIG_ETR200_TRACTION_TYPE 28	
-	#define NIG_ETR200_ID_W \w5	
-	#define NIG_ETR200_ID_B \b*5	
-		
-		
-	
-
-#define NIG_AVE_S102_INTROYEAR \d2007-1-1	
-	#define NIG_AVE_S102_V_LIFE \b25	
-	#define NIG_AVE_S102_M_LIFE \b255	
-	#define NIG_AVE_S102_SPEED \w300	
-	#define NIG_AVE_S102_TE \b566	
-	#define NIG_AVE_S102_HP \w10720	
-	#define NIG_AVE_S102_WAG_HP \w0	
-	#define NIG_AVE_S102_CAP_WAG_PAX \b53	
-	#define NIG_AVE_S102_CAP_WAG_MAIL \b40	
-	#define NIG_AVE_S102_CAP_WAG_ARMOR \b27	
-	#define NIG_AVE_S102_CAP_WAG_PAX_STR "53"	
-	#define NIG_AVE_S102_CAP_WAG_MAIL_STR "40"	
-	#define NIG_AVE_S102_CAP_WAG_ARMOR_STR "27"	
-	#define NIG_AVE_S102_CAP_HEAD_PAX \b53	
-	#define NIG_AVE_S102_CAP_HEAD_MAIL \b40	
-	#define NIG_AVE_S102_CAP_HEAD_ARMOR \b27	
-	#define NIG_AVE_S102_PAX_LS \b8	
-	#define NIG_AVE_S102_MAIL_LS \b6	
-	#define NIG_AVE_S102_ARMOR_LS \b4	
-	#define NIG_AVE_S102_WEIGHT \b23	
-	#define NIG_AVE_S102_WEIGHT_HIGH \b0	
-	#define NIG_AVE_S102_PCOST \w36542	
-	#define NIG_AVE_S102_RCOST \w36412	
-	#define NIG_AVE_S102_RCOST_WAG \w32788	
-	#define NIG_AVE_S102_NUTRACKS_TRACKTYPE 8	
-		
-	#define NIG_AVE_S102_TRACTION_TYPE 28	
-	#define NIG_AVE_S102_ID_W \w6	
-	#define NIG_AVE_S102_ID_B \b*6	
-		
-		
-	
-
-#define NIG_IC4_INTROYEAR \d2005-1-1	
-	#define NIG_IC4_V_LIFE \b25	
-	#define NIG_IC4_M_LIFE \b255	
-	#define NIG_IC4_SPEED \w240	
-	#define NIG_IC4_TE \b45	
-	#define NIG_IC4_HP \w900	
-	#define NIG_IC4_WAG_HP \w0	
-	#define NIG_IC4_CAP_WAG_PAX \b52	
-	#define NIG_IC4_CAP_WAG_MAIL \b39	
-	#define NIG_IC4_CAP_WAG_ARMOR \b26	
-	#define NIG_IC4_CAP_WAG_PAX_STR "52"	
-	#define NIG_IC4_CAP_WAG_MAIL_STR "39"	
-	#define NIG_IC4_CAP_WAG_ARMOR_STR "26"	
-	#define NIG_IC4_CAP_HEAD_PAX \b52	
-	#define NIG_IC4_CAP_HEAD_MAIL \b39	
-	#define NIG_IC4_CAP_HEAD_ARMOR \b26	
-	#define NIG_IC4_PAX_LS \b8	
-	#define NIG_IC4_MAIL_LS \b6	
-	#define NIG_IC4_ARMOR_LS \b4	
-	#define NIG_IC4_WEIGHT \b40	
-	#define NIG_IC4_WEIGHT_HIGH \b0	
-	#define NIG_IC4_PCOST \w34462	
-	#define NIG_IC4_RCOST \w35325	
-	#define NIG_IC4_RCOST_WAG \w32788	
-	#define NIG_IC4_NUTRACKS_TRACKTYPE 7	
-		
-	#define NIG_IC4_TRACTION_TYPE 8	
-	#define NIG_IC4_ID_W \w7	
-	#define NIG_IC4_ID_B \b*7	
-		
-		
+	#define MU_DB_608_TRACTION_TYPE 8	
+	#define MU_DB_608_ID_W \w3049	
+	#define MU_DB_608_ID_B \b*3049	
+	#define STR_W_MU_DB_608 \wxD032	
+	#define STR_B_MU_DB_608 32	
+	#define NAME_MU_DB_608 "DB Class 608"	
 	
 
 #define RB_809_INTROYEAR \d1996-1-1	
@@ -1778,6 +1763,7 @@
 	#define RB_809_ID_B \b*3500	
 	#define STR_W_RB_809 \wxD0D0	
 	#define STR_B_RB_809 D0	
+	#define NAME_RB_809 "809 Railcar"	
 	
 
 #define RB_AR2_INTROYEAR \d1997-1-1	
@@ -1811,6 +1797,7 @@
 	#define RB_AR2_ID_B \b*3501	
 	#define STR_W_RB_AR2 \wxD0D0	
 	#define STR_B_RB_AR2 D0	
+	#define NAME_RB_AR2 "AR 2"	
 	
 
 #define RB_KINKI_INTROYEAR \d1950-1-1	
@@ -1844,6 +1831,7 @@
 	#define RB_KINKI_ID_B \b*3502	
 	#define STR_W_RB_KINKI \wxD0D0	
 	#define STR_B_RB_KINKI D0	
+	#define NAME_RB_KINKI "Kinki"	
 	
 
 #define RB_DM7_INTROYEAR \d1955-1-1	
@@ -1877,6 +1865,7 @@
 	#define RB_DM7_ID_B \b*3503	
 	#define STR_W_RB_DM7 \wxD0D0	
 	#define STR_B_RB_DM7 D0	
+	#define NAME_RB_DM7 "DM7"	
 	
 
 #define NIG_121_INTROYEAR \d1960-1-1	
@@ -1910,6 +1899,7 @@
 	#define NIG_121_ID_B \b*3504	
 	#define STR_W_NIG_121 \wxD0D0	
 	#define STR_B_NIG_121 D0	
+	#define NAME_NIG_121 "121 Railcar"	
 	
 
 #define RB_479_INTROYEAR \d1930-1-1	
@@ -1943,6 +1933,7 @@
 	#define RB_479_ID_B \b*3505	
 	#define STR_W_RB_479 \wxD0D0	
 	#define STR_B_RB_479 D0	
+	#define NAME_RB_479 "479 Railcar"	
 	
 
 #define RB_LAYLAND_INTROYEAR \d1980-1-1	
@@ -1976,6 +1967,7 @@
 	#define RB_LAYLAND_ID_B \b*3506	
 	#define STR_W_RB_LAYLAND \wxD0D0	
 	#define STR_B_RB_LAYLAND D0	
+	#define NAME_RB_LAYLAND "Leyland Railbus"	
 	
 
 #define RB_VT133_INTROYEAR \d1932-1-1	
@@ -2009,6 +2001,7 @@
 	#define RB_VT133_ID_B \b*3507	
 	#define STR_W_RB_VT133 \wxD0D0	
 	#define STR_B_RB_VT133 D0	
+	#define NAME_RB_VT133 "VT 133"	
 	
 
 #define RB_153_111_INTROYEAR \d1991-1-1	
@@ -2042,6 +2035,7 @@
 	#define RB_153_111_ID_B \b*3508	
 	#define STR_W_RB_153_111 \wxD0D0	
 	#define STR_B_RB_153_111 D0	
+	#define NAME_RB_153_111 "153-111"	
 	
 
 #define RB_CFE33_INTROYEAR \d1911-1-1	
@@ -2075,6 +2069,7 @@
 	#define RB_CFE33_ID_B \b*3509	
 	#define STR_W_RB_CFE33 \wxD0D0	
 	#define STR_B_RB_CFE33 D0	
+	#define NAME_RB_CFE33 "Railbus Cfe3/3"	
 	
 
 #define RB_VT42_INTROYEAR \d1935-1-1	
@@ -2108,6 +2103,7 @@
 	#define RB_VT42_ID_B \b*3510	
 	#define STR_W_RB_VT42 \wxD0D0	
 	#define STR_B_RB_VT42 D0	
+	#define NAME_RB_VT42 "Railbus VT42"	
 	
 
 #define RB_VT98_INTROYEAR \d1953-1-1	
@@ -2141,6 +2137,41 @@
 	#define RB_VT98_ID_B \b*3511	
 	#define STR_W_RB_VT98 \wxD0D0	
 	#define STR_B_RB_VT98 D0	
+	#define NAME_RB_VT98 "Railbus VT98"	
+	
+
+#define RB_608_INTROYEAR \d1996-1-1	
+	#define RB_608_V_LIFE \b15	
+	#define RB_608_M_LIFE \b225	
+	#define RB_608_SPEED \w100	
+	#define RB_608_TE \b55	
+	#define RB_608_HP \w335	
+	#define RB_608_WAG_HP \w0	
+	#define RB_608_CAP_WAG_PAX \b110	
+	#define RB_608_CAP_WAG_MAIL \b83	
+	#define RB_608_CAP_WAG_ARMOR \b55	
+	#define RB_608_CAP_WAG_PAX_STR "110"	
+	#define RB_608_CAP_WAG_MAIL_STR "83"	
+	#define RB_608_CAP_WAG_ARMOR_STR "55"	
+	#define RB_608_CAP_HEAD_PAX \b110	
+	#define RB_608_CAP_HEAD_MAIL \b83	
+	#define RB_608_CAP_HEAD_ARMOR \b55	
+	#define RB_608_PAX_LS \b20	
+	#define RB_608_MAIL_LS \b15	
+	#define RB_608_ARMOR_LS \b10	
+	#define RB_608_WEIGHT \b34	
+	#define RB_608_WEIGHT_HIGH \b0	
+	#define RB_608_PCOST \w33210	
+	#define RB_608_RCOST \w33325	
+	#define RB_608_RCOST_WAG \w32788	
+	#define RB_608_NUTRACKS_TRACKTYPE 2	
+		
+	#define RB_608_TRACTION_TYPE 8	
+	#define RB_608_ID_W \w3512	
+	#define RB_608_ID_B \b*3512	
+	#define STR_W_RB_608 \wxD0D0	
+	#define STR_B_RB_608 D0	
+	#define NAME_RB_608 "Railbus Class 608"	
 	
 
 #define ENG_422_INTROYEAR \d1969-1-1	
@@ -2174,6 +2205,7 @@
 	#define ENG_422_ID_B \b*2000	
 	#define STR_W_ENG_422 \wxD0D0	
 	#define STR_B_ENG_422 D0	
+	#define NAME_ENG_422 "422"	
 	
 
 #define ENG_2100_INTROYEAR \d1970-1-1	
@@ -2207,6 +2239,7 @@
 	#define ENG_2100_ID_B \b*2001	
 	#define STR_W_ENG_2100 \wxD0D0	
 	#define STR_B_ENG_2100 D0	
+	#define NAME_ENG_2100 "2100"	
 	
 
 #define ENG_BOXCAB_INTROYEAR \d1931-1-1	
@@ -2240,6 +2273,7 @@
 	#define ENG_BOXCAB_ID_B \b*2002	
 	#define STR_W_ENG_BOXCAB \wxD0D0	
 	#define STR_B_ENG_BOXCAB D0	
+	#define NAME_ENG_BOXCAB "ALCo-GE-IR Boxcar (D)"	
 	
 
 #define ENG_BR66_INTROYEAR \d1998-1-1	
@@ -2273,6 +2307,7 @@
 	#define ENG_BR66_ID_B \b*2003	
 	#define STR_W_ENG_BR66 \wxD0D0	
 	#define STR_B_ENG_BR66 D0	
+	#define NAME_ENG_BR66 "Class 66"	
 	
 
 #define ENG_BR67_INTROYEAR \d1961-1-1	
@@ -2306,6 +2341,7 @@
 	#define ENG_BR67_ID_B \b*2004	
 	#define STR_W_ENG_BR67 \wxD0D0	
 	#define STR_B_ENG_BR67 D0	
+	#define NAME_ENG_BR67 "Class 67"	
 	
 
 #define ENG_DR12_INTROYEAR \d1959-1-1	
@@ -2339,6 +2375,7 @@
 	#define ENG_DR12_ID_B \b*2005	
 	#define STR_W_ENG_DR12 \wxD0D0	
 	#define STR_B_ENG_DR12 D0	
+	#define NAME_ENG_DR12 "Dr12"	
 	
 
 #define ENG_GL8_INTROYEAR \d1960-1-1	
@@ -2372,6 +2409,7 @@
 	#define ENG_GL8_ID_B \b*2006	
 	#define STR_W_ENG_GL8 \wxD0D0	
 	#define STR_B_ENG_GL8 D0	
+	#define NAME_ENG_GL8 "EMD GL8"	
 	
 
 #define ENG_F3_INTROYEAR \d1946-1-1	
@@ -2405,6 +2443,7 @@
 	#define ENG_F3_ID_B \b*2007	
 	#define STR_W_ENG_F3 \wxD0D0	
 	#define STR_B_ENG_F3 D0	
+	#define NAME_ENG_F3 "F3"	
 	
 
 #define ENG_GENESIS_INTROYEAR \d1992-1-1	
@@ -2438,6 +2477,7 @@
 	#define ENG_GENESIS_ID_B \b*2008	
 	#define STR_W_ENG_GENESIS \wxD0D0	
 	#define STR_B_ENG_GENESIS D0	
+	#define NAME_ENG_GENESIS "Genesis"	
 	
 
 #define ENG_J16CW_INTROYEAR \d1965-1-1	
@@ -2471,6 +2511,7 @@
 	#define ENG_J16CW_ID_B \b*2009	
 	#define STR_W_ENG_J16CW \wxD0D0	
 	#define STR_B_ENG_J16CW D0	
+	#define NAME_ENG_J16CW "GM-EMD-J16CW-AC"	
 	
 
 #define ENG_MAK_INTROYEAR \d1962-1-1	
@@ -2504,6 +2545,7 @@
 	#define ENG_MAK_ID_B \b*2010	
 	#define STR_W_ENG_MAK \wxD0D0	
 	#define STR_B_ENG_MAK D0	
+	#define NAME_ENG_MAK "MaK"	
 	
 
 #define ENG_M420W_INTROYEAR \d1973-1-1	
@@ -2537,6 +2579,7 @@
 	#define ENG_M420W_ID_B \b*2011	
 	#define STR_W_ENG_M420W \wxD0D0	
 	#define STR_B_ENG_M420W D0	
+	#define NAME_ENG_M420W "MLW M420W"	
 	
 
 #define ENG_NMBS_7800_INTROYEAR \d1997-1-1	
@@ -2570,6 +2613,7 @@
 	#define ENG_NMBS_7800_ID_B \b*2012	
 	#define STR_W_ENG_NMBS_7800 \wxD0D0	
 	#define STR_B_ENG_NMBS_7800 D0	
+	#define NAME_ENG_NMBS_7800 "NMBS 7800"	
 	
 
 #define ENG_SDP40F_INTROYEAR \d1973-1-1	
@@ -2603,6 +2647,7 @@
 	#define ENG_SDP40F_ID_B \b*2013	
 	#define STR_W_ENG_SDP40F \wxD0D0	
 	#define STR_B_ENG_SDP40F D0	
+	#define NAME_ENG_SDP40F "SDP-40F"	
 	
 
 #define ENG_SHARKNOSE_INTROYEAR \d1950-1-1	
@@ -2636,6 +2681,7 @@
 	#define ENG_SHARKNOSE_ID_B \b*2014	
 	#define STR_W_ENG_SHARKNOSE \wxD0D0	
 	#define STR_B_ENG_SHARKNOSE D0	
+	#define NAME_ENG_SHARKNOSE "Sharknose"	
 	
 
 #define ENG_TEP150_INTROYEAR \d2006-1-1	
@@ -2669,6 +2715,7 @@
 	#define ENG_TEP150_ID_B \b*2015	
 	#define STR_W_ENG_TEP150 \wxD0D0	
 	#define STR_B_ENG_TEP150 D0	
+	#define NAME_ENG_TEP150 "TEP150"	
 	
 
 #define ENG_V200_INTROYEAR \d1956-1-1	
@@ -2702,6 +2749,7 @@
 	#define ENG_V200_ID_B \b*2016	
 	#define STR_W_ENG_V200 \wxD0D0	
 	#define STR_B_ENG_V200 D0	
+	#define NAME_ENG_V200 "V200"	
 	
 
 #define ENG_WDM2_INTROYEAR \d1963-1-1	
@@ -2735,6 +2783,7 @@
 	#define ENG_WDM2_ID_B \b*2017	
 	#define STR_W_ENG_WDM2 \wxD0D0	
 	#define STR_B_ENG_WDM2 D0	
+	#define NAME_ENG_WDM2 "WDM-2"	
 	
 
 #define ENG_1044_INTROYEAR \d1974-1-1	
@@ -2768,6 +2817,7 @@
 	#define ENG_1044_ID_B \b*2018	
 	#define STR_W_ENG_1044 \wxD0D0	
 	#define STR_B_ENG_1044 D0	
+	#define NAME_ENG_1044 "1044"	
 	
 
 #define ENG_26000_INTROYEAR \d1989-1-1	
@@ -2801,6 +2851,7 @@
 	#define ENG_26000_ID_B \b*2019	
 	#define STR_W_ENG_26000 \wxD0D0	
 	#define STR_B_ENG_26000 D0	
+	#define NAME_ENG_26000 "26000"	
 	
 
 #define ENG_27000_INTROYEAR \d1953-1-1	
@@ -2834,6 +2885,7 @@
 	#define ENG_27000_ID_B \b*2020	
 	#define STR_W_ENG_27000 \wxD0D0	
 	#define STR_B_ENG_27000 D0	
+	#define NAME_ENG_27000 "27000 /NS 1500(Electric)"	
 	
 
 #define ENG_AE6_6_INTROYEAR \d1955-1-1	
@@ -2867,6 +2919,7 @@
 	#define ENG_AE6_6_ID_B \b*2021	
 	#define STR_W_ENG_AE6_6 \wxD0D0	
 	#define STR_B_ENG_AE6_6 D0	
+	#define NAME_ENG_AE6_6 "Ae 6-6"	
 	
 
 #define ENG_CE4_4_INTROYEAR \d1954-1-1	
@@ -2900,6 +2953,7 @@
 	#define ENG_CE4_4_ID_B \b*2022	
 	#define STR_W_ENG_CE4_4 \wxD0D0	
 	#define STR_B_ENG_CE4_4 D0	
+	#define NAME_ENG_CE4_4 "Ce 4/4"	
 	
 
 #define ENG_DM3_INTROYEAR \d1953-1-1	
@@ -2933,6 +2987,7 @@
 	#define ENG_DM3_ID_B \b*2023	
 	#define STR_W_ENG_DM3 \wxD0D0	
 	#define STR_B_ENG_DM3 D0	
+	#define NAME_ENG_DM3 "MTAB Dm3"	
 	
 
 #define ENG_DS3_INTROYEAR \d2003-1-1	
@@ -2966,6 +3021,7 @@
 	#define ENG_DS3_ID_B \b*2024	
 	#define STR_W_ENG_DS3 \wxD0D0	
 	#define STR_B_ENG_DS3 D0	
+	#define NAME_ENG_DS3 "Ds3"	
 	
 
 #define ENG_DB_E103_INTROYEAR \d1970-1-1	
@@ -2999,6 +3055,7 @@
 	#define ENG_DB_E103_ID_B \b*2025	
 	#define STR_W_ENG_DB_E103 \wxD0D0	
 	#define STR_B_ENG_DB_E103 D0	
+	#define NAME_ENG_DB_E103 "DB Class 103"	
 	
 
 #define ENG_E04_01_INTROYEAR \d1933-1-1	
@@ -3032,6 +3089,7 @@
 	#define ENG_E04_01_ID_B \b*2026	
 	#define STR_W_ENG_E04_01 \wxD0D0	
 	#define STR_B_ENG_E04_01 D0	
+	#define NAME_ENG_E04_01 "E04 01"	
 	
 
 #define ENG_E55200_INTROYEAR \d1998-1-1	
@@ -3065,6 +3123,7 @@
 	#define ENG_E55200_ID_B \b*2027	
 	#define STR_W_ENG_E55200 \wxD0D0	
 	#define STR_B_ENG_E55200 D0	
+	#define NAME_ENG_E55200 "E55200"	
 	
 
 #define ENG_E646_INTROYEAR \d1961-1-1	
@@ -3098,6 +3157,7 @@
 	#define ENG_E646_ID_B \b*2028	
 	#define STR_W_ENG_E646 \wxD0D0	
 	#define STR_B_ENG_E646 D0	
+	#define NAME_ENG_E646 "E646"	
 	
 
 #define ENG_ET41_INTROYEAR \d1977-1-1	
@@ -3131,6 +3191,7 @@
 	#define ENG_ET41_ID_B \b*2029	
 	#define STR_W_ENG_ET41 \wxD0D0	
 	#define STR_B_ENG_ET41 D0	
+	#define NAME_ENG_ET41 "ET41"	
 	
 
 #define ENG_HLE13_INTROYEAR \d1997-1-1	
@@ -3164,6 +3225,7 @@
 	#define ENG_HLE13_ID_B \b*2030	
 	#define STR_W_ENG_HLE13 \wxD0D0	
 	#define STR_B_ENG_HLE13 D0	
+	#define NAME_ENG_HLE13 "HLE 13"	
 	
 
 #define ENG_IORE_INTROYEAR \d2000-1-1	
@@ -3197,6 +3259,7 @@
 	#define ENG_IORE_ID_B \b*2031	
 	#define STR_W_ENG_IORE \wxD0D0	
 	#define STR_B_ENG_IORE D0	
+	#define NAME_ENG_IORE "IORE"	
 	
 
 #define ENG_KZ2A_INTROYEAR \d2004-1-1	
@@ -3230,6 +3293,7 @@
 	#define ENG_KZ2A_ID_B \b*2032	
 	#define STR_W_ENG_KZ2A \wxD0D0	
 	#define STR_B_ENG_KZ2A D0	
+	#define NAME_ENG_KZ2A "KZ2A"	
 	
 
 #define ENG_LOK2K_INTROYEAR \d1991-1-1	
@@ -3263,6 +3327,7 @@
 	#define ENG_LOK2K_ID_B \b*2033	
 	#define STR_W_ENG_LOK2K \wxD0D0	
 	#define STR_B_ENG_LOK2K D0	
+	#define NAME_ENG_LOK2K "Re460 / Lok 2000"	
 	
 
 #define ENG_EM2_INTROYEAR \d1953-1-1	
@@ -3296,6 +3361,7 @@
 	#define ENG_EM2_ID_B \b*2034	
 	#define STR_W_ENG_EM2 \wxD0D0	
 	#define STR_B_ENG_EM2 D0	
+	#define NAME_ENG_EM2 "Metrovic EM2"	
 	
 
 #define ENG_NER_EF1_INTROYEAR \d1914-1-1	
@@ -3329,6 +3395,7 @@
 	#define ENG_NER_EF1_ID_B \b*2035	
 	#define STR_W_ENG_NER_EF1 \wxD0D0	
 	#define STR_B_ENG_NER_EF1 D0	
+	#define NAME_ENG_NER_EF1 "NER EF1"	
 	
 
 #define ENG_NS1000_INTROYEAR \d1948-1-1	
@@ -3362,6 +3429,7 @@
 	#define ENG_NS1000_ID_B \b*2036	
 	#define STR_W_ENG_NS1000 \wxD0D0	
 	#define STR_B_ENG_NS1000 D0	
+	#define NAME_ENG_NS1000 "1000"	
 	
 
 #define ENG_NS1600_INTROYEAR \d1980-1-1	
@@ -3395,6 +3463,7 @@
 	#define ENG_NS1600_ID_B \b*2037	
 	#define STR_W_ENG_NS1600 \wxD0D0	
 	#define STR_B_ENG_NS1600 D0	
+	#define NAME_ENG_NS1600 "1600"	
 	
 
 #define ENG_SR1_INTROYEAR \d1973-1-1	
@@ -3428,6 +3497,7 @@
 	#define ENG_SR1_ID_B \b*2038	
 	#define STR_W_ENG_SR1 \wxD0D0	
 	#define STR_B_ENG_SR1 D0	
+	#define NAME_ENG_SR1 "Sr1"	
 	
 
 #define ENG_SS6_INTROYEAR \d1991-1-1	
@@ -3461,6 +3531,7 @@
 	#define ENG_SS6_ID_B \b*2039	
 	#define STR_W_ENG_SS6 \wxD0D0	
 	#define STR_B_ENG_SS6 D0	
+	#define NAME_ENG_SS6 "SS6"	
 	
 
 #define ENG_SNCF_BB_22000_INTROYEAR \d1976-1-1	
@@ -3494,6 +3565,7 @@
 	#define ENG_SNCF_BB_22000_ID_B \b*2040	
 	#define STR_W_ENG_SNCF_BB_22000 \wxD0D0	
 	#define STR_B_ENG_SNCF_BB_22000 D0	
+	#define NAME_ENG_SNCF_BB_22000 "SNCF 22000"	
 	
 
 #define ENG_VL15_INTROYEAR \d1984-1-1	
@@ -3527,6 +3599,7 @@
 	#define ENG_VL15_ID_B \b*2041	
 	#define STR_W_ENG_VL15 \wxD0D0	
 	#define STR_B_ENG_VL15 D0	
+	#define NAME_ENG_VL15 "VL15"	
 	
 
 #define ENG_WCM1_INTROYEAR \d1958-1-1	
@@ -3560,6 +3633,7 @@
 	#define ENG_WCM1_ID_B \b*2042	
 	#define STR_W_ENG_WCM1 \wxD0D0	
 	#define STR_B_ENG_WCM1 D0	
+	#define NAME_ENG_WCM1 "WCM-1"	
 	
 
 #define ENG_11B_INTROYEAR \d1920-1-1	
@@ -3593,6 +3667,7 @@
 	#define ENG_11B_ID_B \b*2043	
 	#define STR_W_ENG_11B \wxD0D0	
 	#define STR_B_ENG_11B D0	
+	#define NAME_ENG_11B "Class 11B 0-8-2"	
 	
 
 #define ENG_140C_INTROYEAR \d1920-1-1	
@@ -3626,6 +3701,7 @@
 	#define ENG_140C_ID_B \b*2044	
 	#define STR_W_ENG_140C \wxD0D0	
 	#define STR_B_ENG_140C D0	
+	#define NAME_ENG_140C "140C"	
 	
 
 #define ENG_141TA_INTROYEAR \d1922-1-1	
@@ -3659,6 +3735,7 @@
 	#define ENG_141TA_ID_B \b*2045	
 	#define STR_W_ENG_141TA \wxD0D0	
 	#define STR_B_ENG_141TA D0	
+	#define NAME_ENG_141TA "141TA"	
 	
 
 #define ENG_150B_INTROYEAR \d1933-1-1	
@@ -3692,6 +3769,7 @@
 	#define ENG_150B_ID_B \b*2046	
 	#define STR_W_ENG_150B \wxD0D0	
 	#define STR_B_ENG_150B D0	
+	#define NAME_ENG_150B "150B"	
 	
 
 #define ENG_6300_INTROYEAR \d1930-1-1	
@@ -3725,6 +3803,7 @@
 	#define ENG_6300_ID_B \b*2047	
 	#define STR_W_ENG_6300 \wxD0D0	
 	#define STR_B_ENG_6300 D0	
+	#define NAME_ENG_6300 "6300"	
 	
 
 #define ENG_A4_INTROYEAR \d1935-1-1	
@@ -3758,6 +3837,7 @@
 	#define ENG_A4_ID_B \b*2048	
 	#define STR_W_ENG_A4 \wxD0D0	
 	#define STR_B_ENG_A4 D0	
+	#define NAME_ENG_A4 "Gresley A4"	
 	
 
 #define ENG_BIGBOY_INTROYEAR \d1941-1-1	
@@ -3791,6 +3871,7 @@
 	#define ENG_BIGBOY_ID_B \b*2049	
 	#define STR_W_ENG_BIGBOY \wxD0D0	
 	#define STR_B_ENG_BIGBOY D0	
+	#define NAME_ENG_BIGBOY "Big Boy"	
 	
 
 #define ENG_OKZ32_INTROYEAR \d1934-1-1	
@@ -3824,6 +3905,7 @@
 	#define ENG_OKZ32_ID_B \b*2050	
 	#define STR_W_ENG_OKZ32 \wxD0D0	
 	#define STR_B_ENG_OKZ32 D0	
+	#define NAME_ENG_OKZ32 "Okz 32"	
 	
 
 #define ENG_ROYALHUDSON_INTROYEAR \d1937-1-1	
@@ -3857,6 +3939,7 @@
 	#define ENG_ROYALHUDSON_ID_B \b*2051	
 	#define STR_W_ENG_ROYALHUDSON \wxD0D0	
 	#define STR_B_ENG_ROYALHUDSON D0	
+	#define NAME_ENG_ROYALHUDSON "Royal Hudson"	
 	
 
 #define NIG_C571_INTROYEAR \d1-1-1	
@@ -3890,6 +3973,7 @@
 	#define NIG_C571_ID_B \b*2052	
 	#define STR_W_NIG_C571 \wxD0D0	
 	#define STR_B_NIG_C571 D0	
+	#define NAME_NIG_C571 "C571"	
 	
 
 #define NIG_QJ_INTROYEAR \d1-1-1	
@@ -3923,6 +4007,7 @@
 	#define NIG_QJ_ID_B \b*2053	
 	#define STR_W_NIG_QJ \wxD0D0	
 	#define STR_B_NIG_QJ D0	
+	#define NAME_NIG_QJ "QJ"	
 	
 
 #define NIG_P36_INTROYEAR \d1-1-1	
@@ -3956,6 +4041,7 @@
 	#define NIG_P36_ID_B \b*2054	
 	#define STR_W_NIG_P36 \wxD0D0	
 	#define STR_B_NIG_P36 D0	
+	#define NAME_NIG_P36 "P36"	
 	
 
 #define NIG_SU250_INTROYEAR \d1-1-1	
@@ -3989,6 +4075,7 @@
 	#define NIG_SU250_ID_B \b*2055	
 	#define STR_W_NIG_SU250 \wxD0D0	
 	#define STR_B_NIG_SU250 D0	
+	#define NAME_NIG_SU250 "SU250"	
 	
 
 #define NIG_DAYLIGHT_INTROYEAR \d1940-1-1	
@@ -4022,6 +4109,7 @@
 	#define NIG_DAYLIGHT_ID_B \b*2056	
 	#define STR_W_NIG_DAYLIGHT \wxD0D0	
 	#define STR_B_NIG_DAYLIGHT D0	
+	#define NAME_NIG_DAYLIGHT "Daylight"	
 	
 
 #define NIG_895_INTROYEAR \d1921-1-1	
@@ -4055,6 +4143,7 @@
 	#define NIG_895_ID_B \b*2057	
 	#define STR_W_NIG_895 \wxD0D0	
 	#define STR_B_NIG_895 D0	
+	#define NAME_NIG_895 "895"	
 	
 
 #define NIG_GARRAFETA_INTROYEAR \d1-1-1	
@@ -4088,6 +4177,7 @@
 	#define NIG_GARRAFETA_ID_B \b*2058	
 	#define STR_W_NIG_GARRAFETA \wxD0D0	
 	#define STR_B_NIG_GARRAFETA D0	
+	#define NAME_NIG_GARRAFETA "Garrafeta"	
 	
 
 #define NIG_BR23_INTROYEAR \d1-1-1	
@@ -4121,6 +4211,7 @@
 	#define NIG_BR23_ID_B \b*2059	
 	#define STR_W_NIG_BR23 \wxD0D0	
 	#define STR_B_NIG_BR23 D0	
+	#define NAME_NIG_BR23 "BR 23"	
 	
 
 #define NIG_C5_6_INTROYEAR \d1921-1-1	
@@ -4154,6 +4245,7 @@
 	#define NIG_C5_6_ID_B \b*2060	
 	#define STR_W_NIG_C5_6 \wxD0D0	
 	#define STR_B_NIG_C5_6 D0	
+	#define NAME_NIG_C5_6 "c5/6"	
 	
 
 #define ENG_LITERA_E_INTROYEAR \d1937-1-1	
@@ -4187,6 +4279,7 @@
 	#define ENG_LITERA_E_ID_B \b*2061	
 	#define STR_W_ENG_LITERA_E \wxD0D0	
 	#define STR_B_ENG_LITERA_E D0	
+	#define NAME_ENG_LITERA_E "Litera E"	
 	
 
 #define ENG_VL22M_INTROYEAR \d1945-1-1	
@@ -4220,6 +4313,7 @@
 	#define ENG_VL22M_ID_B \b*2062	
 	#define STR_W_ENG_VL22M \wxD0D0	
 	#define STR_B_ENG_VL22M D0	
+	#define NAME_ENG_VL22M "VL22M"	
 	
 
 #define ENG_VL85_INTROYEAR \d1983-1-1	
@@ -4253,6 +4347,7 @@
 	#define ENG_VL85_ID_B \b*2063	
 	#define STR_W_ENG_VL85 \wxD0D0	
 	#define STR_B_ENG_VL85 D0	
+	#define NAME_ENG_VL85 "VL85"	
 	
 
 #define ENG_CHME3_INTROYEAR \d1964-1-1	
@@ -4286,6 +4381,7 @@
 	#define ENG_CHME3_ID_B \b*2064	
 	#define STR_W_ENG_CHME3 \wxD0D0	
 	#define STR_B_ENG_CHME3 D0	
+	#define NAME_ENG_CHME3 "ChME3"	
 	
 
 #define ENG_P36_INTROYEAR \d1953-1-1	
@@ -4319,6 +4415,7 @@
 	#define ENG_P36_ID_B \b*2065	
 	#define STR_W_ENG_P36 \wxD0D0	
 	#define STR_B_ENG_P36 D0	
+	#define NAME_ENG_P36 "P36"	
 	
 
 #define ENG_M62_INTROYEAR \d1965-1-1	
@@ -4352,6 +4449,7 @@
 	#define ENG_M62_ID_B \b*2066	
 	#define STR_W_ENG_M62 \wxD0D0	
 	#define STR_B_ENG_M62 D0	
+	#define NAME_ENG_M62 "M62"	
 	
 
 #define ENG_DB52_INTROYEAR \d1942-1-1	
@@ -4385,6 +4483,7 @@
 	#define ENG_DB52_ID_B \b*2067	
 	#define STR_W_ENG_DB52 \wxD0D0	
 	#define STR_B_ENG_DB52 D0	
+	#define NAME_ENG_DB52 "DB class 52"	
 	
 
 #define ENG_HZ1141_INTROYEAR \d1967-1-1	
@@ -4418,6 +4517,7 @@
 	#define ENG_HZ1141_ID_B \b*2068	
 	#define STR_W_ENG_HZ1141 \wxD0D0	
 	#define STR_B_ENG_HZ1141 D0	
+	#define NAME_ENG_HZ1141 " HŽ Class 1141 "	
 	
 
 #define ENG_TAURUS1_INTROYEAR \d2000-1-1	
@@ -4451,6 +4551,7 @@
 	#define ENG_TAURUS1_ID_B \b*2069	
 	#define STR_W_ENG_TAURUS1 \wxD0D0	
 	#define STR_B_ENG_TAURUS1 D0	
+	#define NAME_ENG_TAURUS1 " Siemens ES64U Taurus "	
 	
 
 #define ENG_MAV44_INTROYEAR \d1954-1-1	
@@ -4484,6 +4585,7 @@
 	#define ENG_MAV44_ID_B \b*2070	
 	#define STR_W_ENG_MAV44 \wxD0D0	
 	#define STR_B_ENG_MAV44 D0	
+	#define NAME_ENG_MAV44 "MAV Class M44"	
 	
 
 #define ENG_10WHEELER_INTROYEAR \d1869-1-1	
@@ -4517,6 +4619,7 @@
 	#define ENG_10WHEELER_ID_B \b*2071	
 	#define STR_W_ENG_10WHEELER \wxD0D0	
 	#define STR_B_ENG_10WHEELER D0	
+	#define NAME_ENG_10WHEELER "4-6-0 Ten Wheeler"	
 	
 
 #define ENG_AMERICAN_INTROYEAR \d1848-1-1	
@@ -4550,6 +4653,7 @@
 	#define ENG_AMERICAN_ID_B \b*2072	
 	#define STR_W_ENG_AMERICAN \wxD0D0	
 	#define STR_B_ENG_AMERICAN D0	
+	#define NAME_ENG_AMERICAN "4-4-0 American"	
 	
 
 #define ENG_KKSTB229_INTROYEAR \d1904-1-1	
@@ -4583,6 +4687,7 @@
 	#define ENG_KKSTB229_ID_B \b*2073	
 	#define STR_W_ENG_KKSTB229 \wxD0D0	
 	#define STR_B_ENG_KKSTB229 D0	
+	#define NAME_ENG_KKSTB229 "KkStB Class 229"	
 	
 
 #define ENG_GWR_4900_INTROYEAR \d1924-1-1	
@@ -4616,6 +4721,7 @@
 	#define ENG_GWR_4900_ID_B \b*2074	
 	#define STR_W_ENG_GWR_4900 \wxD0D0	
 	#define STR_B_ENG_GWR_4900 D0	
+	#define NAME_ENG_GWR_4900 "GWR Class 4900"	
 	
 
 #define ENG_EF500_INTROYEAR \d1997-1-1	
@@ -4649,6 +4755,7 @@
 	#define ENG_EF500_ID_B \b*2075	
 	#define STR_W_ENG_EF500 \wxD0D0	
 	#define STR_B_ENG_EF500 D0	
+	#define NAME_ENG_EF500 "EF500"	
 	
 
 #define ENG_EF55_INTROYEAR \d1936-1-1	
@@ -4682,6 +4789,7 @@
 	#define ENG_EF55_ID_B \b*2076	
 	#define STR_W_ENG_EF55 \wxD0D0	
 	#define STR_B_ENG_EF55 D0	
+	#define NAME_ENG_EF55 "EF55"	
 	
 
 #define ENG_EL10_INTROYEAR \d1931-1-1	
@@ -4715,6 +4823,7 @@
 	#define ENG_EL10_ID_B \b*2077	
 	#define STR_W_ENG_EL10 \wxD0D0	
 	#define STR_B_ENG_EL10 D0	
+	#define NAME_ENG_EL10 "NSB El10"	
 	
 
 #define ENG_EF64_INTROYEAR \d1964-1-1	
@@ -4748,6 +4857,7 @@
 	#define ENG_EF64_ID_B \b*2078	
 	#define STR_W_ENG_EF64 \wxD0D0	
 	#define STR_B_ENG_EF64 D0	
+	#define NAME_ENG_EF64 "EF64"	
 	
 
 #define ENG_EL7_INTROYEAR \d1911-1-1	
@@ -4781,6 +4891,7 @@
 	#define ENG_EL7_ID_B \b*2079	
 	#define STR_W_ENG_EL7 \wxD0D0	
 	#define STR_B_ENG_EL7 D0	
+	#define NAME_ENG_EL7 "NSB El7"	
 	
 
 #define ENG_CLASS1020CROCK_INTROYEAR \d1940-1-1	
@@ -4814,6 +4925,7 @@
 	#define ENG_CLASS1020CROCK_ID_B \b*2080	
 	#define STR_W_ENG_CLASS1020CROCK \wxD0D0	
 	#define STR_B_ENG_CLASS1020CROCK D0	
+	#define NAME_ENG_CLASS1020CROCK "Class 1020 "Crocodile""	
 	
 
 #define ENG_CR_CLASS439_INTROYEAR \d1899-1-1	
@@ -4847,6 +4959,7 @@
 	#define ENG_CR_CLASS439_ID_B \b*2081	
 	#define STR_W_ENG_CR_CLASS439 \wxD0D0	
 	#define STR_B_ENG_CR_CLASS439 D0	
+	#define NAME_ENG_CR_CLASS439 "CR Class 439"	
 	
 
 #define ENG_NZR_X_INTROYEAR \d1908-1-1	
@@ -4880,6 +4993,7 @@
 	#define ENG_NZR_X_ID_B \b*2082	
 	#define STR_W_ENG_NZR_X \wxD0D0	
 	#define STR_B_ENG_NZR_X D0	
+	#define NAME_ENG_NZR_X "NZR X Class"	
 	
 
 #define ENG_CONSOLIDATION_INTROYEAR \d1875-1-1	
@@ -4913,6 +5027,7 @@
 	#define ENG_CONSOLIDATION_ID_B \b*2083	
 	#define STR_W_ENG_CONSOLIDATION \wxD0D0	
 	#define STR_B_ENG_CONSOLIDATION D0	
+	#define NAME_ENG_CONSOLIDATION "2-8-0 Consolidation"	
 	
 
 #define ENG_CFR60DA_INTROYEAR \d1959-1-1	
@@ -4946,6 +5061,7 @@
 	#define ENG_CFR60DA_ID_B \b*2084	
 	#define STR_W_ENG_CFR60DA \wxD0D0	
 	#define STR_B_ENG_CFR60DA D0	
+	#define NAME_ENG_CFR60DA "CFR 060-DA"	
 	
 
 #define ENG_TRAXX_F140_INTROYEAR \d1996-1-1	
@@ -4979,72 +5095,41 @@
 	#define ENG_TRAXX_F140_ID_B \b*2085	
 	#define STR_W_ENG_TRAXX_F140 \wxD0D0	
 	#define STR_B_ENG_TRAXX_F140 D0	
+	#define NAME_ENG_TRAXX_F140 "TRAXX F140"	
 	
 
-#define MET_01800_INTROYEAR \d1993-1-1	
-	#define MET_01800_V_LIFE \b60	
-	#define MET_01800_M_LIFE \b255	
-	#define MET_01800_SPEED \w80	
-	#define MET_01800_TE \b133	
-	#define MET_01800_HP \w700	
-	#define MET_01800_WAG_HP \w700	
-	#define MET_01800_CAP_WAG_PAX \b150	
-	#define MET_01800_CAP_WAG_MAIL \b113	
-	#define MET_01800_CAP_WAG_ARMOR \b75	
-	#define MET_01800_CAP_WAG_PAX_STR "150"	
-	#define MET_01800_CAP_WAG_MAIL_STR "113"	
-	#define MET_01800_CAP_WAG_ARMOR_STR "75"	
-	#define MET_01800_CAP_HEAD_PAX \b150	
-	#define MET_01800_CAP_HEAD_MAIL \b113	
-	#define MET_01800_CAP_HEAD_ARMOR \b75	
-	#define MET_01800_PAX_LS \b60	
-	#define MET_01800_MAIL_LS \b45	
-	#define MET_01800_ARMOR_LS \b30	
-	#define MET_01800_WEIGHT \b31	
-	#define MET_01800_WEIGHT_HIGH \b0	
-	#define MET_01800_PCOST \w33174	
-	#define MET_01800_RCOST \w32930	
-	#define MET_01800_RCOST_WAG \w32930	
+#define ENG_DDA40X_INTROYEAR \d1969-1-1	
+	#define ENG_DDA40X_V_LIFE \b40	
+	#define ENG_DDA40X_M_LIFE \b25	
+	#define ENG_DDA40X_SPEED \w144	
+	#define ENG_DDA40X_TE \b50	
+	#define ENG_DDA40X_HP \w6600	
+	#define ENG_DDA40X_WAG_HP \w0	
+	#define ENG_DDA40X_CAP_WAG_PAX \b0	
+	#define ENG_DDA40X_CAP_WAG_MAIL \b0	
+	#define ENG_DDA40X_CAP_WAG_ARMOR \b0	
+	#define ENG_DDA40X_CAP_WAG_PAX_STR "0"	
+	#define ENG_DDA40X_CAP_WAG_MAIL_STR "0"	
+	#define ENG_DDA40X_CAP_WAG_ARMOR_STR "0"	
+	#define ENG_DDA40X_CAP_HEAD_PAX \b0	
+	#define ENG_DDA40X_CAP_HEAD_MAIL \b0	
+	#define ENG_DDA40X_CAP_HEAD_ARMOR \b0	
+	#define ENG_DDA40X_PAX_LS \b1	
+	#define ENG_DDA40X_MAIL_LS \b1	
+	#define ENG_DDA40X_ARMOR_LS \b1	
+	#define ENG_DDA40X_WEIGHT \b6	
+	#define ENG_DDA40X_WEIGHT_HIGH \b1	
+	#define ENG_DDA40X_PCOST \w33971	
+	#define ENG_DDA40X_RCOST \w34392	
+	#define ENG_DDA40X_RCOST_WAG \w32788	
+	#define ENG_DDA40X_NUTRACKS_TRACKTYPE 4	
 		
-		
-	#define MET_01800_TRACTION_TYPE 32	
-	#define MET_01800_ID_W \w4500	
-	#define MET_01800_ID_B \b*4500	
-	#define STR_W_MET_01800 \wxD0A0	
-	#define STR_B_MET_01800 A0	
-	
-
-#define MET_81_729_INTROYEAR \d1981-1-1	
-	#define MET_81_729_V_LIFE \b60	
-	#define MET_81_729_M_LIFE \b50	
-	#define MET_81_729_SPEED \w100	
-	#define MET_81_729_TE \b255	
-	#define MET_81_729_HP \w616	
-	#define MET_81_729_WAG_HP \w616	
-	#define MET_81_729_CAP_WAG_PAX \b144	
-	#define MET_81_729_CAP_WAG_MAIL \b108	
-	#define MET_81_729_CAP_WAG_ARMOR \b72	
-	#define MET_81_729_CAP_WAG_PAX_STR "144"	
-	#define MET_81_729_CAP_WAG_MAIL_STR "108"	
-	#define MET_81_729_CAP_WAG_ARMOR_STR "72"	
-	#define MET_81_729_CAP_HEAD_PAX \b144	
-	#define MET_81_729_CAP_HEAD_MAIL \b108	
-	#define MET_81_729_CAP_HEAD_ARMOR \b72	
-	#define MET_81_729_PAX_LS \b60	
-	#define MET_81_729_MAIL_LS \b45	
-	#define MET_81_729_ARMOR_LS \b30	
-	#define MET_81_729_WEIGHT \b34	
-	#define MET_81_729_WEIGHT_HIGH \b0	
-	#define MET_81_729_PCOST \w33318	
-	#define MET_81_729_RCOST \w32997	
-	#define MET_81_729_RCOST_WAG \w32997	
-		
-		
-	#define MET_81_729_TRACTION_TYPE 32	
-	#define MET_81_729_ID_W \w4501	
-	#define MET_81_729_ID_B \b*4501	
-	#define STR_W_MET_81_729 \wxD0A1	
-	#define STR_B_MET_81_729 A1	
+	#define ENG_DDA40X_TRACTION_TYPE 8	
+	#define ENG_DDA40X_ID_W \w2086	
+	#define ENG_DDA40X_ID_B \b*2086	
+	#define STR_W_ENG_DDA40X \wxD0D0	
+	#define STR_B_ENG_DDA40X D0	
+	#define NAME_ENG_DDA40X "EMD DDA40X"	
 	
 
 #define MET_BROOKLYN_INTROYEAR \d1880-1-1	
@@ -5078,6 +5163,7 @@
 	#define MET_BROOKLYN_ID_B \b*4502	
 	#define STR_W_MET_BROOKLYN \wxD0A2	
 	#define STR_B_MET_BROOKLYN A2	
+	#define NAME_MET_BROOKLYN "Brooklyn union gate car"	
 	
 
 #define MET_BUDA1894_INTROYEAR \d1894-1-1	
@@ -5111,171 +5197,7 @@
 	#define MET_BUDA1894_ID_B \b*4503	
 	#define STR_W_MET_BUDA1894 \wxD0A3	
 	#define STR_B_MET_BUDA1894 A3	
-	
-
-#define MET_CAF90_INTROYEAR \d1997-1-1	
-	#define MET_CAF90_V_LIFE \b60	
-	#define MET_CAF90_M_LIFE \b255	
-	#define MET_CAF90_SPEED \w70	
-	#define MET_CAF90_TE \b66	
-	#define MET_CAF90_HP \w700	
-	#define MET_CAF90_WAG_HP \w700	
-	#define MET_CAF90_CAP_WAG_PAX \b250	
-	#define MET_CAF90_CAP_WAG_MAIL \b188	
-	#define MET_CAF90_CAP_WAG_ARMOR \b125	
-	#define MET_CAF90_CAP_WAG_PAX_STR "250"	
-	#define MET_CAF90_CAP_WAG_MAIL_STR "188"	
-	#define MET_CAF90_CAP_WAG_ARMOR_STR "125"	
-	#define MET_CAF90_CAP_HEAD_PAX \b250	
-	#define MET_CAF90_CAP_HEAD_MAIL \b188	
-	#define MET_CAF90_CAP_HEAD_ARMOR \b125	
-	#define MET_CAF90_PAX_LS \b60	
-	#define MET_CAF90_MAIL_LS \b45	
-	#define MET_CAF90_ARMOR_LS \b30	
-	#define MET_CAF90_WEIGHT \b47	
-	#define MET_CAF90_WEIGHT_HIGH \b0	
-	#define MET_CAF90_PCOST \w33108	
-	#define MET_CAF90_RCOST \w32904	
-	#define MET_CAF90_RCOST_WAG \w32904	
-		
-		
-	#define MET_CAF90_TRACTION_TYPE 32	
-	#define MET_CAF90_ID_W \w4504	
-	#define MET_CAF90_ID_B \b*4504	
-	#define STR_W_MET_CAF90 \wxD0A4	
-	#define STR_B_MET_CAF90 A4	
-	
-
-#define MET_CAIRO1987_INTROYEAR \d1987-1-1	
-	#define MET_CAIRO1987_V_LIFE \b60	
-	#define MET_CAIRO1987_M_LIFE \b255	
-	#define MET_CAIRO1987_SPEED \w80	
-	#define MET_CAIRO1987_TE \b81	
-	#define MET_CAIRO1987_HP \w500	
-	#define MET_CAIRO1987_WAG_HP \w500	
-	#define MET_CAIRO1987_CAP_WAG_PAX \b200	
-	#define MET_CAIRO1987_CAP_WAG_MAIL \b150	
-	#define MET_CAIRO1987_CAP_WAG_ARMOR \b100	
-	#define MET_CAIRO1987_CAP_WAG_PAX_STR "200"	
-	#define MET_CAIRO1987_CAP_WAG_MAIL_STR "150"	
-	#define MET_CAIRO1987_CAP_WAG_ARMOR_STR "100"	
-	#define MET_CAIRO1987_CAP_HEAD_PAX \b200	
-	#define MET_CAIRO1987_CAP_HEAD_MAIL \b150	
-	#define MET_CAIRO1987_CAP_HEAD_ARMOR \b100	
-	#define MET_CAIRO1987_PAX_LS \b60	
-	#define MET_CAIRO1987_MAIL_LS \b45	
-	#define MET_CAIRO1987_ARMOR_LS \b30	
-	#define MET_CAIRO1987_WEIGHT \b40	
-	#define MET_CAIRO1987_WEIGHT_HIGH \b0	
-	#define MET_CAIRO1987_PCOST \w33161	
-	#define MET_CAIRO1987_RCOST \w32927	
-	#define MET_CAIRO1987_RCOST_WAG \w32927	
-		
-		
-	#define MET_CAIRO1987_TRACTION_TYPE 32	
-	#define MET_CAIRO1987_ID_W \w4505	
-	#define MET_CAIRO1987_ID_B \b*4505	
-	#define STR_W_MET_CAIRO1987 \wxD0A5	
-	#define STR_B_MET_CAIRO1987 A5	
-	
-
-#define MET_CII_INTROYEAR \d1929-1-1	
-	#define MET_CII_V_LIFE \b60	
-	#define MET_CII_M_LIFE \b40	
-	#define MET_CII_SPEED \w60	
-	#define MET_CII_TE \b18	
-	#define MET_CII_HP \w375	
-	#define MET_CII_WAG_HP \w0	
-	#define MET_CII_CAP_WAG_PAX \b157	
-	#define MET_CII_CAP_WAG_MAIL \b118	
-	#define MET_CII_CAP_WAG_ARMOR \b79	
-	#define MET_CII_CAP_WAG_PAX_STR "157"	
-	#define MET_CII_CAP_WAG_MAIL_STR "118"	
-	#define MET_CII_CAP_WAG_ARMOR_STR "79"	
-	#define MET_CII_CAP_HEAD_PAX \b157	
-	#define MET_CII_CAP_HEAD_MAIL \b118	
-	#define MET_CII_CAP_HEAD_ARMOR \b79	
-	#define MET_CII_PAX_LS \b60	
-	#define MET_CII_MAIL_LS \b45	
-	#define MET_CII_ARMOR_LS \b30	
-	#define MET_CII_WEIGHT \b50	
-	#define MET_CII_WEIGHT_HIGH \b0	
-	#define MET_CII_PCOST \w33024	
-	#define MET_CII_RCOST \w32803	
-	#define MET_CII_RCOST_WAG \w32788	
-		
-		
-	#define MET_CII_TRACTION_TYPE 32	
-	#define MET_CII_ID_W \w4506	
-	#define MET_CII_ID_B \b*4506	
-	#define STR_W_MET_CII \wxD0A6	
-	#define STR_B_MET_CII A6	
-	
-
-#define MET_DLR_INTROYEAR \d1987-1-1	
-	#define MET_DLR_V_LIFE \b60	
-	#define MET_DLR_M_LIFE \b255	
-	#define MET_DLR_SPEED \w80	
-	#define MET_DLR_TE \b217	
-	#define MET_DLR_HP \w600	
-	#define MET_DLR_WAG_HP \w600	
-	#define MET_DLR_CAP_WAG_PAX \b147	
-	#define MET_DLR_CAP_WAG_MAIL \b110	
-	#define MET_DLR_CAP_WAG_ARMOR \b74	
-	#define MET_DLR_CAP_WAG_PAX_STR "147"	
-	#define MET_DLR_CAP_WAG_MAIL_STR "110"	
-	#define MET_DLR_CAP_WAG_ARMOR_STR "74"	
-	#define MET_DLR_CAP_HEAD_PAX \b147	
-	#define MET_DLR_CAP_HEAD_MAIL \b110	
-	#define MET_DLR_CAP_HEAD_ARMOR \b74	
-	#define MET_DLR_PAX_LS \b60	
-	#define MET_DLR_MAIL_LS \b45	
-	#define MET_DLR_ARMOR_LS \b30	
-	#define MET_DLR_WEIGHT \b18	
-	#define MET_DLR_WEIGHT_HIGH \b0	
-	#define MET_DLR_PCOST \w33166	
-	#define MET_DLR_RCOST \w32923	
-	#define MET_DLR_RCOST_WAG \w32923	
-		
-		
-	#define MET_DLR_TRACTION_TYPE 32	
-	#define MET_DLR_ID_W \w4507	
-	#define MET_DLR_ID_B \b*4507	
-	#define STR_W_MET_DLR \wxD0A7	
-	#define STR_B_MET_DLR A7	
-	
-
-#define MET_EV3_200_INTROYEAR \d1960-1-1	
-	#define MET_EV3_200_V_LIFE \b60	
-	#define MET_EV3_200_M_LIFE \b50	
-	#define MET_EV3_200_SPEED \w100	
-	#define MET_EV3_200_TE \b58	
-	#define MET_EV3_200_HP \w500	
-	#define MET_EV3_200_WAG_HP \w500	
-	#define MET_EV3_200_CAP_WAG_PAX \b150	
-	#define MET_EV3_200_CAP_WAG_MAIL \b113	
-	#define MET_EV3_200_CAP_WAG_ARMOR \b75	
-	#define MET_EV3_200_CAP_WAG_PAX_STR "150"	
-	#define MET_EV3_200_CAP_WAG_MAIL_STR "113"	
-	#define MET_EV3_200_CAP_WAG_ARMOR_STR "75"	
-	#define MET_EV3_200_CAP_HEAD_PAX \b150	
-	#define MET_EV3_200_CAP_HEAD_MAIL \b113	
-	#define MET_EV3_200_CAP_HEAD_ARMOR \b75	
-	#define MET_EV3_200_PAX_LS \b60	
-	#define MET_EV3_200_MAIL_LS \b45	
-	#define MET_EV3_200_ARMOR_LS \b30	
-	#define MET_EV3_200_WEIGHT \b45	
-	#define MET_EV3_200_WEIGHT_HIGH \b0	
-	#define MET_EV3_200_PCOST \w33311	
-	#define MET_EV3_200_RCOST \w32998	
-	#define MET_EV3_200_RCOST_WAG \w32998	
-		
-		
-	#define MET_EV3_200_TRACTION_TYPE 32	
-	#define MET_EV3_200_ID_W \w4508	
-	#define MET_EV3_200_ID_B \b*4508	
-	#define STR_W_MET_EV3_200 \wxD0A8	
-	#define STR_B_MET_EV3_200 A8	
+	#define NAME_MET_BUDA1894 "Budapest 1894"	
 	
 
 #define MET_LDN1903_INTROYEAR \d1903-1-1	
@@ -5309,6 +5231,41 @@
 	#define MET_LDN1903_ID_B \b*4509	
 	#define STR_W_MET_LDN1903 \wxD0A9	
 	#define STR_B_MET_LDN1903 A9	
+	#define NAME_MET_LDN1903 "London 1903 stock"	
+	
+
+#define MET_CII_INTROYEAR \d1929-1-1	
+	#define MET_CII_V_LIFE \b60	
+	#define MET_CII_M_LIFE \b40	
+	#define MET_CII_SPEED \w60	
+	#define MET_CII_TE \b18	
+	#define MET_CII_HP \w375	
+	#define MET_CII_WAG_HP \w0	
+	#define MET_CII_CAP_WAG_PAX \b157	
+	#define MET_CII_CAP_WAG_MAIL \b118	
+	#define MET_CII_CAP_WAG_ARMOR \b79	
+	#define MET_CII_CAP_WAG_PAX_STR "157"	
+	#define MET_CII_CAP_WAG_MAIL_STR "118"	
+	#define MET_CII_CAP_WAG_ARMOR_STR "79"	
+	#define MET_CII_CAP_HEAD_PAX \b157	
+	#define MET_CII_CAP_HEAD_MAIL \b118	
+	#define MET_CII_CAP_HEAD_ARMOR \b79	
+	#define MET_CII_PAX_LS \b60	
+	#define MET_CII_MAIL_LS \b45	
+	#define MET_CII_ARMOR_LS \b30	
+	#define MET_CII_WEIGHT \b50	
+	#define MET_CII_WEIGHT_HIGH \b0	
+	#define MET_CII_PCOST \w33024	
+	#define MET_CII_RCOST \w32803	
+	#define MET_CII_RCOST_WAG \w32788	
+		
+		
+	#define MET_CII_TRACTION_TYPE 32	
+	#define MET_CII_ID_W \w4506	
+	#define MET_CII_ID_B \b*4506	
+	#define STR_W_MET_CII \wxD0A6	
+	#define STR_B_MET_CII A6	
+	#define NAME_MET_CII "U-Bahn C II"	
 	
 
 #define MET_LDN1938_INTROYEAR \d1938-1-1	
@@ -5342,72 +5299,7 @@
 	#define MET_LDN1938_ID_B \b*4510	
 	#define STR_W_MET_LDN1938 \wxD0AA	
 	#define STR_B_MET_LDN1938 AA	
-	
-
-#define MET_M1_INTROYEAR \d1973-1-1	
-	#define MET_M1_V_LIFE \b60	
-	#define MET_M1_M_LIFE \b50	
-	#define MET_M1_SPEED \w90	
-	#define MET_M1_TE \b189	
-	#define MET_M1_HP \w580	
-	#define MET_M1_WAG_HP \w580	
-	#define MET_M1_CAP_WAG_PAX \b174	
-	#define MET_M1_CAP_WAG_MAIL \b131	
-	#define MET_M1_CAP_WAG_ARMOR \b87	
-	#define MET_M1_CAP_WAG_PAX_STR "174"	
-	#define MET_M1_CAP_WAG_MAIL_STR "131"	
-	#define MET_M1_CAP_WAG_ARMOR_STR "87"	
-	#define MET_M1_CAP_HEAD_PAX \b174	
-	#define MET_M1_CAP_HEAD_MAIL \b131	
-	#define MET_M1_CAP_HEAD_ARMOR \b87	
-	#define MET_M1_PAX_LS \b60	
-	#define MET_M1_MAIL_LS \b45	
-	#define MET_M1_ARMOR_LS \b30	
-	#define MET_M1_WEIGHT \b31	
-	#define MET_M1_WEIGHT_HIGH \b0	
-	#define MET_M1_PCOST \w33238	
-	#define MET_M1_RCOST \w32959	
-	#define MET_M1_RCOST_WAG \w32959	
-		
-		
-	#define MET_M1_TRACTION_TYPE 32	
-	#define MET_M1_ID_W \w4511	
-	#define MET_M1_ID_B \b*4511	
-	#define STR_W_MET_M1 \wxD0AB	
-	#define STR_B_MET_M1 AB	
-	
-
-#define MET_M100_INTROYEAR \d1977-1-1	
-	#define MET_M100_V_LIFE \b60	
-	#define MET_M100_M_LIFE \b50	
-	#define MET_M100_SPEED \w90	
-	#define MET_M100_TE \b126	
-	#define MET_M100_HP \w680	
-	#define MET_M100_WAG_HP \w680	
-	#define MET_M100_CAP_WAG_PAX \b165	
-	#define MET_M100_CAP_WAG_MAIL \b124	
-	#define MET_M100_CAP_WAG_ARMOR \b83	
-	#define MET_M100_CAP_WAG_PAX_STR "165"	
-	#define MET_M100_CAP_WAG_MAIL_STR "124"	
-	#define MET_M100_CAP_WAG_ARMOR_STR "83"	
-	#define MET_M100_CAP_HEAD_PAX \b165	
-	#define MET_M100_CAP_HEAD_MAIL \b124	
-	#define MET_M100_CAP_HEAD_ARMOR \b83	
-	#define MET_M100_PAX_LS \b60	
-	#define MET_M100_MAIL_LS \b45	
-	#define MET_M100_ARMOR_LS \b30	
-	#define MET_M100_WEIGHT \b31	
-	#define MET_M100_WEIGHT_HIGH \b0	
-	#define MET_M100_PCOST \w33245	
-	#define MET_M100_RCOST \w32962	
-	#define MET_M100_RCOST_WAG \w32962	
-		
-		
-	#define MET_M100_TRACTION_TYPE 32	
-	#define MET_M100_ID_W \w4512	
-	#define MET_M100_ID_B \b*4512	
-	#define STR_W_MET_M100 \wxD0AC	
-	#define STR_B_MET_M100 AC	
+	#define NAME_MET_LDN1938 "London 1938 stock"	
 	
 
 #define MET_M2_840_INTROYEAR \d1957-1-1	
@@ -5441,39 +5333,75 @@
 	#define MET_M2_840_ID_B \b*4513	
 	#define STR_W_MET_M2_840 \wxD0AD	
 	#define STR_B_MET_M2_840 AD	
+	#define NAME_MET_M2_840 "M2 840"	
 	
 
-#define MET_MP89_INTROYEAR \d1997-1-1	
-	#define MET_MP89_V_LIFE \b60	
-	#define MET_MP89_M_LIFE \b255	
-	#define MET_MP89_SPEED \w100	
-	#define MET_MP89_TE \b93	
-	#define MET_MP89_HP \w634	
-	#define MET_MP89_WAG_HP \w634	
-	#define MET_MP89_CAP_WAG_PAX \b120	
-	#define MET_MP89_CAP_WAG_MAIL \b90	
-	#define MET_MP89_CAP_WAG_ARMOR \b60	
-	#define MET_MP89_CAP_WAG_PAX_STR "120"	
-	#define MET_MP89_CAP_WAG_MAIL_STR "90"	
-	#define MET_MP89_CAP_WAG_ARMOR_STR "60"	
-	#define MET_MP89_CAP_HEAD_PAX \b120	
-	#define MET_MP89_CAP_HEAD_MAIL \b90	
-	#define MET_MP89_CAP_HEAD_ARMOR \b60	
-	#define MET_MP89_PAX_LS \b60	
-	#define MET_MP89_MAIL_LS \b45	
-	#define MET_MP89_ARMOR_LS \b30	
-	#define MET_MP89_WEIGHT \b28	
-	#define MET_MP89_WEIGHT_HIGH \b0	
-	#define MET_MP89_PCOST \w33319	
-	#define MET_MP89_RCOST \w32996	
-	#define MET_MP89_RCOST_WAG \w32996	
+#define MET_EV3_200_INTROYEAR \d1960-1-1	
+	#define MET_EV3_200_V_LIFE \b60	
+	#define MET_EV3_200_M_LIFE \b50	
+	#define MET_EV3_200_SPEED \w100	
+	#define MET_EV3_200_TE \b58	
+	#define MET_EV3_200_HP \w500	
+	#define MET_EV3_200_WAG_HP \w500	
+	#define MET_EV3_200_CAP_WAG_PAX \b150	
+	#define MET_EV3_200_CAP_WAG_MAIL \b113	
+	#define MET_EV3_200_CAP_WAG_ARMOR \b75	
+	#define MET_EV3_200_CAP_WAG_PAX_STR "150"	
+	#define MET_EV3_200_CAP_WAG_MAIL_STR "113"	
+	#define MET_EV3_200_CAP_WAG_ARMOR_STR "75"	
+	#define MET_EV3_200_CAP_HEAD_PAX \b150	
+	#define MET_EV3_200_CAP_HEAD_MAIL \b113	
+	#define MET_EV3_200_CAP_HEAD_ARMOR \b75	
+	#define MET_EV3_200_PAX_LS \b60	
+	#define MET_EV3_200_MAIL_LS \b45	
+	#define MET_EV3_200_ARMOR_LS \b30	
+	#define MET_EV3_200_WEIGHT \b45	
+	#define MET_EV3_200_WEIGHT_HIGH \b0	
+	#define MET_EV3_200_PCOST \w33311	
+	#define MET_EV3_200_RCOST \w32998	
+	#define MET_EV3_200_RCOST_WAG \w32998	
 		
 		
-	#define MET_MP89_TRACTION_TYPE 32	
-	#define MET_MP89_ID_W \w4514	
-	#define MET_MP89_ID_B \b*4514	
-	#define STR_W_MET_MP89 \wxD0AE	
-	#define STR_B_MET_MP89 AE	
+	#define MET_EV3_200_TRACTION_TYPE 32	
+	#define MET_EV3_200_ID_W \w4508	
+	#define MET_EV3_200_ID_B \b*4508	
+	#define STR_W_MET_EV3_200 \wxD0A8	
+	#define STR_B_MET_EV3_200 A8	
+	#define NAME_MET_EV3_200 "ev3-200"	
+	
+
+#define MET_M1_INTROYEAR \d1973-1-1	
+	#define MET_M1_V_LIFE \b60	
+	#define MET_M1_M_LIFE \b50	
+	#define MET_M1_SPEED \w90	
+	#define MET_M1_TE \b189	
+	#define MET_M1_HP \w580	
+	#define MET_M1_WAG_HP \w580	
+	#define MET_M1_CAP_WAG_PAX \b174	
+	#define MET_M1_CAP_WAG_MAIL \b131	
+	#define MET_M1_CAP_WAG_ARMOR \b87	
+	#define MET_M1_CAP_WAG_PAX_STR "174"	
+	#define MET_M1_CAP_WAG_MAIL_STR "131"	
+	#define MET_M1_CAP_WAG_ARMOR_STR "87"	
+	#define MET_M1_CAP_HEAD_PAX \b174	
+	#define MET_M1_CAP_HEAD_MAIL \b131	
+	#define MET_M1_CAP_HEAD_ARMOR \b87	
+	#define MET_M1_PAX_LS \b60	
+	#define MET_M1_MAIL_LS \b45	
+	#define MET_M1_ARMOR_LS \b30	
+	#define MET_M1_WEIGHT \b31	
+	#define MET_M1_WEIGHT_HIGH \b0	
+	#define MET_M1_PCOST \w33238	
+	#define MET_M1_RCOST \w32959	
+	#define MET_M1_RCOST_WAG \w32959	
+		
+		
+	#define MET_M1_TRACTION_TYPE 32	
+	#define MET_M1_ID_W \w4511	
+	#define MET_M1_ID_B \b*4511	
+	#define STR_W_MET_M1 \wxD0AB	
+	#define STR_B_MET_M1 AB	
+	#define NAME_MET_M1 "Type M1"	
 	
 
 #define MET_P_DSTOCK_INTROYEAR \d1975-1-1	
@@ -5507,6 +5435,75 @@
 	#define MET_P_DSTOCK_ID_B \b*4515	
 	#define STR_W_MET_P_DSTOCK \wxD0AF	
 	#define STR_B_MET_P_DSTOCK AF	
+	#define NAME_MET_P_DSTOCK "Pyongynag D Stock"	
+	
+
+#define MET_M100_INTROYEAR \d1977-1-1	
+	#define MET_M100_V_LIFE \b60	
+	#define MET_M100_M_LIFE \b50	
+	#define MET_M100_SPEED \w90	
+	#define MET_M100_TE \b126	
+	#define MET_M100_HP \w680	
+	#define MET_M100_WAG_HP \w680	
+	#define MET_M100_CAP_WAG_PAX \b165	
+	#define MET_M100_CAP_WAG_MAIL \b124	
+	#define MET_M100_CAP_WAG_ARMOR \b83	
+	#define MET_M100_CAP_WAG_PAX_STR "165"	
+	#define MET_M100_CAP_WAG_MAIL_STR "124"	
+	#define MET_M100_CAP_WAG_ARMOR_STR "83"	
+	#define MET_M100_CAP_HEAD_PAX \b165	
+	#define MET_M100_CAP_HEAD_MAIL \b124	
+	#define MET_M100_CAP_HEAD_ARMOR \b83	
+	#define MET_M100_PAX_LS \b60	
+	#define MET_M100_MAIL_LS \b45	
+	#define MET_M100_ARMOR_LS \b30	
+	#define MET_M100_WEIGHT \b31	
+	#define MET_M100_WEIGHT_HIGH \b0	
+	#define MET_M100_PCOST \w33245	
+	#define MET_M100_RCOST \w32962	
+	#define MET_M100_RCOST_WAG \w32962	
+		
+		
+	#define MET_M100_TRACTION_TYPE 32	
+	#define MET_M100_ID_W \w4512	
+	#define MET_M100_ID_B \b*4512	
+	#define STR_W_MET_M100 \wxD0AC	
+	#define STR_B_MET_M100 AC	
+	#define NAME_MET_M100 "M100"	
+	
+
+#define MET_81_729_INTROYEAR \d1981-1-1	
+	#define MET_81_729_V_LIFE \b60	
+	#define MET_81_729_M_LIFE \b50	
+	#define MET_81_729_SPEED \w100	
+	#define MET_81_729_TE \b255	
+	#define MET_81_729_HP \w616	
+	#define MET_81_729_WAG_HP \w616	
+	#define MET_81_729_CAP_WAG_PAX \b144	
+	#define MET_81_729_CAP_WAG_MAIL \b108	
+	#define MET_81_729_CAP_WAG_ARMOR \b72	
+	#define MET_81_729_CAP_WAG_PAX_STR "144"	
+	#define MET_81_729_CAP_WAG_MAIL_STR "108"	
+	#define MET_81_729_CAP_WAG_ARMOR_STR "72"	
+	#define MET_81_729_CAP_HEAD_PAX \b144	
+	#define MET_81_729_CAP_HEAD_MAIL \b108	
+	#define MET_81_729_CAP_HEAD_ARMOR \b72	
+	#define MET_81_729_PAX_LS \b60	
+	#define MET_81_729_MAIL_LS \b45	
+	#define MET_81_729_ARMOR_LS \b30	
+	#define MET_81_729_WEIGHT \b34	
+	#define MET_81_729_WEIGHT_HIGH \b0	
+	#define MET_81_729_PCOST \w33318	
+	#define MET_81_729_RCOST \w32997	
+	#define MET_81_729_RCOST_WAG \w32997	
+		
+		
+	#define MET_81_729_TRACTION_TYPE 32	
+	#define MET_81_729_ID_W \w4501	
+	#define MET_81_729_ID_B \b*4501	
+	#define STR_W_MET_81_729 \wxD0A1	
+	#define STR_B_MET_81_729 A1	
+	#define NAME_MET_81_729 "81-729"	
 	
 
 #define MET_TOKYO_INTROYEAR \d1985-1-1	
@@ -5540,39 +5537,177 @@
 	#define MET_TOKYO_ID_B \b*4516	
 	#define STR_W_MET_TOKYO \wxD0B0	
 	#define STR_B_MET_TOKYO B0	
+	#define NAME_MET_TOKYO "Tokyo"	
 	
 
-#define MET_MX3000_INTROYEAR \d2007-1-1	
-	#define MET_MX3000_V_LIFE \b60	
-	#define MET_MX3000_M_LIFE \b50	
-	#define MET_MX3000_SPEED \w80	
-	#define MET_MX3000_TE \b77	
-	#define MET_MX3000_HP \w760	
-	#define MET_MX3000_WAG_HP \w760	
-	#define MET_MX3000_CAP_WAG_PAX \b164	
-	#define MET_MX3000_CAP_WAG_MAIL \b123	
-	#define MET_MX3000_CAP_WAG_ARMOR \b82	
-	#define MET_MX3000_CAP_WAG_PAX_STR "164"	
-	#define MET_MX3000_CAP_WAG_MAIL_STR "123"	
-	#define MET_MX3000_CAP_WAG_ARMOR_STR "82"	
-	#define MET_MX3000_CAP_HEAD_PAX \b164	
-	#define MET_MX3000_CAP_HEAD_MAIL \b123	
-	#define MET_MX3000_CAP_HEAD_ARMOR \b82	
-	#define MET_MX3000_PAX_LS \b60	
-	#define MET_MX3000_MAIL_LS \b45	
-	#define MET_MX3000_ARMOR_LS \b30	
-	#define MET_MX3000_WEIGHT \b33	
-	#define MET_MX3000_WEIGHT_HIGH \b0	
-	#define MET_MX3000_PCOST \w33179	
-	#define MET_MX3000_RCOST \w32932	
-	#define MET_MX3000_RCOST_WAG \w32932	
+#define MET_CAIRO1987_INTROYEAR \d1987-1-1	
+	#define MET_CAIRO1987_V_LIFE \b60	
+	#define MET_CAIRO1987_M_LIFE \b50	
+	#define MET_CAIRO1987_SPEED \w80	
+	#define MET_CAIRO1987_TE \b81	
+	#define MET_CAIRO1987_HP \w500	
+	#define MET_CAIRO1987_WAG_HP \w500	
+	#define MET_CAIRO1987_CAP_WAG_PAX \b200	
+	#define MET_CAIRO1987_CAP_WAG_MAIL \b150	
+	#define MET_CAIRO1987_CAP_WAG_ARMOR \b100	
+	#define MET_CAIRO1987_CAP_WAG_PAX_STR "200"	
+	#define MET_CAIRO1987_CAP_WAG_MAIL_STR "150"	
+	#define MET_CAIRO1987_CAP_WAG_ARMOR_STR "100"	
+	#define MET_CAIRO1987_CAP_HEAD_PAX \b200	
+	#define MET_CAIRO1987_CAP_HEAD_MAIL \b150	
+	#define MET_CAIRO1987_CAP_HEAD_ARMOR \b100	
+	#define MET_CAIRO1987_PAX_LS \b60	
+	#define MET_CAIRO1987_MAIL_LS \b45	
+	#define MET_CAIRO1987_ARMOR_LS \b30	
+	#define MET_CAIRO1987_WEIGHT \b40	
+	#define MET_CAIRO1987_WEIGHT_HIGH \b0	
+	#define MET_CAIRO1987_PCOST \w33161	
+	#define MET_CAIRO1987_RCOST \w32927	
+	#define MET_CAIRO1987_RCOST_WAG \w32927	
 		
 		
-	#define MET_MX3000_TRACTION_TYPE 32	
-	#define MET_MX3000_ID_W \w4517	
-	#define MET_MX3000_ID_B \b*4517	
-	#define STR_W_MET_MX3000 \wxD0B0	
-	#define STR_B_MET_MX3000 B0	
+	#define MET_CAIRO1987_TRACTION_TYPE 32	
+	#define MET_CAIRO1987_ID_W \w4505	
+	#define MET_CAIRO1987_ID_B \b*4505	
+	#define STR_W_MET_CAIRO1987 \wxD0A5	
+	#define STR_B_MET_CAIRO1987 A5	
+	#define NAME_MET_CAIRO1987 "Cairo 1987"	
+	
+
+#define MET_DLR_INTROYEAR \d1987-1-1	
+	#define MET_DLR_V_LIFE \b60	
+	#define MET_DLR_M_LIFE \b50	
+	#define MET_DLR_SPEED \w80	
+	#define MET_DLR_TE \b217	
+	#define MET_DLR_HP \w600	
+	#define MET_DLR_WAG_HP \w600	
+	#define MET_DLR_CAP_WAG_PAX \b147	
+	#define MET_DLR_CAP_WAG_MAIL \b110	
+	#define MET_DLR_CAP_WAG_ARMOR \b74	
+	#define MET_DLR_CAP_WAG_PAX_STR "147"	
+	#define MET_DLR_CAP_WAG_MAIL_STR "110"	
+	#define MET_DLR_CAP_WAG_ARMOR_STR "74"	
+	#define MET_DLR_CAP_HEAD_PAX \b147	
+	#define MET_DLR_CAP_HEAD_MAIL \b110	
+	#define MET_DLR_CAP_HEAD_ARMOR \b74	
+	#define MET_DLR_PAX_LS \b60	
+	#define MET_DLR_MAIL_LS \b45	
+	#define MET_DLR_ARMOR_LS \b30	
+	#define MET_DLR_WEIGHT \b18	
+	#define MET_DLR_WEIGHT_HIGH \b0	
+	#define MET_DLR_PCOST \w33166	
+	#define MET_DLR_RCOST \w32923	
+	#define MET_DLR_RCOST_WAG \w32923	
+		
+		
+	#define MET_DLR_TRACTION_TYPE 32	
+	#define MET_DLR_ID_W \w4507	
+	#define MET_DLR_ID_B \b*4507	
+	#define STR_W_MET_DLR \wxD0A7	
+	#define STR_B_MET_DLR A7	
+	#define NAME_MET_DLR "DLR Metro"	
+	
+
+#define MET_01800_INTROYEAR \d1993-1-1	
+	#define MET_01800_V_LIFE \b60	
+	#define MET_01800_M_LIFE \b50	
+	#define MET_01800_SPEED \w80	
+	#define MET_01800_TE \b133	
+	#define MET_01800_HP \w700	
+	#define MET_01800_WAG_HP \w700	
+	#define MET_01800_CAP_WAG_PAX \b150	
+	#define MET_01800_CAP_WAG_MAIL \b113	
+	#define MET_01800_CAP_WAG_ARMOR \b75	
+	#define MET_01800_CAP_WAG_PAX_STR "150"	
+	#define MET_01800_CAP_WAG_MAIL_STR "113"	
+	#define MET_01800_CAP_WAG_ARMOR_STR "75"	
+	#define MET_01800_CAP_HEAD_PAX \b150	
+	#define MET_01800_CAP_HEAD_MAIL \b113	
+	#define MET_01800_CAP_HEAD_ARMOR \b75	
+	#define MET_01800_PAX_LS \b60	
+	#define MET_01800_MAIL_LS \b45	
+	#define MET_01800_ARMOR_LS \b30	
+	#define MET_01800_WEIGHT \b31	
+	#define MET_01800_WEIGHT_HIGH \b0	
+	#define MET_01800_PCOST \w33174	
+	#define MET_01800_RCOST \w32930	
+	#define MET_01800_RCOST_WAG \w32930	
+		
+		
+	#define MET_01800_TRACTION_TYPE 32	
+	#define MET_01800_ID_W \w4500	
+	#define MET_01800_ID_B \b*4500	
+	#define STR_W_MET_01800 \wxD0A0	
+	#define STR_B_MET_01800 A0	
+	#define NAME_MET_01800 "Boston 01800"	
+	
+
+#define MET_CAF90_INTROYEAR \d1997-1-1	
+	#define MET_CAF90_V_LIFE \b60	
+	#define MET_CAF90_M_LIFE \b255	
+	#define MET_CAF90_SPEED \w70	
+	#define MET_CAF90_TE \b66	
+	#define MET_CAF90_HP \w700	
+	#define MET_CAF90_WAG_HP \w700	
+	#define MET_CAF90_CAP_WAG_PAX \b250	
+	#define MET_CAF90_CAP_WAG_MAIL \b188	
+	#define MET_CAF90_CAP_WAG_ARMOR \b125	
+	#define MET_CAF90_CAP_WAG_PAX_STR "250"	
+	#define MET_CAF90_CAP_WAG_MAIL_STR "188"	
+	#define MET_CAF90_CAP_WAG_ARMOR_STR "125"	
+	#define MET_CAF90_CAP_HEAD_PAX \b250	
+	#define MET_CAF90_CAP_HEAD_MAIL \b188	
+	#define MET_CAF90_CAP_HEAD_ARMOR \b125	
+	#define MET_CAF90_PAX_LS \b60	
+	#define MET_CAF90_MAIL_LS \b45	
+	#define MET_CAF90_ARMOR_LS \b30	
+	#define MET_CAF90_WEIGHT \b47	
+	#define MET_CAF90_WEIGHT_HIGH \b0	
+	#define MET_CAF90_PCOST \w33108	
+	#define MET_CAF90_RCOST \w32904	
+	#define MET_CAF90_RCOST_WAG \w32904	
+		
+		
+	#define MET_CAF90_TRACTION_TYPE 32	
+	#define MET_CAF90_ID_W \w4504	
+	#define MET_CAF90_ID_B \b*4504	
+	#define STR_W_MET_CAF90 \wxD0A4	
+	#define STR_B_MET_CAF90 A4	
+	#define NAME_MET_CAF90 "CAF 90"	
+	
+
+#define MET_MP89_INTROYEAR \d1997-1-1	
+	#define MET_MP89_V_LIFE \b60	
+	#define MET_MP89_M_LIFE \b255	
+	#define MET_MP89_SPEED \w100	
+	#define MET_MP89_TE \b93	
+	#define MET_MP89_HP \w634	
+	#define MET_MP89_WAG_HP \w634	
+	#define MET_MP89_CAP_WAG_PAX \b120	
+	#define MET_MP89_CAP_WAG_MAIL \b90	
+	#define MET_MP89_CAP_WAG_ARMOR \b60	
+	#define MET_MP89_CAP_WAG_PAX_STR "120"	
+	#define MET_MP89_CAP_WAG_MAIL_STR "90"	
+	#define MET_MP89_CAP_WAG_ARMOR_STR "60"	
+	#define MET_MP89_CAP_HEAD_PAX \b120	
+	#define MET_MP89_CAP_HEAD_MAIL \b90	
+	#define MET_MP89_CAP_HEAD_ARMOR \b60	
+	#define MET_MP89_PAX_LS \b60	
+	#define MET_MP89_MAIL_LS \b45	
+	#define MET_MP89_ARMOR_LS \b30	
+	#define MET_MP89_WEIGHT \b28	
+	#define MET_MP89_WEIGHT_HIGH \b0	
+	#define MET_MP89_PCOST \w33319	
+	#define MET_MP89_RCOST \w32996	
+	#define MET_MP89_RCOST_WAG \w32996	
+		
+		
+	#define MET_MP89_TRACTION_TYPE 32	
+	#define MET_MP89_ID_W \w4514	
+	#define MET_MP89_ID_B \b*4514	
+	#define STR_W_MET_MP89 \wxD0AE	
+	#define STR_B_MET_MP89 AE	
+	#define NAME_MET_MP89 "MP89"	
 	
 
 #define NIG_MGV_B_C_INTROYEAR \d2000-1-1	
@@ -5602,9 +5737,282 @@
 		
 		
 	#define NIG_MGV_B_C_TRACTION_TYPE 32	
-	#define NIG_MGV_B_C_ID_W \w4518	
-	#define NIG_MGV_B_C_ID_B \b*4518	
+	#define NIG_MGV_B_C_ID_W \w4515	
+	#define NIG_MGV_B_C_ID_B \b*4515	
 	#define STR_W_NIG_MGV_B_C \wxD0B1	
 	#define STR_B_NIG_MGV_B_C B1	
+	#define NAME_NIG_MGV_B_C "MVG Baureihe C"	
+	
+
+#define MET_MX3000_INTROYEAR \d2007-1-1	
+	#define MET_MX3000_V_LIFE \b60	
+	#define MET_MX3000_M_LIFE \b255	
+	#define MET_MX3000_SPEED \w80	
+	#define MET_MX3000_TE \b77	
+	#define MET_MX3000_HP \w760	
+	#define MET_MX3000_WAG_HP \w760	
+	#define MET_MX3000_CAP_WAG_PAX \b164	
+	#define MET_MX3000_CAP_WAG_MAIL \b123	
+	#define MET_MX3000_CAP_WAG_ARMOR \b82	
+	#define MET_MX3000_CAP_WAG_PAX_STR "164"	
+	#define MET_MX3000_CAP_WAG_MAIL_STR "123"	
+	#define MET_MX3000_CAP_WAG_ARMOR_STR "82"	
+	#define MET_MX3000_CAP_HEAD_PAX \b164	
+	#define MET_MX3000_CAP_HEAD_MAIL \b123	
+	#define MET_MX3000_CAP_HEAD_ARMOR \b82	
+	#define MET_MX3000_PAX_LS \b60	
+	#define MET_MX3000_MAIL_LS \b45	
+	#define MET_MX3000_ARMOR_LS \b30	
+	#define MET_MX3000_WEIGHT \b33	
+	#define MET_MX3000_WEIGHT_HIGH \b0	
+	#define MET_MX3000_PCOST \w33179	
+	#define MET_MX3000_RCOST \w32932	
+	#define MET_MX3000_RCOST_WAG \w32932	
+		
+		
+	#define MET_MX3000_TRACTION_TYPE 32	
+	#define MET_MX3000_ID_W \w4516	
+	#define MET_MX3000_ID_B \b*4516	
+	#define STR_W_MET_MX3000 \wxD0B0	
+	#define STR_B_MET_MX3000 B0	
+	#define NAME_MET_MX3000 "MX3000"	
+	
+
+#define MET_LA_A650_INTROYEAR \d1993-1-1	
+	#define MET_LA_A650_V_LIFE \b60	
+	#define MET_LA_A650_M_LIFE \b255	
+	#define MET_LA_A650_SPEED \w112	
+	#define MET_LA_A650_TE \b123	
+	#define MET_LA_A650_HP \w530	
+	#define MET_LA_A650_WAG_HP \w530	
+	#define MET_LA_A650_CAP_WAG_PAX \b170	
+	#define MET_LA_A650_CAP_WAG_MAIL \b128	
+	#define MET_LA_A650_CAP_WAG_ARMOR \b85	
+	#define MET_LA_A650_CAP_WAG_PAX_STR "170"	
+	#define MET_LA_A650_CAP_WAG_MAIL_STR "128"	
+	#define MET_LA_A650_CAP_WAG_ARMOR_STR "85"	
+	#define MET_LA_A650_CAP_HEAD_PAX \b170	
+	#define MET_LA_A650_CAP_HEAD_MAIL \b128	
+	#define MET_LA_A650_CAP_HEAD_ARMOR \b85	
+	#define MET_LA_A650_PAX_LS \b60	
+	#define MET_LA_A650_MAIL_LS \b45	
+	#define MET_LA_A650_ARMOR_LS \b30	
+	#define MET_LA_A650_WEIGHT \b37	
+	#define MET_LA_A650_WEIGHT_HIGH \b0	
+	#define MET_LA_A650_PCOST \w33410	
+	#define MET_LA_A650_RCOST \w33042	
+	#define MET_LA_A650_RCOST_WAG \w33042	
+		
+		
+	#define MET_LA_A650_TRACTION_TYPE 32	
+	#define MET_LA_A650_ID_W \w4517	
+	#define MET_LA_A650_ID_B \b*4517	
+	#define STR_W_MET_LA_A650 \wxD0B0	
+	#define STR_B_MET_LA_A650 B0	
+	#define NAME_MET_LA_A650 "LA A650"	
+	
+
+#define MET_OSAKA30K_INTROYEAR \d2009-1-1	
+	#define MET_OSAKA30K_V_LIFE \b60	
+	#define MET_OSAKA30K_M_LIFE \b255	
+	#define MET_OSAKA30K_SPEED \w70	
+	#define MET_OSAKA30K_TE \b160	
+	#define MET_OSAKA30K_HP \w750	
+	#define MET_OSAKA30K_WAG_HP \w750	
+	#define MET_OSAKA30K_CAP_WAG_PAX \b140	
+	#define MET_OSAKA30K_CAP_WAG_MAIL \b105	
+	#define MET_OSAKA30K_CAP_WAG_ARMOR \b70	
+	#define MET_OSAKA30K_CAP_WAG_PAX_STR "140"	
+	#define MET_OSAKA30K_CAP_WAG_MAIL_STR "105"	
+	#define MET_OSAKA30K_CAP_WAG_ARMOR_STR "70"	
+	#define MET_OSAKA30K_CAP_HEAD_PAX \b140	
+	#define MET_OSAKA30K_CAP_HEAD_MAIL \b105	
+	#define MET_OSAKA30K_CAP_HEAD_ARMOR \b70	
+	#define MET_OSAKA30K_PAX_LS \b60	
+	#define MET_OSAKA30K_MAIL_LS \b45	
+	#define MET_OSAKA30K_ARMOR_LS \b30	
+	#define MET_OSAKA30K_WEIGHT \b30	
+	#define MET_OSAKA30K_WEIGHT_HIGH \b0	
+	#define MET_OSAKA30K_PCOST \w33109	
+	#define MET_OSAKA30K_RCOST \w32901	
+	#define MET_OSAKA30K_RCOST_WAG \w32901	
+		
+		
+	#define MET_OSAKA30K_TRACTION_TYPE 32	
+	#define MET_OSAKA30K_ID_W \w4518	
+	#define MET_OSAKA30K_ID_B \b*4518	
+	#define STR_W_MET_OSAKA30K \wxD0B0	
+	#define STR_B_MET_OSAKA30K B0	
+	#define NAME_MET_OSAKA30K "Osaka 30000"	
+	
+
+#define MET_NYR1_INTROYEAR \d1930-1-1	
+	#define MET_NYR1_V_LIFE \b60	
+	#define MET_NYR1_M_LIFE \b50	
+	#define MET_NYR1_SPEED \w90	
+	#define MET_NYR1_TE \b82	
+	#define MET_NYR1_HP \w380	
+	#define MET_NYR1_WAG_HP \w380	
+	#define MET_NYR1_CAP_WAG_PAX \b156	
+	#define MET_NYR1_CAP_WAG_MAIL \b117	
+	#define MET_NYR1_CAP_WAG_ARMOR \b78	
+	#define MET_NYR1_CAP_WAG_PAX_STR "156"	
+	#define MET_NYR1_CAP_WAG_MAIL_STR "117"	
+	#define MET_NYR1_CAP_WAG_ARMOR_STR "78"	
+	#define MET_NYR1_CAP_HEAD_PAX \b156	
+	#define MET_NYR1_CAP_HEAD_MAIL \b117	
+	#define MET_NYR1_CAP_HEAD_ARMOR \b78	
+	#define MET_NYR1_PAX_LS \b60	
+	#define MET_NYR1_MAIL_LS \b45	
+	#define MET_NYR1_ARMOR_LS \b30	
+	#define MET_NYR1_WEIGHT \b38	
+	#define MET_NYR1_WEIGHT_HIGH \b0	
+	#define MET_NYR1_PCOST \w33225	
+	#define MET_NYR1_RCOST \w32957	
+	#define MET_NYR1_RCOST_WAG \w32957	
+		
+		
+	#define MET_NYR1_TRACTION_TYPE 32	
+	#define MET_NYR1_ID_W \w4519	
+	#define MET_NYR1_ID_B \b*4519	
+	#define STR_W_MET_NYR1 \wxD0B0	
+	#define STR_B_MET_NYR1 B0	
+	#define NAME_MET_NYR1 "New York R1"	
+	
+
+#define MET_WASH7000_INTROYEAR \d2013-1-1	
+	#define MET_WASH7000_V_LIFE \b60	
+	#define MET_WASH7000_M_LIFE \b255	
+	#define MET_WASH7000_SPEED \w126	
+	#define MET_WASH7000_TE \b166	
+	#define MET_WASH7000_HP \w720	
+	#define MET_WASH7000_WAG_HP \w720	
+	#define MET_WASH7000_CAP_WAG_PAX \b184	
+	#define MET_WASH7000_CAP_WAG_MAIL \b138	
+	#define MET_WASH7000_CAP_WAG_ARMOR \b92	
+	#define MET_WASH7000_CAP_WAG_PAX_STR "184"	
+	#define MET_WASH7000_CAP_WAG_MAIL_STR "138"	
+	#define MET_WASH7000_CAP_WAG_ARMOR_STR "92"	
+	#define MET_WASH7000_CAP_HEAD_PAX \b184	
+	#define MET_WASH7000_CAP_HEAD_MAIL \b138	
+	#define MET_WASH7000_CAP_HEAD_ARMOR \b92	
+	#define MET_WASH7000_PAX_LS \b60	
+	#define MET_WASH7000_MAIL_LS \b45	
+	#define MET_WASH7000_ARMOR_LS \b30	
+	#define MET_WASH7000_WEIGHT \b36	
+	#define MET_WASH7000_WEIGHT_HIGH \b0	
+	#define MET_WASH7000_PCOST \w33545	
+	#define MET_WASH7000_RCOST \w33106	
+	#define MET_WASH7000_RCOST_WAG \w33106	
+		
+		
+	#define MET_WASH7000_TRACTION_TYPE 32	
+	#define MET_WASH7000_ID_W \w4520	
+	#define MET_WASH7000_ID_B \b*4520	
+	#define STR_W_MET_WASH7000 \wxD0B0	
+	#define STR_B_MET_WASH7000 B0	
+	#define NAME_MET_WASH7000 "Washington 7000"	
+	
+
+#define MET_NYR44_INTROYEAR \d1971-1-1	
+	#define MET_NYR44_V_LIFE \b60	
+	#define MET_NYR44_M_LIFE \b50	
+	#define MET_NYR44_SPEED \w90	
+	#define MET_NYR44_TE \b83	
+	#define MET_NYR44_HP \w460	
+	#define MET_NYR44_WAG_HP \w460	
+	#define MET_NYR44_CAP_WAG_PAX \b162	
+	#define MET_NYR44_CAP_WAG_MAIL \b122	
+	#define MET_NYR44_CAP_WAG_ARMOR \b81	
+	#define MET_NYR44_CAP_WAG_PAX_STR "162"	
+	#define MET_NYR44_CAP_WAG_MAIL_STR "122"	
+	#define MET_NYR44_CAP_WAG_ARMOR_STR "81"	
+	#define MET_NYR44_CAP_HEAD_PAX \b162	
+	#define MET_NYR44_CAP_HEAD_MAIL \b122	
+	#define MET_NYR44_CAP_HEAD_ARMOR \b81	
+	#define MET_NYR44_PAX_LS \b60	
+	#define MET_NYR44_MAIL_LS \b45	
+	#define MET_NYR44_ARMOR_LS \b30	
+	#define MET_NYR44_WEIGHT \b40	
+	#define MET_NYR44_WEIGHT_HIGH \b0	
+	#define MET_NYR44_PCOST \w33231	
+	#define MET_NYR44_RCOST \w32960	
+	#define MET_NYR44_RCOST_WAG \w32960	
+		
+		
+	#define MET_NYR44_TRACTION_TYPE 32	
+	#define MET_NYR44_ID_W \w4521	
+	#define MET_NYR44_ID_B \b*4521	
+	#define STR_W_MET_NYR44 \wxD0B0	
+	#define STR_B_MET_NYR44 B0	
+	#define NAME_MET_NYR44 "New York R44"	
+	
+
+#define MET_ELEVATED1907_INTROYEAR \d1907-1-1	
+	#define MET_ELEVATED1907_V_LIFE \b60	
+	#define MET_ELEVATED1907_M_LIFE \b40	
+	#define MET_ELEVATED1907_SPEED \w70	
+	#define MET_ELEVATED1907_TE \b26	
+	#define MET_ELEVATED1907_HP \w250	
+	#define MET_ELEVATED1907_WAG_HP \w0	
+	#define MET_ELEVATED1907_CAP_WAG_PAX \b130	
+	#define MET_ELEVATED1907_CAP_WAG_MAIL \b98	
+	#define MET_ELEVATED1907_CAP_WAG_ARMOR \b65	
+	#define MET_ELEVATED1907_CAP_WAG_PAX_STR "130"	
+	#define MET_ELEVATED1907_CAP_WAG_MAIL_STR "98"	
+	#define MET_ELEVATED1907_CAP_WAG_ARMOR_STR "65"	
+	#define MET_ELEVATED1907_CAP_HEAD_PAX \b130	
+	#define MET_ELEVATED1907_CAP_HEAD_MAIL \b98	
+	#define MET_ELEVATED1907_CAP_HEAD_ARMOR \b65	
+	#define MET_ELEVATED1907_PAX_LS \b60	
+	#define MET_ELEVATED1907_MAIL_LS \b45	
+	#define MET_ELEVATED1907_ARMOR_LS \b30	
+	#define MET_ELEVATED1907_WEIGHT \b50	
+	#define MET_ELEVATED1907_WEIGHT_HIGH \b0	
+	#define MET_ELEVATED1907_PCOST \w33078	
+	#define MET_ELEVATED1907_RCOST \w32811	
+	#define MET_ELEVATED1907_RCOST_WAG \w32788	
+		
+		
+	#define MET_ELEVATED1907_TRACTION_TYPE 32	
+	#define MET_ELEVATED1907_ID_W \w4522	
+	#define MET_ELEVATED1907_ID_B \b*4522	
+	#define STR_W_MET_ELEVATED1907 \wxD0B0	
+	#define STR_B_MET_ELEVATED1907 B0	
+	#define NAME_MET_ELEVATED1907 "Chicago L Northwest Elevated 1907 stock"	
+	
+
+#define MET_T1000_INTROYEAR \d1964-1-1	
+	#define MET_T1000_V_LIFE \b60	
+	#define MET_T1000_M_LIFE \b50	
+	#define MET_T1000_SPEED \w70	
+	#define MET_T1000_TE \b144	
+	#define MET_T1000_HP \w131	
+	#define MET_T1000_WAG_HP \w131	
+	#define MET_T1000_CAP_WAG_PAX \b180	
+	#define MET_T1000_CAP_WAG_MAIL \b135	
+	#define MET_T1000_CAP_WAG_ARMOR \b90	
+	#define MET_T1000_CAP_WAG_PAX_STR "180"	
+	#define MET_T1000_CAP_WAG_MAIL_STR "135"	
+	#define MET_T1000_CAP_WAG_ARMOR_STR "90"	
+	#define MET_T1000_CAP_HEAD_PAX \b180	
+	#define MET_T1000_CAP_HEAD_MAIL \b135	
+	#define MET_T1000_CAP_HEAD_ARMOR \b90	
+	#define MET_T1000_PAX_LS \b60	
+	#define MET_T1000_MAIL_LS \b45	
+	#define MET_T1000_ARMOR_LS \b30	
+	#define MET_T1000_WEIGHT \b28	
+	#define MET_T1000_WEIGHT_HIGH \b0	
+	#define MET_T1000_PCOST \w33069	
+	#define MET_T1000_RCOST \w32886	
+	#define MET_T1000_RCOST_WAG \w32886	
+		
+		
+	#define MET_T1000_TRACTION_TYPE 32	
+	#define MET_T1000_ID_W \w4523	
+	#define MET_T1000_ID_B \b*4523	
+	#define STR_W_MET_T1000 \wxD0B0	
+	#define STR_B_MET_T1000 B0	
+	#define NAME_MET_T1000 "T1000"	
 	
 
