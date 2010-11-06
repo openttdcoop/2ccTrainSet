@@ -232,4 +232,4 @@
 #undef THIS_ENG_SHORTERVEHICLE   // Shorter vehicle
 #undef THIS_ENG_CALLBACKS        // Callbacks
 #undef THIS_ENG_DUALHEAD         // Dualhead? 00/01 (should "always" be 00)
-
+#undef    THIS_ENG_NAME
