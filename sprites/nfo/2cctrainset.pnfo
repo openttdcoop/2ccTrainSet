@@ -100,7 +100,7 @@
 #include "sprites/nfo/engines/nrz_x_class.pnfo"
 #include "sprites/nfo/engines/consolidation.pnfo"
 #include "sprites/nfo/engines/dda40x.pnfo"
-
+#include "sprites/nfo/engines/traxx_f140.pnfo"
 
 
 

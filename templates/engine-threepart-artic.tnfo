@@ -266,3 +266,4 @@
 #undef THIS_ENG_CALLBACKS        // Callbacks
 #undef THIS_ENG_DUALHEAD         // Dualhead? 00/01 (should "always" be 00)
 #undef TENDER_LENGTH
+#undef    THIS_ENG_NAME
