@@ -150,6 +150,7 @@
 #include "sprites/nfo/mus/desiro_emu.pnfo"
 #include "sprites/nfo/mus/m131.pnfo"
 #include "sprites/nfo/mus/aln668.pnfo"
+#include "sprites/nfo/mus/class400.pnfo"
 
 //Railbus
 #include "sprites/nfo/railbus/479.pnfo"
