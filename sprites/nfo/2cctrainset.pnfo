@@ -151,6 +151,7 @@
 #include "sprites/nfo/mus/m131.pnfo"
 #include "sprites/nfo/mus/aln668.pnfo"
 #include "sprites/nfo/mus/class400.pnfo"
+#include "sprites/nfo/mus/db_608.pnfo"
 
 //Railbus
 #include "sprites/nfo/railbus/479.pnfo"
