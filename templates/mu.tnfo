@@ -216,3 +216,4 @@
 #undef		THIS_ENG_TRACKTYPE
 #undef		THIS_ENG_TYPE
 #undef		THIS_ENG_DUALHEAD
+#undef    THIS_ENG_NAME
