@@ -185,6 +185,7 @@
 #include "sprites/nfo/metro/dlr.pnfo"
 #include "sprites/nfo/metro/m2-840.pnfo"
 #include "sprites/nfo/metro/mx3000.pnfo"
+#include "sprites/nfo/metro/t1000.pnfo"
 
 // Maglevs
 #include "sprites/nfo/mus/chim.pnfo"
