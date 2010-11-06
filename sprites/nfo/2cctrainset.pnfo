@@ -148,6 +148,8 @@
 #include "sprites/nfo/mus/bdvmot.pnfo"
 #include "sprites/nfo/mus/desiro_dmu.pnfo"
 #include "sprites/nfo/mus/desiro_emu.pnfo"
+#include "sprites/nfo/mus/m131.pnfo"
+
 
 //Railbus
 #include "sprites/nfo/railbus/479.pnfo"
