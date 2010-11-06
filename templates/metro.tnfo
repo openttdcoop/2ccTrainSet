@@ -84,7 +84,9 @@
 #error "One or more misc properties not defined"
 #endif
 
-
+#ifdef THIS_ENG_NAME
+  -01	*	00	04	00	7F	\b1	THIS_ENG_ID_B		SPACE	THIS_ENG_NAME	00 
+#endif
 
 
 // Action 0
@@ -315,3 +317,4 @@
 #undef		THIS_ENG_SHORTERVEHICLE_WAG
 #undef		THIS_ENG_TRACKTYPE
 #undef		THIS_ENG_SHORTERVEHICLE
+#undef    THIS_ENG_NAME
