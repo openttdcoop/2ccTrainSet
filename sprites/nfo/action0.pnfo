@@ -97,7 +97,7 @@
 	#define MU_BM93_ID_B \b*3002	
 	#define STR_W_MU_BM93 \wxD002	
 	#define STR_B_MU_BM93 2	
-	#define NAME_MU_BM93 "BM93"	
+	#define NAME_MU_BM93 "BM93 'Talent'"	
 	
 
 #define MU_BR150_INTROYEAR \d1986-1-1	
@@ -437,7 +437,7 @@
 	#define MU_VT612_ID_B \b*3012	
 	#define STR_W_MU_VT612 \wxD00C	
 	#define STR_B_MU_VT612 C	
-	#define NAME_MU_VT612 "VT 612 " RegioSwinger""	
+	#define NAME_MU_VT612 "VT 612 'RegioSwinger'"	
 	
 
 #define MU_Y2_INTROYEAR \d1990-1-1	
@@ -573,7 +573,7 @@
 	#define MU_680_ID_B \b*3016	
 	#define STR_W_MU_680 \wxD016	
 	#define STR_B_MU_680 10	
-	#define NAME_MU_680 "680 Pendolino"	
+	#define NAME_MU_680 "680 'Pendolino'"	
 	
 
 #define MU_BDVMOT_INTROYEAR \d1988-1-1	
@@ -1382,7 +1382,7 @@
 	#define MU_CHIM_PCOST \w49453	
 	#define MU_CHIM_RCOST \w49509	
 	#define MU_CHIM_RCOST_WAG \w32788	
-	#define MU_CHIM_NUTRACKS_TRACKTYPE 7	
+	#define MU_CHIM_NUTRACKS_TRACKTYPE 12	
 		
 	#define MU_CHIM_TRACTION_TYPE 38	
 	#define MU_CHIM_ID_W \w00	
