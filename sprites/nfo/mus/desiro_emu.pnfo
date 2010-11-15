@@ -1,5 +1,5 @@
 
-#define THIS_PCX_FILE	sprites/pcx/mus/desiro_emu.pcx  // Graphics file
+#define THIS_PCX_FILE	sprites/pcx/mus/desiro_emu.png  // Graphics file
 
 
 #define		THIS_ENG_INTROYEAR		MU_DESIRO_EMU_INTROYEAR
