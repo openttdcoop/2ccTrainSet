@@ -46,6 +46,7 @@
 #define STR_ER_CSLOBONLY    "Use only long boxcars on CargoSprinter"
 #define STR_ER_ONLYMU       "Use Only Multiple Unit Wagons"
 #define STR_ER_NORAILCARS   "Railcars cant be attached to engines"
+#define STR_ER_METROONLYONMETRO   "Multiple Unit Wagons can only be attached to Multiple Unit Trains"
 
 // =================================
 // ===== Parameters - Action14 =====

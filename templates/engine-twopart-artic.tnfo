@@ -193,8 +193,9 @@
 // --------------------
 
 // Cannot attach 
--1 * 0  02 00 A6 85 C6 00 FF FF 03                          // 2 cases
-                             ER_MUONLYONMU 80 MU 00 MU 00   // allow attaching MU-wagon
+-1 * 0  02 00 A6 85 C6 00 FF FF 04                          // 2 cases
+                             ER_MUONLYONMU 80 MU 00 MU 00   // disallow attaching MU-wagon
+                   ER_METROONLYONMETRO 80 METRO 00 METRO 00 // disallow attaching Metro-wagons
                              ER_MUONLYONMU 80 \w3000 \w3999 // Not allowing MUs
                              ER_NORAILCARS 80 \w4000 \w4500 // No railcars
                              FF 80                          // Allow everything else
