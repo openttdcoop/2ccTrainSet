@@ -57,6 +57,7 @@
 #define ER_CSLOBONLY    E4
 #define ER_ONLYMU     	E5
 #define ER_NORAILCARS   E6
+#define ER_METROONLYONMETRO E7
 
 #define ER_ONEUNIT_W            \wxD0E0
 #define ER_SELFONLY_W	        \wxD0E1
@@ -65,6 +66,7 @@
 #define ER_CSLOBONLY_W	        \wxD0E4
 #define ER_ONLYMU_W     	\wxD0E5
 #define ER_NORAILCARS_W         \wxD0E6
+#define ER_METROONLYONMETRO_W         \wxD0E7
 
 // Templates:
 // Main ones
