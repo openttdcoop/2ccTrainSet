@@ -1,4 +1,4 @@
-#define THIS_PCX_FILE	sprites/pcx/railbus/809.pcx  // Graphics file
+#define THIS_PCX_FILE	sprites/pcx/railbus/809.png  // Graphics file
 
 
 #define		THIS_ENG_INTROYEAR		RB_809_INTROYEAR
