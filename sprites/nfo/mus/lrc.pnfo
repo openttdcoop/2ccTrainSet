@@ -1,5 +1,5 @@
 
-#define THIS_PCX_FILE	sprites/pcx/mus/lrc.pcx  // Graphics file
+#define THIS_PCX_FILE	sprites/pcx/mus/lrc.png  // Graphics file
 
 #define		THIS_ENG_INTROYEAR		MU_LRC_INTROYEAR
 #define		THIS_ENG_V_LIFE			MU_LRC_V_LIFE
