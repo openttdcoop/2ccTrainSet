@@ -1695,7 +1695,7 @@
 	#define MU_M131_ID_B \b*3048	
 	#define STR_W_MU_M131 \wxD031	
 	#define STR_B_MU_M131 31	
-	#define NAME_MU_M131 "M141"	
+	#define NAME_MU_M131 "M131"	
 	
 
 #define MU_DB_608_INTROYEAR \d1952-1-1	
@@ -5771,8 +5771,8 @@
 		
 		
 	#define MET_MX3000_TRACTION_TYPE 32	
-	#define MET_MX3000_ID_W \w4516	
-	#define MET_MX3000_ID_B \b*4516	
+	#define MET_MX3000_ID_W \w4518	
+	#define MET_MX3000_ID_B \b*4518	
 	#define STR_W_MET_MX3000 \wxD0B0	
 	#define STR_B_MET_MX3000 B0	
 	#define NAME_MET_MX3000 "MX3000"	
@@ -5805,8 +5805,8 @@
 		
 		
 	#define MET_LA_A650_TRACTION_TYPE 32	
-	#define MET_LA_A650_ID_W \w4517	
-	#define MET_LA_A650_ID_B \b*4517	
+	#define MET_LA_A650_ID_W \w4519	
+	#define MET_LA_A650_ID_B \b*4519	
 	#define STR_W_MET_LA_A650 \wxD0B0	
 	#define STR_B_MET_LA_A650 B0	
 	#define NAME_MET_LA_A650 "LA A650"	
@@ -5839,8 +5839,8 @@
 		
 		
 	#define MET_OSAKA30K_TRACTION_TYPE 32	
-	#define MET_OSAKA30K_ID_W \w4518	
-	#define MET_OSAKA30K_ID_B \b*4518	
+	#define MET_OSAKA30K_ID_W \w4520	
+	#define MET_OSAKA30K_ID_B \b*4520	
 	#define STR_W_MET_OSAKA30K \wxD0B0	
 	#define STR_B_MET_OSAKA30K B0	
 	#define NAME_MET_OSAKA30K "Osaka 30000"	
@@ -5873,8 +5873,8 @@
 		
 		
 	#define MET_NYR1_TRACTION_TYPE 32	
-	#define MET_NYR1_ID_W \w4519	
-	#define MET_NYR1_ID_B \b*4519	
+	#define MET_NYR1_ID_W \w4521	
+	#define MET_NYR1_ID_B \b*4521	
 	#define STR_W_MET_NYR1 \wxD0B0	
 	#define STR_B_MET_NYR1 B0	
 	#define NAME_MET_NYR1 "New York R1"	
@@ -5907,8 +5907,8 @@
 		
 		
 	#define MET_WASH7000_TRACTION_TYPE 32	
-	#define MET_WASH7000_ID_W \w4520	
-	#define MET_WASH7000_ID_B \b*4520	
+	#define MET_WASH7000_ID_W \w4522	
+	#define MET_WASH7000_ID_B \b*4522	
 	#define STR_W_MET_WASH7000 \wxD0B0	
 	#define STR_B_MET_WASH7000 B0	
 	#define NAME_MET_WASH7000 "Washington 7000"	
@@ -5941,8 +5941,8 @@
 		
 		
 	#define MET_NYR44_TRACTION_TYPE 32	
-	#define MET_NYR44_ID_W \w4521	
-	#define MET_NYR44_ID_B \b*4521	
+	#define MET_NYR44_ID_W \w4523	
+	#define MET_NYR44_ID_B \b*4523	
 	#define STR_W_MET_NYR44 \wxD0B0	
 	#define STR_B_MET_NYR44 B0	
 	#define NAME_MET_NYR44 "New York R44"	
@@ -5975,8 +5975,8 @@
 		
 		
 	#define MET_ELEVATED1907_TRACTION_TYPE 32	
-	#define MET_ELEVATED1907_ID_W \w4522	
-	#define MET_ELEVATED1907_ID_B \b*4522	
+	#define MET_ELEVATED1907_ID_W \w4524	
+	#define MET_ELEVATED1907_ID_B \b*4524	
 	#define STR_W_MET_ELEVATED1907 \wxD0B0	
 	#define STR_B_MET_ELEVATED1907 B0	
 	#define NAME_MET_ELEVATED1907 "Chicago L Northwest Elevated 1907 stock"	
@@ -6009,8 +6009,8 @@
 		
 		
 	#define MET_T1000_TRACTION_TYPE 32	
-	#define MET_T1000_ID_W \w4523	
-	#define MET_T1000_ID_B \b*4523	
+	#define MET_T1000_ID_W \w4525	
+	#define MET_T1000_ID_B \b*4525	
 	#define STR_W_MET_T1000 \wxD0B0	
 	#define STR_B_MET_T1000 B0	
 	#define NAME_MET_T1000 "T1000"	
