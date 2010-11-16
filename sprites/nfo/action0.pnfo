@@ -5067,7 +5067,7 @@
 #define ENG_TRAXX_F140_INTROYEAR \d1996-1-1	
 	#define ENG_TRAXX_F140_V_LIFE \b40	
 	#define ENG_TRAXX_F140_M_LIFE \b255	
-	#define ENG_TRAXX_F140_SPEED \w160	
+	#define ENG_TRAXX_F140_SPEED \w140	
 	#define ENG_TRAXX_F140_TE \b86	
 	#define ENG_TRAXX_F140_HP \w7500	
 	#define ENG_TRAXX_F140_WAG_HP \w0	
@@ -5085,8 +5085,8 @@
 	#define ENG_TRAXX_F140_ARMOR_LS \b1	
 	#define ENG_TRAXX_F140_WEIGHT \b85	
 	#define ENG_TRAXX_F140_WEIGHT_HIGH \b0	
-	#define ENG_TRAXX_F140_PCOST \w34437	
-	#define ENG_TRAXX_F140_RCOST \w34191	
+	#define ENG_TRAXX_F140_PCOST \w34227	
+	#define ENG_TRAXX_F140_RCOST \w33976	
 	#define ENG_TRAXX_F140_RCOST_WAG \w32788	
 	#define ENG_TRAXX_F140_NUTRACKS_TRACKTYPE 5	
 		
@@ -6014,5 +6014,39 @@
 	#define STR_W_MET_T1000 \wxD0B0	
 	#define STR_B_MET_T1000 B0	
 	#define NAME_MET_T1000 "T1000"	
+	
+
+#define MET_81_740_INTROYEAR \d2003-1-1	
+	#define MET_81_740_V_LIFE \b60	
+	#define MET_81_740_M_LIFE \b255	
+	#define MET_81_740_SPEED \w90	
+	#define MET_81_740_TE \b94	
+	#define MET_81_740_HP \w860	
+	#define MET_81_740_WAG_HP \w860	
+	#define MET_81_740_CAP_WAG_PAX \b120	
+	#define MET_81_740_CAP_WAG_MAIL \b90	
+	#define MET_81_740_CAP_WAG_ARMOR \b60	
+	#define MET_81_740_CAP_WAG_PAX_STR "120"	
+	#define MET_81_740_CAP_WAG_MAIL_STR "90"	
+	#define MET_81_740_CAP_WAG_ARMOR_STR "60"	
+	#define MET_81_740_CAP_HEAD_PAX \b120	
+	#define MET_81_740_CAP_HEAD_MAIL \b90	
+	#define MET_81_740_CAP_HEAD_ARMOR \b60	
+	#define MET_81_740_PAX_LS \b60	
+	#define MET_81_740_MAIL_LS \b45	
+	#define MET_81_740_ARMOR_LS \b30	
+	#define MET_81_740_WEIGHT \b47	
+	#define MET_81_740_WEIGHT_HIGH \b0	
+	#define MET_81_740_PCOST \w33260	
+	#define MET_81_740_RCOST \w32973	
+	#define MET_81_740_RCOST_WAG \w32973	
+		
+		
+	#define MET_81_740_TRACTION_TYPE 32	
+	#define MET_81_740_ID_W \w4526	
+	#define MET_81_740_ID_B \b*4526	
+	#define STR_W_MET_81_740 \wxD0B0	
+	#define STR_B_MET_81_740 B0	
+	#define NAME_MET_81_740 "81-740"	
 	
 
