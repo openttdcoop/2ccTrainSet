@@ -3,10 +3,23 @@
 -1 * 0  02 00 41 81 10 00 FF 01
 //                  THIS_WAG_PCOST 17 17    // Purchase cost
                     THIS_WAG_RCOST 0D 0D		// RUN cost
-                                   40 00			// Dont matter
+                                   40 00    // Dont matter
+
+// '10' for CB36s Purchase list - AIs
+-1 * 0  02 00 42 81 10 00 FF 02
+//                  THIS_WAG_PCOST 17 17    // Purchase cost
+                    THIS_WAG_RCOST 0D 0D		// RUN cost
+             THIS_WAG_MAX_SPEED 80 09 09 // Max Speed
+                                   40 00		// Dont matter
+
+// Switch between players and AI's regarding the purchase list.
+-1 * 0  02 00 43 82 43 10 01 \b1
+                          41 00 \b0 \b0   // If human player, the running cost scheme is applied
+                          42 00           // If other (i.e. AI?) the running cost scheme is skipped
+                                   
 
 // ----- Apply Purchase list text  and price -----
 -1 * 0  02 00 4F 81 0C 00 FF 02
                           THIS_WAG_STR_B 80 23 23
-                          41 00 36 36
+                          43 00 36 36
                           40 00

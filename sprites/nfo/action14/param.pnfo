@@ -61,3 +61,25 @@
                       00
                   00
               00
+
+-1 * -1   14 "C" "INFO"
+                  "C" "PARA"
+                      "C" \d2
+                          #ifdef A14_PARAM2_NAME
+                          "T" "NAME" LANG_ID A14_PARAM2_NAME 00
+                          #endif
+                          #ifdef A14_PARAM2_DISC
+                          "T" "DESC" LANG_ID A14_PARAM2_DISC 00
+                          #endif
+                          "C" "VALU" 
+                              #ifdef A14_PARAM2_VALU0
+                              "T" \d0 LANG_ID A14_PARAM2_VALU0 00
+                              #endif
+                              #ifdef A14_PARAM2_VALU1
+                              "T" \d1 LANG_ID A14_PARAM2_VALU1 00
+                              #endif
+                              00
+                          00
+                      00
+                  00
+              00

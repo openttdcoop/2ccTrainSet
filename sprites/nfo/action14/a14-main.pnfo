@@ -1,13 +1,13 @@
 // Action 14 stuff
 -1 * 0 14   "C" "INFO"
-                "B" "NPAR" \w1 \b02                 // Number of parameters
+                "B" "NPAR" \w1 \b03                 // Number of parameters
                 "B" "PALS" \w1 "W"                  // Windows palette
                 "B" "VRSN" \w4 \d{{REPO_REVISION}}  // GRF version
                 "B" "MINV" \w4 \d300
                 00
             00
 
-// Economy settings
+// Economy settings - Purchase prices
 -1 * -1   14 "C" "INFO"
                   "C" "PARA"
                       "C" \d0
@@ -19,12 +19,25 @@
                   00
               00
 
+// Economy settings - Running costs
 -1 * -1   14 "C" "INFO"
                   "C" "PARA"
                       "C" \d1
                           "B" "TYPE" \w1 0
                           "B" "LIMI" \w8 \d0 \d4
                           "B" "DFLT" \w4 \d2
+                          00
+                      00
+                  00
+              00
+
+// Wagon running cost behavior
+-1 * -1   14 "C" "INFO"
+                  "C" "PARA"
+                      "C" \d2
+                          "B" "TYPE" \w1 0
+                          "B" "LIMI" \w8 \d0 \d1
+                          "B" "DFLT" \w4 \d0
                           00
                       00
                   00

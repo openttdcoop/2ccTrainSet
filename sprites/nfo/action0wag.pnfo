@@ -28,6 +28,7 @@
 	#define WAG_PAX_IC_1GEN_PCOST \b5	
 	#define WAG_PAX_IC_1GEN_ID_B \b*128	
 	#define WAG_PAX_IC_1GEN_STR WAG_STR_50_B	
+	#define WAG_PAX_IC_1GEN_MAX_SPEED \b50	
 
 #define WAG_PAX_IC_2GEN_INTROYEAR \d1900-1-1	
 	#define WAG_PAX_IC_2GEN_V_LIFE \b40	
@@ -59,6 +60,7 @@
 	#define WAG_PAX_IC_2GEN_PCOST \b10	
 	#define WAG_PAX_IC_2GEN_ID_B \b*129	
 	#define WAG_PAX_IC_2GEN_STR WAG_STR_80_B	
+	#define WAG_PAX_IC_2GEN_MAX_SPEED \b80	
 
 #define WAG_PAX_IC_3GEN_INTROYEAR \d1935-1-1	
 	#define WAG_PAX_IC_3GEN_V_LIFE \b40	
@@ -90,6 +92,7 @@
 	#define WAG_PAX_IC_3GEN_PCOST \b15	
 	#define WAG_PAX_IC_3GEN_ID_B \b*130	
 	#define WAG_PAX_IC_3GEN_STR WAG_STR_120_B	
+	#define WAG_PAX_IC_3GEN_MAX_SPEED \b120	
 
 #define WAG_PAX_IC_4GEN_INTROYEAR \d1960-1-1	
 	#define WAG_PAX_IC_4GEN_V_LIFE \b40	
@@ -121,6 +124,7 @@
 	#define WAG_PAX_IC_4GEN_PCOST \b20	
 	#define WAG_PAX_IC_4GEN_ID_B \b*131	
 	#define WAG_PAX_IC_4GEN_STR WAG_STR_160_B	
+	#define WAG_PAX_IC_4GEN_MAX_SPEED \b160	
 
 #define WAG_PAX_IC_5GEN_INTROYEAR \d2000-1-1	
 	#define WAG_PAX_IC_5GEN_V_LIFE \b40	
@@ -152,6 +156,7 @@
 	#define WAG_PAX_IC_5GEN_PCOST \b25	
 	#define WAG_PAX_IC_5GEN_ID_B \b*132	
 	#define WAG_PAX_IC_5GEN_STR WAG_STR_200_B	
+	#define WAG_PAX_IC_5GEN_MAX_SPEED \b200	
 
 #define WAG_MAIL_1GEN_INTROYEAR \d1800-1-1	
 	#define WAG_MAIL_1GEN_V_LIFE \b50	
@@ -183,6 +188,7 @@
 	#define WAG_MAIL_1GEN_PCOST \b5	
 	#define WAG_MAIL_1GEN_ID_B \b*140	
 	#define WAG_MAIL_1GEN_STR WAG_STR_50_B	
+	#define WAG_MAIL_1GEN_MAX_SPEED \b50	
 
 #define WAG_MAIL_2GEN_INTROYEAR \d1900-1-1	
 	#define WAG_MAIL_2GEN_V_LIFE \b40	
@@ -214,6 +220,7 @@
 	#define WAG_MAIL_2GEN_PCOST \b10	
 	#define WAG_MAIL_2GEN_ID_B \b*141	
 	#define WAG_MAIL_2GEN_STR WAG_STR_80_B	
+	#define WAG_MAIL_2GEN_MAX_SPEED \b80	
 
 #define WAG_MAIL_3GEN_INTROYEAR \d1935-1-1	
 	#define WAG_MAIL_3GEN_V_LIFE \b40	
@@ -245,6 +252,7 @@
 	#define WAG_MAIL_3GEN_PCOST \b15	
 	#define WAG_MAIL_3GEN_ID_B \b*142	
 	#define WAG_MAIL_3GEN_STR WAG_STR_120_B	
+	#define WAG_MAIL_3GEN_MAX_SPEED \b120	
 
 #define WAG_MAIL_4GEN_INTROYEAR \d1960-1-1	
 	#define WAG_MAIL_4GEN_V_LIFE \b40	
@@ -276,6 +284,7 @@
 	#define WAG_MAIL_4GEN_PCOST \b20	
 	#define WAG_MAIL_4GEN_ID_B \b*143	
 	#define WAG_MAIL_4GEN_STR WAG_STR_160_B	
+	#define WAG_MAIL_4GEN_MAX_SPEED \b160	
 
 #define WAG_MAIL_5GEN_INTROYEAR \d2000-1-1	
 	#define WAG_MAIL_5GEN_V_LIFE \b40	
@@ -307,6 +316,7 @@
 	#define WAG_MAIL_5GEN_PCOST \b25	
 	#define WAG_MAIL_5GEN_ID_B \b*144	
 	#define WAG_MAIL_5GEN_STR WAG_STR_200_B	
+	#define WAG_MAIL_5GEN_MAX_SPEED \b200	
 
 #define WAG_PAX_REG_3GEN_INTROYEAR \d1935-1-1	
 	#define WAG_PAX_REG_3GEN_V_LIFE \b40	
@@ -338,6 +348,7 @@
 	#define WAG_PAX_REG_3GEN_PCOST \b30	
 	#define WAG_PAX_REG_3GEN_ID_B \b*133	
 	#define WAG_PAX_REG_3GEN_STR WAG_STR_80_B	
+	#define WAG_PAX_REG_3GEN_MAX_SPEED \b80	
 
 #define WAG_PAX_REG_4GEN_INTROYEAR \d1960-1-1	
 	#define WAG_PAX_REG_4GEN_V_LIFE \b40	
@@ -369,6 +380,7 @@
 	#define WAG_PAX_REG_4GEN_PCOST \b35	
 	#define WAG_PAX_REG_4GEN_ID_B \b*134	
 	#define WAG_PAX_REG_4GEN_STR WAG_STR_120_B	
+	#define WAG_PAX_REG_4GEN_MAX_SPEED \b120	
 
 #define WAG_PAX_REG_5GEN_INTROYEAR \d2000-1-1	
 	#define WAG_PAX_REG_5GEN_V_LIFE \b40	
@@ -400,6 +412,7 @@
 	#define WAG_PAX_REG_5GEN_PCOST \b40	
 	#define WAG_PAX_REG_5GEN_ID_B \b*135	
 	#define WAG_PAX_REG_5GEN_STR WAG_STR_160_B	
+	#define WAG_PAX_REG_5GEN_MAX_SPEED \b160	
 
 #define WAG_PAX_DD_4GEN_INTROYEAR \d1965-1-1	
 	#define WAG_PAX_DD_4GEN_V_LIFE \b40	
@@ -431,6 +444,7 @@
 	#define WAG_PAX_DD_4GEN_PCOST \b45	
 	#define WAG_PAX_DD_4GEN_ID_B \b*136	
 	#define WAG_PAX_DD_4GEN_STR WAG_STR_160_B	
+	#define WAG_PAX_DD_4GEN_MAX_SPEED \b160	
 
 #define WAG_PAX_DD_5GEN_INTROYEAR \d2005-1-1	
 	#define WAG_PAX_DD_5GEN_V_LIFE \b40	
@@ -462,8 +476,9 @@
 	#define WAG_PAX_DD_5GEN_PCOST \b50	
 	#define WAG_PAX_DD_5GEN_ID_B \b*137	
 	#define WAG_PAX_DD_5GEN_STR WAG_STR_200_B	
+	#define WAG_PAX_DD_5GEN_MAX_SPEED \b200	
 
-																																																											
+																																																													
 #define WAG_FLATBED_LONG_2_INTROYEAR \d2000-1-1	
 	#define WAG_FLATBED_LONG_2_V_LIFE \b50	
 	#define WAG_FLATBED_LONG_2_M_LIFE \b255	
@@ -494,6 +509,7 @@
 	#define WAG_FLATBED_LONG_2_PCOST \b50	
 	#define WAG_FLATBED_LONG_2_ID_B \b*180	
 	#define WAG_FLATBED_LONG_2_STR WAG_STR_120_B	
+	#define WAG_FLATBED_LONG_2_MAX_SPEED \b120	
 
 #define WAG_BOXCAR_LONG_2_INTROYEAR \d2000-1-1	
 	#define WAG_BOXCAR_LONG_2_V_LIFE \b50	
@@ -525,6 +541,7 @@
 	#define WAG_BOXCAR_LONG_2_PCOST \b50	
 	#define WAG_BOXCAR_LONG_2_ID_B \b*181	
 	#define WAG_BOXCAR_LONG_2_STR WAG_STR_160_B	
+	#define WAG_BOXCAR_LONG_2_MAX_SPEED \b160	
 
 #define WAG_HOPPER_LONG_2_INTROYEAR \d2000-1-1	
 	#define WAG_HOPPER_LONG_2_V_LIFE \b50	
@@ -556,6 +573,7 @@
 	#define WAG_HOPPER_LONG_2_PCOST \b50	
 	#define WAG_HOPPER_LONG_2_ID_B \b*182	
 	#define WAG_HOPPER_LONG_2_STR WAG_STR_100_B	
+	#define WAG_HOPPER_LONG_2_MAX_SPEED \b100	
 
 #define WAG_SILO_LONG_2_INTROYEAR \d2000-1-1	
 	#define WAG_SILO_LONG_2_V_LIFE \b50	
@@ -587,6 +605,7 @@
 	#define WAG_SILO_LONG_2_PCOST \b50	
 	#define WAG_SILO_LONG_2_ID_B \b*183	
 	#define WAG_SILO_LONG_2_STR WAG_STR_120_B	
+	#define WAG_SILO_LONG_2_MAX_SPEED \b120	
 
 #define WAG_TANK_LONG_2_INTROYEAR \d2000-1-1	
 	#define WAG_TANK_LONG_2_V_LIFE \b50	
@@ -618,8 +637,9 @@
 	#define WAG_TANK_LONG_2_PCOST \b50	
 	#define WAG_TANK_LONG_2_ID_B \b*184	
 	#define WAG_TANK_LONG_2_STR WAG_STR_160_B	
+	#define WAG_TANK_LONG_2_MAX_SPEED \b160	
 
-																																																											
+																																																													
 #define WAG_FLATBED_LONG_INTROYEAR \d1960-1-1	
 	#define WAG_FLATBED_LONG_V_LIFE \b40	
 	#define WAG_FLATBED_LONG_M_LIFE \b45	
@@ -650,6 +670,7 @@
 	#define WAG_FLATBED_LONG_PCOST \b50	
 	#define WAG_FLATBED_LONG_ID_B \b*170	
 	#define WAG_FLATBED_LONG_STR WAG_STR_100_B	
+	#define WAG_FLATBED_LONG_MAX_SPEED \b100	
 
 #define WAG_BOXCAR_LONG_INTROYEAR \d1960-1-1	
 	#define WAG_BOXCAR_LONG_V_LIFE \b40	
@@ -681,6 +702,7 @@
 	#define WAG_BOXCAR_LONG_PCOST \b50	
 	#define WAG_BOXCAR_LONG_ID_B \b*171	
 	#define WAG_BOXCAR_LONG_STR WAG_STR_120_B	
+	#define WAG_BOXCAR_LONG_MAX_SPEED \b120	
 
 #define WAG_HOPPER_LONG_INTROYEAR \d1960-1-1	
 	#define WAG_HOPPER_LONG_V_LIFE \b40	
@@ -712,6 +734,7 @@
 	#define WAG_HOPPER_LONG_PCOST \b50	
 	#define WAG_HOPPER_LONG_ID_B \b*172	
 	#define WAG_HOPPER_LONG_STR WAG_STR_80_B	
+	#define WAG_HOPPER_LONG_MAX_SPEED \b80	
 
 #define WAG_SILO_LONG_INTROYEAR \d1960-1-1	
 	#define WAG_SILO_LONG_V_LIFE \b40	
@@ -743,6 +766,7 @@
 	#define WAG_SILO_LONG_PCOST \b50	
 	#define WAG_SILO_LONG_ID_B \b*173	
 	#define WAG_SILO_LONG_STR WAG_STR_100_B	
+	#define WAG_SILO_LONG_MAX_SPEED \b100	
 
 #define WAG_TANK_LONG_INTROYEAR \d1960-1-1	
 	#define WAG_TANK_LONG_V_LIFE \b40	
@@ -774,8 +798,9 @@
 	#define WAG_TANK_LONG_PCOST \b50	
 	#define WAG_TANK_LONG_ID_B \b*174	
 	#define WAG_TANK_LONG_STR WAG_STR_120_B	
+	#define WAG_TANK_LONG_MAX_SPEED \b120	
 
-																																																											
+																																																													
 #define WAG_FLATBED_SHORT_2_INTROYEAR \d1920-1-1	
 	#define WAG_FLATBED_SHORT_2_V_LIFE \b32	
 	#define WAG_FLATBED_SHORT_2_M_LIFE \b45	
@@ -806,6 +831,7 @@
 	#define WAG_FLATBED_SHORT_2_PCOST \b50	
 	#define WAG_FLATBED_SHORT_2_ID_B \b*160	
 	#define WAG_FLATBED_SHORT_2_STR WAG_STR_90_B	
+	#define WAG_FLATBED_SHORT_2_MAX_SPEED \b90	
 
 #define WAG_BOXCAR_SHORT_2_INTROYEAR \d1920-1-1	
 	#define WAG_BOXCAR_SHORT_2_V_LIFE \b32	
@@ -837,6 +863,7 @@
 	#define WAG_BOXCAR_SHORT_2_PCOST \b50	
 	#define WAG_BOXCAR_SHORT_2_ID_B \b*161	
 	#define WAG_BOXCAR_SHORT_2_STR WAG_STR_110_B	
+	#define WAG_BOXCAR_SHORT_2_MAX_SPEED \b110	
 
 #define WAG_HOPPER_SHORT_2_INTROYEAR \d1920-1-1	
 	#define WAG_HOPPER_SHORT_2_V_LIFE \b32	
@@ -868,6 +895,7 @@
 	#define WAG_HOPPER_SHORT_2_PCOST \b50	
 	#define WAG_HOPPER_SHORT_2_ID_B \b*162	
 	#define WAG_HOPPER_SHORT_2_STR WAG_STR_60_B	
+	#define WAG_HOPPER_SHORT_2_MAX_SPEED \b60	
 
 #define WAG_SILO_SHORT_2_INTROYEAR \d1920-1-1	
 	#define WAG_SILO_SHORT_2_V_LIFE \b32	
@@ -899,6 +927,7 @@
 	#define WAG_SILO_SHORT_2_PCOST \b50	
 	#define WAG_SILO_SHORT_2_ID_B \b*163	
 	#define WAG_SILO_SHORT_2_STR WAG_STR_90_B	
+	#define WAG_SILO_SHORT_2_MAX_SPEED \b90	
 
 #define WAG_TANK_SHORT_2_INTROYEAR \d1920-1-1	
 	#define WAG_TANK_SHORT_2_V_LIFE \b32	
@@ -930,8 +959,9 @@
 	#define WAG_TANK_SHORT_2_PCOST \b50	
 	#define WAG_TANK_SHORT_2_ID_B \b*164	
 	#define WAG_TANK_SHORT_2_STR WAG_STR_110_B	
+	#define WAG_TANK_SHORT_2_MAX_SPEED \b110	
 
-																																																											
+																																																													
 #define WAG_FLATBED_SHORT_INTROYEAR \d1800-1-1	
 	#define WAG_FLATBED_SHORT_V_LIFE \b25	
 	#define WAG_FLATBED_SHORT_M_LIFE \b125	
@@ -962,6 +992,7 @@
 	#define WAG_FLATBED_SHORT_PCOST \b50	
 	#define WAG_FLATBED_SHORT_ID_B \b*150	
 	#define WAG_FLATBED_SHORT_STR WAG_STR_70_B	
+	#define WAG_FLATBED_SHORT_MAX_SPEED \b70	
 
 #define WAG_BOXCAR_SHORT_INTROYEAR \d1800-1-1	
 	#define WAG_BOXCAR_SHORT_V_LIFE \b25	
@@ -993,6 +1024,7 @@
 	#define WAG_BOXCAR_SHORT_PCOST \b50	
 	#define WAG_BOXCAR_SHORT_ID_B \b*151	
 	#define WAG_BOXCAR_SHORT_STR WAG_STR_90_B	
+	#define WAG_BOXCAR_SHORT_MAX_SPEED \b90	
 
 #define WAG_HOPPER_SHORT_INTROYEAR \d1800-1-1	
 	#define WAG_HOPPER_SHORT_V_LIFE \b25	
@@ -1024,6 +1056,7 @@
 	#define WAG_HOPPER_SHORT_PCOST \b50	
 	#define WAG_HOPPER_SHORT_ID_B \b*152	
 	#define WAG_HOPPER_SHORT_STR WAG_STR_50_B	
+	#define WAG_HOPPER_SHORT_MAX_SPEED \b50	
 
 #define WAG_SILO_SHORT_INTROYEAR \d1800-1-1	
 	#define WAG_SILO_SHORT_V_LIFE \b25	
@@ -1055,6 +1088,7 @@
 	#define WAG_SILO_SHORT_PCOST \b50	
 	#define WAG_SILO_SHORT_ID_B \b*153	
 	#define WAG_SILO_SHORT_STR WAG_STR_70_B	
+	#define WAG_SILO_SHORT_MAX_SPEED \b70	
 
 #define WAG_TANK_SHORT_INTROYEAR \d1800-1-1	
 	#define WAG_TANK_SHORT_V_LIFE \b25	
@@ -1086,4 +1120,5 @@
 	#define WAG_TANK_SHORT_PCOST \b50	
 	#define WAG_TANK_SHORT_ID_B \b*154	
 	#define WAG_TANK_SHORT_STR WAG_STR_90_B	
+	#define WAG_TANK_SHORT_MAX_SPEED \b90	
 
