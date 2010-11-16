@@ -175,11 +175,9 @@
 #include "sprites/nfo/metro/mp89.pnfo"
 #include "sprites/nfo/metro/pjang.pnfo"
 #include "sprites/nfo/metro/tokyo-s01.pnfo"
-//single unit metros
 #include "sprites/nfo/metro/ut2.pnfo"
 #include "sprites/nfo/metro/uniongate.pnfo"
 #include "sprites/nfo/metro/budapest.pnfo"
-
 #include "sprites/nfo/metro/m100.pnfo"
 #include "sprites/nfo/metro/1938.pnfo"
 #include "sprites/nfo/metro/dlr.pnfo"
@@ -189,6 +187,7 @@
 #include "sprites/nfo/metro/ny_r1.pnfo"
 #include "sprites/nfo/metro/ny_r44.pnfo"
 #include "sprites/nfo/metro/washington7000.pnfo"
+#include "sprites/nfo/metro/81-740.pnfo"
 
 
 // Maglevs
