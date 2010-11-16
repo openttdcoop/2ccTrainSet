@@ -76,7 +76,7 @@
 // Wagon Names
 #define STR_METRO 	"Metro Wagon"
 #define STR_MUWAG 	"Multiple Unit Wagon"
-
+#define STR_MAGWAG 	"Maglev Unit Wagon"
 
 //	Engine	Names:
 #define	STR_ENG_2100	"2100"

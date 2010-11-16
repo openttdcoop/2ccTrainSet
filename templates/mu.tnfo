@@ -183,9 +183,10 @@
 // ----- Action 3's -----
 // ----------------------
 -1 * 0  03 00 01 THIS_ENG_ID_B 01	//
-              FF 4F 00		// P-list
-              AF 00		// Normal
--1 * 0  03 00 81 MU 00 5F 00	// Livery Override 
+              FF 4F 00		            // P-list
+              AF 00		                // Normal
+-1 * 0  03 00 81 MU          00 5F 00	// Livery Override
+-1 * 0  03 00 81 MAGLEVWAGON 00 5F 00 // Livery Override
 
 #undef THIS_PCX_FILE
 

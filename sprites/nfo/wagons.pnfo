@@ -1,6 +1,7 @@
 // PAX
 #include "wagons/metrowag.pnfo"
 #include "wagons/muwag.pnfo"
+#include "wagons/magwag.pnfo"
 #include "wagons/tender.pnfo"
 #include "wagons/ic1gen.pnfo"
 #include "wagons/ic2gen.pnfo"
