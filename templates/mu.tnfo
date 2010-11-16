@@ -3,6 +3,11 @@
 // First define a few seldomly changed properties and set them to their default value
 // unless they're defined in the engine file
 
+// Check if its maglev, and if so, set proper tracktype
+#if THIS_ENG_TRACTION_TYPE == 38
+#define THIS_ENG_TRACKTYPE \b12
+#endif
+
 #ifndef THIS_ENG_TRACKTYPE
 #define THIS_ENG_TRACKTYPE 00
 #endif
