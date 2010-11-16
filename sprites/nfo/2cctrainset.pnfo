@@ -188,6 +188,7 @@
 #include "sprites/nfo/metro/ny_r44.pnfo"
 #include "sprites/nfo/metro/washington7000.pnfo"
 #include "sprites/nfo/metro/81-740.pnfo"
+#include "sprites/nfo/metro/osaka30000.pnfo"
 
 
 // Maglevs
