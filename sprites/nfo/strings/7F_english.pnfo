@@ -68,6 +68,10 @@
 #define A14_PARAM1_VALU3 "Double (2x)"
 #define A14_PARAM1_VALU4 "Quadruple (4x)"
 
+#define A14_PARAM2_NAME  "Wagon running cost behavior"
+#define A14_PARAM2_DISC  "Wagons have by default a 'Design speed'. This can either" "\n" "be the max speed of this wagon, or wagons can be pulled faster." "\n" "But the running cost will increase" "\n" "If disabled, playing the game with 'Enable wagon speed limits' is recomended"
+#define A14_PARAM2_VALU0 "Can run faster then design" 
+#define A14_PARAM2_VALU1 "Disable this function"
 
 // Wagon Names
 #define STR_METRO 	"Metro Wagon"

@@ -515,29 +515,9 @@
 //                             THIS_WAG_CAP 80 05 05		// Tourist capacity
 //                             00 80				// Everything else
 
+
 //Running cost depending on speed
--1 * 0  02 00 ED 82 B4 00 FF \b20			// 20 cases
-                          THIS_WAG_RC_00 \b00 \b00	        // Standing still cost 
-                          THIS_WAG_RC_50 \b50 \b59
-                          THIS_WAG_RC_60 \b60 \b69
-                          THIS_WAG_RC_70 \b70 \b79
-                          THIS_WAG_RC_80 \b80 \b89
-                          THIS_WAG_RC_90 \b90 \b99
-                          THIS_WAG_RC_100 \b100 \b109
-                          THIS_WAG_RC_110 \b110 \b119
-                          THIS_WAG_RC_120 \b120 \b129
-                          THIS_WAG_RC_130 \b130 \b139
-                          THIS_WAG_RC_140 \b140 \b149
-                          THIS_WAG_RC_150 \b150 \b159
-                          THIS_WAG_RC_160 \b160 \b169
-                          THIS_WAG_RC_170 \b170 \b179
-                          THIS_WAG_RC_180 \b180 \b189
-                          THIS_WAG_RC_190 \b190 \b199
-                          THIS_WAG_RC_200 \b200 \b209
-                          THIS_WAG_RC_210 \b210 \b219
-                          THIS_WAG_RC_220 \b220 \b229
-                          THIS_WAG_RC_230 \b230 \b255
-			                    THIS_WAG_RCOST	// RUN cost
+#include TEMPLATE_VARIABLE_RUNCOST
 
 
 // '10' for CB36s Wagon
@@ -653,6 +633,6 @@
 #undef THIS_WAG_NUM_CLASSES
 #undef THIS_WAG_NUM_CARGOS
 #undef THIS_WAG_CARGOTYPE
-
+#undef    THIS_WAG_MAX_SPEED
 
 
