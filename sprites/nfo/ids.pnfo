@@ -1,8 +1,9 @@
 
 // Vehicle IDs for wagons
+#define MU               01
+#define METRO			       02 
 #define TENDER			     03
-#define MU                           01
-#define METRO			     02 
+#define MAGLEVWAGON      04
 
 // High and low IDs
 #define WAGON_LOW 	\w128
