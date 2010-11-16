@@ -1,6 +1,6 @@
 // change "AE6_6" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
 
-#define THIS_PCX_FILE	          sprites/pcx/engines/ae6-6.pcx  // Graphics file
+#define THIS_PCX_FILE	          sprites/pcx/engines/ae6-6.png  // Graphics file
 #define THIS_ENG_ID_B             ENG_AE6_6_ID_B
 
 #define THIS_ENG_V_LIFE           ENG_AE6_6_V_LIFE

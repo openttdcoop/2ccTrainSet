@@ -1,5 +1,5 @@
 
-#define THIS_PCX_FILE	          sprites/pcx/metro/london1903.pcx  // Graphics file
+#define THIS_PCX_FILE	          sprites/pcx/metro/london1903.png  // Graphics file
 
 
 #define		THIS_ENG_INTROYEAR		MET_LDN1903_INTROYEAR

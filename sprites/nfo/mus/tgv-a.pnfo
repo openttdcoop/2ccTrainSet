@@ -1,5 +1,5 @@
 
-#define THIS_PCX_FILE	sprites/pcx/mus/tgv-a.pcx  // Graphics file
+#define THIS_PCX_FILE	sprites/pcx/mus/tgv-a.png  // Graphics file
 
 #define		THIS_ENG_INTROYEAR		MU_TGV_A_INTROYEAR
 #define		THIS_ENG_V_LIFE			MU_TGV_A_V_LIFE

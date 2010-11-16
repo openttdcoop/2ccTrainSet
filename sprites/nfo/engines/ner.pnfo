@@ -1,7 +1,7 @@
 
 // change "NER_EF1" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
 
-#define THIS_PCX_FILE	          sprites/pcx/engines/ner.pcx  // Graphics file
+#define THIS_PCX_FILE	          sprites/pcx/engines/ner.png  // Graphics file
 #define THIS_ENG_ID_B             ENG_NER_EF1_ID_B
 
 #define THIS_ENG_V_LIFE           ENG_NER_EF1_V_LIFE

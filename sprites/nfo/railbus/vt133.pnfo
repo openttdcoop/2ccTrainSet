@@ -1,4 +1,4 @@
-#define THIS_PCX_FILE	sprites/pcx/railbus/vt133.pcx  // Graphics file
+#define THIS_PCX_FILE	sprites/pcx/railbus/vt133.png  // Graphics file
 
 
 #define		THIS_ENG_INTROYEAR		RB_VT133_INTROYEAR

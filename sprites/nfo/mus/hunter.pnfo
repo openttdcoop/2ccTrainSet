@@ -1,5 +1,5 @@
 
-#define THIS_PCX_FILE	sprites/pcx/mus/hunter.pcx  // Graphics file
+#define THIS_PCX_FILE	sprites/pcx/mus/hunter.png  // Graphics file
 
 
 #define		THIS_ENG_INTROYEAR		MU_HUNTER_INTROYEAR

@@ -1,6 +1,6 @@
 // change "KZ2A" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
 
-#define THIS_PCX_FILE	          sprites/pcx/engines/kz2a.pcx  // Graphics file
+#define THIS_PCX_FILE	          sprites/pcx/engines/kz2a.png  // Graphics file
 #define THIS_ENG_ID_B             ENG_KZ2A_ID_B
 
 #define THIS_ENG_V_LIFE           ENG_KZ2A_V_LIFE

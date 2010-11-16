@@ -1,6 +1,6 @@
 // change "ICE3" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
 
-#define THIS_PCX_FILE	sprites/pcx/mus/ice3.pcx  // Graphics file
+#define THIS_PCX_FILE	sprites/pcx/mus/ice3.png  // Graphics file
 
 #define		THIS_ENG_INTROYEAR		MU_ICE3_INTROYEAR
 #define		THIS_ENG_V_LIFE			MU_ICE3_V_LIFE

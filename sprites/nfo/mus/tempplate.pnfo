@@ -42,49 +42,49 @@
 // Action 1 with 5 views and 8 sprites each view
 -1 * 0  01 00 05 08
 // Front/White lights
-1 sprites/mus/pcx/test.pcx	01	01	1	24	08	-3	-12
-2 sprites/mus/pcx/test.pcx	10	01	1	18	22	-14	-10
-3 sprites/mus/pcx/test.pcx	33	01	1	14	32	-16	-10
-4 sprites/mus/pcx/test.pcx	66	01	1	18	22	-6	-10
-5 sprites/mus/pcx/test.pcx	89	01	1	24	08	-3	-12
-6 sprites/mus/pcx/test.pcx	98	01	1	18	22	-14	-10
-7 sprites/mus/pcx/test.pcx	121	01	1	14	32	-16	-10
-8 sprites/mus/pcx/test.pcx	154	01	1	18	22	-6	-10
+1 sprites/mus/pcx/test.png	01	01	1	24	08	-3	-12
+2 sprites/mus/pcx/test.png	10	01	1	18	22	-14	-10
+3 sprites/mus/pcx/test.png	33	01	1	14	32	-16	-10
+4 sprites/mus/pcx/test.png	66	01	1	18	22	-6	-10
+5 sprites/mus/pcx/test.png	89	01	1	24	08	-3	-12
+6 sprites/mus/pcx/test.png	98	01	1	18	22	-14	-10
+7 sprites/mus/pcx/test.png	121	01	1	14	32	-16	-10
+8 sprites/mus/pcx/test.png	154	01	1	18	22	-6	-10
 // End/Red lights
-5 sprites/mus/pcx/test.pcx	89	32	1	24	08	-3	-12
-6 sprites/mus/pcx/test.pcx	98	32	1	18	22	-14	-10
-7 sprites/mus/pcx/test.pcx	121	32	1	14	32	-16	-10
-8 sprites/mus/pcx/test.pcx	154	32	1	18	22	-6	-10
-1 sprites/mus/pcx/test.pcx	01	32	1	24	08	-3	-12
-2 sprites/mus/pcx/test.pcx	10	32	1	18	22	-14	-10
-3 sprites/mus/pcx/test.pcx	33	32	1	14	32	-16	-10
-4 sprites/mus/pcx/test.pcx	66	32	1	18	22	-6	-10
+5 sprites/mus/pcx/test.png	89	32	1	24	08	-3	-12
+6 sprites/mus/pcx/test.png	98	32	1	18	22	-14	-10
+7 sprites/mus/pcx/test.png	121	32	1	14	32	-16	-10
+8 sprites/mus/pcx/test.png	154	32	1	18	22	-6	-10
+1 sprites/mus/pcx/test.png	01	32	1	24	08	-3	-12
+2 sprites/mus/pcx/test.png	10	32	1	18	22	-14	-10
+3 sprites/mus/pcx/test.png	33	32	1	14	32	-16	-10
+4 sprites/mus/pcx/test.png	66	32	1	18	22	-6	-10
 // Pax
-1 sprites/mus/pcx/test.pcx	01	64	1	24	08	-3	-12
-2 sprites/mus/pcx/test.pcx	10	64	1	18	22	-14	-10
-3 sprites/mus/pcx/test.pcx	33	64	1	14	32	-16	-10
-4 sprites/mus/pcx/test.pcx	66	64	1	18	22	-6	-10
-5 sprites/mus/pcx/test.pcx	89	64	1	24	08	-3	-12
-6 sprites/mus/pcx/test.pcx	98	64	1	18	22	-14	-10
-7 sprites/mus/pcx/test.pcx	121	64	1	14	32	-16	-10
-8 sprites/mus/pcx/test.pcx	154	64	1	18	22	-6	-10
+1 sprites/mus/pcx/test.png	01	64	1	24	08	-3	-12
+2 sprites/mus/pcx/test.png	10	64	1	18	22	-14	-10
+3 sprites/mus/pcx/test.png	33	64	1	14	32	-16	-10
+4 sprites/mus/pcx/test.png	66	64	1	18	22	-6	-10
+5 sprites/mus/pcx/test.png	89	64	1	24	08	-3	-12
+6 sprites/mus/pcx/test.png	98	64	1	18	22	-14	-10
+7 sprites/mus/pcx/test.png	121	64	1	14	32	-16	-10
+8 sprites/mus/pcx/test.png	154	64	1	18	22	-6	-10
 // Mail
-1 sprites/mus/pcx/test.pcx	01	96	1	24	08	-3	-12
-2 sprites/mus/pcx/test.pcx	10	96	1	18	22	-14	-10
-3 sprites/mus/pcx/test.pcx	33	96	1	14	32	-16	-10
-4 sprites/mus/pcx/test.pcx	66	96	1	18	22	-6	-10
-5 sprites/mus/pcx/test.pcx	89	96	1	24	08	-3	-12
-6 sprites/mus/pcx/test.pcx	98	96	1	18	22	-14	-10
-7 sprites/mus/pcx/test.pcx	121	96	1	14	32	-16	-10
-8 sprites/mus/pcx/test.pcx	154 96	1	18	22	-6	-10
+1 sprites/mus/pcx/test.png	01	96	1	24	08	-3	-12
+2 sprites/mus/pcx/test.png	10	96	1	18	22	-14	-10
+3 sprites/mus/pcx/test.png	33	96	1	14	32	-16	-10
+4 sprites/mus/pcx/test.png	66	96	1	18	22	-6	-10
+5 sprites/mus/pcx/test.png	89	96	1	24	08	-3	-12
+6 sprites/mus/pcx/test.png	98	96	1	18	22	-14	-10
+7 sprites/mus/pcx/test.png	121	96	1	14	32	-16	-10
+8 sprites/mus/pcx/test.png	154 96	1	18	22	-6	-10
 // P-list
 1 * 0  0
 2 * 0  0
-3 sprites/mus/pcx/test.pcx	01	01  1 01  01  -00 -00
+3 sprites/mus/pcx/test.png	01	01  1 01  01  -00 -00
 4 * 0  0
 5 * 0  0
 6 * 0  0
-7 sprites/mus/pcx/test.pcx	01	128	1	12	87	-25	-08
+7 sprites/mus/pcx/test.png	01	128	1	12	87	-25	-08
 8 * 0  0
 
 -1 * 0  02 00 10 01 01 \w0 \w0 // ##>

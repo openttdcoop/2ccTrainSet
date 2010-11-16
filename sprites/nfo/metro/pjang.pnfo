@@ -1,6 +1,6 @@
 // change "P_DSTOCK" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
 
-#define THIS_PCX_FILE	sprites/pcx/metro/pjang.pcx  // Graphics file
+#define THIS_PCX_FILE	sprites/pcx/metro/pjang.png  // Graphics file
 #define		THIS_ENG_INTROYEAR		MET_P_DSTOCK_INTROYEAR
 #define		THIS_ENG_V_LIFE			MET_P_DSTOCK_V_LIFE
 #define		THIS_ENG_M_LIFE			MET_P_DSTOCK_M_LIFE

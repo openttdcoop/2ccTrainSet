@@ -1,5 +1,5 @@
 
-#define THIS_PCX_FILE	sprites/pcx/mus/y2.pcx  // Graphics file
+#define THIS_PCX_FILE	sprites/pcx/mus/y2.png  // Graphics file
 
 
 #define		THIS_ENG_INTROYEAR		MU_Y2_INTROYEAR

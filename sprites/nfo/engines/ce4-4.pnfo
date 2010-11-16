@@ -1,6 +1,6 @@
 // change "CE4_4" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
 
-#define THIS_PCX_FILE	          sprites/pcx/engines/ce4-4.pcx  // Graphics file
+#define THIS_PCX_FILE	          sprites/pcx/engines/ce4-4.png  // Graphics file
 #define THIS_ENG_ID_B             ENG_CE4_4_ID_B
 
 #define THIS_ENG_V_LIFE           ENG_CE4_4_V_LIFE

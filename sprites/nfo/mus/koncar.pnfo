@@ -1,6 +1,6 @@
 // change "KONCAR" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
 
-#define THIS_PCX_FILE	sprites/pcx/mus/koncar.pcx  // Graphics file
+#define THIS_PCX_FILE	sprites/pcx/mus/koncar.png  // Graphics file
 
 #define		THIS_ENG_INTROYEAR		MU_KONCAR_INTROYEAR
 #define		THIS_ENG_V_LIFE			MU_KONCAR_V_LIFE

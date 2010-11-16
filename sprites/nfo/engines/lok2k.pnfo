@@ -1,5 +1,5 @@
 // change "LOK2K" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
-#define THIS_PCX_FILE	sprites/pcx/engines/lok2k.pcx  // Graphics file
+#define THIS_PCX_FILE	sprites/pcx/engines/lok2k.png  // Graphics file
 
 #define THIS_ENG_ID_B             ENG_LOK2K_ID_B
 

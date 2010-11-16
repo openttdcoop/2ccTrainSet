@@ -1,6 +1,6 @@
 // change "RAE_TEE2" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
 
-#define THIS_PCX_FILE	sprites/pcx/mus/RAe_TEE_II.pcx  // Graphics file
+#define THIS_PCX_FILE	sprites/pcx/mus/RAe_TEE_II.png  // Graphics file
 
 
 #define		THIS_ENG_INTROYEAR		MU_RAE_TEE2_INTROYEAR

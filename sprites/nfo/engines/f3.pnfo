@@ -1,6 +1,6 @@
 
 
-#define THIS_PCX_FILE	          sprites/pcx/engines/f3.pcx  // Graphics file
+#define THIS_PCX_FILE	          sprites/pcx/engines/f3.png  // Graphics file
 #define THIS_ENG_ID_B             ENG_F3_ID_B
 
 #define THIS_ENG_V_LIFE           ENG_F3_V_LIFE

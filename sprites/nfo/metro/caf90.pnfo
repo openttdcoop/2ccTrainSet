@@ -1,6 +1,6 @@
 // change "CAF90" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
 
-#define THIS_PCX_FILE	sprites/pcx/metro/caf90.pcx  // Graphics file
+#define THIS_PCX_FILE	sprites/pcx/metro/caf90.png  // Graphics file
 
 #define		THIS_ENG_INTROYEAR		MET_CAF90_INTROYEAR
 #define		THIS_ENG_V_LIFE			MET_CAF90_V_LIFE

@@ -1,6 +1,6 @@
 // change "BR67" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
 
-#define THIS_PCX_FILE	          sprites/pcx/engines/br67.pcx  // Graphics file
+#define THIS_PCX_FILE	          sprites/pcx/engines/br67.png  // Graphics file
 #define THIS_ENG_ID_B             ENG_BR67_ID_B
 
 #define THIS_ENG_V_LIFE           ENG_BR67_V_LIFE

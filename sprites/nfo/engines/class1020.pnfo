@@ -1,6 +1,6 @@
 // change "CLASS1020CROCK" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
 
-#define THIS_PCX_FILE	          sprites/pcx/engines/class1020.pcx  // Graphics file
+#define THIS_PCX_FILE	          sprites/pcx/engines/class1020.png  // Graphics file
 #define THIS_ENG_ID_B             ENG_CLASS1020CROCK_ID_B
 
 #define THIS_ENG_V_LIFE           ENG_CLASS1020CROCK_V_LIFE

@@ -9,7 +9,7 @@
 //Action1: MU Wagon
 -1 * 0  01 00 01 01
 // Format: spritenum pcxfile 	xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
--1 sprites/pcx/metro/pax.pcx  	27 	7 	01 	14	32	-0 -8	
+-1 sprites/pcx/metro/pax.png  	27 	7 	01 	14	32	-0 -8	
 // Action 2:
 -1 * 0  02 00 A0 01 01 00 00 00 00
 -1 * 0  02 00 A1 81 0C 00 FF 01 70 80 23 23 A0 00 // Purchise Screen text

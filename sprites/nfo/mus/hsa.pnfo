@@ -1,6 +1,6 @@
 // change "HSA" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
 
-#define THIS_PCX_FILE	sprites/pcx/mus/hsa.pcx  // Graphics file
+#define THIS_PCX_FILE	sprites/pcx/mus/hsa.png  // Graphics file
 
 #define		THIS_ENG_INTROYEAR		MU_HSA_INTROYEAR
 #define		THIS_ENG_V_LIFE			MU_HSA_V_LIFE
