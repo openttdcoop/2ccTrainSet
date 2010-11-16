@@ -1,6 +1,6 @@
 // change "M100" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
 
-#define THIS_PCX_FILE	sprites/pcx/metro/m100.pcx  // Graphics file
+#define THIS_PCX_FILE	sprites/pcx/metro/m100.png  // Graphics file
 
 #define		THIS_ENG_INTROYEAR		MET_M100_INTROYEAR
 #define		THIS_ENG_V_LIFE			MET_M100_V_LIFE

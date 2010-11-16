@@ -1,5 +1,5 @@
 
-#define THIS_PCX_FILE	sprites/pcx/mus/bm93.pcx  // Graphics file
+#define THIS_PCX_FILE	sprites/pcx/mus/bm93.png  // Graphics file
 
 #define		THIS_ENG_INTROYEAR		MU_BM93_INTROYEAR
 #define		THIS_ENG_V_LIFE			MU_BM93_V_LIFE

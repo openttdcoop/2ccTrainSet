@@ -1,5 +1,5 @@
 
-#define THIS_PCX_FILE	sprites/pcx/mus/oscar.pcx  // Graphics file
+#define THIS_PCX_FILE	sprites/pcx/mus/oscar.png  // Graphics file
 
 
 #define		THIS_ENG_INTROYEAR		MU_OSCAR_INTROYEAR

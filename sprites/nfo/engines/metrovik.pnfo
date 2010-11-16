@@ -1,6 +1,6 @@
 // change "METROVIK" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
 
-#define THIS_PCX_FILE	sprites/pcx/engines/metrovik.pcx  // Graphics file
+#define THIS_PCX_FILE	sprites/pcx/engines/metrovik.png  // Graphics file
 
    #define THIS_ENG_ID_B             ENG_EM2_ID_B
 

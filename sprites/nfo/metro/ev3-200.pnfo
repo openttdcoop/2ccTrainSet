@@ -1,6 +1,6 @@
 // change "EV3_200" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
 
-#define THIS_PCX_FILE	sprites/pcx/metro/ev3-200.pcx  // Graphics file
+#define THIS_PCX_FILE	sprites/pcx/metro/ev3-200.png  // Graphics file
 #define		THIS_ENG_INTROYEAR		MET_EV3_200_INTROYEAR
 #define		THIS_ENG_V_LIFE			MET_EV3_200_V_LIFE
 #define		THIS_ENG_M_LIFE			MET_EV3_200_M_LIFE

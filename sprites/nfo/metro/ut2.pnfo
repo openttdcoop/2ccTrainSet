@@ -1,4 +1,4 @@
-#define THIS_PCX_FILE	sprites/pcx/metro/ut2.pcx  // Graphics file
+#define THIS_PCX_FILE	sprites/pcx/metro/ut2.png  // Graphics file
 
 
 #define		THIS_ENG_INTROYEAR		MET_CII_INTROYEAR

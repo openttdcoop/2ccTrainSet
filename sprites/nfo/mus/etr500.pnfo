@@ -1,6 +1,6 @@
 // change "ETR500" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
 
-#define THIS_PCX_FILE	sprites/pcx/mus/etr500.pcx  // Graphics file
+#define THIS_PCX_FILE	sprites/pcx/mus/etr500.png  // Graphics file
 
 #define		THIS_ENG_INTROYEAR		MU_ETR500_INTROYEAR
 #define		THIS_ENG_V_LIFE			MU_ETR500_V_LIFE

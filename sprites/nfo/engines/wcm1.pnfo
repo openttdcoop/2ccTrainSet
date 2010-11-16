@@ -1,6 +1,6 @@
 // change "WCM1" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
 
-#define THIS_PCX_FILE	          sprites/pcx/engines/wcm1.pcx  // Graphics file
+#define THIS_PCX_FILE	          sprites/pcx/engines/wcm1.png  // Graphics file
 #define THIS_ENG_ID_B             ENG_WCM1_ID_B
 
 #define THIS_ENG_V_LIFE           ENG_WCM1_V_LIFE

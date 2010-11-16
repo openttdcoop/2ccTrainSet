@@ -1,6 +1,6 @@
 // change "HZ1141" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
 
-#define THIS_PCX_FILE	          sprites/pcx/engines/hz1141.pcx  // Graphics file
+#define THIS_PCX_FILE	          sprites/pcx/engines/hz1141.png  // Graphics file
 #define THIS_ENG_ID_B             ENG_HZ1141_ID_B
 
 #define THIS_ENG_V_LIFE           ENG_HZ1141_V_LIFE

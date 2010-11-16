@@ -1,5 +1,5 @@
 
-#define THIS_PCX_FILE		sprites/pcx/metro/81-729.pcx  // Graphics file
+#define THIS_PCX_FILE		sprites/pcx/metro/81-729.png  // Graphics file
 
 
 #define		THIS_ENG_INTROYEAR		MET_81_729_INTROYEAR

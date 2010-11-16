@@ -1,7 +1,7 @@
 
 // change "TOKYO" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
 
-#define THIS_PCX_FILE	sprites/pcx/metro/tokyo-s01.pcx  // Graphics file
+#define THIS_PCX_FILE	sprites/pcx/metro/tokyo-s01.png  // Graphics file
 
 #define		THIS_ENG_INTROYEAR		MET_TOKYO_INTROYEAR
 #define		THIS_ENG_V_LIFE			MET_TOKYO_V_LIFE

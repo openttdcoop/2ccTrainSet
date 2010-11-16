@@ -1,6 +1,6 @@
 // change "ss6" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
 
-#define THIS_PCX_FILE	          sprites/pcx/engines/ss6.pcx  // Graphics file
+#define THIS_PCX_FILE	          sprites/pcx/engines/ss6.png  // Graphics file
 #define THIS_ENG_ID_B             ENG_SS6_ID_B
 
 #define THIS_ENG_V_LIFE           ENG_SS6_V_LIFE

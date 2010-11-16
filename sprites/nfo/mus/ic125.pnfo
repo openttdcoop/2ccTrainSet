@@ -1,5 +1,5 @@
 
-#define THIS_PCX_FILE	sprites/pcx/mus/ic125.pcx  // Graphics file
+#define THIS_PCX_FILE	sprites/pcx/mus/ic125.png  // Graphics file
 
 #define		THIS_ENG_INTROYEAR		MU_IC125_INTROYEAR
 #define		THIS_ENG_V_LIFE			MU_IC125_V_LIFE

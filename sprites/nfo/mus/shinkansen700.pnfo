@@ -1,5 +1,5 @@
 
-#define THIS_PCX_FILE	sprites/pcx/mus/shinkansen700.pcx  // Graphics file
+#define THIS_PCX_FILE	sprites/pcx/mus/shinkansen700.png  // Graphics file
 
 #define		THIS_ENG_INTROYEAR		MU_SHINKANSEN700_INTROYEAR
 #define		THIS_ENG_V_LIFE			MU_SHINKANSEN700_V_LIFE

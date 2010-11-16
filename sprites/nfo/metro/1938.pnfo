@@ -1,6 +1,6 @@
 // change "LDN1938" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
 
-#define THIS_PCX_FILE	sprites/pcx/metro/1938.pcx  // Graphics file
+#define THIS_PCX_FILE	sprites/pcx/metro/1938.png  // Graphics file
 
 #define		THIS_ENG_INTROYEAR		MET_LDN1938_INTROYEAR
 #define		THIS_ENG_V_LIFE			MET_LDN1938_V_LIFE

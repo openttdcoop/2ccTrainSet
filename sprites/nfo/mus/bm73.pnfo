@@ -1,6 +1,6 @@
 // change "BM73" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
 
-#define THIS_PCX_FILE	sprites/pcx/mus/bm73.pcx  // Graphics file
+#define THIS_PCX_FILE	sprites/pcx/mus/bm73.png  // Graphics file
 
 
 #define		THIS_ENG_INTROYEAR		MU_BM73_INTROYEAR

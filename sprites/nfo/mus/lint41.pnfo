@@ -1,5 +1,5 @@
 
-#define THIS_PCX_FILE	sprites/pcx/mus/lint41.pcx  // Graphics file
+#define THIS_PCX_FILE	sprites/pcx/mus/lint41.png  // Graphics file
 
 
 #define		THIS_ENG_INTROYEAR		MU_LINT41_INTROYEAR

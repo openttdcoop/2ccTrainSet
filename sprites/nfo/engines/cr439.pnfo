@@ -1,6 +1,6 @@
 // change "CR_CLASS439" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
 
-#define THIS_PCX_FILE	          sprites/pcx/engines/cr439.pcx  // Graphics file
+#define THIS_PCX_FILE	          sprites/pcx/engines/cr439.png  // Graphics file
 #define THIS_ENG_ID_B             ENG_CR_CLASS439_ID_B
 
 #define THIS_ENG_V_LIFE           ENG_CR_CLASS439_V_LIFE

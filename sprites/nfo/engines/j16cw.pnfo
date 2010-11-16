@@ -1,6 +1,6 @@
 // change "J16CW" (usually CTRL-H) with whatever train-name from 2cc-v2.0.xls first row
 
-#define THIS_PCX_FILE	          sprites/pcx/engines/j16cw.pcx  // Graphics file
+#define THIS_PCX_FILE	          sprites/pcx/engines/j16cw.png  // Graphics file
 #define THIS_ENG_ID_B             ENG_J16CW_ID_B
 
 #define THIS_ENG_V_LIFE           ENG_J16CW_V_LIFE

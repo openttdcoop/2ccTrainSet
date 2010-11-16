@@ -1,4 +1,4 @@
-#define THIS_PCX_FILE	sprites/pcx/metro/budapest.pcx  // Graphics file
+#define THIS_PCX_FILE	sprites/pcx/metro/budapest.png  // Graphics file
 
 
 #define		THIS_ENG_INTROYEAR		MET_BUDA1894_INTROYEAR
