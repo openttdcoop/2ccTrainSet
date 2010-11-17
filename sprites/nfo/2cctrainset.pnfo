@@ -195,6 +195,7 @@
 // Maglevs
 #include "sprites/nfo/mus/chim.pnfo"
 #include "sprites/nfo/mus/transrapid.pnfo"
+#include "sprites/nfo/mus/mlx01-901.pnfo"
 
 // Railtype support for MUS/Engines
 #include "sprites/nfo/nutracksupport.pnfo"
