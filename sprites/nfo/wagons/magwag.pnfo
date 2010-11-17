@@ -10,7 +10,7 @@
 //Action1: MU Wagon
 -1 * 0  01 00 01 01
 // Format: spritenum pcxfile 	xpos 	ypos 	comp	ysize 	xsize 	xrel 	yrel	dir
--1 sprites/mus/pcx/muwag.pcx  	1 	1 	01 	12	63	-25 -8	
+-1 sprites/pcx/wagons/muwag.png  	1 	1 	01 	12	63	-25 -8	
 	
 
 // Action 2:
