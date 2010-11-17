@@ -190,6 +190,7 @@
 #include "sprites/nfo/metro/81-740.pnfo"
 #include "sprites/nfo/metro/osaka30000.pnfo"
 #include "sprites/nfo/metro/la_a650.pnfo"
+//#include "sprites/nfo/metro/chicago_l.pnfo"
 
 
 // Maglevs
