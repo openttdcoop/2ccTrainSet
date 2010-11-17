@@ -1627,7 +1627,7 @@
 	#define MU_ALN668_ID_B \b*3046	
 	#define STR_W_MU_ALN668 \wxD02F	
 	#define STR_B_MU_ALN668 2F	
-	#define NAME_MU_ALN668 "Aln668"	
+	#define NAME_MU_ALN668 "Aln 668"	
 	
 
 #define MU_CLASS400_INTROYEAR \d1955-1-1	
@@ -1798,6 +1798,108 @@
 	#define STR_W_MU_MLX01 \wxD034	
 	#define STR_B_MU_MLX01 34	
 	#define NAME_MU_MLX01 "MLX01-901"	
+	
+
+#define MU_ALE426_INTROYEAR \d1996-1-1	
+	#define MU_ALE426_V_LIFE \b25	
+	#define MU_ALE426_M_LIFE \b25	
+	#define MU_ALE426_SPEED \w140	
+	#define MU_ALE426_TE \b82	
+	#define MU_ALE426_HP \w1219	
+	#define MU_ALE426_WAG_HP \w1219	
+	#define MU_ALE426_CAP_WAG_PAX \b115	
+	#define MU_ALE426_CAP_WAG_MAIL \b86	
+	#define MU_ALE426_CAP_WAG_ARMOR \b58	
+	#define MU_ALE426_CAP_WAG_PAX_STR "115"	
+	#define MU_ALE426_CAP_WAG_MAIL_STR "86"	
+	#define MU_ALE426_CAP_WAG_ARMOR_STR "58"	
+	#define MU_ALE426_CAP_HEAD_PAX \b115	
+	#define MU_ALE426_CAP_HEAD_MAIL \b86	
+	#define MU_ALE426_CAP_HEAD_ARMOR \b58	
+	#define MU_ALE426_PAX_LS \b8	
+	#define MU_ALE426_MAIL_LS \b6	
+	#define MU_ALE426_ARMOR_LS \b4	
+	#define MU_ALE426_WEIGHT \b68	
+	#define MU_ALE426_WEIGHT_HIGH \b0	
+	#define MU_ALE426_PCOST \w33716	
+	#define MU_ALE426_RCOST \w32898	
+	#define MU_ALE426_RCOST_WAG \w32898	
+	#define MU_ALE426_NUTRACKS_TRACKTYPE 5	
+		
+	#define MU_ALE426_TRACTION_TYPE 28	
+	#define MU_ALE426_ID_W \w3052	
+	#define MU_ALE426_ID_B \b*3052	
+	#define STR_W_MU_ALE426 \wxD035	
+	#define STR_B_MU_ALE426 35	
+	#define NAME_MU_ALE426 "Ale 426"	
+	
+
+#define MU_CITYRAIL_V_INTROYEAR \d1972-1-1	
+	#define MU_CITYRAIL_V_V_LIFE \b25	
+	#define MU_CITYRAIL_V_M_LIFE \b25	
+	#define MU_CITYRAIL_V_SPEED \w115	
+	#define MU_CITYRAIL_V_TE \b81	
+	#define MU_CITYRAIL_V_HP \w800	
+	#define MU_CITYRAIL_V_WAG_HP \w800	
+	#define MU_CITYRAIL_V_CAP_WAG_PAX \b112	
+	#define MU_CITYRAIL_V_CAP_WAG_MAIL \b84	
+	#define MU_CITYRAIL_V_CAP_WAG_ARMOR \b56	
+	#define MU_CITYRAIL_V_CAP_WAG_PAX_STR "112"	
+	#define MU_CITYRAIL_V_CAP_WAG_MAIL_STR "84"	
+	#define MU_CITYRAIL_V_CAP_WAG_ARMOR_STR "56"	
+	#define MU_CITYRAIL_V_CAP_HEAD_PAX \b112	
+	#define MU_CITYRAIL_V_CAP_HEAD_MAIL \b84	
+	#define MU_CITYRAIL_V_CAP_HEAD_ARMOR \b56	
+	#define MU_CITYRAIL_V_PAX_LS \b8	
+	#define MU_CITYRAIL_V_MAIL_LS \b6	
+	#define MU_CITYRAIL_V_ARMOR_LS \b4	
+	#define MU_CITYRAIL_V_WEIGHT \b68	
+	#define MU_CITYRAIL_V_WEIGHT_HIGH \b0	
+	#define MU_CITYRAIL_V_PCOST \w33458	
+	#define MU_CITYRAIL_V_RCOST \w32861	
+	#define MU_CITYRAIL_V_RCOST_WAG \w32861	
+	#define MU_CITYRAIL_V_NUTRACKS_TRACKTYPE 3	
+		
+	#define MU_CITYRAIL_V_TRACTION_TYPE 28	
+	#define MU_CITYRAIL_V_ID_W \w3053	
+	#define MU_CITYRAIL_V_ID_B \b*3053	
+	#define STR_W_MU_CITYRAIL_V \wxD036	
+	#define STR_B_MU_CITYRAIL_V 36	
+	#define NAME_MU_CITYRAIL_V "CityRail V"	
+	
+
+#define MU_ECD21_30_INTROYEAR \d1932-1-1	
+	#define MU_ECD21_30_V_LIFE \b25	
+	#define MU_ECD21_30_M_LIFE \b25	
+	#define MU_ECD21_30_SPEED \w72	
+	#define MU_ECD21_30_TE \b88	
+	#define MU_ECD21_30_HP \w650	
+	#define MU_ECD21_30_WAG_HP \w650	
+	#define MU_ECD21_30_CAP_WAG_PAX \b34	
+	#define MU_ECD21_30_CAP_WAG_MAIL \b26	
+	#define MU_ECD21_30_CAP_WAG_ARMOR \b17	
+	#define MU_ECD21_30_CAP_WAG_PAX_STR "34"	
+	#define MU_ECD21_30_CAP_WAG_MAIL_STR "26"	
+	#define MU_ECD21_30_CAP_WAG_ARMOR_STR "17"	
+	#define MU_ECD21_30_CAP_HEAD_PAX \b34	
+	#define MU_ECD21_30_CAP_HEAD_MAIL \b26	
+	#define MU_ECD21_30_CAP_HEAD_ARMOR \b17	
+	#define MU_ECD21_30_PAX_LS \b8	
+	#define MU_ECD21_30_MAIL_LS \b6	
+	#define MU_ECD21_30_ARMOR_LS \b4	
+	#define MU_ECD21_30_WEIGHT \b31	
+	#define MU_ECD21_30_WEIGHT_HIGH \b0	
+	#define MU_ECD21_30_PCOST \w33116	
+	#define MU_ECD21_30_RCOST \w32810	
+	#define MU_ECD21_30_RCOST_WAG \w32810	
+	#define MU_ECD21_30_NUTRACKS_TRACKTYPE 1	
+		
+	#define MU_ECD21_30_TRACTION_TYPE 28	
+	#define MU_ECD21_30_ID_W \w3054	
+	#define MU_ECD21_30_ID_B \b*3054	
+	#define STR_W_MU_ECD21_30 \wxD037	
+	#define STR_B_MU_ECD21_30 37	
+	#define NAME_MU_ECD21_30 "ECD21-30"	
 	
 
 #define RB_809_INTROYEAR \d1996-1-1	
@@ -5198,6 +5300,142 @@
 	#define STR_W_ENG_DDA40X \wxD0D0	
 	#define STR_B_ENG_DDA40X D0	
 	#define NAME_ENG_DDA40X "EMD DDA40X"	
+	
+
+#define ENG_CP1900_INTROYEAR \d1981-1-1	
+	#define ENG_CP1900_V_LIFE \b40	
+	#define ENG_CP1900_M_LIFE \b25	
+	#define ENG_CP1900_SPEED \w100	
+	#define ENG_CP1900_TE \b90	
+	#define ENG_CP1900_HP \w2260	
+	#define ENG_CP1900_WAG_HP \w0	
+	#define ENG_CP1900_CAP_WAG_PAX \b0	
+	#define ENG_CP1900_CAP_WAG_MAIL \b0	
+	#define ENG_CP1900_CAP_WAG_ARMOR \b0	
+	#define ENG_CP1900_CAP_WAG_PAX_STR "0"	
+	#define ENG_CP1900_CAP_WAG_MAIL_STR "0"	
+	#define ENG_CP1900_CAP_WAG_ARMOR_STR "0"	
+	#define ENG_CP1900_CAP_HEAD_PAX \b0	
+	#define ENG_CP1900_CAP_HEAD_MAIL \b0	
+	#define ENG_CP1900_CAP_HEAD_ARMOR \b0	
+	#define ENG_CP1900_PAX_LS \b1	
+	#define ENG_CP1900_MAIL_LS \b1	
+	#define ENG_CP1900_ARMOR_LS \b1	
+	#define ENG_CP1900_WEIGHT \b115	
+	#define ENG_CP1900_WEIGHT_HIGH \b0	
+	#define ENG_CP1900_PCOST \w33333	
+	#define ENG_CP1900_RCOST \w33490	
+	#define ENG_CP1900_RCOST_WAG \w32788	
+	#define ENG_CP1900_NUTRACKS_TRACKTYPE 2	
+		
+	#define ENG_CP1900_TRACTION_TYPE 8	
+	#define ENG_CP1900_ID_W \w2087	
+	#define ENG_CP1900_ID_B \b*2087	
+	#define STR_W_ENG_CP1900 \wxD0D0	
+	#define STR_B_ENG_CP1900 D0	
+	#define NAME_ENG_CP1900 "CP1900"	
+	
+
+#define ENG_6K_INTROYEAR \d1986-1-1	
+	#define ENG_6K_V_LIFE \b40	
+	#define ENG_6K_M_LIFE \b25	
+	#define ENG_6K_SPEED \w100	
+	#define ENG_6K_TE \b91	
+	#define ENG_6K_HP \w6450	
+	#define ENG_6K_WAG_HP \w0	
+	#define ENG_6K_CAP_WAG_PAX \b0	
+	#define ENG_6K_CAP_WAG_MAIL \b0	
+	#define ENG_6K_CAP_WAG_ARMOR \b0	
+	#define ENG_6K_CAP_WAG_PAX_STR "0"	
+	#define ENG_6K_CAP_WAG_MAIL_STR "0"	
+	#define ENG_6K_CAP_WAG_ARMOR_STR "0"	
+	#define ENG_6K_CAP_HEAD_PAX \b0	
+	#define ENG_6K_CAP_HEAD_MAIL \b0	
+	#define ENG_6K_CAP_HEAD_ARMOR \b0	
+	#define ENG_6K_PAX_LS \b1	
+	#define ENG_6K_MAIL_LS \b1	
+	#define ENG_6K_ARMOR_LS \b1	
+	#define ENG_6K_WEIGHT \b138	
+	#define ENG_6K_WEIGHT_HIGH \b0	
+	#define ENG_6K_PCOST \w33768	
+	#define ENG_6K_RCOST \w33579	
+	#define ENG_6K_RCOST_WAG \w32788	
+	#define ENG_6K_NUTRACKS_TRACKTYPE 3	
+		
+	#define ENG_6K_TRACTION_TYPE 28	
+	#define ENG_6K_ID_W \w2088	
+	#define ENG_6K_ID_B \b*2088	
+	#define STR_W_ENG_6K \wxD0D0	
+	#define STR_B_ENG_6K D0	
+	#define NAME_ENG_6K "6K"	
+	
+
+#define ENG_ML4000_INTROYEAR \d1960-1-1	
+	#define ENG_ML4000_V_LIFE \b40	
+	#define ENG_ML4000_M_LIFE \b25	
+	#define ENG_ML4000_SPEED \w110	
+	#define ENG_ML4000_TE \b77	
+	#define ENG_ML4000_HP \w4000	
+	#define ENG_ML4000_WAG_HP \w0	
+	#define ENG_ML4000_CAP_WAG_PAX \b0	
+	#define ENG_ML4000_CAP_WAG_MAIL \b0	
+	#define ENG_ML4000_CAP_WAG_ARMOR \b0	
+	#define ENG_ML4000_CAP_WAG_PAX_STR "0"	
+	#define ENG_ML4000_CAP_WAG_MAIL_STR "0"	
+	#define ENG_ML4000_CAP_WAG_ARMOR_STR "0"	
+	#define ENG_ML4000_CAP_HEAD_PAX \b0	
+	#define ENG_ML4000_CAP_HEAD_MAIL \b0	
+	#define ENG_ML4000_CAP_HEAD_ARMOR \b0	
+	#define ENG_ML4000_PAX_LS \b1	
+	#define ENG_ML4000_MAIL_LS \b1	
+	#define ENG_ML4000_ARMOR_LS \b1	
+	#define ENG_ML4000_WEIGHT \b156	
+	#define ENG_ML4000_WEIGHT_HIGH \b0	
+	#define ENG_ML4000_PCOST \w33517	
+	#define ENG_ML4000_RCOST \w33733	
+	#define ENG_ML4000_RCOST_WAG \w32788	
+	#define ENG_ML4000_NUTRACKS_TRACKTYPE 2	
+		
+	#define ENG_ML4000_TRACTION_TYPE 8	
+	#define ENG_ML4000_ID_W \w2089	
+	#define ENG_ML4000_ID_B \b*2089	
+	#define STR_W_ENG_ML4000 \wxD0D0	
+	#define STR_B_ENG_ML4000 D0	
+	#define NAME_ENG_ML4000 "ML4000"	
+	
+
+#define ENG_G2000_INTROYEAR \d2003-1-1	
+	#define ENG_G2000_V_LIFE \b40	
+	#define ENG_G2000_M_LIFE \b255	
+	#define ENG_G2000_SPEED \w120	
+	#define ENG_G2000_TE \b85	
+	#define ENG_G2000_HP \w3000	
+	#define ENG_G2000_WAG_HP \w0	
+	#define ENG_G2000_CAP_WAG_PAX \b0	
+	#define ENG_G2000_CAP_WAG_MAIL \b0	
+	#define ENG_G2000_CAP_WAG_ARMOR \b0	
+	#define ENG_G2000_CAP_WAG_PAX_STR "0"	
+	#define ENG_G2000_CAP_WAG_MAIL_STR "0"	
+	#define ENG_G2000_CAP_WAG_ARMOR_STR "0"	
+	#define ENG_G2000_CAP_HEAD_PAX \b0	
+	#define ENG_G2000_CAP_HEAD_MAIL \b0	
+	#define ENG_G2000_CAP_HEAD_ARMOR \b0	
+	#define ENG_G2000_PAX_LS \b1	
+	#define ENG_G2000_MAIL_LS \b1	
+	#define ENG_G2000_ARMOR_LS \b1	
+	#define ENG_G2000_WEIGHT \b87	
+	#define ENG_G2000_WEIGHT_HIGH \b0	
+	#define ENG_G2000_PCOST \w33520	
+	#define ENG_G2000_RCOST \w33727	
+	#define ENG_G2000_RCOST_WAG \w32788	
+	#define ENG_G2000_NUTRACKS_TRACKTYPE 2	
+		
+	#define ENG_G2000_TRACTION_TYPE 8	
+	#define ENG_G2000_ID_W \w2090	
+	#define ENG_G2000_ID_B \b*2090	
+	#define STR_W_ENG_G2000 \wxD0D0	
+	#define STR_B_ENG_G2000 D0	
+	#define NAME_ENG_G2000 "Vossloh G2000-3 BB"	
 	
 
 #define MET_BROOKLYN_INTROYEAR \d1880-1-1	

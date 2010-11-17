@@ -101,7 +101,10 @@
 #include "sprites/nfo/engines/consolidation.pnfo"
 #include "sprites/nfo/engines/dda40x.pnfo"
 #include "sprites/nfo/engines/traxx_f140.pnfo"
-
+#include "sprites/nfo/engines/cfr_060_da.pnfo"
+#include "sprites/nfo/engines/cp1900.pnfo"
+#include "sprites/nfo/engines/6k.pnfo"
+#include "sprites/nfo/engines/ml4000.pnfo"
 
 
 
@@ -152,6 +155,9 @@
 #include "sprites/nfo/mus/aln668.pnfo"
 #include "sprites/nfo/mus/class400.pnfo"
 #include "sprites/nfo/mus/db_608.pnfo"
+#include "sprites/nfo/mus/ecd21_30.pnfo"
+#include "sprites/nfo/mus/cityrail_v.pnfo"
+#include "sprites/nfo/mus/ale426.pnfo"
 
 //Railbus
 #include "sprites/nfo/railbus/479.pnfo"
@@ -190,7 +196,7 @@
 #include "sprites/nfo/metro/81-740.pnfo"
 #include "sprites/nfo/metro/osaka30000.pnfo"
 #include "sprites/nfo/metro/la_a650.pnfo"
-//#include "sprites/nfo/metro/chicago_l.pnfo"
+#include "sprites/nfo/metro/chicago_l.pnfo"
 
 
 // Maglevs
