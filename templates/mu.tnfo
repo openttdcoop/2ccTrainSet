@@ -178,6 +178,10 @@
 #include TEMPLATE_EMU_HSA
 #endif
 
+#if THIS_ENG_TYPE == XGV
+#include TEMPLATE_EMU_XGV
+#endif
+
 
 // ----------------------
 // ----- Action 3's -----

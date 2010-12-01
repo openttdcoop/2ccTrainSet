@@ -158,6 +158,7 @@
 #include "sprites/nfo/mus/ecd21_30.pnfo"
 #include "sprites/nfo/mus/cityrail_v.pnfo"
 #include "sprites/nfo/mus/ale426.pnfo"
+#include "sprites/nfo/mus/agv.pnfo"
 
 //Railbus
 #include "sprites/nfo/railbus/479.pnfo"

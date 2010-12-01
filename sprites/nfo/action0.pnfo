@@ -1902,6 +1902,40 @@
 	#define NAME_MU_ECD21_30 "ECD21-30"	
 	
 
+#define MU_AGV_INTROYEAR \d2011-1-1	
+	#define MU_AGV_V_LIFE \b25	
+	#define MU_AGV_M_LIFE \b255	
+	#define MU_AGV_SPEED \w360	
+	#define MU_AGV_TE \b255	
+	#define MU_AGV_HP \w1150	
+	#define MU_AGV_WAG_HP \w1150	
+	#define MU_AGV_CAP_WAG_PAX \b42	
+	#define MU_AGV_CAP_WAG_MAIL \b32	
+	#define MU_AGV_CAP_WAG_ARMOR \b21	
+	#define MU_AGV_CAP_WAG_PAX_STR "42"	
+	#define MU_AGV_CAP_WAG_MAIL_STR "32"	
+	#define MU_AGV_CAP_WAG_ARMOR_STR "21"	
+	#define MU_AGV_CAP_HEAD_PAX \b42	
+	#define MU_AGV_CAP_HEAD_MAIL \b32	
+	#define MU_AGV_CAP_HEAD_ARMOR \b21	
+	#define MU_AGV_PAX_LS \b8	
+	#define MU_AGV_MAIL_LS \b6	
+	#define MU_AGV_ARMOR_LS \b4	
+	#define MU_AGV_WEIGHT \b29	
+	#define MU_AGV_WEIGHT_HIGH \b0	
+	#define MU_AGV_PCOST \w36533	
+	#define MU_AGV_RCOST \w33387	
+	#define MU_AGV_RCOST_WAG \w33387	
+	#define MU_AGV_NUTRACKS_TRACKTYPE 8	
+		
+	#define MU_AGV_TRACTION_TYPE 28	
+	#define MU_AGV_ID_W \w3055	
+	#define MU_AGV_ID_B \b*3055	
+	#define STR_W_MU_AGV \wxD038	
+	#define STR_B_MU_AGV 38	
+	#define NAME_MU_AGV "Automotrice à grande vitesse"	
+	
+
 #define RB_809_INTROYEAR \d1996-1-1	
 	#define RB_809_V_LIFE \b15	
 	#define RB_809_M_LIFE \b255	
@@ -1924,7 +1958,7 @@
 	#define RB_809_WEIGHT \b20	
 	#define RB_809_WEIGHT_HIGH \b0	
 	#define RB_809_PCOST \w33078	
-	#define RB_809_RCOST \w33138	
+	#define RB_809_RCOST \w32805	
 	#define RB_809_RCOST_WAG \w32788	
 	#define RB_809_NUTRACKS_TRACKTYPE 0	
 		
@@ -1958,7 +1992,7 @@
 	#define RB_AR2_WEIGHT \b32	
 	#define RB_AR2_WEIGHT_HIGH \b0	
 	#define RB_AR2_PCOST \w33351	
-	#define RB_AR2_RCOST \w33529	
+	#define RB_AR2_RCOST \w32844	
 	#define RB_AR2_RCOST_WAG \w32788	
 	#define RB_AR2_NUTRACKS_TRACKTYPE 2	
 		
@@ -1992,7 +2026,7 @@
 	#define RB_KINKI_WEIGHT \b20	
 	#define RB_KINKI_WEIGHT_HIGH \b0	
 	#define RB_KINKI_PCOST \w33077	
-	#define RB_KINKI_RCOST \w33137	
+	#define RB_KINKI_RCOST \w32805	
 	#define RB_KINKI_RCOST_WAG \w32788	
 	#define RB_KINKI_NUTRACKS_TRACKTYPE 0	
 		
@@ -2026,7 +2060,7 @@
 	#define RB_DM7_WEIGHT \b18	
 	#define RB_DM7_WEIGHT_HIGH \b0	
 	#define RB_DM7_PCOST \w33167	
-	#define RB_DM7_RCOST \w33258	
+	#define RB_DM7_RCOST \w32817	
 	#define RB_DM7_RCOST_WAG \w32788	
 	#define RB_DM7_NUTRACKS_TRACKTYPE 2	
 		
@@ -2060,7 +2094,7 @@
 	#define NIG_121_WEIGHT \b1	
 	#define NIG_121_WEIGHT_HIGH \b0	
 	#define NIG_121_PCOST \w33275	
-	#define NIG_121_RCOST \w33403	
+	#define NIG_121_RCOST \w32832	
 	#define NIG_121_RCOST_WAG \w32788	
 	#define NIG_121_NUTRACKS_TRACKTYPE 2	
 		
@@ -2094,7 +2128,7 @@
 	#define RB_479_WEIGHT \b23	
 	#define RB_479_WEIGHT_HIGH \b0	
 	#define RB_479_PCOST \w32952	
-	#define RB_479_RCOST \w32909	
+	#define RB_479_RCOST \w32782	
 	#define RB_479_RCOST_WAG \w32788	
 	#define RB_479_NUTRACKS_TRACKTYPE 1	
 		
@@ -2128,7 +2162,7 @@
 	#define RB_LAYLAND_WEIGHT \b20	
 	#define RB_LAYLAND_WEIGHT_HIGH \b0	
 	#define RB_LAYLAND_PCOST \w33193	
-	#define RB_LAYLAND_RCOST \w33298	
+	#define RB_LAYLAND_RCOST \w32821	
 	#define RB_LAYLAND_RCOST_WAG \w32788	
 	#define RB_LAYLAND_NUTRACKS_TRACKTYPE 2	
 		
@@ -2162,7 +2196,7 @@
 	#define RB_VT133_WEIGHT \b6	
 	#define RB_VT133_WEIGHT_HIGH \b0	
 	#define RB_VT133_PCOST \w32941	
-	#define RB_VT133_RCOST \w32955	
+	#define RB_VT133_RCOST \w32787	
 	#define RB_VT133_RCOST_WAG \w32788	
 	#define RB_VT133_NUTRACKS_TRACKTYPE 0	
 		
@@ -2196,7 +2230,7 @@
 	#define RB_153_111_WEIGHT \b42	
 	#define RB_153_111_WEIGHT_HIGH \b0	
 	#define RB_153_111_PCOST \w33207	
-	#define RB_153_111_RCOST \w33335	
+	#define RB_153_111_RCOST \w32825	
 	#define RB_153_111_RCOST_WAG \w32788	
 	#define RB_153_111_NUTRACKS_TRACKTYPE 2	
 		
@@ -2230,7 +2264,7 @@
 	#define RB_CFE33_WEIGHT \b24	
 	#define RB_CFE33_WEIGHT_HIGH \b0	
 	#define RB_CFE33_PCOST \w32880	
-	#define RB_CFE33_RCOST \w32856	
+	#define RB_CFE33_RCOST \w32777	
 	#define RB_CFE33_RCOST_WAG \w32788	
 	#define RB_CFE33_NUTRACKS_TRACKTYPE 1	
 		
@@ -2264,7 +2298,7 @@
 	#define RB_VT42_WEIGHT \b59	
 	#define RB_VT42_WEIGHT_HIGH \b0	
 	#define RB_VT42_PCOST \w33283	
-	#define RB_VT42_RCOST \w33463	
+	#define RB_VT42_RCOST \w32838	
 	#define RB_VT42_RCOST_WAG \w32788	
 	#define RB_VT42_NUTRACKS_TRACKTYPE 2	
 		
@@ -2298,7 +2332,7 @@
 	#define RB_VT98_WEIGHT \b21	
 	#define RB_VT98_WEIGHT_HIGH \b0	
 	#define RB_VT98_PCOST \w33142	
-	#define RB_VT98_RCOST \w33224	
+	#define RB_VT98_RCOST \w32814	
 	#define RB_VT98_RCOST_WAG \w32788	
 	#define RB_VT98_NUTRACKS_TRACKTYPE 2	
 		
@@ -2332,7 +2366,7 @@
 	#define RB_608_WEIGHT \b34	
 	#define RB_608_WEIGHT_HIGH \b0	
 	#define RB_608_PCOST \w33210	
-	#define RB_608_RCOST \w33325	
+	#define RB_608_RCOST \w32824	
 	#define RB_608_RCOST_WAG \w32788	
 	#define RB_608_NUTRACKS_TRACKTYPE 2	
 		
