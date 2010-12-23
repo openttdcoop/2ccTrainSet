@@ -3,4 +3,5 @@
 #include "engines.txt.pnfo"
 #include "metros.txt.pnfo"
 #include "wagons.txt.pnfo"
+#include "misc.pnfo"
 #include "errors.pnfo"

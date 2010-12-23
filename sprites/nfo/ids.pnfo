@@ -47,7 +47,12 @@
 #define WAG_STR_160_W	\wxD0F9	
 // 200kmh
 #define WAG_STR_200_B	FA
-#define WAG_STR_200_W	\wxD0FA	
+#define WAG_STR_200_W	\wxD0FA
+
+// Misc:
+#define STR_ENGINE_ID 00
+#define STR_RAILBUS_ID 01
+#define STR_SINGLEMETRO_ID 02	
 
 
 // Error IDs
