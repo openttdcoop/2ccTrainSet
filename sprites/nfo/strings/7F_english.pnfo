@@ -38,6 +38,11 @@
 #define WORD_TANKER	"Tanker "
 #define WORD_SILO	"Silo "
 
+// Misc purchaselist texts:
+#define STR_ENGINE          "Your average cool engine"
+#define STR_RAILBUS         "Railbusses cannot connect to anything"
+#define STR_SINGLEMETRO     "Single unit metros cannot connect to anything"
+
 // Error messages
 #define STR_ER_ONEUNIT      "Can only be one unit long"
 #define STR_ER_SELFONLY     "Can only attach to itself"
