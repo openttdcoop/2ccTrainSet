@@ -71,17 +71,17 @@
 
 // Templates:
 // Main ones
-#define TEMPLATE_ENGINES 	"../../../templates/engine.tnfo"
-#define TEMPLATE_ENGINES_2PARTER 	"../../../templates/engine-twopart-artic.tnfo"
-#define TEMPLATE_ENGINES_3PARTER 	"../../../templates/engine-threepart-artic.tnfo"
+#define TEMPLATE_ENGINES 	      "templates/engine.tnfo"
 #define TEMPLATE_ENGINES_B_UNIT 	"../../../templates/engine_b-unit.tnfo"                                                          
-#define TEMPLATE_MU     	"../../../templates/mu.tnfo"
-#define TEMPLATE_METRO   	"../../../templates/metro.tnfo"
-#define TEMPLATE_METRO_SINGLE   	"../../../templates/metro_single.tnfo"
-#define TEMPLATE_PAXWAG  	"../../../templates/wagon_pax_main.tnfo"
-#define TEMPLATE_FREIGHTWAG	"../../../templates/wagon_freight.tnfo"
-#define TEMPLATE_RAILBUS	"../../../templates/railbus.tnfo"
-#define TEMPLATE_FREIGHT	"../../../templates/wagon_freight.tnfo"
+#define TEMPLATE_MUS     	      "templates/mu.tnfo"
+#define TEMPLATE_METRO   	      "templates/metro.tnfo"
+#define TEMPLATE_METRO_SINGLE   "templates/metro_single.tnfo"
+#define TEMPLATE_PAXWAG  	      "../templates/wagon_pax_main.tnfo"
+#define TEMPLATE_FREIGHTWAG	    "../templates/wagon_freight.tnfo"
+#define TEMPLATE_RAILBUS	      "templates/railbus.tnfo"
+#define TEMPLATE_FREIGHT	      "../templates/wagon_freight.tnfo"
+#define TEMPLATE_UNDEF          "templates/undef.tnfo"
+#define TEMPLATE_UNDEF2         "undef.tnfo"
 
 // Wagons - Freight 
 #define WAGON_PAX_NORMAL	"wagon_pax_normal.tnfo"
@@ -132,3 +132,5 @@
 #define TEMPLATE_TRACKTYPE 	"../../templates/common/tracktype.tnfo"
 #define TEMPLATE_VARIABLE_RUNCOST "common/a2v_costs_running_speedbased.tnfo"
 
+// MISC
+#define YES 01
