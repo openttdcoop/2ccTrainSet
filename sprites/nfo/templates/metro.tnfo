@@ -24,7 +24,7 @@
 #endif
 
 #ifndef THIS_ENG_CARGOCLASSES
-#define THIS_ENG_CARGOCLASSES \wx0b
+#define THIS_ENG_CARGOCLASSES \wx01
 #endif
 
 #ifndef THIS_ENG_NOTCARGOCLASSES
