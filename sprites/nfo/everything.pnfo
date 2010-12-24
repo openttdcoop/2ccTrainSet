@@ -8689,9 +8689,9 @@
 	#define THIS_ENG_INTROYEAR \d1999-1-1	
 	#define THIS_ENG_V_LIFE \b40	
 	#define THIS_ENG_M_LIFE \b255	
-	#define THIS_ENG_SPEED \w200	
-	#define THIS_ENG_TE \b43	
-	#define THIS_ENG_HP \w2500	
+	#define THIS_ENG_SPEED \w160	
+	#define THIS_ENG_TE \b53	
+	#define THIS_ENG_HP \w3200	
 	#define THIS_ENG_WAG_HP \w0	
 	#define THIS_ENG_CAP_WAG_PAX \b0	
 	#define THIS_ENG_CAP_WAG_MAIL \b0	
@@ -8707,10 +8707,10 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b88	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w34178	
-	#define THIS_ENG_RCOST \w34776	
+	#define THIS_ENG_PCOST \w33859	
+	#define THIS_ENG_RCOST \w34235	
 	#define THIS_ENG_RCOST_WAG \w32788	
-	#define THIS_ENG_NUTRACKS_TRACKTYPE 6	
+	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/BR_Class_67.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
 		
