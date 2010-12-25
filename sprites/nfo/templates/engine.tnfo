@@ -128,7 +128,7 @@
   19 THIS_ENG_TRACTION_TYPE     // Traction type (maglev, rail, monorail)
   13 THIS_ENG_DUALHEAD          // Dualhead? 00/01 (should "always" be 00)
   1E THIS_ENG_CALLBACKS         // Callbacks
-  21 THIS_ENG_SHORTERVEHICLE    // Shorter vehicle
+  21 THIS_ENG_LENGTH1    // Shorter vehicle
   27 THIS_ENG_MISC              // 01 tilt + 02 2cc + 04 xMU
 
 // Dont need to change anything more then this (unless its a "special case" grapihcally)
