@@ -140,7 +140,7 @@
                                 11 00
 // Wagons
 -1 * 0  02 00 52 81 0C 00 FF 01
-    THIS_ENG_LENGTH1         80 11 11 // Make wagon shorter
+    THIS_ENG_LENGTH2         80 11 11 // Make wagon shorter
                                 50 00
 
 
