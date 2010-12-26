@@ -131,7 +131,9 @@
   21 THIS_ENG_LENGTH1    // Shorter vehicle
   27 THIS_ENG_MISC              // 01 tilt + 02 2cc + 04 xMU
 
-// Dont need to change anything more then this (unless its a "special case" grapihcally)
+// Insert nutracks tracktype if nutracks is loaded
+#include TEMPLATE_TRACKTYPE
+
 
 // Action 1 with variable views and 8 sprites each view
 -1 * 0  01 00 THIS_ENG_VIEWS 08
@@ -281,6 +283,10 @@
 #if defined (THIS_ENG_LENGTH2) || defined (THIS_ENG_LENGTH3)
 -1 * 0  03 00 81 TENDER 00 5F 00	// Livery Override
 #endif
+
+
+
+
 
 #undef THIS_ENG_GFX
 #undef THIS_ENG_ID_B

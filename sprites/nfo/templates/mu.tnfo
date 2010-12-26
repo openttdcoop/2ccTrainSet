@@ -130,6 +130,7 @@
 #endif
 
 
+
 // ----------------------
 // ----- Action 3's -----
 // ----------------------
@@ -183,5 +184,8 @@
   1E THIS_ENG_CALLBACKS         // Callbacks
   21 THIS_ENG_LENGTH1    // Shorter vehicle
   27 THIS_ENG_MISC              // 01 tilt + 02 2cc + 04 xMU
+
+// Insert nutracks tracktype if nutracks is loaded
+#include TEMPLATE_TRACKTYPE
 
 #undef    THIS_ENG_DUALHEAD

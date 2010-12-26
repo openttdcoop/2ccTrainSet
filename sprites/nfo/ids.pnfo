@@ -134,7 +134,7 @@
 #define TEMPLATE_COSTS_PLIST 	    "common/a2v_costs_plist.tnfo"
 #define TEMPLATE_COSTS_PLIST_WAG 	"common/a2v_costs_plist_wagons.tnfo"
 #define TEMPLATE_COSTS_ACTION0_WAG "common/a0wagons.tnfo"
-#define TEMPLATE_TRACKTYPE 	"../../templates/common/tracktype.tnfo"
+#define TEMPLATE_TRACKTYPE 	"common/tracktype.tnfo"
 #define TEMPLATE_VARIABLE_RUNCOST "common/a2v_costs_running_speedbased.tnfo"
 
 // MISC
