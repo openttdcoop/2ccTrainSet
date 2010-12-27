@@ -2833,6 +2833,96 @@
 	#include TEMPLATE_UNDEF	
 	
 
+#define THIS_ENG_CODE YES	
+	#ifdef THIS_ENG_CODE	
+	#define THIS_ENG_INTROYEAR \d1962-1-1	
+	#define THIS_ENG_V_LIFE \b25	
+	#define THIS_ENG_M_LIFE \b25	
+	#define THIS_ENG_SPEED \w110	
+	#define THIS_ENG_TE \b69	
+	#define THIS_ENG_HP \w230	
+	#define THIS_ENG_WAG_HP \w230	
+	#define THIS_ENG_CAP_WAG_PAX \b40	
+	#define THIS_ENG_CAP_WAG_MAIL \b30	
+	#define THIS_ENG_CAP_WAG_ARMOR \b20	
+	#define THIS_ENG_CAP_WAG_PAX_STR "40"	
+	#define THIS_ENG_CAP_WAG_MAIL_STR "30"	
+	#define THIS_ENG_CAP_WAG_ARMOR_STR "20"	
+	#define THIS_ENG_CAP_HEAD_PAX \b40	
+	#define THIS_ENG_CAP_HEAD_MAIL \b30	
+	#define THIS_ENG_CAP_HEAD_ARMOR \b20	
+	#define THIS_ENG_PAX_LS \b8	
+	#define THIS_ENG_MAIL_LS \b6	
+	#define THIS_ENG_ARMOR_LS \b4	
+	#define THIS_ENG_WEIGHT \b47	
+	#define THIS_ENG_WEIGHT_HIGH \b0	
+	#define THIS_ENG_PCOST \w33372	
+	#define THIS_ENG_RCOST \w32850	
+	#define THIS_ENG_RCOST_WAG \w32850	
+	#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
+	#define THIS_ENG_GFX  sprites/gfx/Odakyu_3100_Series_Romance.png	
+	#define THIS_ENG_TRACTION_TYPE 28	
+	#define THIS_ENG_MISC 6	
+	#define THIS_ENG_ID_W \w3062	
+	#define THIS_ENG_ID_B \b*3062	
+	#define STR_W_THIS_ENG \wxD228	
+	#define THIS_ENG_STR_B \wx8228	
+	#define THIS_ENG_LENGTH1 \b0	
+	#define THIS_ENG_LENGTH2 \b0	
+		
+	#define THIS_ENG_TYPE NORMAL_EMU	
+	#define NAME_THIS_ENG "Odakyu 3100 Series 'Romance' "	
+	#include TEMPLATE_MUS	
+	#undef THIS_ENG_CODE	
+	#endif	
+	#include TEMPLATE_UNDEF	
+	
+
+#define THIS_ENG_CODE YES	
+	#ifdef THIS_ENG_CODE	
+	#define THIS_ENG_INTROYEAR \d1986-1-1	
+	#define THIS_ENG_V_LIFE \b25	
+	#define THIS_ENG_M_LIFE \b25	
+	#define THIS_ENG_SPEED \w110	
+	#define THIS_ENG_TE \b57	
+	#define THIS_ENG_HP \w1550	
+	#define THIS_ENG_WAG_HP \w1550	
+	#define THIS_ENG_CAP_WAG_PAX \b40	
+	#define THIS_ENG_CAP_WAG_MAIL \b30	
+	#define THIS_ENG_CAP_WAG_ARMOR \b20	
+	#define THIS_ENG_CAP_WAG_PAX_STR "40"	
+	#define THIS_ENG_CAP_WAG_MAIL_STR "30"	
+	#define THIS_ENG_CAP_WAG_ARMOR_STR "20"	
+	#define THIS_ENG_CAP_HEAD_PAX \b40	
+	#define THIS_ENG_CAP_HEAD_MAIL \b30	
+	#define THIS_ENG_CAP_HEAD_ARMOR \b20	
+	#define THIS_ENG_PAX_LS \b8	
+	#define THIS_ENG_MAIL_LS \b6	
+	#define THIS_ENG_ARMOR_LS \b4	
+	#define THIS_ENG_WEIGHT \b35	
+	#define THIS_ENG_WEIGHT_HIGH \b0	
+	#define THIS_ENG_PCOST \w33468	
+	#define THIS_ENG_RCOST \w32857	
+	#define THIS_ENG_RCOST_WAG \w32857	
+	#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
+	#define THIS_ENG_GFX  sprites/gfx/Odakyu_3100_Series_Romance.png	
+	#define THIS_ENG_TRACTION_TYPE 28	
+	#define THIS_ENG_MISC 6	
+	#define THIS_ENG_ID_W \w3063	
+	#define THIS_ENG_ID_B \b*3063	
+	#define STR_W_THIS_ENG \wxD228	
+	#define THIS_ENG_STR_B \wx8228	
+	#define THIS_ENG_LENGTH1 \b0	
+	#define THIS_ENG_LENGTH2 \b0	
+		
+	#define THIS_ENG_TYPE NORMAL_EMU	
+	#define NAME_THIS_ENG "Odakyu 10000 Series 'Romance' "	
+	#include TEMPLATE_MUS	
+	#undef THIS_ENG_CODE	
+	#endif	
+	#include TEMPLATE_UNDEF	
+	
+
 																																																																																						
 #define THIS_ENG_CODE YES	
 	#ifdef THIS_ENG_CODE	
@@ -3374,6 +3464,97 @@
 	#include TEMPLATE_UNDEF	
 	
 
+#define THIS_ENG_CODE YES	
+	#ifdef THIS_ENG_CODE	
+	#define THIS_ENG_INTROYEAR \d1949-1-1	
+	#define THIS_ENG_V_LIFE \b15	
+	#define THIS_ENG_M_LIFE \b35	
+	#define THIS_ENG_SPEED \w136	
+	#define THIS_ENG_TE \b26	
+	#define THIS_ENG_HP \w550	
+	#define THIS_ENG_WAG_HP \w0	
+	#define THIS_ENG_CAP_WAG_PAX \b90	
+	#define THIS_ENG_CAP_WAG_MAIL \b68	
+	#define THIS_ENG_CAP_WAG_ARMOR \b45	
+	#define THIS_ENG_CAP_WAG_PAX_STR "90"	
+	#define THIS_ENG_CAP_WAG_MAIL_STR "68"	
+	#define THIS_ENG_CAP_WAG_ARMOR_STR "45"	
+	#define THIS_ENG_CAP_HEAD_PAX \b90	
+	#define THIS_ENG_CAP_HEAD_MAIL \b68	
+	#define THIS_ENG_CAP_HEAD_ARMOR \b45	
+	#define THIS_ENG_PAX_LS \b20	
+	#define THIS_ENG_MAIL_LS \b15	
+	#define THIS_ENG_ARMOR_LS \b10	
+	#define THIS_ENG_WEIGHT \b49	
+	#define THIS_ENG_WEIGHT_HIGH \b0	
+	#define THIS_ENG_PCOST \w33482	
+	#define THIS_ENG_RCOST \w32865	
+	#define THIS_ENG_RCOST_WAG \w32788	
+	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
+	#define THIS_ENG_GFX  sprites/gfx/Budd_RDC.png	
+	#define THIS_ENG_TRACTION_TYPE 8	
+		
+	#define THIS_ENG_ID_W \w3512	
+	#define THIS_ENG_ID_B \b*3512	
+	#define STR_W_THIS_ENG \wxD0D0	
+	#define THIS_ENG_STR_B \wx8001	
+	#define THIS_ENG_LENGTH1 \b0	
+	 	
+	 	
+		
+	#define NAME_THIS_ENG "Budd RDC "	
+	#include TEMPLATE_RAILBUS	
+	#undef THIS_ENG_CODE	
+	#endif	
+	#include TEMPLATE_UNDEF	
+	
+
+#define THIS_ENG_CODE YES	
+	#ifdef THIS_ENG_CODE	
+	#define THIS_ENG_INTROYEAR \d1987-1-1	
+	#define THIS_ENG_V_LIFE \b15	
+	#define THIS_ENG_M_LIFE \b35	
+	#define THIS_ENG_SPEED \w120	
+	#define THIS_ENG_TE \b30	
+	#define THIS_ENG_HP \w562	
+	#define THIS_ENG_WAG_HP \w0	
+	#define THIS_ENG_CAP_WAG_PAX \b62	
+	#define THIS_ENG_CAP_WAG_MAIL \b47	
+	#define THIS_ENG_CAP_WAG_ARMOR \b31	
+	#define THIS_ENG_CAP_WAG_PAX_STR "62"	
+	#define THIS_ENG_CAP_WAG_MAIL_STR "47"	
+	#define THIS_ENG_CAP_WAG_ARMOR_STR "31"	
+	#define THIS_ENG_CAP_HEAD_PAX \b62	
+	#define THIS_ENG_CAP_HEAD_MAIL \b47	
+	#define THIS_ENG_CAP_HEAD_ARMOR \b31	
+	#define THIS_ENG_PAX_LS \b20	
+	#define THIS_ENG_MAIL_LS \b15	
+	#define THIS_ENG_ARMOR_LS \b10	
+	#define THIS_ENG_WEIGHT \b44	
+	#define THIS_ENG_WEIGHT_HIGH \b0	
+	#define THIS_ENG_PCOST \w33362	
+	#define THIS_ENG_RCOST \w32847	
+	#define THIS_ENG_RCOST_WAG \w32788	
+	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
+	#define THIS_ENG_GFX  sprites/gfx/Railbus_5047.png	
+	#define THIS_ENG_TRACTION_TYPE 8	
+		
+	#define THIS_ENG_ID_W \w3513	
+	#define THIS_ENG_ID_B \b*3513	
+	#define STR_W_THIS_ENG \wxD0D0	
+	#define THIS_ENG_STR_B \wx8001	
+	#define THIS_ENG_LENGTH1 \b0	
+	 	
+	 	
+		
+	#define NAME_THIS_ENG "Railbus Class 5047 "	
+	#include TEMPLATE_RAILBUS	
+	#undef THIS_ENG_CODE	
+	#endif	
+	#include TEMPLATE_UNDEF	
+	
+
+																																																																																						
 #define THIS_ENG_CODE YES	
 	#ifdef THIS_ENG_CODE	
 	#define THIS_ENG_INTROYEAR \d1969-1-1	
