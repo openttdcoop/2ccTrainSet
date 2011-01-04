@@ -167,9 +167,14 @@
 -1 * 0  02 00 53 81 41 08 FF 01          // 1 case, counted from behind
                              11 00 00 00 // Back engine if last
                              52 00       // GFX depending on cargo if not last
+// Wagon Lengths
+-1 * 0  02 00 54 81 41 08 FF 01          // 1case, counted from behind
+            THIS_ENG_LENGTH1 80 00 00    // Length on last car
+            THIS_ENG_LENGTH2 80          // Length on the others                   
 
 // Callbacks
--1 * 0  02 00 5F 81 0C 00 FF 03          // 3 callbacks
+-1 * 0  02 00 5F 81 0C 00 FF 04          // 4 callbacks
+                             54 00 11 11 // Wagon length
                              E1 00 12 12 // Loading speed
                              E6 00 15 15 // Cargo Capacity
                              EF 00 36 36 // Change props
