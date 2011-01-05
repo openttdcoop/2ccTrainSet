@@ -1608,7 +1608,7 @@
 	#define STR_W_THIS_ENG \wxD12B	
 	#define THIS_ENG_STR_B \wx812B	
 	#define THIS_ENG_LENGTH1 \b0	
-	#define THIS_ENG_LENGTH2 \b0	
+	#define THIS_ENG_LENGTH2 \b2	
 		
 	#define THIS_ENG_TYPE TGV_TA_EMU	
 	#define NAME_THIS_ENG "TGV Sud-Est "	
@@ -1653,7 +1653,7 @@
 	#define STR_W_THIS_ENG \wxD148	
 	#define THIS_ENG_STR_B \wx8148	
 	#define THIS_ENG_LENGTH1 \b0	
-	#define THIS_ENG_LENGTH2 \b0	
+	#define THIS_ENG_LENGTH2 \b2	
 		
 	#define THIS_ENG_TYPE TGV_D_EMU	
 	#define NAME_THIS_ENG "TGV Duplex "	
@@ -1698,7 +1698,7 @@
 	#define STR_W_THIS_ENG \wxD12F	
 	#define THIS_ENG_STR_B \wx812F	
 	#define THIS_ENG_LENGTH1 \b0	
-	#define THIS_ENG_LENGTH2 \b0	
+	#define THIS_ENG_LENGTH2 \b2	
 		
 	#define THIS_ENG_TYPE TGV_TA_EMU	
 	#define NAME_THIS_ENG "TGV Thalys "	
