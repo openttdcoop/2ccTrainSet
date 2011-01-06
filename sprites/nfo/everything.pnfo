@@ -1799,44 +1799,44 @@
 	
 
  	
-	#ifdef THIS_ENG_CODE	
-	#define THIS_ENG_INTROYEAR \d2035-1-1	
-	#define THIS_ENG_V_LIFE \b25	
-	#define THIS_ENG_M_LIFE \b255	
-	#define THIS_ENG_SPEED \w1000	
-	#define THIS_ENG_TE \b0	
-	#define THIS_ENG_HP \w18000	
-	#define THIS_ENG_WAG_HP \w0	
-	#define THIS_ENG_CAP_WAG_PAX \b400	
-	#define THIS_ENG_CAP_WAG_MAIL \b300	
-	#define THIS_ENG_CAP_WAG_ARMOR \b200	
-	#define THIS_ENG_CAP_WAG_PAX_STR "400"	
-	#define THIS_ENG_CAP_WAG_MAIL_STR "300"	
-	#define THIS_ENG_CAP_WAG_ARMOR_STR "200"	
-	#define THIS_ENG_CAP_HEAD_PAX \b40	
-	#define THIS_ENG_CAP_HEAD_MAIL \b30	
-	#define THIS_ENG_CAP_HEAD_ARMOR \b20	
-	#define THIS_ENG_PAX_LS \b8	
-	#define THIS_ENG_MAIL_LS \b6	
-	#define THIS_ENG_ARMOR_LS \b4	
-	#define THIS_ENG_WEIGHT \b180	
-	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w49453	
-	#define THIS_ENG_RCOST \w49509	
-	#define THIS_ENG_RCOST_WAG \w32788	
-	#define THIS_ENG_NUTRACKS_TRACKTYPE 12	
-	#define THIS_ENG_GFX  sprites/gfx/nogfx.png	
-	#define THIS_ENG_TRACTION_TYPE 38	
-	#define THIS_ENG_MISC 6	
-	#define THIS_ENG_ID_W \w00	
-	#define THIS_ENG_ID_B \b*00	
-	#define STR_W_THIS_ENG \wxD290	
-	#define THIS_ENG_STR_B \wx8290	
-	#define THIS_ENG_LENGTH1 \b0	
-	#define THIS_ENG_LENGTH2 \b0	
+	#ifdef CHIM_CODE	
+	#define CHIM_INTROYEAR \d2035-1-1	
+	#define CHIM_V_LIFE \b25	
+	#define CHIM_M_LIFE \b255	
+	#define CHIM_SPEED \w1000	
+	#define CHIM_TE \b0	
+	#define CHIM_HP \w18000	
+	#define CHIM_WAG_HP \w0	
+	#define CHIM_CAP_WAG_PAX \b400	
+	#define CHIM_CAP_WAG_MAIL \b300	
+	#define CHIM_CAP_WAG_ARMOR \b200	
+	#define CHIM_CAP_WAG_PAX_STR "400"	
+	#define CHIM_CAP_WAG_MAIL_STR "300"	
+	#define CHIM_CAP_WAG_ARMOR_STR "200"	
+	#define CHIM_CAP_HEAD_PAX \b40	
+	#define CHIM_CAP_HEAD_MAIL \b30	
+	#define CHIM_CAP_HEAD_ARMOR \b20	
+	#define CHIM_PAX_LS \b8	
+	#define CHIM_MAIL_LS \b6	
+	#define CHIM_ARMOR_LS \b4	
+	#define CHIM_WEIGHT \b180	
+	#define CHIM_WEIGHT_HIGH \b0	
+	#define CHIM_PCOST \w49453	
+	#define CHIM_RCOST \w49509	
+	#define CHIM_RCOST_WAG \w32788	
+	#define CHIM_NUTRACKS_TRACKTYPE 12	
+	#define CHIM_GFX  sprites/gfx/nogfx.png	
+	#define CHIM_TRACTION_TYPE 38	
+	#define CHIM_MISC 6	
+	#define CHIM_ID_W \w00	
+	#define CHIM_ID_B \b*00	
+	#define STR_W_CHIM \wxD290	
+	#define CHIM_STR_B \wx8290	
+	#define CHIM_LENGTH1 \b0	
+	#define CHIM_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE 	
-	#define NAME_THIS_ENG "Chimaera "	
+	#define NAME_CHIM "Chimaera "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -2905,7 +2905,7 @@
 	#define THIS_ENG_RCOST \w32857	
 	#define THIS_ENG_RCOST_WAG \w32857	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
-	#define THIS_ENG_GFX  sprites/gfx/Odakyu_3100_Series_Romance.png	
+	#define THIS_ENG_GFX  sprites/gfx/Odakyu_10000_Series_Romance.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
 	#define THIS_ENG_MISC 6	
 	#define THIS_ENG_ID_W \w3063	
@@ -5074,8 +5074,8 @@
 	#define THIS_ENG_ID_B \b*2029	
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
-	#define THIS_ENG_LENGTH1 \b0	
-	 	
+	#define THIS_ENG_LENGTH1 \b1	
+	#define THIS_ENG_LENGTH2 \b1	
 	 	
 		
 	#define NAME_THIS_ENG "ET41 "	
@@ -5615,7 +5615,7 @@
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
 	#define THIS_ENG_LENGTH1 \b0	
-	 	
+	#define THIS_ENG_LENGTH2 \b0	
 	 	
 		
 	#define NAME_THIS_ENG "VL15 "	
@@ -9452,7 +9452,7 @@
 
 #define THIS_ENG_CODE YES	
 	#ifdef THIS_ENG_CODE	
-	#define THIS_ENG_INTROYEAR \d1922-1-1	
+	#define THIS_ENG_INTROYEAR \d1977-1-1	
 	#define THIS_ENG_V_LIFE \b40	
 	#define THIS_ENG_M_LIFE \b25	
 	#define THIS_ENG_SPEED \w110	
@@ -9473,12 +9473,12 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b115	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33528	
-	#define THIS_ENG_RCOST \w33425	
+	#define THIS_ENG_PCOST \w33402	
+	#define THIS_ENG_RCOST \w33589	
 	#define THIS_ENG_RCOST_WAG \w32788	
-	#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
+	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/f40ph.png	
-	#define THIS_ENG_TRACTION_TYPE 28	
+	#define THIS_ENG_TRACTION_TYPE 8	
 		
 	#define THIS_ENG_ID_W \w2127	
 	#define THIS_ENG_ID_B \b*2127	
@@ -9534,6 +9534,51 @@
 	 	
 		
 	#define NAME_THIS_ENG "EMD E8 "	
+	#include TEMPLATE_ENGINES	
+	#undef THIS_ENG_CODE	
+	#endif	
+	#include TEMPLATE_UNDEF	
+	
+
+#define THIS_ENG_CODE YES	
+	#ifdef THIS_ENG_CODE	
+	#define THIS_ENG_INTROYEAR \d1954-1-1	
+	#define THIS_ENG_V_LIFE \b40	
+	#define THIS_ENG_M_LIFE \b25	
+	#define THIS_ENG_SPEED \w105	
+	#define THIS_ENG_TE \b50	
+	#define THIS_ENG_HP \w1720	
+	#define THIS_ENG_WAG_HP \w0	
+	#define THIS_ENG_CAP_WAG_PAX \b0	
+	#define THIS_ENG_CAP_WAG_MAIL \b0	
+	#define THIS_ENG_CAP_WAG_ARMOR \b0	
+	#define THIS_ENG_CAP_WAG_PAX_STR "0"	
+	#define THIS_ENG_CAP_WAG_MAIL_STR "0"	
+	#define THIS_ENG_CAP_WAG_ARMOR_STR "0"	
+	#define THIS_ENG_CAP_HEAD_PAX \b0	
+	#define THIS_ENG_CAP_HEAD_MAIL \b0	
+	#define THIS_ENG_CAP_HEAD_ARMOR \b0	
+	#define THIS_ENG_PAX_LS \b1	
+	#define THIS_ENG_MAIL_LS \b1	
+	#define THIS_ENG_ARMOR_LS \b1	
+	#define THIS_ENG_WEIGHT \b104	
+	#define THIS_ENG_WEIGHT_HIGH \b0	
+	#define THIS_ENG_PCOST \w33333	
+	#define THIS_ENG_RCOST \w33497	
+	#define THIS_ENG_RCOST_WAG \w32788	
+	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
+	#define THIS_ENG_GFX  sprites/gfx/fp9.png	
+	#define THIS_ENG_TRACTION_TYPE 8	
+		
+	#define THIS_ENG_ID_W \w2129	
+	#define THIS_ENG_ID_B \b*2129	
+	#define STR_W_THIS_ENG \wxD0D0	
+	#define THIS_ENG_STR_B \wx8001	
+	#define THIS_ENG_LENGTH1 \b0	
+	 	
+	 	
+		
+	#define NAME_THIS_ENG "EMD FP9 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
