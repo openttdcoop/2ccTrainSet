@@ -208,9 +208,15 @@
 // --------------------
 // Set gfx if it is a "b-unit"-capable engine
 #ifdef THIS_ENG_BUNIT 
-  -1 * 0  02 00 10 81 40 00 FF 01 // Check entire consist
-                      50 00 01 FF // B-unit gfx if its not first unit in consist
-                      10 00       // Front unit if not
+  -1 * 0  02 00 10 85
+      40 20 \wxFF00       // 'rr' part of var 40, not shifted
+  \2< 1A 20 \wx0100       // min(<distance-from-rear>, 1)
+  \2+ 40 00 \wx00FF       // 'ff' part of var 40
+         03               // 3 ranges
+      10 00 \wx0   \wx0   // only one vehicle -> front
+      10 00 \wx1   \wxFF  // non front but last -> rear
+      10 00 \wx100 \wx100 // non-rear, but front -> front
+      50 00               // not front or rear, must be middle -> b-unit
 #endif                    
 
 
