@@ -3734,6 +3734,51 @@
 	#include TEMPLATE_UNDEF	
 	
 
+#define THIS_ENG_CODE YES	
+	#ifdef THIS_ENG_CODE	
+	#define THIS_ENG_INTROYEAR \d1996-1-1	
+	#define THIS_ENG_V_LIFE \b15	
+	#define THIS_ENG_M_LIFE \b255	
+	#define THIS_ENG_SPEED \w100	
+	#define THIS_ENG_TE \b55	
+	#define THIS_ENG_HP \w335	
+	#define THIS_ENG_WAG_HP \w0	
+	#define THIS_ENG_CAP_WAG_PAX \b110	
+	#define THIS_ENG_CAP_WAG_MAIL \b83	
+	#define THIS_ENG_CAP_WAG_ARMOR \b55	
+	#define THIS_ENG_CAP_WAG_PAX_STR "110"	
+	#define THIS_ENG_CAP_WAG_MAIL_STR "83"	
+	#define THIS_ENG_CAP_WAG_ARMOR_STR "55"	
+	#define THIS_ENG_CAP_HEAD_PAX \b110	
+	#define THIS_ENG_CAP_HEAD_MAIL \b83	
+	#define THIS_ENG_CAP_HEAD_ARMOR \b55	
+	#define THIS_ENG_PAX_LS \b20	
+	#define THIS_ENG_MAIL_LS \b15	
+	#define THIS_ENG_ARMOR_LS \b10	
+	#define THIS_ENG_WEIGHT \b34	
+	#define THIS_ENG_WEIGHT_HIGH \b0	
+	#define THIS_ENG_PCOST \w33210	
+	#define THIS_ENG_RCOST \w32824	
+	#define THIS_ENG_RCOST_WAG \w32788	
+	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
+	#define THIS_ENG_GFX  sprites/gfx/Railbus_670.png	
+	#define THIS_ENG_TRACTION_TYPE 8	
+		
+	#define THIS_ENG_ID_W \w3514	
+	#define THIS_ENG_ID_B \b*3514	
+	#define STR_W_THIS_ENG \wxD0D0	
+	#define THIS_ENG_STR_B \wx8001	
+	#define THIS_ENG_LENGTH1 \b0	
+	 	
+	 	
+		
+	#define NAME_THIS_ENG "Railbus Class 670 "	
+	#include TEMPLATE_RAILBUS	
+	#undef THIS_ENG_CODE	
+	#endif	
+	#include TEMPLATE_UNDEF	
+	
+
 																																																																																						
 #define THIS_ENG_CODE YES	
 	#ifdef THIS_ENG_CODE	
@@ -12191,6 +12236,51 @@
 		
 	#define NAME_THIS_ENG "U-Bahn C II "	
 	#include TEMPLATE_METRO_SINGLE	
+	#undef THIS_ENG_CODE	
+	#endif	
+	#include TEMPLATE_UNDEF	
+	
+
+#define THIS_ENG_CODE YES	
+	#ifdef THIS_ENG_CODE	
+	#define THIS_ENG_INTROYEAR \d1911-1-1	
+	#define THIS_ENG_V_LIFE \b60	
+	#define THIS_ENG_M_LIFE \b40	
+	#define THIS_ENG_SPEED \w50	
+	#define THIS_ENG_TE \b43	
+	#define THIS_ENG_HP \w230	
+	#define THIS_ENG_WAG_HP \w230	
+	#define THIS_ENG_CAP_WAG_PAX \b142	
+	#define THIS_ENG_CAP_WAG_MAIL \b107	
+	#define THIS_ENG_CAP_WAG_ARMOR \b71	
+	#define THIS_ENG_CAP_WAG_PAX_STR "142"	
+	#define THIS_ENG_CAP_WAG_MAIL_STR "107"	
+	#define THIS_ENG_CAP_WAG_ARMOR_STR "71"	
+	#define THIS_ENG_CAP_HEAD_PAX \b142	
+	#define THIS_ENG_CAP_HEAD_MAIL \b107	
+	#define THIS_ENG_CAP_HEAD_ARMOR \b71	
+	#define THIS_ENG_PAX_LS \b60	
+	#define THIS_ENG_MAIL_LS \b45	
+	#define THIS_ENG_ARMOR_LS \b30	
+	#define THIS_ENG_WEIGHT \b50	
+	#define THIS_ENG_WEIGHT_HIGH \b0	
+	#define THIS_ENG_PCOST \w32958	
+	#define THIS_ENG_RCOST \w32846	
+	#define THIS_ENG_RCOST_WAG \w32846	
+		
+	#define THIS_ENG_GFX  sprites/gfx/La_Brugeoise.png	
+	#define THIS_ENG_TRACTION_TYPE 32	
+		
+	#define THIS_ENG_ID_W \w4527	
+	#define THIS_ENG_ID_B \b*4527	
+	#define STR_W_THIS_ENG \wxD0B0	
+	#define THIS_ENG_STR_B \wx838E	
+	#define THIS_ENG_LENGTH1 \b1	
+	#define THIS_ENG_LENGTH2 \b1	
+		
+		
+	#define NAME_THIS_ENG "La Brugeoise "	
+	#include TEMPLATE_METRO	
 	#undef THIS_ENG_CODE	
 	#endif	
 	#include TEMPLATE_UNDEF	
