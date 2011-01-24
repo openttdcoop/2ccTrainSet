@@ -72,19 +72,24 @@
 //#endif
 
 #define THIS_ENG_VIEWS 2        // 1+purch list
-#ifdef THIS_ENG_LENGTH2
+#ifdef THIS_ENG_BUNIT
   #undef  THIS_ENG_VIEWS
-  #define THIS_ENG_CALLBACKS 12
-  #define THIS_ENG_VIEWS 3      // 2+purch list
-  #ifdef THIS_ENG_LENGTH3
+  #define THIS_ENG_VIEWS 3
+  #define THIS_ENG_CALLBACKS 02
+#else
+  #ifdef THIS_ENG_LENGTH2
     #undef  THIS_ENG_VIEWS
-    #define THIS_ENG_VIEWS 4    // 3+purch list
+    #define THIS_ENG_CALLBACKS 12
+    #define THIS_ENG_VIEWS 3      // 2+purch list
+    #ifdef THIS_ENG_LENGTH3
+      #undef  THIS_ENG_VIEWS
+      #define THIS_ENG_VIEWS 4    // 3+purch list
+    #endif
+  #endif
+  #ifndef THIS_ENG_LENGTH2
+    #define THIS_ENG_CALLBACKS 02
   #endif
 #endif
-#ifndef THIS_ENG_LENGTH2
-  #define THIS_ENG_CALLBACKS 02
-#endif
-
 
 #ifdef NAME_THIS_ENG
   -01	*	00	04	00	7F	\b1	THIS_ENG_ID_B		SPACE	NAME_THIS_ENG	00 
@@ -189,18 +194,25 @@
 #endif
 
 
--1 * 0  02 00 10 01 01 \w0 \w0 // -->
+-1 * 0  02 00 10 01 01 \w0 \w0 // First unit
 -1 * 0  02 00 40 01 01 \w1 \w1 // P-list
 #ifdef THIS_ENG_LENGTH2
--1 * 0  02 00 50 01 01 \w2 \w2 // P-list
+-1 * 0  02 00 50 01 01 \w2 \w2 // Middle unit
 #endif
 #ifdef THIS_ENG_LENGTH3
--1 * 0  02 00 60 01 01 \w3 \w3 // P-list
+-1 * 0  02 00 60 01 01 \w3 \w3 // Last unit
 #endif
 
 // --------------------
 // ----- Generic ------
 // --------------------
+// Set gfx if it is a "b-unit"-capable engine
+#ifdef THIS_ENG_BUNIT 
+  -1 * 0  02 00 10 81 40 00 FF 01 // Check entire consist
+                      50 00 01 FF // B-unit gfx if its not first unit in consist
+                      10 00       // Front unit if not
+#endif                    
+
 
 //Low cost when standing still, for use in the '10' at the RUN cost spot HEAD
 -1 * 0  02 00 EC 82 B4 00 FF 01			            // 1 case
@@ -227,25 +239,30 @@
                              ER_NORAILCARS 80 \w4000 \w4500 // No railcars
                              FF 80                          // Allow everything else
 
+#ifndef THIS_ENG_BUNIT
+    #if defined (THIS_ENG_LENGTH2) || defined (THIS_ENG_LENGTH3)
 // A=R=T=I=C=U=L=A=T=I=O=N I=N=F=O
-#if defined (THIS_ENG_LENGTH2) || defined (THIS_ENG_LENGTH3)
--1 * 0  02 00 C0 81 10 00 FF 01
-                    TENDER 80 
-                    #ifdef THIS_ENG_LENGTH3
-                      01 02
-                    #else
-                      01 01
-                    #endif
-                    FF FF
+    -1 * 0  02 00 C0 81 10 00 FF 01
+                        TENDER 80 
+                        #ifdef THIS_ENG_LENGTH3
+                          01 02
+                        #else
+                          01 01
+                        #endif
+                        FF FF
+    #endif
 #endif
 
-
 -1 * 0  02 00 AF 81 0C 00 FF                                // callbacks 
-#if defined (THIS_ENG_LENGTH2) || defined (THIS_ENG_LENGTH3)  
-                            03                              // 3 callbacks
-                            C0 00 16 16                     // Artuculation
+#ifndef THIS_ENG_BUNIT
+    #if defined (THIS_ENG_LENGTH2) || defined (THIS_ENG_LENGTH3)  
+                                03                              // 3 callbacks
+                                C0 00 16 16                     // Artuculation
+    #else
+                                02                              // 2 callbacks
+    #endif
 #else
-                            02                              // 2 callbacks
+                                02
 #endif
                              A6 00 1D 1D                    // Cannot attach 
                              EE 00 36 36                    // New stuff

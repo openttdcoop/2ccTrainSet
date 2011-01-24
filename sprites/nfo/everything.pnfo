@@ -3772,7 +3772,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "422 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -3817,7 +3817,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "2100 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -3862,7 +3862,7 @@
 	#define THIS_ENG_LENGTH1 \b4	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "ALCo-GE-IR Boxcab "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -3907,7 +3907,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "Class 66 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -3952,7 +3952,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "Class 67 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -3997,7 +3997,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "Dr12 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -4042,7 +4042,7 @@
 	#define THIS_ENG_LENGTH1 \b2	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "EMD GL8 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -4084,10 +4084,10 @@
 	#define THIS_ENG_ID_B \b*2007	
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
-	#define THIS_ENG_LENGTH1 \b0	
+	#define THIS_ENG_LENGTH1 \b1	
+	#define THIS_ENG_LENGTH2 \b1	
 	 	
-	 	
-		
+	#define THIS_ENG_BUNIT	
 	#define NAME_THIS_ENG "F3 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -4130,9 +4130,9 @@
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
 	#define THIS_ENG_LENGTH1 \b0	
+	#define THIS_ENG_LENGTH2 \b0	
 	 	
-	 	
-		
+	#define THIS_ENG_BUNIT	
 	#define NAME_THIS_ENG "Genesis "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -4177,7 +4177,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "GM-EMD-J16CW-AC "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -4222,7 +4222,7 @@
 	#define THIS_ENG_LENGTH1 \b1	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "MaK "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -4265,9 +4265,9 @@
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
 	#define THIS_ENG_LENGTH1 \b0	
+	#define THIS_ENG_LENGTH2 \b0	
 	 	
-	 	
-		
+	#define THIS_ENG_BUNIT	
 	#define NAME_THIS_ENG "MLW M420W "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -4312,7 +4312,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "NMBS 7800 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -4355,9 +4355,9 @@
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
 	#define THIS_ENG_LENGTH1 \b0	
+	#define THIS_ENG_LENGTH2 \b0	
 	 	
-	 	
-		
+	#define THIS_ENG_BUNIT	
 	#define NAME_THIS_ENG "SDP-40F "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -4400,9 +4400,9 @@
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
 	#define THIS_ENG_LENGTH1 \b0	
+	#define THIS_ENG_LENGTH2 \b0	
 	 	
-	 	
-		
+	#define THIS_ENG_BUNIT	
 	#define NAME_THIS_ENG "Sharknose "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -4447,7 +4447,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "TEP150 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -4492,7 +4492,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "V200 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -4537,7 +4537,7 @@
 	#define THIS_ENG_LENGTH1 \b1	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "WDM-2 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -4582,7 +4582,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "1044 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -4627,7 +4627,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "26000 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -4672,7 +4672,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "27000 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -4717,7 +4717,7 @@
 	#define THIS_ENG_LENGTH1 \b3	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "Ae 6-6 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -4762,7 +4762,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "Ce 4/4 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -4807,7 +4807,7 @@
 	#define THIS_ENG_LENGTH1 \b1	
 	#define THIS_ENG_LENGTH2 \b2	
 	#define THIS_ENG_LENGTH3 \b1	
-		
+	 	
 	#define NAME_THIS_ENG "MTAB Dm3 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -4852,7 +4852,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "Ds3 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -4897,7 +4897,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "DB Class 103 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -4942,7 +4942,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "E04 01 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -4987,7 +4987,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "E55200 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -5032,7 +5032,7 @@
 	#define THIS_ENG_LENGTH1 \b3	
 	#define THIS_ENG_LENGTH2 \b3	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "E646 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -5077,7 +5077,7 @@
 	#define THIS_ENG_LENGTH1 \b1	
 	#define THIS_ENG_LENGTH2 \b1	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "ET41 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -5122,7 +5122,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "HLE 13 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -5167,7 +5167,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	#define THIS_ENG_LENGTH2 \b0	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "IORE "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -5212,7 +5212,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "KZ2A "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -5257,7 +5257,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "Re460 'Lok 2000' "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -5302,7 +5302,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "Metrovic EM2 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -5347,7 +5347,7 @@
 	#define THIS_ENG_LENGTH1 \b1	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "NER EF1 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -5392,7 +5392,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "NS 1000 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -5437,7 +5437,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "NS 1600 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -5482,7 +5482,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "Sr1 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -5527,7 +5527,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "SS6 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -5572,7 +5572,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "SNCF 22000 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -5617,7 +5617,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	#define THIS_ENG_LENGTH2 \b0	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "VL15 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -5662,7 +5662,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "WCM-1 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -5707,7 +5707,7 @@
 	#define THIS_ENG_LENGTH1 \b1	
 	#define THIS_ENG_LENGTH2 \b4	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "Class 11B 0-8-2 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -5752,7 +5752,7 @@
 	#define THIS_ENG_LENGTH1 \b1	
 	#define THIS_ENG_LENGTH2 \b5	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "140C "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -5797,7 +5797,7 @@
 	#define THIS_ENG_LENGTH1 \b1	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "141TA "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -5842,7 +5842,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "150B "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -5887,7 +5887,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "6300 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -5932,7 +5932,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	#define THIS_ENG_LENGTH2 \b3	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "Gresley A4 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -5977,7 +5977,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "Big Boy "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -6022,7 +6022,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "Okz 32 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -6067,7 +6067,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	#define THIS_ENG_LENGTH2 \b2	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "Royal Hudson "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -6112,7 +6112,7 @@
 	#define THIS_ENG1_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG1 "C571 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -6157,7 +6157,7 @@
 	#define THIS_ENG2_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG2 "QJ "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -6202,7 +6202,7 @@
 	#define THIS_ENG3_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG3 "P36 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -6247,7 +6247,7 @@
 	#define THIS_ENG4_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG4 "SU250 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -6292,7 +6292,7 @@
 	#define THIS_ENG5_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG5 "Daylight "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -6337,7 +6337,7 @@
 	#define THIS_ENG6_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG6 "895 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -6382,7 +6382,7 @@
 	#define THIS_ENG7_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG7 "Garrafeta "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -6427,7 +6427,7 @@
 	#define THIS_ENG7_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG7 "BR 23 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -6472,7 +6472,7 @@
 	#define THIS_ENG8_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG8 "c5/6 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -6517,7 +6517,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	#define THIS_ENG_LENGTH2 \b3	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "Litera E "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -6562,7 +6562,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "VL22M "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -6607,7 +6607,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	#define THIS_ENG_LENGTH2 \b0	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "VL85 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -6652,7 +6652,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "ChME3 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -6697,7 +6697,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	#define THIS_ENG_LENGTH2 \b0	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "P36 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -6742,7 +6742,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "M62 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -6787,7 +6787,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	#define THIS_ENG_LENGTH2 \b2	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "DB class 52 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -6832,7 +6832,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "HZ Class 1141  "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -6877,7 +6877,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "Siemens ES64U 'Taurus' "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -6922,7 +6922,7 @@
 	#define THIS_ENG_LENGTH1 \b2	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "MAV Class M44 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -6967,7 +6967,7 @@
 	#define THIS_ENG_LENGTH1 \b1	
 	#define THIS_ENG_LENGTH2 \b3	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "4-6-0 'Ten Wheeler' "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -7012,7 +7012,7 @@
 	#define THIS_ENG_LENGTH1 \b2	
 	#define THIS_ENG_LENGTH2 \b3	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "4-4-0 'American' "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -7057,7 +7057,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "KkStB Class 229 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -7102,7 +7102,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	#define THIS_ENG_LENGTH2 \b2	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "GWR Class 4900 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -7147,7 +7147,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	#define THIS_ENG_LENGTH2 \b0	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "EF500 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -7192,7 +7192,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "EF55 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -7237,7 +7237,7 @@
 	#define THIS_ENG_LENGTH1 \b2	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "NSB El10 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -7282,7 +7282,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "EF64 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -7327,7 +7327,7 @@
 	#define THIS_ENG_LENGTH1 \b2	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "NSB El7 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -7372,7 +7372,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "Class 1020 'Crocodile' "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -7417,7 +7417,7 @@
 	#define THIS_ENG_LENGTH1 \b1	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "CR Class 439 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -7462,7 +7462,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "NZR X Class "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -7507,7 +7507,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	#define THIS_ENG_LENGTH2 \b2	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "2-8-0 Consolidation "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -7552,7 +7552,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "CFR 060-DA "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -7597,7 +7597,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "TRAXX F140 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -7642,7 +7642,7 @@
 	#define THIS_ENG_LENGTH1 \b2	
 	#define THIS_ENG_LENGTH2 \b2	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "EMD DDA40X "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -7687,7 +7687,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "CP1900 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -7732,7 +7732,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "6K "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -7777,7 +7777,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "ML4000 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -7822,7 +7822,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "Vossloh G2000-3 BB "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -7867,7 +7867,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "TEP80 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -7912,7 +7912,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "G22W "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -7957,7 +7957,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "GE U20C "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -8002,7 +8002,7 @@
 	#define THIS_ENG_LENGTH1 \b1	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "Alco RS3 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -8047,7 +8047,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "AN Class "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -8092,7 +8092,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "TEP60 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -8137,7 +8137,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "FL9 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -8182,7 +8182,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "BR Class 92 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -8227,7 +8227,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "FS Class e428 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -8272,7 +8272,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	#define THIS_ENG_LENGTH2 \b4	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "Prussian S.10 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -8317,7 +8317,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	#define THIS_ENG_LENGTH2 \b0	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "GT1 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -8362,7 +8362,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	#define THIS_ENG_LENGTH2 \b3	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "SAR Class 25 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -8407,7 +8407,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "Korail 8200 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -8452,7 +8452,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "HXN5 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -8497,7 +8497,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "RNFE Class 252 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -8542,7 +8542,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "HZ Class 2062 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -8587,7 +8587,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	#define THIS_ENG_LENGTH2 \b3	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "LMS 5MT 'Black Five' "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -8632,7 +8632,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "DE43CA 'Prima' "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -8677,7 +8677,7 @@
 	#define THIS_ENG_LENGTH1 \b3	
 	#define THIS_ENG_LENGTH2 \b3	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "Pennsylvania Railroad GG1 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -8722,7 +8722,7 @@
 	#define THIS_ENG_LENGTH1 \b3	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "Ec 2/5 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -8767,7 +8767,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	#define THIS_ENG_LENGTH2 \b4	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "A 3/5 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -8812,7 +8812,7 @@
 	#define THIS_ENG_LENGTH1 \b3	
 	#define THIS_ENG_LENGTH2 \b3	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "Milwaukee Road EP-2 Bipolar "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -8857,7 +8857,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "CPR 'Trainmaster' "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -8902,7 +8902,7 @@
 	#define THIS_ENG_LENGTH1 \b3	
 	#define THIS_ENG_LENGTH2 \b3	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "Pennsylvania Railroad FF1 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -8947,7 +8947,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "Am 4/6 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -8992,7 +8992,7 @@
 	#define THIS_ENG_LENGTH1 \b2	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "KkStB Class 99 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -9037,7 +9037,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	#define THIS_ENG_LENGTH2 \b3	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "Class A1 'Peppercorn' "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -9082,7 +9082,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "BR Class 67 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -9127,7 +9127,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "DFH3 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -9172,7 +9172,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "Class 6E "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -9217,7 +9217,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "AFE Class 1500 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -9262,7 +9262,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "SNCF BB9004 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -9307,7 +9307,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	#define THIS_ENG_LENGTH2 \b2	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "AT&SF 5000 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -9352,7 +9352,7 @@
 	#define THIS_ENG_LENGTH1 \b4	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "MAV M28 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -9397,7 +9397,7 @@
 	#define THIS_ENG_LENGTH1 \b4	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "NS 600 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -9442,7 +9442,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "Series E-28 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -9487,7 +9487,7 @@
 	#define THIS_ENG_LENGTH1 \b1	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "Panama Canal F40PH "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -9530,9 +9530,9 @@
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
 	#define THIS_ENG_LENGTH1 \b0	
+	#define THIS_ENG_LENGTH2 \b0	
 	 	
-	 	
-		
+	#define THIS_ENG_BUNIT	
 	#define NAME_THIS_ENG "EMD E8 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -9574,10 +9574,10 @@
 	#define THIS_ENG_ID_B \b*2129	
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
-	#define THIS_ENG_LENGTH1 \b0	
+	#define THIS_ENG_LENGTH1 \b1	
+	#define THIS_ENG_LENGTH2 \b1	
 	 	
-	 	
-		
+	#define THIS_ENG_BUNIT	
 	#define NAME_THIS_ENG "EMD FP9 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -9622,7 +9622,7 @@
 	#define THIS_ENG_LENGTH1 \b1	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "Le Belge "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -9667,7 +9667,7 @@
 	#define THIS_ENG_LENGTH1 \b3	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "OBB 1161 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -9712,7 +9712,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "Gravita 10BB "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -9757,7 +9757,7 @@
 	#define THIS_ENG_LENGTH1 \b2	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "BR Class 14 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -9802,7 +9802,7 @@
 	#define THIS_ENG_LENGTH1 \b4	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "NS 200 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -9847,7 +9847,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "VL41 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -9892,7 +9892,7 @@
 	#define THIS_ENG_LENGTH1 \b2	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "TCDD DH7000 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -9937,7 +9937,7 @@
 	#define THIS_ENG_LENGTH1 \b2	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "Hz Class 51 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -9982,7 +9982,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "Dr16 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -10027,7 +10027,7 @@
 	#define THIS_ENG_LENGTH1 \b2	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "SBB E 3-3 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -10072,7 +10072,7 @@
 	#define THIS_ENG_LENGTH1 \b2	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "MAV Class 377 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -10117,7 +10117,7 @@
 	#define THIS_ENG_LENGTH1 \b2	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "SW1200 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -10162,7 +10162,7 @@
 	#define THIS_ENG_LENGTH1 \b2	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "SJ V4 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -10207,7 +10207,7 @@
 	#define THIS_ENG_LENGTH1 \b2	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "ALCO S-2 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -10252,7 +10252,7 @@
 	#define THIS_ENG_LENGTH1 \b3	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "NMBS/SNCB Class_83 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -10297,7 +10297,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "SAR Class ES "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -10342,7 +10342,7 @@
 	#define THIS_ENG_LENGTH1 \b2	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "DB Class 169 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -10387,7 +10387,7 @@
 	#define THIS_ENG_LENGTH1 \b3	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "DB Class_270 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -10432,7 +10432,7 @@
 	#define THIS_ENG_LENGTH1 \b3	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "NSWGR 79 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -10477,7 +10477,7 @@
 	#define THIS_ENG_LENGTH1 \b2	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "ChME2 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -10522,7 +10522,7 @@
 	#define THIS_ENG_LENGTH1 \b3	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "Class 08 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -10567,7 +10567,7 @@
 	#define THIS_ENG_LENGTH1 \b3	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "SBB Eem 923 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -10612,7 +10612,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "OBB 1063 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -10657,7 +10657,7 @@
 	#define THIS_ENG_LENGTH1 \b3	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "OBB 2060 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -10702,7 +10702,7 @@
 	#define THIS_ENG_LENGTH1 \b3	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "RhB De 2/2 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -10747,7 +10747,7 @@
 	#define THIS_ENG_LENGTH1 \b4	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "Kof II "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -10792,7 +10792,7 @@
 	#define THIS_ENG_LENGTH1 \b3	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "EB10 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -10837,7 +10837,7 @@
 	#define THIS_ENG_LENGTH1 \b2	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "FS_Class_880 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -10882,7 +10882,7 @@
 	#define THIS_ENG_LENGTH1 \b2	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "Milwaukee Road ES-2 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -10927,7 +10927,7 @@
 	#define THIS_ENG_LENGTH1 \b2	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "9P "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
@@ -10972,7 +10972,7 @@
 	#define THIS_ENG_LENGTH1 \b2	
 	 	
 	 	
-		
+	 	
 	#define NAME_THIS_ENG "GWR_Class_5700 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
