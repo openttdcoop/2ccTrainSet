@@ -189,6 +189,12 @@
 
 #include TEMPLATE_COSTS_PLIST
 
+#ifdef THIS_ENG_BUNIT // Set gfx if it is a "b-unit"-capable engine
+  -1 * 0  02 00 10 81 40 00 FF 01 // Check entire consist
+                      40 00 01 FF // B-unit gfx if its not first unit in consist
+                      10 00       // Front unit if not
+#endif                    
+
 // --------------------
 // ------ Engine ------
 // --------------------
