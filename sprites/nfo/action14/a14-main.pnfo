@@ -3,7 +3,7 @@
                 "B" "NPAR" \w1 \b03                 // Number of parameters
                 "B" "PALS" \w1 "W"                  // Windows palette
                 "B" "VRSN" \w4 \d{{REPO_REVISION}}  // GRF version
-                "B" "MINV" \w4 \d300
+                "B" "MINV" \w4 \d727
                 00
             00
 
