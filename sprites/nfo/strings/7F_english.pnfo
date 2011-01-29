@@ -50,7 +50,7 @@
 #define STR_ER_MUONLYONMU   "Multiple Unit Wagons can only be attached to Multiple Unit Trains"
 #define STR_ER_CSLOBONLY    "Use only long boxcars on CargoSprinter"
 #define STR_ER_ONLYMU       "Use Only Multiple Unit Wagons"
-#define STR_ER_NORAILCARS   "Railcars cant be attached to engines"
+#define STR_ER_NORAILCARS   "Railcars can't be attached to engines"
 #define STR_ER_METROONLYONMETRO   "Multiple Unit Wagons can only be attached to Multiple Unit Trains"
 
 // =================================
@@ -74,8 +74,8 @@
 #define A14_PARAM1_VALU4 "Quadruple (4x)"
 
 #define A14_PARAM2_NAME  "Wagon running cost behavior"
-#define A14_PARAM2_DISC  "Wagons have by default a 'Design speed'. This can either" "\n" "be the max speed of this wagon, or wagons can be pulled faster." "\n" "But the running cost will increase" "\n" "If disabled, playing the game with 'Enable wagon speed limits' is recomended"
-#define A14_PARAM2_VALU0 "Can run faster then design" 
+#define A14_PARAM2_DISC  "Wagons have by default a 'Design speed'. This can either" "\n" "be the max speed of this wagon, or wagons can be pulled faster." "\n" "But the running cost will increase" "\n" "If disabled, playing the game with 'Enable wagon speed limits' is recommended"
+#define A14_PARAM2_VALU0 "Can run faster than design" 
 #define A14_PARAM2_VALU1 "Disable this function"
 
 // Wagon Names
