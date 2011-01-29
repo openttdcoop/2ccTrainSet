@@ -2691,7 +2691,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
-	#define NAME_THIS_ENG "RNFE Class 120 "	
+	#define NAME_THIS_ENG "RENFE Class 120 "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -5393,7 +5393,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "422 "	
+	#define NAME_THIS_ENG "NSWGR 422 class "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -5528,7 +5528,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "2100 "	
+	#define NAME_THIS_ENG " Queensland Rail 2100 class "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -7058,7 +7058,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "E04 01 "	
+	#define NAME_THIS_ENG "DRG E04 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -8048,7 +8048,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "1044 "	
+	#define NAME_THIS_ENG "OBB 1044 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -8408,7 +8408,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "26000 "	
+	#define NAME_THIS_ENG "SNCF 26000 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -8723,7 +8723,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "HLE 13 "	
+	#define NAME_THIS_ENG "SNCB Class 13 'HLE' "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -8768,7 +8768,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "E55200 "	
+	#define NAME_THIS_ENG "E55500 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -8993,7 +8993,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "KZ2A "	
+	#define NAME_THIS_ENG "KZ4A "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -10253,7 +10253,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "GWR_Class_5700 "	
+	#define NAME_THIS_ENG "GWR Class_5700 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
