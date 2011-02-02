@@ -21,8 +21,8 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b55	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33684	
-	#define THIS_ENG_RCOST \w34063	
+	#define THIS_ENG_PCOST \w33921	
+	#define THIS_ENG_RCOST \w34175	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/SilverCityComet.png	
@@ -32,8 +32,8 @@
 	#define THIS_ENG_ID_B \b*24860	
 	#define STR_W_THIS_ENG \wxD1AD	
 	#define THIS_ENG_STR_B \wx81AD	
-	#define THIS_ENG_LENGTH1 \b2	
-	#define THIS_ENG_LENGTH2 \b2	
+	#define THIS_ENG_LENGTH1 \b1	
+	#define THIS_ENG_LENGTH2 \b1	
 		
 	#define THIS_ENG_TYPE ENGINESTYLE_EMU	
 	#define NAME_THIS_ENG "Silver City Comet "	
@@ -66,9 +66,9 @@
 	#define THIS_ENG_ARMOR_LS \b4	
 	#define THIS_ENG_WEIGHT \b42	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32969	
-	#define THIS_ENG_RCOST \w32806	
-	#define THIS_ENG_RCOST_WAG \w32806	
+	#define THIS_ENG_PCOST \w32995	
+	#define THIS_ENG_RCOST \w32810	
+	#define THIS_ENG_RCOST_WAG \w32810	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/m131.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
@@ -111,9 +111,9 @@
 	#define THIS_ENG_ARMOR_LS \b4	
 	#define THIS_ENG_WEIGHT \b42	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33509	
-	#define THIS_ENG_RCOST \w32920	
-	#define THIS_ENG_RCOST_WAG \w32920	
+	#define THIS_ENG_PCOST \w33785	
+	#define THIS_ENG_RCOST \w32934	
+	#define THIS_ENG_RCOST_WAG \w32934	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/db_class_608.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
@@ -156,9 +156,9 @@
 	#define THIS_ENG_ARMOR_LS \b4	
 	#define THIS_ENG_WEIGHT \b43	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33140	
-	#define THIS_ENG_RCOST \w32839	
-	#define THIS_ENG_RCOST_WAG \w32839	
+	#define THIS_ENG_PCOST \w33248	
+	#define THIS_ENG_RCOST \w32845	
+	#define THIS_ENG_RCOST_WAG \w32845	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/class_400.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
@@ -201,9 +201,9 @@
 	#define THIS_ENG_ARMOR_LS \b4	
 	#define THIS_ENG_WEIGHT \b40	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33275	
-	#define THIS_ENG_RCOST \w32867	
-	#define THIS_ENG_RCOST_WAG \w32867	
+	#define THIS_ENG_PCOST \w33409	
+	#define THIS_ENG_RCOST \w32875	
+	#define THIS_ENG_RCOST_WAG \w32875	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/aln668.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
@@ -246,9 +246,9 @@
 	#define THIS_ENG_ARMOR_LS \b4	
 	#define THIS_ENG_WEIGHT \b33	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33659	
-	#define THIS_ENG_RCOST \w32953	
-	#define THIS_ENG_RCOST_WAG \w32953	
+	#define THIS_ENG_PCOST \w33993	
+	#define THIS_ENG_RCOST \w32971	
+	#define THIS_ENG_RCOST_WAG \w32971	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/DB_Class_601.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
@@ -291,8 +291,8 @@
 	#define THIS_ENG_ARMOR_LS \b4	
 	#define THIS_ENG_WEIGHT \b40	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w34416	
-	#define THIS_ENG_RCOST \w35247	
+	#define THIS_ENG_PCOST \w35357	
+	#define THIS_ENG_RCOST \w35475	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 6	
 	#define THIS_ENG_GFX  sprites/gfx/CNR_Turbo_Train.png	
@@ -336,9 +336,9 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b55	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33359	
-	#define THIS_ENG_RCOST \w32891	
-	#define THIS_ENG_RCOST_WAG \w32891	
+	#define THIS_ENG_PCOST \w33651	
+	#define THIS_ENG_RCOST \w32901	
+	#define THIS_ENG_RCOST_WAG \w32901	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/811.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
@@ -381,8 +381,8 @@
 	#define THIS_ENG_ARMOR_LS \b4	
 	#define THIS_ENG_WEIGHT \b70	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w34330	
-	#define THIS_ENG_RCOST \w35003	
+	#define THIS_ENG_PCOST \w35293	
+	#define THIS_ENG_RCOST \w35227	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 6	
 	#define THIS_ENG_GFX  sprites/gfx/ic125.png	
@@ -426,8 +426,8 @@
 	#define THIS_ENG_ARMOR_LS \b4	
 	#define THIS_ENG_WEIGHT \b65	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w34192	
-	#define THIS_ENG_RCOST \w34724	
+	#define THIS_ENG_PCOST \w35087	
+	#define THIS_ENG_RCOST \w34916	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 6	
 	#define THIS_ENG_GFX  sprites/gfx/lrc.png	
@@ -471,9 +471,9 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b34	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33398	
-	#define THIS_ENG_RCOST \w32892	
-	#define THIS_ENG_RCOST_WAG \w32892	
+	#define THIS_ENG_PCOST \w33685	
+	#define THIS_ENG_RCOST \w32904	
+	#define THIS_ENG_RCOST_WAG \w32904	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/nogfx.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
@@ -516,9 +516,9 @@
 	#define THIS_ENG_ARMOR_LS \b4	
 	#define THIS_ENG_WEIGHT \b32	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33853	
-	#define THIS_ENG_RCOST \w32998	
-	#define THIS_ENG_RCOST_WAG \w32998	
+	#define THIS_ENG_PCOST \w34414	
+	#define THIS_ENG_RCOST \w33020	
+	#define THIS_ENG_RCOST_WAG \w33020	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 6	
 	#define THIS_ENG_GFX  sprites/gfx/y2.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
@@ -561,9 +561,9 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b37	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33608	
-	#define THIS_ENG_RCOST \w32940	
-	#define THIS_ENG_RCOST_WAG \w32940	
+	#define THIS_ENG_PCOST \w34102	
+	#define THIS_ENG_RCOST \w32955	
+	#define THIS_ENG_RCOST_WAG \w32955	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/nogfx.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
@@ -606,9 +606,9 @@
 	#define THIS_ENG_ARMOR_LS \b4	
 	#define THIS_ENG_WEIGHT \b30	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33524	
-	#define THIS_ENG_RCOST \w32923	
-	#define THIS_ENG_RCOST_WAG \w32923	
+	#define THIS_ENG_PCOST \w33890	
+	#define THIS_ENG_RCOST \w32939	
+	#define THIS_ENG_RCOST_WAG \w32939	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/nogfx.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
@@ -651,9 +651,9 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b49	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33693	
-	#define THIS_ENG_RCOST \w32962	
-	#define THIS_ENG_RCOST_WAG \w32962	
+	#define THIS_ENG_PCOST \w34243	
+	#define THIS_ENG_RCOST \w32979	
+	#define THIS_ENG_RCOST_WAG \w32979	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/594.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
@@ -696,9 +696,9 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b50	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33726	
-	#define THIS_ENG_RCOST \w32970	
-	#define THIS_ENG_RCOST_WAG \w32970	
+	#define THIS_ENG_PCOST \w34519	
+	#define THIS_ENG_RCOST \w32989	
+	#define THIS_ENG_RCOST_WAG \w32989	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/br168.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
@@ -741,9 +741,9 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b58	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33742	
-	#define THIS_ENG_RCOST \w32972	
-	#define THIS_ENG_RCOST_WAG \w32972	
+	#define THIS_ENG_PCOST \w34740	
+	#define THIS_ENG_RCOST \w32991	
+	#define THIS_ENG_RCOST_WAG \w32991	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/vt612.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
@@ -786,9 +786,9 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b60	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33355	
-	#define THIS_ENG_RCOST \w32890	
-	#define THIS_ENG_RCOST_WAG \w32890	
+	#define THIS_ENG_PCOST \w33545	
+	#define THIS_ENG_RCOST \w32900	
+	#define THIS_ENG_RCOST_WAG \w32900	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/desiro_dmu.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
@@ -831,9 +831,9 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b29	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33524	
-	#define THIS_ENG_RCOST \w32919	
-	#define THIS_ENG_RCOST_WAG \w32919	
+	#define THIS_ENG_PCOST \w33899	
+	#define THIS_ENG_RCOST \w32932	
+	#define THIS_ENG_RCOST_WAG \w32932	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/bm93.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
@@ -876,9 +876,9 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b31	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33361	
-	#define THIS_ENG_RCOST \w32884	
-	#define THIS_ENG_RCOST_WAG \w32884	
+	#define THIS_ENG_PCOST \w33616	
+	#define THIS_ENG_RCOST \w32894	
+	#define THIS_ENG_RCOST_WAG \w32894	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/lint41.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
@@ -921,9 +921,9 @@
 	#define THIS_ENG_ARMOR_LS \b4	
 	#define THIS_ENG_WEIGHT \b33	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w34032	
-	#define THIS_ENG_RCOST \w33043	
-	#define THIS_ENG_RCOST_WAG \w33043	
+	#define THIS_ENG_PCOST \w34769	
+	#define THIS_ENG_RCOST \w33067	
+	#define THIS_ENG_RCOST_WAG \w33067	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 6	
 	#define THIS_ENG_GFX  sprites/gfx/Transwa_Prospector.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
@@ -966,9 +966,9 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b30	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33688	
-	#define THIS_ENG_RCOST \w32957	
-	#define THIS_ENG_RCOST_WAG \w32957	
+	#define THIS_ENG_PCOST \w34205	
+	#define THIS_ENG_RCOST \w32973	
+	#define THIS_ENG_RCOST_WAG \w32973	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/hunter.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
@@ -1011,9 +1011,9 @@
 	#define THIS_ENG_ARMOR_LS \b4	
 	#define THIS_ENG_WEIGHT \b36	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w34049	
-	#define THIS_ENG_RCOST \w33047	
-	#define THIS_ENG_RCOST_WAG \w33047	
+	#define THIS_ENG_PCOST \w34867	
+	#define THIS_ENG_RCOST \w33072	
+	#define THIS_ENG_RCOST_WAG \w33072	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 6	
 	#define THIS_ENG_GFX  sprites/gfx/IC4.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
@@ -1056,9 +1056,9 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b38	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33729	
-	#define THIS_ENG_RCOST \w32965	
-	#define THIS_ENG_RCOST_WAG \w32965	
+	#define THIS_ENG_PCOST \w34578	
+	#define THIS_ENG_RCOST \w32983	
+	#define THIS_ENG_RCOST_WAG \w32983	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/koncar.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
@@ -1101,9 +1101,9 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b38	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33689	
-	#define THIS_ENG_RCOST \w32959	
-	#define THIS_ENG_RCOST_WAG \w32959	
+	#define THIS_ENG_PCOST \w34228	
+	#define THIS_ENG_RCOST \w32976	
+	#define THIS_ENG_RCOST_WAG \w32976	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/cd.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
@@ -1146,9 +1146,9 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b30	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33324	
-	#define THIS_ENG_RCOST \w32839	
-	#define THIS_ENG_RCOST_WAG \w32839	
+	#define THIS_ENG_PCOST \w33587	
+	#define THIS_ENG_RCOST \w32845	
+	#define THIS_ENG_RCOST_WAG \w32845	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/mat24.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
@@ -1191,9 +1191,9 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b73	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33168	
-	#define THIS_ENG_RCOST \w32827	
-	#define THIS_ENG_RCOST_WAG \w32827	
+	#define THIS_ENG_PCOST \w33382	
+	#define THIS_ENG_RCOST \w32832	
+	#define THIS_ENG_RCOST_WAG \w32832	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 1	
 	#define THIS_ENG_GFX  sprites/gfx/4041.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
@@ -1236,9 +1236,9 @@
 	#define THIS_ENG_ARMOR_LS \b4	
 	#define THIS_ENG_WEIGHT \b31	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33116	
-	#define THIS_ENG_RCOST \w32810	
-	#define THIS_ENG_RCOST_WAG \w32810	
+	#define THIS_ENG_PCOST \w33319	
+	#define THIS_ENG_RCOST \w32814	
+	#define THIS_ENG_RCOST_WAG \w32814	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 1	
 	#define THIS_ENG_GFX  sprites/gfx/ecd21-30.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
@@ -1281,9 +1281,9 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b45	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33523	
-	#define THIS_ENG_RCOST \w32870	
-	#define THIS_ENG_RCOST_WAG \w32870	
+	#define THIS_ENG_PCOST \w33822	
+	#define THIS_ENG_RCOST \w32879	
+	#define THIS_ENG_RCOST_WAG \w32879	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/mat36.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
@@ -1326,9 +1326,9 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b38	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33102	
-	#define THIS_ENG_RCOST \w32809	
-	#define THIS_ENG_RCOST_WAG \w32809	
+	#define THIS_ENG_PCOST \w33323	
+	#define THIS_ENG_RCOST \w32813	
+	#define THIS_ENG_RCOST_WAG \w32813	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 1	
 	#define THIS_ENG_GFX  sprites/gfx/bm65.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
@@ -1350,13 +1350,13 @@
 
 #define THIS_ENG_CODE YES	
 	#ifdef THIS_ENG_CODE	
-	#define THIS_ENG_INTROYEAR \d1961-1-1	
+	#define THIS_ENG_INTROYEAR \d1952-1-1	
 	#define THIS_ENG_V_LIFE \b25	
 	#define THIS_ENG_M_LIFE \b25	
 	#define THIS_ENG_SPEED \w160	
 	#define THIS_ENG_TE \b94	
-	#define THIS_ENG_HP \w425	
-	#define THIS_ENG_WAG_HP \w425	
+	#define THIS_ENG_HP \w500	
+	#define THIS_ENG_WAG_HP \w500	
 	#define THIS_ENG_CAP_WAG_PAX \b60	
 	#define THIS_ENG_CAP_WAG_MAIL \b45	
 	#define THIS_ENG_CAP_WAG_ARMOR \b30	
@@ -1371,9 +1371,54 @@
 	#define THIS_ENG_ARMOR_LS \b4	
 	#define THIS_ENG_WEIGHT \b52	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33848	
-	#define THIS_ENG_RCOST \w32921	
-	#define THIS_ENG_RCOST_WAG \w32921	
+	#define THIS_ENG_PCOST \w34364	
+	#define THIS_ENG_RCOST \w32936	
+	#define THIS_ENG_RCOST_WAG \w32936	
+	#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
+	#define THIS_ENG_GFX  sprites/gfx/settebello.png	
+	#define THIS_ENG_TRACTION_TYPE 28	
+	#define THIS_ENG_MISC 6	
+	#define THIS_ENG_ID_W \w33223	
+	#define THIS_ENG_ID_B \b*33223	
+	#define STR_W_THIS_ENG \wxD23C	
+	#define THIS_ENG_STR_B \wx823C	
+	#define THIS_ENG_LENGTH1 \b0	
+	#define THIS_ENG_LENGTH2 \b0	
+		
+	#define THIS_ENG_TYPE NORMAL_EMU	
+	#define NAME_THIS_ENG "ETR300 'Settebello' "	
+	#include TEMPLATE_MUS	
+	#undef THIS_ENG_CODE	
+	#endif	
+	#include TEMPLATE_UNDEF	
+	
+
+#define THIS_ENG_CODE YES	
+	#ifdef THIS_ENG_CODE	
+	#define THIS_ENG_INTROYEAR \d1961-1-1	
+	#define THIS_ENG_V_LIFE \b25	
+	#define THIS_ENG_M_LIFE \b25	
+	#define THIS_ENG_SPEED \w160	
+	#define THIS_ENG_TE \b66	
+	#define THIS_ENG_HP \w425	
+	#define THIS_ENG_WAG_HP \w425	
+	#define THIS_ENG_CAP_WAG_PAX \b60	
+	#define THIS_ENG_CAP_WAG_MAIL \b45	
+	#define THIS_ENG_CAP_WAG_ARMOR \b30	
+	#define THIS_ENG_CAP_WAG_PAX_STR "60"	
+	#define THIS_ENG_CAP_WAG_MAIL_STR "45"	
+	#define THIS_ENG_CAP_WAG_ARMOR_STR "30"	
+	#define THIS_ENG_CAP_HEAD_PAX \b60	
+	#define THIS_ENG_CAP_HEAD_MAIL \b45	
+	#define THIS_ENG_CAP_HEAD_ARMOR \b30	
+	#define THIS_ENG_PAX_LS \b8	
+	#define THIS_ENG_MAIL_LS \b6	
+	#define THIS_ENG_ARMOR_LS \b4	
+	#define THIS_ENG_WEIGHT \b47	
+	#define THIS_ENG_WEIGHT_HIGH \b0	
+	#define THIS_ENG_PCOST \w34309	
+	#define THIS_ENG_RCOST \w32933	
+	#define THIS_ENG_RCOST_WAG \w32933	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/Rae_TEE_II.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
@@ -1416,9 +1461,9 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b47	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33372	
-	#define THIS_ENG_RCOST \w32850	
-	#define THIS_ENG_RCOST_WAG \w32850	
+	#define THIS_ENG_PCOST \w33465	
+	#define THIS_ENG_RCOST \w32857	
+	#define THIS_ENG_RCOST_WAG \w32857	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/Odakyu_3100_Series_Romance.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
@@ -1461,9 +1506,9 @@
 	#define THIS_ENG_ARMOR_LS \b4	
 	#define THIS_ENG_WEIGHT \b54	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w34445	
-	#define THIS_ENG_RCOST \w33017	
-	#define THIS_ENG_RCOST_WAG \w33017	
+	#define THIS_ENG_PCOST \w35739	
+	#define THIS_ENG_RCOST \w33040	
+	#define THIS_ENG_RCOST_WAG \w33040	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 7	
 	#define THIS_ENG_GFX  sprites/gfx/shinkansen0.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
@@ -1506,9 +1551,9 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b56	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33566	
-	#define THIS_ENG_RCOST \w32876	
-	#define THIS_ENG_RCOST_WAG \w32876	
+	#define THIS_ENG_PCOST \w34204	
+	#define THIS_ENG_RCOST \w32887	
+	#define THIS_ENG_RCOST_WAG \w32887	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/radbe510.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
@@ -1551,9 +1596,9 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b45	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33289	
-	#define THIS_ENG_RCOST \w32837	
-	#define THIS_ENG_RCOST_WAG \w32837	
+	#define THIS_ENG_PCOST \w33369	
+	#define THIS_ENG_RCOST \w32842	
+	#define THIS_ENG_RCOST_WAG \w32842	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/S-tog_II.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
@@ -1578,7 +1623,7 @@
 	#define THIS_ENG_INTROYEAR \d1969-1-1	
 	#define THIS_ENG_V_LIFE \b25	
 	#define THIS_ENG_M_LIFE \b20	
-	#define THIS_ENG_SPEED \w120	
+	#define THIS_ENG_SPEED \w125	
 	#define THIS_ENG_TE \b81	
 	#define THIS_ENG_HP \w1000	
 	#define THIS_ENG_WAG_HP \w1000	
@@ -1596,10 +1641,10 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b46	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33514	
-	#define THIS_ENG_RCOST \w32866	
-	#define THIS_ENG_RCOST_WAG \w32866	
-	#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
+	#define THIS_ENG_PCOST \w34169	
+	#define THIS_ENG_RCOST \w32882	
+	#define THIS_ENG_RCOST_WAG \w32882	
+	#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/et420.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
 	#define THIS_ENG_MISC 6	
@@ -1608,7 +1653,7 @@
 	#define STR_W_THIS_ENG \wxD2CC	
 	#define THIS_ENG_STR_B \wx82CC	
 	#define THIS_ENG_LENGTH1 \b0	
-	#define THIS_ENG_LENGTH2 \b2	
+	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
 	#define NAME_THIS_ENG "ET 420 "	
@@ -1641,9 +1686,9 @@
 	#define THIS_ENG_ARMOR_LS \b4	
 	#define THIS_ENG_WEIGHT \b68	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33458	
-	#define THIS_ENG_RCOST \w32861	
-	#define THIS_ENG_RCOST_WAG \w32861	
+	#define THIS_ENG_PCOST \w34064	
+	#define THIS_ENG_RCOST \w32870	
+	#define THIS_ENG_RCOST_WAG \w32870	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/cityrail_v.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
@@ -1653,7 +1698,7 @@
 	#define STR_W_THIS_ENG \wxD270	
 	#define THIS_ENG_STR_B \wx8270	
 	#define THIS_ENG_LENGTH1 \b0	
-	#define THIS_ENG_LENGTH2 \b2	
+	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
 	#define NAME_THIS_ENG "CityRail V "	
@@ -1686,9 +1731,9 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b53	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33527	
-	#define THIS_ENG_RCOST \w32871	
-	#define THIS_ENG_RCOST_WAG \w32871	
+	#define THIS_ENG_PCOST \w33869	
+	#define THIS_ENG_RCOST \w32880	
+	#define THIS_ENG_RCOST_WAG \w32880	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/plany.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
@@ -1698,7 +1743,7 @@
 	#define STR_W_THIS_ENG \wxD2C2	
 	#define THIS_ENG_STR_B \wx82C2	
 	#define THIS_ENG_LENGTH1 \b0	
-	#define THIS_ENG_LENGTH2 \b2	
+	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
 	#define NAME_THIS_ENG "Plan Y "	
@@ -1731,9 +1776,9 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b38	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33470	
-	#define THIS_ENG_RCOST \w32860	
-	#define THIS_ENG_RCOST_WAG \w32860	
+	#define THIS_ENG_PCOST \w33713	
+	#define THIS_ENG_RCOST \w32868	
+	#define THIS_ENG_RCOST_WAG \w32868	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/sm2.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
@@ -1743,7 +1788,7 @@
 	#define STR_W_THIS_ENG \wxD2C6	
 	#define THIS_ENG_STR_B \wx82C6	
 	#define THIS_ENG_LENGTH1 \b0	
-	#define THIS_ENG_LENGTH2 \b2	
+	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
 	#define NAME_THIS_ENG "Sm2 "	
@@ -1776,9 +1821,9 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b49	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33862	
-	#define THIS_ENG_RCOST \w32922	
-	#define THIS_ENG_RCOST_WAG \w32922	
+	#define THIS_ENG_PCOST \w34415	
+	#define THIS_ENG_RCOST \w32936	
+	#define THIS_ENG_RCOST_WAG \w32936	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/icm.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
@@ -1788,7 +1833,7 @@
 	#define STR_W_THIS_ENG \wxD2BD	
 	#define THIS_ENG_STR_B \wx82BD	
 	#define THIS_ENG_LENGTH1 \b0	
-	#define THIS_ENG_LENGTH2 \b2	
+	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
 	#define NAME_THIS_ENG "ICM "	
@@ -1821,8 +1866,8 @@
 	#define THIS_ENG_ARMOR_LS \b4	
 	#define THIS_ENG_WEIGHT \b38	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w35534	
-	#define THIS_ENG_RCOST \w35332	
+	#define THIS_ENG_PCOST \w38155	
+	#define THIS_ENG_RCOST \w35583	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 8	
 	#define THIS_ENG_GFX  sprites/gfx/tgv-a.png	
@@ -1866,9 +1911,9 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b35	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33703	
-	#define THIS_ENG_RCOST \w32893	
-	#define THIS_ENG_RCOST_WAG \w32893	
+	#define THIS_ENG_PCOST \w34391	
+	#define THIS_ENG_RCOST \w32904	
+	#define THIS_ENG_RCOST_WAG \w32904	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/rbde560.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
@@ -1911,9 +1956,9 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b35	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33468	
-	#define THIS_ENG_RCOST \w32857	
-	#define THIS_ENG_RCOST_WAG \w32857	
+	#define THIS_ENG_PCOST \w34307	
+	#define THIS_ENG_RCOST \w32865	
+	#define THIS_ENG_RCOST_WAG \w32865	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/Odakyu_10000_Series_Romance.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
@@ -1956,8 +2001,8 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b66	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33595	
-	#define THIS_ENG_RCOST \w33504	
+	#define THIS_ENG_PCOST \w33868	
+	#define THIS_ENG_RCOST \w33564	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/bdvmot.png	
@@ -2001,8 +2046,8 @@
 	#define THIS_ENG_ARMOR_LS \b4	
 	#define THIS_ENG_WEIGHT \b50	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w34739	
-	#define THIS_ENG_RCOST \w34635	
+	#define THIS_ENG_PCOST \w35948	
+	#define THIS_ENG_RCOST \w34811	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 7	
 	#define THIS_ENG_GFX  sprites/gfx/x2000.png	
@@ -2013,7 +2058,7 @@
 	#define STR_W_THIS_ENG \wxD12A	
 	#define THIS_ENG_STR_B \wx812A	
 	#define THIS_ENG_LENGTH1 \b0	
-	#define THIS_ENG_LENGTH2 \b2	
+	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE ENGINESTYLE_EMU	
 	#define NAME_THIS_ENG "X2000 "	
@@ -2046,8 +2091,8 @@
 	#define THIS_ENG_ARMOR_LS \b4	
 	#define THIS_ENG_WEIGHT \b41	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w37164	
-	#define THIS_ENG_RCOST \w36882	
+	#define THIS_ENG_PCOST \w43459	
+	#define THIS_ENG_RCOST \w37290	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 8	
 	#define THIS_ENG_GFX  sprites/gfx/eurostar.png	
@@ -2091,8 +2136,8 @@
 	#define THIS_ENG_ARMOR_LS \b4	
 	#define THIS_ENG_WEIGHT \b54	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w35933	
-	#define THIS_ENG_RCOST \w35691	
+	#define THIS_ENG_PCOST \w39490	
+	#define THIS_ENG_RCOST \w35971	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 8	
 	#define THIS_ENG_GFX  sprites/gfx/etr500.png	
@@ -2136,8 +2181,8 @@
 	#define THIS_ENG_ARMOR_LS \b4	
 	#define THIS_ENG_WEIGHT \b43	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w37054	
-	#define THIS_ENG_RCOST \w36949	
+	#define THIS_ENG_PCOST \w42515	
+	#define THIS_ENG_RCOST \w37364	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 8	
 	#define THIS_ENG_GFX  sprites/gfx/tgv-thalplex.png	
@@ -2181,8 +2226,8 @@
 	#define THIS_ENG_ARMOR_LS \b4	
 	#define THIS_ENG_WEIGHT \b41	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w36670	
-	#define THIS_ENG_RCOST \w36530	
+	#define THIS_ENG_PCOST \w41360	
+	#define THIS_ENG_RCOST \w36902	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 8	
 	#define THIS_ENG_GFX  sprites/gfx/tgv-thalplex.png	
@@ -2226,9 +2271,9 @@
 	#define THIS_ENG_ARMOR_LS \b4	
 	#define THIS_ENG_WEIGHT \b68	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33716	
-	#define THIS_ENG_RCOST \w32898	
-	#define THIS_ENG_RCOST_WAG \w32898	
+	#define THIS_ENG_PCOST \w34718	
+	#define THIS_ENG_RCOST \w32910	
+	#define THIS_ENG_RCOST_WAG \w32910	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/ale426.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
@@ -2238,7 +2283,7 @@
 	#define STR_W_THIS_ENG \wxD273	
 	#define THIS_ENG_STR_B \wx8273	
 	#define THIS_ENG_LENGTH1 \b0	
-	#define THIS_ENG_LENGTH2 \b3	
+	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
 	#define NAME_THIS_ENG "Ale 426 "	
@@ -2271,9 +2316,9 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b16	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33458	
-	#define THIS_ENG_RCOST \w32857	
-	#define THIS_ENG_RCOST_WAG \w32857	
+	#define THIS_ENG_PCOST \w33563	
+	#define THIS_ENG_RCOST \w32864	
+	#define THIS_ENG_RCOST_WAG \w32864	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/S-tog_IV.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
@@ -2316,8 +2361,8 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b76	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w34077	
-	#define THIS_ENG_RCOST \w34048	
+	#define THIS_ENG_PCOST \w34672	
+	#define THIS_ENG_RCOST \w34168	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/mddm.png	
@@ -2361,9 +2406,9 @@
 	#define THIS_ENG_ARMOR_LS \b4	
 	#define THIS_ENG_WEIGHT \b45	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w35243	
-	#define THIS_ENG_RCOST \w33149	
-	#define THIS_ENG_RCOST_WAG \w33149	
+	#define THIS_ENG_PCOST \w37954	
+	#define THIS_ENG_RCOST \w33185	
+	#define THIS_ENG_RCOST_WAG \w33185	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 8	
 	#define THIS_ENG_GFX  sprites/gfx/shinkansen700.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
@@ -2406,9 +2451,9 @@
 	#define THIS_ENG_ARMOR_LS \b4	
 	#define THIS_ENG_WEIGHT \b54	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w34581	
-	#define THIS_ENG_RCOST \w33040	
-	#define THIS_ENG_RCOST_WAG \w33040	
+	#define THIS_ENG_PCOST \w36138	
+	#define THIS_ENG_RCOST \w33067	
+	#define THIS_ENG_RCOST_WAG \w33067	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 7	
 	#define THIS_ENG_GFX  sprites/gfx/bm73.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
@@ -2451,9 +2496,9 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b53	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33898	
-	#define THIS_ENG_RCOST \w32925	
-	#define THIS_ENG_RCOST_WAG \w32925	
+	#define THIS_ENG_PCOST \w34879	
+	#define THIS_ENG_RCOST \w32939	
+	#define THIS_ENG_RCOST_WAG \w32939	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/2200.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
@@ -2496,9 +2541,9 @@
 	#define THIS_ENG_ARMOR_LS \b4	
 	#define THIS_ENG_WEIGHT \b55	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w34664	
-	#define THIS_ENG_RCOST \w33056	
-	#define THIS_ENG_RCOST_WAG \w33056	
+	#define THIS_ENG_PCOST \w36085	
+	#define THIS_ENG_RCOST \w33085	
+	#define THIS_ENG_RCOST_WAG \w33085	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 7	
 	#define THIS_ENG_GFX  sprites/gfx/680.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
@@ -2541,9 +2586,9 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b57	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33879	
-	#define THIS_ENG_RCOST \w32924	
-	#define THIS_ENG_RCOST_WAG \w32924	
+	#define THIS_ENG_PCOST \w34660	
+	#define THIS_ENG_RCOST \w32937	
+	#define THIS_ENG_RCOST_WAG \w32937	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/sm4.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
@@ -2586,9 +2631,9 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b57	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33663	
-	#define THIS_ENG_RCOST \w32893	
-	#define THIS_ENG_RCOST_WAG \w32893	
+	#define THIS_ENG_PCOST \w34057	
+	#define THIS_ENG_RCOST \w32904	
+	#define THIS_ENG_RCOST_WAG \w32904	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/desiro_emu.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
@@ -2631,9 +2676,9 @@
 	#define THIS_ENG_ARMOR_LS \b4	
 	#define THIS_ENG_WEIGHT \b51	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w36067	
-	#define THIS_ENG_RCOST \w33303	
-	#define THIS_ENG_RCOST_WAG \w33303	
+	#define THIS_ENG_PCOST \w40101	
+	#define THIS_ENG_RCOST \w33358	
+	#define THIS_ENG_RCOST_WAG \w33358	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 8	
 	#define THIS_ENG_GFX  sprites/gfx/ice3.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
@@ -2676,9 +2721,9 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b56	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w34970	
-	#define THIS_ENG_RCOST \w33105	
-	#define THIS_ENG_RCOST_WAG \w33105	
+	#define THIS_ENG_PCOST \w37153	
+	#define THIS_ENG_RCOST \w33136	
+	#define THIS_ENG_RCOST_WAG \w33136	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 8	
 	#define THIS_ENG_GFX  sprites/gfx/RENFE_Class_120.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
@@ -2721,9 +2766,9 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b31	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33865	
-	#define THIS_ENG_RCOST \w32919	
-	#define THIS_ENG_RCOST_WAG \w32919	
+	#define THIS_ENG_PCOST \w34402	
+	#define THIS_ENG_RCOST \w32933	
+	#define THIS_ENG_RCOST_WAG \w32933	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/FLIRT2.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
@@ -2766,9 +2811,9 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b47	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33600	
-	#define THIS_ENG_RCOST \w32878	
-	#define THIS_ENG_RCOST_WAG \w32878	
+	#define THIS_ENG_PCOST \w34357	
+	#define THIS_ENG_RCOST \w32889	
+	#define THIS_ENG_RCOST_WAG \w32889	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/oscar.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
@@ -2794,7 +2839,7 @@
 	#define THIS_ENG_V_LIFE \b25	
 	#define THIS_ENG_M_LIFE \b255	
 	#define THIS_ENG_SPEED \w360	
-	#define THIS_ENG_TE \b237	
+	#define THIS_ENG_TE \b234	
 	#define THIS_ENG_HP \w1150	
 	#define THIS_ENG_WAG_HP \w1150	
 	#define THIS_ENG_CAP_WAG_PAX \b42	
@@ -2809,11 +2854,11 @@
 	#define THIS_ENG_PAX_LS \b8	
 	#define THIS_ENG_MAIL_LS \b6	
 	#define THIS_ENG_ARMOR_LS \b4	
-	#define THIS_ENG_WEIGHT \b33	
+	#define THIS_ENG_WEIGHT \b30	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w36533	
-	#define THIS_ENG_RCOST \w33388	
-	#define THIS_ENG_RCOST_WAG \w33388	
+	#define THIS_ENG_PCOST \w41307	
+	#define THIS_ENG_RCOST \w33448	
+	#define THIS_ENG_RCOST_WAG \w33448	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 8	
 	#define THIS_ENG_GFX  sprites/gfx/agv.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
@@ -2839,7 +2884,7 @@
 	#define THIS_ENG_V_LIFE \b25	
 	#define THIS_ENG_M_LIFE \b255	
 	#define THIS_ENG_SPEED \w300	
-	#define THIS_ENG_TE \b243	
+	#define THIS_ENG_TE \b208	
 	#define THIS_ENG_HP \w1000	
 	#define THIS_ENG_WAG_HP \w1000	
 	#define THIS_ENG_CAP_WAG_PAX \b42	
@@ -2854,11 +2899,11 @@
 	#define THIS_ENG_PAX_LS \b8	
 	#define THIS_ENG_MAIL_LS \b6	
 	#define THIS_ENG_ARMOR_LS \b4	
-	#define THIS_ENG_WEIGHT \b30	
+	#define THIS_ENG_WEIGHT \b35	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w35617	
-	#define THIS_ENG_RCOST \w33218	
-	#define THIS_ENG_RCOST_WAG \w33218	
+	#define THIS_ENG_PCOST \w38556	
+	#define THIS_ENG_RCOST \w33262	
+	#define THIS_ENG_RCOST_WAG \w33262	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 8	
 	#define THIS_ENG_GFX  sprites/gfx/hsa.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
@@ -2868,7 +2913,7 @@
 	#define STR_W_THIS_ENG \wxD22A	
 	#define THIS_ENG_STR_B \wx822A	
 	#define THIS_ENG_LENGTH1 \b0	
-	#define THIS_ENG_LENGTH2 \b1	
+	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE HSA_EMU	
 	#define NAME_THIS_ENG "HSA "	
@@ -2884,9 +2929,9 @@
 	#define THIS_ENG_V_LIFE \b25	
 	#define THIS_ENG_M_LIFE \b255	
 	#define THIS_ENG_SPEED \w360	
-	#define THIS_ENG_TE \b254	
-	#define THIS_ENG_HP \w1250	
-	#define THIS_ENG_WAG_HP \w1250	
+	#define THIS_ENG_TE \b218	
+	#define THIS_ENG_HP \w1750	
+	#define THIS_ENG_WAG_HP \w1750	
 	#define THIS_ENG_CAP_WAG_PAX \b67	
 	#define THIS_ENG_CAP_WAG_MAIL \b50	
 	#define THIS_ENG_CAP_WAG_ARMOR \b34	
@@ -2899,11 +2944,11 @@
 	#define THIS_ENG_PAX_LS \b8	
 	#define THIS_ENG_MAIL_LS \b6	
 	#define THIS_ENG_ARMOR_LS \b4	
-	#define THIS_ENG_WEIGHT \b38	
+	#define THIS_ENG_WEIGHT \b44	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w36544	
-	#define THIS_ENG_RCOST \w33389	
-	#define THIS_ENG_RCOST_WAG \w33389	
+	#define THIS_ENG_PCOST \w41949	
+	#define THIS_ENG_RCOST \w33458	
+	#define THIS_ENG_RCOST_WAG \w33458	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 8	
 	#define THIS_ENG_GFX  sprites/gfx/agv_d.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
@@ -2946,9 +2991,9 @@
 	#define THIS_ENG_ARMOR_LS \b4	
 	#define THIS_ENG_WEIGHT \b30	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w36874	
-	#define THIS_ENG_RCOST \w33297	
-	#define THIS_ENG_RCOST_WAG \w33297	
+	#define THIS_ENG_PCOST \w43053	
+	#define THIS_ENG_RCOST \w33349	
+	#define THIS_ENG_RCOST_WAG \w33349	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 12	
 	#define THIS_ENG_GFX  sprites/gfx/transrapid.png	
 	#define THIS_ENG_TRACTION_TYPE 38	
@@ -2991,9 +3036,9 @@
 	#define THIS_ENG_ARMOR_LS \b4	
 	#define THIS_ENG_WEIGHT \b72	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w39617	
-	#define THIS_ENG_RCOST \w33728	
-	#define THIS_ENG_RCOST_WAG \w33728	
+	#define THIS_ENG_PCOST \w54352	
+	#define THIS_ENG_RCOST \w33827	
+	#define THIS_ENG_RCOST_WAG \w33827	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 12	
 	#define THIS_ENG_GFX  sprites/gfx/mlx01-901.png	
 	#define THIS_ENG_TRACTION_TYPE 38	
@@ -3036,8 +3081,8 @@
 	#define CHIM_ARMOR_LS \b4	
 	#define CHIM_WEIGHT \b180	
 	#define CHIM_WEIGHT_HIGH \b0	
-	#define CHIM_PCOST \w49453	
-	#define CHIM_RCOST \w49509	
+	#define CHIM_PCOST \w104221	
+	#define CHIM_RCOST \w51348	
 	#define CHIM_RCOST_WAG \w32788	
 	#define CHIM_NUTRACKS_TRACKTYPE 12	
 	#define CHIM_GFX  sprites/gfx/nogfx.png	
@@ -3082,7 +3127,7 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b24	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32880	
+	#define THIS_ENG_PCOST \w32877	
 	#define THIS_ENG_RCOST \w32777	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 1	
@@ -3127,8 +3172,8 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b23	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32952	
-	#define THIS_ENG_RCOST \w32782	
+	#define THIS_ENG_PCOST \w32931	
+	#define THIS_ENG_RCOST \w32783	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 1	
 	#define THIS_ENG_GFX  sprites/gfx/479.png	
@@ -3172,8 +3217,8 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b6	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32941	
-	#define THIS_ENG_RCOST \w32787	
+	#define THIS_ENG_PCOST \w32900	
+	#define THIS_ENG_RCOST \w32788	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/vt133.png	
@@ -3217,8 +3262,8 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b59	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33283	
-	#define THIS_ENG_RCOST \w32838	
+	#define THIS_ENG_PCOST \w33400	
+	#define THIS_ENG_RCOST \w32843	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/vt42.png	
@@ -3262,8 +3307,8 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b49	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33482	
-	#define THIS_ENG_RCOST \w32865	
+	#define THIS_ENG_PCOST \w33705	
+	#define THIS_ENG_RCOST \w32873	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/Budd_RDC.png	
@@ -3307,8 +3352,8 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b20	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33077	
-	#define THIS_ENG_RCOST \w32805	
+	#define THIS_ENG_PCOST \w33076	
+	#define THIS_ENG_RCOST \w32808	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/nogfx.png	
@@ -3353,7 +3398,7 @@
 	#define THIS_ENG_WEIGHT \b21	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
 	#define THIS_ENG_PCOST \w33142	
-	#define THIS_ENG_RCOST \w32814	
+	#define THIS_ENG_RCOST \w32817	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/vt98.png	
@@ -3397,8 +3442,8 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b18	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33167	
-	#define THIS_ENG_RCOST \w32817	
+	#define THIS_ENG_PCOST \w33184	
+	#define THIS_ENG_RCOST \w32821	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/dm7.png	
@@ -3442,8 +3487,8 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b1	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33275	
-	#define THIS_ENG_RCOST \w32832	
+	#define THIS_ENG_PCOST \w33255	
+	#define THIS_ENG_RCOST \w32836	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/nogfx.png	
@@ -3487,8 +3532,8 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b20	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33193	
-	#define THIS_ENG_RCOST \w32821	
+	#define THIS_ENG_PCOST \w33223	
+	#define THIS_ENG_RCOST \w32825	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/nogfx.png	
@@ -3503,6 +3548,51 @@
 	 	
 		
 	#define NAME_THIS_ENG "Leyland "	
+	#include TEMPLATE_RAILBUS	
+	#undef THIS_ENG_CODE	
+	#endif	
+	#include TEMPLATE_UNDEF	
+	
+
+#define THIS_ENG_CODE YES	
+	#ifdef THIS_ENG_CODE	
+	#define THIS_ENG_INTROYEAR \d1984-1-1	
+	#define THIS_ENG_V_LIFE \b15	
+	#define THIS_ENG_M_LIFE \b35	
+	#define THIS_ENG_SPEED \w100	
+	#define THIS_ENG_TE \b60	
+	#define THIS_ENG_HP \w285	
+	#define THIS_ENG_WAG_HP \w0	
+	#define THIS_ENG_CAP_WAG_PAX \b56	
+	#define THIS_ENG_CAP_WAG_MAIL \b42	
+	#define THIS_ENG_CAP_WAG_ARMOR \b28	
+	#define THIS_ENG_CAP_WAG_PAX_STR "56"	
+	#define THIS_ENG_CAP_WAG_MAIL_STR "42"	
+	#define THIS_ENG_CAP_WAG_ARMOR_STR "28"	
+	#define THIS_ENG_CAP_HEAD_PAX \b56	
+	#define THIS_ENG_CAP_HEAD_MAIL \b42	
+	#define THIS_ENG_CAP_HEAD_ARMOR \b28	
+	#define THIS_ENG_PAX_LS \b20	
+	#define THIS_ENG_MAIL_LS \b15	
+	#define THIS_ENG_ARMOR_LS \b10	
+	#define THIS_ENG_WEIGHT \b37	
+	#define THIS_ENG_WEIGHT_HIGH \b0	
+	#define THIS_ENG_PCOST \w33226	
+	#define THIS_ENG_RCOST \w32829	
+	#define THIS_ENG_RCOST_WAG \w32788	
+	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
+	#define THIS_ENG_GFX  sprites/gfx/NS_DH1.png	
+	#define THIS_ENG_TRACTION_TYPE 8	
+		
+	#define THIS_ENG_ID_W \w41547	
+	#define THIS_ENG_ID_B \b*41547	
+	#define STR_W_THIS_ENG \wxD0D0	
+	#define THIS_ENG_STR_B \wx8001	
+	#define THIS_ENG_LENGTH1 \b0	
+	 	
+	 	
+		
+	#define NAME_THIS_ENG "NS DH1 "	
 	#include TEMPLATE_RAILBUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -3532,8 +3622,8 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b44	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33362	
-	#define THIS_ENG_RCOST \w32847	
+	#define THIS_ENG_PCOST \w33448	
+	#define THIS_ENG_RCOST \w32853	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/Railbus_5047.png	
@@ -3577,8 +3667,8 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b42	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33207	
-	#define THIS_ENG_RCOST \w32825	
+	#define THIS_ENG_PCOST \w33264	
+	#define THIS_ENG_RCOST \w32829	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/153111.png	
@@ -3622,8 +3712,8 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b20	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33078	
-	#define THIS_ENG_RCOST \w32805	
+	#define THIS_ENG_PCOST \w33057	
+	#define THIS_ENG_RCOST \w32808	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/809.png	
@@ -3667,8 +3757,8 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b34	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33210	
-	#define THIS_ENG_RCOST \w32824	
+	#define THIS_ENG_PCOST \w33356	
+	#define THIS_ENG_RCOST \w32828	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/Railbus_670.png	
@@ -3712,8 +3802,8 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b32	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33351	
-	#define THIS_ENG_RCOST \w32844	
+	#define THIS_ENG_PCOST \w33441	
+	#define THIS_ENG_RCOST \w32850	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/ar2.png	
@@ -3758,8 +3848,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b18	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32838	
-	#define THIS_ENG_RCOST \w32839	
+	#define THIS_ENG_PCOST \w32828	
+	#define THIS_ENG_RCOST \w32845	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/Kof_II.png	
@@ -3803,8 +3893,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b61	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33210	
-	#define THIS_ENG_RCOST \w33333	
+	#define THIS_ENG_PCOST \w33218	
+	#define THIS_ENG_RCOST \w33378	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/alco.png	
@@ -3848,8 +3938,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b21	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32963	
-	#define THIS_ENG_RCOST \w32988	
+	#define THIS_ENG_PCOST \w32919	
+	#define THIS_ENG_RCOST \w33004	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/NS200.png	
@@ -3893,8 +3983,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b26	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32946	
-	#define THIS_ENG_RCOST \w32967	
+	#define THIS_ENG_PCOST \w32910	
+	#define THIS_ENG_RCOST \w32984	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/DB_Class_270.png	
@@ -3938,8 +4028,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b92	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33395	
-	#define THIS_ENG_RCOST \w33569	
+	#define THIS_ENG_PCOST \w33566	
+	#define THIS_ENG_RCOST \w33639	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/Am_4-6.png	
@@ -3983,8 +4073,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b104	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33229	
-	#define THIS_ENG_RCOST \w33366	
+	#define THIS_ENG_PCOST \w33305	
+	#define THIS_ENG_RCOST \w33420	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/ALCO_S-2.png	
@@ -4028,8 +4118,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b40	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32961	
-	#define THIS_ENG_RCOST \w32990	
+	#define THIS_ENG_PCOST \w32936	
+	#define THIS_ENG_RCOST \w33007	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/NSWGR_79.png	
@@ -4073,8 +4163,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b139	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33322	
-	#define THIS_ENG_RCOST \w33506	
+	#define THIS_ENG_PCOST \w33492	
+	#define THIS_ENG_RCOST \w33576	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/f3.png	
@@ -4118,8 +4208,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b155	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33732	
-	#define THIS_ENG_RCOST \w34108	
+	#define THIS_ENG_PCOST \w34160	
+	#define THIS_ENG_RCOST \w34231	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/emd-e8.png	
@@ -4163,8 +4253,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b103	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33318	
-	#define THIS_ENG_RCOST \w33479	
+	#define THIS_ENG_PCOST \w33440	
+	#define THIS_ENG_RCOST \w33539	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/RS3.png	
@@ -4208,8 +4298,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b47	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32854	
-	#define THIS_ENG_RCOST \w32867	
+	#define THIS_ENG_PCOST \w32869	
+	#define THIS_ENG_RCOST \w32879	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/NS600.png	
@@ -4253,8 +4343,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b121	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33587	
-	#define THIS_ENG_RCOST \w33887	
+	#define THIS_ENG_PCOST \w33851	
+	#define THIS_ENG_RCOST \w33990	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/sharknose.png	
@@ -4264,7 +4354,7 @@
 	#define THIS_ENG_ID_B \b*10311	
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
-	#define THIS_ENG_LENGTH1 \b4	
+	#define THIS_ENG_LENGTH1 \b0	
 	#define THIS_ENG_LENGTH2 \b0	
 	 	
 	#define THIS_ENG_BUNIT	
@@ -4298,8 +4388,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b112	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33355	
-	#define THIS_ENG_RCOST \w33539	
+	#define THIS_ENG_PCOST \w33497	
+	#define THIS_ENG_RCOST \w33611	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/AFE_Class_1500.png	
@@ -4343,8 +4433,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b50	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32870	
-	#define THIS_ENG_RCOST \w32886	
+	#define THIS_ENG_PCOST \w32878	
+	#define THIS_ENG_RCOST \w32901	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/Class_08.png	
@@ -4388,8 +4478,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b170	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33380	
-	#define THIS_ENG_RCOST \w33584	
+	#define THIS_ENG_PCOST \w33682	
+	#define THIS_ENG_RCOST \w33682	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/CPR_FM_Trainmaster.png	
@@ -4415,7 +4505,7 @@
 	#define THIS_ENG_INTROYEAR \d1954-1-1	
 	#define THIS_ENG_V_LIFE \b40	
 	#define THIS_ENG_M_LIFE \b25	
-	#define THIS_ENG_SPEED \w105	
+	#define THIS_ENG_SPEED \w144	
 	#define THIS_ENG_TE \b50	
 	#define THIS_ENG_HP \w1750	
 	#define THIS_ENG_WAG_HP \w0	
@@ -4433,10 +4523,10 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b104	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33335	
-	#define THIS_ENG_RCOST \w33499	
+	#define THIS_ENG_PCOST \w33899	
+	#define THIS_ENG_RCOST \w34043	
 	#define THIS_ENG_RCOST_WAG \w32788	
-	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
+	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/fp9.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
 		
@@ -4478,8 +4568,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b55	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33102	
-	#define THIS_ENG_RCOST \w33176	
+	#define THIS_ENG_PCOST \w33091	
+	#define THIS_ENG_RCOST \w33215	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/mav44.png	
@@ -4523,8 +4613,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b28	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32971	
-	#define THIS_ENG_RCOST \w32998	
+	#define THIS_ENG_PCOST \w32928	
+	#define THIS_ENG_RCOST \w33017	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/OBB_2060.png	
@@ -4568,8 +4658,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b111	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33295	
-	#define THIS_ENG_RCOST \w33459	
+	#define THIS_ENG_PCOST \w33401	
+	#define THIS_ENG_RCOST \w33521	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/SW1200.png	
@@ -4613,8 +4703,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b19	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32923	
-	#define THIS_ENG_RCOST \w32935	
+	#define THIS_ENG_PCOST \w32882	
+	#define THIS_ENG_RCOST \w32949	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/m28.png	
@@ -4658,8 +4748,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b130	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33630	
-	#define THIS_ENG_RCOST \w33953	
+	#define THIS_ENG_PCOST \w33939	
+	#define THIS_ENG_RCOST \w34067	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/FL9.png	
@@ -4703,8 +4793,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b40	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32936	
-	#define THIS_ENG_RCOST \w32959	
+	#define THIS_ENG_PCOST \w32918	
+	#define THIS_ENG_RCOST \w32979	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/NMBS-SNCB_Class_83.png	
@@ -4748,8 +4838,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b81	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33621	
-	#define THIS_ENG_RCOST \w33899	
+	#define THIS_ENG_PCOST \w33882	
+	#define THIS_ENG_RCOST \w34006	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/v200.png	
@@ -4759,7 +4849,7 @@
 	#define THIS_ENG_ID_B \b*10547	
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
-	#define THIS_ENG_LENGTH1 \b3	
+	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
 	 	
@@ -4794,7 +4884,7 @@
 	#define THIS_ENG_WEIGHT \b61	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
 	#define THIS_ENG_PCOST \w33111	
-	#define THIS_ENG_RCOST \w33188	
+	#define THIS_ENG_RCOST \w33228	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/ChME2.png	
@@ -4838,8 +4928,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b116	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33321	
-	#define THIS_ENG_RCOST \w33479	
+	#define THIS_ENG_PCOST \w33497	
+	#define THIS_ENG_RCOST \w33554	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/cfr_060-da.png	
@@ -4849,7 +4939,7 @@
 	#define THIS_ENG_ID_B \b*10636	
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
-	#define THIS_ENG_LENGTH1 \b2	
+	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
 	 	
@@ -4883,8 +4973,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b122	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33453	
-	#define THIS_ENG_RCOST \w33677	
+	#define THIS_ENG_PCOST \w33664	
+	#define THIS_ENG_RCOST \w33762	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/dr12.png	
@@ -4894,7 +4984,7 @@
 	#define THIS_ENG_ID_B \b*10637	
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
-	#define THIS_ENG_LENGTH1 \b2	
+	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
 	 	
@@ -4928,8 +5018,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b64	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33413	
-	#define THIS_ENG_RCOST \w33615	
+	#define THIS_ENG_PCOST \w33493	
+	#define THIS_ENG_RCOST \w33685	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/emd-gl8.png	
@@ -4973,8 +5063,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b156	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33517	
-	#define THIS_ENG_RCOST \w33733	
+	#define THIS_ENG_PCOST \w33987	
+	#define THIS_ENG_RCOST \w33841	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/ml4000.png	
@@ -4984,7 +5074,7 @@
 	#define THIS_ENG_ID_B \b*10682	
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
-	#define THIS_ENG_LENGTH1 \b2	
+	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
 	 	
@@ -5018,8 +5108,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b130	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33846	
-	#define THIS_ENG_RCOST \w34248	
+	#define THIS_ENG_PCOST \w34355	
+	#define THIS_ENG_RCOST \w34384	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/TEP60.png	
@@ -5063,8 +5153,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b80	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33418	
-	#define THIS_ENG_RCOST \w33617	
+	#define THIS_ENG_PCOST \w33540	
+	#define THIS_ENG_RCOST \w33696	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/br67.png	
@@ -5108,8 +5198,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b45	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33076	
-	#define THIS_ENG_RCOST \w33135	
+	#define THIS_ENG_PCOST \w33052	
+	#define THIS_ENG_RCOST \w33166	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/mak.png	
@@ -5153,8 +5243,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b113	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33484	
-	#define THIS_ENG_RCOST \w33704	
+	#define THIS_ENG_PCOST \w33732	
+	#define THIS_ENG_RCOST \w33799	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/wdm2.png	
@@ -5164,7 +5254,7 @@
 	#define THIS_ENG_ID_B \b*10800	
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
-	#define THIS_ENG_LENGTH1 \b1	
+	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
 	 	
@@ -5198,8 +5288,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b49	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33016	
-	#define THIS_ENG_RCOST \w33060	
+	#define THIS_ENG_PCOST \w32999	
+	#define THIS_ENG_RCOST \w33087	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/BR_Class_14.png	
@@ -5243,8 +5333,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b123	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33239	
-	#define THIS_ENG_RCOST \w33385	
+	#define THIS_ENG_PCOST \w33356	
+	#define THIS_ENG_RCOST \w33454	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/chme3.png	
@@ -5254,7 +5344,7 @@
 	#define THIS_ENG_ID_B \b*10816	
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
-	#define THIS_ENG_LENGTH1 \b2	
+	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
 	 	
@@ -5288,8 +5378,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b80	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33248	
-	#define THIS_ENG_RCOST \w33360	
+	#define THIS_ENG_PCOST \w33355	
+	#define THIS_ENG_RCOST \w33416	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/j16cw.png	
@@ -5299,7 +5389,7 @@
 	#define THIS_ENG_ID_B \b*10856	
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
-	#define THIS_ENG_LENGTH1 \b2	
+	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
 	 	
@@ -5333,8 +5423,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b116	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33315	
-	#define THIS_ENG_RCOST \w33473	
+	#define THIS_ENG_PCOST \w33483	
+	#define THIS_ENG_RCOST \w33549	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/m62.png	
@@ -5344,7 +5434,7 @@
 	#define THIS_ENG_ID_B \b*10862	
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
-	#define THIS_ENG_LENGTH1 \b2	
+	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
 	 	
@@ -5378,8 +5468,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b110	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33501	
-	#define THIS_ENG_RCOST \w33733	
+	#define THIS_ENG_PCOST \w33736	
+	#define THIS_ENG_RCOST \w33828	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/422.png	
@@ -5423,8 +5513,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b6	
 	#define THIS_ENG_WEIGHT_HIGH \b1	
-	#define THIS_ENG_PCOST \w33971	
-	#define THIS_ENG_RCOST \w34392	
+	#define THIS_ENG_PCOST \w35138	
+	#define THIS_ENG_RCOST \w34565	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/emd_dda40x.png	
@@ -5468,8 +5558,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b72	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33752	
-	#define THIS_ENG_RCOST \w34113	
+	#define THIS_ENG_PCOST \w34058	
+	#define THIS_ENG_RCOST \w34233	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/G22W.png	
@@ -5479,7 +5569,7 @@
 	#define THIS_ENG_ID_B \b*11000	
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
-	#define THIS_ENG_LENGTH1 \b2	
+	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
 	 	
@@ -5513,8 +5603,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b98	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33184	
-	#define THIS_ENG_RCOST \w33283	
+	#define THIS_ENG_PCOST \w33304	
+	#define THIS_ENG_RCOST \w33338	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/2100.png	
@@ -5524,11 +5614,11 @@
 	#define THIS_ENG_ID_B \b*11022	
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
-	#define THIS_ENG_LENGTH1 \b2	
+	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG " Queensland Rail 2100 class "	
+	#define NAME_THIS_ENG "Queensland Rail 2100 class "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -5558,8 +5648,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b103	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33500	
-	#define THIS_ENG_RCOST \w33729	
+	#define THIS_ENG_PCOST \w33725	
+	#define THIS_ENG_RCOST \w33822	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/HZ_Class_2062.png	
@@ -5603,8 +5693,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b46	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33047	
-	#define THIS_ENG_RCOST \w33098	
+	#define THIS_ENG_PCOST \w33022	
+	#define THIS_ENG_RCOST \w33129	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/SJ_V4.png	
@@ -5648,8 +5738,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b125	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33398	
-	#define THIS_ENG_RCOST \w33585	
+	#define THIS_ENG_PCOST \w33621	
+	#define THIS_ENG_RCOST \w33659	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/m420w.png	
@@ -5693,8 +5783,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b131	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33789	
-	#define THIS_ENG_RCOST \w34158	
+	#define THIS_ENG_PCOST \w34257	
+	#define THIS_ENG_RCOST \w34285	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/sdp-40f.png	
@@ -5738,8 +5828,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b92	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33469	
-	#define THIS_ENG_RCOST \w33677	
+	#define THIS_ENG_PCOST \w33667	
+	#define THIS_ENG_RCOST \w33766	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/DFH3.png	
@@ -5783,8 +5873,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b115	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33891	
-	#define THIS_ENG_RCOST \w34309	
+	#define THIS_ENG_PCOST \w34407	
+	#define THIS_ENG_RCOST \w34444	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 6	
 	#define THIS_ENG_GFX  sprites/gfx/f40ph.png	
@@ -5828,8 +5918,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b115	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33333	
-	#define THIS_ENG_RCOST \w33490	
+	#define THIS_ENG_PCOST \w33523	
+	#define THIS_ENG_RCOST \w33572	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/cp1900.png	
@@ -5873,8 +5963,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b82	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33627	
-	#define THIS_ENG_RCOST \w33905	
+	#define THIS_ENG_PCOST \w33890	
+	#define THIS_ENG_RCOST \w34015	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/DR16.png	
@@ -5918,8 +6008,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b180	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w34062	
-	#define THIS_ENG_RCOST \w34506	
+	#define THIS_ENG_PCOST \w35061	
+	#define THIS_ENG_RCOST \w34669	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/tep80.png	
@@ -5963,8 +6053,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b128	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33839	
-	#define THIS_ENG_RCOST \w34196	
+	#define THIS_ENG_PCOST \w34425	
+	#define THIS_ENG_RCOST \w34336	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/AN_Class.png	
@@ -6008,8 +6098,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b134	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w34089	
-	#define THIS_ENG_RCOST \w34587	
+	#define THIS_ENG_PCOST \w34875	
+	#define THIS_ENG_RCOST \w34759	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 6	
 	#define THIS_ENG_GFX  sprites/gfx/genesis.png	
@@ -6053,8 +6143,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b51	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32907	
-	#define THIS_ENG_RCOST \w32926	
+	#define THIS_ENG_PCOST \w32910	
+	#define THIS_ENG_RCOST \w32944	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/TCDD_DH7000.png	
@@ -6098,8 +6188,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b89	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33342	
-	#define THIS_ENG_RCOST \w33496	
+	#define THIS_ENG_PCOST \w33474	
+	#define THIS_ENG_RCOST \w33569	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/GE_U20C.png	
@@ -6109,7 +6199,7 @@
 	#define THIS_ENG_ID_B \b*11936	
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
-	#define THIS_ENG_LENGTH1 \b2	
+	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
 	 	
@@ -6143,8 +6233,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b83	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33157	
-	#define THIS_ENG_RCOST \w33246	
+	#define THIS_ENG_PCOST \w33217	
+	#define THIS_ENG_RCOST \w33299	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/nmbs7800.png	
@@ -6154,7 +6244,7 @@
 	#define THIS_ENG_ID_B \b*12015	
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
-	#define THIS_ENG_LENGTH1 \b2	
+	#define THIS_ENG_LENGTH1 \b1	
 	 	
 	 	
 	 	
@@ -6188,8 +6278,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b126	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33543	
-	#define THIS_ENG_RCOST \w33773	
+	#define THIS_ENG_PCOST \w33899	
+	#define THIS_ENG_RCOST \w33882	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/br66.png	
@@ -6233,8 +6323,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b88	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33859	
-	#define THIS_ENG_RCOST \w34235	
+	#define THIS_ENG_PCOST \w34327	
+	#define THIS_ENG_RCOST \w34368	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/BR_Class_67.png	
@@ -6278,8 +6368,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b108	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33936	
-	#define THIS_ENG_RCOST \w34329	
+	#define THIS_ENG_PCOST \w34570	
+	#define THIS_ENG_RCOST \w34474	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/RAI_DE43CA_Prima.png	
@@ -6323,8 +6413,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b87	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33520	
-	#define THIS_ENG_RCOST \w33727	
+	#define THIS_ENG_PCOST \w33785	
+	#define THIS_ENG_RCOST \w33822	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/g2000.png	
@@ -6368,8 +6458,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b135	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33933	
-	#define THIS_ENG_RCOST \w34342	
+	#define THIS_ENG_PCOST \w34588	
+	#define THIS_ENG_RCOST \w34484	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/tep150.png	
@@ -6413,8 +6503,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b150	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33740	
-	#define THIS_ENG_RCOST \w33993	
+	#define THIS_ENG_PCOST \w34560	
+	#define THIS_ENG_RCOST \w34137	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/HXN5.png	
@@ -6458,8 +6548,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b100	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33291	
-	#define THIS_ENG_RCOST \w33439	
+	#define THIS_ENG_PCOST \w33402	
+	#define THIS_ENG_RCOST \w33517	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/Gravita_10BB.png	
@@ -6503,8 +6593,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b45	
 	#define THIS_ENG_WEIGHT_HIGH \b1	
-	#define THIS_ENG_PCOST \w33932	
-	#define THIS_ENG_RCOST \w34222	
+	#define THIS_ENG_PCOST \w35934	
+	#define THIS_ENG_RCOST \w34392	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/GT1.png	
@@ -6548,8 +6638,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b16	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32927	
-	#define THIS_ENG_RCOST \w32880	
+	#define THIS_ENG_PCOST \w32894	
+	#define THIS_ENG_RCOST \w32888	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 1	
 	#define THIS_ENG_GFX  sprites/gfx/RhB_De_2-2.png	
@@ -6593,8 +6683,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b48	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32947	
-	#define THIS_ENG_RCOST \w32905	
+	#define THIS_ENG_PCOST \w32952	
+	#define THIS_ENG_RCOST \w32918	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 1	
 	#define THIS_ENG_GFX  sprites/gfx/el7.png	
@@ -6638,8 +6728,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b74	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32960	
-	#define THIS_ENG_RCOST \w32920	
+	#define THIS_ENG_PCOST \w33036	
+	#define THIS_ENG_RCOST \w32936	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 1	
 	#define THIS_ENG_GFX  sprites/gfx/ner.png	
@@ -6683,8 +6773,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b74	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33121	
-	#define THIS_ENG_RCOST \w33058	
+	#define THIS_ENG_PCOST \w33142	
+	#define THIS_ENG_RCOST \w33085	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 1	
 	#define THIS_ENG_GFX  sprites/gfx/Milwaukee_Road_ES-2.png	
@@ -6728,8 +6818,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b234	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33342	
-	#define THIS_ENG_RCOST \w33264	
+	#define THIS_ENG_PCOST \w34148	
+	#define THIS_ENG_RCOST \w33321	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 1	
 	#define THIS_ENG_GFX  sprites/gfx/PRR_FF1.png	
@@ -6773,8 +6863,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b240	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w34028	
-	#define THIS_ENG_RCOST \w33928	
+	#define THIS_ENG_PCOST \w34980	
+	#define THIS_ENG_RCOST \w34048	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/EP-2_Bipolar.png	
@@ -6818,8 +6908,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b115	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33528	
-	#define THIS_ENG_RCOST \w33425	
+	#define THIS_ENG_PCOST \w33788	
+	#define THIS_ENG_RCOST \w33488	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/Series_E-28.png	
@@ -6863,8 +6953,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b55	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32952	
-	#define THIS_ENG_RCOST \w32908	
+	#define THIS_ENG_PCOST \w32996	
+	#define THIS_ENG_RCOST \w32923	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 1	
 	#define THIS_ENG_GFX  sprites/gfx/OBB_1161.png	
@@ -6908,8 +6998,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b32	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32992	
-	#define THIS_ENG_RCOST \w32933	
+	#define THIS_ENG_PCOST \w32983	
+	#define THIS_ENG_RCOST \w32947	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 1	
 	#define THIS_ENG_GFX  sprites/gfx/DB_Class_169.png	
@@ -6953,8 +7043,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b22	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32902	
-	#define THIS_ENG_RCOST \w32863	
+	#define THIS_ENG_PCOST \w32875	
+	#define THIS_ENG_RCOST \w32870	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 1	
 	#define THIS_ENG_GFX  sprites/gfx/EB10.png	
@@ -6998,8 +7088,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b47	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32959	
-	#define THIS_ENG_RCOST \w32912	
+	#define THIS_ENG_PCOST \w32966	
+	#define THIS_ENG_RCOST \w32926	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 1	
 	#define THIS_ENG_GFX  sprites/gfx/el10.png	
@@ -7043,8 +7133,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b92	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33578	
-	#define THIS_ENG_RCOST \w33449	
+	#define THIS_ENG_PCOST \w33878	
+	#define THIS_ENG_RCOST \w33511	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/e04-01.png	
@@ -7054,7 +7144,7 @@
 	#define THIS_ENG_ID_B \b*17202	
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
-	#define THIS_ENG_LENGTH1 \b2	
+	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
 	 	
@@ -7088,8 +7178,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b135	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33827	
-	#define THIS_ENG_RCOST \w33694	
+	#define THIS_ENG_PCOST \w34381	
+	#define THIS_ENG_RCOST \w33775	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/E428.png	
@@ -7133,8 +7223,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b215	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w34208	
-	#define THIS_ENG_RCOST \w34098	
+	#define THIS_ENG_PCOST \w35239	
+	#define THIS_ENG_RCOST \w34221	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/GG1.png	
@@ -7178,8 +7268,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b100	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33222	
-	#define THIS_ENG_RCOST \w33142	
+	#define THIS_ENG_PCOST \w33351	
+	#define THIS_ENG_RCOST \w33172	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 1	
 	#define THIS_ENG_GFX  sprites/gfx/ef55.png	
@@ -7189,7 +7279,7 @@
 	#define THIS_ENG_ID_B \b*17310	
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
-	#define THIS_ENG_LENGTH1 \b3	
+	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
 	 	
@@ -7223,8 +7313,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b68	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32966	
-	#define THIS_ENG_RCOST \w32922	
+	#define THIS_ENG_PCOST \w33038	
+	#define THIS_ENG_RCOST \w32939	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 1	
 	#define THIS_ENG_GFX  sprites/gfx/SAR_Class_ES.png	
@@ -7268,8 +7358,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b118	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33525	
-	#define THIS_ENG_RCOST \w33382	
+	#define THIS_ENG_PCOST \w34048	
+	#define THIS_ENG_RCOST \w33449	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/class1020.png	
@@ -7313,8 +7403,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b98	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33516	
-	#define THIS_ENG_RCOST \w33387	
+	#define THIS_ENG_PCOST \w33847	
+	#define THIS_ENG_RCOST \w33455	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/vl22m.png	
@@ -7358,8 +7448,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b100	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33871	
-	#define THIS_ENG_RCOST \w33722	
+	#define THIS_ENG_PCOST \w34390	
+	#define THIS_ENG_RCOST \w33808	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/ns1000.png	
@@ -7403,8 +7493,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b102	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33909	
-	#define THIS_ENG_RCOST \w33780	
+	#define THIS_ENG_PCOST \w34380	
+	#define THIS_ENG_RCOST \w33873	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/27000.png	
@@ -7448,8 +7538,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b102	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33868	
-	#define THIS_ENG_RCOST \w33752	
+	#define THIS_ENG_PCOST \w34276	
+	#define THIS_ENG_RCOST \w33842	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/metrovik.png	
@@ -7493,8 +7583,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b18	
 	#define THIS_ENG_WEIGHT_HIGH \b1	
-	#define THIS_ENG_PCOST \w33826	
-	#define THIS_ENG_RCOST \w33636	
+	#define THIS_ENG_PCOST \w35788	
+	#define THIS_ENG_RCOST \w33760	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 1	
 	#define THIS_ENG_GFX  sprites/gfx/mtabdm3.png	
@@ -7538,8 +7628,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b65	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33097	
-	#define THIS_ENG_RCOST \w33030	
+	#define THIS_ENG_PCOST \w33114	
+	#define THIS_ENG_RCOST \w33053	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 1	
 	#define THIS_ENG_GFX  sprites/gfx/c4-4.png	
@@ -7583,8 +7673,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b83	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33939	
-	#define THIS_ENG_RCOST \w33776	
+	#define THIS_ENG_PCOST \w34499	
+	#define THIS_ENG_RCOST \w33872	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/SNCF_BB_9004.png	
@@ -7628,8 +7718,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b120	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33946	
-	#define THIS_ENG_RCOST \w33755	
+	#define THIS_ENG_PCOST \w34819	
+	#define THIS_ENG_RCOST \w33857	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/ae6-6.png	
@@ -7639,7 +7729,7 @@
 	#define THIS_ENG_ID_B \b*17990	
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
-	#define THIS_ENG_LENGTH1 \b3	
+	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
 	 	
@@ -7673,8 +7763,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b124	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33588	
-	#define THIS_ENG_RCOST \w33457	
+	#define THIS_ENG_PCOST \w34029	
+	#define THIS_ENG_RCOST \w33528	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/wcm1.png	
@@ -7684,7 +7774,7 @@
 	#define THIS_ENG_ID_B \b*18120	
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
-	#define THIS_ENG_LENGTH1 \b3	
+	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
 	 	
@@ -7718,8 +7808,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b110	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w34155	
-	#define THIS_ENG_RCOST \w33939	
+	#define THIS_ENG_PCOST \w35227	
+	#define THIS_ENG_RCOST \w34049	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/e646.png	
@@ -7763,8 +7853,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b92	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33219	
-	#define THIS_ENG_RCOST \w33130	
+	#define THIS_ENG_PCOST \w33383	
+	#define THIS_ENG_RCOST \w33165	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 1	
 	#define THIS_ENG_GFX  sprites/gfx/VL41.png	
@@ -7808,8 +7898,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b96	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33530	
-	#define THIS_ENG_RCOST \w33396	
+	#define THIS_ENG_PCOST \w33875	
+	#define THIS_ENG_RCOST \w33460	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/ef64.png	
@@ -7824,6 +7914,51 @@
 	 	
 	 	
 	#define NAME_THIS_ENG "EF64 "	
+	#include TEMPLATE_ENGINES	
+	#undef THIS_ENG_CODE	
+	#endif	
+	#include TEMPLATE_UNDEF	
+	
+
+#define THIS_ENG_CODE YES	
+	#ifdef THIS_ENG_CODE	
+	#define THIS_ENG_INTROYEAR \d1964-1-1	
+	#define THIS_ENG_V_LIFE \b40	
+	#define THIS_ENG_M_LIFE \b25	
+	#define THIS_ENG_SPEED \w240	
+	#define THIS_ENG_TE \b55	
+	#define THIS_ENG_HP \w6000	
+	#define THIS_ENG_WAG_HP \w0	
+	#define THIS_ENG_CAP_WAG_PAX \b0	
+	#define THIS_ENG_CAP_WAG_MAIL \b0	
+	#define THIS_ENG_CAP_WAG_ARMOR \b0	
+	#define THIS_ENG_CAP_WAG_PAX_STR "0"	
+	#define THIS_ENG_CAP_WAG_MAIL_STR "0"	
+	#define THIS_ENG_CAP_WAG_ARMOR_STR "0"	
+	#define THIS_ENG_CAP_HEAD_PAX \b0	
+	#define THIS_ENG_CAP_HEAD_MAIL \b0	
+	#define THIS_ENG_CAP_HEAD_ARMOR \b0	
+	#define THIS_ENG_PAX_LS \b1	
+	#define THIS_ENG_MAIL_LS \b1	
+	#define THIS_ENG_ARMOR_LS \b1	
+	#define THIS_ENG_WEIGHT \b110	
+	#define THIS_ENG_WEIGHT_HIGH \b0	
+	#define THIS_ENG_PCOST \w37318	
+	#define THIS_ENG_RCOST \w35389	
+	#define THIS_ENG_RCOST_WAG \w32788	
+	#define THIS_ENG_NUTRACKS_TRACKTYPE 8	
+	#define THIS_ENG_GFX  sprites/gfx/40100.png	
+	#define THIS_ENG_TRACTION_TYPE 28	
+		
+	#define THIS_ENG_ID_W \w19332	
+	#define THIS_ENG_ID_B \b*19332	
+	#define STR_W_THIS_ENG \wxD0D0	
+	#define THIS_ENG_STR_B \wx8000	
+	#define THIS_ENG_LENGTH1 \b0	
+	 	
+	 	
+	 	
+	#define NAME_THIS_ENG "SNCF CC40100 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -7853,8 +7988,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b108	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33844	
-	#define THIS_ENG_RCOST \w33665	
+	#define THIS_ENG_PCOST \w34542	
+	#define THIS_ENG_RCOST \w33752	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/hz1141.png	
@@ -7898,8 +8033,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b89	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33650	
-	#define THIS_ENG_RCOST \w33509	
+	#define THIS_ENG_PCOST \w34000	
+	#define THIS_ENG_RCOST \w33579	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/class_6e.png	
@@ -7943,8 +8078,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b114	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w35121	
-	#define THIS_ENG_RCOST \w34852	
+	#define THIS_ENG_PCOST \w37522	
+	#define THIS_ENG_RCOST \w35054	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 7	
 	#define THIS_ENG_GFX  sprites/gfx/DB_E103.png	
@@ -7988,8 +8123,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b84	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33973	
-	#define THIS_ENG_RCOST \w33800	
+	#define THIS_ENG_PCOST \w34599	
+	#define THIS_ENG_RCOST \w33900	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/sr1.png	
@@ -8033,8 +8168,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b84	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w34394	
-	#define THIS_ENG_RCOST \w34161	
+	#define THIS_ENG_PCOST \w35642	
+	#define THIS_ENG_RCOST \w34297	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/1044.png	
@@ -8078,8 +8213,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b90	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w34297	
-	#define THIS_ENG_RCOST \w34096	
+	#define THIS_ENG_PCOST \w35316	
+	#define THIS_ENG_RCOST \w34224	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/SNCF_BB_22000.png	
@@ -8123,8 +8258,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b84	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33691	
-	#define THIS_ENG_RCOST \w33561	
+	#define THIS_ENG_PCOST \w34005	
+	#define THIS_ENG_RCOST \w33652	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/et41.png	
@@ -8168,8 +8303,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b84	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w34405	
-	#define THIS_ENG_RCOST \w34247	
+	#define THIS_ENG_PCOST \w35349	
+	#define THIS_ENG_RCOST \w34386	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 7	
 	#define THIS_ENG_GFX  sprites/gfx/ns1600.png	
@@ -8179,7 +8314,7 @@
 	#define THIS_ENG_ID_B \b*18903	
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
-	#define THIS_ENG_LENGTH1 \b1	
+	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
 	 	
@@ -8213,8 +8348,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b82	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33474	
-	#define THIS_ENG_RCOST \w33351	
+	#define THIS_ENG_PCOST \w33694	
+	#define THIS_ENG_RCOST \w33409	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/OBB_1063.png	
@@ -8258,8 +8393,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b33	
 	#define THIS_ENG_WEIGHT_HIGH \b1	
-	#define THIS_ENG_PCOST \w34373	
-	#define THIS_ENG_RCOST \w34092	
+	#define THIS_ENG_PCOST \w37174	
+	#define THIS_ENG_RCOST \w34248	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/vl85.png	
@@ -8303,8 +8438,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b150	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33744	
-	#define THIS_ENG_RCOST \w33568	
+	#define THIS_ENG_PCOST \w34633	
+	#define THIS_ENG_RCOST \w33650	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/vl15.png	
@@ -8348,8 +8483,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b138	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33768	
-	#define THIS_ENG_RCOST \w33579	
+	#define THIS_ENG_PCOST \w34711	
+	#define THIS_ENG_RCOST \w33671	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/6k.png	
@@ -8393,8 +8528,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b90	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w34897	
-	#define THIS_ENG_RCOST \w34682	
+	#define THIS_ENG_PCOST \w36653	
+	#define THIS_ENG_RCOST \w34868	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 7	
 	#define THIS_ENG_GFX  sprites/gfx/26000.png	
@@ -8438,8 +8573,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b84	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w35332	
-	#define THIS_ENG_RCOST \w35138	
+	#define THIS_ENG_PCOST \w37648	
+	#define THIS_ENG_RCOST \w35366	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 7	
 	#define THIS_ENG_GFX  sprites/gfx/lok2k.png	
@@ -8483,8 +8618,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b138	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33767	
-	#define THIS_ENG_RCOST \w33578	
+	#define THIS_ENG_PCOST \w34704	
+	#define THIS_ENG_RCOST \w33670	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/ss6.png	
@@ -8528,8 +8663,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b90	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w35161	
-	#define THIS_ENG_RCOST \w34968	
+	#define THIS_ENG_PCOST \w37226	
+	#define THIS_ENG_RCOST \w35180	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 7	
 	#define THIS_ENG_GFX  sprites/gfx/RENFE_Class_252.png	
@@ -8573,8 +8708,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b126	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w34169	
-	#define THIS_ENG_RCOST \w33957	
+	#define THIS_ENG_PCOST \w35297	
+	#define THIS_ENG_RCOST \w34076	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/BR_Class_92.png	
@@ -8618,8 +8753,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b85	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w34227	
-	#define THIS_ENG_RCOST \w33976	
+	#define THIS_ENG_PCOST \w35440	
+	#define THIS_ENG_RCOST \w34092	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/traxx_f140.png	
@@ -8663,8 +8798,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b134	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33770	
-	#define THIS_ENG_RCOST \w33601	
+	#define THIS_ENG_PCOST \w34499	
+	#define THIS_ENG_RCOST \w33680	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/ef500.png	
@@ -8708,8 +8843,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b90	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w34849	
-	#define THIS_ENG_RCOST \w34649	
+	#define THIS_ENG_PCOST \w36483	
+	#define THIS_ENG_RCOST \w34829	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 7	
 	#define THIS_ENG_GFX  sprites/gfx/hle13.png	
@@ -8753,8 +8888,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b82	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33841	
-	#define THIS_ENG_RCOST \w33651	
+	#define THIS_ENG_PCOST \w34491	
+	#define THIS_ENG_RCOST \w33736	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/e55200.png	
@@ -8798,8 +8933,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b105	
 	#define THIS_ENG_WEIGHT_HIGH \b1	
-	#define THIS_ENG_PCOST \w34273	
-	#define THIS_ENG_RCOST \w33994	
+	#define THIS_ENG_PCOST \w37846	
+	#define THIS_ENG_RCOST \w34183	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 1	
 	#define THIS_ENG_GFX  sprites/gfx/iore.png	
@@ -8843,8 +8978,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b86	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w35618	
-	#define THIS_ENG_RCOST \w35339	
+	#define THIS_ENG_PCOST \w38729	
+	#define THIS_ENG_RCOST \w35588	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 7	
 	#define THIS_ENG_GFX  sprites/gfx/taurus1.png	
@@ -8888,8 +9023,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b90	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w34348	
-	#define THIS_ENG_RCOST \w34132	
+	#define THIS_ENG_PCOST \w35479	
+	#define THIS_ENG_RCOST \w34263	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/ds3.png	
@@ -8933,8 +9068,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b80	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w34287	
-	#define THIS_ENG_RCOST \w34049	
+	#define THIS_ENG_PCOST \w35446	
+	#define THIS_ENG_RCOST \w34173	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/Korail_8200.png	
@@ -8978,8 +9113,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b82	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w34928	
-	#define THIS_ENG_RCOST \w34749	
+	#define THIS_ENG_PCOST \w36574	
+	#define THIS_ENG_RCOST \w34937	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 7	
 	#define THIS_ENG_GFX  sprites/gfx/kz2a.png	
@@ -9023,8 +9158,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b45	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33347	
-	#define THIS_ENG_RCOST \w33247	
+	#define THIS_ENG_PCOST \w33346	
+	#define THIS_ENG_RCOST \w33288	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/SBB_Eem_923.png	
@@ -9068,7 +9203,7 @@
 	#define THIS_ENG7_ARMOR_LS \b1	
 	#define THIS_ENG7_WEIGHT \b1	
 	#define THIS_ENG7_WEIGHT_HIGH \b0	
-	#define THIS_ENG7_PCOST \w32768	
+	#define THIS_ENG7_PCOST \w33140	
 	#define THIS_ENG7_RCOST \w32768	
 	#define THIS_ENG7_RCOST_WAG \w32788	
 	#define THIS_ENG7_NUTRACKS_TRACKTYPE 0	
@@ -9113,7 +9248,7 @@
 	#define THIS_ENG1_ARMOR_LS \b1	
 	#define THIS_ENG1_WEIGHT \b1	
 	#define THIS_ENG1_WEIGHT_HIGH \b0	
-	#define THIS_ENG1_PCOST \w32768	
+	#define THIS_ENG1_PCOST \w33140	
 	#define THIS_ENG1_RCOST \w32768	
 	#define THIS_ENG1_RCOST_WAG \w32788	
 	#define THIS_ENG1_NUTRACKS_TRACKTYPE 0	
@@ -9158,7 +9293,7 @@
 	#define THIS_ENG7_ARMOR_LS \b1	
 	#define THIS_ENG7_WEIGHT \b1	
 	#define THIS_ENG7_WEIGHT_HIGH \b0	
-	#define THIS_ENG7_PCOST \w32768	
+	#define THIS_ENG7_PCOST \w33140	
 	#define THIS_ENG7_RCOST \w32768	
 	#define THIS_ENG7_RCOST_WAG \w32788	
 	#define THIS_ENG7_NUTRACKS_TRACKTYPE 0	
@@ -9203,7 +9338,7 @@
 	#define THIS_ENG3_ARMOR_LS \b1	
 	#define THIS_ENG3_WEIGHT \b1	
 	#define THIS_ENG3_WEIGHT_HIGH \b0	
-	#define THIS_ENG3_PCOST \w32768	
+	#define THIS_ENG3_PCOST \w33140	
 	#define THIS_ENG3_RCOST \w32768	
 	#define THIS_ENG3_RCOST_WAG \w32788	
 	#define THIS_ENG3_NUTRACKS_TRACKTYPE 0	
@@ -9248,7 +9383,7 @@
 	#define THIS_ENG2_ARMOR_LS \b1	
 	#define THIS_ENG2_WEIGHT \b1	
 	#define THIS_ENG2_WEIGHT_HIGH \b0	
-	#define THIS_ENG2_PCOST \w32768	
+	#define THIS_ENG2_PCOST \w33140	
 	#define THIS_ENG2_RCOST \w32768	
 	#define THIS_ENG2_RCOST_WAG \w32788	
 	#define THIS_ENG2_NUTRACKS_TRACKTYPE 0	
@@ -9293,7 +9428,7 @@
 	#define THIS_ENG4_ARMOR_LS \b1	
 	#define THIS_ENG4_WEIGHT \b1	
 	#define THIS_ENG4_WEIGHT_HIGH \b0	
-	#define THIS_ENG4_PCOST \w32768	
+	#define THIS_ENG4_PCOST \w33140	
 	#define THIS_ENG4_RCOST \w32768	
 	#define THIS_ENG4_RCOST_WAG \w32788	
 	#define THIS_ENG4_NUTRACKS_TRACKTYPE 0	
@@ -9338,8 +9473,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b16	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32837	
-	#define THIS_ENG_RCOST \w32873	
+	#define THIS_ENG_PCOST \w32838	
+	#define THIS_ENG_RCOST \w32880	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/Le_Belge.png	
@@ -9383,8 +9518,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b60	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33117	
-	#define THIS_ENG_RCOST \w33427	
+	#define THIS_ENG_PCOST \w33141	
+	#define THIS_ENG_RCOST \w33479	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/american.png	
@@ -9428,8 +9563,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b46	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32939	
-	#define THIS_ENG_RCOST \w33069	
+	#define THIS_ENG_PCOST \w32937	
+	#define THIS_ENG_RCOST \w33091	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/Ec_2-5.png	
@@ -9473,8 +9608,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b69	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33120	
-	#define THIS_ENG_RCOST \w33438	
+	#define THIS_ENG_PCOST \w33149	
+	#define THIS_ENG_RCOST \w33490	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/10weeler.png	
@@ -9518,8 +9653,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b126	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33058	
-	#define THIS_ENG_RCOST \w33337	
+	#define THIS_ENG_PCOST \w33143	
+	#define THIS_ENG_RCOST \w33390	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/consolidation.png	
@@ -9563,8 +9698,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b27	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32879	
-	#define THIS_ENG_RCOST \w32949	
+	#define THIS_ENG_PCOST \w32868	
+	#define THIS_ENG_RCOST \w32963	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/MAV_Class_377.png	
@@ -9608,8 +9743,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b52	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32909	
-	#define THIS_ENG_RCOST \w33013	
+	#define THIS_ENG_PCOST \w32916	
+	#define THIS_ENG_RCOST \w33036	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/KkStB_Class_99.png	
@@ -9653,8 +9788,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b53	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33033	
-	#define THIS_ENG_RCOST \w33253	
+	#define THIS_ENG_PCOST \w33029	
+	#define THIS_ENG_RCOST \w33293	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/cr439.png	
@@ -9698,8 +9833,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b106	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33174	
-	#define THIS_ENG_RCOST \w33558	
+	#define THIS_ENG_PCOST \w33265	
+	#define THIS_ENG_RCOST \w33627	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/A_3-5.png	
@@ -9743,8 +9878,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b35	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32881	
-	#define THIS_ENG_RCOST \w32956	
+	#define THIS_ENG_PCOST \w32873	
+	#define THIS_ENG_RCOST \w32972	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/SBB_E_3-3.png	
@@ -9788,8 +9923,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b67	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33046	
-	#define THIS_ENG_RCOST \w33282	
+	#define THIS_ENG_PCOST \w33061	
+	#define THIS_ENG_RCOST \w33325	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/kkstb229.png	
@@ -9833,8 +9968,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b94	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32950	
-	#define THIS_ENG_RCOST \w33099	
+	#define THIS_ENG_PCOST \w33030	
+	#define THIS_ENG_RCOST \w33131	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/nrz_x_class.png	
@@ -9878,8 +10013,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b52	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32947	
-	#define THIS_ENG_RCOST \w33084	
+	#define THIS_ENG_PCOST \w32942	
+	#define THIS_ENG_RCOST \w33108	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/Hz_Class_51.png	
@@ -9923,8 +10058,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b144	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33014	
-	#define THIS_ENG_RCOST \w33267	
+	#define THIS_ENG_PCOST \w33090	
+	#define THIS_ENG_RCOST \w33313	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/FS_Class_880.png	
@@ -9968,8 +10103,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b126	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33081	
-	#define THIS_ENG_RCOST \w33373	
+	#define THIS_ENG_PCOST \w33184	
+	#define THIS_ENG_RCOST \w33433	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/140c.png	
@@ -10013,8 +10148,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b97	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32982	
-	#define THIS_ENG_RCOST \w33169	
+	#define THIS_ENG_PCOST \w33025	
+	#define THIS_ENG_RCOST \w33204	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/11b-2-8-0.png	
@@ -10058,8 +10193,8 @@
 	#define THIS_ENG6_ARMOR_LS \b1	
 	#define THIS_ENG6_WEIGHT \b59	
 	#define THIS_ENG6_WEIGHT_HIGH \b0	
-	#define THIS_ENG6_PCOST \w32876	
-	#define THIS_ENG6_RCOST \w32957	
+	#define THIS_ENG6_PCOST \w32894	
+	#define THIS_ENG6_RCOST \w32977	
 	#define THIS_ENG6_RCOST_WAG \w32788	
 	#define THIS_ENG6_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG6_GFX  sprites/gfx/nogfx.png	
@@ -10103,8 +10238,8 @@
 	#define THIS_ENG8_ARMOR_LS \b1	
 	#define THIS_ENG8_WEIGHT \b128	
 	#define THIS_ENG8_WEIGHT_HIGH \b0	
-	#define THIS_ENG8_PCOST \w33018	
-	#define THIS_ENG8_RCOST \w33247	
+	#define THIS_ENG8_PCOST \w33130	
+	#define THIS_ENG8_RCOST \w33296	
 	#define THIS_ENG8_RCOST_WAG \w32788	
 	#define THIS_ENG8_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG8_GFX  sprites/gfx/nogfx.png	
@@ -10148,8 +10283,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b94	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33027	
-	#define THIS_ENG_RCOST \w33248	
+	#define THIS_ENG_PCOST \w33090	
+	#define THIS_ENG_RCOST \w33299	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/141ta.png	
@@ -10193,8 +10328,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b122	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33174	
-	#define THIS_ENG_RCOST \w33556	
+	#define THIS_ENG_PCOST \w33295	
+	#define THIS_ENG_RCOST \w33624	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/gwr_4900.png	
@@ -10204,7 +10339,7 @@
 	#define THIS_ENG_ID_B \b*1880	
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
-	#define THIS_ENG_LENGTH1 \b1	
+	#define THIS_ENG_LENGTH1 \b0	
 	#define THIS_ENG_LENGTH2 \b2	
 	 	
 	 	
@@ -10238,8 +10373,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b48	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33003	
-	#define THIS_ENG_RCOST \w33188	
+	#define THIS_ENG_PCOST \w32994	
+	#define THIS_ENG_RCOST \w33224	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/GWR_Class_5700.png	
@@ -10283,8 +10418,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b127	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33136	
-	#define THIS_ENG_RCOST \w33484	
+	#define THIS_ENG_PCOST \w33248	
+	#define THIS_ENG_RCOST \w33548	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/6300.png	
@@ -10294,7 +10429,7 @@
 	#define THIS_ENG_ID_B \b*2086	
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
-	#define THIS_ENG_LENGTH1 \b2	
+	#define THIS_ENG_LENGTH1 \b0	
 	 	
 	 	
 	 	
@@ -10328,8 +10463,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b143	
 	#define THIS_ENG_WEIGHT_HIGH \b1	
-	#define THIS_ENG_PCOST \w33414	
-	#define THIS_ENG_RCOST \w34136	
+	#define THIS_ENG_PCOST \w34324	
+	#define THIS_ENG_RCOST \w34288	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/AT_SF_5000.png	
@@ -10373,8 +10508,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b174	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33251	
-	#define THIS_ENG_RCOST \w33740	
+	#define THIS_ENG_PCOST \w33478	
+	#define THIS_ENG_RCOST \w33828	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/nogfx.png	
@@ -10418,8 +10553,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b52	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32848	
-	#define THIS_ENG_RCOST \w32909	
+	#define THIS_ENG_PCOST \w32857	
+	#define THIS_ENG_RCOST \w32921	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/9P.png	
@@ -10463,8 +10598,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b75	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33268	
-	#define THIS_ENG_RCOST \w33734	
+	#define THIS_ENG_PCOST \w33363	
+	#define THIS_ENG_RCOST \w33817	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/LMS_5MT_Black_Five.png	
@@ -10508,8 +10643,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b118	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33074	
-	#define THIS_ENG_RCOST \w33346	
+	#define THIS_ENG_PCOST \w33185	
+	#define THIS_ENG_RCOST \w33398	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/nogfx.png	
@@ -10553,8 +10688,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b135	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33474	
-	#define THIS_ENG_RCOST \w34157	
+	#define THIS_ENG_PCOST \w33843	
+	#define THIS_ENG_RCOST \w34279	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/Prussian_S10.png	
@@ -10598,8 +10733,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b170	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33581	
-	#define THIS_ENG_RCOST \w34496	
+	#define THIS_ENG_PCOST \w33963	
+	#define THIS_ENG_RCOST \w34650	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/a4.png	
@@ -10643,8 +10778,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b137	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33214	
-	#define THIS_ENG_RCOST \w33673	
+	#define THIS_ENG_PCOST \w33328	
+	#define THIS_ENG_RCOST \w33748	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/litera-e.png	
@@ -10688,8 +10823,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b39	
 	#define THIS_ENG_WEIGHT_HIGH \b1	
-	#define THIS_ENG_PCOST \w33617	
-	#define THIS_ENG_RCOST \w34563	
+	#define THIS_ENG_PCOST \w34327	
+	#define THIS_ENG_RCOST \w34727	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/hudson.png	
@@ -10733,8 +10868,8 @@
 	#define THIS_ENG5_ARMOR_LS \b1	
 	#define THIS_ENG5_WEIGHT \b175	
 	#define THIS_ENG5_WEIGHT_HIGH \b0	
-	#define THIS_ENG5_PCOST \w33528	
-	#define THIS_ENG5_RCOST \w34315	
+	#define THIS_ENG5_PCOST \w33961	
+	#define THIS_ENG5_RCOST \w34471	
 	#define THIS_ENG5_RCOST_WAG \w32788	
 	#define THIS_ENG5_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG5_GFX  sprites/gfx/nogfx.png	
@@ -10778,8 +10913,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b91	
 	#define THIS_ENG_WEIGHT_HIGH \b2	
-	#define THIS_ENG_PCOST \w33645	
-	#define THIS_ENG_RCOST \w34774	
+	#define THIS_ENG_PCOST \w35075	
+	#define THIS_ENG_RCOST \w34997	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/nogfx.png	
@@ -10823,8 +10958,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b103	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33085	
-	#define THIS_ENG_RCOST \w33364	
+	#define THIS_ENG_PCOST \w33164	
+	#define THIS_ENG_RCOST \w33419	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/db52.png	
@@ -10868,8 +11003,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b168	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33618	
-	#define THIS_ENG_RCOST \w34553	
+	#define THIS_ENG_PCOST \w34047	
+	#define THIS_ENG_RCOST \w34713	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/Class_A1.png	
@@ -10913,8 +11048,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b245	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33418	
-	#define THIS_ENG_RCOST \w34126	
+	#define THIS_ENG_PCOST \w33846	
+	#define THIS_ENG_RCOST \w34246	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/p36.png	
@@ -10958,8 +11093,8 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b236	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33430	
-	#define THIS_ENG_RCOST \w34080	
+	#define THIS_ENG_PCOST \w34023	
+	#define THIS_ENG_RCOST \w34204	
 	#define THIS_ENG_RCOST_WAG \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/SAR_Class_25.png	
@@ -11004,9 +11139,9 @@
 	#define THIS_ENG_ARMOR_LS \b30	
 	#define THIS_ENG_WEIGHT \b45	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33081	
-	#define THIS_ENG_RCOST \w32896	
-	#define THIS_ENG_RCOST_WAG \w32896	
+	#define THIS_ENG_PCOST \w33327	
+	#define THIS_ENG_RCOST \w32907	
+	#define THIS_ENG_RCOST_WAG \w32907	
 		
 	#define THIS_ENG_GFX  sprites/gfx/london1903.png	
 	#define THIS_ENG_TRACTION_TYPE 32	
@@ -11049,9 +11184,9 @@
 	#define THIS_ENG_ARMOR_LS \b30	
 	#define THIS_ENG_WEIGHT \b50	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32958	
-	#define THIS_ENG_RCOST \w32846	
-	#define THIS_ENG_RCOST_WAG \w32846	
+	#define THIS_ENG_PCOST \w33293	
+	#define THIS_ENG_RCOST \w32852	
+	#define THIS_ENG_RCOST_WAG \w32852	
 		
 	#define THIS_ENG_GFX  sprites/gfx/La_Brugeoise.png	
 	#define THIS_ENG_TRACTION_TYPE 32	
@@ -11094,9 +11229,9 @@
 	#define THIS_ENG_ARMOR_LS \b30	
 	#define THIS_ENG_WEIGHT \b38	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33225	
-	#define THIS_ENG_RCOST \w32957	
-	#define THIS_ENG_RCOST_WAG \w32957	
+	#define THIS_ENG_PCOST \w33631	
+	#define THIS_ENG_RCOST \w32974	
+	#define THIS_ENG_RCOST_WAG \w32974	
 		
 	#define THIS_ENG_GFX  sprites/gfx/ny_r1.png	
 	#define THIS_ENG_TRACTION_TYPE 32	
@@ -11139,9 +11274,9 @@
 	#define THIS_ENG_ARMOR_LS \b30	
 	#define THIS_ENG_WEIGHT \b26	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33099	
-	#define THIS_ENG_RCOST \w32896	
-	#define THIS_ENG_RCOST_WAG \w32896	
+	#define THIS_ENG_PCOST \w33310	
+	#define THIS_ENG_RCOST \w32910	
+	#define THIS_ENG_RCOST_WAG \w32910	
 		
 	#define THIS_ENG_GFX  sprites/gfx/1938.png	
 	#define THIS_ENG_TRACTION_TYPE 32	
@@ -11155,6 +11290,51 @@
 		
 		
 	#define NAME_THIS_ENG "London 1938 stock "	
+	#include TEMPLATE_METRO	
+	#undef THIS_ENG_CODE	
+	#endif	
+	#include TEMPLATE_UNDEF	
+	
+
+#define THIS_ENG_CODE YES	
+	#ifdef THIS_ENG_CODE	
+	#define THIS_ENG_INTROYEAR \d1942-1-1	
+	#define THIS_ENG_V_LIFE \b60	
+	#define THIS_ENG_M_LIFE \b50	
+	#define THIS_ENG_SPEED \w80	
+	#define THIS_ENG_TE \b83	
+	#define THIS_ENG_HP \w520	
+	#define THIS_ENG_WAG_HP \w520	
+	#define THIS_ENG_CAP_WAG_PAX \b160	
+	#define THIS_ENG_CAP_WAG_MAIL \b120	
+	#define THIS_ENG_CAP_WAG_ARMOR \b80	
+	#define THIS_ENG_CAP_WAG_PAX_STR "160"	
+	#define THIS_ENG_CAP_WAG_MAIL_STR "120"	
+	#define THIS_ENG_CAP_WAG_ARMOR_STR "80"	
+	#define THIS_ENG_CAP_HEAD_PAX \b160	
+	#define THIS_ENG_CAP_HEAD_MAIL \b120	
+	#define THIS_ENG_CAP_HEAD_ARMOR \b80	
+	#define THIS_ENG_PAX_LS \b60	
+	#define THIS_ENG_MAIL_LS \b45	
+	#define THIS_ENG_ARMOR_LS \b30	
+	#define THIS_ENG_WEIGHT \b44	
+	#define THIS_ENG_WEIGHT_HIGH \b0	
+	#define THIS_ENG_PCOST \w33589	
+	#define THIS_ENG_RCOST \w32945	
+	#define THIS_ENG_RCOST_WAG \w32945	
+		
+	#define THIS_ENG_GFX  sprites/gfx/ET171.png	
+	#define THIS_ENG_TRACTION_TYPE 32	
+		
+	#define THIS_ENG_ID_W \w47526	
+	#define THIS_ENG_ID_B \b*47526	
+	#define STR_W_THIS_ENG \wxD0AA	
+	#define THIS_ENG_STR_B \wx83A0	
+	#define THIS_ENG_LENGTH1 \b1	
+	#define THIS_ENG_LENGTH2 \b1	
+		
+		
+	#define NAME_THIS_ENG "ET171 "	
 	#include TEMPLATE_METRO	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -11184,9 +11364,9 @@
 	#define THIS_ENG_ARMOR_LS \b30	
 	#define THIS_ENG_WEIGHT \b37	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33158	
-	#define THIS_ENG_RCOST \w32926	
-	#define THIS_ENG_RCOST_WAG \w32926	
+	#define THIS_ENG_PCOST \w33460	
+	#define THIS_ENG_RCOST \w32940	
+	#define THIS_ENG_RCOST_WAG \w32940	
 		
 	#define THIS_ENG_GFX  sprites/gfx/m2-840.png	
 	#define THIS_ENG_TRACTION_TYPE 32	
@@ -11229,9 +11409,9 @@
 	#define THIS_ENG_ARMOR_LS \b30	
 	#define THIS_ENG_WEIGHT \b45	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33311	
-	#define THIS_ENG_RCOST \w32998	
-	#define THIS_ENG_RCOST_WAG \w32998	
+	#define THIS_ENG_PCOST \w33704	
+	#define THIS_ENG_RCOST \w33018	
+	#define THIS_ENG_RCOST_WAG \w33018	
 		
 	#define THIS_ENG_GFX  sprites/gfx/ev3-200.png	
 	#define THIS_ENG_TRACTION_TYPE 32	
@@ -11274,9 +11454,9 @@
 	#define THIS_ENG_ARMOR_LS \b30	
 	#define THIS_ENG_WEIGHT \b28	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33069	
-	#define THIS_ENG_RCOST \w32886	
-	#define THIS_ENG_RCOST_WAG \w32886	
+	#define THIS_ENG_PCOST \w33580	
+	#define THIS_ENG_RCOST \w32897	
+	#define THIS_ENG_RCOST_WAG \w32897	
 		
 	#define THIS_ENG_GFX  sprites/gfx/t1000.png	
 	#define THIS_ENG_TRACTION_TYPE 32	
@@ -11319,9 +11499,9 @@
 	#define THIS_ENG_ARMOR_LS \b30	
 	#define THIS_ENG_WEIGHT \b40	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33231	
-	#define THIS_ENG_RCOST \w32960	
-	#define THIS_ENG_RCOST_WAG \w32960	
+	#define THIS_ENG_PCOST \w33665	
+	#define THIS_ENG_RCOST \w32977	
+	#define THIS_ENG_RCOST_WAG \w32977	
 		
 	#define THIS_ENG_GFX  sprites/gfx/ny_r44.png	
 	#define THIS_ENG_TRACTION_TYPE 32	
@@ -11364,9 +11544,9 @@
 	#define THIS_ENG_ARMOR_LS \b30	
 	#define THIS_ENG_WEIGHT \b31	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33238	
-	#define THIS_ENG_RCOST \w32959	
-	#define THIS_ENG_RCOST_WAG \w32959	
+	#define THIS_ENG_PCOST \w33746	
+	#define THIS_ENG_RCOST \w32979	
+	#define THIS_ENG_RCOST_WAG \w32979	
 		
 	#define THIS_ENG_GFX  sprites/gfx/m1.png	
 	#define THIS_ENG_TRACTION_TYPE 32	
@@ -11380,6 +11560,51 @@
 		
 		
 	#define NAME_THIS_ENG "Type M1 "	
+	#include TEMPLATE_METRO	
+	#undef THIS_ENG_CODE	
+	#endif	
+	#include TEMPLATE_UNDEF	
+	
+
+#define THIS_ENG_CODE YES	
+	#ifdef THIS_ENG_CODE	
+	#define THIS_ENG_INTROYEAR \d1974-1-1	
+	#define THIS_ENG_V_LIFE \b60	
+	#define THIS_ENG_M_LIFE \b50	
+	#define THIS_ENG_SPEED \w90	
+	#define THIS_ENG_TE \b100	
+	#define THIS_ENG_HP \w470	
+	#define THIS_ENG_WAG_HP \w470	
+	#define THIS_ENG_CAP_WAG_PAX \b158	
+	#define THIS_ENG_CAP_WAG_MAIL \b119	
+	#define THIS_ENG_CAP_WAG_ARMOR \b79	
+	#define THIS_ENG_CAP_WAG_PAX_STR "158"	
+	#define THIS_ENG_CAP_WAG_MAIL_STR "119"	
+	#define THIS_ENG_CAP_WAG_ARMOR_STR "79"	
+	#define THIS_ENG_CAP_HEAD_PAX \b158	
+	#define THIS_ENG_CAP_HEAD_MAIL \b119	
+	#define THIS_ENG_CAP_HEAD_ARMOR \b79	
+	#define THIS_ENG_PAX_LS \b60	
+	#define THIS_ENG_MAIL_LS \b45	
+	#define THIS_ENG_ARMOR_LS \b30	
+	#define THIS_ENG_WEIGHT \b23	
+	#define THIS_ENG_WEIGHT_HIGH \b0	
+	#define THIS_ENG_PCOST \w33621	
+	#define THIS_ENG_RCOST \w32970	
+	#define THIS_ENG_RCOST_WAG \w32970	
+		
+	#define THIS_ENG_GFX  sprites/gfx/C8.png	
+	#define THIS_ENG_TRACTION_TYPE 32	
+		
+	#define THIS_ENG_ID_W \w48692	
+	#define THIS_ENG_ID_B \b*48692	
+	#define STR_W_THIS_ENG \wxD0AF	
+	#define THIS_ENG_STR_B \wx839E	
+	#define THIS_ENG_LENGTH1 \b1	
+	#define THIS_ENG_LENGTH2 \b0	
+		
+		
+	#define NAME_THIS_ENG "Stockholm C8 "	
 	#include TEMPLATE_METRO	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -11409,9 +11634,9 @@
 	#define THIS_ENG_ARMOR_LS \b30	
 	#define THIS_ENG_WEIGHT \b40	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33300	
-	#define THIS_ENG_RCOST \w32992	
-	#define THIS_ENG_RCOST_WAG \w32992	
+	#define THIS_ENG_PCOST \w33863	
+	#define THIS_ENG_RCOST \w33013	
+	#define THIS_ENG_RCOST_WAG \w33013	
 		
 	#define THIS_ENG_GFX  sprites/gfx/pjang.png	
 	#define THIS_ENG_TRACTION_TYPE 32	
@@ -11454,9 +11679,9 @@
 	#define THIS_ENG_ARMOR_LS \b30	
 	#define THIS_ENG_WEIGHT \b31	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33245	
-	#define THIS_ENG_RCOST \w32962	
-	#define THIS_ENG_RCOST_WAG \w32962	
+	#define THIS_ENG_PCOST \w33697	
+	#define THIS_ENG_RCOST \w32980	
+	#define THIS_ENG_RCOST_WAG \w32980	
 		
 	#define THIS_ENG_GFX  sprites/gfx/m100.png	
 	#define THIS_ENG_TRACTION_TYPE 32	
@@ -11499,9 +11724,9 @@
 	#define THIS_ENG_ARMOR_LS \b30	
 	#define THIS_ENG_WEIGHT \b34	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33318	
-	#define THIS_ENG_RCOST \w32997	
-	#define THIS_ENG_RCOST_WAG \w32997	
+	#define THIS_ENG_PCOST \w33679	
+	#define THIS_ENG_RCOST \w33023	
+	#define THIS_ENG_RCOST_WAG \w33023	
 		
 	#define THIS_ENG_GFX  sprites/gfx/81-729.png	
 	#define THIS_ENG_TRACTION_TYPE 32	
@@ -11544,9 +11769,9 @@
 	#define THIS_ENG_ARMOR_LS \b30	
 	#define THIS_ENG_WEIGHT \b35	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33490	
-	#define THIS_ENG_RCOST \w33080	
-	#define THIS_ENG_RCOST_WAG \w33080	
+	#define THIS_ENG_PCOST \w33791	
+	#define THIS_ENG_RCOST \w33109	
+	#define THIS_ENG_RCOST_WAG \w33109	
 		
 	#define THIS_ENG_GFX  sprites/gfx/tokyo-s01.png	
 	#define THIS_ENG_TRACTION_TYPE 32	
@@ -11589,9 +11814,9 @@
 	#define THIS_ENG_ARMOR_LS \b30	
 	#define THIS_ENG_WEIGHT \b40	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33161	
-	#define THIS_ENG_RCOST \w32927	
-	#define THIS_ENG_RCOST_WAG \w32927	
+	#define THIS_ENG_PCOST \w33831	
+	#define THIS_ENG_RCOST \w32942	
+	#define THIS_ENG_RCOST_WAG \w32942	
 		
 	#define THIS_ENG_GFX  sprites/gfx/cairo1987.png	
 	#define THIS_ENG_TRACTION_TYPE 32	
@@ -11634,9 +11859,9 @@
 	#define THIS_ENG_ARMOR_LS \b30	
 	#define THIS_ENG_WEIGHT \b18	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33166	
-	#define THIS_ENG_RCOST \w32923	
-	#define THIS_ENG_RCOST_WAG \w32923	
+	#define THIS_ENG_PCOST \w33485	
+	#define THIS_ENG_RCOST \w32938	
+	#define THIS_ENG_RCOST_WAG \w32938	
 		
 	#define THIS_ENG_GFX  sprites/gfx/dlr.png	
 	#define THIS_ENG_TRACTION_TYPE 32	
@@ -11679,9 +11904,9 @@
 	#define THIS_ENG_ARMOR_LS \b30	
 	#define THIS_ENG_WEIGHT \b31	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33174	
-	#define THIS_ENG_RCOST \w32930	
-	#define THIS_ENG_RCOST_WAG \w32930	
+	#define THIS_ENG_PCOST \w33525	
+	#define THIS_ENG_RCOST \w32945	
+	#define THIS_ENG_RCOST_WAG \w32945	
 		
 	#define THIS_ENG_GFX  sprites/gfx/01800.png	
 	#define THIS_ENG_TRACTION_TYPE 32	
@@ -11724,9 +11949,9 @@
 	#define THIS_ENG_ARMOR_LS \b30	
 	#define THIS_ENG_WEIGHT \b37	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33410	
-	#define THIS_ENG_RCOST \w33042	
-	#define THIS_ENG_RCOST_WAG \w33042	
+	#define THIS_ENG_PCOST \w33941	
+	#define THIS_ENG_RCOST \w33067	
+	#define THIS_ENG_RCOST_WAG \w33067	
 		
 	#define THIS_ENG_GFX  sprites/gfx/la_a650.png	
 	#define THIS_ENG_TRACTION_TYPE 32	
@@ -11769,9 +11994,9 @@
 	#define THIS_ENG_ARMOR_LS \b30	
 	#define THIS_ENG_WEIGHT \b47	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33108	
-	#define THIS_ENG_RCOST \w32904	
-	#define THIS_ENG_RCOST_WAG \w32904	
+	#define THIS_ENG_PCOST \w34206	
+	#define THIS_ENG_RCOST \w32916	
+	#define THIS_ENG_RCOST_WAG \w32916	
 		
 	#define THIS_ENG_GFX  sprites/gfx/caf90.png	
 	#define THIS_ENG_TRACTION_TYPE 32	
@@ -11814,9 +12039,9 @@
 	#define THIS_ENG_ARMOR_LS \b30	
 	#define THIS_ENG_WEIGHT \b28	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33319	
-	#define THIS_ENG_RCOST \w32996	
-	#define THIS_ENG_RCOST_WAG \w32996	
+	#define THIS_ENG_PCOST \w33541	
+	#define THIS_ENG_RCOST \w33015	
+	#define THIS_ENG_RCOST_WAG \w33015	
 		
 	#define THIS_ENG_GFX  sprites/gfx/mp89.png	
 	#define THIS_ENG_TRACTION_TYPE 32	
@@ -11859,9 +12084,9 @@
 	#define THIS_ENG_ARMOR_LS \b30	
 	#define THIS_ENG_WEIGHT \b27	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33163	
-	#define THIS_ENG_RCOST \w32924	
-	#define THIS_ENG_RCOST_WAG \w32924	
+	#define THIS_ENG_PCOST \w33520	
+	#define THIS_ENG_RCOST \w32941	
+	#define THIS_ENG_RCOST_WAG \w32941	
 		
 	#define THIS_ENG_GFX  sprites/gfx/nogfx.png	
 	#define THIS_ENG_TRACTION_TYPE 32	
@@ -11904,9 +12129,9 @@
 	#define THIS_ENG_ARMOR_LS \b30	
 	#define THIS_ENG_WEIGHT \b47	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33260	
-	#define THIS_ENG_RCOST \w32973	
-	#define THIS_ENG_RCOST_WAG \w32973	
+	#define THIS_ENG_PCOST \w33499	
+	#define THIS_ENG_RCOST \w32992	
+	#define THIS_ENG_RCOST_WAG \w32992	
 		
 	#define THIS_ENG_GFX  sprites/gfx/81-740.png	
 	#define THIS_ENG_TRACTION_TYPE 32	
@@ -11949,9 +12174,9 @@
 	#define THIS_ENG_ARMOR_LS \b30	
 	#define THIS_ENG_WEIGHT \b33	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33179	
-	#define THIS_ENG_RCOST \w32932	
-	#define THIS_ENG_RCOST_WAG \w32932	
+	#define THIS_ENG_PCOST \w33606	
+	#define THIS_ENG_RCOST \w32945	
+	#define THIS_ENG_RCOST_WAG \w32945	
 		
 	#define THIS_ENG_GFX  sprites/gfx/mx3000.png	
 	#define THIS_ENG_TRACTION_TYPE 32	
@@ -11994,9 +12219,9 @@
 	#define THIS_ENG_ARMOR_LS \b30	
 	#define THIS_ENG_WEIGHT \b30	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33109	
-	#define THIS_ENG_RCOST \w32901	
-	#define THIS_ENG_RCOST_WAG \w32901	
+	#define THIS_ENG_PCOST \w33402	
+	#define THIS_ENG_RCOST \w32914	
+	#define THIS_ENG_RCOST_WAG \w32914	
 		
 	#define THIS_ENG_GFX  sprites/gfx/osaka_30000.png	
 	#define THIS_ENG_TRACTION_TYPE 32	
@@ -12039,9 +12264,9 @@
 	#define THIS_ENG_ARMOR_LS \b30	
 	#define THIS_ENG_WEIGHT \b36	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33545	
-	#define THIS_ENG_RCOST \w33106	
-	#define THIS_ENG_RCOST_WAG \w33106	
+	#define THIS_ENG_PCOST \w34230	
+	#define THIS_ENG_RCOST \w33138	
+	#define THIS_ENG_RCOST_WAG \w33138	
 		
 	#define THIS_ENG_GFX  sprites/gfx/washington_7000.png	
 	#define THIS_ENG_TRACTION_TYPE 32	
@@ -12084,8 +12309,8 @@
 	#define THIS_ENG_ARMOR_LS \b30	
 	#define THIS_ENG_WEIGHT \b50	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33078	
-	#define THIS_ENG_RCOST \w32811	
+	#define THIS_ENG_PCOST \w33348	
+	#define THIS_ENG_RCOST \w32814	
 	#define THIS_ENG_RCOST_WAG \w32788	
 		
 	#define THIS_ENG_GFX  sprites/gfx/chicago_l.png	
@@ -12129,8 +12354,8 @@
 	#define THIS_ENG_ARMOR_LS \b30	
 	#define THIS_ENG_WEIGHT \b20	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33010	
-	#define THIS_ENG_RCOST \w32799	
+	#define THIS_ENG_PCOST \w33033	
+	#define THIS_ENG_RCOST \w32801	
 	#define THIS_ENG_RCOST_WAG \w32788	
 		
 	#define THIS_ENG_GFX  sprites/gfx/uniongate.png	
@@ -12174,8 +12399,8 @@
 	#define THIS_ENG_ARMOR_LS \b30	
 	#define THIS_ENG_WEIGHT \b25	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33011	
-	#define THIS_ENG_RCOST \w32799	
+	#define THIS_ENG_PCOST \w33141	
+	#define THIS_ENG_RCOST \w32802	
 	#define THIS_ENG_RCOST_WAG \w32788	
 		
 	#define THIS_ENG_GFX  sprites/gfx/budapest.png	
@@ -12219,8 +12444,8 @@
 	#define THIS_ENG_ARMOR_LS \b30	
 	#define THIS_ENG_WEIGHT \b50	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33024	
-	#define THIS_ENG_RCOST \w32803	
+	#define THIS_ENG_PCOST \w33428	
+	#define THIS_ENG_RCOST \w32805	
 	#define THIS_ENG_RCOST_WAG \w32788	
 		
 	#define THIS_ENG_GFX  sprites/gfx/ut2.png	
