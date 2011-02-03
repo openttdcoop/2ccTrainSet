@@ -8,12 +8,12 @@
 // High and low IDs
 #define WAGON_LOW 	\w128
 #define WAGON_HIGH	\w256
-#define ENGINE_LOW	\w2000
-#define ENGINE_HIGH	\w2999
-#define MU_LOW		\w3000
-#define MU_HIGH		\w3999
-#define RB_LOW		\w4000
-#define RB_HIGH		\w4999
+#define ENGINE_LOW	\w1000
+#define ENGINE_HIGH	\w23499
+#define MU_LOW		\w23500
+#define MU_HIGH		\w38499
+#define RB_LOW		\w38500
+#define RB_HIGH		\w45499
 
 
 // Strings
