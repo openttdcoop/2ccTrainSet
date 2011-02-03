@@ -60,48 +60,48 @@
 
 // Loading speed of the various cargos
 -1 * 0  02 00 E1 81 47 10 FF 04
-                             THIS_ENG_MAIL_LS 80 02 02  // Mail 
-                             THIS_ENG_ARMOR_LS 80 08 08 // Armored 
-                             THIS_ENG_PAX_LS 80 01 01   // PAX
-                             THIS_ENG_PAX_LS 80 05 05   // Tourists
+                             THIS_ENG_MAIL_LS 80 02 02        // Mail 
+                             THIS_ENG_ARMOR_LS 80 08 08       // Armored 
+                             THIS_ENG_PAX_LS 80 01 01         // PAX
+                             THIS_ENG_PAX_LS 80 05 05         // Tourists
                              00 80                            // others 
              
 //Capacty for use in CB15/36 - Head
 -1 * 0  02 00 E5 81 47 10 FF 03
-                             THIS_ENG_CAP_HEAD_MAIL 80 02 02		// Mail Capacity
-                             THIS_ENG_CAP_HEAD_ARMOR 80 08 08        // Armored capacity
+                             THIS_ENG_CAP_HEAD_MAIL 80 02 02	// Mail Capacity
+                             THIS_ENG_CAP_HEAD_ARMOR 80 08 08 // Armored capacity
                              THIS_ENG_CAP_HEAD_PAX 80 05 05		// Tourist capacity
-                             00 80				// Everything else
+                             00 80				                    // Everything else
  //Capacty for use in CB15/36 - Wagon
 -1 * 0  02 00 E6 81 47 10 FF 03
                              THIS_ENG_CAP_WAG_MAIL 80 02 02		// Mail Capacity
-                             THIS_ENG_CAP_WAG_ARMOR 80 08 08        // Armored capacity
+                             THIS_ENG_CAP_WAG_ARMOR 80 08 08  // Armored capacity
                              THIS_ENG_CAP_WAG_PAX 80 05 05		// Tourist capacity
-                             00 80				// Everything else
+                             00 80				                    // Everything else
                           
 //Low cost when standing still, for use in the '10' at the RUN cost spot HEAD
--1 * 0  02 00 EC 82 B4 00 FF 01			// 1 case
-                          \b20 80 00 00	        // Standing still cost 
-                          THIS_ENG_RCOST	// RUN cost
+-1 * 0  02 00 EC 82 B4 00 FF 01			                          // 1 case
+                          \b20 80 00 00	                      // Standing still cost 
+                          THIS_ENG_RCOST	                    // RUN cost
 
 //Low cost when standing still, for use in the '10' at the RUN cost spot WAGON
--1 * 0  02 00 ED 82 B4 00 FF 01			// 1 case
-                          \b20 80 00 00	        // Standing still cost 
-                          THIS_ENG_RCOST_WAG // RUN cost
+-1 * 0  02 00 ED 82 B4 00 FF 01			                          // 1 case
+                          \b20 80 00 00	                      // Standing still cost 
+                          THIS_ENG_RCOST_WAG                  // RUN cost
 
 // '10' for CB36s HEAD
 -1 * 0  02 00 EE 81 10 00 FF 03
                              THIS_ENG_CAP_HEAD_PAX 80 14 14		// Capacity
-                             THIS_ENG_WEIGHT 80 16 16	// weight
-                             EC 00 0D 0D		// RUN cost
-                             40 00			// Dont matter
+                             THIS_ENG_WEIGHT 80 16 16	        // weight
+                             EC 00 0D 0D		                  // RUN cost
+                             40 00			                      // Dont matter
 
 // '10' for CB36s Wagon
 -1 * 0  02 00 EF 81 10 00 FF 03
                              THIS_ENG_CAP_WAG_PAX 80 14 14		// Capacity
-                             THIS_ENG_WEIGHT 80 16 16	// weight
-                             ED 00 0D 0D		// RUN cost
-                             40 00			// Dont matter
+                             THIS_ENG_WEIGHT 80 16 16	        // weight
+                             ED 00 0D 0D		                  // RUN cost
+                             40 00			                      // Dont matter
 
 #include TEMPLATE_COSTS_PLIST
 
@@ -111,16 +111,17 @@
 // --------------------
 
 // Cannot attach 
--1 * 0  02 00 A6 85 C6 00 FF FF 02             // 2 cases
-                             FF 80 MU 00 MU 00 // allow attaching MU-wagon
+-1 * 0  02 00 A6 85 C6 00 FF FF 02                               // 2 cases
+                             FF 80 MU 00 MU 00                   // allow attaching MU-wagon
                              FF 80 THIS_ENG_ID_W  THIS_ENG_ID_W  // Allow attaching self
-                             ER_ONLYMU 80             // Dissalow everything else
--1 * 0  02 00 AF 81 0C 00 FF 04          // 4 callbacks
-                             E1 00 12 12 // Loading speed
-                             E5 00 15 15 // Cargo Capacity
-                             A6 00 1D 1D // Cannot attach 
-                             EE 00 36 36 // New stuff
-                             10 00       // Attach engine gfx
+                             ER_ONLYMU 80                        // Dissalow everything else
+
+-1 * 0  02 00 AF 81 0C 00 FF 04                               // 4 callbacks
+                             E1 00 12 12                      // Loading speed
+                             E5 00 15 15                      // Cargo Capacity
+                             A6 00 1D 1D                      // Cannot attach 
+                             EE 00 36 36                      // New stuff
+                             10 00                            // Attach engine gfx
 
 // --------------------
 // ------ Wagon -------
@@ -130,18 +131,18 @@
 
 // GFX depending on what it carries 
 -1 * 0  02 00 50 81 47 10 FF 02
-                             20 00 01 01 // PAX gfx
-                             20 00 05 05 // Tourist GFX
-                             30 00       // Other/mail/armor gfx
+                             20 00 01 01                      // PAX gfx
+                             20 00 05 05                      // Tourist GFX
+                             30 00                            // Other/mail/armor gfx
 
 // Change length of the different parts
 // Back head:
 -1 * 0  02 00 51 81 0C 00 FF 01
-        THIS_ENG_LENGTH1     80 11 11 // Make wagon shorter
+               THIS_ENG_LENGTH1 80 11 11  // Make wagon shorter
                                 11 00
 // Wagons
 -1 * 0  02 00 52 81 0C 00 FF 01
-    THIS_ENG_LENGTH2            80 11 11 // Make wagon shorter
+               THIS_ENG_LENGTH2 80 11 11 // Make wagon shorter
                                 50 00
 
 
