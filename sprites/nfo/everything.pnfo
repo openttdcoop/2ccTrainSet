@@ -36,7 +36,7 @@
 	#define THIS_ENG_LENGTH2 \b1	
 		
 	#define THIS_ENG_TYPE ENGINESTYLE_EMU	
-	#define NAME_THIS_ENG "Silver City Comet "	
+	#define NAME_THIS_ENG "NSWGR Silver City Comet "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -81,7 +81,7 @@
 	#define THIS_ENG_LENGTH2 \b2	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
-	#define NAME_THIS_ENG "M131 "	
+	#define NAME_THIS_ENG "CSD M131 "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -126,7 +126,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
-	#define NAME_THIS_ENG "DB Class 608 "	
+	#define NAME_THIS_ENG "DB VT08 "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -171,7 +171,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
-	#define NAME_THIS_ENG "Queens Rail Class 400 "	
+	#define NAME_THIS_ENG "Queensland Rail 400 "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -216,7 +216,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
-	#define NAME_THIS_ENG "Aln 668 "	
+	#define NAME_THIS_ENG "FS ALn668 "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -261,7 +261,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
-	#define NAME_THIS_ENG "DB Class 601 "	
+	#define NAME_THIS_ENG "DB VT11 TEE "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -306,7 +306,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE DUALHEAD_EMU	
-	#define NAME_THIS_ENG "TurboTrain "	
+	#define NAME_THIS_ENG "CNR 'Turbo Train' "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -351,7 +351,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_DMU	
-	#define NAME_THIS_ENG "811 "	
+	#define NAME_THIS_ENG "ZS 811 "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -396,7 +396,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE DUALHEAD_DMU	
-	#define NAME_THIS_ENG "IC125 "	
+	#define NAME_THIS_ENG "BR 43 'IC125' "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -441,52 +441,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE DUALHEAD_DMU	
-	#define NAME_THIS_ENG "LRC "	
-	#include TEMPLATE_MUS	
-	#undef THIS_ENG_CODE	
-	#endif	
-	#include TEMPLATE_UNDEF	
-	
-
- 	
-	#ifdef THIS_ENG_CODE	
-	#define THIS_ENG_INTROYEAR \d1986-1-1	
-	#define THIS_ENG_V_LIFE \b20	
-	#define THIS_ENG_M_LIFE \b15	
-	#define THIS_ENG_SPEED \w125	
-	#define THIS_ENG_TE \b134	
-	#define THIS_ENG_HP \w570	
-	#define THIS_ENG_WAG_HP \w570	
-	#define THIS_ENG_CAP_WAG_PAX \b75	
-	#define THIS_ENG_CAP_WAG_MAIL \b56	
-	#define THIS_ENG_CAP_WAG_ARMOR \b38	
-	#define THIS_ENG_CAP_WAG_PAX_STR "75"	
-	#define THIS_ENG_CAP_WAG_MAIL_STR "56"	
-	#define THIS_ENG_CAP_WAG_ARMOR_STR "38"	
-	#define THIS_ENG_CAP_HEAD_PAX \b75	
-	#define THIS_ENG_CAP_HEAD_MAIL \b56	
-	#define THIS_ENG_CAP_HEAD_ARMOR \b38	
-	#define THIS_ENG_PAX_LS \b20	
-	#define THIS_ENG_MAIL_LS \b15	
-	#define THIS_ENG_ARMOR_LS \b10	
-	#define THIS_ENG_WEIGHT \b34	
-	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33160	
-	#define THIS_ENG_RCOST \w32904	
-	#define THIS_ENG_RCOST_WAG \w32904	
-	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
-	#define THIS_ENG_GFX  sprites/gfx/nogfx.png	
-	#define THIS_ENG_TRACTION_TYPE 8	
-	#define THIS_ENG_MISC 6	
-	#define THIS_ENG_ID_W \w26607	
-	#define THIS_ENG_ID_B \b*26607	
-	#define STR_W_THIS_ENG \wxD2CB	
-	#define THIS_ENG_STR_B \wx82CB	
-	#define THIS_ENG_LENGTH1 \b0	
-	#define THIS_ENG_LENGTH2 \b0	
-		
-	#define THIS_ENG_TYPE NORMAL_DMU	
-	#define NAME_THIS_ENG "BR 150 "	
+	#define NAME_THIS_ENG "CNR LRC "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -531,52 +486,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_DMU	
-	#define NAME_THIS_ENG "Y2 "	
-	#include TEMPLATE_MUS	
-	#undef THIS_ENG_CODE	
-	#endif	
-	#include TEMPLATE_UNDEF	
-	
-
- 	
-	#ifdef THIS_ENG_CODE	
-	#define THIS_ENG_INTROYEAR \d1991-1-1	
-	#define THIS_ENG_V_LIFE \b20	
-	#define THIS_ENG_M_LIFE \b15	
-	#define THIS_ENG_SPEED \w150	
-	#define THIS_ENG_TE \b130	
-	#define THIS_ENG_HP \w800	
-	#define THIS_ENG_WAG_HP \w800	
-	#define THIS_ENG_CAP_WAG_PAX \b69	
-	#define THIS_ENG_CAP_WAG_MAIL \b52	
-	#define THIS_ENG_CAP_WAG_ARMOR \b35	
-	#define THIS_ENG_CAP_WAG_PAX_STR "69"	
-	#define THIS_ENG_CAP_WAG_MAIL_STR "52"	
-	#define THIS_ENG_CAP_WAG_ARMOR_STR "35"	
-	#define THIS_ENG_CAP_HEAD_PAX \b69	
-	#define THIS_ENG_CAP_HEAD_MAIL \b52	
-	#define THIS_ENG_CAP_HEAD_ARMOR \b35	
-	#define THIS_ENG_PAX_LS \b20	
-	#define THIS_ENG_MAIL_LS \b15	
-	#define THIS_ENG_ARMOR_LS \b10	
-	#define THIS_ENG_WEIGHT \b37	
-	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33489	
-	#define THIS_ENG_RCOST \w32955	
-	#define THIS_ENG_RCOST_WAG \w32955	
-	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
-	#define THIS_ENG_GFX  sprites/gfx/nogfx.png	
-	#define THIS_ENG_TRACTION_TYPE 8	
-	#define THIS_ENG_MISC 6	
-	#define THIS_ENG_ID_W \w26786	
-	#define THIS_ENG_ID_B \b*26786	
-	#define STR_W_THIS_ENG \wxD2C5	
-	#define THIS_ENG_STR_B \wx82C5	
-	#define THIS_ENG_LENGTH1 \b0	
-	#define THIS_ENG_LENGTH2 \b0	
-		
-	#define THIS_ENG_TYPE NORMAL_DMU	
-	#define NAME_THIS_ENG "BR 158 "	
+	#define NAME_THIS_ENG "SJ Y2 "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -666,7 +576,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_DMU	
-	#define NAME_THIS_ENG "594 TRD "	
+	#define NAME_THIS_ENG "RENFE 594 TRD "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -711,7 +621,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_DMU	
-	#define NAME_THIS_ENG "BR Class 168 "	
+	#define NAME_THIS_ENG "BR 168 "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -756,7 +666,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_DMU	
-	#define NAME_THIS_ENG "VT 612 'RegioSwinger' "	
+	#define NAME_THIS_ENG "DB 612 'Regio Swinger' "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -801,7 +711,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
-	#define NAME_THIS_ENG "Desiro DMU "	
+	#define NAME_THIS_ENG "DB 642 'Desiro' "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -846,7 +756,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_DMU	
-	#define NAME_THIS_ENG "BM93 'Talent' "	
+	#define NAME_THIS_ENG "NSB BM93 'Talent' "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -891,7 +801,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_DMU	
-	#define NAME_THIS_ENG "Lint 41 "	
+	#define NAME_THIS_ENG "Arriva Lint 41 "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -981,7 +891,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_DMU	
-	#define NAME_THIS_ENG "Hunter Railcar "	
+	#define NAME_THIS_ENG "CityRail Hunter Railcar "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -1026,7 +936,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
-	#define NAME_THIS_ENG "IC4 "	
+	#define NAME_THIS_ENG "DSB IC4 "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -1071,7 +981,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_DMU	
-	#define NAME_THIS_ENG "Koncar KDMV "	
+	#define NAME_THIS_ENG "HZ 7124 "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -1161,7 +1071,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
-	#define NAME_THIS_ENG "Mat24 "	
+	#define NAME_THIS_ENG "NS Mat'24 "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -1206,7 +1116,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
-	#define NAME_THIS_ENG "4041 "	
+	#define NAME_THIS_ENG "OBB 4041 "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -1251,7 +1161,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
-	#define NAME_THIS_ENG "ECD21-30 "	
+	#define NAME_THIS_ENG "ATAC ECD 21-30 "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -1296,7 +1206,7 @@
 	#define THIS_ENG_LENGTH2 \b1	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
-	#define NAME_THIS_ENG "Mat36 "	
+	#define NAME_THIS_ENG "NS Mat'36 "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -1341,7 +1251,7 @@
 	#define THIS_ENG_LENGTH2 \b1	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
-	#define NAME_THIS_ENG "BM65 "	
+	#define NAME_THIS_ENG "NSB BM65 "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -1386,7 +1296,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
-	#define NAME_THIS_ENG "ETR300 'Settebello' "	
+	#define NAME_THIS_ENG "FS ETR 300 'Settebello' "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -1431,7 +1341,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
-	#define NAME_THIS_ENG "Rae TEE II "	
+	#define NAME_THIS_ENG "SBB Rae TEE II "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -1476,7 +1386,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
-	#define NAME_THIS_ENG "Odakyu 3100 Series 'Romance' "	
+	#define NAME_THIS_ENG "Odakyu 3100 'Romance' "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -1521,7 +1431,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE XGV	
-	#define NAME_THIS_ENG "Shinkansen Series 0 "	
+	#define NAME_THIS_ENG "JNR Shinkansen Series 0 "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -1566,7 +1476,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
-	#define NAME_THIS_ENG "Radbe510 "	
+	#define NAME_THIS_ENG "SBB RABDe 510 "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -1611,7 +1521,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE FIRSTWAGON_EMU	
-	#define NAME_THIS_ENG "S-Tog II "	
+	#define NAME_THIS_ENG "DSB S-Tog II "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -1656,7 +1566,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
-	#define NAME_THIS_ENG "ET 420 "	
+	#define NAME_THIS_ENG "DB 420 "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -1701,7 +1611,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
-	#define NAME_THIS_ENG "CityRail V "	
+	#define NAME_THIS_ENG "CityRail V DDIU "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -1746,7 +1656,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
-	#define NAME_THIS_ENG "Plan Y "	
+	#define NAME_THIS_ENG "NS Plan Y "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -1791,7 +1701,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
-	#define NAME_THIS_ENG "Sm2 "	
+	#define NAME_THIS_ENG "VR Sm2 "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -1836,7 +1746,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
-	#define NAME_THIS_ENG "ICM "	
+	#define NAME_THIS_ENG "NS ICM 4000 "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -1881,7 +1791,7 @@
 	#define THIS_ENG_LENGTH2 \b2	
 		
 	#define THIS_ENG_TYPE TGV_TA_EMU	
-	#define NAME_THIS_ENG "TGV Sud-Est "	
+	#define NAME_THIS_ENG "SNCF TGV Sud-Est "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -1926,7 +1836,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
-	#define NAME_THIS_ENG "rbde560 "	
+	#define NAME_THIS_ENG "SBB RBDe 560 "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -1971,7 +1881,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
-	#define NAME_THIS_ENG "Odakyu 10000 Series 'Romance' "	
+	#define NAME_THIS_ENG "Odakyu 10000 'Romance' "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -2016,7 +1926,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE ENGINESTYLE_EMU	
-	#define NAME_THIS_ENG "BDVmot "	
+	#define NAME_THIS_ENG "MAV BDVmot "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -2061,7 +1971,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE ENGINESTYLE_EMU	
-	#define NAME_THIS_ENG "X2000 "	
+	#define NAME_THIS_ENG "SJ X2000 "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -2106,7 +2016,7 @@
 	#define THIS_ENG_LENGTH2 \b2	
 		
 	#define THIS_ENG_TYPE EMU_TGV	
-	#define NAME_THIS_ENG "TGV Eurostar "	
+	#define NAME_THIS_ENG "SNCF TGV Eurostar "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -2151,7 +2061,7 @@
 	#define THIS_ENG_LENGTH2 \b2	
 		
 	#define THIS_ENG_TYPE DUALHEAD_EMU	
-	#define NAME_THIS_ENG "ETR500 "	
+	#define NAME_THIS_ENG "FS ETR500 "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -2196,7 +2106,7 @@
 	#define THIS_ENG_LENGTH2 \b2	
 		
 	#define THIS_ENG_TYPE TGV_D_EMU	
-	#define NAME_THIS_ENG "TGV Duplex "	
+	#define NAME_THIS_ENG "SNCF TGV Duplex "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -2241,7 +2151,7 @@
 	#define THIS_ENG_LENGTH2 \b2	
 		
 	#define THIS_ENG_TYPE TGV_TA_EMU	
-	#define NAME_THIS_ENG "TGV Thalys "	
+	#define NAME_THIS_ENG "SNCF TGV Thalys "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -2286,7 +2196,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
-	#define NAME_THIS_ENG "Ale 426 "	
+	#define NAME_THIS_ENG "FS ALe426 "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -2331,7 +2241,7 @@
 	#define THIS_ENG_LENGTH2 \b3	
 		
 	#define THIS_ENG_TYPE FIRSTWAGON_EMU	
-	#define NAME_THIS_ENG "S-tog IV "	
+	#define NAME_THIS_ENG "DSB S-Tog IV "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -2376,7 +2286,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE ENGINESTYLE_EMU	
-	#define NAME_THIS_ENG "mDDm "	
+	#define NAME_THIS_ENG "NS mDDm 390 "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -2421,7 +2331,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE FIRSTWAGON_EMU	
-	#define NAME_THIS_ENG "Shinkansen Series 700 "	
+	#define NAME_THIS_ENG "JR  Shinkansen Series 700 "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -2466,7 +2376,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE FIRSTWAGON_EMU	
-	#define NAME_THIS_ENG "BM73 "	
+	#define NAME_THIS_ENG "NSB BM73 "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -2511,7 +2421,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
-	#define NAME_THIS_ENG "2200 "	
+	#define NAME_THIS_ENG "CFL 2200 'Coradia Duplex' "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -2556,7 +2466,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
-	#define NAME_THIS_ENG "680 'Pendolino' "	
+	#define NAME_THIS_ENG "CD 680 'Pendolino' "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -2601,7 +2511,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
-	#define NAME_THIS_ENG "Sm4 "	
+	#define NAME_THIS_ENG "VR Sm4 "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -2646,7 +2556,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
-	#define NAME_THIS_ENG "Desiro EMU "	
+	#define NAME_THIS_ENG "BDZ 10 'Desiro' "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -2691,7 +2601,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE ICE3_EMU	
-	#define NAME_THIS_ENG "ICE-3 "	
+	#define NAME_THIS_ENG "DB 403 ICE-3 "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -2736,7 +2646,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
-	#define NAME_THIS_ENG "RENFE Class 120 "	
+	#define NAME_THIS_ENG "RENFE 120 "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -2781,7 +2691,7 @@
 	#define THIS_ENG_LENGTH2 \b1	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
-	#define NAME_THIS_ENG "Stadler Flirt "	
+	#define NAME_THIS_ENG "SBB RABe 523 'Flirt' "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -2826,7 +2736,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
-	#define NAME_THIS_ENG "OSCars "	
+	#define NAME_THIS_ENG "CityRail OSCars "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -2871,7 +2781,7 @@
 	#define THIS_ENG_LENGTH2 \b1	
 		
 	#define THIS_ENG_TYPE XGV	
-	#define NAME_THIS_ENG "AGV "	
+	#define NAME_THIS_ENG "NTV AGV "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -2916,7 +2826,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE HSA_EMU	
-	#define NAME_THIS_ENG "HSA "	
+	#define NAME_THIS_ENG "NS 4800 HSA "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -2961,7 +2871,7 @@
 	#define THIS_ENG_LENGTH2 \b1	
 		
 	#define THIS_ENG_TYPE XGV	
-	#define NAME_THIS_ENG "AGV Duplex "	
+	#define NAME_THIS_ENG "NTV AGV Duplex "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -3051,7 +2961,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
-	#define NAME_THIS_ENG "MLX01-901 "	
+	#define NAME_THIS_ENG "JR MLX01-901 "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -3142,7 +3052,7 @@
 	 	
 	 	
 		
-	#define NAME_THIS_ENG "Cfe3/3 "	
+	#define NAME_THIS_ENG "SBB Cfe 3/3 "	
 	#include TEMPLATE_RAILBUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -3187,7 +3097,7 @@
 	 	
 	 	
 		
-	#define NAME_THIS_ENG "479 Railcar "	
+	#define NAME_THIS_ENG "DB ET479 "	
 	#include TEMPLATE_RAILBUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -3232,7 +3142,7 @@
 	 	
 	 	
 		
-	#define NAME_THIS_ENG "VT 133 "	
+	#define NAME_THIS_ENG "DB VT133 "	
 	#include TEMPLATE_RAILBUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -3277,7 +3187,7 @@
 	 	
 	 	
 		
-	#define NAME_THIS_ENG "VT42 "	
+	#define NAME_THIS_ENG "DB VT42 "	
 	#include TEMPLATE_RAILBUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -3329,51 +3239,6 @@
 	#include TEMPLATE_UNDEF	
 	
 
- 	
-	#ifdef THIS_ENG_CODE	
-	#define THIS_ENG_INTROYEAR \d1950-1-1	
-	#define THIS_ENG_V_LIFE \b15	
-	#define THIS_ENG_M_LIFE \b35	
-	#define THIS_ENG_SPEED \w80	
-	#define THIS_ENG_TE \b65	
-	#define THIS_ENG_HP \w200	
-	#define THIS_ENG_WAG_HP \w0	
-	#define THIS_ENG_CAP_WAG_PAX \b60	
-	#define THIS_ENG_CAP_WAG_MAIL \b45	
-	#define THIS_ENG_CAP_WAG_ARMOR \b30	
-	#define THIS_ENG_CAP_WAG_PAX_STR "60"	
-	#define THIS_ENG_CAP_WAG_MAIL_STR "45"	
-	#define THIS_ENG_CAP_WAG_ARMOR_STR "30"	
-	#define THIS_ENG_CAP_HEAD_PAX \b60	
-	#define THIS_ENG_CAP_HEAD_MAIL \b45	
-	#define THIS_ENG_CAP_HEAD_ARMOR \b30	
-	#define THIS_ENG_PAX_LS \b20	
-	#define THIS_ENG_MAIL_LS \b15	
-	#define THIS_ENG_ARMOR_LS \b10	
-	#define THIS_ENG_WEIGHT \b20	
-	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32894	
-	#define THIS_ENG_RCOST \w32808	
-	#define THIS_ENG_RCOST_WAG \w32788	
-	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
-	#define THIS_ENG_GFX  sprites/gfx/nogfx.png	
-	#define THIS_ENG_TRACTION_TYPE 8	
-		
-	#define THIS_ENG_ID_W \w40320	
-	#define THIS_ENG_ID_B \b*40320	
-	#define STR_W_THIS_ENG \wxD0D0	
-	#define THIS_ENG_STR_B \wx8001	
-	#define THIS_ENG_LENGTH1 \b0	
-	 	
-	 	
-		
-	#define NAME_THIS_ENG "Kinki "	
-	#include TEMPLATE_RAILBUS	
-	#undef THIS_ENG_CODE	
-	#endif	
-	#include TEMPLATE_UNDEF	
-	
-
 #define THIS_ENG_CODE YES	
 	#ifdef THIS_ENG_CODE	
 	#define THIS_ENG_INTROYEAR \d1953-1-1	
@@ -3412,7 +3277,7 @@
 	 	
 	 	
 		
-	#define NAME_THIS_ENG "VT98 "	
+	#define NAME_THIS_ENG "DB VT98 "	
 	#include TEMPLATE_RAILBUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -3457,97 +3322,7 @@
 	 	
 	 	
 		
-	#define NAME_THIS_ENG "Dm7 "	
-	#include TEMPLATE_RAILBUS	
-	#undef THIS_ENG_CODE	
-	#endif	
-	#include TEMPLATE_UNDEF	
-	
-
- 	
-	#ifdef THIS_ENG_CODE	
-	#define THIS_ENG_INTROYEAR \d1960-1-1	
-	#define THIS_ENG_V_LIFE \b15	
-	#define THIS_ENG_M_LIFE \b35	
-	#define THIS_ENG_SPEED \w113	
-	#define THIS_ENG_TE \b26	
-	#define THIS_ENG_HP \w1	
-	#define THIS_ENG_WAG_HP \w0	
-	#define THIS_ENG_CAP_WAG_PAX \b1	
-	#define THIS_ENG_CAP_WAG_MAIL \b1	
-	#define THIS_ENG_CAP_WAG_ARMOR \b1	
-	#define THIS_ENG_CAP_WAG_PAX_STR "1"	
-	#define THIS_ENG_CAP_WAG_MAIL_STR "1"	
-	#define THIS_ENG_CAP_WAG_ARMOR_STR "1"	
-	#define THIS_ENG_CAP_HEAD_PAX \b1	
-	#define THIS_ENG_CAP_HEAD_MAIL \b1	
-	#define THIS_ENG_CAP_HEAD_ARMOR \b1	
-	#define THIS_ENG_PAX_LS \b20	
-	#define THIS_ENG_MAIL_LS \b15	
-	#define THIS_ENG_ARMOR_LS \b10	
-	#define THIS_ENG_WEIGHT \b1	
-	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32883	
-	#define THIS_ENG_RCOST \w32836	
-	#define THIS_ENG_RCOST_WAG \w32788	
-	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
-	#define THIS_ENG_GFX  sprites/gfx/nogfx.png	
-	#define THIS_ENG_TRACTION_TYPE 8	
-		
-	#define THIS_ENG_ID_W \w	
-	#define THIS_ENG_ID_B \b*	
-	#define STR_W_THIS_ENG \wxD0D0	
-	#define THIS_ENG_STR_B \wx8001	
-	#define THIS_ENG_LENGTH1 \b0	
-	 	
-	 	
-		
-	#define NAME_THIS_ENG "121 "	
-	#include TEMPLATE_RAILBUS	
-	#undef THIS_ENG_CODE	
-	#endif	
-	#include TEMPLATE_UNDEF	
-	
-
- 	
-	#ifdef THIS_ENG_CODE	
-	#define THIS_ENG_INTROYEAR \d1980-1-1	
-	#define THIS_ENG_V_LIFE \b15	
-	#define THIS_ENG_M_LIFE \b35	
-	#define THIS_ENG_SPEED \w100	
-	#define THIS_ENG_TE \b33	
-	#define THIS_ENG_HP \w75	
-	#define THIS_ENG_WAG_HP \w0	
-	#define THIS_ENG_CAP_WAG_PAX \b70	
-	#define THIS_ENG_CAP_WAG_MAIL \b53	
-	#define THIS_ENG_CAP_WAG_ARMOR \b35	
-	#define THIS_ENG_CAP_WAG_PAX_STR "70"	
-	#define THIS_ENG_CAP_WAG_MAIL_STR "53"	
-	#define THIS_ENG_CAP_WAG_ARMOR_STR "35"	
-	#define THIS_ENG_CAP_HEAD_PAX \b70	
-	#define THIS_ENG_CAP_HEAD_MAIL \b53	
-	#define THIS_ENG_CAP_HEAD_ARMOR \b35	
-	#define THIS_ENG_PAX_LS \b20	
-	#define THIS_ENG_MAIL_LS \b15	
-	#define THIS_ENG_ARMOR_LS \b10	
-	#define THIS_ENG_WEIGHT \b20	
-	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32939	
-	#define THIS_ENG_RCOST \w32825	
-	#define THIS_ENG_RCOST_WAG \w32788	
-	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
-	#define THIS_ENG_GFX  sprites/gfx/nogfx.png	
-	#define THIS_ENG_TRACTION_TYPE 8	
-		
-	#define THIS_ENG_ID_W \w	
-	#define THIS_ENG_ID_B \b*	
-	#define STR_W_THIS_ENG \wxD0D0	
-	#define THIS_ENG_STR_B \wx8001	
-	#define THIS_ENG_LENGTH1 \b0	
-	 	
-	 	
-		
-	#define NAME_THIS_ENG "Leyland "	
+	#define NAME_THIS_ENG "VR Dm7 "	
 	#include TEMPLATE_RAILBUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -3637,7 +3412,7 @@
 	 	
 	 	
 		
-	#define NAME_THIS_ENG "Class 5047 "	
+	#define NAME_THIS_ENG "OBB 5047 "	
 	#include TEMPLATE_RAILBUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -3682,7 +3457,7 @@
 	 	
 	 	
 		
-	#define NAME_THIS_ENG "153-111 "	
+	#define NAME_THIS_ENG "BR 153 'Super Sprinter' "	
 	#include TEMPLATE_RAILBUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -3727,7 +3502,7 @@
 	 	
 	 	
 		
-	#define NAME_THIS_ENG "809 "	
+	#define NAME_THIS_ENG "CD 809 "	
 	#include TEMPLATE_RAILBUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -3772,7 +3547,7 @@
 	 	
 	 	
 		
-	#define NAME_THIS_ENG "DB Class 670 "	
+	#define NAME_THIS_ENG "DB 670 "	
 	#include TEMPLATE_RAILBUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -3817,7 +3592,7 @@
 	 	
 	 	
 		
-	#define NAME_THIS_ENG "AR 2 "	
+	#define NAME_THIS_ENG "Lithuanian Railways AR2 "	
 	#include TEMPLATE_RAILBUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -3863,7 +3638,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "Kof II "	
+	#define NAME_THIS_ENG "DB 310 Kof II "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -3908,7 +3683,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "ALCo-GE-IR Boxcab "	
+	#define NAME_THIS_ENG "CNJ ALCo-GE-IR Boxcab "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -3998,7 +3773,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "DB Class_270 "	
+	#define NAME_THIS_ENG "DB 270 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -4043,7 +3818,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "Am 4/6 "	
+	#define NAME_THIS_ENG "SBB Am 4/6 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -4088,7 +3863,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "ALCO S-2 "	
+	#define NAME_THIS_ENG "Western Pacific ALCO S-2 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -4178,7 +3953,7 @@
 	#define THIS_ENG_LENGTH2 \b1	
 	 	
 	#define THIS_ENG_BUNIT	
-	#define NAME_THIS_ENG "EMD F3 "	
+	#define NAME_THIS_ENG "GNR EMD F3 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -4223,7 +3998,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 	 	
 	#define THIS_ENG_BUNIT	
-	#define NAME_THIS_ENG "EMD E8 "	
+	#define NAME_THIS_ENG "UP EMD E8 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -4268,7 +4043,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "Alco RS3 "	
+	#define NAME_THIS_ENG "EFCB ALCO RS-3 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -4313,7 +4088,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "NS 600 "	
+	#define NAME_THIS_ENG "SF RF-16 'Sharknose' "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -4358,7 +4133,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 	 	
 	#define THIS_ENG_BUNIT	
-	#define NAME_THIS_ENG "Baldwin RF-16 'Sharknose' "	
+	#define NAME_THIS_ENG "NS 600 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -4403,7 +4178,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "AFE Class 1500 "	
+	#define NAME_THIS_ENG "AFE 1500 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -4448,7 +4223,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "Class 08 "	
+	#define NAME_THIS_ENG "Liberia Railways Class 08 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -4538,7 +4313,7 @@
 	#define THIS_ENG_LENGTH2 \b1	
 	 	
 	#define THIS_ENG_BUNIT	
-	#define NAME_THIS_ENG "EMD FP9 "	
+	#define NAME_THIS_ENG "VIA Rail FP9 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -4583,7 +4358,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "MAV Class M44 "	
+	#define NAME_THIS_ENG "MAV M44 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -4673,7 +4448,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "SW1200 "	
+	#define NAME_THIS_ENG "CNR SW1200 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -4763,7 +4538,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "FL9 "	
+	#define NAME_THIS_ENG "Amtrak FL9 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -4808,7 +4583,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "NMBS/SNCB Class_83 "	
+	#define NAME_THIS_ENG "NMBS/SNCB 83 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -4853,7 +4628,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "V200 "	
+	#define NAME_THIS_ENG "DB 220 V200 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -4898,7 +4673,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "ChME2 "	
+	#define NAME_THIS_ENG "CSD 720 ChME2 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -4988,7 +4763,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "Dr12 "	
+	#define NAME_THIS_ENG "VR Dr12 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -5033,7 +4808,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "EMD GL8 "	
+	#define NAME_THIS_ENG "BF EMD GL8 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -5078,7 +4853,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "ML4000 "	
+	#define NAME_THIS_ENG "EFVM ML4000 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -5123,7 +4898,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "TEP60 "	
+	#define NAME_THIS_ENG "MPC TEP60 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -5168,7 +4943,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "Class 67 "	
+	#define NAME_THIS_ENG "NMBS/SNCB 67 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -5213,7 +4988,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "MaK "	
+	#define NAME_THIS_ENG "DSB MaK 100 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -5258,7 +5033,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "WDM-2 "	
+	#define NAME_THIS_ENG "Indian Railways WDM-2 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -5303,7 +5078,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "BR Class 14 "	
+	#define NAME_THIS_ENG "BR 14 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -5348,7 +5123,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "ChME3 "	
+	#define NAME_THIS_ENG "MPC ChME3 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -5393,7 +5168,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "GM-EMD-J16CW-AC "	
+	#define NAME_THIS_ENG "MF GM-EMD-J16CW-AC "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -5438,7 +5213,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "M62 "	
+	#define NAME_THIS_ENG "MPC M62 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -5483,7 +5258,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "NSWGR 422 class "	
+	#define NAME_THIS_ENG "NSWGR 422 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -5528,7 +5303,7 @@
 	#define THIS_ENG_LENGTH2 \b2	
 	 	
 	 	
-	#define NAME_THIS_ENG "EMD DDA40X "	
+	#define NAME_THIS_ENG "UP EMD DDA40X "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -5573,7 +5348,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "G22W "	
+	#define NAME_THIS_ENG "ENR G22W "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -5618,7 +5393,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "Queensland Rail 2100 class "	
+	#define NAME_THIS_ENG "Queensland Rail 2100 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -5663,7 +5438,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "HZ Class 2062 "	
+	#define NAME_THIS_ENG "HZ 2062 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -5753,7 +5528,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "MLW M420W "	
+	#define NAME_THIS_ENG "CNR MLW M420W "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -5798,7 +5573,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "SDP-40F "	
+	#define NAME_THIS_ENG "GNR SDP-40F "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -5843,7 +5618,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "DFH3 "	
+	#define NAME_THIS_ENG "China Railways DFH3 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -5888,7 +5663,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "EMD F40PH "	
+	#define NAME_THIS_ENG "Panama Canal Railway EMD F40PH "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -5933,7 +5708,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "CP1900 "	
+	#define NAME_THIS_ENG "CP 1900 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -5978,7 +5753,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "Dr16 "	
+	#define NAME_THIS_ENG "VR Dr16 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -6023,7 +5798,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "TEP80 "	
+	#define NAME_THIS_ENG "MPC TEP80 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -6068,7 +5843,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "AN Class "	
+	#define NAME_THIS_ENG "Australian National AN "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -6113,7 +5888,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "GE 'Genesis' "	
+	#define NAME_THIS_ENG "Amtrak GE P42DC 'Genesis' "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -6203,7 +5978,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "GE U20C "	
+	#define NAME_THIS_ENG "MF GE U20C "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -6248,7 +6023,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "NMBS 7800 "	
+	#define NAME_THIS_ENG "NMBS/SNCB 7800 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -6293,7 +6068,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "BR Class 66 "	
+	#define NAME_THIS_ENG "BR 66 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -6338,7 +6113,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "BR Class 67 "	
+	#define NAME_THIS_ENG "BR 67 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -6383,7 +6158,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "DE43CA 'Prima' "	
+	#define NAME_THIS_ENG "RAI DE43CA 'Prima' "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -6428,7 +6203,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "Vossloh G2000-3 BB "	
+	#define NAME_THIS_ENG "DB 253 G2000-3 BB "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -6473,7 +6248,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "TEP150 "	
+	#define NAME_THIS_ENG "UZ TEP150 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -6518,7 +6293,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "HXN5 "	
+	#define NAME_THIS_ENG "China Railways HXN5 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -6563,7 +6338,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "Gravita 10BB "	
+	#define NAME_THIS_ENG "DB 260 Gravita 10BB "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -6608,7 +6383,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 	 	
 	 	
-	#define NAME_THIS_ENG "GT1 "	
+	#define NAME_THIS_ENG "RZD GT1 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -6653,7 +6428,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "RhB De 2/2 "	
+	#define NAME_THIS_ENG "RhB DE 2/2 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -6698,7 +6473,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "NSB El7 "	
+	#define NAME_THIS_ENG "NSB EL7 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -6833,7 +6608,7 @@
 	#define THIS_ENG_LENGTH2 \b3	
 	 	
 	 	
-	#define NAME_THIS_ENG "Pennsylvania Railroad FF1 "	
+	#define NAME_THIS_ENG "Pennsylvania Railroad FF-1 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -6923,7 +6698,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "Series E-28 "	
+	#define NAME_THIS_ENG "EFE Series E-28 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -7013,7 +6788,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "DB Class 169 "	
+	#define NAME_THIS_ENG "DB 169 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -7058,7 +6833,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "EB10 "	
+	#define NAME_THIS_ENG "JNR EB10 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -7103,7 +6878,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "NSB El10 "	
+	#define NAME_THIS_ENG "NSB EL10 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -7148,7 +6923,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "DRG E04 "	
+	#define NAME_THIS_ENG "DB 104 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -7193,7 +6968,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "FS Class e428 "	
+	#define NAME_THIS_ENG "FS E428 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -7238,7 +7013,7 @@
 	#define THIS_ENG_LENGTH2 \b3	
 	 	
 	 	
-	#define NAME_THIS_ENG "Pennsylvania Railroad GG1 "	
+	#define NAME_THIS_ENG "Pennsylvania Railroad GG-1 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -7283,7 +7058,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "EF55 "	
+	#define NAME_THIS_ENG "JNR EF55 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -7328,7 +7103,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "SAR Class ES "	
+	#define NAME_THIS_ENG "SAR ES Class "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -7373,7 +7148,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "Class 1020 'Crocodile' "	
+	#define NAME_THIS_ENG "OBB 1020 'Crocodile' "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -7418,7 +7193,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "VL22M "	
+	#define NAME_THIS_ENG "MPC VL22M "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -7508,7 +7283,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "27000 "	
+	#define NAME_THIS_ENG "BR 77 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -7553,7 +7328,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "Metrovic EM2 "	
+	#define NAME_THIS_ENG "BR 77 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -7598,7 +7373,7 @@
 	#define THIS_ENG_LENGTH2 \b2	
 	#define THIS_ENG_LENGTH3 \b1	
 	 	
-	#define NAME_THIS_ENG "MTAB Dm3 "	
+	#define NAME_THIS_ENG "SJ DM3 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -7643,7 +7418,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "Ce 4/4 "	
+	#define NAME_THIS_ENG "SBB Ce 4/4 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -7688,7 +7463,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "SNCF BB9004 "	
+	#define NAME_THIS_ENG "SNCF BB 9004 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -7733,7 +7508,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "Ae 6-6 "	
+	#define NAME_THIS_ENG "SBB Ae 6/6 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -7778,7 +7553,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "WCM-1 "	
+	#define NAME_THIS_ENG "Indian Railways WCM-1 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -7823,7 +7598,7 @@
 	#define THIS_ENG_LENGTH2 \b3	
 	 	
 	 	
-	#define NAME_THIS_ENG "E646 "	
+	#define NAME_THIS_ENG "FS E646 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -7868,7 +7643,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "VL41 "	
+	#define NAME_THIS_ENG "MPC VL41 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -7913,7 +7688,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "EF64 "	
+	#define NAME_THIS_ENG "JNR EF64 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -8003,7 +7778,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "HZ Class 1141  "	
+	#define NAME_THIS_ENG "HZ 1141 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -8048,7 +7823,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "Class 6E "	
+	#define NAME_THIS_ENG "SAR 6E  "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -8093,7 +7868,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "DB Class 103 "	
+	#define NAME_THIS_ENG "DB 103 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -8138,7 +7913,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "Sr1 "	
+	#define NAME_THIS_ENG "VR Sr1 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -8228,7 +8003,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "SNCF 22000 "	
+	#define NAME_THIS_ENG "SNCF BB 22200 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -8273,7 +8048,7 @@
 	#define THIS_ENG_LENGTH2 \b1	
 	 	
 	 	
-	#define NAME_THIS_ENG "ET41 "	
+	#define NAME_THIS_ENG "PKP ET41 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -8408,7 +8183,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 	 	
 	 	
-	#define NAME_THIS_ENG "VL85 "	
+	#define NAME_THIS_ENG "MPC VL85 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -8453,7 +8228,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 	 	
 	 	
-	#define NAME_THIS_ENG "VL15 "	
+	#define NAME_THIS_ENG "MPC VL15 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -8498,7 +8273,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "6K "	
+	#define NAME_THIS_ENG "China Railways 6K "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -8543,7 +8318,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "SNCF 26000 "	
+	#define NAME_THIS_ENG "SNCF BB 26000 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -8588,7 +8363,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "Re460 'Lok 2000' "	
+	#define NAME_THIS_ENG "SBB Re460 'Lok 2000' "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -8633,7 +8408,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "SS6 "	
+	#define NAME_THIS_ENG "China Railways SS6 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -8678,7 +8453,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "RNFE Class 252 "	
+	#define NAME_THIS_ENG "RENFE 252 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -8723,7 +8498,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "BR Class 92 "	
+	#define NAME_THIS_ENG "BR 92 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -8768,7 +8543,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "TRAXX F140 "	
+	#define NAME_THIS_ENG "DB 145 TRAXX F140 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -8813,7 +8588,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 	 	
 	 	
-	#define NAME_THIS_ENG "EF500 "	
+	#define NAME_THIS_ENG "JR EH500 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -8858,7 +8633,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "SNCB Class 13 'HLE' "	
+	#define NAME_THIS_ENG "NMBS/SNCB 13 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -8903,7 +8678,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "E55500 "	
+	#define NAME_THIS_ENG "TCDD E52500 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -8948,7 +8723,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 	 	
 	 	
-	#define NAME_THIS_ENG "IORE "	
+	#define NAME_THIS_ENG "MTAB IORE "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -8993,7 +8768,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "Siemens ES64U 'Taurus' "	
+	#define NAME_THIS_ENG "DB 182 ES64U 'Taurus' "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -9038,7 +8813,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "Ds3 "	
+	#define NAME_THIS_ENG "UR DS3 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -9128,7 +8903,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "KZ4A "	
+	#define NAME_THIS_ENG "KTZ KZ4A "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -9578,7 +9353,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "Ec 2/5 "	
+	#define NAME_THIS_ENG "SBB  Ec 2/5 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -9623,7 +9398,7 @@
 	#define THIS_ENG_LENGTH2 \b3	
 	 	
 	 	
-	#define NAME_THIS_ENG "4-6-0 'Ten Wheeler' "	
+	#define NAME_THIS_ENG "4-6-0 'Ten-wheeler' "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -9668,7 +9443,7 @@
 	#define THIS_ENG_LENGTH2 \b2	
 	 	
 	 	
-	#define NAME_THIS_ENG "2-8-0 Consolidation "	
+	#define NAME_THIS_ENG "2-8-0 'Consolidation' "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -9713,7 +9488,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "MAV Class 377 "	
+	#define NAME_THIS_ENG "MAV 377 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -9758,7 +9533,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "KkStB Class 99 "	
+	#define NAME_THIS_ENG "KkStB 99 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -9803,7 +9578,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "CR Class 439 "	
+	#define NAME_THIS_ENG "Caledonian Railway 439 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -9848,7 +9623,7 @@
 	#define THIS_ENG_LENGTH2 \b4	
 	 	
 	 	
-	#define NAME_THIS_ENG "A 3/5 "	
+	#define NAME_THIS_ENG "SBB A 3/5 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -9893,7 +9668,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "SBB E 3-3 "	
+	#define NAME_THIS_ENG "SBB E 3/3 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -9938,7 +9713,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "KkStB Class 229 "	
+	#define NAME_THIS_ENG "KkStB 299 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -10028,7 +9803,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "Hz Class 51 "	
+	#define NAME_THIS_ENG "HZ 51 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -10073,7 +9848,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "FS_Class_880 "	
+	#define NAME_THIS_ENG "FS 880 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -10118,7 +9893,7 @@
 	#define THIS_ENG_LENGTH2 \b5	
 	 	
 	 	
-	#define NAME_THIS_ENG "140C "	
+	#define NAME_THIS_ENG "SNCF 140C "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -10163,97 +9938,7 @@
 	#define THIS_ENG_LENGTH2 \b4	
 	 	
 	 	
-	#define NAME_THIS_ENG "Class 11B 0-8-2 "	
-	#include TEMPLATE_ENGINES	
-	#undef THIS_ENG_CODE	
-	#endif	
-	#include TEMPLATE_UNDEF	
-	
-
- 	
-	#ifdef THIS_ENG6_CODE	
-	#define THIS_ENG6_INTROYEAR \d1921-1-1	
-	#define THIS_ENG6_V_LIFE \b40	
-	#define THIS_ENG6_M_LIFE \b25	
-	#define THIS_ENG6_SPEED \w40	
-	#define THIS_ENG6_TE \b55	
-	#define THIS_ENG6_HP \w610	
-	#define THIS_ENG6_WAG_HP \w0	
-	#define THIS_ENG6_CAP_WAG_PAX \b0	
-	#define THIS_ENG6_CAP_WAG_MAIL \b0	
-	#define THIS_ENG6_CAP_WAG_ARMOR \b0	
-	#define THIS_ENG6_CAP_WAG_PAX_STR "0"	
-	#define THIS_ENG6_CAP_WAG_MAIL_STR "0"	
-	#define THIS_ENG6_CAP_WAG_ARMOR_STR "0"	
-	#define THIS_ENG6_CAP_HEAD_PAX \b0	
-	#define THIS_ENG6_CAP_HEAD_MAIL \b0	
-	#define THIS_ENG6_CAP_HEAD_ARMOR \b0	
-	#define THIS_ENG6_PAX_LS \b1	
-	#define THIS_ENG6_MAIL_LS \b1	
-	#define THIS_ENG6_ARMOR_LS \b1	
-	#define THIS_ENG6_WEIGHT \b59	
-	#define THIS_ENG6_WEIGHT_HIGH \b0	
-	#define THIS_ENG6_PCOST \w32842	
-	#define THIS_ENG6_RCOST \w32977	
-	#define THIS_ENG6_RCOST_WAG \w32788	
-	#define THIS_ENG6_NUTRACKS_TRACKTYPE 0	
-	#define THIS_ENG6_GFX  sprites/gfx/nogfx.png	
-	#define THIS_ENG6_TRACTION_TYPE 0	
-		
-	#define THIS_ENG6_ID_W \w1764	
-	#define THIS_ENG6_ID_B \b*1764	
-	#define STR_W_THIS_ENG6 \wxD0D0	
-	#define THIS_ENG6_STR_B \wx8000	
-	#define THIS_ENG6_LENGTH1 \b1	
-	 	
-	 	
-	 	
-	#define NAME_THIS_ENG6 "895 "	
-	#include TEMPLATE_ENGINES	
-	#undef THIS_ENG_CODE	
-	#endif	
-	#include TEMPLATE_UNDEF	
-	
-
- 	
-	#ifdef THIS_ENG8_CODE	
-	#define THIS_ENG8_INTROYEAR \d1921-1-1	
-	#define THIS_ENG8_V_LIFE \b40	
-	#define THIS_ENG8_M_LIFE \b25	
-	#define THIS_ENG8_SPEED \w65	
-	#define THIS_ENG8_TE \b45	
-	#define THIS_ENG8_HP \w1620	
-	#define THIS_ENG8_WAG_HP \w0	
-	#define THIS_ENG8_CAP_WAG_PAX \b0	
-	#define THIS_ENG8_CAP_WAG_MAIL \b0	
-	#define THIS_ENG8_CAP_WAG_ARMOR \b0	
-	#define THIS_ENG8_CAP_WAG_PAX_STR "0"	
-	#define THIS_ENG8_CAP_WAG_MAIL_STR "0"	
-	#define THIS_ENG8_CAP_WAG_ARMOR_STR "0"	
-	#define THIS_ENG8_CAP_HEAD_PAX \b0	
-	#define THIS_ENG8_CAP_HEAD_MAIL \b0	
-	#define THIS_ENG8_CAP_HEAD_ARMOR \b0	
-	#define THIS_ENG8_PAX_LS \b1	
-	#define THIS_ENG8_MAIL_LS \b1	
-	#define THIS_ENG8_ARMOR_LS \b1	
-	#define THIS_ENG8_WEIGHT \b128	
-	#define THIS_ENG8_WEIGHT_HIGH \b0	
-	#define THIS_ENG8_PCOST \w33131	
-	#define THIS_ENG8_RCOST \w33296	
-	#define THIS_ENG8_RCOST_WAG \w32788	
-	#define THIS_ENG8_NUTRACKS_TRACKTYPE 0	
-	#define THIS_ENG8_GFX  sprites/gfx/nogfx.png	
-	#define THIS_ENG8_TRACTION_TYPE 0	
-		
-	#define THIS_ENG8_ID_W \w1768	
-	#define THIS_ENG8_ID_B \b*1768	
-	#define STR_W_THIS_ENG8 \wxD0D0	
-	#define THIS_ENG8_STR_B \wx8000	
-	#define THIS_ENG8_LENGTH1 \b1	
-	 	
-	 	
-	 	
-	#define NAME_THIS_ENG8 "c5/6 "	
+	#define NAME_THIS_ENG "FCNEA Class 11B 0-8-2 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -10298,7 +9983,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "141TA "	
+	#define NAME_THIS_ENG "SNCF 141TA "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -10343,7 +10028,7 @@
 	#define THIS_ENG_LENGTH2 \b2	
 	 	
 	 	
-	#define NAME_THIS_ENG "GWR Class 4900 "	
+	#define NAME_THIS_ENG "GWR 4900 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -10388,7 +10073,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "GWR Class_5700 "	
+	#define NAME_THIS_ENG "GWR 5700 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -10433,7 +10118,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "6300 "	
+	#define NAME_THIS_ENG "NS 6300 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -10485,51 +10170,6 @@
 	#include TEMPLATE_UNDEF	
 	
 
- 	
-	#ifdef THIS_ENG_CODE	
-	#define THIS_ENG_INTROYEAR \d1933-1-1	
-	#define THIS_ENG_V_LIFE \b40	
-	#define THIS_ENG_M_LIFE \b20	
-	#define THIS_ENG_SPEED \w105	
-	#define THIS_ENG_TE \b26	
-	#define THIS_ENG_HP \w2260	
-	#define THIS_ENG_WAG_HP \w0	
-	#define THIS_ENG_CAP_WAG_PAX \b0	
-	#define THIS_ENG_CAP_WAG_MAIL \b0	
-	#define THIS_ENG_CAP_WAG_ARMOR \b0	
-	#define THIS_ENG_CAP_WAG_PAX_STR "0"	
-	#define THIS_ENG_CAP_WAG_MAIL_STR "0"	
-	#define THIS_ENG_CAP_WAG_ARMOR_STR "0"	
-	#define THIS_ENG_CAP_HEAD_PAX \b0	
-	#define THIS_ENG_CAP_HEAD_MAIL \b0	
-	#define THIS_ENG_CAP_HEAD_ARMOR \b0	
-	#define THIS_ENG_PAX_LS \b1	
-	#define THIS_ENG_MAIL_LS \b1	
-	#define THIS_ENG_ARMOR_LS \b1	
-	#define THIS_ENG_WEIGHT \b174	
-	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33280	
-	#define THIS_ENG_RCOST \w33828	
-	#define THIS_ENG_RCOST_WAG \w32788	
-	#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
-	#define THIS_ENG_GFX  sprites/gfx/nogfx.png	
-	#define THIS_ENG_TRACTION_TYPE 0	
-		
-	#define THIS_ENG_ID_W \w2198	
-	#define THIS_ENG_ID_B \b*2198	
-	#define STR_W_THIS_ENG \wxD0D0	
-	#define THIS_ENG_STR_B \wx8000	
-	#define THIS_ENG_LENGTH1 \b0	
-	 	
-	 	
-	 	
-	#define NAME_THIS_ENG "150B "	
-	#include TEMPLATE_ENGINES	
-	#undef THIS_ENG_CODE	
-	#endif	
-	#include TEMPLATE_UNDEF	
-	
-
 #define THIS_ENG_CODE YES	
 	#ifdef THIS_ENG_CODE	
 	#define THIS_ENG_INTROYEAR \d1934-1-1	
@@ -10568,7 +10208,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "9P "	
+	#define NAME_THIS_ENG "MPC 9P "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -10613,52 +10253,7 @@
 	#define THIS_ENG_LENGTH2 \b3	
 	 	
 	 	
-	#define NAME_THIS_ENG "LMS 5MT 'Black Five' "	
-	#include TEMPLATE_ENGINES	
-	#undef THIS_ENG_CODE	
-	#endif	
-	#include TEMPLATE_UNDEF	
-	
-
- 	
-	#ifdef THIS_ENG_CODE	
-	#define THIS_ENG_INTROYEAR \d1934-1-1	
-	#define THIS_ENG_V_LIFE \b40	
-	#define THIS_ENG_M_LIFE \b20	
-	#define THIS_ENG_SPEED \w75	
-	#define THIS_ENG_TE \b30	
-	#define THIS_ENG_HP \w1868	
-	#define THIS_ENG_WAG_HP \w0	
-	#define THIS_ENG_CAP_WAG_PAX \b0	
-	#define THIS_ENG_CAP_WAG_MAIL \b0	
-	#define THIS_ENG_CAP_WAG_ARMOR \b0	
-	#define THIS_ENG_CAP_WAG_PAX_STR "0"	
-	#define THIS_ENG_CAP_WAG_MAIL_STR "0"	
-	#define THIS_ENG_CAP_WAG_ARMOR_STR "0"	
-	#define THIS_ENG_CAP_HEAD_PAX \b0	
-	#define THIS_ENG_CAP_HEAD_MAIL \b0	
-	#define THIS_ENG_CAP_HEAD_ARMOR \b0	
-	#define THIS_ENG_PAX_LS \b1	
-	#define THIS_ENG_MAIL_LS \b1	
-	#define THIS_ENG_ARMOR_LS \b1	
-	#define THIS_ENG_WEIGHT \b118	
-	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33089	
-	#define THIS_ENG_RCOST \w33398	
-	#define THIS_ENG_RCOST_WAG \w32788	
-	#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
-	#define THIS_ENG_GFX  sprites/gfx/nogfx.png	
-	#define THIS_ENG_TRACTION_TYPE 0	
-		
-	#define THIS_ENG_ID_W \w2248	
-	#define THIS_ENG_ID_B \b*2248	
-	#define STR_W_THIS_ENG \wxD0D0	
-	#define THIS_ENG_STR_B \wx8000	
-	#define THIS_ENG_LENGTH1 \b0	
-	 	
-	 	
-	 	
-	#define NAME_THIS_ENG "Okz 32 "	
+	#define NAME_THIS_ENG "LMS 5MZ 'Black Five' "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -10748,7 +10343,7 @@
 	#define THIS_ENG_LENGTH2 \b3	
 	 	
 	 	
-	#define NAME_THIS_ENG "Gresley A4 "	
+	#define NAME_THIS_ENG "LNER A4 'Gresley' "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -10793,7 +10388,7 @@
 	#define THIS_ENG_LENGTH2 \b3	
 	 	
 	 	
-	#define NAME_THIS_ENG "Litera E "	
+	#define NAME_THIS_ENG "DSB E "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -10838,97 +10433,7 @@
 	#define THIS_ENG_LENGTH2 \b2	
 	 	
 	 	
-	#define NAME_THIS_ENG "Royal Hudson "	
-	#include TEMPLATE_ENGINES	
-	#undef THIS_ENG_CODE	
-	#endif	
-	#include TEMPLATE_UNDEF	
-	
-
- 	
-	#ifdef THIS_ENG5_CODE	
-	#define THIS_ENG5_INTROYEAR \d1940-1-1	
-	#define THIS_ENG5_V_LIFE \b40	
-	#define THIS_ENG5_M_LIFE \b25	
-	#define THIS_ENG5_SPEED \w140	
-	#define THIS_ENG5_TE \b52	
-	#define THIS_ENG5_HP \w3500	
-	#define THIS_ENG5_WAG_HP \w0	
-	#define THIS_ENG5_CAP_WAG_PAX \b0	
-	#define THIS_ENG5_CAP_WAG_MAIL \b0	
-	#define THIS_ENG5_CAP_WAG_ARMOR \b0	
-	#define THIS_ENG5_CAP_WAG_PAX_STR "0"	
-	#define THIS_ENG5_CAP_WAG_MAIL_STR "0"	
-	#define THIS_ENG5_CAP_WAG_ARMOR_STR "0"	
-	#define THIS_ENG5_CAP_HEAD_PAX \b0	
-	#define THIS_ENG5_CAP_HEAD_MAIL \b0	
-	#define THIS_ENG5_CAP_HEAD_ARMOR \b0	
-	#define THIS_ENG5_PAX_LS \b1	
-	#define THIS_ENG5_MAIL_LS \b1	
-	#define THIS_ENG5_ARMOR_LS \b1	
-	#define THIS_ENG5_WEIGHT \b175	
-	#define THIS_ENG5_WEIGHT_HIGH \b0	
-	#define THIS_ENG5_PCOST \w33686	
-	#define THIS_ENG5_RCOST \w34471	
-	#define THIS_ENG5_RCOST_WAG \w32788	
-	#define THIS_ENG5_NUTRACKS_TRACKTYPE 4	
-	#define THIS_ENG5_GFX  sprites/gfx/nogfx.png	
-	#define THIS_ENG5_TRACTION_TYPE 0	
-		
-	#define THIS_ENG5_ID_W \w	
-	#define THIS_ENG5_ID_B \b*	
-	#define STR_W_THIS_ENG5 \wxD0D0	
-	#define THIS_ENG5_STR_B \wx8000	
-	#define THIS_ENG5_LENGTH1 \b0	
-	 	
-	 	
-	 	
-	#define NAME_THIS_ENG5 "Daylight "	
-	#include TEMPLATE_ENGINES	
-	#undef THIS_ENG_CODE	
-	#endif	
-	#include TEMPLATE_UNDEF	
-	
-
- 	
-	#ifdef THIS_ENG_CODE	
-	#define THIS_ENG_INTROYEAR \d1941-1-1	
-	#define THIS_ENG_V_LIFE \b40	
-	#define THIS_ENG_M_LIFE \b20	
-	#define THIS_ENG_SPEED \w130	
-	#define THIS_ENG_TE \b26	
-	#define THIS_ENG_HP \w6290	
-	#define THIS_ENG_WAG_HP \w0	
-	#define THIS_ENG_CAP_WAG_PAX \b0	
-	#define THIS_ENG_CAP_WAG_MAIL \b0	
-	#define THIS_ENG_CAP_WAG_ARMOR \b0	
-	#define THIS_ENG_CAP_WAG_PAX_STR "0"	
-	#define THIS_ENG_CAP_WAG_MAIL_STR "0"	
-	#define THIS_ENG_CAP_WAG_ARMOR_STR "0"	
-	#define THIS_ENG_CAP_HEAD_PAX \b0	
-	#define THIS_ENG_CAP_HEAD_MAIL \b0	
-	#define THIS_ENG_CAP_HEAD_ARMOR \b0	
-	#define THIS_ENG_PAX_LS \b1	
-	#define THIS_ENG_MAIL_LS \b1	
-	#define THIS_ENG_ARMOR_LS \b1	
-	#define THIS_ENG_WEIGHT \b91	
-	#define THIS_ENG_WEIGHT_HIGH \b2	
-	#define THIS_ENG_PCOST \w45713	
-	#define THIS_ENG_RCOST \w34997	
-	#define THIS_ENG_RCOST_WAG \w32788	
-	#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
-	#define THIS_ENG_GFX  sprites/gfx/nogfx.png	
-	#define THIS_ENG_TRACTION_TYPE 0	
-		
-	#define THIS_ENG_ID_W \w	
-	#define THIS_ENG_ID_B \b*	
-	#define STR_W_THIS_ENG \wxD0D0	
-	#define THIS_ENG_STR_B \wx8000	
-	#define THIS_ENG_LENGTH1 \b0	
-	 	
-	 	
-	 	
-	#define NAME_THIS_ENG "Big Boy "	
+	#define NAME_THIS_ENG "CPR Royal Hudson "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -10973,7 +10478,7 @@
 	#define THIS_ENG_LENGTH2 \b2	
 	 	
 	 	
-	#define NAME_THIS_ENG "DB class 52 "	
+	#define NAME_THIS_ENG "DB 52 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -11018,7 +10523,7 @@
 	#define THIS_ENG_LENGTH2 \b3	
 	 	
 	 	
-	#define NAME_THIS_ENG "Class A1 'Peppercorn' "	
+	#define NAME_THIS_ENG "LNER A1 'Peppercorn' "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -11063,7 +10568,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 	 	
 	 	
-	#define NAME_THIS_ENG "P36 "	
+	#define NAME_THIS_ENG "MPC P36 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -11108,7 +10613,7 @@
 	#define THIS_ENG_LENGTH2 \b3	
 	 	
 	 	
-	#define NAME_THIS_ENG "SAR Class 25 "	
+	#define NAME_THIS_ENG "SAR 25 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -11199,7 +10704,7 @@
 	#define THIS_ENG_LENGTH2 \b1	
 		
 		
-	#define NAME_THIS_ENG "La Brugeoise "	
+	#define NAME_THIS_ENG "Buenos Aires 'Le Brugeoise' "	
 	#include TEMPLATE_METRO	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -11334,7 +10839,7 @@
 	#define THIS_ENG_LENGTH2 \b1	
 		
 		
-	#define NAME_THIS_ENG "ET171 "	
+	#define NAME_THIS_ENG "DB ET171 "	
 	#include TEMPLATE_METRO	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -11379,7 +10884,7 @@
 	#define THIS_ENG_LENGTH2 \b1	
 		
 		
-	#define NAME_THIS_ENG "M2 840 "	
+	#define NAME_THIS_ENG "Paris M2 840 "	
 	#include TEMPLATE_METRO	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -11424,7 +10929,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 		
-	#define NAME_THIS_ENG "ev3-200 "	
+	#define NAME_THIS_ENG "Budapest Ev3-200 "	
 	#include TEMPLATE_METRO	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -11469,7 +10974,7 @@
 	#define THIS_ENG_LENGTH2 \b1	
 		
 		
-	#define NAME_THIS_ENG "T1000 "	
+	#define NAME_THIS_ENG "Oslo T1000 "	
 	#include TEMPLATE_METRO	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -11559,7 +11064,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 		
-	#define NAME_THIS_ENG "Type M1 "	
+	#define NAME_THIS_ENG "Amsterdam Type M1 "	
 	#include TEMPLATE_METRO	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -11649,7 +11154,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 		
-	#define NAME_THIS_ENG "Pyongynag D Stock "	
+	#define NAME_THIS_ENG "Pyongyang D stock "	
 	#include TEMPLATE_METRO	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -11694,7 +11199,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 		
-	#define NAME_THIS_ENG "M100 "	
+	#define NAME_THIS_ENG "Helsinki M100 "	
 	#include TEMPLATE_METRO	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -11739,7 +11244,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 		
-	#define NAME_THIS_ENG "81-729 "	
+	#define NAME_THIS_ENG "Moscow 81-720 "	
 	#include TEMPLATE_METRO	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -11829,7 +11334,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 		
-	#define NAME_THIS_ENG "Cairo 1987 "	
+	#define NAME_THIS_ENG "Cairo 1987 stock "	
 	#include TEMPLATE_METRO	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -11874,7 +11379,7 @@
 	#define THIS_ENG_LENGTH2 \b2	
 		
 		
-	#define NAME_THIS_ENG "DLR Metro "	
+	#define NAME_THIS_ENG "DLR P86 "	
 	#include TEMPLATE_METRO	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -12009,7 +11514,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 		
-	#define NAME_THIS_ENG "CAF 90 "	
+	#define NAME_THIS_ENG "Amsterdam CAF 90 "	
 	#include TEMPLATE_METRO	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -12054,52 +11559,7 @@
 	#define THIS_ENG_LENGTH2 \b1	
 		
 		
-	#define NAME_THIS_ENG "MP89 "	
-	#include TEMPLATE_METRO	
-	#undef THIS_ENG_CODE	
-	#endif	
-	#include TEMPLATE_UNDEF	
-	
-
- 	
-	#ifdef THIS_ENG_CODE	
-	#define THIS_ENG_INTROYEAR \d2000-1-1	
-	#define THIS_ENG_V_LIFE \b60	
-	#define THIS_ENG_M_LIFE \b255	
-	#define THIS_ENG_SPEED \w80	
-	#define THIS_ENG_TE \b244	
-	#define THIS_ENG_HP \w536	
-	#define THIS_ENG_WAG_HP \w536	
-	#define THIS_ENG_CAP_WAG_PAX \b153	
-	#define THIS_ENG_CAP_WAG_MAIL \b115	
-	#define THIS_ENG_CAP_WAG_ARMOR \b77	
-	#define THIS_ENG_CAP_WAG_PAX_STR "153"	
-	#define THIS_ENG_CAP_WAG_MAIL_STR "115"	
-	#define THIS_ENG_CAP_WAG_ARMOR_STR "77"	
-	#define THIS_ENG_CAP_HEAD_PAX \b153	
-	#define THIS_ENG_CAP_HEAD_MAIL \b115	
-	#define THIS_ENG_CAP_HEAD_ARMOR \b77	
-	#define THIS_ENG_PAX_LS \b60	
-	#define THIS_ENG_MAIL_LS \b45	
-	#define THIS_ENG_ARMOR_LS \b30	
-	#define THIS_ENG_WEIGHT \b27	
-	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33357	
-	#define THIS_ENG_RCOST \w32941	
-	#define THIS_ENG_RCOST_WAG \w32941	
-		
-	#define THIS_ENG_GFX  sprites/gfx/nogfx.png	
-	#define THIS_ENG_TRACTION_TYPE 32	
-		
-	#define THIS_ENG_ID_W \w49622	
-	#define THIS_ENG_ID_B \b*49622	
-	#define STR_W_THIS_ENG \wxD0B1	
-	#define THIS_ENG_STR_B \wx8399	
-	#define THIS_ENG_LENGTH1 \b0	
-	#define THIS_ENG_LENGTH2 \b0	
-		
-		
-	#define NAME_THIS_ENG "MVG Baureihe C "	
+	#define NAME_THIS_ENG "Paris MP89 "	
 	#include TEMPLATE_METRO	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -12144,7 +11604,7 @@
 	#define THIS_ENG_LENGTH2 \b1	
 		
 		
-	#define NAME_THIS_ENG "81-740 "	
+	#define NAME_THIS_ENG "Moscow 81-740 "	
 	#include TEMPLATE_METRO	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -12189,7 +11649,7 @@
 	#define THIS_ENG_LENGTH2 \b1	
 		
 		
-	#define NAME_THIS_ENG "MX3000 "	
+	#define NAME_THIS_ENG "Oslo MX3000 "	
 	#include TEMPLATE_METRO	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -12459,7 +11919,7 @@
 	 	
 		
 		
-	#define NAME_THIS_ENG "U-Bahn C II "	
+	#define NAME_THIS_ENG "Berlin U-Bahn C II "	
 	#include TEMPLATE_METRO_SINGLE	
 	#undef THIS_ENG_CODE	
 	#endif	
