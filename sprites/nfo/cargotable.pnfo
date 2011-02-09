@@ -50,16 +50,41 @@
 
 // Railtable
 -1 * 0  00 08 01 \b13 00 12
+#define RT_RAIL 0
 "RAIL" // 00
+
+#define RT_ELRL 1
 "ELRL" // 01
+
+#define RT_RLOW 2
 "RLOW" // 02
+
+#define RT_ELOW 3
 "ELOW" // 03
+
+#define RT_RMED 4
 "RMED" // 04
+
+#define RT_EMED 5
 "EMED" // 05
+
+#define RT_RHIGH 6
 "RHIG" // 06
+
+#define RT_EHIGH 7
 "EHIG" // 07
+
+#define RT_HSTR 8
 "HSTR" // 08
+
+#define RT_METRO 9
 "MTRO" // 09
+
+#define RT_METRO2 10
 "MTRO" // 10
+
+#define RT_MONO 11
 "MONO" // 11
+
+#define RT_MAGLEV 12
 "MGLV" // 12
