@@ -54,6 +54,7 @@
 -1 * 0  02 00 40 01 01 \w4 \w4 // P-list
 
 
+#include TEMPLATE_MU_GENERIC
 #include TEMPLATE_COSTS_PLIST
 
 

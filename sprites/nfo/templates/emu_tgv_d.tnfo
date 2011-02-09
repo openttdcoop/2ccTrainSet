@@ -74,7 +74,7 @@
 -1 * 0  02 00 30 01 01 \w6 \w6 // mail
 -1 * 0  02 00 40 01 01 \w5 \w5 // P-list
 
-                                  
+#include TEMPLATE_MU_GENERIC                                  
 #include TEMPLATE_COSTS_PLIST
 
 

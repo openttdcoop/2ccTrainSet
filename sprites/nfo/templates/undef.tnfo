@@ -45,6 +45,18 @@
 #undef    THIS_ENG_LENGTH3
 #undef    THIS_ENG_VIEWS
 
+#undef	RCOST_VERYLOW
+#undef	RCOST_LOW
+#undef	RCOST_MED
+#undef	RCOST_HIGH
+#undef	RCOST_VERYHIGH
+#undef	RCOST_WAG_VERYLOW
+#undef	RCOST_WAG_LOW
+#undef	RCOST_WAG_MED
+#undef	RCOST_WAG_HIGH
+#undef	RCOST_WAG_VERYHIGH
+ 
+
 
 
 

@@ -158,7 +158,7 @@
 -1 * 0  02 00 35 01 01 \w13 \w13 // MAIL panto inactive reverse
 -1 * 0  02 00 11 01 01 \w14 \w14 // <--
 
-
+#include TEMPLATE_MU_GENERIC
 #include TEMPLATE_COSTS_PLIST
 
 
