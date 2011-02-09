@@ -1,0 +1,27 @@
+-1 * 0  02 00 <ID> 82 10 00 FF 00	
+	                 THIS_ENG_RCOST	
+
+#1 If nutracks is not loaded, skip this sprite (perhaps make a new non-viewable parameter that is set if NuTracks (or a future compatible trackset) is loaded)	
+-1 * 0  02 00 <ID> 82 4A 00 FF 05
+                         RCOST_VERYLOW  RT_RAIL  RT_ELRL
+                         RCOST_LOW      RT_RLOW  RT_ELOW
+                         RCOST_MED      RT_RMED  RT_EMED
+                         RCOST_HIGH     RT_RHIGH RT_HIGH
+                         RCOST_VERYHIGH RT_HSTR  RT_HSTR
+                         <ID> 00
+
+//Low cost when standing still, for use in the '10' at the RUN cost spot HEAD
+-1 * 0  02 00 EC 82 B4 00 FF FF 01			// 1 case
+                          \b20 80 \b0 \b0	        // Standing still cost
+                          <ID> 00                       // Check tractype/use default (as the prev. sprite is skipped if nutracks/future trackset is loaded)
+
+
+//Low cost when standing still, for use in the '10' at the RUN cost spot HEAD
+-1 * 0  02 00 EC 82 B4 00 FF 01			// 1 case
+                          \b20 80 00 00	        // Standing still cost 
+                          THIS_ENG_RCOST	// RUN cost
+
+//Low cost when standing still, for use in the '10' at the RUN cost spot WAGON
+-1 * 0  02 00 ED 82 B4 00 FF 01			// 1 case
+                          \b20 80 00 00	        // Standing still cost 
+                          THIS_ENG_RCOST_WAG	// RUN cost
