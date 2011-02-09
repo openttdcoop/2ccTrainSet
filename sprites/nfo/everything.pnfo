@@ -4408,7 +4408,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/Kof_II.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w9600	
 	#define THIS_ENG_ID_B \b*9600	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -4458,7 +4458,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/alco.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w9626	
 	#define THIS_ENG_ID_B \b*9626	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -4508,7 +4508,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/NS200.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w9747	
 	#define THIS_ENG_ID_B \b*9747	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -4558,7 +4558,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/DB_Class_270.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w9809	
 	#define THIS_ENG_ID_B \b*9809	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -4608,7 +4608,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/Am_4-6.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w9878	
 	#define THIS_ENG_ID_B \b*9878	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -4658,7 +4658,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/ALCO_S-2.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w9950	
 	#define THIS_ENG_ID_B \b*9950	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -4708,7 +4708,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/NSWGR_79.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w9963	
 	#define THIS_ENG_ID_B \b*9963	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -4758,7 +4758,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/f3.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w10170	
 	#define THIS_ENG_ID_B \b*10170	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -4808,7 +4808,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/emd-e8.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w10278	
 	#define THIS_ENG_ID_B \b*10278	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -4858,7 +4858,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/RS3.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w10310	
 	#define THIS_ENG_ID_B \b*10310	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -4908,7 +4908,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/NS600.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w10323	
 	#define THIS_ENG_ID_B \b*10323	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -4958,7 +4958,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/sharknose.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w10311	
 	#define THIS_ENG_ID_B \b*10311	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -5008,7 +5008,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/AFE_Class_1500.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w10382	
 	#define THIS_ENG_ID_B \b*10382	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -5058,7 +5058,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/Class_08.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define _MISC 2	
 	#define THIS_ENG_ID_W \w10420	
 	#define THIS_ENG_ID_B \b*10420	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -5108,7 +5108,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/CPR_FM_Trainmaster.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w10421	
 	#define THIS_ENG_ID_B \b*10421	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -5158,7 +5158,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/fp9.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w10458	
 	#define THIS_ENG_ID_B \b*10458	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -5208,7 +5208,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/mav44.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w10466	
 	#define THIS_ENG_ID_B \b*10466	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -5258,7 +5258,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/OBB_2060.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w10468	
 	#define THIS_ENG_ID_B \b*10468	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -5308,7 +5308,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/SW1200.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w10472	
 	#define THIS_ENG_ID_B \b*10472	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -5358,7 +5358,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/m28.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w10502	
 	#define THIS_ENG_ID_B \b*10502	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -5408,7 +5408,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/FL9.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w10531	
 	#define THIS_ENG_ID_B \b*10531	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -5458,7 +5458,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/NMBS-SNCB_Class_83.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC 2	
 	#define THIS_ENG_ID_W \w10539	
 	#define THIS_ENG_ID_B \b*10539	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -5508,7 +5508,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/v200.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC 2	
 	#define THIS_ENG_ID_W \w10547	
 	#define THIS_ENG_ID_B \b*10547	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -5558,7 +5558,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/ChME2.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w10600	
 	#define THIS_ENG_ID_B \b*10600	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -5608,7 +5608,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/cfr_060-da.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w10636	
 	#define THIS_ENG_ID_B \b*10636	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -5658,7 +5658,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/dr12.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC 2	
 	#define THIS_ENG_ID_W \w10637	
 	#define THIS_ENG_ID_B \b*10637	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -5708,7 +5708,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/emd-gl8.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w10674	
 	#define THIS_ENG_ID_B \b*10674	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -5758,7 +5758,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/ml4000.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w10682	
 	#define THIS_ENG_ID_B \b*10682	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -5808,7 +5808,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/TEP60.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w10689	
 	#define THIS_ENG_ID_B \b*10689	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -5858,7 +5858,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/br67.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC 2	
 	#define THIS_ENG_ID_W \w10708	
 	#define THIS_ENG_ID_B \b*10708	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -5908,7 +5908,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/mak.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w10754	
 	#define THIS_ENG_ID_B \b*10754	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -5958,7 +5958,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/wdm2.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w10800	
 	#define THIS_ENG_ID_B \b*10800	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -6008,7 +6008,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/BR_Class_14.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w10815	
 	#define THIS_ENG_ID_B \b*10815	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -6058,7 +6058,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/chme3.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w10816	
 	#define THIS_ENG_ID_B \b*10816	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -6108,7 +6108,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/j16cw.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w10856	
 	#define THIS_ENG_ID_B \b*10856	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -6158,7 +6158,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/m62.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w10862	
 	#define THIS_ENG_ID_B \b*10862	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -6208,7 +6208,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/422.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w10988	
 	#define THIS_ENG_ID_B \b*10988	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -6258,7 +6258,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/emd_dda40x.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w10998	
 	#define THIS_ENG_ID_B \b*10998	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -6308,7 +6308,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/G22W.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w11000	
 	#define THIS_ENG_ID_B \b*11000	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -6358,7 +6358,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/2100.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w11022	
 	#define THIS_ENG_ID_B \b*11022	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -6408,7 +6408,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/HZ_Class_2062.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w11109	
 	#define THIS_ENG_ID_B \b*11109	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -6458,7 +6458,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/SJ_V4.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w11120	
 	#define THIS_ENG_ID_B \b*11120	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -6508,7 +6508,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/m420w.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w11150	
 	#define THIS_ENG_ID_B \b*11150	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -6558,7 +6558,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/sdp-40f.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w11156	
 	#define THIS_ENG_ID_B \b*11156	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -6608,7 +6608,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/DFH3.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w11249	
 	#define THIS_ENG_ID_B \b*11249	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -6658,7 +6658,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 6	
 	#define THIS_ENG_GFX  sprites/gfx/f40ph.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w11286	
 	#define THIS_ENG_ID_B \b*11286	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -6708,7 +6708,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/cp1900.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w11428	
 	#define THIS_ENG_ID_B \b*11428	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -6758,7 +6758,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/DR16.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w11573	
 	#define THIS_ENG_ID_B \b*11573	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -6808,7 +6808,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/tep80.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w11697	
 	#define THIS_ENG_ID_B \b*11697	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -6858,7 +6858,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/AN_Class.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w11822	
 	#define THIS_ENG_ID_B \b*11822	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -6908,7 +6908,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 6	
 	#define THIS_ENG_GFX  sprites/gfx/genesis.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w11828	
 	#define THIS_ENG_ID_B \b*11828	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -6958,7 +6958,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/TCDD_DH7000.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC 2	
 	#define THIS_ENG_ID_W \w11913	
 	#define THIS_ENG_ID_B \b*11913	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -7008,7 +7008,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/GE_U20C.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w11936	
 	#define THIS_ENG_ID_B \b*11936	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -7058,7 +7058,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/nmbs7800.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w12015	
 	#define THIS_ENG_ID_B \b*12015	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -7108,7 +7108,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/br66.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w12039	
 	#define THIS_ENG_ID_B \b*12039	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -7158,7 +7158,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/BR_Class_67.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w12075	
 	#define THIS_ENG_ID_B \b*12075	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -7208,7 +7208,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/RAI_DE43CA_Prima.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w12185	
 	#define THIS_ENG_ID_B \b*12185	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -7258,7 +7258,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/g2000.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w12239	
 	#define THIS_ENG_ID_B \b*12239	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -7308,7 +7308,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/tep150.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w12345	
 	#define THIS_ENG_ID_B \b*12345	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -7358,7 +7358,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/HXN5.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w12405	
 	#define THIS_ENG_ID_B \b*12405	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -7408,7 +7408,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/Gravita_10BB.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w12476	
 	#define THIS_ENG_ID_B \b*12476	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -7458,7 +7458,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/GT1.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w12512	
 	#define THIS_ENG_ID_B \b*12512	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -7508,7 +7508,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 1	
 	#define THIS_ENG_GFX  sprites/gfx/RhB_De_2-2.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w16351	
 	#define THIS_ENG_ID_B \b*16351	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -7558,7 +7558,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 1	
 	#define THIS_ENG_GFX  sprites/gfx/el7.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w16419	
 	#define THIS_ENG_ID_B \b*16419	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -7608,7 +7608,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 1	
 	#define THIS_ENG_GFX  sprites/gfx/ner.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w16527	
 	#define THIS_ENG_ID_B \b*16527	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -7658,7 +7658,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 1	
 	#define THIS_ENG_GFX  sprites/gfx/Milwaukee_Road_ES-2.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w16598	
 	#define THIS_ENG_ID_B \b*16598	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -7708,7 +7708,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 1	
 	#define THIS_ENG_GFX  sprites/gfx/PRR_FF1.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w16601	
 	#define THIS_ENG_ID_B \b*16601	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -7758,7 +7758,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/EP-2_Bipolar.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w16706	
 	#define THIS_ENG_ID_B \b*16706	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -7808,7 +7808,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/Series_E-28.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w16820	
 	#define THIS_ENG_ID_B \b*16820	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -7858,7 +7858,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 1	
 	#define THIS_ENG_GFX  sprites/gfx/OBB_1161.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w17032	
 	#define THIS_ENG_ID_B \b*17032	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -7908,7 +7908,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 1	
 	#define THIS_ENG_GFX  sprites/gfx/DB_Class_169.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w17093	
 	#define THIS_ENG_ID_B \b*17093	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -7958,7 +7958,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 1	
 	#define THIS_ENG_GFX  sprites/gfx/EB10.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w17130	
 	#define THIS_ENG_ID_B \b*17130	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -8008,7 +8008,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 1	
 	#define THIS_ENG_GFX  sprites/gfx/el10.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w17139	
 	#define THIS_ENG_ID_B \b*17139	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -8058,7 +8058,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/e04-01.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w17202	
 	#define THIS_ENG_ID_B \b*17202	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -8108,7 +8108,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/E428.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w17239	
 	#define THIS_ENG_ID_B \b*17239	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -8158,7 +8158,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/GG1.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC 2	
 	#define THIS_ENG_ID_W \w17285	
 	#define THIS_ENG_ID_B \b*17285	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -8208,7 +8208,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 1	
 	#define THIS_ENG_GFX  sprites/gfx/ef55.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w17310	
 	#define THIS_ENG_ID_B \b*17310	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -8258,7 +8258,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 1	
 	#define THIS_ENG_GFX  sprites/gfx/SAR_Class_ES.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w17324	
 	#define THIS_ENG_ID_B \b*17324	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -8308,7 +8308,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/class1020.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w17452	
 	#define THIS_ENG_ID_B \b*17452	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -8358,7 +8358,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/vl22m.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w17651	
 	#define THIS_ENG_ID_B \b*17651	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -8408,7 +8408,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/ns1000.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC 2	
 	#define THIS_ENG_ID_W \w17751	
 	#define THIS_ENG_ID_B \b*17751	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -8458,7 +8458,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/27000.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC 2	
 	#define THIS_ENG_ID_W \w17910	
 	#define THIS_ENG_ID_B \b*17910	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -8508,7 +8508,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/metrovik.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w17930	
 	#define THIS_ENG_ID_B \b*17930	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -8558,7 +8558,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 1	
 	#define THIS_ENG_GFX  sprites/gfx/mtabdm3.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w17931	
 	#define THIS_ENG_ID_B \b*17931	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -8608,7 +8608,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 1	
 	#define THIS_ENG_GFX  sprites/gfx/c4-4.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w17956	
 	#define THIS_ENG_ID_B \b*17956	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -8658,7 +8658,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/SNCF_BB_9004.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w17972	
 	#define THIS_ENG_ID_B \b*17972	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -8708,7 +8708,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/ae6-6.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w17990	
 	#define THIS_ENG_ID_B \b*17990	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -8758,7 +8758,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/wcm1.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w18120	
 	#define THIS_ENG_ID_B \b*18120	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -8808,7 +8808,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/e646.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w18210	
 	#define THIS_ENG_ID_B \b*18210	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -8858,7 +8858,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 1	
 	#define THIS_ENG_GFX  sprites/gfx/VL41.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC 2	
 	#define THIS_ENG_ID_W \w18299	
 	#define THIS_ENG_ID_B \b*18299	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -8908,7 +8908,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/ef64.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w18318	
 	#define THIS_ENG_ID_B \b*18318	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -8958,7 +8958,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 8	
 	#define THIS_ENG_GFX  sprites/gfx/40100.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w19332	
 	#define THIS_ENG_ID_B \b*19332	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -9008,7 +9008,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/hz1141.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w18429	
 	#define THIS_ENG_ID_B \b*18429	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -9058,7 +9058,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/class_6e.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w18532	
 	#define THIS_ENG_ID_B \b*18532	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -9108,7 +9108,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 7	
 	#define THIS_ENG_GFX  sprites/gfx/DB_E103.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w18533	
 	#define THIS_ENG_ID_B \b*18533	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -9158,7 +9158,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/sr1.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w18656	
 	#define THIS_ENG_ID_B \b*18656	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -9208,7 +9208,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/1044.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w18665	
 	#define THIS_ENG_ID_B \b*18665	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -9258,7 +9258,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/SNCF_BB_22000.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC 2	
 	#define THIS_ENG_ID_W \w18764	
 	#define THIS_ENG_ID_B \b*18764	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -9308,7 +9308,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/et41.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w18786	
 	#define THIS_ENG_ID_B \b*18786	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -9358,7 +9358,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 7	
 	#define THIS_ENG_GFX  sprites/gfx/ns1600.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w18903	
 	#define THIS_ENG_ID_B \b*18903	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -9408,7 +9408,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/OBB_1063.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w18976	
 	#define THIS_ENG_ID_B \b*18976	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -9458,7 +9458,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/vl85.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w19019	
 	#define THIS_ENG_ID_B \b*19019	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -9508,7 +9508,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/vl15.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC 2	
 	#define THIS_ENG_ID_W \w19055	
 	#define THIS_ENG_ID_B \b*19055	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -9558,7 +9558,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/6k.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w19102	
 	#define THIS_ENG_ID_B \b*19102	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -9608,7 +9608,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 7	
 	#define THIS_ENG_GFX  sprites/gfx/26000.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w19206	
 	#define THIS_ENG_ID_B \b*19206	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -9658,7 +9658,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 7	
 	#define THIS_ENG_GFX  sprites/gfx/lok2k.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w19303	
 	#define THIS_ENG_ID_B \b*19303	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -9708,7 +9708,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/ss6.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w19304	
 	#define THIS_ENG_ID_B \b*19304	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -9758,7 +9758,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 7	
 	#define THIS_ENG_GFX  sprites/gfx/RENFE_Class_252.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w19339	
 	#define THIS_ENG_ID_B \b*19339	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -9808,7 +9808,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/BR_Class_92.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w19359	
 	#define THIS_ENG_ID_B \b*19359	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -9858,7 +9858,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/traxx_f140.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w19485	
 	#define THIS_ENG_ID_B \b*19485	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -9908,7 +9908,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/ef500.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w19506	
 	#define THIS_ENG_ID_B \b*19506	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -9958,7 +9958,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 7	
 	#define THIS_ENG_GFX  sprites/gfx/hle13.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w19509	
 	#define THIS_ENG_ID_B \b*19509	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -10008,7 +10008,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/e55200.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC 2	
 	#define THIS_ENG_ID_W \w19542	
 	#define THIS_ENG_ID_B \b*19542	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -10058,7 +10058,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 1	
 	#define THIS_ENG_GFX  sprites/gfx/iore.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w19618	
 	#define THIS_ENG_ID_B \b*19618	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -10108,7 +10108,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 7	
 	#define THIS_ENG_GFX  sprites/gfx/taurus1.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w19628	
 	#define THIS_ENG_ID_B \b*19628	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -10158,7 +10158,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/ds3.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC 2	
 	#define THIS_ENG_ID_W \w19721	
 	#define THIS_ENG_ID_B \b*19721	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -10208,7 +10208,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/Korail_8200.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC 2	
 	#define THIS_ENG_ID_W \w19728	
 	#define THIS_ENG_ID_B \b*19728	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -10258,7 +10258,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 7	
 	#define THIS_ENG_GFX  sprites/gfx/kz2a.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w19764	
 	#define THIS_ENG_ID_B \b*19764	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -10308,7 +10308,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/SBB_Eem_923.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w20060	
 	#define THIS_ENG_ID_B \b*20060	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -10358,7 +10358,7 @@
 											#define THIS_ENG7_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG7_GFX  sprites/gfx/nogfx.png	
 	#define THIS_ENG7_TRACTION_TYPE 0	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG7_ID_W \w	
 	#define THIS_ENG7_ID_B \b*	
 	#define STR_W_THIS_ENG7 \wxD0D0	
@@ -10408,7 +10408,7 @@
 											#define THIS_ENG1_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG1_GFX  sprites/gfx/nogfx.png	
 	#define THIS_ENG1_TRACTION_TYPE 0	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG1_ID_W \w	
 	#define THIS_ENG1_ID_B \b*	
 	#define STR_W_THIS_ENG1 \wxD0D0	
@@ -10458,7 +10458,7 @@
 											#define THIS_ENG7_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG7_GFX  sprites/gfx/nogfx.png	
 	#define THIS_ENG7_TRACTION_TYPE 0	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG7_ID_W \w	
 	#define THIS_ENG7_ID_B \b*	
 	#define STR_W_THIS_ENG7 \wxD0D0	
@@ -10508,7 +10508,7 @@
 											#define THIS_ENG3_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG3_GFX  sprites/gfx/nogfx.png	
 	#define THIS_ENG3_TRACTION_TYPE 0	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG3_ID_W \w	
 	#define THIS_ENG3_ID_B \b*	
 	#define STR_W_THIS_ENG3 \wxD0D0	
@@ -10558,7 +10558,7 @@
 											#define THIS_ENG2_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG2_GFX  sprites/gfx/nogfx.png	
 	#define THIS_ENG2_TRACTION_TYPE 0	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG2_ID_W \w	
 	#define THIS_ENG2_ID_B \b*	
 	#define STR_W_THIS_ENG2 \wxD0D0	
@@ -10608,7 +10608,7 @@
 											#define THIS_ENG4_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG4_GFX  sprites/gfx/nogfx.png	
 	#define THIS_ENG4_TRACTION_TYPE 0	
-		
+	#define THIS_ENG_MISC 2	
 	#define THIS_ENG4_ID_W \w	
 	#define THIS_ENG4_ID_B \b*	
 	#define STR_W_THIS_ENG4 \wxD0D0	
@@ -10658,7 +10658,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/Le_Belge.png	
 	#define THIS_ENG_TRACTION_TYPE 0	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w1003	
 	#define THIS_ENG_ID_B \b*1003	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -10708,7 +10708,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/american.png	
 	#define THIS_ENG_TRACTION_TYPE 0	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w1007	
 	#define THIS_ENG_ID_B \b*1007	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -10758,7 +10758,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/Ec_2-5.png	
 	#define THIS_ENG_TRACTION_TYPE 0	
-		
+	#define THIS_ENG_MISC 2	
 	#define THIS_ENG_ID_W \w1011	
 	#define THIS_ENG_ID_B \b*1011	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -10808,7 +10808,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/10weeler.png	
 	#define THIS_ENG_TRACTION_TYPE 0	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w1015	
 	#define THIS_ENG_ID_B \b*1015	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -10858,7 +10858,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/consolidation.png	
 	#define THIS_ENG_TRACTION_TYPE 0	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w1019	
 	#define THIS_ENG_ID_B \b*1019	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -10908,7 +10908,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/MAV_Class_377.png	
 	#define THIS_ENG_TRACTION_TYPE 0	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w1023	
 	#define THIS_ENG_ID_B \b*1023	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -10958,7 +10958,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/KkStB_Class_99.png	
 	#define THIS_ENG_TRACTION_TYPE 0	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w1027	
 	#define THIS_ENG_ID_B \b*1027	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -11008,7 +11008,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/cr439.png	
 	#define THIS_ENG_TRACTION_TYPE 0	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w1031	
 	#define THIS_ENG_ID_B \b*1031	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -11058,7 +11058,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/A_3-5.png	
 	#define THIS_ENG_TRACTION_TYPE 0	
-		
+	#define THIS_ENG7_MISC A	
 	#define THIS_ENG_ID_W \w1082	
 	#define THIS_ENG_ID_B \b*1082	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -11108,7 +11108,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/SBB_E_3-3.png	
 	#define THIS_ENG_TRACTION_TYPE 0	
-		
+	#define THIS_ENG1_MISC A	
 	#define THIS_ENG_ID_W \w1100	
 	#define THIS_ENG_ID_B \b*1100	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -11158,7 +11158,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/kkstb229.png	
 	#define THIS_ENG_TRACTION_TYPE 0	
-		
+	#define THIS_ENG7_MISC A	
 	#define THIS_ENG_ID_W \w1164	
 	#define THIS_ENG_ID_B \b*1164	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -11208,7 +11208,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/nrz_x_class.png	
 	#define THIS_ENG_TRACTION_TYPE 0	
-		
+	#define THIS_ENG3_MISC A	
 	#define THIS_ENG_ID_W \w1311	
 	#define THIS_ENG_ID_B \b*1311	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -11258,7 +11258,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/Hz_Class_51.png	
 	#define THIS_ENG_TRACTION_TYPE 0	
-		
+	#define THIS_ENG2_MISC A	
 	#define THIS_ENG_ID_W \w1521	
 	#define THIS_ENG_ID_B \b*1521	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -11308,7 +11308,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/FS_Class_880.png	
 	#define THIS_ENG_TRACTION_TYPE 0	
-		
+	#define THIS_ENG4_MISC A	
 	#define THIS_ENG_ID_W \w1591	
 	#define THIS_ENG_ID_B \b*1591	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -11358,7 +11358,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/140c.png	
 	#define THIS_ENG_TRACTION_TYPE 0	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w1720	
 	#define THIS_ENG_ID_B \b*1720	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -11408,7 +11408,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/11b-2-8-0.png	
 	#define THIS_ENG_TRACTION_TYPE 0	
-		
+	#define THIS_ENG_MISC 2	
 	#define THIS_ENG_ID_W \w1768	
 	#define THIS_ENG_ID_B \b*1768	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -11458,7 +11458,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/141ta.png	
 	#define THIS_ENG_TRACTION_TYPE 0	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w1793	
 	#define THIS_ENG_ID_B \b*1793	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -11508,7 +11508,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/gwr_4900.png	
 	#define THIS_ENG_TRACTION_TYPE 0	
-		
+	#define THIS_ENG_MISC 2	
 	#define THIS_ENG_ID_W \w1880	
 	#define THIS_ENG_ID_B \b*1880	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -11558,7 +11558,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/GWR_Class_5700.png	
 	#define THIS_ENG_TRACTION_TYPE 0	
-		
+	#define THIS_ENG_MISC 2	
 	#define THIS_ENG_ID_W \w2060	
 	#define THIS_ENG_ID_B \b*2060	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -11608,7 +11608,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/6300.png	
 	#define THIS_ENG_TRACTION_TYPE 0	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w2086	
 	#define THIS_ENG_ID_B \b*2086	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -11658,7 +11658,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/AT_SF_5000.png	
 	#define THIS_ENG_TRACTION_TYPE 0	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w2090	
 	#define THIS_ENG_ID_B \b*2090	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -11708,7 +11708,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/9P.png	
 	#define THIS_ENG_TRACTION_TYPE 0	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w2233	
 	#define THIS_ENG_ID_B \b*2233	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -11758,7 +11758,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/LMS_5MT_Black_Five.png	
 	#define THIS_ENG_TRACTION_TYPE 0	
-		
+	#define THIS_ENG_MISC 2	
 	#define THIS_ENG_ID_W \w2245	
 	#define THIS_ENG_ID_B \b*2245	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -11808,7 +11808,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/Prussian_S10.png	
 	#define THIS_ENG_TRACTION_TYPE 0	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w2249	
 	#define THIS_ENG_ID_B \b*2249	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -11858,7 +11858,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/a4.png	
 	#define THIS_ENG_TRACTION_TYPE 0	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w2276	
 	#define THIS_ENG_ID_B \b*2276	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -11908,7 +11908,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/litera-e.png	
 	#define THIS_ENG_TRACTION_TYPE 0	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w2353	
 	#define THIS_ENG_ID_B \b*2353	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -11958,7 +11958,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/hudson.png	
 	#define THIS_ENG_TRACTION_TYPE 0	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w2359	
 	#define THIS_ENG_ID_B \b*2359	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -12008,7 +12008,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
 	#define THIS_ENG_GFX  sprites/gfx/db52.png	
 	#define THIS_ENG_TRACTION_TYPE 0	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w2525	
 	#define THIS_ENG_ID_B \b*2525	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -12058,7 +12058,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/Class_A1.png	
 	#define THIS_ENG_TRACTION_TYPE 0	
-		
+	#define THIS_ENG_MISC 2	
 	#define THIS_ENG_ID_W \w2740	
 	#define THIS_ENG_ID_B \b*2740	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -12108,7 +12108,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/p36.png	
 	#define THIS_ENG_TRACTION_TYPE 0	
-		
+	#define THIS_ENG_MISC 2	
 	#define THIS_ENG_ID_W \w2933	
 	#define THIS_ENG_ID_B \b*2933	
 	#define STR_W_THIS_ENG \wxD0D0	
@@ -12158,7 +12158,7 @@
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/SAR_Class_25.png	
 	#define THIS_ENG_TRACTION_TYPE 0	
-		
+	#define THIS_ENG_MISC A	
 	#define THIS_ENG_ID_W \w2936	
 	#define THIS_ENG_ID_B \b*2936	
 	#define STR_W_THIS_ENG \wxD0D0	
