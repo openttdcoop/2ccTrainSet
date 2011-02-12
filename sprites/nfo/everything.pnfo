@@ -4917,7 +4917,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "SF RF-16 'Sharknose' "	
+	#define NAME_THIS_ENG "NS 600 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -4967,7 +4967,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 	 	
 	#define THIS_ENG_BUNIT	
-	#define NAME_THIS_ENG "NS 600 "	
+	#define NAME_THIS_ENG "SF RF-16 'Sharknose' "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
