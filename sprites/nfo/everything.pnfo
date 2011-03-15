@@ -2245,7 +2245,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	#define THIS_ENG_LENGTH2 \b0	
 		
-	#define THIS_ENG_TYPE NORMAL_EMU	
+	#define THIS_ENG_TYPE FIRSTWAGON_EMU	
 	#define NAME_THIS_ENG "DB 420 "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
