@@ -477,7 +477,7 @@
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 6	
 	#define THIS_ENG_GFX  sprites/gfx/CNR_Turbo_Train.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
-	#define THIS_ENG_MISC 6	
+	#define THIS_ENG_MISC 7	
 	#define THIS_ENG_ID_W \w25941	
 	#define THIS_ENG_ID_B \b*25941	
 	#define STR_W_THIS_ENG \wxD132	
@@ -596,7 +596,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE DUALHEAD_DMU	
-	#define NAME_THIS_ENG "BR 43 'IC125' "	
+	#define NAME_THIS_ENG "BR InterCity 125 "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -1373,7 +1373,7 @@
 	#include TEMPLATE_UNDEF	
 	
 
- 	
+#define THIS_ENG_CODE YES	
 	#ifdef THIS_ENG_CODE	
 	#define THIS_ENG_INTROYEAR \d2015-1-1	
 	#define THIS_ENG_V_LIFE \b25	
@@ -1963,8 +1963,8 @@
 	#define THIS_ENG_GFX  sprites/gfx/Rae_TEE_II.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
 	#define THIS_ENG_MISC 6	
-	#define THIS_ENG_ID_W \w33223	
-	#define THIS_ENG_ID_B \b*33223	
+	#define THIS_ENG_ID_W \w33240	
+	#define THIS_ENG_ID_B \b*33240	
 	#define STR_W_THIS_ENG \wxD23C	
 	#define THIS_ENG_STR_B \wx823C	
 	#define THIS_ENG_LENGTH1 \b0	
@@ -1976,6 +1976,7 @@
 	#undef THIS_ENG_CODE	
 	#endif	
 	#include TEMPLATE_UNDEF	
+
 	
 
 #define THIS_ENG_CODE YES	
@@ -2301,7 +2302,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
-	#define NAME_THIS_ENG "CityRail V DDIU "	
+	#define NAME_THIS_ENG "CityRail L/R/S Set "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -3786,7 +3787,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
-	#define NAME_THIS_ENG "CityRail OSCars "	
+	#define NAME_THIS_ENG "CityRail H-set OSCar "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -3800,8 +3801,8 @@
 	#define THIS_ENG_M_LIFE \b255	
 	#define THIS_ENG_SPEED \w160	
 	#define THIS_ENG_TE \b79	
-	#define THIS_ENG_HP \w250	
-	#define THIS_ENG_WAG_HP \w250	
+	#define THIS_ENG_HP \w553	
+	#define THIS_ENG_WAG_HP \w553
 	#define THIS_ENG_CAP_WAG_PAX \b52	
 	#define THIS_ENG_CAP_WAG_MAIL \b39	
 	#define THIS_ENG_CAP_WAG_ARMOR \b26	
@@ -3816,19 +3817,19 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b42	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33474	
-	#define THIS_ENG_RCOST \w32931	
-	#define RCOST_VERYLOW \w32850	
-	#define RCOST_LOW \w32895	
-	#define RCOST_MED \w32931	
-	#define RCOST_HIGH \w32931	
-	#define RCOST_VERYHIGH \w32931	
-	#define THIS_ENG_RCOST_WAG \w32931	
-	#define RCOST_WAG_VERYLOW \w32850	
-	#define RCOST_WAG_LOW \w32895	
-	#define RCOST_WAG_MED \w32931	
-	#define RCOST_WAG_HIGH \w32931	
-	#define RCOST_WAG_VERYHIGH \w32931	
+	#define THIS_ENG_PCOST \w33390	
+	#define THIS_ENG_RCOST \w32934	
+	#define RCOST_VERYLOW \w32851	
+	#define RCOST_LOW \w32898	
+	#define RCOST_MED \w32934	
+	#define RCOST_HIGH \w32934	
+	#define RCOST_VERYHIGH \w32934	
+	#define THIS_ENG_RCOST_WAG \w32934	
+	#define RCOST_WAG_VERYLOW \w32851	
+	#define RCOST_WAG_LOW \w32898	
+	#define RCOST_WAG_MED \w32934	
+	#define RCOST_WAG_HIGH \w32934	
+	#define RCOST_WAG_VERYHIGH \w32934
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/Gautrain_Electrostar.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
@@ -5440,7 +5441,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "DB 310 Kof II "	
+	#define NAME_THIS_ENG "DB Kof II "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -5490,7 +5491,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "CNJ ALCo-GE-IR Boxcab "	
+	#define NAME_THIS_ENG "ALCo-GE-IR Boxcab "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -5740,7 +5741,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "NSWGR 79 "	
+	#define NAME_THIS_ENG "NSWGR 79 Class "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -5790,7 +5791,7 @@
 	#define THIS_ENG_LENGTH2 \b1	
 	 	
 	#define THIS_ENG_BUNIT	
-	#define NAME_THIS_ENG "GNR EMD F3 "	
+	#define NAME_THIS_ENG "EMD F3 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -5840,7 +5841,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 	 	
 	#define THIS_ENG_BUNIT	
-	#define NAME_THIS_ENG "UP EMD E8 "	
+	#define NAME_THIS_ENG "EMD E8 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -5936,7 +5937,7 @@
 	#define THIS_ENG_ID_B \b*10323	
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
-	#define THIS_ENG_LENGTH1 \b4	
+	#define THIS_ENG_LENGTH1 \b3	
 	 	
 	 	
 	 	
@@ -5990,7 +5991,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 	 	
 	#define THIS_ENG_BUNIT	
-	#define NAME_THIS_ENG "SF RF-16 'Sharknose' "	
+	#define NAME_THIS_ENG "SF Baldwin RF-16 'Sharknose' "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -6340,7 +6341,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "CNR SW1200 "	
+	#define NAME_THIS_ENG "EMD SW1200 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -6440,7 +6441,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "Amtrak FL9 "	
+	#define NAME_THIS_ENG "EMD FL9 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -6540,7 +6541,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "DB 220 V200 "	
+	#define NAME_THIS_ENG "DB V200 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -6736,11 +6737,11 @@
 	#define THIS_ENG_ID_B \b*10674	
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
-	#define THIS_ENG_LENGTH1 \b2	
+	#define THIS_ENG_LENGTH1 \b3	
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "BF EMD GL8 "	
+	#define NAME_THIS_ENG "EMD GL8 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -6986,7 +6987,7 @@
 	#define THIS_ENG_ID_B \b*10800	
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
-	#define THIS_ENG_LENGTH1 \b0	
+	#define THIS_ENG_LENGTH1 \b1	
 	 	
 	 	
 	 	
@@ -7140,7 +7141,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "MF GM-EMD-J16CW-AC "	
+	#define NAME_THIS_ENG "EMD J16CW-AC "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -7240,7 +7241,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "NSWGR 422 "	
+	#define NAME_THIS_ENG "NSWGR 422 Class "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -7290,7 +7291,7 @@
 	#define THIS_ENG_LENGTH2 \b2	
 	 	
 	 	
-	#define NAME_THIS_ENG "UP EMD DDA40X "	
+	#define NAME_THIS_ENG "EMD DDA40X "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -7340,7 +7341,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "ENR G22W "	
+	#define NAME_THIS_ENG "EMD G22W "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -7590,7 +7591,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "GNR SDP-40F "	
+	#define NAME_THIS_ENG "EMD SDP-40F "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -7890,7 +7891,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "Australian National AN "	
+	#define NAME_THIS_ENG "Australian National AN Class "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -7940,7 +7941,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "Amtrak GE P42DC 'Genesis' "	
+	#define NAME_THIS_ENG "GE P42DC 'Genesis' "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -8040,7 +8041,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "MF GE U20C "	
+	#define NAME_THIS_ENG "GE U20C "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -8140,7 +8141,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "BR 66 "	
+	#define NAME_THIS_ENG "EMD Class 66 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -8290,7 +8291,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "DB 253 G2000-3 BB "	
+	#define NAME_THIS_ENG "Vossloh G2000-3 BB "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -8440,7 +8441,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "DB 260 Gravita 10BB "	
+	#define NAME_THIS_ENG "Voith Gravita 10BB "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -8940,7 +8941,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "DB 169 "	
+	#define NAME_THIS_ENG "DB E69 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -9153,7 +9154,7 @@
 	#define THIS_ENG_V_LIFE \b40	
 	#define THIS_ENG_M_LIFE \b25	
 	#define THIS_ENG_SPEED \w160	
-	#define THIS_ENG_TE \b26	
+	#define THIS_ENG_TE \b39	
 	#define THIS_ENG_HP \w4620	
 	#define THIS_ENG_WAG_HP \w0	
 	#define THIS_ENG_CAP_WAG_PAX \b0	
@@ -9170,14 +9171,15 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b215	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w35016	
-	#define THIS_ENG_RCOST \w34221	
-	#define RCOST_VERYLOW \w33494	
-	#define RCOST_LOW \w33903	
-	#define RCOST_MED \w34221	
-	#define RCOST_HIGH \w34221	
-	#define RCOST_VERYHIGH \w34221	
-	#define THIS_ENG_RCOST_WAG \w32788	
+	#define THIS_ENG_PCOST \w35132	
+	#define THIS_ENG_RCOST \w34227	
+	#define RCOST_VERYLOW \w33498	
+	#define RCOST_LOW \w33908	
+	#define RCOST_MED \w34227	
+	#define RCOST_HIGH \w34227	
+	#define RCOST_VERYHIGH \w34227	
+	#define THIS_ENG_RCOST_WAG \w32788
+
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/GG1.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
@@ -9196,6 +9198,8 @@
 	#endif	
 	#include TEMPLATE_UNDEF	
 	
+
+
 
 #define THIS_ENG_CODE YES	
 	#ifdef THIS_ENG_CODE	
@@ -9447,7 +9451,7 @@
 	#include TEMPLATE_UNDEF	
 	
 
-#define THIS_ENG_CODE YES	
+
 	#ifdef THIS_ENG_CODE	
 	#define THIS_ENG_INTROYEAR \d1953-1-1	
 	#define THIS_ENG_V_LIFE \b40	
@@ -9636,7 +9640,7 @@
 	#define THIS_ENG_ID_B \b*17956	
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
-	#define THIS_ENG_LENGTH1 \b0	
+	#define THIS_ENG_LENGTH1 \b3	
 	 	
 	 	
 	 	
@@ -10890,7 +10894,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "DB 145 TRAXX F140 "	
+	#define NAME_THIS_ENG "TRAXX F140 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -11140,7 +11144,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "DB 182 ES64U 'Taurus' "	
+	#define NAME_THIS_ENG "Siemens ES64U 'Taurus' "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -12387,7 +12391,7 @@
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
 	#define THIS_ENG_LENGTH1 \b1	
-	#define THIS_ENG_LENGTH2 \b5	
+	#define THIS_ENG_LENGTH2 \b4	
 	 	
 	 	
 	#define NAME_THIS_ENG "SNCF 140C "	
