@@ -1,7 +1,7 @@
 // Action 8: define GRF version (07), GRFID (number), Name and Description.
 -1 * 0	 08 07 {{GRF_ID}} "{{GRF_TITLE}}" 00 "The Trains of the World in 2cc" 0D
-				"Drawn by Purno, Snail, Wile E Coyote and DanMack" 0D
-				"Coded by DJ Nekkid, planetmaker and Ammler" 0D
+				"Drawn by Voyager One, Purno, Snail, Emperor Jake, DanMack" 0D
+				"Coded by DJ Nekkid, planetmaker, Ammler and Emperor Jake" 0D
 				8E "Check the readme for parameters" 0D
 				"However, Parameter1 (Prices: 0 = default, 1 = quarter, 2 = Half, 3 = default, 4 = double, 5 = 4x" 00
 

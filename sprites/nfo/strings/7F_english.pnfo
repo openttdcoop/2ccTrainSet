@@ -18,7 +18,7 @@
 #define WORD_RC_1U      "Running costs are per 1 unit"
 #define WORD_SPEED	"Design Speed: "
 #define WORD_KMH	"km/h"
-#define WORD_FASTHIGHRC	"If traveling above design speed, running cost will be penalised"
+#define WORD_FASTHIGHRC	"If travelling above design speed, running cost will be penalised"
 #define WORD_SHORT	"(Short)"
 #define WORD_LONG	"(Long)"
 
@@ -40,7 +40,7 @@
 
 // Misc purchaselist texts:
 #define STR_ENGINE          "Your average cool engine"
-#define STR_RAILBUS         "Railbusses cannot connect to anything"
+#define STR_RAILBUS         "Railbuses cannot connect to anything (yet)"
 #define STR_SINGLEMETRO     "Single unit metros cannot connect to anything"
 
 // Error messages
