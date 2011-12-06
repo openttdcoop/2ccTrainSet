@@ -71,9 +71,9 @@
 	#define THIS_ENG_CAP_HEAD_PAX \b0	
 	#define THIS_ENG_CAP_HEAD_MAIL \b0	
 	#define THIS_ENG_CAP_HEAD_ARMOR \b0	
-	#define THIS_ENG_PAX_LS \b20	
-	#define THIS_ENG_MAIL_LS \b15	
-	#define THIS_ENG_ARMOR_LS \b10	
+	#define THIS_ENG_PAX_LS \b8	
+	#define THIS_ENG_MAIL_LS \b6	
+	#define THIS_ENG_ARMOR_LS \b4	
 	#define THIS_ENG_WEIGHT \b55	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
 	#define THIS_ENG_PCOST \w33221	
@@ -95,8 +95,8 @@
 	#define THIS_ENG_MISC 6	
 	#define THIS_ENG_ID_W \w24860	
 	#define THIS_ENG_ID_B \b*24860	
-	#define STR_W_THIS_ENG \wxD1AD	
-	#define THIS_ENG_STR_B \wx81AD	
+	#define STR_W_THIS_ENG \wxD12D	
+	#define THIS_ENG_STR_B \wx812D	
 	#define THIS_ENG_LENGTH1 \b1	
 	#define THIS_ENG_LENGTH2 \b1	
 		
@@ -651,7 +651,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE DUALHEAD_DMU	
-	#define NAME_THIS_ENG "VIA Rail LRC "	
+	#define NAME_THIS_ENG "Bombardier LRC "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -1336,9 +1336,9 @@
 	#define THIS_ENG_CAP_HEAD_PAX \b66	
 	#define THIS_ENG_CAP_HEAD_MAIL \b50	
 	#define THIS_ENG_CAP_HEAD_ARMOR \b33	
-	#define THIS_ENG_PAX_LS \b20	
-	#define THIS_ENG_MAIL_LS \b15	
-	#define THIS_ENG_ARMOR_LS \b10	
+	#define THIS_ENG_PAX_LS \b8	
+	#define THIS_ENG_MAIL_LS \b6	
+	#define THIS_ENG_ARMOR_LS \b4	
 	#define THIS_ENG_WEIGHT \b38	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
 	#define THIS_ENG_PCOST \w34204	
@@ -1360,8 +1360,8 @@
 	#define THIS_ENG_MISC 6	
 	#define THIS_ENG_ID_W \w27516	
 	#define THIS_ENG_ID_B \b*27516	
-	#define STR_W_THIS_ENG \wxD2C2	
-	#define THIS_ENG_STR_B \wx82C2	
+	#define STR_W_THIS_ENG \wxD242	
+	#define THIS_ENG_STR_B \wx8242	
 	#define THIS_ENG_LENGTH1 \b0	
 	#define THIS_ENG_LENGTH2 \b0	
 		
@@ -1373,7 +1373,7 @@
 	#include TEMPLATE_UNDEF	
 	
 
-	
+ 	
 	#ifdef THIS_ENG_CODE	
 	#define THIS_ENG_INTROYEAR \d2015-1-1	
 	#define THIS_ENG_V_LIFE \b25	
@@ -1556,9 +1556,9 @@
 	#define THIS_ENG_CAP_HEAD_PAX \b34	
 	#define THIS_ENG_CAP_HEAD_MAIL \b26	
 	#define THIS_ENG_CAP_HEAD_ARMOR \b17	
-	#define THIS_ENG_PAX_LS \b8	
-	#define THIS_ENG_MAIL_LS \b6	
-	#define THIS_ENG_ARMOR_LS \b4	
+	#define THIS_ENG_PAX_LS \b20	
+	#define THIS_ENG_MAIL_LS \b15	
+	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b31	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
 	#define THIS_ENG_PCOST \w33009	
@@ -1580,8 +1580,8 @@
 	#define THIS_ENG_MISC 6	
 	#define THIS_ENG_ID_W \w32166	
 	#define THIS_ENG_ID_B \b*32166	
-	#define STR_W_THIS_ENG \wxD222	
-	#define THIS_ENG_STR_B \wx8222	
+	#define STR_W_THIS_ENG \wxD2A2	
+	#define THIS_ENG_STR_B \wx82A2	
 	#define THIS_ENG_LENGTH1 \b0	
 	#define THIS_ENG_LENGTH2 \b0	
 		
@@ -1916,7 +1916,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE FIRSTWAGON_EMU	
-	#define NAME_THIS_ENG "FS ETR 300 'Settebello' "	
+	#define NAME_THIS_ENG "FS ETR300 'Settebello' "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -1976,7 +1976,6 @@
 	#undef THIS_ENG_CODE	
 	#endif	
 	#include TEMPLATE_UNDEF	
-
 	
 
 #define THIS_ENG_CODE YES	
@@ -2272,9 +2271,9 @@
 	#define THIS_ENG_CAP_HEAD_PAX \b112	
 	#define THIS_ENG_CAP_HEAD_MAIL \b84	
 	#define THIS_ENG_CAP_HEAD_ARMOR \b56	
-	#define THIS_ENG_PAX_LS \b8	
-	#define THIS_ENG_MAIL_LS \b6	
-	#define THIS_ENG_ARMOR_LS \b4	
+	#define THIS_ENG_PAX_LS \b20	
+	#define THIS_ENG_MAIL_LS \b15	
+	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b68	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
 	#define THIS_ENG_PCOST \w33570	
@@ -2296,8 +2295,8 @@
 	#define THIS_ENG_MISC 6	
 	#define THIS_ENG_ID_W \w33604	
 	#define THIS_ENG_ID_B \b*33604	
-	#define STR_W_THIS_ENG \wxD270	
-	#define THIS_ENG_STR_B \wx8270	
+	#define STR_W_THIS_ENG \wxD2F0	
+	#define THIS_ENG_STR_B \wx82F0	
 	#define THIS_ENG_LENGTH1 \b0	
 	#define THIS_ENG_LENGTH2 \b0	
 		
@@ -2467,7 +2466,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
-	#define NAME_THIS_ENG "NS ICM 4000 "	
+	#define NAME_THIS_ENG "NS ICM "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -2951,7 +2950,7 @@
 	#define RCOST_WAG_HIGH \w32782	
 	#define RCOST_WAG_VERYHIGH \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 8	
-	#define THIS_ENG_GFX  sprites/gfx/tgv-thalplex.png	
+	#define THIS_ENG_GFX  sprites/gfx/tgv-duplex.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
 	#define THIS_ENG_MISC 6	
 	#define THIS_ENG_ID_W \w34449	
@@ -2961,7 +2960,7 @@
 	#define THIS_ENG_LENGTH1 \b0	
 	#define THIS_ENG_LENGTH2 \b2	
 		
-	#define THIS_ENG_TYPE TGV_D_EMU	
+	#define THIS_ENG_TYPE TGV_TA_EMU	
 	#define NAME_THIS_ENG "SNCF TGV Duplex "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
@@ -3006,7 +3005,7 @@
 	#define RCOST_WAG_HIGH \w32783	
 	#define RCOST_WAG_VERYHIGH \w32788	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 8	
-	#define THIS_ENG_GFX  sprites/gfx/tgv-thalplex.png	
+	#define THIS_ENG_GFX  sprites/gfx/tgv-thalys.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
 	#define THIS_ENG_MISC 6	
 	#define THIS_ENG_ID_W \w34450	
@@ -3042,9 +3041,9 @@
 	#define THIS_ENG_CAP_HEAD_PAX \b115	
 	#define THIS_ENG_CAP_HEAD_MAIL \b86	
 	#define THIS_ENG_CAP_HEAD_ARMOR \b58	
-	#define THIS_ENG_PAX_LS \b8	
-	#define THIS_ENG_MAIL_LS \b6	
-	#define THIS_ENG_ARMOR_LS \b4	
+	#define THIS_ENG_PAX_LS \b20	
+	#define THIS_ENG_MAIL_LS \b15	
+	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b68	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
 	#define THIS_ENG_PCOST \w34301	
@@ -3066,8 +3065,8 @@
 	#define THIS_ENG_MISC 6	
 	#define THIS_ENG_ID_W \w34466	
 	#define THIS_ENG_ID_B \b*34466	
-	#define STR_W_THIS_ENG \wxD273	
-	#define THIS_ENG_STR_B \wx8273	
+	#define STR_W_THIS_ENG \wxD2F3	
+	#define THIS_ENG_STR_B \wx82F3	
 	#define THIS_ENG_LENGTH1 \b0	
 	#define THIS_ENG_LENGTH2 \b0	
 		
@@ -3182,7 +3181,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE ENGINESTYLE_EMU	
-	#define NAME_THIS_ENG "NS mDDm 390 "	
+	#define NAME_THIS_ENG "NS mDDm "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -3787,7 +3786,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE NORMAL_EMU	
-	#define NAME_THIS_ENG "CityRail H-set OSCar "	
+	#define NAME_THIS_ENG "CityRail H-Set 'OSCar' "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -3802,7 +3801,7 @@
 	#define THIS_ENG_SPEED \w160	
 	#define THIS_ENG_TE \b79	
 	#define THIS_ENG_HP \w553	
-	#define THIS_ENG_WAG_HP \w553
+	#define THIS_ENG_WAG_HP \w553	
 	#define THIS_ENG_CAP_WAG_PAX \b52	
 	#define THIS_ENG_CAP_WAG_MAIL \b39	
 	#define THIS_ENG_CAP_WAG_ARMOR \b26	
@@ -3812,9 +3811,9 @@
 	#define THIS_ENG_CAP_HEAD_PAX \b52	
 	#define THIS_ENG_CAP_HEAD_MAIL \b39	
 	#define THIS_ENG_CAP_HEAD_ARMOR \b26	
-	#define THIS_ENG_PAX_LS \b20	
-	#define THIS_ENG_MAIL_LS \b15	
-	#define THIS_ENG_ARMOR_LS \b10	
+	#define THIS_ENG_PAX_LS \b8	
+	#define THIS_ENG_MAIL_LS \b6	
+	#define THIS_ENG_ARMOR_LS \b4	
 	#define THIS_ENG_WEIGHT \b42	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
 	#define THIS_ENG_PCOST \w33390	
@@ -3829,15 +3828,15 @@
 	#define RCOST_WAG_LOW \w32898	
 	#define RCOST_WAG_MED \w32934	
 	#define RCOST_WAG_HIGH \w32934	
-	#define RCOST_WAG_VERYHIGH \w32934
+	#define RCOST_WAG_VERYHIGH \w32934	
 	#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/Gautrain_Electrostar.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
 	#define THIS_ENG_MISC 6	
 	#define THIS_ENG_ID_W \w34976	
 	#define THIS_ENG_ID_B \b*34976	
-	#define STR_W_THIS_ENG \wxD2B4	
-	#define THIS_ENG_STR_B \wx82B4	
+	#define STR_W_THIS_ENG \wxD234	
+	#define THIS_ENG_STR_B \wx8234	
 	#define THIS_ENG_LENGTH1 \b0	
 	#define THIS_ENG_LENGTH2 \b1	
 		
@@ -4865,7 +4864,7 @@
 	#undef THIS_ENG_CODE	
 	#endif	
 	#include TEMPLATE_UNDEF	
-
+	
 
 #define THIS_ENG_CODE YES	
 	#ifdef THIS_ENG_CODE	
@@ -4917,7 +4916,7 @@
 	#include TEMPLATE_RAILBUS	
 	#undef THIS_ENG_CODE	
 	#endif	
-	#include TEMPLATE_UNDEF		
+	#include TEMPLATE_UNDEF	
 	
 
 #define THIS_ENG_CODE YES	
@@ -4964,7 +4963,7 @@
 	#define THIS_ENG_STR_B \wx8001	
 	#define THIS_ENG_LENGTH1 \b0	
 	 	
-		
+	 	
 		
 	#define NAME_THIS_ENG "OHE 520 GDT "	
 	#include TEMPLATE_RAILBUS	
@@ -5243,7 +5242,7 @@
 	#define THIS_ENG_INTROYEAR \d1991-1-1	
 	#define THIS_ENG_V_LIFE \b15	
 	#define THIS_ENG_M_LIFE \b35	
-	#define THIS_ENG_SPEED \w100	
+	#define THIS_ENG_SPEED \w128	
 	#define THIS_ENG_TE \b26	
 	#define THIS_ENG_HP \w285	
 	#define THIS_ENG_WAG_HP \w0	
@@ -5261,18 +5260,18 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b42	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32961	
-	#define THIS_ENG_RCOST \w32829	
-	#define RCOST_VERYLOW \w32817	
-	#define RCOST_LOW \w32829	
-	#define RCOST_MED \w32829	
-	#define RCOST_HIGH \w32829	
-	#define RCOST_VERYHIGH \w32829	
+	#define THIS_ENG_PCOST \w33072	
+	#define THIS_ENG_RCOST \w32860	
+	#define RCOST_VERYLOW \w32826	
+	#define RCOST_LOW \w32858	
+	#define RCOST_MED \w32860	
+	#define RCOST_HIGH \w32860	
+	#define RCOST_VERYHIGH \w32860	
 	#define THIS_ENG_RCOST_WAG \w32788	
-	#define RCOST_WAG_VERYLOW \w32784	
+	#define RCOST_WAG_VERYLOW \w32781	
 	#define RCOST_WAG_LOW \w32788	
 	#define RCOST_WAG_MED \w32788	
-					#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
+					#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/153111.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
 		
@@ -5449,6 +5448,7 @@
 	#endif	
 	#include TEMPLATE_UNDEF	
 	
+
 #define THIS_ENG_CODE YES	
 	#ifdef THIS_ENG_CODE	
 	#define THIS_ENG_INTROYEAR \d2005-1-1	
@@ -5502,7 +5502,6 @@
 	#include TEMPLATE_UNDEF	
 	
 
-
 																																																																																																										
 #define THIS_ENG_CODE YES	
 	#ifdef THIS_ENG_CODE	
@@ -5547,7 +5546,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "DB Kof II "	
+	#define NAME_THIS_ENG "DB 310 Kof II "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -5847,7 +5846,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "NSWGR 79 Class "	
+	#define NAME_THIS_ENG "NSWGR 79 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -5997,7 +5996,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "ALCO RS-3 "	
+	#define NAME_THIS_ENG "ALCo RS-3 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -6247,7 +6246,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "Fairbanks-Morse 'Trainmaster' "	
+	#define NAME_THIS_ENG "CPR 'Trainmaster' "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -6398,6 +6397,56 @@
 	 	
 	 	
 	#define NAME_THIS_ENG "OBB 2060 "	
+	#include TEMPLATE_ENGINES	
+	#undef THIS_ENG_CODE	
+	#endif	
+	#include TEMPLATE_UNDEF	
+	
+
+#define THIS_ENG_CODE YES	
+	#ifdef THIS_ENG_CODE	
+	#define THIS_ENG_INTROYEAR \d1954-1-1	
+	#define THIS_ENG_V_LIFE \b40	
+	#define THIS_ENG_M_LIFE \b25	
+	#define THIS_ENG_SPEED \w105	
+	#define THIS_ENG_TE \b70	
+	#define THIS_ENG_HP \w1800	
+	#define THIS_ENG_WAG_HP \w0	
+	#define THIS_ENG_CAP_WAG_PAX \b0	
+	#define THIS_ENG_CAP_WAG_MAIL \b0	
+	#define THIS_ENG_CAP_WAG_ARMOR \b0	
+	#define THIS_ENG_CAP_WAG_PAX_STR "0"	
+	#define THIS_ENG_CAP_WAG_MAIL_STR "0"	
+	#define THIS_ENG_CAP_WAG_ARMOR_STR "0"	
+	#define THIS_ENG_CAP_HEAD_PAX \b0	
+	#define THIS_ENG_CAP_HEAD_MAIL \b0	
+	#define THIS_ENG_CAP_HEAD_ARMOR \b0	
+	#define THIS_ENG_PAX_LS \b1	
+	#define THIS_ENG_MAIL_LS \b1	
+	#define THIS_ENG_ARMOR_LS \b1	
+	#define THIS_ENG_WEIGHT \b96	
+	#define THIS_ENG_WEIGHT_HIGH \b0	
+	#define THIS_ENG_PCOST \w33217	
+	#define THIS_ENG_RCOST \w33570	
+	#define RCOST_VERYLOW \w33379	
+	#define RCOST_LOW \w33570	
+	#define RCOST_MED \w33570	
+	#define RCOST_HIGH \w33570	
+	#define RCOST_VERYHIGH \w33570	
+	#define THIS_ENG_RCOST_WAG \w32788	
+											#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
+	#define THIS_ENG_GFX  sprites/gfx/Alco_500.png	
+	#define THIS_ENG_TRACTION_TYPE 8	
+	#define THIS_ENG_MISC A	
+	#define THIS_ENG_ID_W \w10470	
+	#define THIS_ENG_ID_B \b*10470	
+	#define STR_W_THIS_ENG \wxD0D0	
+	#define THIS_ENG_STR_B \wx8000	
+	#define THIS_ENG_LENGTH1 \b0	
+	 	
+	 	
+	 	
+	#define NAME_THIS_ENG "ALCo DL500B "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -6647,7 +6696,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "DB V200 "	
+	#define NAME_THIS_ENG "DB 220 V200 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -7297,7 +7346,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "MPC M62 "	
+	#define NAME_THIS_ENG "MAV M62 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -7347,7 +7396,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "NSWGR 422 Class "	
+	#define NAME_THIS_ENG "NSWGR 422 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -7397,7 +7446,7 @@
 	#define THIS_ENG_LENGTH2 \b2	
 	 	
 	 	
-	#define NAME_THIS_ENG "EMD DDA40X "	
+	#define NAME_THIS_ENG "EMD DDA40X 'Centennial' "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -7447,7 +7496,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "EMD G22W "	
+	#define NAME_THIS_ENG "ENR G22W "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -7997,7 +8046,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "Australian National AN Class "	
+	#define NAME_THIS_ENG "Australian National AN "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -8197,7 +8246,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "NMBS/SNCB 7800 "	
+	#define NAME_THIS_ENG "NMBS/SNCB 78 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -8247,7 +8296,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "EMD Class 66 "	
+	#define NAME_THIS_ENG "BR 66 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -8347,7 +8396,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "Alstom DE43CA 'Prima' "	
+	#define NAME_THIS_ENG "RAI DE43CA 'Prima' "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -8389,8 +8438,8 @@
 	#define THIS_ENG_GFX  sprites/gfx/ER20.png	
 	#define THIS_ENG_TRACTION_TYPE 8	
 	#define THIS_ENG_MISC A	
-	#define THIS_ENG_ID_W \w12185	
-	#define THIS_ENG_ID_B \b*12185	
+	#define THIS_ENG_ID_W \w12190	
+	#define THIS_ENG_ID_B \b*12190	
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
 	#define THIS_ENG_LENGTH1 \b0	
@@ -8403,8 +8452,6 @@
 	#endif	
 	#include TEMPLATE_UNDEF	
 	
-
-
 
 #define THIS_ENG_CODE YES	
 	#ifdef THIS_ENG_CODE	
@@ -8600,6 +8647,56 @@
 	 	
 	 	
 	#define NAME_THIS_ENG "Voith Gravita 10BB "	
+	#include TEMPLATE_ENGINES	
+	#undef THIS_ENG_CODE	
+	#endif	
+	#include TEMPLATE_UNDEF	
+	
+
+#define THIS_ENG_CODE YES	
+	#ifdef THIS_ENG_CODE	
+	#define THIS_ENG_INTROYEAR \d2010-1-1	
+	#define THIS_ENG_V_LIFE \b40	
+	#define THIS_ENG_M_LIFE \b255	
+	#define THIS_ENG_SPEED \w140	
+	#define THIS_ENG_TE \b90	
+	#define THIS_ENG_HP \w4900	
+	#define THIS_ENG_WAG_HP \w0	
+	#define THIS_ENG_CAP_WAG_PAX \b0	
+	#define THIS_ENG_CAP_WAG_MAIL \b0	
+	#define THIS_ENG_CAP_WAG_ARMOR \b0	
+	#define THIS_ENG_CAP_WAG_PAX_STR "0"	
+	#define THIS_ENG_CAP_WAG_MAIL_STR "0"	
+	#define THIS_ENG_CAP_WAG_ARMOR_STR "0"	
+	#define THIS_ENG_CAP_HEAD_PAX \b0	
+	#define THIS_ENG_CAP_HEAD_MAIL \b0	
+	#define THIS_ENG_CAP_HEAD_ARMOR \b0	
+	#define THIS_ENG_PAX_LS \b1	
+	#define THIS_ENG_MAIL_LS \b1	
+	#define THIS_ENG_ARMOR_LS \b1	
+	#define THIS_ENG_WEIGHT \b130	
+	#define THIS_ENG_WEIGHT_HIGH \b0	
+	#define THIS_ENG_PCOST \w33934	
+	#define THIS_ENG_RCOST \w34268	
+	#define RCOST_VERYLOW \w33625	
+	#define RCOST_LOW \w34107	
+	#define RCOST_MED \w34268	
+	#define RCOST_HIGH \w34268	
+	#define RCOST_VERYHIGH \w34268	
+	#define THIS_ENG_RCOST_WAG \w32788	
+											#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
+	#define THIS_ENG_GFX  sprites/gfx/maxima.png	
+	#define THIS_ENG_TRACTION_TYPE 8	
+	#define THIS_ENG_MISC A	
+	#define THIS_ENG_ID_W \w12479	
+	#define THIS_ENG_ID_B \b*12479	
+	#define STR_W_THIS_ENG \wxD0D0	
+	#define THIS_ENG_STR_B \wx8000	
+	#define THIS_ENG_LENGTH1 \b0	
+	 	
+	 	
+	 	
+	#define NAME_THIS_ENG "Voith Maxima 40CC "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -8886,7 +8983,7 @@
 	#define RCOST_MED \w33208	
 	#define RCOST_HIGH \w33208	
 	#define RCOST_VERYHIGH \w33208	
-	#define THIS_ENG_RCOST_WAG \w32788
+	#define THIS_ENG_RCOST_WAG \w32788	
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 1	
 	#define THIS_ENG_GFX  sprites/gfx/PRR_FF1.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
@@ -9018,7 +9115,7 @@
 	#define THIS_ENG_CAP_WAG_PAX \b0	
 	#define THIS_ENG_CAP_WAG_MAIL \b0	
 	#define THIS_ENG_CAP_WAG_ARMOR \b0	
-	#define THIS_ENG_CAP_WAG_PAX_STR "0"
+	#define THIS_ENG_CAP_WAG_PAX_STR "0"	
 	#define THIS_ENG_CAP_WAG_MAIL_STR "0"	
 	#define THIS_ENG_CAP_WAG_ARMOR_STR "0"	
 	#define THIS_ENG_CAP_HEAD_PAX \b0	
@@ -9149,7 +9246,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "DB E69 "	
+	#define NAME_THIS_ENG "DB 169 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -9386,8 +9483,7 @@
 	#define RCOST_MED \w34227	
 	#define RCOST_HIGH \w34227	
 	#define RCOST_VERYHIGH \w34227	
-	#define THIS_ENG_RCOST_WAG \w32788
-
+	#define THIS_ENG_RCOST_WAG \w32788	
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 5	
 	#define THIS_ENG_GFX  sprites/gfx/GG1.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
@@ -9406,8 +9502,6 @@
 	#endif	
 	#include TEMPLATE_UNDEF	
 	
-
-
 
 #define THIS_ENG_CODE YES	
 	#ifdef THIS_ENG_CODE	
@@ -9539,7 +9633,7 @@
 	#define RCOST_MED \w33533	
 	#define RCOST_HIGH \w33533	
 	#define RCOST_VERYHIGH \w33533	
-	#define THIS_ENG_RCOST_WAG \w32788
+	#define THIS_ENG_RCOST_WAG \w32788	
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/class1020.png	
 	#define THIS_ENG_TRACTION_TYPE 28	
@@ -9659,7 +9753,7 @@
 	#include TEMPLATE_UNDEF	
 	
 
-
+ 	
 	#ifdef THIS_ENG_CODE	
 	#define THIS_ENG_INTROYEAR \d1953-1-1	
 	#define THIS_ENG_V_LIFE \b40	
@@ -9958,6 +10052,7 @@
 	#endif	
 	#include TEMPLATE_UNDEF	
 	
+
 #define THIS_ENG_CODE YES	
 	#ifdef THIS_ENG_CODE	
 	#define THIS_ENG_INTROYEAR \d1956-1-1	
@@ -10007,7 +10102,6 @@
 	#endif	
 	#include TEMPLATE_UNDEF	
 	
-
 
 #define THIS_ENG_CODE YES	
 	#ifdef THIS_ENG_CODE	
@@ -10252,7 +10346,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "SNCF CC40100 "	
+	#define NAME_THIS_ENG "SNCF CC 40100 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -11108,6 +11202,7 @@
 	#endif	
 	#include TEMPLATE_UNDEF	
 	
+
 #define THIS_ENG_CODE YES	
 	#ifdef THIS_ENG_CODE	
 	#define THIS_ENG_INTROYEAR \d1994-1-1	
@@ -11158,7 +11253,6 @@
 	#include TEMPLATE_UNDEF	
 	
 
-
 #define THIS_ENG_CODE YES	
 	#ifdef THIS_ENG_CODE	
 	#define THIS_ENG_INTROYEAR \d1996-1-1	
@@ -11202,7 +11296,7 @@
 	 	
 	 	
 	 	
-	#define NAME_THIS_ENG "TRAXX F140 "	
+	#define NAME_THIS_ENG "Bombardier TRAXX F140 "	
 	#include TEMPLATE_ENGINES	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -12607,6 +12701,7 @@
 	#undef THIS_ENG_CODE	
 	#endif	
 	#include TEMPLATE_UNDEF	
+	
 
 #define THIS_ENG_CODE YES	
 	#ifdef THIS_ENG_CODE	
@@ -12647,7 +12742,7 @@
 	#define THIS_ENG_ID_B \b*1400	
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
-	#define THIS_ENG_LENGTH1 \b3	
+	#define THIS_ENG_LENGTH1 \b2	
 	 	
 	 	
 	 	
@@ -12658,7 +12753,104 @@
 	#include TEMPLATE_UNDEF	
 	
 
+#define THIS_ENG_CODE YES	
+	#ifdef THIS_ENG_CODE	
+	#define THIS_ENG_INTROYEAR \d1910-1-1	
+	#define THIS_ENG_V_LIFE \b40	
+	#define THIS_ENG_M_LIFE \b25	
+	#define THIS_ENG_SPEED \w60	
+	#define THIS_ENG_TE \b98	
+	#define THIS_ENG_HP \w1100	
+	#define THIS_ENG_WAG_HP \w0	
+	#define THIS_ENG_CAP_WAG_PAX \b0	
+	#define THIS_ENG_CAP_WAG_MAIL \b0	
+	#define THIS_ENG_CAP_WAG_ARMOR \b0	
+	#define THIS_ENG_CAP_WAG_PAX_STR "0"	
+	#define THIS_ENG_CAP_WAG_MAIL_STR "0"	
+	#define THIS_ENG_CAP_WAG_ARMOR_STR "0"	
+	#define THIS_ENG_CAP_HEAD_PAX \b0	
+	#define THIS_ENG_CAP_HEAD_MAIL \b0	
+	#define THIS_ENG_CAP_HEAD_ARMOR \b0	
+	#define THIS_ENG_PAX_LS \b1	
+	#define THIS_ENG_MAIL_LS \b1	
+	#define THIS_ENG_ARMOR_LS \b1	
+	#define THIS_ENG_WEIGHT \b101	
+	#define THIS_ENG_WEIGHT_HIGH \b0	
+	#define THIS_ENG_PCOST \w33088	
+	#define THIS_ENG_RCOST \w33205	
+	#define RCOST_VERYLOW \w33205	
+	#define RCOST_LOW \w33205	
+	#define RCOST_MED \w33205	
+	#define RCOST_HIGH \w33205	
+	#define RCOST_VERYHIGH \w33205	
+	#define THIS_ENG_RCOST_WAG \w32788	
+											#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
+	#define THIS_ENG_GFX  sprites/gfx/g10.png	
+	#define THIS_ENG_TRACTION_TYPE 0	
+	#define THIS_ENG_MISC A	
+	#define THIS_ENG_ID_W \w1407	
+	#define THIS_ENG_ID_B \b*1407	
+	#define STR_W_THIS_ENG \wxD0D0	
+	#define THIS_ENG_STR_B \wx8000	
+	#define THIS_ENG_LENGTH1 \b1	
+	#define THIS_ENG_LENGTH2 \b5	
+	 	
+	 	
+	#define NAME_THIS_ENG "CSD 534.1 "	
+	#include TEMPLATE_ENGINES	
+	#undef THIS_ENG_CODE	
+	#endif	
+	#include TEMPLATE_UNDEF	
+	
 
+#define THIS_ENG_CODE YES	
+	#ifdef THIS_ENG_CODE	
+	#define THIS_ENG_INTROYEAR \d1911-1-1	
+	#define THIS_ENG_V_LIFE \b40	
+	#define THIS_ENG_M_LIFE \b25	
+	#define THIS_ENG_SPEED \w110	
+	#define THIS_ENG_TE \b45	
+	#define THIS_ENG_HP \w1885	
+	#define THIS_ENG_WAG_HP \w0	
+	#define THIS_ENG_CAP_WAG_PAX \b0	
+	#define THIS_ENG_CAP_WAG_MAIL \b0	
+	#define THIS_ENG_CAP_WAG_ARMOR \b0	
+	#define THIS_ENG_CAP_WAG_PAX_STR "0"	
+	#define THIS_ENG_CAP_WAG_MAIL_STR "0"	
+	#define THIS_ENG_CAP_WAG_ARMOR_STR "0"	
+	#define THIS_ENG_CAP_HEAD_PAX \b0	
+	#define THIS_ENG_CAP_HEAD_MAIL \b0	
+	#define THIS_ENG_CAP_HEAD_ARMOR \b0	
+	#define THIS_ENG_PAX_LS \b1	
+	#define THIS_ENG_MAIL_LS \b1	
+	#define THIS_ENG_ARMOR_LS \b1	
+	#define THIS_ENG_WEIGHT \b138	
+	#define THIS_ENG_WEIGHT_HIGH \b0	
+	#define THIS_ENG_PCOST \w33306	
+	#define THIS_ENG_RCOST \w33837	
+	#define RCOST_VERYLOW \w33546	
+	#define RCOST_LOW \w33837	
+	#define RCOST_MED \w33837	
+	#define RCOST_HIGH \w33837	
+	#define RCOST_VERYHIGH \w33837	
+	#define THIS_ENG_RCOST_WAG \w32788	
+											#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
+	#define THIS_ENG_GFX  sprites/gfx/Rh_310.png	
+	#define THIS_ENG_TRACTION_TYPE 0	
+	#define THIS_ENG_MISC A	
+	#define THIS_ENG_ID_W \w1408	
+	#define THIS_ENG_ID_B \b*1408	
+	#define STR_W_THIS_ENG \wxD0D0	
+	#define THIS_ENG_STR_B \wx8000	
+	#define THIS_ENG_LENGTH1 \b1	
+	#define THIS_ENG_LENGTH2 \b4	
+	 	
+	 	
+	#define NAME_THIS_ENG "KKStB 310 "	
+	#include TEMPLATE_ENGINES	
+	#undef THIS_ENG_CODE	
+	#endif	
+	#include TEMPLATE_UNDEF	
 	
 
 #define THIS_ENG_CODE YES	
@@ -12713,55 +12905,6 @@
 
 #define THIS_ENG_CODE YES	
 	#ifdef THIS_ENG_CODE	
-	#define THIS_ENG_INTROYEAR \d1916-1-1	
-	#define THIS_ENG_V_LIFE \b40	
-	#define THIS_ENG_M_LIFE \b25	
-	#define THIS_ENG_SPEED \w75	
-	#define THIS_ENG_TE \b26	
-	#define THIS_ENG_HP \w500	
-	#define THIS_ENG_WAG_HP \w0	
-	#define THIS_ENG_CAP_WAG_PAX \b0	
-	#define THIS_ENG_CAP_WAG_MAIL \b0	
-	#define THIS_ENG_CAP_WAG_ARMOR \b0	
-	#define THIS_ENG_CAP_WAG_PAX_STR "0"	
-	#define THIS_ENG_CAP_WAG_MAIL_STR "0"	
-	#define THIS_ENG_CAP_WAG_ARMOR_STR "0"	
-	#define THIS_ENG_CAP_HEAD_PAX \b0	
-	#define THIS_ENG_CAP_HEAD_MAIL \b0	
-	#define THIS_ENG_CAP_HEAD_ARMOR \b0	
-	#define THIS_ENG_PAX_LS \b1	
-	#define THIS_ENG_MAIL_LS \b1	
-	#define THIS_ENG_ARMOR_LS \b1	
-	#define THIS_ENG_WEIGHT \b144	
-	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33050	
-	#define THIS_ENG_RCOST \w33313	
-	#define RCOST_VERYLOW \w33313	
-	#define RCOST_LOW \w33313	
-	#define RCOST_MED \w33313	
-	#define RCOST_HIGH \w33313	
-	#define RCOST_VERYHIGH \w33313	
-	#define THIS_ENG_RCOST_WAG \w32788	
-											#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
-	#define THIS_ENG_GFX  sprites/gfx/FS_Class_880.png	
-	#define THIS_ENG_TRACTION_TYPE 0	
-	#define THIS_ENG4_MISC A	
-	#define THIS_ENG_ID_W \w1591	
-	#define THIS_ENG_ID_B \b*1591	
-	#define STR_W_THIS_ENG \wxD0D0	
-	#define THIS_ENG_STR_B \wx8000	
-	#define THIS_ENG_LENGTH1 \b2	
-	 	
-	 	
-	 	
-	#define NAME_THIS_ENG "FS 880 "	
-	#include TEMPLATE_ENGINES	
-	#undef THIS_ENG_CODE	
-	#endif	
-	#include TEMPLATE_UNDEF	
-	
-#define THIS_ENG_CODE YES	
-	#ifdef THIS_ENG_CODE	
 	#define THIS_ENG_INTROYEAR \d1913-1-1	
 	#define THIS_ENG_V_LIFE \b40	
 	#define THIS_ENG_M_LIFE \b25	
@@ -12775,7 +12918,7 @@
 	#define THIS_ENG_CAP_WAG_PAX_STR "0"	
 	#define THIS_ENG_CAP_WAG_MAIL_STR "0"	
 	#define THIS_ENG_CAP_WAG_ARMOR_STR "0"	
-	#define THIS_ENG_CAP_HEAD_PAX \b0
+	#define THIS_ENG_CAP_HEAD_PAX \b0	
 	#define THIS_ENG_CAP_HEAD_MAIL \b0	
 	#define THIS_ENG_CAP_HEAD_ARMOR \b0	
 	#define THIS_ENG_PAX_LS \b1	
@@ -12812,7 +12955,57 @@
 
 #define THIS_ENG_CODE YES	
 	#ifdef THIS_ENG_CODE	
-	#define THIS_ENG_INTROYEAR \d1920-1-1	
+	#define THIS_ENG_INTROYEAR \d1916-1-1	
+	#define THIS_ENG_V_LIFE \b40	
+	#define THIS_ENG_M_LIFE \b25	
+	#define THIS_ENG_SPEED \w75	
+	#define THIS_ENG_TE \b26	
+	#define THIS_ENG_HP \w500	
+	#define THIS_ENG_WAG_HP \w0	
+	#define THIS_ENG_CAP_WAG_PAX \b0	
+	#define THIS_ENG_CAP_WAG_MAIL \b0	
+	#define THIS_ENG_CAP_WAG_ARMOR \b0	
+	#define THIS_ENG_CAP_WAG_PAX_STR "0"	
+	#define THIS_ENG_CAP_WAG_MAIL_STR "0"	
+	#define THIS_ENG_CAP_WAG_ARMOR_STR "0"	
+	#define THIS_ENG_CAP_HEAD_PAX \b0	
+	#define THIS_ENG_CAP_HEAD_MAIL \b0	
+	#define THIS_ENG_CAP_HEAD_ARMOR \b0	
+	#define THIS_ENG_PAX_LS \b1	
+	#define THIS_ENG_MAIL_LS \b1	
+	#define THIS_ENG_ARMOR_LS \b1	
+	#define THIS_ENG_WEIGHT \b144	
+	#define THIS_ENG_WEIGHT_HIGH \b0	
+	#define THIS_ENG_PCOST \w33050	
+	#define THIS_ENG_RCOST \w33313	
+	#define RCOST_VERYLOW \w33313	
+	#define RCOST_LOW \w33313	
+	#define RCOST_MED \w33313	
+	#define RCOST_HIGH \w33313	
+	#define RCOST_VERYHIGH \w33313	
+	#define THIS_ENG_RCOST_WAG \w32788	
+											#define THIS_ENG_NUTRACKS_TRACKTYPE 0	
+	#define THIS_ENG_GFX  sprites/gfx/FS_Class_880.png	
+	#define THIS_ENG_TRACTION_TYPE 0	
+	#define THIS_ENG3_MISC A	
+	#define THIS_ENG_ID_W \w1591	
+	#define THIS_ENG_ID_B \b*1591	
+	#define STR_W_THIS_ENG \wxD0D0	
+	#define THIS_ENG_STR_B \wx8000	
+	#define THIS_ENG_LENGTH1 \b2	
+	 	
+	 	
+	 	
+	#define NAME_THIS_ENG "FS 880 "	
+	#include TEMPLATE_ENGINES	
+	#undef THIS_ENG_CODE	
+	#endif	
+	#include TEMPLATE_UNDEF	
+	
+
+#define THIS_ENG_CODE YES	
+	#ifdef THIS_ENG_CODE	
+	#define THIS_ENG_INTROYEAR \d1914-1-1	
 	#define THIS_ENG_V_LIFE \b40	
 	#define THIS_ENG_M_LIFE \b20	
 	#define THIS_ENG_SPEED \w80	
@@ -12833,7 +13026,7 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b126	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33112	
+	#define THIS_ENG_PCOST \w33114	
 	#define THIS_ENG_RCOST \w33433	
 	#define RCOST_VERYLOW \w33433	
 	#define RCOST_LOW \w33433	
@@ -12862,7 +13055,7 @@
 
 #define THIS_ENG_CODE YES	
 	#ifdef THIS_ENG_CODE	
-	#define THIS_ENG_INTROYEAR \d1920-1-1	
+	#define THIS_ENG_INTROYEAR \d1913-1-1	
 	#define THIS_ENG_V_LIFE \b40	
 	#define THIS_ENG_M_LIFE \b20	
 	#define THIS_ENG_SPEED \w64	
@@ -12883,7 +13076,7 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b97	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32905	
+	#define THIS_ENG_PCOST \w32907	
 	#define THIS_ENG_RCOST \w33204	
 	#define RCOST_VERYLOW \w33204	
 	#define RCOST_LOW \w33204	
@@ -12949,7 +13142,7 @@
 	#define THIS_ENG_ID_B \b*1793	
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
-	#define THIS_ENG_LENGTH1 \b1	
+	#define THIS_ENG_LENGTH1 \b3	
 	 	
 	 	
 	 	
@@ -13062,6 +13255,56 @@
 
 #define THIS_ENG_CODE YES	
 	#ifdef THIS_ENG_CODE	
+	#define THIS_ENG_INTROYEAR \d1926-1-1	
+	#define THIS_ENG_V_LIFE \b40	
+	#define THIS_ENG_M_LIFE \b25	
+	#define THIS_ENG_SPEED \w135	
+	#define THIS_ENG_TE \b56	
+	#define THIS_ENG_HP \w2210	
+	#define THIS_ENG_WAG_HP \w0	
+	#define THIS_ENG_CAP_WAG_PAX \b0	
+	#define THIS_ENG_CAP_WAG_MAIL \b0	
+	#define THIS_ENG_CAP_WAG_ARMOR \b0	
+	#define THIS_ENG_CAP_WAG_PAX_STR "0"	
+	#define THIS_ENG_CAP_WAG_MAIL_STR "0"	
+	#define THIS_ENG_CAP_WAG_ARMOR_STR "0"	
+	#define THIS_ENG_CAP_HEAD_PAX \b0	
+	#define THIS_ENG_CAP_HEAD_MAIL \b0	
+	#define THIS_ENG_CAP_HEAD_ARMOR \b0	
+	#define THIS_ENG_PAX_LS \b1	
+	#define THIS_ENG_MAIL_LS \b1	
+	#define THIS_ENG_ARMOR_LS \b1	
+	#define THIS_ENG_WEIGHT \b112	
+	#define THIS_ENG_WEIGHT_HIGH \b0	
+	#define THIS_ENG_PCOST \w33104	
+	#define THIS_ENG_RCOST \w34206	
+	#define RCOST_VERYLOW \w33620	
+	#define RCOST_LOW \w34100	
+	#define RCOST_MED \w34206	
+	#define RCOST_HIGH \w34206	
+	#define RCOST_VERYHIGH \w34206	
+	#define THIS_ENG_RCOST_WAG \w32788	
+											#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
+	#define THIS_ENG_GFX  sprites/gfx/br_01.png	
+	#define THIS_ENG_TRACTION_TYPE 0	
+	#define THIS_ENG_MISC A	
+	#define THIS_ENG_ID_W \w2070	
+	#define THIS_ENG_ID_B \b*2070	
+	#define STR_W_THIS_ENG \wxD0D0	
+	#define THIS_ENG_STR_B \wx8000	
+	#define THIS_ENG_LENGTH1 \b0	
+	#define THIS_ENG_LENGTH2 \b4	
+	 	
+	 	
+	#define NAME_THIS_ENG "DB 01 "	
+	#include TEMPLATE_ENGINES	
+	#undef THIS_ENG_CODE	
+	#endif	
+	#include TEMPLATE_UNDEF	
+	
+
+#define THIS_ENG_CODE YES	
+	#ifdef THIS_ENG_CODE	
 	#define THIS_ENG_INTROYEAR \d1930-1-1	
 	#define THIS_ENG_V_LIFE \b40	
 	#define THIS_ENG_M_LIFE \b20	
@@ -13109,6 +13352,7 @@
 	#endif	
 	#include TEMPLATE_UNDEF	
 	
+
 #define THIS_ENG_CODE YES	
 	#ifdef THIS_ENG_CODE	
 	#define THIS_ENG_INTROYEAR \d1933-1-1	
@@ -13361,7 +13605,7 @@
 
 #define THIS_ENG_CODE YES	
 	#ifdef THIS_ENG_CODE	
-	#define THIS_ENG_INTROYEAR \d1934-1-1	
+	#define THIS_ENG_INTROYEAR \d1910-1-1	
 	#define THIS_ENG_V_LIFE \b40	
 	#define THIS_ENG_M_LIFE \b25	
 	#define THIS_ENG_SPEED \w130	
@@ -13382,7 +13626,7 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b135	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33292	
+	#define THIS_ENG_PCOST \w33299	
 	#define THIS_ENG_RCOST \w34279	
 	#define RCOST_VERYLOW \w33698	
 	#define RCOST_LOW \w34221	
@@ -13561,6 +13805,56 @@
 
 #define THIS_ENG_CODE YES	
 	#ifdef THIS_ENG_CODE	
+	#define THIS_ENG_INTROYEAR \d1941-1-1	
+	#define THIS_ENG_V_LIFE \b40	
+	#define THIS_ENG_M_LIFE \b20	
+	#define THIS_ENG_SPEED \w128	
+	#define THIS_ENG_TE \b26	
+	#define THIS_ENG_HP \w6290	
+	#define THIS_ENG_WAG_HP \w0	
+	#define THIS_ENG_CAP_WAG_PAX \b0	
+	#define THIS_ENG_CAP_WAG_MAIL \b0	
+	#define THIS_ENG_CAP_WAG_ARMOR \b0	
+	#define THIS_ENG_CAP_WAG_PAX_STR "0"	
+	#define THIS_ENG_CAP_WAG_MAIL_STR "0"	
+	#define THIS_ENG_CAP_WAG_ARMOR_STR "0"	
+	#define THIS_ENG_CAP_HEAD_PAX \b0	
+	#define THIS_ENG_CAP_HEAD_MAIL \b0	
+	#define THIS_ENG_CAP_HEAD_ARMOR \b0	
+	#define THIS_ENG_PAX_LS \b1	
+	#define THIS_ENG_MAIL_LS \b1	
+	#define THIS_ENG_ARMOR_LS \b1	
+	#define THIS_ENG_WEIGHT \b91	
+	#define THIS_ENG_WEIGHT_HIGH \b2	
+	#define THIS_ENG_PCOST \w45701	
+	#define THIS_ENG_RCOST \w34964	
+	#define RCOST_VERYLOW \w34141	
+	#define RCOST_LOW \w34913	
+	#define RCOST_MED \w34964	
+	#define RCOST_HIGH \w34964	
+	#define RCOST_VERYHIGH \w34964	
+	#define THIS_ENG_RCOST_WAG \w32788	
+											#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
+	#define THIS_ENG_GFX  sprites/gfx/bigboy.png	
+	#define THIS_ENG_TRACTION_TYPE 0	
+	#define THIS_ENG_MISC A	
+	#define THIS_ENG_ID_W \w2400	
+	#define THIS_ENG_ID_B \b*2400	
+	#define STR_W_THIS_ENG \wxD0D0	
+	#define THIS_ENG_STR_B \wx8000	
+	#define THIS_ENG_LENGTH1 \b3	
+	#define THIS_ENG_LENGTH2 \b2	
+	#define THIS_ENG_LENGTH3 \b2	
+	 	
+	#define NAME_THIS_ENG "UP 4000 'Big Boy' "	
+	#include TEMPLATE_ENGINES	
+	#undef THIS_ENG_CODE	
+	#endif	
+	#include TEMPLATE_UNDEF	
+	
+
+#define THIS_ENG_CODE YES	
+	#ifdef THIS_ENG_CODE	
 	#define THIS_ENG_INTROYEAR \d1942-1-1	
 	#define THIS_ENG_V_LIFE \b40	
 	#define THIS_ENG_M_LIFE \b25	
@@ -13599,7 +13893,7 @@
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
 	#define THIS_ENG_LENGTH1 \b0	
-	#define THIS_ENG_LENGTH2 \b2	
+	#define THIS_ENG_LENGTH2 \b4	
 	 	
 	 	
 	#define NAME_THIS_ENG "DB 52 "	
@@ -15659,4 +15953,5 @@
 	#endif	
 	#include TEMPLATE_UNDEF	
 	
+
 

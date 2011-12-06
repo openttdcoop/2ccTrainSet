@@ -3,6 +3,8 @@
 #include "wagons/muwag.pnfo"
 #include "wagons/magwag.pnfo"
 #include "wagons/tender.pnfo"
+
+//old pax
 #include "wagons/ic1gen.pnfo"
 #include "wagons/ic2gen.pnfo"
 #include "wagons/ic3gen.pnfo"
@@ -19,23 +21,25 @@
 #include "wagons/mail4gen.pnfo"
 #include "wagons/mail5gen.pnfo"
 
+//new pax
+
 
 // Cargo
-// 2st generation long
+// 4th generation long
 #include "wagons/long2_flatbed.pnfo"
 #include "wagons/long2_boxcar.pnfo"
 #include "wagons/long2_hopper.pnfo"
 #include "wagons/long2_silo.pnfo"
 #include "wagons/long2_tank.pnfo"
 
-// 1st generation long
+// 3rd generation long
 #include "wagons/long1_flatbed.pnfo"
 #include "wagons/long1_boxcar.pnfo"
 #include "wagons/long1_hopper.pnfo"
 #include "wagons/long1_silo.pnfo"
 #include "wagons/long1_tank.pnfo"
 
-// 2st generation short
+// 2nd generation short
 #include "wagons/short2_flatbed.pnfo"
 #include "wagons/short2_boxcar.pnfo"
 #include "wagons/short2_hopper.pnfo"
