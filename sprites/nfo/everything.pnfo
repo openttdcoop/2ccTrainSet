@@ -3951,7 +3951,7 @@
 	#define THIS_ENG_LENGTH2 \b0	
 		
 	#define THIS_ENG_TYPE HSA_EMU	
-	#define NAME_THIS_ENG "NS 4800 HSA "	
+	#define NAME_THIS_ENG "NS HSA "	
 	#include TEMPLATE_MUS	
 	#undef THIS_ENG_CODE	
 	#endif	
@@ -5242,7 +5242,7 @@
 	#define THIS_ENG_INTROYEAR \d1991-1-1	
 	#define THIS_ENG_V_LIFE \b15	
 	#define THIS_ENG_M_LIFE \b35	
-	#define THIS_ENG_SPEED \w128	
+	#define THIS_ENG_SPEED \w144	
 	#define THIS_ENG_TE \b26	
 	#define THIS_ENG_HP \w285	
 	#define THIS_ENG_WAG_HP \w0	
@@ -5260,16 +5260,16 @@
 	#define THIS_ENG_ARMOR_LS \b10	
 	#define THIS_ENG_WEIGHT \b42	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w33072	
-	#define THIS_ENG_RCOST \w32860	
-	#define RCOST_VERYLOW \w32826	
-	#define RCOST_LOW \w32858	
-	#define RCOST_MED \w32860	
-	#define RCOST_HIGH \w32860	
-	#define RCOST_VERYHIGH \w32860	
+	#define THIS_ENG_PCOST \w33164	
+	#define THIS_ENG_RCOST \w32880	
+	#define RCOST_VERYLOW \w32830	
+	#define RCOST_LOW \w32866	
+	#define RCOST_MED \w32880	
+	#define RCOST_HIGH \w32880	
+	#define RCOST_VERYHIGH \w32880	
 	#define THIS_ENG_RCOST_WAG \w32788	
-	#define RCOST_WAG_VERYLOW \w32781	
-	#define RCOST_WAG_LOW \w32788	
+	#define RCOST_WAG_VERYLOW \w32779	
+	#define RCOST_WAG_LOW \w32785	
 	#define RCOST_WAG_MED \w32788	
 					#define THIS_ENG_NUTRACKS_TRACKTYPE 4	
 	#define THIS_ENG_GFX  sprites/gfx/153111.png	
@@ -7255,12 +7255,12 @@
 
 #define THIS_ENG_CODE YES	
 	#ifdef THIS_ENG_CODE	
-	#define THIS_ENG_INTROYEAR \d1965-1-1	
+	#define THIS_ENG_INTROYEAR \d1984-1-1	
 	#define THIS_ENG_V_LIFE \b40	
 	#define THIS_ENG_M_LIFE \b25	
-	#define THIS_ENG_SPEED \w90	
-	#define THIS_ENG_TE \b65	
-	#define THIS_ENG_HP \w2000	
+	#define THIS_ENG_SPEED \w120	
+	#define THIS_ENG_TE \b55	
+	#define THIS_ENG_HP \w1870	
 	#define THIS_ENG_WAG_HP \w0	
 	#define THIS_ENG_CAP_WAG_PAX \b0	
 	#define THIS_ENG_CAP_WAG_MAIL \b0	
@@ -7274,15 +7274,15 @@
 	#define THIS_ENG_PAX_LS \b1	
 	#define THIS_ENG_MAIL_LS \b1	
 	#define THIS_ENG_ARMOR_LS \b1	
-	#define THIS_ENG_WEIGHT \b80	
+	#define THIS_ENG_WEIGHT \b112	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w32878	
-	#define THIS_ENG_RCOST \w33416	
-	#define RCOST_VERYLOW \w33344	
-	#define RCOST_LOW \w33416	
-	#define RCOST_MED \w33416	
-	#define RCOST_HIGH \w33416	
-	#define RCOST_VERYHIGH \w33416	
+	#define THIS_ENG_PCOST \w33317	
+	#define THIS_ENG_RCOST \w33754	
+	#define RCOST_VERYLOW \w33426	
+	#define RCOST_LOW \w33754	
+	#define RCOST_MED \w33754	
+	#define RCOST_HIGH \w33754	
+	#define RCOST_VERYHIGH \w33754	
 	#define THIS_ENG_RCOST_WAG \w32788	
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 2	
 	#define THIS_ENG_GFX  sprites/gfx/j16cw.png	
@@ -11710,7 +11710,7 @@
 	#define THIS_ENG_M_LIFE \b255	
 	#define THIS_ENG_SPEED \w120	
 	#define THIS_ENG_TE \b69	
-	#define THIS_ENG_HP \w10000	
+	#define THIS_ENG_HP \w12800	
 	#define THIS_ENG_WAG_HP \w0	
 	#define THIS_ENG_CAP_WAG_PAX \b0	
 	#define THIS_ENG_CAP_WAG_MAIL \b0	
@@ -11726,13 +11726,13 @@
 	#define THIS_ENG_ARMOR_LS \b1	
 	#define THIS_ENG_WEIGHT \b150	
 	#define THIS_ENG_WEIGHT_HIGH \b0	
-	#define THIS_ENG_PCOST \w35887	
-	#define THIS_ENG_RCOST \w34082	
-	#define RCOST_VERYLOW \w33644	
-	#define RCOST_LOW \w34082	
-	#define RCOST_MED \w34082	
-	#define RCOST_HIGH \w34082	
-	#define RCOST_VERYHIGH \w34082	
+	#define THIS_ENG_PCOST \w37132	
+	#define THIS_ENG_RCOST \w34261	
+	#define RCOST_VERYLOW \w33763	
+	#define RCOST_LOW \w34261	
+	#define RCOST_MED \w34261	
+	#define RCOST_HIGH \w34261	
+	#define RCOST_VERYHIGH \w34261	
 	#define THIS_ENG_RCOST_WAG \w32788	
 											#define THIS_ENG_NUTRACKS_TRACKTYPE 3	
 	#define THIS_ENG_GFX  sprites/gfx/hxd3.png	
@@ -12642,7 +12642,7 @@
 	#define THIS_ENG_ID_B \b*1164	
 	#define STR_W_THIS_ENG \wxD0D0	
 	#define THIS_ENG_STR_B \wx8000	
-	#define THIS_ENG_LENGTH1 \b0	
+	#define THIS_ENG_LENGTH1 \b2	
 	 	
 	 	
 	 	
